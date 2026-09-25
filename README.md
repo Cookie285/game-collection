@@ -4,6 +4,9 @@ Central, Excel-free home for my physical game collection — PC · Nintendo · P
 [CLZ Games](https://www.clz.com/games) stays the place where I scan and catalogue; this repo turns its CSV export into
 browsable lists, a buy plan with priorities and series trackers, with a full history in git.
 
+**🌐 Web app:** `https://cookie285.github.io/game-collection/` — dashboard, searchable cover grid, filterable buy plan,
+series progress rings, `/` for global search. Rebuilt automatically on every push (see [Web frontend](#web-frontend)).
+
 | View | What's in it |
 |---|---|
 | [Overview](views/overview.md) | counts per platform, buy-plan and series progress |
@@ -150,6 +153,22 @@ Python 3.11+ only, no packages to install.
 
 `data/collection.csv` is generated — don't hand-edit it; change the game in CLZ and re-import.
 
+## Web frontend
+
+`site/` is a static, dependency-free web app (plain HTML/CSS/JS, no build step) published with GitHub Pages.
+The **Web frontend** Action runs `scripts/gamecoll.py export` to build `site/data.json` from the same data as the
+Markdown views, then deploys `site/`. It runs on every push to `main` that touches `data/`, `scripts/` or `site/`,
+and after each **CLZ import** run.
+
+One-time setup: *Settings → Pages → Build and deployment → Source: **GitHub Actions***.
+
+Local preview:
+
+```bash
+python3 scripts/gamecoll.py export          # writes site/data.json (git-ignored)
+python3 -m http.server -d site 8000         # open http://localhost:8000
+```
+
 ## Layout
 
 ```
@@ -159,6 +178,7 @@ data/targets/*.toml      curated buy plan
 data/series/*.toml       curated series checklists
 views/                   generated Markdown (don't edit)
 imports/                 drop CLZ CSV exports here; processed ones move to imports/archive/
-scripts/gamecoll.py      importer / renderer / search
-.github/workflows/       automatic import on upload
+scripts/gamecoll.py      importer / renderer / search / JSON export
+site/                    web frontend (GitHub Pages)
+.github/workflows/       automatic import on upload + Pages deploy
 ```

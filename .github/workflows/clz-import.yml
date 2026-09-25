@@ -1,0 +1,36 @@
+name: CLZ import
+
+# Drop a CLZ CSV export into imports/ (or edit targets / series / annotations) and this
+# imports it, regenerates views/ + README summary + CHANGELOG, and commits the result.
+on:
+  push:
+    branches: [main]
+    paths: ["imports/*.csv", "data/targets/**", "data/series/**", "data/annotations.csv"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: clz-import
+  cancel-in-progress: false
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python3 scripts/gamecoll.py check
+      - run: python3 scripts/gamecoll.py import --auto
+      - run: python3 scripts/gamecoll.py render
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898699+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet && { echo "nothing to commit"; exit 0; }
+          git commit -m "CLZ import / re-render"
+          git push
