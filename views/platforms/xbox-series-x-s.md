@@ -2,10 +2,11 @@
 
 # Xbox Series X|S
 
-## Owned (15)
+## Owned (16)
 
 | Title | Edition | Format | Region | Completeness | Purchased | Notes |
 |---|---|---|---|---|---|---|
+| Atomfall |  |  |  |  |  |  |
 | Battlefield 2042 |  |  |  |  |  | CLZ lists Xbox One – actually the Xbox Series X disc (confirmed by me); no campaign · Also owned on Steam (Battlefield™ 2042) |
 | Battlefield 6 |  |  |  |  |  |  |
 | Call of Duty: Black Ops 6 |  |  |  |  |  | Also owned on Steam (Call of Duty®: Black Ops 6) |
