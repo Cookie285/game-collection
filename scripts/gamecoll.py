@@ -577,17 +577,7 @@ def render() -> None:
              "💻 only on Steam · ➖ not needed (optional / covered elsewhere / no disc)\n"]
     series_summary = []
     for s in series:
-        entries = s.get("entry", [])
-        res = []
-        for e in entries:
-            e2 = dict(e)
-            e2.setdefault("platforms", s.get("platforms"))
-            st, hits = eval_target(e2, rows)
-            if e.get("optional") and st == "open":
-                st = "skip"
-            elif st == "open" and STEAM_RX.search(e.get("note", "")):
-                st = "steam"
-            res.append((e, st, hits))
+        res = series_results(s, rows)
         need = [x for x in res if not x[0].get("optional")]
         have = sum(1 for x in need if x[1] == "done")
         steam = sum(1 for x in need if x[1] == "steam")
@@ -655,6 +645,65 @@ def render() -> None:
     print(f"rendered views for {len(rows)} rows, {len(targets)} targets, {len(series)} series")
 
 
+# ---------------------------------------------------------------- JSON export (web frontend)
+def series_results(s: dict, rows: list[dict]) -> list[tuple[dict, str, list[dict]]]:
+    res = []
+    for e in s.get("entry", []):
+        e2 = dict(e)
+        e2.setdefault("platforms", s.get("platforms"))
+        st, hits = eval_target(e2, rows)
+        if e.get("optional") and st == "open":
+            st = "skip"
+        elif st == "open" and STEAM_RX.search(e.get("note", "")):
+            st = "steam"
+        res.append((e, st, hits))
+    return res
+
+
+def cmd_export(args) -> None:
+    """Write everything the web frontend needs into one JSON file (default: site/data.json)."""
+    import json
+    rows = load_collection()
+    ann = load_annotations()
+    have_by_title = defaultdict(set)
+    for r in rows:
+        if r["status"] in HAVE:
+            have_by_title[norm(r["title"])].add(r["platform"])
+    hit = lambda h: {"title": h["title"], "platform": h["platform"], "edition": h["edition"], "status": h["status"]}
+    games = [{**{k: r[k] for k in FIELDS if r[k] and k != "source"}, "note": note_for(r, ann),
+              "family": family_of(r["platform"])} for r in sorted(rows, key=sort_key)]
+    targets = []
+    for t in load_targets():
+        st, hits = eval_target(t, rows)
+        targets.append({
+            "title": t["title"], "platforms": t.get("platforms", []), "priority": t.get("priority", "medium"),
+            "group": t.get("group", ""), "state": t.get("state", ""), "plan": t.get("plan", ""),
+            "note": t.get("note", ""), "verify": t.get("verify", ""), "file": t["_file"], "status": st,
+            "hits": [hit(h) for h in hits],
+            "elsewhere": sorted(have_by_title.get(norm(t["title"]), set()) - {h["platform"] for h in hits}),
+        })
+    series = []
+    for s in load_series():
+        series.append({
+            "name": s["name"], "description": s.get("description", ""), "platforms": s.get("platforms", []),
+            "entries": [{"title": e["title"], "year": e.get("year", ""), "note": e.get("note", ""),
+                         "verify": e.get("verify", ""), "optional": bool(e.get("optional")), "status": st,
+                         "hits": [hit(h) for h in hits]} for e, st, hits in series_results(s, rows)],
+        })
+    plats = sorted({r["platform"] for r in rows},
+                   key=lambda p: (PLATFORM_ORDER.index(p) if p in PLATFORM_ORDER else 99, p))
+    out = {
+        "updated": dt.date.today().isoformat(),
+        "platforms": [{"name": p, "family": family_of(p), "slug": slug(p)} for p in plats],
+        "games": games, "targets": targets, "series": series,
+        "changelog": CHANGELOG.read_text(encoding="utf-8") if CHANGELOG.exists() else "",
+    }
+    dest = Path(args.out)
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    dest.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    print(f"exported {len(games)} games, {len(targets)} targets, {len(series)} series → {dest}")
+
+
 # ---------------------------------------------------------------- misc commands
 def cmd_find(args) -> None:
     q = norm(" ".join(args.text))
@@ -720,6 +769,9 @@ def main() -> None:
     p.add_argument("text", nargs="+")
     p.set_defaults(fn=cmd_find)
     sub.add_parser("check").set_defaults(fn=cmd_check)
+    p = sub.add_parser("export", help="write site/data.json for the web frontend")
+    p.add_argument("out", nargs="?", default=str(ROOT / "site" / "data.json"))
+    p.set_defaults(fn=cmd_export)
     args = ap.parse_args()
     if args.cmd == "import" and not (args.auto or args.csv):
         ap.error("import needs a CSV path or --auto")

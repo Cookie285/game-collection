@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Game Collection</title>
+  <meta name="description" content="Physical game collection, buy plan and series trackers">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎮</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>
+    try { const t = localStorage.getItem("gc-theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+</head>
+<body>
+  <div class="bg-glow" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#/">
+      <span class="brand-mark">🎮</span>
+      <span class="brand-text">Game Collection</span>
+    </a>
+    <nav class="tabs" id="tabs">
+      <a href="#/" data-route="">Dashboard</a>
+      <a href="#/collection" data-route="collection">Collection</a>
+      <a href="#/plan" data-route="plan">Buy plan</a>
+      <a href="#/series" data-route="series">Series</a>
+      <a href="#/changelog" data-route="changelog">Changelog</a>
+    </nav>
+    <div class="top-actions">
+      <button class="icon-btn" id="searchBtn" title="Search everything (/)" aria-label="Search">⌕</button>
+      <button class="icon-btn" id="themeBtn" title="Toggle theme" aria-label="Toggle theme">◐</button>
+    </div>
+  </header>
+
+  <main id="app" class="app">
+    <div class="loading"><div class="spinner"></div>Loading collection…</div>
+  </main>
+
+  <footer class="foot" id="foot"></footer>
+
+  <dialog id="palette" class="palette">
+    <input id="paletteInput" type="search" placeholder="Search games, buy plan and series…" autocomplete="off">
+    <div id="paletteResults" class="palette-results"></div>
+    <div class="palette-hint"><kbd>↑</kbd><kbd>↓</kbd> navigate · <kbd>Enter</kbd> open · <kbd>Esc</kbd> close</div>
+  </dialog>
+
+  <dialog id="modal" class="modal"><div id="modalBody"></div></dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>
