@@ -1,0 +1,2503 @@
+# Buy plan – Xbox — imported from the Xbox collection chat export, 25 Sep 2026
+# priority: workbook 1→high, 2→medium, 3→low, 4/5→someday. Owned rows are ticked ✅ automatically from CLZ.
+# `verify` = unsure in the source – check before buying
+
+[[target]]
+title = "Halo 5: Guardians"
+platforms = ["Xbox One"]
+priority = "high"
+group = "Checklist (Disc-to-Digital) + First-party"
+note = "Never ported to PC. Strongest pick.; scope layer 1 (Halo / 343)"
+
+[[target]]
+title = "Forza Motorsport 5"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Checklist (Disc-to-Digital) + First-party"
+note = "D2D (community, 2026-09-09): Reported NOT working (car licensing); Keep for shelf; re-test after GA.; scope layer 1 (Forza / Turn 10); Delisted; D2D not working"
+
+[[target]]
+title = "Forza Motorsport 6"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Checklist (Disc-to-Digital) + First-party"
+note = "D2D (community, 2026-09-09): Reported NOT working (car licensing); Keep for shelf; re-test after GA.; scope layer 1 (Forza / Turn 10); Delisted; D2D not working"
+
+[[target]]
+title = "Forza Motorsport 7"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Checklist (Disc-to-Digital) + First-party"
+note = "D2D (community, 2026-09-09): Reported NOT working (car licensing); Re-test after GA.; scope layer 1 (Forza / Turn 10); Delisted; check if owned"
+
+[[target]]
+title = "Forza Horizon 3"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Checklist (Disc-to-Digital) + First-party"
+note = "D2D (community, 2026-09-09): Reported NOT working (car licensing); Re-test after GA.; scope layer 1 (Forza / Playground); Delisted; D2D not working"
+
+[[target]]
+title = "Forza Horizon 4"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Checklist (Disc-to-Digital) + First-party"
+note = "D2D (community, 2026-09-09): Reported NOT working (car licensing); Re-test after GA.; scope layer 1 (Forza / Playground); Delisted; D2D not working"
+
+[[target]]
+title = "Gears of War 4"
+platforms = ["Xbox One"]
+priority = "medium"
+group = "Checklist (Disc-to-Digital) + First-party"
+note = "scope layer 1 (Gears / The Coalition)"
+
+[[target]]
+title = "Gears 5"
+platforms = ["Xbox One"]
+priority = "medium"
+group = "Checklist (Disc-to-Digital) + First-party"
+note = "scope layer 1 (Gears / The Coalition)"
+
+[[target]]
+title = "Halo Wars 2"
+platforms = ["Xbox One"]
+priority = "medium"
+group = "Checklist (Disc-to-Digital) + First-party"
+note = "Ultimate Edition includes Halo Wars: DE code (code, not disc).; scope layer 1 (Halo / Creative Assembly)"
+
+[[target]]
+title = "Quantum Break"
+platforms = ["Xbox One"]
+priority = "medium"
+group = "Checklist (Disc-to-Digital) + First-party"
+note = "Live-action episodes = licence risk; disc is the safe copy.; scope layer 1 (Remedy (MS-published))"
+
+[[target]]
+title = "Rare Replay"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Checklist (Disc-to-Digital) + First-party"
+state = "skip"
+note = "Owned digitally (Rare Replay); disc optional for the shelf only; scope layer 1 (Rare); Owned digitally"
+
+[[target]]
+title = "Halo: The Master Chief Collection"
+platforms = ["Xbox One"]
+priority = "high"
+group = "Checklist (Disc-to-Digital) + First-party"
+note = "Check whether MCC was announced for PS5 before buying.; scope layer 1 (Halo / 343 (Halo Studios))"
+
+[[target]]
+title = "Halo Infinite"
+platforms = ["Xbox Series X|S"]
+priority = "low"
+group = "Checklist (Disc-to-Digital) + First-party"
+note = "Disc is Series X; campaign only on disc.; scope layer 1 (Halo / 343); Series X disc"
+
+[[target]]
+title = "Gears Tactics"
+platforms = ["Xbox Series X|S"]
+priority = "medium"
+group = "Checklist (Disc-to-Digital) + First-party"
+note = "scope layer 1 (Gears / Splash Damage)"
+
+[[target]]
+title = "Gears of War: Ultimate Edition"
+platforms = ["Xbox One"]
+priority = "medium"
+group = "Checklist (Disc-to-Digital) + First-party"
+note = "Gears Reloaded (PS5) is the newer remaster – UE disc still unique to Xbox.; scope layer 1 (Gears / The Coalition)"
+
+[[target]]
+title = "Titanfall"
+platforms = ["Xbox One"]
+priority = "high"
+group = "Checklist (Disc-to-Digital)"
+note = "D2D (community, 2026-09-09): CONFIRMED working (multiple testers); Multiplayer-only; value depends on servers staying up."
+
+[[target]]
+title = "Sunset Overdrive"
+platforms = ["Xbox One"]
+priority = "high"
+group = "Checklist (Disc-to-Digital) + First-party"
+note = "Licensed music = delisting risk. Cheap now.; scope layer 1 (Insomniac (MS-published)); Licensed music – delisting risk; studio now owned by Sony"
+
+[[target]]
+title = "Ryse: Son of Rome"
+platforms = ["Xbox One"]
+priority = "low"
+group = "Checklist (Disc-to-Digital) + First-party"
+note = "scope layer 1 (Crytek (MS-published))"
+
+[[target]]
+title = "Dead Rising 3"
+aliases = ["Dead Rising 3: Apocalypse Edition"]
+platforms = ["Xbox One"]
+priority = "low"
+group = "Checklist (Disc-to-Digital) + First-party"
+plan = "used disc, e.g. rebuy.de"
+note = "Apocalypse Edition preferred; scope layer 1 (Capcom Vancouver (MS-published))"
+
+[[target]]
+title = "ReCore"
+aliases = ["ReCore: Definitive Edition"]
+platforms = ["Xbox One"]
+priority = "low"
+group = "Checklist (Disc-to-Digital) + First-party"
+plan = "used disc, e.g. rebuy.de"
+note = "Definitive Edition preferred; scope layer 1 (Armature / Comcept (MS-published))"
+
+[[target]]
+title = "Crackdown 3"
+platforms = ["Xbox One"]
+priority = "low"
+group = "Checklist (Disc-to-Digital) + First-party"
+note = "scope layer 1 (Sumo (MS-published))"
+
+[[target]]
+title = "State of Decay 2"
+platforms = ["Xbox One"]
+priority = "low"
+group = "Checklist (Disc-to-Digital) + First-party"
+note = "scope layer 1 (Undead Labs)"
+
+[[target]]
+title = "Killer Instinct"
+aliases = ["Killer Instinct: Definitive Edition"]
+platforms = ["Xbox One"]
+priority = "low"
+group = "Checklist (Disc-to-Digital) + First-party"
+note = "Disc release exists (Definitive Edition).; scope layer 1 (Iron Galaxy (MS-published))"
+
+[[target]]
+title = "Super Lucky's Tale"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Checklist (Disc-to-Digital) + First-party"
+note = "Switch got Super Lucky's Tale; NEW Super Lucky's Tale differs.; scope layer 1 (Playful (MS-published))"
+
+[[target]]
+title = "Zoo Tycoon"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Checklist (Disc-to-Digital) + First-party"
+note = "2013 Xbox One game; scope layer 1 (Frontier (MS-published))"
+
+[[target]]
+title = "Deadpool"
+platforms = ["Xbox One"]
+priority = "high"
+group = "Checklist (Disc-to-Digital) + Xbox 360 BC"
+plan = "used disc, e.g. rebuy.de"
+note = "D2D (community, 2026-09-09): CONFIRMED working (multiple testers); Delisted 2017; disc is the only legal path.; Xbox Store: DISC ONLY (delisted 2017); C – multiplatform, no modern version; Xbox One disc preferred (Disc-to-Digital eligible) – see Checklist entry"
+
+[[target]]
+title = "Rock Band 4"
+platforms = ["Xbox One"]
+priority = "medium"
+group = "Checklist (Disc-to-Digital)"
+plan = "used disc, e.g. rebuy.de"
+note = "D2D (community, 2026-09-09): CONFIRMED working (multiple testers); Needs instruments; DLC ecosystem still live."
+
+[[target]]
+title = "F1 2021"
+platforms = ["Xbox One"]
+priority = "low"
+group = "Checklist (Disc-to-Digital)"
+plan = "used disc, e.g. rebuy.de"
+note = "D2D (community, 2026-09-09): CONFIRMED working (multiple testers); Codemasters F1 games delist ~yearly; earlier F1s worth testing."
+
+[[target]]
+title = "Minecraft: Story Mode"
+platforms = ["Xbox One"]
+priority = "low"
+group = "Checklist (Disc-to-Digital)"
+plan = "used disc, e.g. rebuy.de"
+note = "D2D (community, 2026-09-09): CONFIRMED working (multiple testers); Delisted 2019 (Telltale closure)."
+
+[[target]]
+title = "Transformers: Devastation"
+platforms = ["Xbox One"]
+priority = "low"
+group = "Checklist (Disc-to-Digital)"
+plan = "used disc, e.g. rebuy.de"
+note = "D2D (community, 2026-09-09): Reported working (single outlet, unconfirmed)"
+
+[[target]]
+title = "Transformers: Rise of the Dark Spark"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Checklist (Disc-to-Digital)"
+plan = "used disc, e.g. rebuy.de"
+note = "D2D (community, 2026-09-09): Reported NOT working; Activision licensed – hit-or-miss."
+
+[[target]]
+title = "The Amazing Spider-Man 2"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Checklist (Disc-to-Digital)"
+plan = "used disc, e.g. rebuy.de"
+note = "D2D (community, 2026-09-09): Reported NOT working; Activision licensed – hit-or-miss."
+
+[[target]]
+title = "Teenage Mutant Ninja Turtles: Mutants in Manhattan"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Checklist (Disc-to-Digital)"
+plan = "used disc, e.g. rebuy.de"
+note = "Same Activision/Platinum bucket as Devastation – test."
+
+[[target]]
+title = "Titanfall 2"
+platforms = ["Xbox One"]
+priority = "low"
+group = "Checklist (Disc-to-Digital)"
+note = "Series completion (also PS4); not delisted"
+
+[[target]]
+title = "Halo: Campaign Evolved"
+platforms = ["Xbox Series X|S"]
+priority = "medium"
+group = "First-party"
+plan = "Xbox Series X disc when on sale"
+state = "watching"
+note = "scope layer 1 (Halo / Halo Studios); Owned on PS5; last Halo made by Halo Studios (next Halo moves to Activision, Sep 2026)"
+
+[[target]]
+title = "Gears of War: Reloaded"
+platforms = ["PlayStation 5"]
+priority = "someday"
+group = "First-party"
+plan = "PS5 disc when very cheap"
+state = "watching"
+note = "scope layer X (Gears / The Coalition); No Xbox disc exists (PS5 disc only); campaign already covered by Gears of War: Ultimate Edition"
+
+[[target]]
+title = "Gears of War: E-Day"
+platforms = ["Xbox Series X|S"]
+priority = "high"
+group = "First-party"
+plan = "Pre-ordered (Xbox)"
+state = "preordered"
+note = "scope layer 1 (Gears / The Coalition)"
+
+[[target]]
+title = "Forza Motorsport"
+platforms = ["Xbox Series X|S"]
+priority = "medium"
+group = "First-party"
+note = "scope layer 1 (Forza / Turn 10); Verify disc edition availability in EU; 2023 game"
+
+[[target]]
+title = "Forza Horizon 2"
+platforms = ["Xbox One"]
+priority = "high"
+group = "First-party"
+note = "scope layer 1 (Forza / Playground); Delisted 2020; prices rising"
+
+[[target]]
+title = "Forza Horizon 5"
+platforms = ["Xbox Series X|S"]
+priority = "medium"
+group = "First-party"
+note = "scope layer 1 (Forza / Playground)"
+
+[[target]]
+title = "Forza Horizon 6"
+platforms = ["Xbox Series X|S"]
+priority = "high"
+group = "First-party"
+note = "scope layer 1 (Forza / Playground); Released 19 May 2026"
+
+[[target]]
+title = "Minecraft: Xbox One Edition"
+platforms = ["Xbox One"]
+priority = "high"
+group = "First-party"
+plan = "used disc, e.g. rebuy.de"
+note = "scope layer 1 (Minecraft / 4J & Mojang); Original 4J console edition – the collectible one"
+
+[[target]]
+title = "Minecraft"
+platforms = ["Xbox One"]
+priority = "low"
+group = "First-party"
+plan = "used disc, e.g. rebuy.de"
+note = "scope layer 1 (Minecraft / Mojang); Several disc variants (Explorers Pack, Starter, Master Collection); Bedrock disc; several variants (Explorers Pack, Starter, Master Collection)"
+
+[[target]]
+title = "Minecraft Dungeons"
+aliases = ["Minecraft Dungeons: Hero Edition"]
+platforms = ["Xbox One"]
+priority = "medium"
+group = "First-party"
+plan = "used disc, e.g. rebuy.de"
+note = "scope layer 1 (Minecraft / Mojang & Double Eleven); Hero Edition preferred"
+
+[[target]]
+title = "Minecraft Legends"
+platforms = ["Xbox One", "Xbox Series X|S"]
+priority = "medium"
+group = "First-party"
+plan = "used disc, e.g. rebuy.de"
+note = "scope layer 1 (Minecraft / Mojang & Blackbird)"
+
+[[target]]
+title = "Fable"
+platforms = ["Xbox Series X|S"]
+priority = "low"
+group = "First-party"
+plan = "Xbox disc only if really cheap later"
+state = "watching"
+note = "scope layer 1 (Fable / Playground); PS5 copy pre-ordered (see Part 1)"
+
+[[target]]
+title = "Sea of Thieves"
+platforms = ["Xbox One"]
+priority = "medium"
+group = "First-party"
+note = "scope layer 1 (Rare)"
+
+[[target]]
+title = "Kinect Sports Rivals"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "First-party"
+plan = "used disc"
+note = "scope layer 1 (Rare); Kinect-only; unplayable on Series X"
+
+[[target]]
+title = "Ori and the Blind Forest: Definitive Edition"
+aliases = ["Ori and the Blind Forest"]
+platforms = ["Xbox One"]
+priority = "medium"
+group = "First-party"
+note = "scope layer 1 (Moon Studios (MS-published))"
+
+[[target]]
+title = "Ori and the Will of the Wisps"
+platforms = ["Xbox One"]
+priority = "low"
+group = "First-party"
+note = "scope layer 1 (Moon Studios (MS-published)); iam8bit physical – verify it is a real disc pressing"
+
+[[target]]
+title = "Microsoft Flight Simulator"
+platforms = ["Xbox Series X|S"]
+priority = "medium"
+group = "First-party"
+plan = "used disc, e.g. rebuy.de"
+note = "scope layer 1 (Asobo); 2020 game"
+
+[[target]]
+title = "Microsoft Flight Simulator 2024"
+platforms = ["Xbox Series X|S"]
+priority = "medium"
+group = "First-party"
+plan = "used disc, e.g. rebuy.de"
+note = "scope layer 1 (Asobo)"
+
+[[target]]
+title = "Psychonauts 2"
+platforms = ["Xbox One"]
+priority = "medium"
+group = "First-party"
+plan = "used disc, e.g. rebuy.de"
+note = "scope layer 1 (Double Fine)"
+
+[[target]]
+title = "Avowed"
+platforms = ["Xbox Series X|S"]
+priority = "someday"
+group = "First-party"
+plan = "Game Pass first; if keeping, sealed code-in-box only if ≤ Xbox Store sale price, else Xbox Store (Play Anywhere)"
+state = "undecided"
+note = "scope layer X (Obsidian); Xbox box is code-in-box (no disc, no D2D); no PS5 disc exists – out of disc scope"
+
+[[target]]
+title = "South of Midnight"
+platforms = ["Xbox Series X|S"]
+priority = "someday"
+group = "First-party"
+plan = "Game Pass first; if keeping, buy on Xbox Store (Play Anywhere) on sale"
+state = "undecided"
+note = "scope layer X (Compulsion); No physical release on any platform – out of disc scope"
+
+[[target]]
+title = "Hi-Fi Rush"
+platforms = ["Xbox Series X|S"]
+priority = "low"
+group = "First-party"
+plan = "netgames (available cheap there)"
+note = "scope layer 1 (Tango (MS-published)); Limited Run exclusive physical"
+
+[[target]]
+title = "Pentiment"
+platforms = ["Xbox Series X|S"]
+priority = "someday"
+group = "First-party"
+plan = "eBay saved search (Limited Run pressing) – buy only at a good price"
+state = "watching"
+note = "scope layer 1 (Obsidian); Limited Run exclusive, expensive on eBay"
+
+[[target]]
+title = "Grounded"
+platforms = ["Xbox Series X|S"]
+priority = "someday"
+group = "First-party"
+plan = "eBay saved search (Limited Run pressing) – buy only at a good price"
+state = "watching"
+note = "scope layer 1 (Obsidian); Limited Run exclusive, expensive on eBay"
+
+[[target]]
+title = "Starfield"
+platforms = ["Xbox Series X|S"]
+priority = "medium"
+group = "First-party"
+plan = "used disc, e.g. rebuy.de"
+note = "scope layer 2 (Bethesda Game Studios); Bethesda post-acquisition"
+
+[[target]]
+title = "Redfall"
+platforms = ["Xbox Series X|S"]
+priority = "medium"
+group = "First-party"
+note = "scope layer 2 (Arkane Austin); Studio closed 2024 – servers/updates ended; disc is the record"
+
+[[target]]
+title = "Indiana Jones and the Great Circle"
+platforms = ["Xbox Series X|S"]
+priority = "medium"
+group = "First-party"
+plan = "used disc, e.g. rebuy.de"
+note = "scope layer 2 (MachineGames)"
+
+[[target]]
+title = "Doom: The Dark Ages"
+platforms = ["Xbox Series X|S"]
+priority = "low"
+group = "First-party + Shooter console suggestions"
+plan = "used disc, e.g. rebuy.de"
+note = "scope layer 2 (id Software); Suggested."
+
+[[target]]
+title = "The Elder Scrolls IV: Oblivion Remastered"
+platforms = ["Xbox Series X|S"]
+priority = "low"
+group = "First-party"
+plan = "used disc, e.g. rebuy.de"
+note = "scope layer 2 (Bethesda / Virtuos); Layer 2 – Xbox copy optional"
+
+[[target]]
+title = "Doom Eternal"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "First-party"
+note = "scope layer 3 (id Software (Bethesda-published)); Pre-acquisition – layer 3, optional"
+
+[[target]]
+title = "Fallout 4"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "First-party + Fallout / Elder Scrolls"
+plan = "used disc, e.g. rebuy.de"
+note = "scope layer 3 (Bethesda Game Studios); Pre-acquisition – optional; Next-gen update on Series X"
+
+[[target]]
+title = "Skyrim Special Edition"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "First-party + Fallout / Elder Scrolls"
+plan = "used disc, e.g. rebuy.de"
+note = "scope layer 3 (Bethesda Game Studios); Pre-acquisition – optional; Judgment call: also on Switch (Nintendo-first)"
+
+[[target]]
+title = "Dead Rising 4"
+platforms = ["Xbox One"]
+priority = "low"
+group = "First-party"
+note = "scope layer 1 (Capcom Vancouver (MS-published)); MS-published at release"
+
+[[target]]
+title = "Zoo Tycoon: Ultimate Animal Collection"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "First-party"
+note = "scope layer 1 (Frontier (MS-published)); 2017 remaster of Zoo Tycoon"
+
+[[target]]
+title = "Hellblade: Senua's Sacrifice"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "First-party"
+plan = "used disc, e.g. rebuy.de"
+note = "scope layer 3 (Ninja Theory (self-published)); Pre-acquisition; studio at risk of closure (Sep 2026)"
+
+[[target]]
+title = "Senua's Saga: Hellblade II"
+platforms = ["Xbox Series X|S"]
+priority = "medium"
+group = "First-party"
+plan = "used disc"
+note = "scope layer 1 (Ninja Theory); Ninja Theory at risk of closure (Sep 2026)"
+verify = "verify the EU Xbox box contains a real disc, not a code – if code-in-box, treat like Avowed"
+
+[[target]]
+title = "DOOM"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "First-party"
+note = "scope layer 3 (id Software (Bethesda-published)); Pre-acquisition – optional; 2016 game"
+
+[[target]]
+title = "Lost Odyssey"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Xbox 360 BC"
+plan = "digital, Xbox Store sale (no key sellers for 360 titles)"
+note = "Xbox Store: Digital (Xbox Store); A – first-party, no modern version; Mistwalker JRPG; 4 discs; disc prices rising"
+
+[[target]]
+title = "Blue Dragon"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Xbox 360 BC"
+plan = "digital, Xbox Store sale (no key sellers for 360 titles)"
+note = "Xbox Store: Digital (Xbox Store); A – first-party, no modern version; Mistwalker; 3 discs"
+
+[[target]]
+title = "Fable II"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Xbox 360 BC"
+plan = "digital, Xbox Store sale (no key sellers for 360 titles)"
+note = "Xbox Store: Digital (Xbox Store); A – first-party, no modern version; Never ported anywhere"
+
+[[target]]
+title = "Fable III"
+platforms = ["Xbox 360"]
+priority = "medium"
+group = "Xbox 360 BC"
+plan = "disc if delisted, else digital Xbox Store sale – verify store status"
+note = "Xbox Store: Verify – delisted on PC; Xbox listing uncertain; A – first-party, no modern version; Delisted digitally"
+
+[[target]]
+title = "Fable Anniversary"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Xbox 360 BC"
+plan = "digital, Xbox Store sale (no key sellers for 360 titles)"
+note = "Xbox Store: Digital (Xbox Store); A – first-party, no modern version"
+
+[[target]]
+title = "Kameo: Elements of Power"
+aliases = ["Rare Replay"]
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Xbox 360 BC"
+state = "skip"
+note = "Xbox Store: Digital (Xbox Store); A – first-party, no modern version; Covered by Rare Replay (owned digitally)"
+
+[[target]]
+title = "Viva Piñata"
+aliases = ["Rare Replay"]
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Xbox 360 BC"
+state = "skip"
+note = "Xbox Store: Digital (Xbox Store); A – first-party, no modern version; Covered by Rare Replay (owned digitally)"
+
+[[target]]
+title = "Viva Piñata: Trouble in Paradise"
+aliases = ["Rare Replay"]
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Xbox 360 BC"
+state = "skip"
+note = "Xbox Store: Digital (Xbox Store); A – first-party, no modern version; Covered by Rare Replay (owned digitally)"
+
+[[target]]
+title = "Banjo-Kazooie: Nuts & Bolts"
+aliases = ["Rare Replay"]
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Xbox 360 BC"
+state = "skip"
+note = "Xbox Store: Digital (Xbox Store); A – first-party, no modern version; Covered by Rare Replay (owned digitally)"
+
+[[target]]
+title = "Perfect Dark Zero"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Xbox 360 BC"
+note = "Xbox Store: Digital (Xbox Store); A – first-party, no modern version"
+
+[[target]]
+title = "Crackdown"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Xbox 360 BC"
+plan = "digital (free)"
+note = "Xbox Store: Digital (Xbox Store); A – first-party, no modern version; Free digitally on Xbox – check Full Library before buying"
+
+[[target]]
+title = "Crackdown 2"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Xbox 360 BC"
+plan = "digital (free)"
+note = "Xbox Store: Digital (Xbox Store); A – first-party, no modern version; Free digitally on Xbox – check Full Library before buying"
+
+[[target]]
+title = "Too Human"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Xbox 360 BC"
+plan = "digital (free)"
+note = "Xbox Store: Digital (Xbox Store); A – first-party, no modern version; Free digitally on Xbox – check Full Library before buying"
+
+[[target]]
+title = "Halo 3"
+aliases = ["Halo: The Master Chief Collection"]
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Xbox 360 BC"
+state = "skip"
+note = "Xbox Store: Digital (Xbox Store); A – first-party, no modern version; Covered by Halo: The Master Chief Collection (owned)"
+
+[[target]]
+title = "Halo 3: ODST"
+aliases = ["Halo: The Master Chief Collection"]
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Xbox 360 BC"
+state = "skip"
+note = "Xbox Store: Digital (Xbox Store); A – first-party, no modern version; Covered by Halo: The Master Chief Collection (owned)"
+
+[[target]]
+title = "Halo: Reach"
+aliases = ["Halo: The Master Chief Collection"]
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Xbox 360 BC"
+state = "skip"
+note = "Xbox Store: Digital (Xbox Store); A – first-party, no modern version; Covered by Halo: The Master Chief Collection (owned)"
+
+[[target]]
+title = "Halo 4"
+aliases = ["Halo: The Master Chief Collection"]
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Xbox 360 BC"
+state = "skip"
+note = "Xbox Store: Digital (Xbox Store); A – first-party, no modern version; Covered by Halo: The Master Chief Collection (owned)"
+
+[[target]]
+title = "Halo Wars"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Xbox 360 BC"
+note = "Xbox Store: Digital (Xbox Store); A – first-party, no modern version"
+
+[[target]]
+title = "Gears of War"
+aliases = ["Gears of War: Ultimate Edition"]
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Xbox 360 BC"
+state = "skip"
+note = "Xbox Store: Digital (Xbox Store); A – first-party, no modern version; Covered by Gears of War: Ultimate Edition (owned)"
+
+[[target]]
+title = "Gears of War 2"
+platforms = ["Xbox 360"]
+priority = "medium"
+group = "Xbox 360 BC"
+plan = "disc – Gears shelf consistency"
+note = "Xbox Store: Digital (Xbox Store); A – first-party, no modern version; No remaster – 360 disc is the only copy"
+
+[[target]]
+title = "Gears of War 3"
+platforms = ["Xbox 360"]
+priority = "medium"
+group = "Xbox 360 BC"
+plan = "disc – Gears shelf consistency"
+note = "Xbox Store: Digital (Xbox Store); A – first-party, no modern version; No remaster"
+
+[[target]]
+title = "Gears of War: Judgment"
+platforms = ["Xbox 360"]
+priority = "medium"
+group = "Xbox 360 BC"
+plan = "disc – Gears shelf consistency"
+note = "Xbox Store: Digital (Xbox Store); A – first-party, no modern version"
+
+[[target]]
+title = "Forza Horizon"
+platforms = ["Xbox 360"]
+priority = "high"
+group = "Xbox 360 BC"
+note = "Xbox Store: DISC ONLY (delisted 2016); A – first-party, no modern version"
+
+[[target]]
+title = "Alan Wake"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Xbox 360 BC"
+plan = "digital, Xbox Store sale (no key sellers for 360 titles)"
+note = "Xbox Store: Digital (Xbox Store); A – first-party, no modern version; MS-published at release"
+
+[[target]]
+title = "Ninja Gaiden II"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Xbox 360 BC"
+plan = "digital, Xbox Store sale (no key sellers for 360 titles)"
+note = "Xbox Store: Digital (Xbox Store); A – first-party, no modern version; MS-published; Black is a re-imagining, not the original"
+
+[[target]]
+title = "Panzer Dragoon Orta"
+platforms = ["Xbox"]
+priority = "someday"
+group = "OG Xbox BC"
+plan = "digital, Xbox Store sale (no key sellers for 360 titles)"
+note = "Xbox Store: Digital (Xbox Store); B – OG Xbox exclusive, BC; Sega; never re-released; expensive"
+
+[[target]]
+title = "Jade Empire"
+platforms = ["Xbox"]
+priority = "someday"
+group = "OG Xbox BC"
+plan = "digital, Xbox Store sale (no key sellers for 360 titles)"
+note = "Xbox Store: Digital (Xbox Store); B – OG Xbox exclusive, BC"
+
+[[target]]
+title = "Ninja Gaiden Black"
+platforms = ["Xbox"]
+priority = "someday"
+group = "OG Xbox BC"
+plan = "digital, Xbox Store sale (no key sellers for 360 titles)"
+note = "Xbox Store: Digital (Xbox Store); B – OG Xbox exclusive, BC"
+
+[[target]]
+title = "Otogi: Myth of Demons"
+platforms = ["Xbox"]
+priority = "medium"
+group = "OG Xbox BC"
+plan = "disc (store status unverified, likely disc only)"
+state = "watching"
+note = "Xbox Store: Verify – likely disc only; B – OG Xbox exclusive, BC; On my wish list"
+
+[[target]]
+title = "Otogi 2: Immortal Warriors"
+platforms = ["Xbox"]
+priority = "medium"
+group = "OG Xbox BC"
+plan = "disc (store status unverified, likely disc only)"
+state = "watching"
+note = "Xbox Store: Verify – likely disc only; B – OG Xbox exclusive, BC; On my wish list"
+
+[[target]]
+title = "Conker: Live & Reloaded"
+platforms = ["Xbox"]
+priority = "someday"
+group = "OG Xbox BC"
+plan = "digital, Xbox Store sale (no key sellers for 360 titles)"
+note = "Xbox Store: Digital (Xbox Store); B – OG Xbox exclusive, BC; Also in Rare Replay (OG version only)"
+
+[[target]]
+title = "Crimson Skies: High Road to Revenge"
+platforms = ["Xbox"]
+priority = "someday"
+group = "OG Xbox BC"
+plan = "digital, Xbox Store sale (no key sellers for 360 titles)"
+note = "Xbox Store: Digital (Xbox Store); B – OG Xbox exclusive, BC"
+
+[[target]]
+title = "Blinx: The Time Sweeper"
+platforms = ["Xbox"]
+priority = "someday"
+group = "OG Xbox BC"
+plan = "digital, Xbox Store sale (no key sellers for 360 titles)"
+note = "Xbox Store: Digital (Xbox Store); B – OG Xbox exclusive, BC"
+
+[[target]]
+title = "Fuzion Frenzy"
+platforms = ["Xbox"]
+priority = "someday"
+group = "OG Xbox BC"
+plan = "digital, Xbox Store sale (no key sellers for 360 titles)"
+note = "Xbox Store: Digital (Xbox Store); B – OG Xbox exclusive, BC"
+
+[[target]]
+title = "Grabbed by the Ghoulies"
+aliases = ["Rare Replay"]
+platforms = ["Xbox"]
+priority = "someday"
+group = "OG Xbox BC"
+state = "skip"
+note = "Xbox Store: Digital (Xbox Store); B – OG Xbox exclusive, BC; Covered by Rare Replay (owned digitally)"
+
+[[target]]
+title = "Star Wars: Republic Commando"
+platforms = ["Xbox"]
+priority = "someday"
+group = "OG Xbox BC"
+note = "Xbox Store: Digital (Xbox Store); B – OG Xbox exclusive, BC; also owned on PS4"
+
+[[target]]
+title = "Star Wars: Knights of the Old Republic"
+platforms = ["Xbox"]
+priority = "someday"
+group = "OG Xbox BC"
+state = "skip"
+note = "Xbox Store: Digital (Xbox Store); B – OG Xbox exclusive, BC; Owned on Nintendo Switch"
+
+[[target]]
+title = "Star Wars: Knights of the Old Republic II: The Sith Lords"
+platforms = ["Xbox"]
+priority = "someday"
+group = "OG Xbox BC"
+state = "skip"
+note = "Xbox Store: Digital (Xbox Store); B – OG Xbox exclusive, BC; Owned on Nintendo Switch"
+
+[[target]]
+title = "Psychonauts"
+platforms = ["Xbox"]
+priority = "someday"
+group = "OG Xbox BC"
+plan = "digital, Xbox Store sale (no key sellers for 360 titles)"
+note = "Xbox Store: Digital (Xbox Store); B – OG Xbox exclusive, BC; Double Fine – now first-party studio"
+
+[[target]]
+title = "Spec Ops: The Line"
+platforms = ["Xbox 360"]
+priority = "high"
+group = "Xbox 360 BC"
+plan = "disc (delisted – not buyable in store)"
+note = "Xbox Store: DISC ONLY (delisted 2024); C – multiplatform, no modern version; Disc is the only legal copy on any platform"
+
+[[target]]
+title = "Asura's Wrath"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Xbox 360 BC"
+plan = "digital, Xbox Store sale (no key sellers for 360 titles)"
+note = "Xbox Store: Digital (Xbox Store); C – multiplatform, no modern version; Capcom; never re-released"
+
+[[target]]
+title = "Skate 3"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Xbox 360 BC"
+plan = "digital, Xbox Store sale (no key sellers for 360 titles)"
+note = "Xbox Store: Digital (Xbox Store); C – multiplatform, no modern version"
+
+[[target]]
+title = "Blur"
+platforms = ["Xbox 360"]
+priority = "low"
+group = "Xbox 360 BC"
+plan = "disc (delisted – not buyable in store)"
+note = "Xbox Store: DISC ONLY (delisted); C – multiplatform, no modern version; Already owned on PlayStation 3 – 360 disc only if wanted playable on current hardware"
+
+[[target]]
+title = "Split/Second"
+platforms = ["Xbox 360"]
+priority = "medium"
+group = "Xbox 360 BC"
+plan = "disc if delisted, else digital Xbox Store sale – verify store status"
+note = "Xbox Store: Verify – likely delisted; C – multiplatform, no modern version"
+
+[[target]]
+title = "Sonic Unleashed"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Xbox 360 BC"
+plan = "digital, Xbox Store sale (no key sellers for 360 titles)"
+note = "Xbox Store: Digital (Xbox Store); C – multiplatform, no modern version; 360 version is the definitive one"
+
+[[target]]
+title = "Sonic & All-Stars Racing Transformed"
+platforms = ["Xbox 360"]
+priority = "high"
+group = "Xbox 360 BC"
+plan = "disc (delisted – not buyable in store)"
+note = "Xbox Store: DISC ONLY (delisted); C – multiplatform, no modern version"
+
+[[target]]
+title = "Shadowrun"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Xbox 360 BC"
+plan = "digital, Xbox Store sale (no key sellers for 360 titles)"
+note = "Xbox Store: Digital (Xbox Store); C – multiplatform, no modern version; MS-published; servers dead; BC Xbox Live play works; 2007 game"
+
+[[target]]
+title = "Earth Defense Force 2017"
+platforms = ["Xbox 360"]
+priority = "medium"
+group = "Xbox 360 BC"
+plan = "disc if delisted, else digital Xbox Store sale – verify store status"
+note = "Xbox Store: Verify; C – multiplatform, no modern version"
+
+[[target]]
+title = "Mirror's Edge"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Xbox 360 BC"
+plan = "digital, Xbox Store sale (no key sellers for 360 titles)"
+note = "Xbox Store: Digital (Xbox Store); C – multiplatform, no modern version"
+
+[[target]]
+title = "Vanquish"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Xbox 360 BC"
+plan = "digital, Xbox Store sale (no key sellers for 360 titles)"
+note = "Xbox Store: Digital (Xbox Store); C – multiplatform, no modern version"
+
+[[target]]
+title = "Binary Domain"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Xbox 360 BC"
+plan = "digital, Xbox Store sale (no key sellers for 360 titles)"
+note = "Xbox Store: Digital (Xbox Store); C – multiplatform, no modern version"
+
+[[target]]
+title = "Enslaved: Odyssey to the West"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Xbox 360 BC"
+plan = "digital, Xbox Store sale (no key sellers for 360 titles)"
+note = "Xbox Store: Digital (Xbox Store); C – multiplatform, no modern version"
+
+[[target]]
+title = "Call of Duty 2"
+platforms = ["Xbox 360"]
+priority = "medium"
+group = "Xbox 360 BC + Series runs – Call of Duty"
+note = "Xbox Store: Digital (Xbox Store); C – multiplatform, no modern version; Fills the CoD run; 360 launch title"
+
+[[target]]
+title = "Call of Duty 4: Modern Warfare"
+aliases = ["Call of Duty: Modern Warfare Trilogy"]
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Xbox 360 BC + Series runs – Call of Duty"
+state = "skip"
+note = "Xbox Store: Digital (Xbox Store); C – multiplatform, no modern version; Covered by Call of Duty: Modern Warfare Trilogy (owned); Xbox Store: Digital"
+
+[[target]]
+title = "Call of Duty 3"
+platforms = ["Xbox 360"]
+priority = "medium"
+group = "Xbox 360 BC + Series runs – Call of Duty"
+note = "Xbox Store: Digital (Xbox Store); C – multiplatform, no modern version"
+
+[[target]]
+title = "Call of Duty: World at War"
+platforms = ["Xbox 360"]
+priority = "medium"
+group = "Xbox 360 BC + Series runs – Call of Duty"
+note = "Xbox Store: Digital (Xbox Store); C – multiplatform, no modern version"
+
+[[target]]
+title = "Call of Duty: Black Ops"
+platforms = ["Xbox 360"]
+priority = "medium"
+group = "Xbox 360 BC + Series runs – Call of Duty"
+note = "Xbox Store: Digital (Xbox Store); C – multiplatform, no modern version"
+
+[[target]]
+title = "Call of Duty: Black Ops II"
+platforms = ["Xbox 360"]
+priority = "medium"
+group = "Xbox 360 BC + Series runs – Call of Duty"
+note = "Xbox Store: Digital (Xbox Store); C – multiplatform, no modern version"
+
+[[target]]
+title = "Call of Duty: Modern Warfare Trilogy"
+platforms = ["Xbox 360"]
+priority = "medium"
+group = "Xbox 360 BC + Series runs – Call of Duty"
+note = "Xbox Store: Digital (Xbox Store); C – multiplatform, no modern version; bundle of CoD4/MW2/MW3; Xbox Store: n/a (bundle)"
+
+[[target]]
+title = "Project Gotham Racing 3"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Xbox 360 BC"
+state = "skip"
+note = "Not backward compatible – shelf only; not collecting"
+
+[[target]]
+title = "Project Gotham Racing 4"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Xbox 360 BC"
+state = "skip"
+note = "Not backward compatible – shelf only; not collecting"
+
+[[target]]
+title = "Forza Motorsport 2"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Xbox 360 BC"
+state = "skip"
+note = "Not backward compatible – shelf only; not collecting"
+
+[[target]]
+title = "Forza Motorsport 3"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Xbox 360 BC"
+state = "skip"
+note = "Not backward compatible – shelf only; not collecting"
+
+[[target]]
+title = "Forza Motorsport 4"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Xbox 360 BC"
+state = "skip"
+note = "Not backward compatible – shelf only; not collecting"
+
+[[target]]
+title = "Jet Set Radio Future"
+platforms = ["Xbox"]
+priority = "someday"
+group = "OG Xbox BC"
+state = "skip"
+note = "Not backward compatible – shelf only; not collecting"
+
+[[target]]
+title = "Call of Duty: Modern Warfare 2"
+aliases = ["Call of Duty: Modern Warfare Trilogy"]
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Series runs – Call of Duty"
+state = "skip"
+note = "Covered by Call of Duty: Modern Warfare Trilogy (owned); Xbox Store: Digital"
+
+[[target]]
+title = "Call of Duty: Modern Warfare 3"
+aliases = ["Call of Duty: Modern Warfare Trilogy"]
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Series runs – Call of Duty"
+state = "skip"
+note = "Covered by Call of Duty: Modern Warfare Trilogy (owned); Xbox Store: Digital"
+
+[[target]]
+title = "Call of Duty: Ghosts"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Series runs – Call of Duty"
+note = "Xbox Store: Digital"
+
+[[target]]
+title = "Call of Duty: Advanced Warfare"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Series runs – Call of Duty"
+note = "Xbox Store: Digital"
+
+[[target]]
+title = "Call of Duty: Black Ops III"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Series runs – Call of Duty"
+note = "Xbox Store: Digital"
+
+[[target]]
+title = "Call of Duty: Infinite Warfare"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Series runs – Call of Duty"
+note = "Xbox Store: Digital"
+
+[[target]]
+title = "Call of Duty: Modern Warfare Remastered"
+aliases = ["Call of Duty: Infinite Warfare"]
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Series runs – Call of Duty"
+note = "Covered via the Infinite Warfare bundle – D2D unlocked both (tested by me); Xbox Store: Digital"
+
+[[target]]
+title = "Call of Duty: WWII"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Series runs – Call of Duty"
+note = "Xbox Store: Digital"
+
+[[target]]
+title = "Call of Duty: Black Ops 4"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Series runs – Call of Duty"
+note = "No campaign (multiplayer only); Xbox Store: Digital"
+
+[[target]]
+title = "Call of Duty: Modern Warfare"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Series runs – Call of Duty"
+note = "Xbox Store: Digital"
+
+[[target]]
+title = "Call of Duty: Black Ops Cold War"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Series runs – Call of Duty"
+note = "Xbox Store: Digital"
+
+[[target]]
+title = "Call of Duty: Vanguard"
+platforms = ["Xbox Series X|S"]
+priority = "someday"
+group = "Series runs – Call of Duty"
+note = "Xbox Store: Digital"
+
+[[target]]
+title = "Call of Duty: Modern Warfare II"
+platforms = ["Xbox Series X|S"]
+priority = "someday"
+group = "Series runs – Call of Duty"
+note = "Xbox Store: Digital"
+
+[[target]]
+title = "Call of Duty: Modern Warfare III"
+platforms = ["Xbox Series X|S"]
+priority = "someday"
+group = "Series runs – Call of Duty"
+note = "Xbox Store: Digital"
+
+[[target]]
+title = "Call of Duty: Black Ops 6"
+platforms = ["Xbox Series X|S"]
+priority = "someday"
+group = "Series runs – Call of Duty"
+note = "Xbox Store: Digital"
+
+[[target]]
+title = "Call of Duty: Black Ops 7"
+platforms = ["Xbox Series X|S"]
+priority = "someday"
+group = "Series runs – Call of Duty"
+note = "Xbox Store: Digital"
+
+[[target]]
+title = "Battlefield 2: Modern Combat"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Series runs – Battlefield"
+note = "Xbox Store: Never digital – DISC ONLY"
+
+[[target]]
+title = "Battlefield: Bad Company"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Series runs – Battlefield"
+note = "Xbox Store: DISC ONLY (delisted 2023)"
+
+[[target]]
+title = "Battlefield: Bad Company 2"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Series runs – Battlefield"
+note = "Xbox Store: DISC ONLY (delisted 2023)"
+
+[[target]]
+title = "Battlefield 3"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Series runs – Battlefield"
+note = "Xbox Store: Digital (verify)"
+
+[[target]]
+title = "Battlefield 4"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Series runs – Battlefield"
+note = "Xbox Store: Digital"
+
+[[target]]
+title = "Battlefield Hardline"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Series runs – Battlefield"
+note = "Xbox Store: Digital (verify)"
+
+[[target]]
+title = "Battlefield 1"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Series runs – Battlefield"
+note = "Xbox Store: Digital"
+
+[[target]]
+title = "Battlefield V"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Series runs – Battlefield"
+note = "Xbox Store: Digital"
+
+[[target]]
+title = "Battlefield 2042"
+platforms = ["Xbox Series X|S"]
+priority = "someday"
+group = "Series runs – Battlefield"
+note = "No campaign (multiplayer only); Xbox Store: Digital"
+
+[[target]]
+title = "Battlefield 6"
+platforms = ["Xbox Series X|S"]
+priority = "someday"
+group = "Series runs – Battlefield"
+note = "Xbox Store: Digital"
+
+[[target]]
+title = "S.T.A.L.K.E.R. 2: Heart of Chornobyl"
+platforms = ["Xbox Series X|S"]
+priority = "low"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "Xbox Series X disc exists (Deep Silver retail/SteelBook editions); PC editions are codes; a PS5 Day One disc also exists. Trilogy owned on Switch (JP)"
+
+[[target]]
+title = "Metro 2033"
+aliases = ["Metro Redux"]
+platforms = ["Xbox 360"]
+priority = "low"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "I confirmed Metro has discs."
+
+[[target]]
+title = "Metro: Last Light"
+aliases = ["Metro Redux"]
+platforms = ["Xbox 360"]
+priority = "low"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "I confirmed Metro has discs."
+
+[[target]]
+title = "Metro Redux"
+platforms = ["Xbox One"]
+priority = "low"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "I confirmed Metro has discs. Contains Metro 2033 + Last Light remasters"
+
+[[target]]
+title = "Metro Exodus"
+platforms = ["Xbox One"]
+priority = "low"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "I confirmed Metro has discs. Series X disc via Complete Edition"
+
+[[target]]
+title = "Far Cry Instincts"
+platforms = ["Xbox"]
+priority = "someday"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "Suggested: Instincts/Evolution were Xbox exclusives – series origin on Xbox"
+verify = "BC status of OG/360 entries not checked"
+
+[[target]]
+title = "Far Cry Instincts: Evolution"
+platforms = ["Xbox"]
+priority = "someday"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "Suggested: Instincts/Evolution were Xbox exclusives – series origin on Xbox"
+verify = "BC status of OG/360 entries not checked"
+
+[[target]]
+title = "Far Cry Instincts: Predator"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "Suggested: Instincts/Evolution were Xbox exclusives – series origin on Xbox"
+verify = "BC status of OG/360 entries not checked"
+
+[[target]]
+title = "Far Cry 2"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "Suggested: Instincts/Evolution were Xbox exclusives – series origin on Xbox"
+verify = "BC status of OG/360 entries not checked"
+
+[[target]]
+title = "Far Cry 3"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "Suggested: Instincts/Evolution were Xbox exclusives – series origin on Xbox"
+verify = "BC status of OG/360 entries not checked"
+
+[[target]]
+title = "Far Cry 4"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "Suggested"
+
+[[target]]
+title = "Far Cry Primal"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "Suggested"
+
+[[target]]
+title = "Far Cry 5"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "Suggested"
+
+[[target]]
+title = "Far Cry New Dawn"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "Suggested"
+
+[[target]]
+title = "Far Cry 6"
+platforms = ["Xbox Series X|S"]
+priority = "someday"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "Suggested"
+
+[[target]]
+title = "Prey"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "Suggested. 2006 game; 360/PC only"
+
+[[target]]
+title = "Prey (2017)"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "Suggested."
+
+[[target]]
+title = "Tom Clancy's Rainbow Six Vegas"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "Suggested. Owned on PS3"
+
+[[target]]
+title = "Tom Clancy's Rainbow Six Vegas 2"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "Suggested. Owned on PS3"
+
+[[target]]
+title = "Tom Clancy's Rainbow Six Siege"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "Suggested."
+
+[[target]]
+title = "Tom Clancy's Rainbow Six Extraction"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "Suggested."
+
+[[target]]
+title = "Tom Clancy's Ghost Recon Advanced Warfighter"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "Suggested."
+
+[[target]]
+title = "Tom Clancy's Ghost Recon Advanced Warfighter 2"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "Suggested."
+
+[[target]]
+title = "Tom Clancy's Ghost Recon: Future Soldier"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "Suggested."
+
+[[target]]
+title = "Tom Clancy's Ghost Recon Wildlands"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "Suggested."
+
+[[target]]
+title = "Tom Clancy's Ghost Recon Breakpoint"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "Suggested."
+
+[[target]]
+title = "Crysis"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "Suggested."
+
+[[target]]
+title = "Crysis 2"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "Suggested."
+
+[[target]]
+title = "Crysis 3"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "Suggested."
+
+[[target]]
+title = "Crysis Remastered Trilogy"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "Suggested. Also on Switch (Nintendo-first conflict)"
+
+[[target]]
+title = "Rage"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "Suggested."
+
+[[target]]
+title = "Rage 2"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "Suggested."
+
+[[target]]
+title = "Bulletstorm"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "Suggested."
+
+[[target]]
+title = "Bulletstorm: Full Clip Edition"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "Suggested. Switch has Duke of Switch Edition (conflict)"
+
+[[target]]
+title = "TimeSplitters 2"
+platforms = ["Xbox"]
+priority = "someday"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "Suggested."
+
+[[target]]
+title = "TimeSplitters: Future Perfect"
+platforms = ["Xbox"]
+priority = "someday"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "Suggested."
+
+[[target]]
+title = "Doom 3: BFG Edition"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "Suggested."
+
+[[target]]
+title = "Doom Slayers Collection"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "Suggested. Compilation incl. DOOM 1/2/3 + DOOM (2016)"
+
+[[target]]
+title = "Wolfenstein: The New Order"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "Suggested."
+
+[[target]]
+title = "Wolfenstein: The Old Blood"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "Suggested."
+
+[[target]]
+title = "Wolfenstein II: The New Colossus"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "Suggested. Also on Switch"
+
+[[target]]
+title = "Wolfenstein: Youngblood"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "Suggested. Also on Switch"
+
+[[target]]
+title = "Borderlands"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "Suggested."
+
+[[target]]
+title = "Borderlands: The Handsome Collection"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "Suggested. Switch has Legendary Collection (conflict)"
+
+[[target]]
+title = "Borderlands 3"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "Suggested."
+
+[[target]]
+title = "Tiny Tina's Wonderlands"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "Suggested."
+
+[[target]]
+title = "Borderlands 4"
+platforms = ["Xbox Series X|S"]
+priority = "someday"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "Suggested."
+
+[[target]]
+title = "Sniper Elite V2"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "Suggested."
+
+[[target]]
+title = "Sniper Elite 3"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "Suggested."
+
+[[target]]
+title = "Sniper Elite 4"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "Suggested."
+
+[[target]]
+title = "Sniper Elite 5"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "Suggested."
+
+[[target]]
+title = "Sniper Elite: Resistance"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "Suggested."
+
+[[target]]
+title = "Homefront"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "Suggested."
+
+[[target]]
+title = "Homefront: The Revolution"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "Suggested."
+
+[[target]]
+title = "Medal of Honor: Airborne"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "Suggested."
+
+[[target]]
+title = "Medal of Honor"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "Suggested. 2010 game"
+
+[[target]]
+title = "Medal of Honor: Warfighter"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "Suggested"
+verify = "BC status"
+
+[[target]]
+title = "Wolfenstein"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Shooter console suggestions"
+state = "skip"
+note = "2009 game – delisted and not backward compatible; shelf only"
+
+[[target]]
+title = "Destiny"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Shooter console suggestions"
+state = "skip"
+note = "Multiplayer/online focus – conflicts with single-player rule"
+
+[[target]]
+title = "Destiny 2"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Shooter console suggestions"
+state = "skip"
+note = "Multiplayer/online focus – conflicts with single-player rule"
+
+[[target]]
+title = "Fallout 3"
+aliases = ["Fallout 3: Game of the Year Edition"]
+platforms = ["Xbox 360"]
+priority = "low"
+group = "Fallout / Elder Scrolls"
+plan = "disc – Game of the Year Edition (DLC on disc)"
+state = "undecided"
+note = "Backward compatible; no PS5 version"
+
+[[target]]
+title = "Fallout: New Vegas"
+aliases = ["Fallout: New Vegas Ultimate Edition"]
+platforms = ["Xbox 360"]
+priority = "low"
+group = "Fallout / Elder Scrolls"
+plan = "disc – Ultimate Edition (DLC on disc)"
+state = "undecided"
+note = "Backward compatible; no PS5 version"
+
+[[target]]
+title = "Fallout 76"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Fallout / Elder Scrolls"
+plan = "used disc, completion only"
+state = "undecided"
+note = "Online-only – low value under single-player rule"
+
+[[target]]
+title = "Fallout: Brotherhood of Steel"
+platforms = ["Xbox"]
+priority = "someday"
+group = "Fallout / Elder Scrolls"
+plan = "opportunistic (OG Xbox lots)"
+state = "undecided"
+note = "Not backward compatible – shelf only"
+
+[[target]]
+title = "The Elder Scrolls III: Morrowind"
+platforms = ["Xbox"]
+priority = "someday"
+group = "Fallout / Elder Scrolls"
+plan = "disc – Game of the Year Edition"
+state = "undecided"
+note = "Backward compatible"
+
+[[target]]
+title = "The Elder Scrolls IV: Oblivion"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Fallout / Elder Scrolls"
+plan = "disc – Game of the Year Edition"
+state = "undecided"
+note = "Backward compatible; Oblivion Remastered owned on Switch 2"
+
+[[target]]
+title = "Dishonored"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Bethesda / Remedy extras"
+plan = "used disc"
+state = "undecided"
+note = "Suggested (scope layer 3, pre-acquisition). Arkane"
+
+[[target]]
+title = "Dishonored 2"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Bethesda / Remedy extras"
+plan = "used disc"
+state = "undecided"
+note = "Suggested (scope layer 3, pre-acquisition). Arkane"
+
+[[target]]
+title = "Dishonored: Death of the Outsider"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Bethesda / Remedy extras"
+plan = "used disc"
+state = "undecided"
+note = "Suggested (scope layer 3, pre-acquisition). Arkane"
+
+[[target]]
+title = "The Evil Within"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Bethesda / Remedy extras"
+plan = "used disc"
+state = "undecided"
+note = "Suggested (scope layer 3, pre-acquisition). Tango – 360 disc also exists"
+
+[[target]]
+title = "The Evil Within 2"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Bethesda / Remedy extras"
+plan = "used disc"
+state = "undecided"
+note = "Suggested (scope layer 3, pre-acquisition). Tango"
+
+[[target]]
+title = "Control"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Bethesda / Remedy extras"
+plan = "used disc"
+state = "undecided"
+note = "Suggested (scope layer 3, pre-acquisition). Remedy – fits alongside Quantum Break"
+
+[[target]]
+title = "Ninja Gaiden 3: Razor's Edge"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "BC exclusive series (suggested)"
+state = "undecided"
+note = "Suggested with the original Ninja Gaiden run (Black, II are on the BC tab)"
+
+[[target]]
+title = "Saints Row"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "BC exclusive series (suggested)"
+state = "skip"
+note = "Suggested; not taken – only Otogi and Skate went on the wish list"
+
+[[target]]
+title = "Saints Row 2"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "BC exclusive series (suggested)"
+state = "skip"
+note = "Suggested; not taken – only Otogi and Skate went on the wish list"
+
+[[target]]
+title = "Condemned: Criminal Origins"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "BC exclusive series (suggested)"
+state = "skip"
+note = "Suggested; not taken – only Otogi and Skate went on the wish list"
+
+[[target]]
+title = "Condemned 2: Bloodshot"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "BC exclusive series (suggested)"
+state = "skip"
+note = "Suggested; not taken – only Otogi and Skate went on the wish list"
+
+[[target]]
+title = "Mercenaries: Playground of Destruction"
+platforms = ["Xbox"]
+priority = "someday"
+group = "BC exclusive series (suggested)"
+state = "skip"
+note = "Suggested; not taken – only Otogi and Skate went on the wish list"
+
+[[target]]
+title = "Mercenaries 2: World in Flames"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "BC exclusive series (suggested)"
+state = "skip"
+note = "Suggested; not taken – only Otogi and Skate went on the wish list"
+
+[[target]]
+title = "MechAssault"
+platforms = ["Xbox"]
+priority = "someday"
+group = "BC exclusive series (suggested)"
+state = "skip"
+note = "Suggested; not taken – only Otogi and Skate went on the wish list"
+
+[[target]]
+title = "MechAssault 2: Lone Wolf"
+platforms = ["Xbox"]
+priority = "someday"
+group = "BC exclusive series (suggested)"
+state = "skip"
+note = "Suggested; not taken – only Otogi and Skate went on the wish list"
+
+[[target]]
+title = "Dead Rising"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "BC exclusive series (suggested)"
+state = "skip"
+note = "Suggested; not taken – only Otogi and Skate went on the wish list"
+
+[[target]]
+title = "Dead Rising 2"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "BC exclusive series (suggested)"
+state = "skip"
+note = "Suggested; not taken – only Otogi and Skate went on the wish list"
+
+[[target]]
+title = "Dead Rising 2: Off the Record"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "BC exclusive series (suggested)"
+state = "skip"
+note = "Suggested; not taken – only Otogi and Skate went on the wish list"
+
+[[target]]
+title = "Tony Hawk's Pro Skater 1 + 2"
+platforms = ["Nintendo Switch"]
+priority = "someday"
+group = "Activision / Blizzard"
+plan = "Switch physical (Nintendo-first)"
+state = "undecided"
+note = "Suggested."
+
+[[target]]
+title = "Tony Hawk's Pro Skater 3 + 4"
+platforms = ["Nintendo Switch 2"]
+priority = "someday"
+group = "Activision / Blizzard"
+plan = "Switch physical (Nintendo-first)"
+state = "undecided"
+note = "Suggested. Also on Switch"
+
+[[target]]
+title = "Diablo II: Resurrected"
+platforms = ["Nintendo Switch"]
+priority = "someday"
+group = "Activision / Blizzard"
+plan = "Switch physical (Nintendo-first)"
+state = "undecided"
+note = "Suggested."
+
+[[target]]
+title = "Diablo III: Eternal Collection"
+platforms = ["Nintendo Switch"]
+priority = "someday"
+group = "Activision / Blizzard"
+plan = "Switch physical (Nintendo-first)"
+state = "undecided"
+note = "Suggested. Optional – Diablo III: Ultimate Evil Edition owned on PS4; adds Necromancer"
+
+[[target]]
+title = "Diablo IV"
+platforms = ["Xbox Series X|S"]
+priority = "someday"
+group = "Activision / Blizzard"
+plan = "used disc"
+state = "undecided"
+note = "Suggested. Online-only; on Game Pass; disc only when cheap, as shelf copy; expansions digital-only"
+
+[[target]]
+title = "Prototype Biohazard Bundle"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Activision / Blizzard"
+plan = "used disc"
+state = "undecided"
+note = "Suggested. Prototype 1 + 2 on one disc"
+
+[[target]]
+title = "Singularity"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Activision / Blizzard"
+plan = "used disc"
+state = "undecided"
+note = "Suggested. Backward compatible, never re-released"
+
+[[target]]
+title = "Transformers: War for Cybertron"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Activision / Blizzard"
+plan = "used disc"
+state = "undecided"
+note = "Suggested. Delisted 2017"
+verify = "backward-compatibility status"
+
+[[target]]
+title = "Transformers: Fall of Cybertron"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Activision / Blizzard"
+plan = "used disc"
+state = "undecided"
+note = "Suggested. Delisted 2017"
+verify = "backward-compatibility status"
+
+[[target]]
+title = "Sekiro: Shadows Die Twice"
+platforms = ["PlayStation 4", "Xbox One"]
+priority = "someday"
+group = "Activision / Blizzard"
+plan = "whichever disc is cheaper"
+state = "undecided"
+note = "Activision only published it; no Xbox-specific reason"
+
+[[target]]
+title = "Crash Team Rumble"
+platforms = ["any"]
+priority = "someday"
+group = "Activision / Blizzard"
+state = "skip"
+note = "Online-only, shut down"
+
+[[target]]
+title = "Overwatch"
+platforms = ["any"]
+priority = "someday"
+group = "Activision / Blizzard"
+state = "skip"
+note = "Now free-to-play; Overwatch 1 discs useless"
+
+[[target]]
+title = "Guitar Hero Live"
+platforms = ["any"]
+priority = "someday"
+group = "Activision / Blizzard"
+state = "skip"
+note = "Peripherals; online TV mode gone"
+
+[[target]]
+title = "Skylanders"
+platforms = ["any"]
+priority = "someday"
+group = "Activision / Blizzard"
+state = "skip"
+note = "Toys-to-life, not worth it"
+
+[[target]]
+title = "The Orange Box"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Third-party Xbox series (not interested)"
+state = "skip"
+note = "Said 'doesn't sound interesting from series perspective'"
+
+[[target]]
+title = "Left 4 Dead"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Third-party Xbox series (not interested)"
+state = "skip"
+note = "Said 'doesn't sound interesting from series perspective'"
+
+[[target]]
+title = "Left 4 Dead 2"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Third-party Xbox series (not interested)"
+state = "skip"
+note = "Said 'doesn't sound interesting from series perspective'"
+
+[[target]]
+title = "Portal 2"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Third-party Xbox series (not interested)"
+state = "skip"
+note = "Said 'doesn't sound interesting from series perspective'"
+
+[[target]]
+title = "Dead Space 2"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Third-party Xbox series (not interested)"
+state = "skip"
+note = "Said 'doesn't sound interesting from series perspective'"
+
+[[target]]
+title = "Dead Space 3"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Third-party Xbox series (not interested)"
+state = "skip"
+note = "Said 'doesn't sound interesting from series perspective'"
+
+[[target]]
+title = "Dead Space"
+platforms = ["Xbox Series X|S"]
+priority = "someday"
+group = "Third-party Xbox series (not interested)"
+state = "skip"
+note = "Said 'doesn't sound interesting from series perspective'"
+
+[[target]]
+title = "Max Payne"
+platforms = ["Xbox"]
+priority = "someday"
+group = "Third-party Xbox series (not interested)"
+state = "skip"
+note = "Said 'doesn't sound interesting from series perspective'"
+
+[[target]]
+title = "Max Payne 2: The Fall of Max Payne"
+platforms = ["Xbox"]
+priority = "someday"
+group = "Third-party Xbox series (not interested)"
+state = "skip"
+note = "Said 'doesn't sound interesting from series perspective'"
+
+[[target]]
+title = "Max Payne 3"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Third-party Xbox series (not interested)"
+state = "skip"
+note = "Said 'doesn't sound interesting from series perspective'"
+
+[[target]]
+title = "Lost Planet: Extreme Condition"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Third-party Xbox series (not interested)"
+state = "skip"
+note = "Said 'doesn't sound interesting from series perspective'"
+
+[[target]]
+title = "Lost Planet 2"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Third-party Xbox series (not interested)"
+state = "skip"
+note = "Said 'doesn't sound interesting from series perspective'"
+
+[[target]]
+title = "Lost Planet 3"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Third-party Xbox series (not interested)"
+state = "skip"
+note = "Said 'doesn't sound interesting from series perspective'"
+
+[[target]]
+title = "Tom Clancy's Splinter Cell"
+platforms = ["Xbox"]
+priority = "someday"
+group = "Third-party Xbox series (not interested)"
+state = "skip"
+note = "Said 'doesn't sound interesting from series perspective'"
+
+[[target]]
+title = "Tom Clancy's Splinter Cell: Pandora Tomorrow"
+platforms = ["Xbox"]
+priority = "someday"
+group = "Third-party Xbox series (not interested)"
+state = "skip"
+note = "Said 'doesn't sound interesting from series perspective'"
+
+[[target]]
+title = "Tom Clancy's Splinter Cell: Chaos Theory"
+platforms = ["Xbox"]
+priority = "someday"
+group = "Third-party Xbox series (not interested)"
+state = "skip"
+note = "Said 'doesn't sound interesting from series perspective'"
+
+[[target]]
+title = "Tom Clancy's Splinter Cell: Double Agent"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Third-party Xbox series (not interested)"
+state = "skip"
+note = "Said 'doesn't sound interesting from series perspective'"
+
+[[target]]
+title = "Tom Clancy's Splinter Cell: Conviction"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Third-party Xbox series (not interested)"
+state = "skip"
+note = "Said 'doesn't sound interesting from series perspective'"
+
+[[target]]
+title = "Tom Clancy's Splinter Cell: Blacklist"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Third-party Xbox series (not interested)"
+state = "skip"
+note = "Said 'doesn't sound interesting from series perspective'"
+
+[[target]]
+title = "Saints Row: The Third Remastered"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Third-party Xbox series (not interested)"
+state = "skip"
+note = "Said 'doesn't sound interesting from series perspective'"
+
+[[target]]
+title = "Saints Row IV: Re-Elected"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Third-party Xbox series (not interested)"
+state = "skip"
+note = "Said 'doesn't sound interesting from series perspective'"
+
+[[target]]
+title = "Saints Row: Gat out of Hell"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Third-party Xbox series (not interested)"
+state = "skip"
+note = "Said 'doesn't sound interesting from series perspective'"
+
+[[target]]
+title = "Saints Row (2022)"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Third-party Xbox series (not interested)"
+state = "skip"
+note = "Said 'doesn't sound interesting from series perspective'"
+
+[[target]]
+title = "State of Decay 3"
+platforms = ["Xbox Series X|S"]
+priority = "someday"
+group = "Series runs – State of Decay"
+state = "undecided"
+note = "Undead Labs now independent; no longer first-party (Sep 2026) – series-on-one-platform rule would still put it on Xbox"
+
+[[target]]
+title = "Project Gotham Racing"
+platforms = ["Xbox"]
+priority = "someday"
+group = "Shelf-only non-BC (not collecting)"
+state = "skip"
+note = "Not backward compatible (or Kinect) – shelf only; not collecting"
+
+[[target]]
+title = "Project Gotham Racing 2"
+platforms = ["Xbox"]
+priority = "someday"
+group = "Shelf-only non-BC (not collecting)"
+state = "skip"
+note = "Not backward compatible (or Kinect) – shelf only; not collecting"
+
+[[target]]
+title = "Forza Motorsport (2005)"
+platforms = ["Xbox"]
+priority = "someday"
+group = "Shelf-only non-BC (not collecting)"
+state = "skip"
+note = "Not backward compatible (or Kinect) – shelf only; not collecting"
+
+[[target]]
+title = "Dead or Alive 3"
+platforms = ["Xbox"]
+priority = "someday"
+group = "Shelf-only non-BC (not collecting)"
+state = "skip"
+note = "Not backward compatible (or Kinect) – shelf only; not collecting"
+
+[[target]]
+title = "Dead or Alive Ultimate"
+platforms = ["Xbox"]
+priority = "someday"
+group = "Shelf-only non-BC (not collecting)"
+state = "skip"
+note = "Not backward compatible (or Kinect) – shelf only; not collecting"
+
+[[target]]
+title = "Dead or Alive 4"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Shelf-only non-BC (not collecting)"
+state = "skip"
+note = "Not backward compatible (or Kinect) – shelf only; not collecting"
+
+[[target]]
+title = "Dead or Alive Xtreme Beach Volleyball"
+platforms = ["Xbox"]
+priority = "someday"
+group = "Shelf-only non-BC (not collecting)"
+state = "skip"
+note = "Not backward compatible (or Kinect) – shelf only; not collecting"
+
+[[target]]
+title = "Dead or Alive Xtreme 2"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Shelf-only non-BC (not collecting)"
+state = "skip"
+note = "Not backward compatible (or Kinect) – shelf only; not collecting"
+
+[[target]]
+title = "Amped: Freestyle Snowboarding"
+platforms = ["Xbox"]
+priority = "someday"
+group = "Shelf-only non-BC (not collecting)"
+state = "skip"
+note = "Not backward compatible (or Kinect) – shelf only; not collecting"
+
+[[target]]
+title = "Amped 2"
+platforms = ["Xbox"]
+priority = "someday"
+group = "Shelf-only non-BC (not collecting)"
+state = "skip"
+note = "Not backward compatible (or Kinect) – shelf only; not collecting"
+
+[[target]]
+title = "Amped 3"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Shelf-only non-BC (not collecting)"
+state = "skip"
+note = "Not backward compatible (or Kinect) – shelf only; not collecting"
+
+[[target]]
+title = "Blinx 2: Masters of Time and Space"
+platforms = ["Xbox"]
+priority = "someday"
+group = "Shelf-only non-BC (not collecting)"
+state = "skip"
+note = "Not backward compatible (or Kinect) – shelf only; not collecting"
+
+[[target]]
+title = "Brute Force"
+platforms = ["Xbox"]
+priority = "someday"
+group = "Shelf-only non-BC (not collecting)"
+state = "skip"
+note = "Not backward compatible (or Kinect) – shelf only; not collecting"
+
+[[target]]
+title = "Steel Battalion"
+platforms = ["Xbox"]
+priority = "someday"
+group = "Shelf-only non-BC (not collecting)"
+state = "skip"
+note = "Not backward compatible (or Kinect) – shelf only; not collecting"
+
+[[target]]
+title = "Kung Fu Chaos"
+platforms = ["Xbox"]
+priority = "someday"
+group = "Shelf-only non-BC (not collecting)"
+state = "skip"
+note = "Not backward compatible (or Kinect) – shelf only; not collecting"
+
+[[target]]
+title = "Kakuto Chojin"
+platforms = ["Xbox"]
+priority = "someday"
+group = "Shelf-only non-BC (not collecting)"
+state = "skip"
+note = "Not backward compatible (or Kinect) – shelf only; not collecting"
+
+[[target]]
+title = "Kinect Adventures!"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Shelf-only non-BC (not collecting)"
+state = "skip"
+note = "Not backward compatible (or Kinect) – shelf only; not collecting"
+
+[[target]]
+title = "Kinect Sports"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Shelf-only non-BC (not collecting)"
+state = "skip"
+note = "Not backward compatible (or Kinect) – shelf only; not collecting"
+
+[[target]]
+title = "Kinect Sports: Season Two"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Shelf-only non-BC (not collecting)"
+state = "skip"
+note = "Not backward compatible (or Kinect) – shelf only; not collecting"
+
+[[target]]
+title = "Dance Central"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Shelf-only non-BC (not collecting)"
+state = "skip"
+note = "Not backward compatible (or Kinect) – shelf only; not collecting"
+
+[[target]]
+title = "Dance Central 2"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Shelf-only non-BC (not collecting)"
+state = "skip"
+note = "Not backward compatible (or Kinect) – shelf only; not collecting"
+
+[[target]]
+title = "Dance Central 3"
+platforms = ["Xbox 360"]
+priority = "someday"
+group = "Shelf-only non-BC (not collecting)"
+state = "skip"
+note = "Not backward compatible (or Kinect) – shelf only; not collecting"

@@ -1,0 +1,2260 @@
+# Buy plan – PlayStation (+ Switch/PC decisions) — imported from the PlayStation chat export, 25 Sep 2026
+# priority: checklist A→high, B→medium, C→low, —→someday · no price limits set yet
+# `verify` = marked '?' in the checklist – check before buying
+
+[[target]]
+title = "Grand Theft Auto VI"
+platforms = ["PlayStation 5"]
+priority = "high"
+group = "PS5 gaps – Multiplatform"
+plan = "PS5 disc; pre-order candidate"
+state = "watching"
+note = "Continues your GTA run (IV/V PS3, LCS/VCS PSP). No PC version at launch. · Other versions: No Switch; PC later · Standard disc · Release date reaffirmed by Take-Two"
+
+[[target]]
+title = "Kingdom Hearts Collection [I–III]"
+aliases = ["Kingdom Hearts Integrum Masterpiece"]
+platforms = ["PlayStation 5", "Nintendo Switch 2"]
+priority = "high"
+group = "PS5 gaps – Multiplatform"
+plan = "PS5 disc; new (upcoming release, price limit not set yet)"
+state = "undecided"
+note = "Decision: Switch = Switch 2 Game-Key Card, 131 GB download; PS = PS5 full disc (8 Oct 2026); suggestion: PS5 – JRPG rule says Switch, but the Switch 2 box is effectively a download voucher for a huge game. · One disc = 1.5+2.5 ReMIX, 2.8 and KH III + Re Mind. You only own KH III (PS4). · Other versions: Switch 2 = Game-Key Card, ~131 GB download · PS5 disc is full install · JRPG rule says Switch – but Switch 2 is GKC. Recommendation: PS5. Makes KH III PS4 surplus."
+
+[[target]]
+title = "Metaphor: ReFantazio"
+platforms = ["PlayStation 5", "Nintendo Switch 2"]
+priority = "high"
+group = "PS5 gaps – Multiplatform"
+plan = "PS5 disc; used preferred (price limit not set yet)"
+state = "undecided"
+note = "Decision: Switch = Switch 2 Game-Key Card (12 Nov 2026); PS = PS5 disc; suggestion: Your call – If you accept Game-Key Cards for JRPGs (you did for Bravely Default HD, Brigandine Abyss, Granblue Relink) → Switch 2; else PS5. · Top-tier Atlus JRPG, not owned. · Other versions: Switch 2 (12 Nov 2026) = Game-Key Card · Decide: Switch 2 GKC (like Bravely Default/Granblue) vs PS5 disc"
+
+[[target]]
+title = "Persona 3 Reload"
+platforms = ["PlayStation 5", "Nintendo Switch 2"]
+priority = "high"
+group = "PS5 gaps – Multiplatform"
+plan = "PS5 disc; used preferred (price limit not set yet)"
+state = "undecided"
+note = "Decision: Switch = Switch 2 Game-Key Card, no DLC; PS = PS5 disc; suggestion: Your call – Same as Metaphor. The Switch 2 version also leaves out Episode Aigis. · Missing Persona entry (own P5R). · Other versions: Switch 2 = Game-Key Card, Episode Aigis DLC not included · Decide: Switch 2 GKC vs PS5 disc"
+
+[[target]]
+title = "Tales of Arise"
+aliases = ["Tales of Arise: Beyond the Dawn Edition"]
+platforms = ["PlayStation 5", "Nintendo Switch 2"]
+priority = "high"
+group = "PS5 gaps – Multiplatform"
+plan = "PS5 disc; new or used, only at a really good price"
+state = "undecided"
+note = "owned on Steam (Tales of ARISE) – only if very cheap, new or used · Decision: Switch = Switch 2 Game-Key Card incl. Beyond the Dawn; PS = PS5 disc (DLC separate); suggestion: Your call – Switch 2 includes the DLC; PS5 gives you a real disc. · Missing modern Tales entry. · Other versions: Switch 2 Beyond the Dawn Ed. (May 2026) = Game-Key Card · Check if a PS5 'Beyond the Dawn' disc edition exists; else DLC digital · Decide: Switch 2 GKC (incl. DLC) vs PS5 disc"
+
+[[target]]
+title = "Clair Obscur: Expedition 33"
+platforms = ["PlayStation 5"]
+priority = "high"
+group = "PS5 gaps – Multiplatform"
+plan = "PS5 disc; used preferred (price limit not set yet)"
+note = "Acclaimed turn-based RPG, not owned. · Other versions: Switch 2 port only rumoured for 2026 · If Switch 2 full cart is announced, rule says wait"
+verify = "marked '?' in the checklist – verify before buying"
+
+[[target]]
+title = "Elden Ring"
+aliases = ["Elden Ring: Shadow of the Erdtree Edition", "Elden Ring: Tarnished Edition"]
+platforms = ["PlayStation 5"]
+priority = "high"
+group = "PS5 gaps – Multiplatform"
+plan = "PS5 disc; new or used, only at a really good price"
+note = "Shadow of the Erdtree Edition · owned on Steam (ELDEN RING) – only if very cheap, new or used · Biggest gap in your Souls line-up (own Demon's Souls, Bloodborne + many soulslikes). · Other versions: Switch 2 Tarnished Ed. (28 Aug 2026) = Game-Key Card · Common used · PS5 Pro is the best console version"
+
+[[target]]
+title = "Death Stranding Director's Cut"
+aliases = ["Death Stranding"]
+platforms = ["PlayStation 5"]
+priority = "high"
+group = "PS5 gaps – Sony-published"
+plan = "PS5 disc; new or used, only at a really good price"
+note = "owned on Steam (DEATH STRANDING DIRECTOR'S CUT) – only if very cheap, new or used · Prequel to Death Stranding 2 (owned). · Common used"
+
+[[target]]
+title = "Silent Hill 2"
+aliases = ["Silent Hill HD Collection"]
+platforms = ["PlayStation 5"]
+priority = "high"
+group = "PS5 gaps – Console exclusive (timed)"
+plan = "PS5 disc; used preferred (price limit not set yet)"
+note = "2024 · You own Silent Hill f; SH2 remake is the other modern entry."
+
+[[target]]
+title = "Resident Evil Requiem"
+platforms = ["PlayStation 5"]
+priority = "high"
+group = "PS5 gaps – Multiplatform"
+plan = "PS5 disc; used preferred (price limit not set yet)"
+note = "Only mainline RE missing; your RE line is on PS5. · Other versions: Switch 2 = Game-Key Card"
+
+[[target]]
+title = "Devil May Cry 5 Special Edition"
+aliases = ["Devil May Cry 5", "Devil May Cry 5: Devil Hunter Edition"]
+platforms = ["PlayStation 5"]
+priority = "high"
+group = "PS5 gaps – Multiplatform"
+plan = "PS5 disc; new or used, only at a really good price"
+note = "owned on Steam (Devil May Cry 5) – only if very cheap, new or used · Fits your character-action line (Bayonetta, Ninja Gaiden, Onimusha). No DMC owned. · Other versions: Switch 2 Devil Hunter Ed. = digital / GKC"
+
+[[target]]
+title = "Star Wars Jedi: Survivor"
+platforms = ["PlayStation 5"]
+priority = "high"
+group = "PS5 gaps – Multiplatform"
+plan = "PS5 disc; new or used, only at a really good price"
+note = "owned on Steam (STAR WARS Jedi: Survivor™) – only if very cheap, new or used · Single-player Star Wars; you collect SW (Force Unleashed, Bounty Hunter, KOTOR)."
+
+[[target]]
+title = "Hogwarts Legacy"
+platforms = ["PlayStation 5", "Nintendo Switch"]
+priority = "high"
+group = "PS5 gaps – Multiplatform"
+plan = "PS5 disc; new or used, only at a really good price"
+state = "undecided"
+note = "owned on Steam (Hogwarts Legacy) – only if very cheap, new or used · Decision: Switch = Switch 1 cart (weak port); Switch 2 Game-Key Card; PS = PS5 disc; suggestion: PS5 – Rule says Switch 1 cart, but it's the weakest version by far; this is a Harry Potter collection piece. · You collect the Harry Potter games (PS1–PS3). · Other versions: Switch 1 has a cart (weak port); Switch 2 = Game-Key Card · Rule says Switch 1 cart; quality says PS5"
+
+[[target]]
+title = "Monster Hunter Wilds"
+platforms = ["PlayStation 5"]
+priority = "medium"
+group = "PS5 gaps – Multiplatform"
+plan = "PS5 disc; used preferred (price limit not set yet)"
+note = "You own MH Rise/Generations/Stories on Switch; Wilds is solo-playable. · Other versions: Switch 2 = Game-Key Card"
+
+[[target]]
+title = "Dragon's Dogma 2"
+platforms = ["PlayStation 5"]
+priority = "medium"
+group = "PS5 gaps – Multiplatform"
+plan = "PS5 disc; new or used, only at a really good price"
+note = "owned on Steam (Dragon's Dogma 2) – only if very cheap, new or used · Single-player ARPG. · Other versions: Switch 2 = Game-Key Card · DD1 Dark Arisen → Switch (see Buy Elsewhere)"
+
+[[target]]
+title = "Wo Long: Fallen Dynasty"
+aliases = ["Wo Long: Fallen Dynasty Complete Edition"]
+platforms = ["PlayStation 5"]
+priority = "medium"
+group = "PS5 gaps – Multiplatform"
+plan = "PS5 disc; used preferred (price limit not set yet)"
+note = "Complete Edition · Only Team Ninja action title you're missing (own Nioh 1–3, NG, Rise of the Ronin). · Other versions: Switch 2 = Game-Key Card"
+
+[[target]]
+title = "The First Berserker: Khazan"
+platforms = ["PlayStation 5"]
+priority = "medium"
+group = "PS5 gaps – Multiplatform"
+plan = "PS5 disc; used preferred (price limit not set yet)"
+note = "Fits your soulslike run (Wuchang, Lords of the Fallen, Mortal Shell)."
+
+[[target]]
+title = "Code Vein II"
+platforms = ["PlayStation 5"]
+priority = "medium"
+group = "PS5 gaps – Multiplatform"
+plan = "PS5 disc; used preferred (price limit not set yet)"
+note = "Anime soulslike; Bandai Namco. · Check release/physical"
+verify = "marked '?' in the checklist – verify before buying"
+
+[[target]]
+title = "Armored Core VI: Fires of Rubicon"
+platforms = ["PlayStation 5"]
+priority = "medium"
+group = "PS5 gaps – Multiplatform"
+plan = "PS5 disc; used preferred (price limit not set yet)"
+note = "FromSoftware single-player."
+
+[[target]]
+title = "Like a Dragon: Infinite Wealth"
+platforms = ["PlayStation 5"]
+priority = "medium"
+group = "PS5 gaps – Multiplatform"
+plan = "PS5 disc; new or used, only at a really good price"
+note = "owned on Steam (Like a Dragon: Infinite Wealth) – only if very cheap, new or used · Turn-based JRPG, no Switch version. · Only if you start the RGG series (see Series tab)"
+
+[[target]]
+title = "Yakuza: Like a Dragon"
+platforms = ["PlayStation 5"]
+priority = "low"
+group = "PS5 gaps – Multiplatform"
+plan = "PS5 disc; new or used, only at a really good price"
+note = "owned on Steam (Yakuza: Like a Dragon) – only if very cheap, new or used · Prequel to Infinite Wealth. · Verify EU PS5 disc; else PS4 disc"
+verify = "marked '?' in the checklist – verify before buying"
+
+[[target]]
+title = "Like a Dragon Gaiden: The Man Who Erased His Name"
+platforms = ["PlayStation 5"]
+priority = "low"
+group = "PS5 gaps – Multiplatform"
+plan = "PS5 disc; new or used, only at a really good price"
+note = "owned on Steam (Like a Dragon Gaiden: The Man Who Erased His Name) – only if very cheap, new or used · RGG series."
+
+[[target]]
+title = "Like a Dragon: Pirate Yakuza in Hawaii"
+platforms = ["PlayStation 5"]
+priority = "low"
+group = "PS5 gaps – Multiplatform"
+plan = "PS5 disc; used preferred (price limit not set yet)"
+note = "RGG series."
+
+[[target]]
+title = "Like a Dragon: Ishin!"
+platforms = ["PlayStation 5"]
+priority = "low"
+group = "PS5 gaps – Multiplatform"
+plan = "PS5 disc; used preferred (price limit not set yet)"
+note = "RGG series."
+
+[[target]]
+title = "Yakuza Kiwami 3 & Dark Ties"
+platforms = ["PlayStation 5"]
+priority = "low"
+group = "PS5 gaps – Multiplatform"
+plan = "PS5 disc; used preferred (price limit not set yet)"
+note = "RGG series. · Other versions: Switch 2 = Game-Key Card"
+
+[[target]]
+title = "Judgment"
+platforms = ["PlayStation 5"]
+priority = "low"
+group = "PS5 gaps – Multiplatform"
+plan = "PS5 disc; used preferred (price limit not set yet)"
+note = "RGG detective spin-off."
+
+[[target]]
+title = "Lost Judgment"
+platforms = ["PlayStation 5"]
+priority = "low"
+group = "PS5 gaps – Multiplatform"
+plan = "PS5 disc; used preferred (price limit not set yet)"
+note = "RGG detective spin-off."
+
+[[target]]
+title = "Dead Space"
+platforms = ["PlayStation 5"]
+priority = "medium"
+group = "PS5 gaps – Multiplatform"
+plan = "PS5 disc; new or used, only at a really good price"
+note = "2023 · owned on Steam (Dead Space) – only if very cheap, new or used · You own Dead Space 2 + 3 (PS3); the original is missing – remake = newest gen."
+
+[[target]]
+title = "Alan Wake 2"
+platforms = ["PlayStation 5"]
+priority = "medium"
+group = "PS5 gaps – Multiplatform"
+plan = "PS5 disc; used preferred (price limit not set yet)"
+note = "Deluxe Edition · You own Alan Wake Remastered + Control. · Physical came a year after launch"
+
+[[target]]
+title = "Assassin's Creed Shadows"
+platforms = ["PlayStation 5"]
+priority = "medium"
+group = "PS5 gaps – Multiplatform"
+plan = "PS5 disc; new or used, only at a really good price"
+note = "owned on Steam (Assassin’s Creed Shadows) – only if very cheap, new or used · Only modern AC you're missing on PS. · Other versions: Switch 2 = Game-Key Card"
+
+[[target]]
+title = "Star Wars Outlaws"
+platforms = ["PlayStation 5"]
+priority = "medium"
+group = "PS5 gaps – Multiplatform"
+plan = "PS5 disc; used preferred (price limit not set yet)"
+note = "Single-player Star Wars. · Other versions: Switch 2 = Game-Key Card"
+
+[[target]]
+title = "Mafia: The Old Country"
+platforms = ["PlayStation 5"]
+priority = "medium"
+group = "PS5 gaps – Multiplatform"
+plan = "PS5 disc; used preferred (price limit not set yet)"
+note = "Continues Mafia (own Mafia II)."
+
+[[target]]
+title = "Visions of Mana"
+platforms = ["PlayStation 5"]
+priority = "medium"
+group = "PS5 gaps – Multiplatform"
+plan = "PS5 disc; new or used, only at a really good price"
+note = "owned on Steam (Visions of Mana) – only if very cheap, new or used · JRPG with no Switch version (own Collection of Mana, Legend of Mana). · Verify no Switch release"
+verify = "marked '?' in the checklist – verify before buying"
+
+[[target]]
+title = "Scarlet Nexus"
+platforms = ["PlayStation 5"]
+priority = "medium"
+group = "PS5 gaps – Multiplatform"
+plan = "PS5 disc; new or used, only at a really good price"
+note = "owned on Steam (SCARLET NEXUS) – only if very cheap, new or used · Bandai Namco ARPG, no Switch."
+
+[[target]]
+title = "Phantom Blade Zero"
+platforms = ["PlayStation 5"]
+priority = "medium"
+group = "PS5 gaps – Multiplatform"
+plan = "PS5 disc; new (upcoming release, price limit not set yet)"
+note = "Chinese action game in the Black Myth / Wuchang vein. · Date per official site"
+
+[[target]]
+title = "Marvel's Guardians of the Galaxy"
+platforms = ["PlayStation 5"]
+priority = "medium"
+group = "PS5 gaps – Multiplatform"
+plan = "PS5 disc; new or used, only at a really good price"
+note = "owned on Steam (Marvel's Guardians of the Galaxy) – only if very cheap, new or used · Strong single-player Marvel title. · Other versions: Switch 2 = Game-Key Card"
+
+[[target]]
+title = "Forspoken"
+platforms = ["PlayStation 5"]
+priority = "low"
+group = "PS5 gaps – Console exclusive (timed)"
+plan = "PS5 disc; used preferred (price limit not set yet)"
+note = "Square Enix console exclusive; cheap used. · Very cheap used"
+
+[[target]]
+title = "Dynasty Warriors: Origins"
+platforms = ["PlayStation 5"]
+priority = "low"
+group = "PS5 gaps – Multiplatform"
+plan = "PS5 disc; used preferred (price limit not set yet)"
+note = "Koei Tecmo. · Other versions: Switch 2 = Game-Key Card"
+
+[[target]]
+title = "Lost Soul Aside"
+platforms = ["PlayStation 5"]
+priority = "low"
+group = "PS5 gaps – Sony China Hero Project"
+plan = "PS5 disc; used preferred (price limit not set yet)"
+note = "Stylish action game in the FF/DMC vein. · Verify EU disc"
+verify = "marked '?' in the checklist – verify before buying"
+
+[[target]]
+title = "One Piece Odyssey"
+platforms = ["PlayStation 5"]
+priority = "low"
+group = "PS5 gaps – Multiplatform"
+plan = "PS5 disc; new or used, only at a really good price"
+note = "owned on Steam (ONE PIECE ODYSSEY) – only if very cheap, new or used · JRPG; you own the Pirate Warriors games. · Verify no Switch cart"
+verify = "marked '?' in the checklist – verify before buying"
+
+[[target]]
+title = "Shin Megami Tensei: Soul Hackers 2"
+platforms = ["PlayStation 5"]
+priority = "low"
+group = "PS5 gaps – Multiplatform"
+plan = "PS5 disc; used preferred (price limit not set yet)"
+note = "Atlus JRPG, no Switch."
+
+[[target]]
+title = "Neptunia ReVerse"
+platforms = ["PlayStation 5"]
+priority = "low"
+group = "PS5 gaps – Multiplatform"
+plan = "PS5 disc; used preferred (price limit not set yet)"
+note = "Neptunia entry that's only on PS5."
+
+[[target]]
+title = "Kunitsu-Gami: Path of the Goddess"
+platforms = ["PlayStation 5"]
+priority = "low"
+group = "PS5 gaps – Multiplatform"
+plan = "PS5 disc; used preferred (price limit not set yet)"
+note = "Capcom new IP. · Other versions: Switch 2 = Game-Key Card · Verify a PS5 disc exists in your region"
+verify = "marked '?' in the checklist – verify before buying"
+
+[[target]]
+title = "Fable"
+platforms = ["PlayStation 5"]
+priority = "high"
+group = "PS5 gaps – Microsoft 1st-party"
+plan = "PS5 disc (pre-ordered)"
+state = "preordered"
+note = "Pre-ordered on PS5 (Xbox disc only if cheap later). · Already pre-ordered"
+
+[[target]]
+title = "Intergalactic: The Heretic Prophet"
+platforms = ["PlayStation 5"]
+priority = "low"
+group = "PS5 gaps – Sony 1st-party"
+plan = "PS5 disc; new (upcoming release, price limit not set yet)"
+state = "watching"
+note = "Next Naughty Dog game – could decide whether you buy the next PlayStation. · No date yet"
+
+[[target]]
+title = "God of War"
+platforms = ["PlayStation 4"]
+priority = "high"
+group = "PS4 gaps – Sony 1st-party"
+plan = "PS4 disc; new or used, only at a really good price"
+note = "2018 · owned on Steam (God of War) – only if very cheap, new or used · Missing link between GoW III/Ascension and Ragnarök (owned). · Very cheap used"
+
+[[target]]
+title = "Marvel's Spider-Man"
+aliases = ["Marvel's Spider-Man Remastered", "Marvel's Spider-Man: Game of the Year Edition"]
+platforms = ["PlayStation 4"]
+priority = "high"
+group = "PS4 gaps – Sony 1st-party"
+plan = "PS4 disc; used preferred (price limit not set yet)"
+note = "Game of the Year Edition · You own Miles Morales + Spider-Man 2; the first game is missing. · Very cheap used · The PS5 Remastered version had no standalone disc – verify"
+verify = "marked '?' in the checklist – verify before buying"
+
+[[target]]
+title = "Ratchet & Clank"
+platforms = ["PlayStation 4"]
+priority = "high"
+group = "PS4 gaps – Sony 1st-party"
+plan = "PS4 disc; used preferred (price limit not set yet)"
+note = "2016 · Only Ratchet on PS4. · Very cheap used"
+
+[[target]]
+title = "inFamous Second Son"
+platforms = ["PlayStation 4"]
+priority = "high"
+group = "PS4 gaps – Sony 1st-party"
+plan = "PS4 disc; used preferred (price limit not set yet)"
+note = "No inFamous owned. · Very cheap used"
+
+[[target]]
+title = "inFamous First Light"
+platforms = ["PlayStation 4"]
+priority = "medium"
+group = "PS4 gaps – Sony 1st-party"
+plan = "PS4 disc; used preferred (price limit not set yet)"
+note = "Stand-alone expansion. · Verify EU disc release"
+verify = "marked '?' in the checklist – verify before buying"
+
+[[target]]
+title = "Detroit: Become Human"
+platforms = ["PlayStation 4"]
+priority = "high"
+group = "PS4 gaps – Sony-published"
+plan = "PS4 disc; used preferred (price limit not set yet)"
+note = "You own Heavy Rain. · Very cheap used"
+
+[[target]]
+title = "Heavy Rain & Beyond: Two Souls Collection"
+platforms = ["PlayStation 4"]
+priority = "medium"
+group = "PS4 gaps – Sony-published"
+plan = "PS4 disc; used preferred (price limit not set yet)"
+note = "Adds Beyond: Two Souls; makes Heavy Rain PS3 surplus."
+
+[[target]]
+title = "Shadow of the Colossus"
+aliases = ["ICO & Shadow of the Colossus Collection"]
+platforms = ["PlayStation 4"]
+priority = "high"
+group = "PS4 gaps – Sony 1st-party"
+plan = "PS4 disc; used preferred (price limit not set yet)"
+note = "2018 · Definitive version of SotC."
+
+[[target]]
+title = "The Last Guardian"
+platforms = ["PlayStation 4"]
+priority = "high"
+group = "PS4 gaps – Sony 1st-party"
+plan = "PS4 disc; used preferred (price limit not set yet)"
+note = "Team Ico finale."
+
+[[target]]
+title = "Gravity Rush 2"
+platforms = ["PlayStation 4"]
+priority = "high"
+group = "PS4 gaps – Sony 1st-party"
+plan = "PS4 disc; used preferred (price limit not set yet)"
+note = "Exclusive, never ported."
+
+[[target]]
+title = "Gravity Rush Remastered"
+platforms = ["PlayStation 4"]
+priority = "medium"
+group = "PS4 gaps – Sony 1st-party"
+plan = "PS4 disc; used preferred (price limit not set yet)"
+note = "Vita original, remastered."
+
+[[target]]
+title = "Days Gone"
+aliases = ["Days Gone Remastered"]
+platforms = ["PlayStation 4"]
+priority = "high"
+group = "PS4 gaps – Sony 1st-party"
+plan = "PS4 disc; used preferred (price limit not set yet)"
+note = "Remastered PS5 is digital-only – PS4 disc + paid upgrade is the only physical route. · Very cheap used"
+
+[[target]]
+title = "MediEvil"
+platforms = ["PlayStation 4"]
+priority = "medium"
+group = "PS4 gaps – Sony-published"
+plan = "PS4 disc; used preferred (price limit not set yet)"
+note = "2019 · Remake = newest gen of the PS1 classic."
+
+[[target]]
+title = "Tearaway Unfolded"
+platforms = ["PlayStation 4"]
+priority = "low"
+group = "PS4 gaps – Sony 1st-party"
+plan = "PS4 disc; used preferred (price limit not set yet)"
+note = "Exclusive."
+
+[[target]]
+title = "LittleBigPlanet 3"
+platforms = ["PlayStation 4"]
+priority = "low"
+group = "PS4 gaps – Sony 1st-party"
+plan = "PS4 disc; used preferred (price limit not set yet)"
+note = "Series completion (own LBP1 + Sackboy). · Online features are gone; story still playable"
+
+[[target]]
+title = "Sekiro: Shadows Die Twice"
+aliases = ["Sekiro: Shadows Die Twice – Game of the Year Edition"]
+platforms = ["PlayStation 4"]
+priority = "high"
+group = "PS4 gaps – Multiplatform"
+plan = "PS4 disc; used preferred (price limit not set yet)"
+note = "GOTY · FromSoftware; plays on PS5 Pro."
+
+[[target]]
+title = "Dark Souls III: The Fire Fades Edition"
+aliases = ["Dark Souls III"]
+platforms = ["PlayStation 4"]
+priority = "high"
+group = "PS4 gaps – Multiplatform"
+plan = "PS4 disc; used preferred (price limit not set yet)"
+note = "FromSoftware; DS1 → Switch (see Buy Elsewhere)."
+
+[[target]]
+title = "Dark Souls II: Scholar of the First Sin"
+aliases = ["Dark Souls II"]
+platforms = ["PlayStation 4"]
+priority = "medium"
+group = "PS4 gaps – Multiplatform"
+plan = "PS4 disc; used preferred (price limit not set yet)"
+note = "Completes the trilogy."
+
+[[target]]
+title = "Metal Gear Solid V: The Definitive Experience"
+aliases = ["Metal Gear Solid V: The Phantom Pain", "Metal Gear Solid V: Ground Zeroes"]
+platforms = ["PlayStation 4"]
+priority = "high"
+group = "PS4 gaps – Multiplatform"
+plan = "PS4 disc; new or used, only at a really good price"
+note = "owned on Steam (METAL GEAR SOLID V: THE PHANTOM PAIN) – only if very cheap, new or used · Only mainline MGS not in your Master Collections / Delta."
+
+[[target]]
+title = "Red Dead Redemption 2"
+platforms = ["PlayStation 4"]
+priority = "high"
+group = "PS4 gaps – Multiplatform"
+plan = "PS4 disc; new or used, only at a really good price"
+note = "owned on Steam (Red Dead Redemption 2) – only if very cheap, new or used · You own RDR1 (PS3). · 2-disc set"
+
+[[target]]
+title = "Mass Effect Legendary Edition"
+platforms = ["PlayStation 4"]
+priority = "high"
+group = "PS4 gaps – Multiplatform"
+plan = "PS4 disc; new or used, only at a really good price"
+note = "owned on Steam (Mass Effect™ Legendary Edition) – only if very cheap, new or used · Adds ME1 (never owned); makes ME2/ME3 PS3 surplus."
+
+[[target]]
+title = "Dragon Age: Inquisition"
+platforms = ["PlayStation 4"]
+priority = "medium"
+group = "PS4 gaps – Multiplatform"
+plan = "PS4 disc; new or used, only at a really good price"
+note = "GOTY · owned on Steam (Dragon Age™ Inquisition) – only if very cheap, new or used · You own Origins + DA II."
+
+[[target]]
+title = "Star Wars Jedi: Fallen Order"
+platforms = ["PlayStation 4"]
+priority = "high"
+group = "PS4 gaps – Multiplatform"
+plan = "PS4 disc; new or used, only at a really good price"
+note = "owned on Steam (STAR WARS Jedi: Fallen Order™) – only if very cheap, new or used · Prequel to Survivor. · Free PS5 upgrade was digital-only"
+
+[[target]]
+title = "Mafia: Trilogy"
+platforms = ["PlayStation 4"]
+priority = "medium"
+group = "PS4 gaps – Multiplatform"
+plan = "PS4 disc; used preferred (price limit not set yet)"
+note = "partly owned on Steam (Mafia) – value it by the missing part · Adds Mafia DE + III; makes Mafia II PS3 surplus. · Verify disc contents (some editions ship codes)"
+verify = "marked '?' in the checklist – verify before buying"
+
+[[target]]
+title = "Rise of the Tomb Raider: 20 Year Celebration"
+platforms = ["PlayStation 4"]
+priority = "medium"
+group = "PS4 gaps – Multiplatform"
+plan = "PS4 disc; new or used, only at a really good price"
+note = "owned on Steam (Rise of the Tomb Raider™) – only if very cheap, new or used · You own TR 2013 (PS3)."
+
+[[target]]
+title = "Shadow of the Tomb Raider: Definitive Edition"
+platforms = ["PlayStation 4"]
+priority = "medium"
+group = "PS4 gaps – Multiplatform"
+plan = "PS4 disc; new or used, only at a really good price"
+note = "owned on Steam (Shadow of the Tomb Raider: Definitive Edition) – only if very cheap, new or used · Completes the Survivor trilogy."
+
+[[target]]
+title = "Batman: Return to Arkham"
+aliases = ["Batman: Arkham Asylum", "Batman: Arkham City"]
+platforms = ["PlayStation 4"]
+priority = "medium"
+group = "PS4 gaps – Multiplatform"
+plan = "PS4 disc; new or used, only at a really good price"
+note = "owned on Steam (Batman: Arkham Asylum Game of the Year Edition + Batman: Arkham City - Game of the Year Edition) – only if very cheap, new or used · Asylum + City; you own Arkham Knight. · Other versions: Switch Arkham Trilogy exists – cart content/downloads unclear · Verify Switch cart; if it needs downloads, PS4"
+verify = "marked '?' in the checklist – verify before buying"
+
+[[target]]
+title = "Final Fantasy XV Royal Edition"
+aliases = ["Final Fantasy XV"]
+platforms = ["PlayStation 4"]
+priority = "high"
+group = "PS4 gaps – Multiplatform"
+plan = "PS4 disc; used preferred (price limit not set yet)"
+note = "Mainline FF not on Switch. · Other versions: Switch 2 port only 'under consideration'"
+
+[[target]]
+title = "Final Fantasy Type-0 HD"
+platforms = ["PlayStation 4"]
+priority = "medium"
+group = "PS4 gaps – Multiplatform"
+plan = "PS4 disc; used preferred (price limit not set yet)"
+note = "FF spin-off, no Switch."
+
+[[target]]
+title = "NieR Replicant ver.1.22474487139..."
+platforms = ["PlayStation 4"]
+priority = "high"
+group = "PS4 gaps – Multiplatform"
+plan = "PS4 disc; new or used, only at a really good price"
+note = "owned on Steam (NieR Replicant™ ver.1.22474487139...) – only if very cheap, new or used · Not on Switch; you own Drakengard 3."
+
+[[target]]
+title = "The Legend of Heroes: Trails of Cold Steel"
+platforms = ["PlayStation 4"]
+priority = "high"
+group = "PS4 gaps – Multiplatform"
+plan = "PS4 disc; new or used, only at a really good price"
+note = "Decisive Edition · owned on Steam (The Legend of Heroes: Trails of Cold Steel) – only if very cheap, new or used · Fills the Trails gap between Azure and Daybreak (own on Switch). · Verify no Switch release of CS I/II"
+verify = "marked '?' in the checklist – verify before buying"
+
+[[target]]
+title = "The Legend of Heroes: Trails of Cold Steel II"
+platforms = ["PlayStation 4"]
+priority = "high"
+group = "PS4 gaps – Multiplatform"
+plan = "PS4 disc; new or used, only at a really good price"
+note = "Relentless Edition · owned on Steam (The Legend of Heroes: Trails of Cold Steel II) – only if very cheap, new or used · Cold Steel III/IV → Switch. · Verify no Switch release of CS I/II"
+verify = "marked '?' in the checklist – verify before buying"
+
+[[target]]
+title = "Tales of Zestiria"
+platforms = ["PlayStation 4"]
+priority = "medium"
+group = "PS4 gaps – Multiplatform"
+plan = "PS4 disc; used preferred (price limit not set yet)"
+note = "Prequel to Berseria (own on Switch); no Switch version."
+
+[[target]]
+title = "Star Ocean: The Last Hope"
+platforms = ["PlayStation 4"]
+priority = "medium"
+group = "PS4 gaps – Multiplatform"
+plan = "PS4 disc; used preferred (price limit not set yet)"
+note = "4K & Full HD Remaster · Only Star Ocean entry you're missing (own 2R, 3, 5, 6)."
+
+[[target]]
+title = "Dragon's Crown Pro"
+platforms = ["PlayStation 4"]
+priority = "medium"
+group = "PS4 gaps – Multiplatform"
+plan = "PS4 disc; used preferred (price limit not set yet)"
+note = "Vanillaware, no Switch."
+
+[[target]]
+title = "Odin Sphere Leifthrasir"
+platforms = ["PlayStation 4"]
+priority = "medium"
+group = "PS4 gaps – Multiplatform"
+plan = "PS4 disc; used preferred (price limit not set yet)"
+note = "Vanillaware, no Switch."
+
+[[target]]
+title = "Utawarerumono: Mask of Deception"
+platforms = ["PlayStation 4"]
+priority = "medium"
+group = "PS4 gaps – Multiplatform"
+plan = "PS4 disc; used preferred (price limit not set yet)"
+note = "Story-heavy SRPG/VN."
+
+[[target]]
+title = "Utawarerumono: Mask of Truth"
+platforms = ["PlayStation 4"]
+priority = "medium"
+group = "PS4 gaps – Multiplatform"
+plan = "PS4 disc; used preferred (price limit not set yet)"
+note = "Sequel."
+
+[[target]]
+title = "Utawarerumono: Prelude to the Fallen"
+platforms = ["PlayStation 4"]
+priority = "low"
+group = "PS4 gaps – Multiplatform"
+plan = "PS4 disc; used preferred (price limit not set yet)"
+note = "Prequel remake. · Check for a Switch cart first"
+verify = "marked '?' in the checklist – verify before buying"
+
+[[target]]
+title = "Senran Kagura: Estival Versus"
+platforms = ["PlayStation 4"]
+priority = "medium"
+group = "PS4 gaps – Multiplatform"
+plan = "PS4 disc; used preferred (price limit not set yet)"
+note = "Fits your fan-service collection; you own Ninja Wars."
+
+[[target]]
+title = "Senran Kagura Burst Re:Newal"
+platforms = ["PlayStation 4"]
+priority = "medium"
+group = "PS4 gaps – Multiplatform"
+plan = "PS4 disc; used preferred (price limit not set yet)"
+note = "Remake of the first game."
+
+[[target]]
+title = "Senran Kagura: Peach Beach Splash"
+platforms = ["PlayStation 4"]
+priority = "low"
+group = "PS4 gaps – Multiplatform"
+plan = "PS4 disc; used preferred (price limit not set yet)"
+note = "Has story mode; online modes are dead."
+
+[[target]]
+title = "Castlevania Requiem"
+platforms = ["PlayStation 4"]
+priority = "medium"
+group = "PS4 gaps – Multiplatform"
+plan = "PS4 disc; used preferred (price limit not set yet)"
+note = "Symphony of the Night + Rondo of Blood – not in any Switch collection. · Verify EU disc release"
+verify = "marked '?' in the checklist – verify before buying"
+
+[[target]]
+title = "Devil May Cry HD Collection"
+platforms = ["PlayStation 4"]
+priority = "medium"
+group = "PS4 gaps – Multiplatform"
+plan = "PS4 disc; used preferred (price limit not set yet)"
+note = "DMC 1–3."
+
+[[target]]
+title = "Devil May Cry 4 Special Edition"
+platforms = ["PlayStation 4"]
+priority = "medium"
+group = "PS4 gaps – Multiplatform"
+plan = "PS4 disc; used preferred (price limit not set yet)"
+note = "Completes DMC 1–5."
+
+[[target]]
+title = "DmC: Devil May Cry Definitive Edition"
+platforms = ["PlayStation 4"]
+priority = "low"
+group = "PS4 gaps – Multiplatform"
+plan = "PS4 disc; used preferred (price limit not set yet)"
+note = "Reboot."
+
+[[target]]
+title = "Bayonetta & Vanquish 10th Anniversary Bundle"
+platforms = ["PlayStation 4"]
+priority = "medium"
+group = "PS4 gaps – Multiplatform"
+plan = "PS4 disc; used preferred (price limit not set yet)"
+note = "partly owned on Steam (Bayonetta) – value it by the missing part · Adds Vanquish; makes Bayonetta PS3 surplus."
+
+[[target]]
+title = "Monster Hunter: World – Iceborne Master Edition"
+aliases = ["Monster Hunter: World"]
+platforms = ["PlayStation 4"]
+priority = "medium"
+group = "PS4 gaps – Multiplatform"
+plan = "PS4 disc; used preferred (price limit not set yet)"
+note = "Not on Switch."
+
+[[target]]
+title = "Resident Evil Revelations"
+platforms = ["PlayStation 4"]
+priority = "low"
+group = "PS4 gaps – Multiplatform"
+plan = "PS4 disc; new or used, only at a really good price"
+note = "owned on Steam (Resident Evil Revelations) – only if very cheap, new or used · You own Revelations 2 (PS4). · Check for a Switch cart first"
+verify = "marked '?' in the checklist – verify before buying"
+
+[[target]]
+title = "Code Vein"
+platforms = ["PlayStation 4"]
+priority = "low"
+group = "PS4 gaps – Multiplatform"
+plan = "PS4 disc; used preferred (price limit not set yet)"
+note = "Prequel to Code Vein II."
+
+[[target]]
+title = "Dragon Quest Heroes II"
+platforms = ["PlayStation 4"]
+priority = "low"
+group = "PS4 gaps – Multiplatform"
+plan = "PS4 disc; used preferred (price limit not set yet)"
+note = "Musou spin-off, no western Switch release."
+
+[[target]]
+title = "Yakuza 0"
+platforms = ["PlayStation 4"]
+priority = "low"
+group = "PS4 gaps – Multiplatform"
+plan = "PS4 disc; new or used, only at a really good price"
+note = "owned on Steam (Yakuza 0) – only if very cheap, new or used · Series start. Director's Cut Switch 2 = Game-Key Card. · Other versions: Switch 2 DC = Game-Key Card · Only if you start the series"
+
+[[target]]
+title = "Yakuza Kiwami"
+platforms = ["PlayStation 4"]
+priority = "low"
+group = "PS4 gaps – Multiplatform"
+plan = "PS4 disc; new or used, only at a really good price"
+note = "owned on Steam (Yakuza Kiwami (Legacy)) – only if very cheap, new or used · RGG series. · Other versions: Switch/Switch 2 = Game-Key Card"
+
+[[target]]
+title = "Yakuza Kiwami 2"
+platforms = ["PlayStation 4"]
+priority = "low"
+group = "PS4 gaps – Multiplatform"
+plan = "PS4 disc; new or used, only at a really good price"
+note = "owned on Steam (Yakuza Kiwami 2) – only if very cheap, new or used · RGG series. · Other versions: Switch 2 = Game-Key Card"
+
+[[target]]
+title = "The Yakuza Remastered Collection"
+platforms = ["PlayStation 4"]
+priority = "low"
+group = "PS4 gaps – Multiplatform"
+plan = "PS4 disc; used preferred (price limit not set yet)"
+note = "partly owned on Steam (Yakuza 3 Remastered + Yakuza 4 Remastered) – value it by the missing part · Yakuza 3–5."
+
+[[target]]
+title = "Yakuza 6: The Song of Life"
+platforms = ["PlayStation 4"]
+priority = "low"
+group = "PS4 gaps – Multiplatform"
+plan = "PS4 disc; used preferred (price limit not set yet)"
+note = "Kiryu finale."
+
+[[target]]
+title = "Shenmue I & II"
+platforms = ["PlayStation 4"]
+priority = "low"
+group = "PS4 gaps – Multiplatform"
+plan = "PS4 disc; new or used, only at a really good price"
+note = "owned on Steam (Shenmue I & II) – only if very cheap, new or used · Sega classic."
+
+[[target]]
+title = "Shenmue III"
+platforms = ["PlayStation 4"]
+priority = "low"
+group = "PS4 gaps – Multiplatform"
+plan = "PS4 disc; new or used, only at a really good price"
+note = "owned on Steam (Shenmue III) – only if very cheap, new or used · Sequel."
+
+[[target]]
+title = "God of War Collection"
+platforms = ["PlayStation 3"]
+priority = "high"
+group = "PS3 gaps – Sony 1st-party"
+plan = "PS3 disc; used preferred (price limit not set yet)"
+note = "GoW 1 + 2 in HD – newest-gen version of the PS2 games. · Very cheap used"
+
+[[target]]
+title = "God of War: Origins Collection"
+platforms = ["PlayStation 3"]
+priority = "high"
+group = "PS3 gaps – Sony 1st-party"
+plan = "PS3 disc; used preferred (price limit not set yet)"
+note = "Chains of Olympus + Ghost of Sparta (PSP) in HD."
+
+[[target]]
+title = "Resistance 3"
+platforms = ["PlayStation 3"]
+priority = "high"
+group = "PS3 gaps – Sony 1st-party"
+plan = "PS3 disc; used preferred (price limit not set yet)"
+note = "Finishes the trilogy (own 1 + 2). · Cheap used"
+
+[[target]]
+title = "inFamous"
+platforms = ["PlayStation 3"]
+priority = "high"
+group = "PS3 gaps – Sony 1st-party"
+plan = "PS3 disc; used preferred (price limit not set yet)"
+note = "Series start. · Cheap used · An 'inFamous Collection' may exist in EU – check"
+
+[[target]]
+title = "inFamous 2"
+platforms = ["PlayStation 3"]
+priority = "high"
+group = "PS3 gaps – Sony 1st-party"
+plan = "PS3 disc; used preferred (price limit not set yet)"
+note = "Sequel. · Cheap used"
+
+[[target]]
+title = "Ratchet & Clank Future: Tools of Destruction"
+platforms = ["PlayStation 3"]
+priority = "high"
+group = "PS3 gaps – Sony 1st-party"
+plan = "PS3 disc; used preferred (price limit not set yet)"
+note = "Future saga (own HD Trilogy + Rift Apart)."
+
+[[target]]
+title = "Ratchet & Clank Future: Quest for Booty"
+platforms = ["PlayStation 3"]
+priority = "medium"
+group = "PS3 gaps – Sony 1st-party"
+plan = "PS3 disc; used preferred (price limit not set yet)"
+note = "Short episode; disc release in EU. · Verify EU disc"
+verify = "marked '?' in the checklist – verify before buying"
+
+[[target]]
+title = "Ratchet & Clank Future: A Crack in Time"
+platforms = ["PlayStation 3"]
+priority = "high"
+group = "PS3 gaps – Sony 1st-party"
+plan = "PS3 disc; used preferred (price limit not set yet)"
+note = "Series highlight."
+
+[[target]]
+title = "Ratchet & Clank: Into the Nexus"
+platforms = ["PlayStation 3"]
+priority = "medium"
+group = "PS3 gaps – Sony 1st-party"
+plan = "PS3 disc; used preferred (price limit not set yet)"
+note = "Closes the Future saga before Rift Apart."
+
+[[target]]
+title = "LittleBigPlanet 2"
+platforms = ["PlayStation 3"]
+priority = "medium"
+group = "PS3 gaps – Sony 1st-party"
+plan = "PS3 disc; used preferred (price limit not set yet)"
+note = "Series completion."
+
+[[target]]
+title = "Sly Cooper: Thieves in Time"
+platforms = ["PlayStation 3"]
+priority = "medium"
+group = "PS3 gaps – Sony-published"
+plan = "PS3 disc; used preferred (price limit not set yet)"
+note = "Completes Sly (own Trilogy)."
+
+[[target]]
+title = "Puppeteer"
+platforms = ["PlayStation 3"]
+priority = "medium"
+group = "PS3 gaps – Sony 1st-party"
+plan = "PS3 disc; used preferred (price limit not set yet)"
+note = "Exclusive, never ported."
+
+[[target]]
+title = "ICO & Shadow of the Colossus Collection"
+platforms = ["PlayStation 3"]
+priority = "high"
+group = "PS3 gaps – Sony 1st-party"
+plan = "PS3 disc; used preferred (price limit not set yet)"
+note = "Only way to get ICO in HD on disc."
+
+[[target]]
+title = "Folklore"
+platforms = ["PlayStation 3"]
+priority = "medium"
+group = "PS3 gaps – Sony 1st-party"
+plan = "PS3 disc; used preferred (price limit not set yet)"
+note = "Exclusive, never ported."
+
+[[target]]
+title = "Journey Collector's Edition"
+platforms = ["PlayStation 3"]
+priority = "medium"
+group = "PS3 gaps – Sony-published"
+plan = "PS3 disc; used preferred (price limit not set yet)"
+note = "Journey + flOw + Flower on disc."
+
+[[target]]
+title = "Killzone Trilogy"
+platforms = ["PlayStation 3"]
+priority = "low"
+group = "PS3 gaps – Sony 1st-party"
+plan = "PS3 disc; used preferred (price limit not set yet)"
+note = "Only disc with Killzone 1 HD; you own KZ2/3/SF. · Makes KZ2/KZ3 discs surplus"
+
+[[target]]
+title = "MotorStorm: Apocalypse"
+platforms = ["PlayStation 3"]
+priority = "low"
+group = "PS3 gaps – Sony 1st-party"
+plan = "PS3 disc; used preferred (price limit not set yet)"
+note = "Completes MotorStorm (own 1 + Pacific Rift)."
+
+[[target]]
+title = "Gran Turismo 6"
+platforms = ["PlayStation 3"]
+priority = "low"
+group = "PS3 gaps – Sony 1st-party"
+plan = "PS3 disc; used preferred (price limit not set yet)"
+note = "You own GT5 + GT7. · Online features are gone"
+
+[[target]]
+title = "Lightning Returns: Final Fantasy XIII"
+platforms = ["PlayStation 3"]
+priority = "high"
+group = "PS3 gaps – Multiplatform"
+plan = "PS3 disc; new or used, only at a really good price"
+note = "owned on Steam (LIGHTNING RETURNS™: FINAL FANTASY® XIII) – only if very cheap, new or used · Finishes the XIII trilogy (own XIII + XIII-2)."
+
+[[target]]
+title = "Eternal Sonata"
+platforms = ["PlayStation 3"]
+priority = "medium"
+group = "PS3 gaps – Multiplatform"
+plan = "PS3 disc; used preferred (price limit not set yet)"
+note = "JRPG, never ported."
+
+[[target]]
+title = "Resonance of Fate"
+platforms = ["PlayStation 3"]
+priority = "medium"
+group = "PS3 gaps – Multiplatform"
+plan = "PS3 disc; used preferred (price limit not set yet)"
+note = "tri-Ace JRPG; 4K remaster was digital in the West."
+
+[[target]]
+title = "Tales of Symphonia Chronicles"
+platforms = ["PlayStation 3"]
+priority = "medium"
+group = "PS3 gaps – Multiplatform"
+plan = "PS3 disc; used preferred (price limit not set yet)"
+note = "Only way to get Dawn of the New World in HD (Symphonia owned on Switch)."
+
+[[target]]
+title = "Asura's Wrath"
+platforms = ["PlayStation 3"]
+priority = "medium"
+group = "PS3 gaps – Multiplatform"
+plan = "PS3 disc; used preferred (price limit not set yet)"
+note = "Capcom cult action, never ported."
+
+[[target]]
+title = "Metal Gear Rising: Revengeance"
+platforms = ["PlayStation 3"]
+priority = "medium"
+group = "PS3 gaps – Multiplatform"
+plan = "PS3 disc; used preferred (price limit not set yet)"
+note = "Not in the Master Collections."
+
+[[target]]
+title = "Castlevania: Lords of Shadow Collection"
+platforms = ["PlayStation 3"]
+priority = "low"
+group = "PS3 gaps – Multiplatform"
+plan = "PS3 disc; used preferred (price limit not set yet)"
+note = "LoS 1 + Mirror of Fate HD."
+
+[[target]]
+title = "Castlevania: Lords of Shadow 2"
+platforms = ["PlayStation 3"]
+priority = "low"
+group = "PS3 gaps – Multiplatform"
+plan = "PS3 disc; used preferred (price limit not set yet)"
+note = "Sequel."
+
+[[target]]
+title = "Binary Domain"
+platforms = ["PlayStation 3"]
+priority = "low"
+group = "PS3 gaps – Multiplatform"
+plan = "PS3 disc; used preferred (price limit not set yet)"
+note = "Sega cult shooter."
+
+[[target]]
+title = "Assassin's Creed"
+platforms = ["PlayStation 3"]
+priority = "low"
+group = "PS3 gaps – Multiplatform"
+plan = "PS3 disc; used preferred (price limit not set yet)"
+note = "Only AC not in a remaster. · Very cheap used"
+
+[[target]]
+title = "Silent Hill HD Collection"
+platforms = ["PlayStation 3"]
+priority = "low"
+group = "PS3 gaps – Multiplatform"
+plan = "PS3 disc; used preferred (price limit not set yet)"
+note = "SH2 + SH3 HD (a weak port – SH3 PS2 original is the alternative)."
+
+[[target]]
+title = "Enslaved: Odyssey to the West"
+platforms = ["PlayStation 3"]
+priority = "low"
+group = "PS3 gaps – Multiplatform"
+plan = "PS3 disc; used preferred (price limit not set yet)"
+note = "Ninja Theory. · Very cheap used"
+
+[[target]]
+title = "Dark Chronicle"
+aliases = ["Dark Cloud 2"]
+platforms = ["PlayStation 2"]
+priority = "high"
+group = "PS2 gaps – Sony 1st-party"
+plan = "PS2 disc (PAL); used preferred (price limit not set yet)"
+note = "Level-5 classic, not on any modern disc. · PAL release"
+
+[[target]]
+title = "Dark Cloud"
+platforms = ["PlayStation 2"]
+priority = "medium"
+group = "PS2 gaps – Sony 1st-party"
+plan = "PS2 disc (PAL); used preferred (price limit not set yet)"
+note = "Series start. · PAL release"
+
+[[target]]
+title = "Rogue Galaxy"
+platforms = ["PlayStation 2"]
+priority = "high"
+group = "PS2 gaps – Sony 1st-party"
+plan = "PS2 disc (PAL); used preferred (price limit not set yet)"
+note = "Level-5 space JRPG, only on PS2 disc. · PAL release"
+
+[[target]]
+title = "Shadow Hearts"
+platforms = ["PlayStation 2"]
+priority = "medium"
+group = "PS2 gaps – Multiplatform"
+plan = "PS2 disc (PAL); used preferred (price limit not set yet)"
+note = "Cult JRPG. · PAL release; rising prices"
+
+[[target]]
+title = "Shadow Hearts: Covenant"
+platforms = ["PlayStation 2"]
+priority = "high"
+group = "PS2 gaps – Multiplatform"
+plan = "PS2 disc (PAL); used preferred (price limit not set yet)"
+note = "Series high point. · PAL release; rising prices · From the New World was NTSC-only"
+
+[[target]]
+title = "Shin Megami Tensei: Digital Devil Saga"
+platforms = ["PlayStation 2"]
+priority = "medium"
+group = "PS2 gaps – Multiplatform"
+plan = "PS2 disc (PAL); used preferred (price limit not set yet)"
+note = "Not remastered. · PAL release"
+
+[[target]]
+title = "Shin Megami Tensei: Digital Devil Saga 2"
+platforms = ["PlayStation 2"]
+priority = "medium"
+group = "PS2 gaps – Multiplatform"
+plan = "PS2 disc (PAL); used preferred (price limit not set yet)"
+note = "Sequel. · PAL release"
+
+[[target]]
+title = "Valkyrie Profile 2: Silmeria"
+platforms = ["PlayStation 2"]
+priority = "medium"
+group = "PS2 gaps – Multiplatform"
+plan = "PS2 disc (PAL); used preferred (price limit not set yet)"
+note = "tri-Ace; the PS1 original never came to PAL. · PAL release"
+
+[[target]]
+title = "Wild ARMs 3"
+platforms = ["PlayStation 2"]
+priority = "medium"
+group = "PS2 gaps – Sony 1st-party"
+plan = "PS2 disc (PAL); used preferred (price limit not set yet)"
+note = "Best-regarded entry. · PAL release"
+
+[[target]]
+title = "Wild ARMs 4"
+platforms = ["PlayStation 2"]
+priority = "low"
+group = "PS2 gaps – Multiplatform"
+plan = "PS2 disc (PAL); used preferred (price limit not set yet)"
+note = "Series. · PAL release"
+verify = "marked '?' in the checklist – verify before buying"
+
+[[target]]
+title = "Wild ARMs 5"
+platforms = ["PlayStation 2"]
+priority = "low"
+group = "PS2 gaps – Multiplatform"
+plan = "PS2 disc (PAL); used preferred (price limit not set yet)"
+note = "Series. · PAL release"
+verify = "marked '?' in the checklist – verify before buying"
+
+[[target]]
+title = "Suikoden V"
+platforms = ["PlayStation 2"]
+priority = "medium"
+group = "PS2 gaps – Multiplatform"
+plan = "PS2 disc (PAL); used preferred (price limit not set yet)"
+note = "Continues Suikoden (I & II owned on Switch). · PAL release; pricey · Suikoden III was NTSC-only"
+
+[[target]]
+title = "Suikoden IV"
+platforms = ["PlayStation 2"]
+priority = "low"
+group = "PS2 gaps – Multiplatform"
+plan = "PS2 disc (PAL); used preferred (price limit not set yet)"
+note = "Weakest entry – completion only. · PAL release"
+
+[[target]]
+title = "Dragon Quest VIII: Journey of the Cursed King"
+platforms = ["PlayStation 2"]
+priority = "medium"
+group = "PS2 gaps – Multiplatform"
+plan = "PS2 disc (PAL); used preferred (price limit not set yet)"
+note = "Not on Switch (3DS only). · PAL release; common"
+
+[[target]]
+title = "Xenosaga Episode II"
+platforms = ["PlayStation 2"]
+priority = "low"
+group = "PS2 gaps – Multiplatform"
+plan = "PS2 disc (PAL); used preferred (price limit not set yet)"
+note = "Only Xenosaga that came out in PAL. · PAL release · Episodes I + III never PAL → incomplete run"
+
+[[target]]
+title = "Atelier Iris: Eternal Mana"
+platforms = ["PlayStation 2"]
+priority = "low"
+group = "PS2 gaps – Multiplatform"
+plan = "PS2 disc (PAL); used preferred (price limit not set yet)"
+note = "Not remastered. · PAL release"
+verify = "marked '?' in the checklist – verify before buying"
+
+[[target]]
+title = "Atelier Iris 2: The Azoth of Destiny"
+platforms = ["PlayStation 2"]
+priority = "low"
+group = "PS2 gaps – Multiplatform"
+plan = "PS2 disc (PAL); used preferred (price limit not set yet)"
+note = "Series. · PAL release"
+verify = "marked '?' in the checklist – verify before buying"
+
+[[target]]
+title = "Atelier Iris 3: Grand Phantasm"
+platforms = ["PlayStation 2"]
+priority = "low"
+group = "PS2 gaps – Multiplatform"
+plan = "PS2 disc (PAL); used preferred (price limit not set yet)"
+note = "Series. · PAL release"
+verify = "marked '?' in the checklist – verify before buying"
+
+[[target]]
+title = "Arc the Lad: Twilight of the Spirits"
+platforms = ["PlayStation 2"]
+priority = "low"
+group = "PS2 gaps – Sony 1st-party"
+plan = "PS2 disc (PAL); used preferred (price limit not set yet)"
+note = "Sony JRPG. · PAL release"
+
+[[target]]
+title = "Magna Carta: Tears of Blood"
+platforms = ["PlayStation 2"]
+priority = "low"
+group = "PS2 gaps – Multiplatform"
+plan = "PS2 disc (PAL); used preferred (price limit not set yet)"
+note = "Korean JRPG. · PAL release"
+verify = "marked '?' in the checklist – verify before buying"
+
+[[target]]
+title = "Persona 4"
+aliases = ["Persona 4 Golden"]
+platforms = ["PlayStation 2"]
+priority = "low"
+group = "PS2 gaps – Multiplatform"
+plan = "PS2 disc (PAL); new or used, only at a really good price"
+note = "owned on Steam (Persona 4 Golden) – only if very cheap, new or used · Golden is Vita/digital; this is the only PAL disc you can play. · PAL release · Watch for Persona 4 Revival"
+
+[[target]]
+title = "Project Zero"
+aliases = ["Fatal Frame"]
+platforms = ["PlayStation 2"]
+priority = "medium"
+group = "PS2 gaps – Multiplatform"
+plan = "PS2 disc (PAL); used preferred (price limit not set yet)"
+note = "You collect Fatal Frame on Switch. · PAL release; pricey"
+
+[[target]]
+title = "Project Zero 3: The Tormented"
+aliases = ["Fatal Frame III: The Tormented"]
+platforms = ["PlayStation 2"]
+priority = "medium"
+group = "PS2 gaps – Multiplatform"
+plan = "PS2 disc (PAL); used preferred (price limit not set yet)"
+note = "Not remastered. · PAL release; pricey · Project Zero 2 → remake (see Buy Elsewhere)"
+
+[[target]]
+title = "Forbidden Siren"
+aliases = ["Siren"]
+platforms = ["PlayStation 2"]
+priority = "medium"
+group = "PS2 gaps – Sony 1st-party"
+plan = "PS2 disc (PAL); used preferred (price limit not set yet)"
+note = "Only on PS2. · PAL release"
+
+[[target]]
+title = "Forbidden Siren 2"
+platforms = ["PlayStation 2"]
+priority = "low"
+group = "PS2 gaps – Sony 1st-party"
+plan = "PS2 disc (PAL); used preferred (price limit not set yet)"
+note = "PAL-only in the West. · PAL release"
+
+[[target]]
+title = "Haunting Ground"
+platforms = ["PlayStation 2"]
+priority = "low"
+group = "PS2 gaps – Multiplatform"
+plan = "PS2 disc (PAL); used preferred (price limit not set yet)"
+note = "Capcom cult horror. · Pricey"
+
+[[target]]
+title = "Rule of Rose"
+platforms = ["PlayStation 2"]
+priority = "low"
+group = "PS2 gaps – Multiplatform"
+plan = "PS2 disc (PAL); used preferred (price limit not set yet)"
+note = "Collector piece. · Very pricey"
+
+[[target]]
+title = "Silent Hill 3"
+aliases = ["Silent Hill HD Collection"]
+platforms = ["PlayStation 2"]
+priority = "medium"
+group = "PS2 gaps – Multiplatform"
+plan = "PS2 disc (PAL); used preferred (price limit not set yet)"
+note = "Better than the HD Collection port. · PAL release; pricey"
+
+[[target]]
+title = "Silent Hill 4: The Room"
+platforms = ["PlayStation 2"]
+priority = "low"
+group = "PS2 gaps – Multiplatform"
+plan = "PS2 disc (PAL); used preferred (price limit not set yet)"
+note = "Series. · PAL release"
+
+[[target]]
+title = "Silent Hill: Origins"
+platforms = ["PlayStation 2"]
+priority = "low"
+group = "PS2 gaps – Multiplatform"
+plan = "PS2 disc (PAL); used preferred (price limit not set yet)"
+note = "PSP port. · PAL release"
+
+[[target]]
+title = "Silent Hill: Shattered Memories"
+platforms = ["PlayStation 2"]
+priority = "low"
+group = "PS2 gaps – Multiplatform"
+plan = "PS2 disc (PAL); used preferred (price limit not set yet)"
+note = "Wii original, PS2 port. · PAL release"
+
+[[target]]
+title = "Clock Tower 3"
+platforms = ["PlayStation 2"]
+priority = "low"
+group = "PS2 gaps – Multiplatform"
+plan = "PS2 disc (PAL); used preferred (price limit not set yet)"
+note = "Capcom horror. · PAL release"
+
+[[target]]
+title = "Ape Escape 2"
+platforms = ["PlayStation 2"]
+priority = "medium"
+group = "PS2 gaps – Sony 1st-party"
+plan = "PS2 disc (PAL); used preferred (price limit not set yet)"
+note = "Sony classic. · PAL release"
+
+[[target]]
+title = "Ape Escape 3"
+platforms = ["PlayStation 2"]
+priority = "low"
+group = "PS2 gaps – Sony 1st-party"
+plan = "PS2 disc (PAL); used preferred (price limit not set yet)"
+note = "Sony classic. · PAL release"
+
+[[target]]
+title = "Ratchet: Gladiator"
+aliases = ["Ratchet: Deadlocked"]
+platforms = ["PlayStation 2"]
+priority = "low"
+group = "PS2 gaps – Sony 1st-party"
+plan = "PS2 disc (PAL); used preferred (price limit not set yet)"
+note = "Deadlocked – not in the HD Trilogy. · PAL release"
+
+[[target]]
+title = "Primal"
+platforms = ["PlayStation 2"]
+priority = "low"
+group = "PS2 gaps – Sony 1st-party"
+plan = "PS2 disc (PAL); used preferred (price limit not set yet)"
+note = "Exclusive. · PAL release"
+
+[[target]]
+title = "Onimusha 3: Demon Siege"
+platforms = ["PlayStation 2"]
+priority = "low"
+group = "PS2 gaps – Multiplatform"
+plan = "PS2 disc (PAL); used preferred (price limit not set yet)"
+note = "You own Way of the Sword; 1 + 2 → Switch. · PAL release"
+
+[[target]]
+title = "Onimusha: Dawn of Dreams"
+platforms = ["PlayStation 2"]
+priority = "low"
+group = "PS2 gaps – Multiplatform"
+plan = "PS2 disc (PAL); used preferred (price limit not set yet)"
+note = "Series. · PAL release"
+
+[[target]]
+title = "Harry Potter and the Philosopher's Stone"
+platforms = ["PlayStation 2"]
+priority = "low"
+group = "PS2 gaps – Multiplatform"
+plan = "PS2 disc (PAL); used preferred (price limit not set yet)"
+note = "PS2 · Harry Potter collection: PS2 version differs from the PS1 game you own. · PAL release; cheap"
+
+[[target]]
+title = "Harry Potter: Quidditch World Cup"
+platforms = ["PlayStation 2"]
+priority = "low"
+group = "PS2 gaps – Multiplatform"
+plan = "PS2 disc (PAL); used preferred (price limit not set yet)"
+note = "Harry Potter collection. · PAL release; cheap"
+
+[[target]]
+title = "Beyond Good & Evil"
+platforms = ["PlayStation 2"]
+priority = "low"
+group = "PS2 gaps – Multiplatform"
+plan = "PS2 disc (PAL); used preferred (price limit not set yet)"
+note = "The 20th Anniversary Ed. has no PS5 disc. · PAL release"
+verify = "marked '?' in the checklist – verify before buying"
+
+[[target]]
+title = "Star Wars: Episode III – Revenge of the Sith"
+platforms = ["PlayStation 2"]
+priority = "low"
+group = "PS2 gaps – Multiplatform"
+plan = "PS2 disc (PAL); used preferred (price limit not set yet)"
+note = "Star Wars collection. · PAL release; cheap"
+
+[[target]]
+title = "The Legend of Dragoon"
+platforms = ["PlayStation"]
+priority = "medium"
+group = "PS1 gaps – Sony 1st-party"
+plan = "PS1 disc (PAL); used preferred (price limit not set yet)"
+note = "Sony JRPG, never re-released on disc. · PAL release; pricey"
+
+[[target]]
+title = "Vagrant Story"
+platforms = ["PlayStation"]
+priority = "medium"
+group = "PS1 gaps – Multiplatform"
+plan = "PS1 disc (PAL); used preferred (price limit not set yet)"
+note = "Square classic, never remastered. · PAL release"
+
+[[target]]
+title = "Breath of Fire III"
+platforms = ["PlayStation"]
+priority = "medium"
+group = "PS1 gaps – Multiplatform"
+plan = "PS1 disc (PAL); used preferred (price limit not set yet)"
+note = "Capcom JRPG. · PAL release"
+
+[[target]]
+title = "Breath of Fire IV"
+platforms = ["PlayStation"]
+priority = "medium"
+group = "PS1 gaps – Multiplatform"
+plan = "PS1 disc (PAL); used preferred (price limit not set yet)"
+note = "Capcom JRPG. · PAL release"
+
+[[target]]
+title = "Wild ARMs"
+platforms = ["PlayStation"]
+priority = "low"
+group = "PS1 gaps – Sony 1st-party"
+plan = "PS1 disc (PAL); used preferred (price limit not set yet)"
+note = "Series start. · PAL release"
+
+[[target]]
+title = "Wild ARMs 2"
+platforms = ["PlayStation"]
+priority = "low"
+group = "PS1 gaps – Sony 1st-party"
+plan = "PS1 disc (PAL); used preferred (price limit not set yet)"
+note = "Series. · PAL release"
+verify = "marked '?' in the checklist – verify before buying"
+
+[[target]]
+title = "Parasite Eve II"
+platforms = ["PlayStation"]
+priority = "low"
+group = "PS1 gaps – Multiplatform"
+plan = "PS1 disc (PAL); used preferred (price limit not set yet)"
+note = "Parasite Eve 1 was NTSC-only. · PAL release"
+
+[[target]]
+title = "Alundra"
+platforms = ["PlayStation"]
+priority = "low"
+group = "PS1 gaps – Multiplatform"
+plan = "PS1 disc (PAL); used preferred (price limit not set yet)"
+note = "Zelda-like classic. · PAL release"
+
+[[target]]
+title = "Silent Hill"
+platforms = ["PlayStation"]
+priority = "medium"
+group = "PS1 gaps – Multiplatform"
+plan = "PS1 disc (PAL); used preferred (price limit not set yet)"
+note = "The original was never re-released on disc. · PAL release; pricey"
+
+[[target]]
+title = "Dino Crisis"
+platforms = ["PlayStation"]
+priority = "medium"
+group = "PS1 gaps – Multiplatform"
+plan = "PS1 disc (PAL); used preferred (price limit not set yet)"
+note = "Capcom, never re-released on disc. · PAL release"
+
+[[target]]
+title = "Dino Crisis 2"
+platforms = ["PlayStation"]
+priority = "low"
+group = "PS1 gaps – Multiplatform"
+plan = "PS1 disc (PAL); used preferred (price limit not set yet)"
+note = "Sequel. · PAL release"
+
+[[target]]
+title = "Ape Escape"
+platforms = ["PlayStation"]
+priority = "low"
+group = "PS1 gaps – Sony 1st-party"
+plan = "PS1 disc (PAL); used preferred (price limit not set yet)"
+note = "Needs a DualShock (works on PS3 with a DS3). · PAL release"
+
+[[target]]
+title = "Harry Potter and the Chamber of Secrets"
+platforms = ["PlayStation"]
+priority = "low"
+group = "PS1 gaps – Multiplatform"
+plan = "PS1 disc (PAL); used preferred (price limit not set yet)"
+note = "PS1 · Completes the Harry Potter games on PS1. · PAL release; cheap"
+
+[[target]]
+title = "Tenchu: Stealth Assassins"
+platforms = ["PlayStation"]
+priority = "low"
+group = "PS1 gaps – Multiplatform"
+plan = "PS1 disc (PAL); used preferred (price limit not set yet)"
+note = "Classic. · PAL release"
+
+[[target]]
+title = "Syphon Filter"
+platforms = ["PlayStation"]
+priority = "low"
+group = "PS1 gaps – Sony 1st-party"
+plan = "PS1 disc (PAL); used preferred (price limit not set yet)"
+note = "Classic. · PAL release"
+
+[[target]]
+title = "The Last of Us Part I"
+platforms = ["PlayStation 5"]
+priority = "medium"
+group = "Upgrade of an owned disc"
+plan = "PS5 disc; used preferred (price limit not set yet)"
+note = "Replaces/upgrades owned The Last of Us (PS3). Full remake; includes Left Behind."
+
+[[target]]
+title = "Ghost of Tsushima Director's Cut"
+platforms = ["PlayStation 5"]
+priority = "medium"
+group = "Upgrade of an owned disc"
+plan = "PS5 disc; used preferred (price limit not set yet)"
+note = "Replaces/upgrades owned Ghost of Tsushima (PS4). Adds the Iki Island expansion."
+
+[[target]]
+title = "FF VII Remake Intergrade"
+platforms = ["PlayStation 5"]
+priority = "medium"
+group = "Upgrade of an owned disc"
+plan = "PS5 disc; used preferred (price limit not set yet)"
+note = "Replaces/upgrades owned Final Fantasy VII Remake (PS4). Adds the INTERmission Yuffie episode."
+
+[[target]]
+title = "TLOU Part II Remastered"
+platforms = ["PlayStation 5"]
+priority = "low"
+group = "Upgrade of an owned disc"
+plan = "PS5 disc; used preferred (price limit not set yet)"
+note = "Replaces/upgrades owned The Last of Us Part II (PS4). Adds the No Return mode."
+
+[[target]]
+title = "Uncharted: Legacy of Thieves Collection"
+platforms = ["PlayStation 5"]
+priority = "low"
+group = "Upgrade of an owned disc"
+plan = "PS5 disc; used preferred (price limit not set yet)"
+note = "Replaces/upgrades owned Uncharted 4 + Lost Legacy (PS4). Same content, better performance."
+
+[[target]]
+title = "Horizon Zero Dawn Remastered"
+platforms = ["PlayStation 5"]
+priority = "low"
+group = "Upgrade of an owned disc"
+plan = "PS5 disc; used preferred (price limit not set yet)"
+note = "Replaces/upgrades owned Horizon Zero Dawn (PS4). Includes Frozen Wilds – check whether your PS4 disc is the Complete Edition."
+
+[[target]]
+title = "Until Dawn (2024)"
+platforms = ["PlayStation 5"]
+priority = "low"
+group = "Upgrade of an owned disc"
+plan = "PS5 disc; used preferred (price limit not set yet)"
+note = "Replaces/upgrades owned Until Dawn (PS4). Remake."
+
+[[target]]
+title = "Grand Theft Auto V"
+platforms = ["PlayStation 5"]
+priority = "low"
+group = "Upgrade of an owned disc"
+plan = "PS5 disc; used preferred (price limit not set yet)"
+note = "Replaces/upgrades owned Grand Theft Auto V (PS3). Optional."
+
+[[target]]
+title = "Red Dead Redemption (2023)"
+platforms = ["PlayStation 4"]
+priority = "low"
+group = "Upgrade of an owned disc"
+plan = "PS4 disc; used preferred (price limit not set yet)"
+note = "Replaces/upgrades owned Red Dead Redemption (PS3). Includes Undead Nightmare."
+
+[[target]]
+title = "Tomb Raider Definitive Edition"
+platforms = ["PlayStation 4"]
+priority = "low"
+group = "Upgrade of an owned disc"
+plan = "PS4 disc; new or used, only at a really good price"
+note = "Replaces/upgrades owned Tomb Raider 2013 (PS3). Optional. · owned on Steam (Tomb Raider Game of the Year) – only if very cheap"
+
+[[target]]
+title = "Lies of P: Complete Edition"
+platforms = ["Nintendo Switch 2"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Switch 2 full cart"
+note = "Buy on Switch 2 instead of PlayStation – Full game on cart (6 Aug 2026) (Soulslike you'd want)"
+
+[[target]]
+title = "Persona 5 Strikers"
+platforms = ["Nintendo Switch"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Switch cart"
+note = "Buy on Switch instead of PlayStation – Switch physical (Persona series) · owned on Steam (Persona® 5 Strikers) – only if very cheap"
+
+[[target]]
+title = "Persona 5 Tactica"
+platforms = ["Nintendo Switch"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Switch cart"
+note = "Buy on Switch instead of PlayStation – Switch physical (Persona series)"
+
+[[target]]
+title = "The Legend of Heroes: Trails of Cold Steel III"
+platforms = ["Nintendo Switch"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Switch cart"
+note = "Buy on Switch instead of PlayStation – Switch physical (Trails series)"
+
+[[target]]
+title = "The Legend of Heroes: Trails of Cold Steel IV"
+platforms = ["Nintendo Switch"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Switch cart"
+note = "Buy on Switch instead of PlayStation – Switch physical (Trails series)"
+
+[[target]]
+title = "The Legend of Heroes: Trails into Reverie"
+platforms = ["Nintendo Switch"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Switch cart"
+note = "Buy on Switch instead of PlayStation – Switch physical (Trails series)"
+
+[[target]]
+title = "Ys VIII: Lacrimosa of Dana"
+platforms = ["Nintendo Switch"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Switch cart"
+note = "Buy on Switch instead of PlayStation – Switch physical (Ys X Switch 2 = Game-Key Card → take the Switch 1 version) (Ys series)"
+verify = "marked '?' in the checklist – verify"
+
+[[target]]
+title = "Ys IX: Monstrum Nox"
+platforms = ["Nintendo Switch"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Switch cart"
+note = "Buy on Switch instead of PlayStation – Switch physical (Ys X Switch 2 = Game-Key Card → take the Switch 1 version) (Ys series)"
+verify = "marked '?' in the checklist – verify"
+
+[[target]]
+title = "Ys X: Nordics"
+platforms = ["Nintendo Switch"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Switch cart"
+note = "Buy on Switch instead of PlayStation – Switch physical (Ys X Switch 2 = Game-Key Card → take the Switch 1 version) (Ys series)"
+verify = "marked '?' in the checklist – verify"
+
+[[target]]
+title = "Final Fantasy VII"
+platforms = ["Nintendo Switch"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Switch cart"
+note = "Buy on Switch instead of PlayStation – Switch physical (FF classics)"
+verify = "marked '?' in the checklist – verify"
+
+[[target]]
+title = "Final Fantasy VIII Remastered"
+platforms = ["Nintendo Switch"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Switch cart"
+note = "Buy on Switch instead of PlayStation – Switch physical (FF classics)"
+verify = "marked '?' in the checklist – verify"
+
+[[target]]
+title = "Final Fantasy IX"
+platforms = ["Nintendo Switch"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Switch cart"
+note = "Buy on Switch instead of PlayStation – Switch physical (FF classics)"
+verify = "marked '?' in the checklist – verify"
+
+[[target]]
+title = "Final Fantasy X | X-2 HD Remaster"
+platforms = ["Nintendo Switch"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Switch cart"
+note = "Buy on Switch instead of PlayStation – Switch 1 cart (X-2 needs a download in the West); Switch 2 = Game-Key Card (FF classics) · owned on Steam (FINAL FANTASY X/X-2 HD Remaster) – only if very cheap"
+verify = "marked '?' in the checklist – verify"
+
+[[target]]
+title = "World of Final Fantasy Maxima"
+platforms = ["Nintendo Switch"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Switch cart"
+note = "Buy on Switch instead of PlayStation – Switch physical (FF spin-off)"
+
+[[target]]
+title = "Ni no Kuni: Wrath of the White Witch Remastered"
+platforms = ["Nintendo Switch"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Switch cart"
+note = "Buy on Switch instead of PlayStation – Switch physical (You own Ni no Kuni II (PS4))"
+
+[[target]]
+title = "Valkyria Chronicles"
+platforms = ["Nintendo Switch"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Switch cart"
+note = "Buy on Switch instead of PlayStation – Switch physical (Sega SRPG)"
+
+[[target]]
+title = "Valkyria Chronicles 4"
+platforms = ["Nintendo Switch"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Switch cart"
+note = "Buy on Switch instead of PlayStation – Switch physical (Sega SRPG) · owned on Steam (Valkyria Chronicles 4 Complete Edition) – only if very cheap"
+
+[[target]]
+title = "Okami HD"
+platforms = ["Nintendo Switch"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Switch cart"
+note = "Buy on Switch instead of PlayStation – Switch physical (Capcom classics) · owned on Steam (Okami HD) – only if very cheap"
+
+[[target]]
+title = "Onimusha: Warlords"
+platforms = ["Nintendo Switch"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Switch cart"
+note = "Buy on Switch instead of PlayStation – Switch physical (Capcom classics)"
+
+[[target]]
+title = "Onimusha 2: Samurai's Destiny"
+platforms = ["Nintendo Switch"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Switch cart"
+note = "Buy on Switch instead of PlayStation – Switch physical (Onimusha series)"
+verify = "marked '?' in the checklist – verify"
+
+[[target]]
+title = "NieR:Automata The End of YoRHa Edition"
+aliases = ["NieR:Automata"]
+platforms = ["Nintendo Switch"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Switch cart"
+note = "Buy on Switch instead of PlayStation – Switch physical (NieR series) · owned on Steam (NieR:Automata™) – only if very cheap"
+
+[[target]]
+title = "Dark Souls: Remastered"
+platforms = ["Nintendo Switch"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Switch cart"
+note = "Buy on Switch instead of PlayStation – Switch physical (Dark Souls series)"
+
+[[target]]
+title = "Dragon's Dogma: Dark Arisen"
+platforms = ["Nintendo Switch"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Switch cart"
+note = "Buy on Switch instead of PlayStation – Switch 1 physical (Dragon's Dogma series) · owned on Steam (Dragon's Dogma: Dark Arisen) – only if very cheap"
+
+[[target]]
+title = "Crash Bandicoot N. Sane Trilogy"
+platforms = ["Nintendo Switch"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Switch cart"
+note = "Buy on Switch instead of PlayStation – Switch physical (PS1 mascots) · owned on Steam (Crash Bandicoot™ N. Sane Trilogy) – only if very cheap"
+
+[[target]]
+title = "Crash Bandicoot 4: It's About Time"
+platforms = ["Nintendo Switch"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Switch cart"
+note = "Buy on Switch instead of PlayStation – Switch physical (PS1 mascots)"
+
+[[target]]
+title = "Spyro Reignited Trilogy"
+platforms = ["Nintendo Switch"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Switch cart"
+note = "Buy on Switch instead of PlayStation – Switch physical (PS1 mascots) · owned on Steam (Spyro™ Reignited Trilogy) – only if very cheap"
+
+[[target]]
+title = "Crash Team Racing Nitro-Fueled"
+platforms = ["Nintendo Switch"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Switch cart"
+note = "Buy on Switch instead of PlayStation – Switch physical (PS1 mascots)"
+
+[[target]]
+title = "Tomb Raider I-III Remastered Starring Lara Croft"
+platforms = ["Nintendo Switch"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Switch cart"
+note = "Buy on Switch instead of PlayStation – Switch physical (Tomb Raider) · owned on Steam (Tomb Raider I-III Remastered Starring Lara Croft) – only if very cheap"
+
+[[target]]
+title = "Tomb Raider IV-VI Remastered"
+platforms = ["Nintendo Switch"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Switch cart"
+note = "Buy on Switch instead of PlayStation – Switch physical (Tomb Raider) · owned on Steam (Tomb Raider IV-VI Remastered) – only if very cheap"
+
+[[target]]
+title = "BioShock: The Collection"
+platforms = ["Nintendo Switch"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Switch cart"
+note = "Buy on Switch instead of PlayStation – Switch physical (2K)"
+
+[[target]]
+title = "Ace Combat 7: Skies Unknown"
+platforms = ["Nintendo Switch"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Switch cart"
+note = "Buy on Switch instead of PlayStation – Switch physical (You own Assault Horizon (PS3))"
+
+[[target]]
+title = "Dragon Ball Z: Kakarot"
+platforms = ["Nintendo Switch"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Switch cart"
+note = "Buy on Switch instead of PlayStation – Switch 1 physical (Bandai Namco)"
+
+[[target]]
+title = "Death end re;Quest"
+platforms = ["Nintendo Switch"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Switch cart"
+note = "Buy on Switch instead of PlayStation – Switch physical (You own DeQ 2 (Switch))"
+
+[[target]]
+title = "Atelier Arland Series Deluxe Pack"
+platforms = ["Nintendo Switch"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Switch cart"
+note = "Buy on Switch instead of PlayStation – Switch physical (Atelier series)"
+
+[[target]]
+title = "Atelier Mysterious Trilogy Deluxe Pack"
+platforms = ["Nintendo Switch"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Switch cart"
+note = "Buy on Switch instead of PlayStation – Switch physical (Atelier series)"
+
+[[target]]
+title = "Disgaea 1 Complete"
+platforms = ["Nintendo Switch"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Switch cart"
+note = "Buy on Switch instead of PlayStation – Switch physical (Disgaea series)"
+
+[[target]]
+title = "Disgaea 4 Complete+"
+platforms = ["Nintendo Switch"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Switch cart"
+note = "Buy on Switch instead of PlayStation – Switch physical (Disgaea series)"
+
+[[target]]
+title = "Disgaea 5 Complete"
+platforms = ["Nintendo Switch"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Switch cart"
+note = "Buy on Switch instead of PlayStation – Switch physical (Disgaea series)"
+
+[[target]]
+title = "Assassin's Creed: The Ezio Collection"
+platforms = ["Nintendo Switch"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Switch cart"
+note = "Buy on Switch instead of PlayStation – Switch physical (AC series)"
+
+[[target]]
+title = "Assassin's Creed III Remastered"
+platforms = ["Nintendo Switch"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Switch cart"
+note = "Buy on Switch instead of PlayStation – Switch physical (AC series)"
+
+[[target]]
+title = "L.A. Noire"
+platforms = ["Nintendo Switch"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Switch cart"
+note = "Buy on Switch instead of PlayStation – Switch physical (Rockstar)"
+
+[[target]]
+title = "Grand Theft Auto: The Trilogy – The Definitive Edition"
+platforms = ["Nintendo Switch"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Switch cart"
+note = "Buy on Switch instead of PlayStation – Switch physical (Rockstar)"
+
+[[target]]
+title = "Fatal Frame II: Crimson Butterfly Remake"
+aliases = ["Project Zero II: Crimson Butterfly"]
+platforms = ["Nintendo Switch 2"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Switch 2 full cart"
+note = "Buy on Switch 2 instead of PlayStation – Remake – check cart vs Game-Key Card before buying (Fatal Frame series)"
+verify = "marked '?' in the checklist – verify"
+
+[[target]]
+title = "The Witcher 3: Wild Hunt – Complete Edition"
+platforms = ["Nintendo Switch", "PC"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Switch cart or Steam sale"
+state = "skip"
+note = "own on Steam (The Witcher 3: Wild Hunt - Complete Edition)"
+
+[[target]]
+title = "Sifu"
+platforms = ["Nintendo Switch"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Switch cart"
+note = "Buy on Switch instead of PlayStation – Switch 1 physical (Indie action) · owned on Steam (Sifu) – only if very cheap"
+verify = "marked '?' in the checklist – verify"
+
+[[target]]
+title = "Stray"
+platforms = ["Nintendo Switch"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Switch cart"
+note = "Buy on Switch instead of PlayStation – Switch 1 physical (Indie action) · owned on Steam (Stray) – only if very cheap"
+verify = "marked '?' in the checklist – verify"
+
+[[target]]
+title = "Wolfenstein II: The New Colossus"
+platforms = ["xbox-modern"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Xbox disc (Disc-to-Digital)"
+note = "Buy on Xbox instead of PlayStation – Xbox disc = Disc-to-Digital licence (your MS 1st-party angle) (Microsoft/Bethesda 1st-party)"
+
+[[target]]
+title = "Dishonored"
+aliases = ["Dishonored: Definitive Edition"]
+platforms = ["xbox-modern"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Xbox disc (Disc-to-Digital)"
+note = "Buy on Xbox instead of PlayStation – Xbox disc = Disc-to-Digital licence (your MS 1st-party angle) (Microsoft/Bethesda 1st-party)"
+
+[[target]]
+title = "Dishonored 2"
+platforms = ["xbox-modern"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Xbox disc (Disc-to-Digital)"
+note = "Buy on Xbox instead of PlayStation – Xbox disc = Disc-to-Digital licence (your MS 1st-party angle) (Microsoft/Bethesda 1st-party)"
+
+[[target]]
+title = "Prey"
+platforms = ["xbox-modern"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Xbox disc (Disc-to-Digital)"
+note = "Buy on Xbox instead of PlayStation – Xbox disc = Disc-to-Digital licence (your MS 1st-party angle) (Microsoft/Bethesda 1st-party)"
+
+[[target]]
+title = "The Evil Within"
+platforms = ["xbox-modern"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Xbox disc (Disc-to-Digital)"
+note = "Buy on Xbox instead of PlayStation – Xbox disc = Disc-to-Digital licence (your MS 1st-party angle) (Microsoft/Bethesda 1st-party)"
+
+[[target]]
+title = "The Evil Within 2"
+platforms = ["xbox-modern"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Xbox disc (Disc-to-Digital)"
+note = "Buy on Xbox instead of PlayStation – Xbox disc = Disc-to-Digital licence (your MS 1st-party angle) (Microsoft/Bethesda 1st-party)"
+
+[[target]]
+title = "Ghostwire: Tokyo"
+platforms = ["xbox-modern"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Xbox disc (Disc-to-Digital)"
+note = "Buy on Xbox instead of PlayStation – Xbox disc = Disc-to-Digital licence (your MS 1st-party angle) (Microsoft/Bethesda 1st-party) · owned on Steam (Ghostwire: Tokyo) – only if very cheap"
+
+[[target]]
+title = "Hi-Fi Rush"
+platforms = ["xbox-modern"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Xbox disc, cheap from netgames"
+note = "Buy on Xbox instead of PlayStation – Xbox disc = Disc-to-Digital licence (your MS 1st-party angle) (Microsoft/Bethesda 1st-party) · owned on Steam (Hi-Fi RUSH) – only if very cheap"
+
+[[target]]
+title = "Indiana Jones and the Great Circle"
+platforms = ["xbox-modern"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Xbox disc (Disc-to-Digital)"
+note = "Buy on Xbox instead of PlayStation – Xbox disc = Disc-to-Digital licence (your MS 1st-party angle) (Microsoft/Bethesda 1st-party)"
+
+[[target]]
+title = "Baldur's Gate 3"
+platforms = ["PC"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Steam sale only (no physical)"
+state = "skip"
+note = "own on Steam (Baldur's Gate 3)"
+
+[[target]]
+title = "Kingdom Come: Deliverance II"
+platforms = ["PC"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+plan = "Steam sale only (no physical)"
+note = "Buy on PC instead of PlayStation – Steam sales (Western RPGs)"
+
+[[target]]
+title = "Helldivers 2"
+platforms = ["PlayStation 5"]
+priority = "someday"
+group = "Buy elsewhere (not PlayStation)"
+state = "skip"
+note = "You focus on single-player (Multiplayer-focused)"
+
+[[target]]
+title = "Gran Turismo Sport"
+platforms = ["PlayStation 4"]
+priority = "someday"
+group = "Buy elsewhere (not PlayStation)"
+state = "skip"
+note = "You focus on single-player (Multiplayer-focused)"
+
+[[target]]
+title = "Marathon"
+platforms = ["PlayStation 5"]
+priority = "someday"
+group = "Buy elsewhere (not PlayStation)"
+state = "skip"
+note = "You focus on single-player (Multiplayer-focused)"
+
+[[target]]
+title = "Fairgame$"
+platforms = ["PlayStation 5"]
+priority = "someday"
+group = "Buy elsewhere (not PlayStation)"
+state = "skip"
+note = "You focus on single-player (Multiplayer-focused)"
+
+[[target]]
+title = "Horizon Call of the Mountain"
+platforms = ["PlayStation 5"]
+priority = "someday"
+group = "Buy elsewhere (not PlayStation)"
+state = "skip"
+note = "Needs PS VR2 (Sony 1st-party)"
+
+[[target]]
+title = "Persona 4 Golden"
+platforms = ["PlayStation Vita"]
+priority = "someday"
+group = "Buy elsewhere (not PlayStation)"
+state = "skip"
+note = "Can't play PSP/Vita discs on PS3/PS5 (Handheld exclusives) · owned on Steam (Persona 4 Golden) – only if very cheap"
+
+[[target]]
+title = "Killzone: Mercenary"
+platforms = ["PlayStation Vita"]
+priority = "someday"
+group = "Buy elsewhere (not PlayStation)"
+state = "skip"
+note = "Can't play PSP/Vita discs on PS3/PS5 (Handheld exclusives)"
+
+[[target]]
+title = "Xenosaga Episode I: Der Wille zur Macht"
+platforms = ["PlayStation 2"]
+priority = "someday"
+group = "Buy elsewhere (not PlayStation)"
+state = "skip"
+note = "NTSC-only – PS1/PS2 discs are region-locked on a PAL PS3 (JRPG classics)"
+
+[[target]]
+title = "Xenosaga Episode III: Also sprach Zarathustra"
+platforms = ["PlayStation 2"]
+priority = "someday"
+group = "Buy elsewhere (not PlayStation)"
+state = "skip"
+note = "NTSC-only – PS1/PS2 discs are region-locked on a PAL PS3 (JRPG classics)"
+
+[[target]]
+title = "Suikoden III"
+platforms = ["PlayStation 2"]
+priority = "someday"
+group = "Buy elsewhere (not PlayStation)"
+state = "skip"
+note = "NTSC-only – PS1/PS2 discs are region-locked on a PAL PS3 (JRPG classics)"
+
+[[target]]
+title = "Radiata Stories"
+platforms = ["PlayStation 2"]
+priority = "someday"
+group = "Buy elsewhere (not PlayStation)"
+state = "skip"
+note = "NTSC-only – PS1/PS2 discs are region-locked on a PAL PS3 (JRPG classics)"
+
+[[target]]
+title = "Grandia III"
+platforms = ["PlayStation 2"]
+priority = "someday"
+group = "Buy elsewhere (not PlayStation)"
+state = "skip"
+note = "NTSC-only – PS1/PS2 discs are region-locked on a PAL PS3 (JRPG classics)"
+
+[[target]]
+title = "Xenogears"
+platforms = ["PlayStation"]
+priority = "someday"
+group = "Buy elsewhere (not PlayStation)"
+state = "skip"
+note = "NTSC-only – PS1/PS2 discs are region-locked on a PAL PS3 (JRPG classics)"
+
+[[target]]
+title = "Valkyrie Profile"
+platforms = ["PlayStation"]
+priority = "someday"
+group = "Buy elsewhere (not PlayStation)"
+state = "skip"
+note = "NTSC-only – PS1/PS2 discs are region-locked on a PAL PS3 (JRPG classics)"
+
+[[target]]
+title = "Parasite Eve"
+platforms = ["PlayStation"]
+priority = "someday"
+group = "Buy elsewhere (not PlayStation)"
+state = "skip"
+note = "NTSC-only – PS1/PS2 discs are region-locked on a PAL PS3 (JRPG classics)"
+
+[[target]]
+title = "Final Fantasy Tactics"
+platforms = ["PlayStation"]
+priority = "someday"
+group = "Buy elsewhere (not PlayStation)"
+state = "skip"
+note = "NTSC-only – PS1/PS2 discs are region-locked on a PAL PS3 (JRPG classics)"

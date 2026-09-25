@@ -1,0 +1,1790 @@
+# Series checklists – PlayStation / cross-platform — imported from the PlayStation chat export, 25 Sep 2026
+# `verify` = unsure in the source – check
+
+[[series]]
+platforms = ["playstation"]
+name = "God of War"
+description = "Series Tracker tab"
+
+[[series.entry]]
+title = "God of War"
+aliases = ["God of War Collection"]
+year = 2005
+note = "PS2 original; HD in God of War Collection (PS3)"
+
+[[series.entry]]
+title = "God of War II"
+aliases = ["God of War Collection"]
+year = 2007
+note = "PS2 original; HD in God of War Collection (PS3)"
+
+[[series.entry]]
+title = "God of War: Chains of Olympus"
+aliases = ["God of War: Origins Collection"]
+year = 2008
+note = "PSP original; HD in Origins Collection (PS3)"
+
+[[series.entry]]
+title = "God of War III"
+year = 2010
+note = "Owned (PS3)"
+
+[[series.entry]]
+title = "God of War: Ghost of Sparta"
+aliases = ["God of War: Origins Collection"]
+year = 2010
+note = "PSP original; HD in Origins Collection (PS3)"
+
+[[series.entry]]
+title = "God of War: Ascension"
+year = 2013
+note = "Owned (PS3)"
+
+[[series.entry]]
+title = "God of War (2018)"
+year = 2018
+note = "Also owned on Steam"
+
+[[series.entry]]
+title = "God of War Ragnarök"
+aliases = ["God of War: Ragnarök"]
+year = 2022
+note = "Owned (PS5)"
+
+[[series]]
+platforms = ["playstation"]
+name = "Uncharted"
+description = "Series Tracker tab – complete"
+
+[[series.entry]]
+title = "Uncharted: Drake's Fortune"
+aliases = ["Uncharted: The Nathan Drake Collection"]
+year = 2007
+note = "PS3 disc owned (surplus) + Nathan Drake Collection (PS4)"
+
+[[series.entry]]
+title = "Uncharted 2: Among Thieves"
+aliases = ["Uncharted: The Nathan Drake Collection"]
+year = 2009
+
+[[series.entry]]
+title = "Uncharted 3: Drake's Deception"
+aliases = ["Uncharted: The Nathan Drake Collection"]
+year = 2011
+note = "PS3 disc owned (surplus)"
+
+[[series.entry]]
+title = "Uncharted: Golden Abyss"
+year = 2011
+optional = true
+note = "Vita – owned, not playable on PS3/PS5"
+
+[[series.entry]]
+title = "Uncharted 4: A Thief's End"
+aliases = ["Uncharted: Legacy of Thieves Collection"]
+year = 2016
+note = "Owned (PS4)"
+
+[[series.entry]]
+title = "Uncharted: The Lost Legacy"
+aliases = ["Uncharted: Legacy of Thieves Collection"]
+year = 2017
+note = "Owned (PS4)"
+
+[[series]]
+platforms = ["playstation"]
+name = "The Last of Us"
+description = "Series Tracker tab – complete"
+
+[[series.entry]]
+title = "The Last of Us"
+aliases = ["The Last of Us Part I", "The Last of Us Remastered"]
+year = 2013
+note = "Owned (PS3); Part I (PS5) is an optional upgrade"
+
+[[series.entry]]
+title = "The Last of Us Part II"
+aliases = ["The Last of Us: Part II", "The Last of Us Part II Remastered"]
+year = 2020
+note = "Owned (PS4)"
+
+[[series]]
+platforms = ["playstation"]
+name = "Ratchet & Clank"
+description = "Series Tracker tab"
+
+[[series.entry]]
+title = "Ratchet & Clank"
+aliases = ["Ratchet & Clank Trilogy: HD Collection"]
+year = 2002
+note = "In HD Trilogy (PS3)"
+
+[[series.entry]]
+title = "Ratchet & Clank: Going Commando"
+aliases = ["Ratchet & Clank Trilogy: HD Collection"]
+year = 2003
+note = "In HD Trilogy (PS3)"
+
+[[series.entry]]
+title = "Ratchet & Clank: Up Your Arsenal"
+aliases = ["Ratchet & Clank Trilogy: HD Collection"]
+year = 2004
+note = "In HD Trilogy (PS3)"
+
+[[series.entry]]
+title = "Ratchet: Deadlocked"
+aliases = ["Ratchet: Gladiator"]
+year = 2005
+note = "PAL title: Ratchet: Gladiator (PS2)"
+
+[[series.entry]]
+title = "Ratchet & Clank: Size Matters"
+year = 2007
+optional = true
+note = "PSP/PS2 – not on the checklist"
+
+[[series.entry]]
+title = "Ratchet & Clank Future: Tools of Destruction"
+year = 2007
+
+[[series.entry]]
+title = "Ratchet & Clank Future: Quest for Booty"
+year = 2008
+verify = "EU disc release to verify"
+
+[[series.entry]]
+title = "Ratchet & Clank Future: A Crack in Time"
+year = 2009
+
+[[series.entry]]
+title = "Ratchet & Clank: All 4 One"
+year = 2011
+optional = true
+note = "Co-op spin-off – not on the checklist"
+
+[[series.entry]]
+title = "Ratchet & Clank: Full Frontal Assault"
+year = 2012
+optional = true
+note = "Spin-off – not on the checklist"
+
+[[series.entry]]
+title = "Ratchet & Clank: Into the Nexus"
+year = 2013
+
+[[series.entry]]
+title = "Ratchet & Clank (2016)"
+year = 2016
+
+[[series.entry]]
+title = "Ratchet & Clank: Rift Apart"
+year = 2021
+note = "Owned (PS5)"
+
+[[series]]
+platforms = ["playstation"]
+name = "Resistance"
+description = "Series Tracker tab"
+
+[[series.entry]]
+title = "Resistance: Fall of Man"
+year = 2006
+note = "Owned (PS3)"
+
+[[series.entry]]
+title = "Resistance 2"
+year = 2008
+note = "Owned (PS3)"
+
+[[series.entry]]
+title = "Resistance 3"
+year = 2011
+
+[[series.entry]]
+title = "Resistance: Retribution"
+year = 2009
+optional = true
+note = "PSP – not playable"
+
+[[series.entry]]
+title = "Resistance: Burning Skies"
+year = 2012
+optional = true
+note = "Vita – not playable"
+
+[[series]]
+platforms = ["playstation"]
+name = "Killzone"
+description = "Series Tracker tab"
+
+[[series.entry]]
+title = "Killzone"
+aliases = ["Killzone Trilogy", "Killzone HD"]
+year = 2004
+note = "Only on disc via Killzone Trilogy (PS3)"
+
+[[series.entry]]
+title = "Killzone: Liberation"
+year = 2006
+optional = true
+note = "PSP – not playable"
+
+[[series.entry]]
+title = "Killzone 2"
+aliases = ["Killzone Trilogy"]
+year = 2009
+note = "Owned (PS3)"
+
+[[series.entry]]
+title = "Killzone 3"
+aliases = ["Killzone Trilogy"]
+year = 2011
+note = "Owned (PS3)"
+
+[[series.entry]]
+title = "Killzone: Mercenary"
+year = 2013
+optional = true
+note = "Vita – not playable"
+
+[[series.entry]]
+title = "Killzone: Shadow Fall"
+year = 2013
+note = "Owned (PS4)"
+
+[[series]]
+platforms = ["playstation"]
+name = "inFamous"
+description = "Series Tracker tab"
+
+[[series.entry]]
+title = "inFamous"
+year = 2009
+verify = "an EU 'inFamous Collection' may exist"
+
+[[series.entry]]
+title = "inFamous 2"
+year = 2011
+
+[[series.entry]]
+title = "inFamous: Festival of Blood"
+year = 2011
+optional = true
+note = "Stand-alone DLC – not on the checklist"
+
+[[series.entry]]
+title = "inFamous Second Son"
+year = 2014
+
+[[series.entry]]
+title = "inFamous First Light"
+year = 2014
+verify = "EU disc release to verify"
+
+[[series]]
+platforms = ["playstation"]
+name = "Marvel's Spider-Man (Insomniac)"
+description = "Series Tracker tab"
+
+[[series.entry]]
+title = "Marvel's Spider-Man"
+aliases = ["Marvel's Spider-Man Remastered", "Marvel's Spider-Man: Game of the Year Edition"]
+year = 2018
+note = "Buy PS4 GOTY disc"
+
+[[series.entry]]
+title = "Marvel's Spider-Man: Miles Morales"
+year = 2020
+note = "Owned (PS5)"
+
+[[series.entry]]
+title = "Marvel's Spider-Man 2"
+year = 2023
+note = "Owned (PS5)"
+
+[[series]]
+platforms = ["playstation"]
+name = "Horizon"
+description = "Series Tracker tab – complete"
+
+[[series.entry]]
+title = "Horizon Zero Dawn"
+aliases = ["Horizon: Zero Dawn", "Horizon Zero Dawn Remastered", "Horizon Zero Dawn: Complete Edition"]
+year = 2017
+note = "Owned (PS4)"
+
+[[series.entry]]
+title = "Horizon Forbidden West"
+year = 2022
+note = "Owned (PS5)"
+
+[[series.entry]]
+title = "Horizon Call of the Mountain"
+year = 2023
+optional = true
+note = "Needs PS VR2 – skipped"
+
+[[series]]
+platforms = ["playstation"]
+name = "Ghost of …"
+description = "Series Tracker tab – complete"
+
+[[series.entry]]
+title = "Ghost of Tsushima"
+aliases = ["Ghost of Tsushima Director's Cut"]
+year = 2020
+note = "Owned (PS4)"
+
+[[series.entry]]
+title = "Ghost of Yōtei"
+aliases = ["Ghost of Yotei"]
+year = 2025
+note = "Owned (PS5)"
+
+[[series]]
+platforms = ["playstation"]
+name = "Sly Cooper"
+description = "Series Tracker tab"
+
+[[series.entry]]
+title = "Sly Cooper and the Thievius Raccoonus"
+aliases = ["The Sly Trilogy"]
+year = 2002
+
+[[series.entry]]
+title = "Sly 2: Band of Thieves"
+aliases = ["The Sly Trilogy"]
+year = 2004
+
+[[series.entry]]
+title = "Sly 3: Honor Among Thieves"
+aliases = ["The Sly Trilogy"]
+year = 2005
+
+[[series.entry]]
+title = "Sly Cooper: Thieves in Time"
+year = 2013
+
+[[series]]
+platforms = ["playstation"]
+name = "Jak and Daxter"
+description = "Series Tracker tab – complete"
+
+[[series.entry]]
+title = "Jak and Daxter: The Precursor Legacy"
+aliases = ["Jak and Daxter Collection"]
+year = 2001
+
+[[series.entry]]
+title = "Jak II"
+aliases = ["Jak and Daxter Collection"]
+year = 2003
+note = "PAL title: Jak II: Renegade"
+
+[[series.entry]]
+title = "Jak 3"
+aliases = ["Jak and Daxter Collection"]
+year = 2004
+
+[[series.entry]]
+title = "Jak X: Combat Racing"
+year = 2005
+optional = true
+note = "Spin-off"
+
+[[series]]
+platforms = ["playstation"]
+name = "LittleBigPlanet"
+description = "Series Tracker tab"
+
+[[series.entry]]
+title = "LittleBigPlanet"
+year = 2008
+note = "Owned (PS3)"
+
+[[series.entry]]
+title = "LittleBigPlanet 2"
+year = 2011
+
+[[series.entry]]
+title = "LittleBigPlanet 3"
+year = 2014
+
+[[series.entry]]
+title = "Sackboy: A Big Adventure"
+year = 2020
+note = "Owned (PS5)"
+
+[[series]]
+platforms = ["playstation"]
+name = "Team Ico"
+description = "Series Tracker tab"
+
+[[series.entry]]
+title = "ICO"
+aliases = ["ICO & Shadow of the Colossus Collection"]
+year = 2001
+
+[[series.entry]]
+title = "Shadow of the Colossus"
+aliases = ["ICO & Shadow of the Colossus Collection"]
+year = 2005
+note = "2018 PS4 remake has the same title – preferred version"
+
+[[series.entry]]
+title = "The Last Guardian"
+year = 2016
+
+[[series]]
+platforms = ["playstation"]
+name = "Gravity Rush"
+description = "Series Tracker tab"
+
+[[series.entry]]
+title = "Gravity Rush"
+aliases = ["Gravity Rush Remastered"]
+year = 2012
+note = "Vita original; buy PS4 Remastered"
+
+[[series.entry]]
+title = "Gravity Rush 2"
+year = 2017
+
+[[series]]
+platforms = ["playstation"]
+name = "Death Stranding"
+description = "Series Tracker tab"
+
+[[series.entry]]
+title = "Death Stranding"
+aliases = ["Death Stranding Director's Cut"]
+year = 2019
+note = "Director's Cut also owned on Steam"
+
+[[series.entry]]
+title = "Death Stranding 2: On the Beach"
+year = 2025
+note = "Owned (PS5)"
+
+[[series]]
+platforms = ["playstation"]
+name = "Quantic Dream (PlayStation)"
+description = "Series Tracker tab"
+
+[[series.entry]]
+title = "Heavy Rain"
+aliases = ["Heavy Rain & Beyond: Two Souls Collection"]
+year = 2010
+note = "Owned (PS3)"
+
+[[series.entry]]
+title = "Beyond: Two Souls"
+aliases = ["Heavy Rain & Beyond: Two Souls Collection"]
+year = 2013
+
+[[series.entry]]
+title = "Detroit: Become Human"
+year = 2018
+
+[[series]]
+platforms = ["playstation", "nintendo"]
+name = "FromSoftware Souls"
+description = "Series Tracker tab (FromSoftware row)"
+
+[[series.entry]]
+title = "Demon's Souls"
+year = 2009
+note = "2020 PS5 remake owned"
+
+[[series.entry]]
+title = "Dark Souls"
+aliases = ["Dark Souls: Remastered"]
+year = 2011
+note = "Buy on Switch"
+
+[[series.entry]]
+title = "Dark Souls II"
+aliases = ["Dark Souls II: Scholar of the First Sin"]
+year = 2014
+
+[[series.entry]]
+title = "Bloodborne"
+year = 2015
+note = "Owned (PS4)"
+
+[[series.entry]]
+title = "Dark Souls III"
+aliases = ["Dark Souls III: The Fire Fades Edition"]
+year = 2016
+
+[[series.entry]]
+title = "Sekiro: Shadows Die Twice"
+year = 2019
+
+[[series.entry]]
+title = "Elden Ring"
+aliases = ["Elden Ring: Shadow of the Erdtree Edition"]
+year = 2022
+note = "Owned on Steam – disc only if very cheap"
+
+[[series.entry]]
+title = "Armored Core VI: Fires of Rubicon"
+year = 2023
+optional = true
+note = "Listed under FromSoftware in the tracker, not a Souls game"
+
+[[series]]
+platforms = ["playstation"]
+name = "Resident Evil"
+description = "Series Tracker tab"
+
+[[series.entry]]
+title = "Resident Evil"
+aliases = ["Resident Evil Origins Collection"]
+year = 1996
+note = "HD Remaster in Origins Collection (PS4)"
+
+[[series.entry]]
+title = "Resident Evil 2"
+year = 1998
+note = "2019 remake owned (PS5)"
+
+[[series.entry]]
+title = "Resident Evil 3: Nemesis"
+aliases = ["Resident Evil 3"]
+year = 1999
+note = "2020 remake owned (PS5)"
+
+[[series.entry]]
+title = "Resident Evil – Code: Veronica"
+year = 2000
+verify = "not on the checklist"
+
+[[series.entry]]
+title = "Resident Evil 0"
+aliases = ["Resident Evil Origins Collection"]
+year = 2002
+
+[[series.entry]]
+title = "Resident Evil 4"
+year = 2005
+note = "2023 remake owned (PS5)"
+
+[[series.entry]]
+title = "Resident Evil 5"
+year = 2009
+note = "Owned (PS3 + PS4)"
+
+[[series.entry]]
+title = "Resident Evil 6"
+year = 2012
+note = "Owned (PS4)"
+
+[[series.entry]]
+title = "Resident Evil 7: Biohazard"
+aliases = ["Resident Evil: Biohazard"]
+year = 2017
+verify = "CLZ title 'Resident Evil: Biohazard' (PS5) is probably this"
+
+[[series.entry]]
+title = "Resident Evil Village"
+year = 2021
+note = "Owned (PS5)"
+
+[[series.entry]]
+title = "Resident Evil Requiem"
+year = 2026
+
+[[series.entry]]
+title = "Resident Evil: Revelations"
+year = 2012
+optional = true
+note = "Spin-off; owned on Steam"
+
+[[series.entry]]
+title = "Resident Evil: Revelations 2"
+year = 2015
+optional = true
+note = "Spin-off; owned (PS4)"
+
+[[series.entry]]
+title = "Resident Evil: Operation Raccoon City"
+year = 2012
+optional = true
+note = "Spin-off; owned (PS3)"
+
+[[series]]
+platforms = ["playstation"]
+name = "Silent Hill"
+description = "Series Tracker tab"
+
+[[series.entry]]
+title = "Silent Hill"
+year = 1999
+note = "PS1 PAL"
+
+[[series.entry]]
+title = "Silent Hill 2"
+aliases = ["Silent Hill HD Collection"]
+year = 2001
+note = "2024 remake (same title) is the target"
+
+[[series.entry]]
+title = "Silent Hill 3"
+aliases = ["Silent Hill HD Collection"]
+year = 2003
+note = "PS2 PAL preferred over HD Collection"
+
+[[series.entry]]
+title = "Silent Hill 4: The Room"
+year = 2004
+
+[[series.entry]]
+title = "Silent Hill: Origins"
+year = 2007
+note = "PS2 port"
+
+[[series.entry]]
+title = "Silent Hill: Homecoming"
+year = 2008
+verify = "not on the checklist"
+
+[[series.entry]]
+title = "Silent Hill: Shattered Memories"
+year = 2009
+note = "PS2 port"
+
+[[series.entry]]
+title = "Silent Hill: Downpour"
+year = 2012
+verify = "not on the checklist"
+
+[[series.entry]]
+title = "Silent Hill f"
+year = 2025
+note = "Owned (PS5)"
+
+[[series]]
+platforms = ["playstation"]
+name = "Metal Gear"
+description = "Series Tracker tab"
+
+[[series.entry]]
+title = "Metal Gear"
+aliases = ["Metal Gear Solid: Master Collection Vol. 1", "Metal Gear Solid: The Legacy Collection"]
+year = 1987
+
+[[series.entry]]
+title = "Metal Gear 2: Solid Snake"
+aliases = ["Metal Gear Solid: Master Collection Vol. 1", "Metal Gear Solid: The Legacy Collection"]
+year = 1990
+
+[[series.entry]]
+title = "Metal Gear Solid"
+aliases = ["Metal Gear Solid: Master Collection Vol. 1", "Metal Gear Solid: The Legacy Collection"]
+year = 1998
+
+[[series.entry]]
+title = "Metal Gear Solid 2: Sons of Liberty"
+aliases = ["Metal Gear Solid: Master Collection Vol. 1", "Metal Gear Solid: The Legacy Collection"]
+year = 2001
+
+[[series.entry]]
+title = "Metal Gear Solid 3: Snake Eater"
+aliases = ["Metal Gear Solid: Master Collection Vol. 1", "Metal Gear Solid: The Legacy Collection", "Metal Gear Solid Delta: Snake Eater"]
+year = 2004
+
+[[series.entry]]
+title = "Metal Gear Solid 4: Guns of the Patriots"
+aliases = ["Metal Gear Solid: Master Collection Vol. 2", "Metal Gear Solid: The Legacy Collection"]
+year = 2008
+note = "PS3 disc now surplus"
+
+[[series.entry]]
+title = "Metal Gear Solid: Peace Walker"
+aliases = ["Metal Gear Solid: Master Collection Vol. 2", "Metal Gear Solid: The Legacy Collection"]
+year = 2010
+
+[[series.entry]]
+title = "Metal Gear Solid V: Ground Zeroes"
+aliases = ["Metal Gear Solid V: The Definitive Experience"]
+year = 2014
+note = "Owned on Steam"
+
+[[series.entry]]
+title = "Metal Gear Solid V: The Phantom Pain"
+aliases = ["Metal Gear Solid V: The Definitive Experience"]
+year = 2015
+note = "Owned on Steam"
+
+[[series.entry]]
+title = "Metal Gear: Ghost Babel"
+aliases = ["Metal Gear Solid: Master Collection Vol. 2"]
+year = 2000
+optional = true
+
+[[series.entry]]
+title = "Metal Gear Rising: Revengeance"
+year = 2013
+optional = true
+note = "Spin-off"
+
+[[series]]
+platforms = ["playstation", "nintendo"]
+name = "Final Fantasy"
+description = "Series Tracker tab – VII/VIII/IX/X/XII go to Switch"
+
+[[series.entry]]
+title = "Final Fantasy"
+aliases = ["Final Fantasy I-VI Collection", "Final Fantasy I & II: Dawn of Souls"]
+year = 1987
+note = "Owned (Switch collection, GBA)"
+
+[[series.entry]]
+title = "Final Fantasy II"
+aliases = ["Final Fantasy I-VI Collection", "Final Fantasy I & II: Dawn of Souls"]
+year = 1988
+
+[[series.entry]]
+title = "Final Fantasy III"
+aliases = ["Final Fantasy I-VI Collection"]
+year = 1990
+
+[[series.entry]]
+title = "Final Fantasy IV"
+aliases = ["Final Fantasy I-VI Collection"]
+year = 1991
+
+[[series.entry]]
+title = "Final Fantasy V"
+aliases = ["Final Fantasy I-VI Collection"]
+year = 1992
+
+[[series.entry]]
+title = "Final Fantasy VI"
+aliases = ["Final Fantasy I-VI Collection"]
+year = 1994
+
+[[series.entry]]
+title = "Final Fantasy VII"
+year = 1997
+note = "Buy on Switch"
+
+[[series.entry]]
+title = "Final Fantasy VIII"
+aliases = ["Final Fantasy VIII Remastered"]
+year = 1999
+note = "Buy on Switch"
+
+[[series.entry]]
+title = "Final Fantasy IX"
+year = 2000
+note = "Buy on Switch"
+
+[[series.entry]]
+title = "Final Fantasy X"
+aliases = ["Final Fantasy X | X-2 HD Remaster"]
+year = 2001
+note = "Owned on Steam; Switch per rule"
+
+[[series.entry]]
+title = "Final Fantasy X-2"
+aliases = ["Final Fantasy X | X-2 HD Remaster"]
+year = 2003
+note = "Owned on Steam"
+
+[[series.entry]]
+title = "Final Fantasy XI"
+year = 2002
+optional = true
+note = "MMO"
+
+[[series.entry]]
+title = "Final Fantasy XII"
+aliases = ["Final Fantasy XII: The Zodiac Age"]
+year = 2006
+note = "Owned (Switch)"
+
+[[series.entry]]
+title = "Final Fantasy XIII"
+year = 2010
+note = "Owned (PS3)"
+
+[[series.entry]]
+title = "Final Fantasy XIII-2"
+year = 2012
+note = "Owned (PS3)"
+
+[[series.entry]]
+title = "Lightning Returns: Final Fantasy XIII"
+year = 2014
+note = "Owned on Steam"
+
+[[series.entry]]
+title = "Final Fantasy XIV"
+year = 2010
+optional = true
+note = "MMO"
+
+[[series.entry]]
+title = "Final Fantasy XV"
+aliases = ["Final Fantasy XV Royal Edition"]
+year = 2016
+
+[[series.entry]]
+title = "Final Fantasy XVI"
+year = 2023
+note = "Owned (PS5)"
+
+[[series.entry]]
+title = "Final Fantasy VII Remake"
+aliases = ["Final Fantasy VII Remake Intergrade"]
+year = 2020
+note = "Owned (PS4)"
+
+[[series.entry]]
+title = "Final Fantasy VII Rebirth"
+year = 2024
+note = "Owned (PS5)"
+
+[[series.entry]]
+title = "Final Fantasy Type-0 HD"
+year = 2015
+optional = true
+note = "Spin-off"
+
+[[series]]
+platforms = ["playstation"]
+name = "Kingdom Hearts"
+description = "Series Tracker tab"
+
+[[series.entry]]
+title = "Kingdom Hearts"
+aliases = ["Kingdom Hearts HD 1.5 + 2.5 ReMIX", "Kingdom Hearts Collection [I–III]"]
+year = 2002
+
+[[series.entry]]
+title = "Kingdom Hearts: Chain of Memories"
+aliases = ["Kingdom Hearts HD 1.5 + 2.5 ReMIX", "Kingdom Hearts Collection [I–III]"]
+year = 2004
+note = "Re:Chain of Memories"
+
+[[series.entry]]
+title = "Kingdom Hearts II"
+aliases = ["Kingdom Hearts HD 1.5 + 2.5 ReMIX", "Kingdom Hearts Collection [I–III]"]
+year = 2005
+
+[[series.entry]]
+title = "Kingdom Hearts 358/2 Days"
+aliases = ["Kingdom Hearts HD 1.5 + 2.5 ReMIX", "Kingdom Hearts Collection [I–III]"]
+year = 2009
+optional = true
+note = "Movie version only"
+
+[[series.entry]]
+title = "Kingdom Hearts Birth by Sleep"
+aliases = ["Kingdom Hearts HD 1.5 + 2.5 ReMIX", "Kingdom Hearts Collection [I–III]"]
+year = 2010
+
+[[series.entry]]
+title = "Kingdom Hearts Re:coded"
+aliases = ["Kingdom Hearts HD 1.5 + 2.5 ReMIX", "Kingdom Hearts Collection [I–III]"]
+year = 2010
+optional = true
+note = "Movie version only"
+
+[[series.entry]]
+title = "Kingdom Hearts 3D: Dream Drop Distance"
+aliases = ["Kingdom Hearts HD 2.8 Final Chapter Prologue", "Kingdom Hearts Collection [I–III]"]
+year = 2012
+
+[[series.entry]]
+title = "Kingdom Hearts 0.2: Birth by Sleep – A Fragmentary Passage"
+aliases = ["Kingdom Hearts HD 2.8 Final Chapter Prologue", "Kingdom Hearts Collection [I–III]"]
+year = 2017
+optional = true
+
+[[series.entry]]
+title = "Kingdom Hearts III"
+aliases = ["Kingdom Hearts Collection [I–III]"]
+year = 2019
+note = "Owned (PS4)"
+
+[[series]]
+platforms = ["playstation", "nintendo"]
+name = "Tales of"
+description = "Series Tracker tab – mainline entries released in the West"
+
+[[series.entry]]
+title = "Tales of Symphonia"
+aliases = ["Tales of Symphonia Remastered", "Tales of Symphonia Chronicles"]
+year = 2003
+note = "Owned (Switch)"
+
+[[series.entry]]
+title = "Tales of Symphonia: Dawn of the New World"
+aliases = ["Tales of Symphonia Chronicles"]
+year = 2008
+optional = true
+note = "Sequel/escort title; only via Chronicles (PS3)"
+
+[[series.entry]]
+title = "Tales of Legendia"
+year = 2005
+optional = true
+note = "NTSC-only – can't play on PAL PS3"
+
+[[series.entry]]
+title = "Tales of the Abyss"
+year = 2005
+verify = "not on the checklist (3DS/PS2)"
+
+[[series.entry]]
+title = "Tales of Vesperia"
+aliases = ["Tales of Vesperia: Definitive Edition"]
+year = 2008
+note = "Owned (Switch)"
+
+[[series.entry]]
+title = "Tales of Graces"
+aliases = ["Tales of Graces f Remastered"]
+year = 2009
+note = "Owned (Switch)"
+
+[[series.entry]]
+title = "Tales of Xillia"
+aliases = ["Tales of Xillia Remastered"]
+year = 2011
+note = "Owned (PS3 + Switch Remastered)"
+
+[[series.entry]]
+title = "Tales of Xillia 2"
+year = 2012
+note = "Owned (PS3)"
+
+[[series.entry]]
+title = "Tales of Zestiria"
+year = 2015
+
+[[series.entry]]
+title = "Tales of Berseria"
+aliases = ["Tales of Berseria Remastered"]
+year = 2016
+note = "Owned (Switch) + Steam"
+
+[[series.entry]]
+title = "Tales of Arise"
+aliases = ["Tales of Arise: Beyond the Dawn Edition"]
+year = 2021
+note = "Owned on Steam; platform decision open"
+
+[[series.entry]]
+title = "Tales of Eternia"
+aliases = ["Tales of Eternia Remastered"]
+year = 2000
+verify = "only mentioned via the Switch 2 Game-Key Card list"
+
+[[series]]
+platforms = ["playstation", "nintendo"]
+name = "Trails (The Legend of Heroes)"
+description = "Series Tracker tab"
+
+[[series.entry]]
+title = "The Legend of Heroes: Trails in the Sky"
+aliases = ["Trails in the Sky 1st Chapter"]
+year = 2004
+note = "Remake owned (Switch); original on Steam"
+
+[[series.entry]]
+title = "The Legend of Heroes: Trails in the Sky SC"
+year = 2006
+note = "On Steam"
+
+[[series.entry]]
+title = "The Legend of Heroes: Trails in the Sky the 3rd"
+year = 2007
+verify = "not on the checklist"
+
+[[series.entry]]
+title = "The Legend of Heroes: Trails from Zero"
+year = 2010
+note = "Owned (Switch)"
+
+[[series.entry]]
+title = "The Legend of Heroes: Trails to Azure"
+year = 2011
+note = "Owned (Switch)"
+
+[[series.entry]]
+title = "The Legend of Heroes: Trails of Cold Steel"
+year = 2013
+note = "On Steam – PS4 disc only if cheap"
+
+[[series.entry]]
+title = "The Legend of Heroes: Trails of Cold Steel II"
+year = 2014
+note = "On Steam – PS4 disc only if cheap"
+
+[[series.entry]]
+title = "The Legend of Heroes: Trails of Cold Steel III"
+year = 2017
+note = "Buy on Switch"
+
+[[series.entry]]
+title = "The Legend of Heroes: Trails of Cold Steel IV"
+year = 2018
+note = "Buy on Switch"
+
+[[series.entry]]
+title = "The Legend of Heroes: Trails into Reverie"
+year = 2020
+note = "Buy on Switch"
+
+[[series.entry]]
+title = "The Legend of Heroes: Trails through Daybreak"
+year = 2021
+note = "Owned (Switch) + Steam"
+
+[[series.entry]]
+title = "The Legend of Heroes: Trails through Daybreak II"
+year = 2022
+note = "Owned (Switch)"
+
+[[series.entry]]
+title = "The Legend of Heroes: Trails beyond the Horizon"
+year = 2024
+note = "Owned (Switch)"
+
+[[series.entry]]
+title = "The Legend of Nayuta: Boundless Trails"
+year = 2012
+optional = true
+note = "Spin-off; owned (Switch)"
+
+[[series]]
+platforms = ["playstation", "nintendo"]
+name = "Star Ocean"
+description = "Series Tracker tab"
+
+[[series.entry]]
+title = "Star Ocean"
+aliases = ["Star Ocean: First Departure R"]
+year = 1996
+verify = "First Departure R not on the checklist"
+
+[[series.entry]]
+title = "Star Ocean: The Second Story"
+aliases = ["Star Ocean: The Second Story R"]
+year = 1998
+note = "Owned (Switch)"
+
+[[series.entry]]
+title = "Star Ocean: Till the End of Time"
+year = 2003
+note = "Owned (PS2)"
+
+[[series.entry]]
+title = "Star Ocean: The Last Hope"
+aliases = ["Star Ocean: The Last Hope 4K & Full HD Remaster"]
+year = 2009
+
+[[series.entry]]
+title = "Star Ocean: Integrity and Faithlessness"
+year = 2016
+note = "Owned (PS4)"
+
+[[series.entry]]
+title = "Star Ocean: The Divine Force"
+year = 2022
+note = "Owned (PS5)"
+
+[[series]]
+platforms = ["playstation", "nintendo"]
+name = "NieR / Drakengard"
+description = "Series Tracker tab"
+
+[[series.entry]]
+title = "Drakengard"
+year = 2003
+verify = "not on the checklist"
+
+[[series.entry]]
+title = "Drakengard 2"
+year = 2005
+verify = "not on the checklist"
+
+[[series.entry]]
+title = "Drakengard 3"
+year = 2013
+note = "Owned (PS3)"
+
+[[series.entry]]
+title = "NieR Replicant"
+aliases = ["NieR Replicant ver.1.22474487139...", "NieR Gestalt"]
+year = 2010
+note = "ver.1.22 owned on Steam"
+
+[[series.entry]]
+title = "NieR:Automata"
+aliases = ["NieR:Automata The End of YoRHa Edition"]
+year = 2017
+note = "Owned on Steam; Switch per rule"
+
+[[series]]
+platforms = ["playstation", "nintendo"]
+name = "Persona"
+description = "Series Tracker tab (Persona / Atlus row)"
+
+[[series.entry]]
+title = "Persona 3"
+aliases = ["Persona 3 Reload", "Persona 3 FES", "Persona 3 Portable"]
+year = 2006
+note = "Platform decision open (P3 Reload)"
+
+[[series.entry]]
+title = "Persona 4"
+aliases = ["Persona 4 Golden"]
+year = 2008
+note = "Golden owned on Steam"
+
+[[series.entry]]
+title = "Persona 5"
+aliases = ["Persona 5 Royal"]
+year = 2016
+note = "Royal owned (PS4) + Steam"
+
+[[series.entry]]
+title = "Persona 5 Strikers"
+year = 2020
+optional = true
+note = "Spin-off; owned on Steam"
+
+[[series.entry]]
+title = "Persona 5 Tactica"
+year = 2023
+optional = true
+note = "Spin-off; Switch"
+
+[[series.entry]]
+title = "Revelations: Persona"
+year = 1996
+optional = true
+verify = "not on the checklist"
+
+[[series.entry]]
+title = "Persona 2: Innocent Sin"
+year = 1999
+optional = true
+verify = "not on the checklist"
+
+[[series.entry]]
+title = "Persona 2: Eternal Punishment"
+year = 2000
+optional = true
+verify = "not on the checklist"
+
+[[series]]
+platforms = ["playstation"]
+name = "Like a Dragon (Yakuza)"
+description = "Series Tracker tab – 'your call' series, most entries owned on Steam"
+
+[[series.entry]]
+title = "Yakuza 0"
+year = 2015
+note = "On Steam"
+
+[[series.entry]]
+title = "Yakuza Kiwami"
+year = 2016
+note = "On Steam"
+
+[[series.entry]]
+title = "Yakuza Kiwami 2"
+year = 2017
+note = "On Steam"
+
+[[series.entry]]
+title = "Yakuza 3"
+aliases = ["Yakuza 3 Remastered", "The Yakuza Remastered Collection", "Yakuza Kiwami 3 & Dark Ties"]
+year = 2009
+note = "Yakuza 3 Remastered on Steam"
+
+[[series.entry]]
+title = "Yakuza 4"
+aliases = ["Yakuza 4 Remastered", "The Yakuza Remastered Collection"]
+year = 2010
+note = "Yakuza 4 Remastered on Steam"
+
+[[series.entry]]
+title = "Yakuza 5"
+aliases = ["Yakuza 5 Remastered", "The Yakuza Remastered Collection"]
+year = 2012
+
+[[series.entry]]
+title = "Yakuza 6: The Song of Life"
+year = 2016
+
+[[series.entry]]
+title = "Yakuza: Like a Dragon"
+year = 2020
+note = "On Steam"
+
+[[series.entry]]
+title = "Like a Dragon Gaiden: The Man Who Erased His Name"
+year = 2023
+note = "On Steam"
+
+[[series.entry]]
+title = "Like a Dragon: Infinite Wealth"
+year = 2024
+note = "On Steam"
+
+[[series.entry]]
+title = "Like a Dragon: Pirate Yakuza in Hawaii"
+year = 2025
+optional = true
+note = "Spin-off"
+
+[[series.entry]]
+title = "Like a Dragon: Ishin!"
+year = 2023
+optional = true
+note = "Spin-off"
+
+[[series.entry]]
+title = "Judgment"
+year = 2018
+optional = true
+note = "Spin-off series"
+
+[[series.entry]]
+title = "Lost Judgment"
+year = 2021
+optional = true
+note = "Spin-off series"
+
+[[series]]
+platforms = ["playstation"]
+name = "Devil May Cry"
+description = "Series Tracker tab"
+
+[[series.entry]]
+title = "Devil May Cry"
+aliases = ["Devil May Cry HD Collection"]
+year = 2001
+
+[[series.entry]]
+title = "Devil May Cry 2"
+aliases = ["Devil May Cry HD Collection"]
+year = 2003
+
+[[series.entry]]
+title = "Devil May Cry 3: Dante's Awakening"
+aliases = ["Devil May Cry HD Collection"]
+year = 2005
+
+[[series.entry]]
+title = "Devil May Cry 4"
+aliases = ["Devil May Cry 4 Special Edition"]
+year = 2008
+
+[[series.entry]]
+title = "Devil May Cry 5"
+aliases = ["Devil May Cry 5 Special Edition"]
+year = 2019
+note = "Owned on Steam"
+
+[[series.entry]]
+title = "DmC: Devil May Cry"
+aliases = ["DmC: Devil May Cry Definitive Edition"]
+year = 2013
+optional = true
+note = "Reboot"
+
+[[series]]
+platforms = ["playstation"]
+name = "Nioh"
+description = "Series Tracker tab (Team Ninja row)"
+
+[[series.entry]]
+title = "Nioh"
+aliases = ["The Nioh Collection"]
+year = 2017
+
+[[series.entry]]
+title = "Nioh 2"
+aliases = ["The Nioh Collection"]
+year = 2020
+note = "Also on Steam"
+
+[[series.entry]]
+title = "Nioh 3"
+year = 2026
+note = "Owned (PS5)"
+
+[[series]]
+platforms = ["playstation", "nintendo"]
+name = "Ninja Gaiden (3D)"
+description = "Series Tracker tab (Team Ninja row)"
+
+[[series.entry]]
+title = "Ninja Gaiden"
+aliases = ["Ninja Gaiden: Master Collection"]
+year = 2004
+note = "Sigma in Master Collection"
+
+[[series.entry]]
+title = "Ninja Gaiden II"
+aliases = ["Ninja Gaiden: Master Collection", "Ninja Gaiden 2 Black"]
+year = 2008
+
+[[series.entry]]
+title = "Ninja Gaiden 3"
+aliases = ["Ninja Gaiden: Master Collection"]
+year = 2012
+note = "Razor's Edge in Master Collection"
+
+[[series.entry]]
+title = "Ninja Gaiden 4"
+year = 2025
+note = "Owned (PS5)"
+
+[[series.entry]]
+title = "Ninja Gaiden: Ragebound"
+year = 2025
+optional = true
+note = "2D spin-off; owned (Switch)"
+
+[[series]]
+platforms = ["playstation", "nintendo"]
+name = "Assassin's Creed"
+description = "Series Tracker tab – Ezio + AC III go to Switch"
+
+[[series.entry]]
+title = "Assassin's Creed"
+year = 2007
+note = "PS3"
+
+[[series.entry]]
+title = "Assassin's Creed II"
+aliases = ["Assassin's Creed: The Ezio Collection"]
+year = 2009
+note = "Switch"
+
+[[series.entry]]
+title = "Assassin's Creed: Brotherhood"
+aliases = ["Assassin's Creed: The Ezio Collection"]
+year = 2010
+note = "Switch"
+
+[[series.entry]]
+title = "Assassin's Creed: Revelations"
+aliases = ["Assassin's Creed: The Ezio Collection"]
+year = 2011
+note = "Switch"
+
+[[series.entry]]
+title = "Assassin's Creed III"
+aliases = ["Assassin's Creed III Remastered"]
+year = 2012
+note = "Switch"
+
+[[series.entry]]
+title = "Assassin's Creed III: Liberation"
+aliases = ["Assassin's Creed III Remastered"]
+year = 2012
+optional = true
+note = "Owned (Vita)"
+
+[[series.entry]]
+title = "Assassin's Creed IV: Black Flag"
+aliases = ["Assassin's Creed Black Flag Resynced"]
+year = 2013
+note = "Owned (PS4 + Resynced PS5)"
+
+[[series.entry]]
+title = "Assassin's Creed Rogue"
+aliases = ["Assassin's Creed: Rogue Remastered"]
+year = 2014
+note = "Owned (PS4) + Steam"
+
+[[series.entry]]
+title = "Assassin's Creed Unity"
+aliases = ["Assassin's Creed: Unity"]
+year = 2014
+note = "Owned (PS4)"
+
+[[series.entry]]
+title = "Assassin's Creed Syndicate"
+year = 2015
+note = "Owned (PS4)"
+
+[[series.entry]]
+title = "Assassin's Creed Origins"
+year = 2017
+note = "Owned (PS4)"
+
+[[series.entry]]
+title = "Assassin's Creed Odyssey"
+aliases = ["Assassin's Creed: Odyssey"]
+year = 2018
+note = "Owned (PS4)"
+
+[[series.entry]]
+title = "Assassin's Creed Valhalla"
+year = 2020
+note = "Owned (PS5) + Steam"
+
+[[series.entry]]
+title = "Assassin's Creed Mirage"
+year = 2023
+note = "Owned (PS5)"
+
+[[series.entry]]
+title = "Assassin's Creed Shadows"
+year = 2025
+note = "Owned on Steam"
+
+[[series]]
+platforms = ["playstation", "nintendo"]
+name = "Tomb Raider"
+description = "Series Tracker tab – classics go to Switch"
+
+[[series.entry]]
+title = "Tomb Raider"
+aliases = ["Tomb Raider I-III Remastered Starring Lara Croft"]
+platforms = ["PlayStation", "nintendo"]
+year = 1996
+note = "Remastered owned on Steam"
+
+[[series.entry]]
+title = "Tomb Raider II"
+aliases = ["Tomb Raider I-III Remastered Starring Lara Croft"]
+year = 1997
+
+[[series.entry]]
+title = "Tomb Raider III"
+aliases = ["Tomb Raider I-III Remastered Starring Lara Croft"]
+year = 1998
+
+[[series.entry]]
+title = "Tomb Raider: The Last Revelation"
+aliases = ["Tomb Raider IV-VI Remastered"]
+year = 1999
+
+[[series.entry]]
+title = "Tomb Raider Chronicles"
+aliases = ["Tomb Raider IV-VI Remastered"]
+year = 2000
+
+[[series.entry]]
+title = "Tomb Raider: The Angel of Darkness"
+aliases = ["Tomb Raider IV-VI Remastered"]
+year = 2003
+
+[[series.entry]]
+title = "Tomb Raider: Legend"
+aliases = ["The Tomb Raider Trilogy"]
+year = 2006
+note = "Owned (PS3 Trilogy) + Steam"
+
+[[series.entry]]
+title = "Tomb Raider: Anniversary"
+aliases = ["The Tomb Raider Trilogy"]
+year = 2007
+note = "Owned (PS3 Trilogy) + Steam"
+
+[[series.entry]]
+title = "Tomb Raider: Underworld"
+aliases = ["The Tomb Raider Trilogy"]
+year = 2008
+note = "Owned (PS3 Trilogy) + Steam"
+
+[[series.entry]]
+title = "Tomb Raider (2013)"
+aliases = ["Tomb Raider Definitive Edition", "Tomb Raider"]
+platforms = ["PlayStation 3", "PlayStation 4", "PlayStation 5"]
+year = 2013
+note = "Owned (PS3) + Steam"
+
+[[series.entry]]
+title = "Rise of the Tomb Raider"
+aliases = ["Rise of the Tomb Raider: 20 Year Celebration"]
+year = 2015
+note = "Owned on Steam"
+
+[[series.entry]]
+title = "Shadow of the Tomb Raider"
+aliases = ["Shadow of the Tomb Raider: Definitive Edition"]
+year = 2018
+note = "Owned on Steam"
+
+[[series]]
+platforms = ["playstation"]
+name = "Mass Effect"
+description = "Series Tracker tab"
+
+[[series.entry]]
+title = "Mass Effect"
+aliases = ["Mass Effect Legendary Edition"]
+year = 2007
+note = "Legendary Edition owned on Steam"
+
+[[series.entry]]
+title = "Mass Effect 2"
+aliases = ["Mass Effect Legendary Edition"]
+year = 2010
+note = "Owned (PS3)"
+
+[[series.entry]]
+title = "Mass Effect 3"
+aliases = ["Mass Effect Legendary Edition"]
+year = 2012
+note = "Owned (PS3 + Wii U)"
+
+[[series.entry]]
+title = "Mass Effect: Andromeda"
+year = 2017
+note = "Owned (PS4) + Steam"
+
+[[series]]
+platforms = ["playstation"]
+name = "Dragon Age"
+description = "Series Tracker tab"
+
+[[series.entry]]
+title = "Dragon Age: Origins"
+year = 2009
+note = "Owned (PS3) + Steam"
+
+[[series.entry]]
+title = "Dragon Age II"
+year = 2011
+note = "Owned (PS3)"
+
+[[series.entry]]
+title = "Dragon Age: Inquisition"
+year = 2014
+note = "Owned on Steam"
+
+[[series.entry]]
+title = "Dragon Age: The Veilguard"
+year = 2024
+note = "Owned on Steam"
+verify = "not on the checklist"
+
+[[series]]
+platforms = ["playstation"]
+name = "Star Wars Jedi"
+description = "Series Tracker tab (Star Wars row)"
+
+[[series.entry]]
+title = "Star Wars Jedi: Fallen Order"
+year = 2019
+note = "Owned on Steam"
+
+[[series.entry]]
+title = "Star Wars Jedi: Survivor"
+year = 2023
+note = "Owned on Steam"
+
+[[series]]
+platforms = ["playstation"]
+name = "Mafia"
+description = "Series Tracker tab"
+
+[[series.entry]]
+title = "Mafia"
+aliases = ["Mafia: Definitive Edition", "Mafia: Trilogy"]
+year = 2002
+note = "Original + Definitive Edition on Steam"
+
+[[series.entry]]
+title = "Mafia II"
+aliases = ["Mafia II: Definitive Edition", "Mafia: Trilogy"]
+year = 2010
+note = "Owned (PS3)"
+
+[[series.entry]]
+title = "Mafia III"
+aliases = ["Mafia III: Definitive Edition", "Mafia: Trilogy"]
+year = 2016
+
+[[series.entry]]
+title = "Mafia: The Old Country"
+year = 2025
+
+[[series]]
+platforms = ["playstation"]
+name = "Red Dead"
+description = "Series Tracker tab (Rockstar row)"
+
+[[series.entry]]
+title = "Red Dead Revolver"
+year = 2004
+optional = true
+verify = "not on the checklist"
+
+[[series.entry]]
+title = "Red Dead Redemption"
+year = 2010
+note = "Owned (PS3)"
+
+[[series.entry]]
+title = "Red Dead Redemption 2"
+year = 2018
+note = "Owned on Steam"
+
+[[series]]
+platforms = ["playstation", "nintendo"]
+name = "Grand Theft Auto"
+description = "Series Tracker tab (Rockstar row)"
+
+[[series.entry]]
+title = "Grand Theft Auto III"
+aliases = ["Grand Theft Auto: The Trilogy – The Definitive Edition"]
+year = 2001
+note = "Trilogy DE → Switch"
+
+[[series.entry]]
+title = "Grand Theft Auto: Vice City"
+aliases = ["Grand Theft Auto: The Trilogy – The Definitive Edition"]
+year = 2002
+
+[[series.entry]]
+title = "Grand Theft Auto: San Andreas"
+aliases = ["Grand Theft Auto: The Trilogy – The Definitive Edition"]
+year = 2004
+
+[[series.entry]]
+title = "Grand Theft Auto: Liberty City Stories"
+year = 2005
+optional = true
+note = "Owned (PSP)"
+
+[[series.entry]]
+title = "Grand Theft Auto: Vice City Stories"
+year = 2006
+optional = true
+note = "Owned (PSP)"
+
+[[series.entry]]
+title = "Grand Theft Auto IV"
+aliases = ["Grand Theft Auto IV: The Complete Edition"]
+year = 2008
+note = "Owned (PS3) + Steam"
+
+[[series.entry]]
+title = "Grand Theft Auto V"
+year = 2013
+note = "Owned (PS3)"
+
+[[series.entry]]
+title = "Grand Theft Auto VI"
+year = 2026
+note = "Release 19 Nov 2026"
+
+[[series]]
+platforms = ["playstation"]
+name = "Senran Kagura"
+description = "Series Tracker tab"
+
+[[series.entry]]
+title = "Senran Kagura Burst"
+aliases = ["Senran Kagura Burst Re:Newal"]
+year = 2013
+
+[[series.entry]]
+title = "Senran Kagura: Estival Versus"
+year = 2016
+
+[[series.entry]]
+title = "Senran Kagura: Peach Beach Splash"
+year = 2017
+optional = true
+note = "Shooter spin-off"
+
+[[series.entry]]
+title = "Neptunia x Senran Kagura: Ninja Wars"
+year = 2021
+optional = true
+note = "Crossover; owned (PS4 + Switch)"
+
+[[series.entry]]
+title = "Senran Kagura Shinovi Versus"
+year = 2015
+optional = true
+note = "Vita – not playable"
+verify = "not on the checklist"
+
+[[series]]
+platforms = ["playstation"]
+name = "Harry Potter"
+description = "Series Tracker tab – collecting the PlayStation Harry Potter games"
+
+[[series.entry]]
+title = "Harry Potter and the Philosopher's Stone"
+year = 2001
+note = "PS1 owned; PS2 version (2003) is a separate target"
+
+[[series.entry]]
+title = "Harry Potter and the Chamber of Secrets"
+year = 2002
+note = "PS2 owned; PS1 version is a separate target"
+
+[[series.entry]]
+title = "Harry Potter and the Prisoner of Azkaban"
+year = 2004
+note = "Owned (PS2)"
+
+[[series.entry]]
+title = "Harry Potter and the Goblet of Fire"
+year = 2005
+note = "Owned (PS2)"
+
+[[series.entry]]
+title = "Harry Potter and the Order of the Phoenix"
+year = 2007
+note = "Owned (PS3)"
+
+[[series.entry]]
+title = "Harry Potter and the Half-Blood Prince"
+year = 2009
+note = "Owned (PS3)"
+
+[[series.entry]]
+title = "Harry Potter and the Deathly Hallows – Part 1"
+aliases = ["Harry Potter and the Deathly Hallows Part 1"]
+year = 2010
+note = "Owned (PS3)"
+
+[[series.entry]]
+title = "Harry Potter and the Deathly Hallows – Part 2"
+aliases = ["Harry Potter and the Deathly Hallows Part 2"]
+year = 2011
+note = "Owned (PS3)"
+
+[[series.entry]]
+title = "Hogwarts Legacy"
+year = 2023
+note = "Owned on Steam; platform decision open"
+
+[[series.entry]]
+title = "Harry Potter: Quidditch World Cup"
+year = 2003
+optional = true
+note = "PS2"
+
+[[series.entry]]
+title = "LEGO Harry Potter: Years 1-4"
+aliases = ["LEGO Harry Potter Collection"]
+year = 2010
+optional = true
+note = "Owned via LEGO HP Collection (Xbox One)"
+
+[[series.entry]]
+title = "LEGO Harry Potter: Years 5-7"
+aliases = ["LEGO Harry Potter Collection"]
+year = 2011
+optional = true
+note = "Owned via LEGO HP Collection (Xbox One)"

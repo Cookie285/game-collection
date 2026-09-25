@@ -1,0 +1,455 @@
+# Series checklists – Xbox — imported from the Xbox collection chat export, 25 Sep 2026
+
+[[series]]
+platforms = ["xbox"]
+name = "Call of Duty"
+description = "Complete Xbox run, one copy per game, newest-gen pressing. Single-player focus; servers irrelevant. ❓ Call of Duty (2003, PC-only) and OG Xbox spin-offs (Finest Hour, Big Red One) were never discussed – not listed"
+
+[[series.entry]]
+title = "Call of Duty 2"
+year = 2005
+note = "Xbox 360 disc"
+
+[[series.entry]]
+title = "Call of Duty 3"
+year = 2006
+note = "Xbox 360 disc"
+
+[[series.entry]]
+title = "Call of Duty 4: Modern Warfare"
+aliases = ["Call of Duty: Modern Warfare Trilogy"]
+year = 2007
+note = "Covered by the MW Trilogy 360 disc"
+
+[[series.entry]]
+title = "Call of Duty: World at War"
+year = 2008
+note = "Xbox 360 disc"
+
+[[series.entry]]
+title = "Call of Duty: Modern Warfare 2"
+aliases = ["Call of Duty: Modern Warfare Trilogy"]
+year = 2009
+note = "Covered by the MW Trilogy 360 disc"
+
+[[series.entry]]
+title = "Call of Duty: Black Ops"
+year = 2010
+note = "Xbox 360 disc"
+
+[[series.entry]]
+title = "Call of Duty: Modern Warfare 3"
+aliases = ["Call of Duty: Modern Warfare Trilogy"]
+year = 2011
+note = "Covered by the MW Trilogy 360 disc"
+
+[[series.entry]]
+title = "Call of Duty: Black Ops II"
+year = 2012
+note = "Xbox 360 disc"
+
+[[series.entry]]
+title = "Call of Duty: Ghosts"
+year = 2013
+note = "Xbox One disc"
+
+[[series.entry]]
+title = "Call of Duty: Advanced Warfare"
+year = 2014
+note = "Xbox One disc"
+
+[[series.entry]]
+title = "Call of Duty: Black Ops III"
+year = 2015
+note = "Xbox One disc"
+
+[[series.entry]]
+title = "Call of Duty: Infinite Warfare"
+year = 2016
+note = "Xbox One disc (bundle incl. MWR)"
+
+[[series.entry]]
+title = "Call of Duty: Modern Warfare Remastered"
+aliases = ["Call of Duty: Infinite Warfare"]
+year = 2016
+note = "Via the Infinite Warfare bundle; Disc-to-Digital unlocked it (tested by me)"
+
+[[series.entry]]
+title = "Call of Duty: WWII"
+year = 2017
+note = "Xbox One disc"
+
+[[series.entry]]
+title = "Call of Duty: Black Ops 4"
+year = 2018
+note = "Xbox One disc; no campaign"
+
+[[series.entry]]
+title = "Call of Duty: Modern Warfare"
+year = 2019
+note = "Xbox One disc"
+
+[[series.entry]]
+title = "Call of Duty: Black Ops Cold War"
+year = 2020
+note = "Xbox One disc (Series X disc also exists; One copy is fine)"
+
+[[series.entry]]
+title = "Call of Duty: Vanguard"
+year = 2021
+note = "Xbox Series X disc"
+
+[[series.entry]]
+title = "Call of Duty: Modern Warfare II"
+year = 2022
+note = "Xbox Series X disc"
+
+[[series.entry]]
+title = "Call of Duty: Modern Warfare III"
+year = 2023
+note = "Xbox Series X disc"
+
+[[series.entry]]
+title = "Call of Duty: Black Ops 6"
+year = 2024
+note = "Xbox Series X disc"
+
+[[series.entry]]
+title = "Call of Duty: Black Ops 7"
+year = 2025
+note = "Xbox Series X disc"
+
+[[series.entry]]
+title = "Call of Duty: Modern Warfare 2 Campaign Remastered"
+year = 2020
+optional = true
+note = "Digital-only – nothing to collect"
+
+[[series]]
+platforms = ["xbox"]
+name = "Battlefield"
+description = "Complete Xbox run, one copy per game, newest-gen pressing. Single-player focus; servers irrelevant."
+
+[[series.entry]]
+title = "Battlefield 2: Modern Combat"
+year = 2005
+note = "Xbox 360 disc (OG Xbox version not BC)"
+
+[[series.entry]]
+title = "Battlefield: Bad Company"
+year = 2008
+note = "Xbox 360 disc; delisted – disc only"
+
+[[series.entry]]
+title = "Battlefield 1943"
+year = 2009
+optional = true
+note = "Digital-only, no disc, no campaign"
+
+[[series.entry]]
+title = "Battlefield: Bad Company 2"
+year = 2010
+note = "Xbox 360 disc; delisted – disc only"
+
+[[series.entry]]
+title = "Battlefield 3"
+year = 2011
+note = "Xbox 360 disc"
+
+[[series.entry]]
+title = "Battlefield 4"
+year = 2013
+note = "Xbox One disc"
+
+[[series.entry]]
+title = "Battlefield Hardline"
+year = 2015
+note = "Xbox One disc"
+
+[[series.entry]]
+title = "Battlefield 1"
+year = 2016
+note = "Xbox One disc"
+
+[[series.entry]]
+title = "Battlefield V"
+year = 2018
+note = "Xbox One disc"
+
+[[series.entry]]
+title = "Battlefield 2042"
+year = 2021
+note = "Xbox Series X disc; no campaign"
+
+[[series.entry]]
+title = "Battlefield 6"
+year = 2025
+note = "Xbox Series X disc"
+
+[[series]]
+platforms = ["xbox"]
+name = "Halo"
+description = "Microsoft first-party core franchise. ❓ Spartan Assault/Strike (digital) and Halo: CE Anniversary 360 disc were not discussed"
+
+[[series.entry]]
+title = "Halo: Combat Evolved"
+aliases = ["Halo: The Master Chief Collection"]
+year = 2001
+note = "Covered by MCC"
+
+[[series.entry]]
+title = "Halo 2"
+aliases = ["Halo: The Master Chief Collection"]
+year = 2004
+note = "Covered by MCC"
+
+[[series.entry]]
+title = "Halo 3"
+aliases = ["Halo: The Master Chief Collection"]
+year = 2007
+note = "Covered by MCC"
+
+[[series.entry]]
+title = "Halo Wars"
+aliases = ["Halo Wars: Definitive Edition"]
+year = 2009
+note = "Xbox 360 disc"
+
+[[series.entry]]
+title = "Halo 3: ODST"
+aliases = ["Halo: The Master Chief Collection"]
+year = 2009
+note = "Covered by MCC"
+
+[[series.entry]]
+title = "Halo: Reach"
+aliases = ["Halo: The Master Chief Collection"]
+year = 2010
+note = "Covered by MCC"
+
+[[series.entry]]
+title = "Halo 4"
+aliases = ["Halo: The Master Chief Collection"]
+year = 2012
+note = "Covered by MCC"
+
+[[series.entry]]
+title = "Halo 5: Guardians"
+year = 2015
+note = "Xbox One disc; never on PC"
+
+[[series.entry]]
+title = "Halo Wars 2"
+year = 2017
+note = "Xbox One disc"
+
+[[series.entry]]
+title = "Halo Infinite"
+year = 2021
+note = "Xbox Series X disc"
+
+[[series.entry]]
+title = "Halo: Campaign Evolved"
+year = 2026
+note = "Owned on PS5; Xbox Series X disc wanted when on sale"
+
+[[series]]
+platforms = ["xbox"]
+name = "Gears of War"
+description = "Microsoft first-party core franchise."
+
+[[series.entry]]
+title = "Gears of War"
+aliases = ["Gears of War: Ultimate Edition"]
+year = 2006
+note = "Covered by the Ultimate Edition Xbox One disc"
+
+[[series.entry]]
+title = "Gears of War 2"
+year = 2008
+note = "Xbox 360 disc – buy on disc for shelf consistency"
+
+[[series.entry]]
+title = "Gears of War 3"
+year = 2011
+note = "Xbox 360 disc – buy on disc for shelf consistency"
+
+[[series.entry]]
+title = "Gears of War: Judgment"
+year = 2013
+note = "Xbox 360 disc – buy on disc for shelf consistency"
+
+[[series.entry]]
+title = "Gears of War 4"
+year = 2016
+note = "Xbox One disc"
+
+[[series.entry]]
+title = "Gears 5"
+year = 2019
+note = "Xbox One disc"
+
+[[series.entry]]
+title = "Gears Tactics"
+year = 2020
+note = "Xbox Series X disc"
+
+[[series.entry]]
+title = "Gears of War: Reloaded"
+year = 2025
+optional = true
+note = "No Xbox disc (PS5 disc only); campaign covered by Ultimate Edition; PS5 disc only if very cheap"
+
+[[series.entry]]
+title = "Gears of War: E-Day"
+year = 2026
+note = "Pre-ordered on Xbox"
+
+[[series]]
+platforms = ["xbox"]
+name = "Forza Motorsport"
+description = "Microsoft first-party."
+
+[[series.entry]]
+title = "Forza Motorsport"
+platforms = ["Xbox"]
+year = 2005
+optional = true
+note = "OG Xbox – not backward compatible; shelf only, not collecting"
+
+[[series.entry]]
+title = "Forza Motorsport 2"
+year = 2007
+optional = true
+note = "Xbox 360 – not backward compatible; shelf only, not collecting"
+
+[[series.entry]]
+title = "Forza Motorsport 3"
+year = 2009
+optional = true
+note = "Xbox 360 – not backward compatible; shelf only, not collecting"
+
+[[series.entry]]
+title = "Forza Motorsport 4"
+year = 2011
+optional = true
+note = "Xbox 360 – not backward compatible; shelf only, not collecting"
+
+[[series.entry]]
+title = "Forza Motorsport 5"
+year = 2013
+note = "Xbox One disc; delisted; D2D reported not working"
+
+[[series.entry]]
+title = "Forza Motorsport 6"
+year = 2015
+note = "Xbox One disc; delisted; D2D reported not working"
+
+[[series.entry]]
+title = "Forza Motorsport 7"
+year = 2017
+note = "Xbox One disc; delisted; D2D reported not working"
+
+[[series.entry]]
+title = "Forza Motorsport"
+platforms = ["xbox-modern"]
+year = 2023
+note = "Xbox Series X disc (2023 game)"
+
+[[series]]
+platforms = ["xbox"]
+name = "Forza Horizon"
+description = "Microsoft first-party."
+
+[[series.entry]]
+title = "Forza Horizon"
+year = 2012
+note = "Xbox 360 disc; delisted – disc only; BC"
+
+[[series.entry]]
+title = "Forza Horizon 2"
+year = 2014
+note = "Xbox One disc; delisted"
+
+[[series.entry]]
+title = "Forza Horizon 3"
+year = 2016
+note = "Xbox One disc; delisted; D2D reported not working"
+
+[[series.entry]]
+title = "Forza Horizon 4"
+year = 2018
+note = "Xbox One disc; delisted; D2D reported not working"
+
+[[series.entry]]
+title = "Forza Horizon 5"
+year = 2021
+note = "Xbox Series X disc"
+
+[[series.entry]]
+title = "Forza Horizon 6"
+year = 2026
+note = "Xbox Series X disc"
+
+[[series]]
+platforms = ["xbox", "PlayStation 5"]
+name = "Fable"
+description = "Microsoft first-party. ❓ tracking Fable as a full run was implied (first-party + BC tabs), not stated explicitly"
+
+[[series.entry]]
+title = "Fable"
+aliases = ["Fable Anniversary"]
+platforms = ["Xbox 360", "Xbox"]
+year = 2004
+note = "Fable Anniversary (Xbox 360, BC) counts – digital Xbox Store sale"
+
+[[series.entry]]
+title = "Fable II"
+year = 2008
+note = "Xbox 360, BC – digital Xbox Store sale"
+
+[[series.entry]]
+title = "Fable III"
+year = 2010
+note = "Xbox 360, BC – store status to verify (disc if delisted)"
+
+[[series.entry]]
+title = "Fable"
+platforms = ["Xbox Series X|S", "PlayStation 5"]
+year = 2026
+note = "Pre-ordered on PS5; Xbox disc only if really cheap later"
+
+[[series]]
+platforms = ["xbox-modern"]
+name = "Titanfall"
+description = "Xbox-anchored series (Titanfall 1 never on PlayStation)."
+
+[[series.entry]]
+title = "Titanfall"
+year = 2014
+note = "Xbox One disc; D2D reported working (community)"
+
+[[series.entry]]
+title = "Titanfall 2"
+year = 2016
+note = "Xbox One disc; bought for completion"
+
+[[series]]
+platforms = ["xbox-modern"]
+name = "State of Decay"
+description = "Owned in full so far. ❓ State of Decay as a tracked full run was not stated explicitly"
+
+[[series.entry]]
+title = "State of Decay"
+aliases = ["State of Decay: Year One Survival Edition"]
+year = 2013
+note = "Covered by Year One Survival Edition (Xbox One)"
+
+[[series.entry]]
+title = "State of Decay 2"
+year = 2018
+note = "Xbox One disc"
+
+[[series.entry]]
+title = "State of Decay 3"
+note = "Upcoming; Undead Labs now independent (Sep 2026) – no longer first-party"
