@@ -25,11 +25,11 @@ _Updated 2026-09-25._
 | [PlayStation](platforms/playstation.md) | 17 | 0 | 0 |
 | [PlayStation Vita](platforms/playstation-vita.md) | 4 | 0 | 0 |
 | [PSP](platforms/psp.md) | 10 | 0 | 0 |
-| [Xbox Series X\|S](platforms/xbox-series-x-s.md) | 15 | 1 | 0 |
+| [Xbox Series X\|S](platforms/xbox-series-x-s.md) | 16 | 1 | 0 |
 | [Xbox One](platforms/xbox-one.md) | 44 | 0 | 0 |
 | [Xbox 360](platforms/xbox-360.md) | 13 | 0 | 3 |
 | [Xbox](platforms/xbox.md) | 1 | 0 | 2 |
-| **Total** | **824** | **2** | **5** |
+| **Total** | **825** | **2** | **5** |
 
 ## Buy plan
 
