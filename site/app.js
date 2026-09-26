@@ -461,11 +461,70 @@ function targetHTML(t) {
         ${t.elsewhere.length && t.status !== "done" ? pill("📀 owned on " + t.elsewhere.map(shortPlat).join(", "), "var(--good)") : ""}
         ${t.verify && t.status !== "done" ? pill("❓ verify", "var(--warn)") : ""}</div>
       ${t.note ? `<div class="note">${esc(t.note)}</div>` : ""}</div>
-    <div class="right">${right}</div></div>`;
+    <div class="right">${right}${t.status === "open" ? `<div class="shops-inline">${shopChips(t.title, targetPlatforms(t)[0], t.plan)}</div>` : ""}</div></div>`;
+}
+
+/* ------------------------------------------------ shop search links */
+const SHOPS = [
+  { id: "geizhals", label: "Geizhals", kind: "new", url: (q) => `https://geizhals.de/?fs=${q}` },
+  { id: "rebuy", label: "rebuy", kind: "used", url: (q) => `https://www.rebuy.de/kaufen/suchen?q=${q}` },
+  { id: "ebay", label: "eBay", kind: "used", url: (q) => `https://www.ebay.de/sch/i.html?_nkw=${q}&_sacat=139973&LH_ItemCondition=3000` },
+  { id: "medimops", label: "medimops", kind: "used", url: (q) => `https://www.medimops.de/produkte-C0/?fcIsSearch=1&searchparam=${q}` },
+];
+// how German shops name the platforms in listings
+const SHOP_PLATFORM = {
+  "Nintendo Switch 2": "Switch 2", "Nintendo Switch": "Switch", "Nintendo 64": "N64", "Nintendo 3DS": "3DS",
+  "Nintendo DS": "Nintendo DS", "Game Boy Advance": "Game Boy Advance", "PlayStation 5": "PS5", "PlayStation 4": "PS4",
+  "PlayStation 3": "PS3", "PlayStation 2": "PS2", "PlayStation": "PS1", "PlayStation Vita": "PS Vita",
+  "Xbox Series X|S": "Xbox Series X", "Xbox": "Xbox Classic",
+};
+const SPEC_PLATFORMS = {
+  "xbox-modern": ["Xbox Series X|S", "Xbox One"],
+};
+// concrete platforms a target / series entry can be bought for ([] = unspecific → search by title only)
+function targetPlatforms(t) {
+  const out = [];
+  for (const p of t.platforms || []) {
+    if (SPEC_PLATFORMS[p]) out.push(...SPEC_PLATFORMS[p]);
+    else if (!PLATFORM_FAMILY_WORDS[p] && p !== "any") out.push(p);
+    else return [];
+  }
+  return [...new Set(out)].slice(0, 4);
+}
+function shopQuery(title, platform) {
+  const q = platform ? `${title} ${SHOP_PLATFORM[platform] || platform}` : title;
+  return encodeURIComponent(q.replace(/[™®©:]/g, " ").replace(/\s+/g, " ").trim()).replace(/%20/g, "+");
+}
+// plan text decides which shop is highlighted: a named shop wins, else "used" → used shops, "new" → Geizhals
+function preferredShops(plan) {
+  const p = (plan || "").toLowerCase();
+  const named = SHOPS.filter((s) => p.includes(s.id));
+  if (named.length) return new Set(named.map((s) => s.id));
+  if (/used|gebraucht/.test(p)) return new Set(SHOPS.filter((s) => s.kind === "used").map((s) => s.id));
+  if (/\bnew\b|neu/.test(p)) return new Set(["geizhals"]);
+  return new Set();
+}
+function shopChips(title, platform, plan) {
+  const pref = preferredShops(plan);
+  const q = shopQuery(title, platform);
+  return SHOPS.map((s) => `<a class="shop${pref.has(s.id) ? " pref" : ""}" data-kind="${s.kind}" href="${s.url(q)}" target="_blank" rel="noopener noreferrer"
+    title="${s.kind === "new" ? "Price comparison, new" : "Used copies"} — ${esc(s.label)}: ${esc(decodeURIComponent(q.replace(/\+/g, " ")))}">${esc(s.label)}</a>`).join("");
+}
+function shopBlock(title, platforms, plan) {
+  const rows = (platforms.length ? platforms : [""]).map((p) => `<div class="shop-row">
+    <span class="shop-plat">${p ? platPill(p) : pill("any platform")}</span><span class="shops">${shopChips(title, p, plan)}</span></div>`);
+  return `<h3 style="margin:18px 0 8px;font-size:15px">🛒 Find it <small style="color:var(--faint);font-weight:500">Geizhals = new · rebuy / eBay / medimops = used</small></h3>
+    <div class="shop-block">${rows.join("")}</div>`;
 }
 function bindTargets(root) {
-  root.addEventListener("click", (e) => { const t = e.target.closest("[data-target]"); if (t) openTarget(+t.dataset.target); });
-  root.addEventListener("keydown", (e) => { const t = e.target.closest("[data-target]"); if (t && e.key === "Enter") openTarget(+t.dataset.target); });
+  root.addEventListener("click", (e) => {
+    if (e.target.closest("a.shop")) return; // shop links open in a new tab, not the modal
+    const t = e.target.closest("[data-target]"); if (t) openTarget(+t.dataset.target);
+  });
+  root.addEventListener("keydown", (e) => {
+    if (e.target.closest("a.shop")) return;
+    const t = e.target.closest("[data-target]"); if (t && e.key === "Enter") openTarget(+t.dataset.target);
+  });
 }
 
 /* ------------------------------------------------ series */
@@ -552,6 +611,7 @@ function showModal(head, body) {
 }
 modal.addEventListener("click", (e) => {
   if (e.target === modal) modal.close();
+  if (e.target.closest("a.shop")) return;
   const g = e.target.closest("[data-game]"), t = e.target.closest("[data-target]"), s = e.target.closest("[data-series]");
   if (g) openGame(+g.dataset.game); else if (t) openTarget(+t.dataset.target); else if (s) openSeries(+s.dataset.series);
 });
@@ -583,7 +643,8 @@ function openGame(id) {
     ["Condition", esc(g.condition)], ["Released", esc(g.release_date)], ["Publisher", esc(g.publisher)], ["Developer", esc(g.developer)],
     ["Genre", esc(g.genre)], ["Purchased", esc([g.purchase_date, g.store, g.purchase_price].filter(Boolean).join(" · "))],
     ["Notes", esc(g.note)],
-  ]) + relatedHTML(relatedFor(g.title), g.id);
+  ]) + (HAVE.has(g.status) ? `<details class="shop-details"><summary>🛒 Look for another copy (upgrade / replacement)</summary>${shopBlock(g.title, [g.platform])}</details>`
+    : shopBlock(g.title, [g.platform])) + relatedHTML(relatedFor(g.title), g.id);
   showModal(`${coverHTML(g)}<div><h2>${esc(g.title)}</h2><div class="row">${platPill(g.platform)}${pill(st.icon + " " + st.label, st.color)}</div></div>`,
     body || `<p style="color:var(--muted)">No extra details in CLZ for this one.</p>`);
   $(".modal-head .cover", modal).style.width = "90px";
@@ -602,8 +663,9 @@ function openTarget(id) {
   ]);
   const rel = relatedFor(t.title);
   rel.targets = rel.targets.filter((x) => x.id !== t.id);
+  const shops = t.status === "done" ? "" : shopBlock(t.title, targetPlatforms(t), t.plan);
   showModal(`<div style="font-size:40px;line-height:1">${st.icon}</div><div><h2>${esc(t.title)}</h2><div class="row">${pill(st.label, st.color)}</div></div>`,
-    body + relatedHTML(rel));
+    body + shops + relatedHTML(rel));
 }
 
 function openSeries(id) {
@@ -619,7 +681,9 @@ function openSeries(id) {
       const gid = g && (D.gamesByTitle.get(norm(g.title)) || []).find((x) => x.platform === g.platform)?.id;
       return `<li class="${e.status}" title="${st.label}"><span>${st.icon}</span>
         <div><div ${gid != null ? `data-game="${gid}" style="cursor:pointer;font-weight:600"` : 'style="font-weight:600"'}>${esc(e.title)}${e.optional ? ' <span class="note">(optional)</span>' : ""}</div>
-        ${note ? `<div class="note">${esc(note)}</div>` : ""}</div><span class="yr">${esc(e.year)}</span></li>`;
+        ${note ? `<div class="note">${esc(note)}</div>` : ""}
+        ${e.status === "open" ? `<div class="shops-inline">${shopChips(e.title, targetPlatforms({ platforms: s.platforms })[0], e.note)}</div>` : ""}</div>
+        <span class="yr">${esc(e.year)}</span></li>`;
     }).join("")}</ul>`;
   showModal(`${ring(s.have, s.need, color)}<div><h2>${esc(s.name)}</h2><div class="row">${pill(`${s.have}/${s.need} physical`, color)}
     ${s.steam ? pill(`💻 ${s.steam} Steam`, "var(--pc)") : ""}${(s.platforms || []).map(platPill).join("")}</div></div>`, body);

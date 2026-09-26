@@ -5,7 +5,8 @@ Central, Excel-free home for my physical game collection — PC · Nintendo · P
 browsable lists, a buy plan with priorities and series trackers, with a full history in git.
 
 **🌐 Web app:** `https://cookie285.github.io/game-collection/` — dashboard, searchable cover grid, filterable buy plan,
-series progress rings, `/` for global search. Rebuilt automatically on every push (see [Web frontend](#web-frontend)).
+series progress rings, `/` for global search, and one-click searches on Geizhals (new) and rebuy / eBay / medimops (used)
+for every open target. Rebuilt automatically on every push (see [Web frontend](#web-frontend)).
 
 | View | What's in it |
 |---|---|
