@@ -429,6 +429,138 @@ def note_parts(note: str) -> list[dict]:
     return parts
 
 
+# ---------------------------------------------------------------- format matrix (which version exists where)
+FORMATS = {"disc", "cart", "gkc", "code", "digital", "steam", "owned", "none"}
+NINTENDO = FAMILIES["nintendo"]
+PLAN_NAMES = {
+    "PlayStation 5": r"\bPS5\b", "PlayStation 4": r"\bPS4\b", "PlayStation 3": r"\bPS3\b", "PlayStation 2": r"\bPS2\b",
+    "PlayStation": r"\bPS1\b", "Nintendo Switch 2": r"Switch 2", "Nintendo Switch": r"Switch(?! 2)", "Xbox Series X|S": r"Series X|Xbox\b",
+    "Xbox One": r"Xbox\b", "Xbox 360": r"360|Xbox\b", "Xbox": r"Xbox\b", "PC": r"Steam|\bPC\b",
+}
+JRPG_SERIES = (r"\bJRPG|turn-based RPG|Tales of|Persona|Final Fantasy|Dragon Quest|Trails|Atelier|\bYs\b|Star Ocean|"
+               r"Kingdom Hearts|Xenoblade|Metaphor|Shin Megami|Ni no Kuni|Bravely|Octopath|Wild ARMs|Suikoden|Neptunia")
+KEY_PLATFORM = [  # "X = …" keys used in notes → canonical platform
+    (r"^switch\s*2$", "Nintendo Switch 2"), (r"^switch\s*1?$", "Nintendo Switch"), (r"^ps\s*5$|^ps$", "PlayStation 5"),
+    (r"^ps\s*4$", "PlayStation 4"), (r"^xbox( series( x)?)?$", "Xbox Series X|S"), (r"^pc$", "PC"),
+]
+
+
+def value_format(v: str) -> str | None:
+    v = v.lower()
+    if re.search(r"game-key card|\bgkc\b", v):
+        return "gkc"
+    if re.search(r"^no\b|not released|only rumou?red|under consideration|\blater\b", v):
+        return "none"
+    if re.search(r"digital|download only", v):
+        return "digital"
+    if re.search(r"\bcart\b|physical", v):
+        return "cart"
+    if re.search(r"\bdisc\b", v):
+        return "disc"
+    return None
+
+
+def derive_formats(t: dict, owned: set[str]) -> dict:
+    """Which formats exist on which platform, from explicit `versions`, the plan text, notes and the collection.
+    Returns {platform: [{f, src, text}]}; src = explicit · note · plan · owned · assumed."""
+    F: dict[str, list] = defaultdict(list)
+    note, plan = t.get("note", ""), t.get("plan", "")
+
+    def add(p, f, src, text=""):
+        if f == "none":  # a platform with nothing released: drop assumed / planned physical formats
+            F[p] = [x for x in F[p] if x["src"] in ("explicit", "owned")]
+        elif any(x["f"] == "none" and x["src"] in ("explicit", "note") for x in F[p]) and src in ("plan", "assumed"):
+            return
+        if src in ("note", "explicit") and f not in ("owned", "digital", "steam"):
+            F[p] = [x for x in F[p] if x["src"] != "assumed"]  # real information replaces guesses
+        if not any(x["f"] == f for x in F[p]):
+            F[p].append({"f": f, "src": src, "text": text})
+
+    planned = [p for p in (expand_platforms(t.get("platforms")) or set()) if p in PLATFORM_ORDER]
+    planned = sorted(planned, key=PLATFORM_ORDER.index) if len(planned) <= 3 else []
+    lp = plan.lower()
+    plan_digital = re.search(r"digital|store sale|game pass|steam sale", lp)
+    plan_code = "code-in-box" in lp
+    # the plan text usually names one platform ("PS5 disc; used …") — it only describes that one
+    named = [p for p in planned if re.search(PLAN_NAMES.get(p, "$^"), plan, re.I)]
+    for p in planned:
+        phys = "cart" if p in NINTENDO else "disc"
+        if named and p not in named:
+            add(p, phys, "assumed")
+        elif plan_digital and not plan_code:
+            add(p, "digital", "plan", plan)
+            if p in ("Xbox 360", "Xbox"):
+                add(p, "disc", "assumed")  # BC titles were released on disc
+        elif plan_code:
+            add(p, "code", "plan", plan)
+        elif plan:
+            add(p, phys, "plan", plan)
+        else:
+            add(p, phys, "assumed")
+    xbox_planned = [p for p in planned if p in FAMILIES["xbox"]] or ["Xbox Series X|S"]
+    for seg in re.split(r" · |; (?=[A-Z])", note):
+        m = re.match(r"\s*(Other versions?|Decision):\s*(.*)", seg)
+        if m:
+            for item in re.split(r"; |, (?=(?:Switch|PS|Xbox|PC|No)\b)", m.group(2)):
+                kv = re.match(r"\s*([A-Za-z]+(?: \d)?(?:/[A-Za-z]+(?: \d)?)*)\b[^=]*?=\s*(.+)", item)
+                if kv:
+                    for key in kv.group(1).split("/"):
+                        key, val = key.strip(), kv.group(2)
+                        f = value_format(val)
+                        plat = next((pl for rx, pl in KEY_PLATFORM if re.match(rx, key, re.I)), None)
+                        if plat == "Nintendo Switch" and re.search(r"switch 2", val, re.I):
+                            plat = "Nintendo Switch 2"
+                        elif plat == "Nintendo Switch" and re.search(r"switch 1", val, re.I):
+                            plat = "Nintendo Switch"
+                        if plat == "PlayStation 5" and re.search(r"\bps4\b", val, re.I):
+                            plat = "PlayStation 4"
+                        if plat and f:
+                            add(plat, f, "note", item.strip())
+                else:
+                    for rx, plat, f in ((r"^No Switch\b", "Nintendo Switch", "none"), (r"^No Switch\b", "Nintendo Switch 2", "none"),
+                                        (r"^PC later|^No PC", "PC", "none"), (r"^Switch 2\b.*(rumou?red|consideration)", "Nintendo Switch 2", "none"),
+                                        (r"^Switch 1 has a cart", "Nintendo Switch", "cart")):
+                        if re.search(rx, item.strip(), re.I):
+                            add(plat, f, "note", item.strip())
+    rules = [
+        (r"owned on Steam|\bown on Steam|also on Steam", lambda: add("PC", "steam", "note", "owned on Steam")),
+        (r"No Xbox disc exists", lambda: [add(p, "none", "note", "No Xbox disc exists") for p in ("Xbox Series X|S", "Xbox One")]),
+        (r"PS5 disc only|a PS5 (Day One )?disc (also )?exists", lambda: add("PlayStation 5", "disc", "note", "PS5 disc exists")),
+        (r"Xbox Series X disc exists", lambda: add("Xbox Series X|S", "disc", "note", "Xbox Series X disc exists")),
+        (r"code-in-box", lambda: [add(p, "code", "note", "code-in-box") for p in xbox_planned]),
+        (r"code-in-box \(no disc|no disc,", lambda: [add(p, "none", "note", "no disc") or add(p, "code", "note", "code-in-box") for p in xbox_planned]),
+        (r"Xbox Store: Digital", lambda: [add(p, "digital", "note", "Xbox Store: Digital") for p in xbox_planned]),
+        (r"No physical release", lambda: [add(p, "none", "note", "No physical release") or add(p, "digital", "note", "digital only") for p in planned]),
+        (r"no Switch version|\bNo Switch\b(?! 2)", lambda: [add(p, "none", "note", "no Switch version") for p in ("Nintendo Switch", "Nintendo Switch 2")]),
+        (r"Never ported to PC|No PC version", lambda: add("PC", "none", "note", "not on PC")),
+    ]
+    for rx, fn in rules:
+        if re.search(rx, note, re.I):
+            fn()
+    for p in owned:
+        add(p, "owned", "owned", "in the collection")
+    for p, v in (t.get("versions") or {}).items():
+        p = canon_platform(p)
+        F[p] = [x for x in F[p] if x["src"] == "owned"]
+        for f in ([v] if isinstance(v, str) else v):
+            F[p].append({"f": f, "src": "explicit", "text": "versions ="})
+    return {p: v for p, v in F.items() if v}
+
+
+def target_flags(t: dict, rule_ids: list[str]) -> dict:
+    """Facts the platform-suggestion engine needs beyond the format matrix."""
+    txt = " ".join(str(t.get(k, "")) for k in ("title", "note", "group", "plan"))
+    return {k: v for k, v in {
+        "jrpg": t.get("jrpg", bool(re.search(JRPG_SERIES, txt))),
+        "shooter": t.get("shooter", "shooter-console" in rule_ids),
+        "msfp": t.get("msfp", bool({"xbox-first-party-scope", "ms-games-on-ps5-disc", "no-xbox-disc-out-of-scope"} & set(rule_ids))),
+        "delisted": bool(re.search(r"[Dd]elisted|DISC ONLY|Never digital", t.get("note", ""))),
+        "upgrade": bool(re.search(r"Upgrade", t.get("group", ""))),
+        "bc": bool(re.search(r"360 BC|OG Xbox BC", t.get("group", ""))),
+        "off": t.get("not_rules", []),  # rules switched off for this target = documented exceptions
+    }.items() if v}
+
+
 def load_annotations() -> dict[tuple[str, str], str]:
     """(norm title, canonical platform) -> note ; platform '' = any platform"""
     if not ANNOTATIONS.exists():
@@ -890,7 +1022,8 @@ def cmd_export(args) -> None:
             "note": t.get("note", ""), "verify": t.get("verify", ""), "file": t["_file"], "status": st,
             "hits": [hit(h) for h in hits],
             "elsewhere": sorted(have_by_title.get(norm(t["title"]), set()) - {h["platform"] for h in hits}),
-            "rules": rules_for(t, rules), "src": src(t), "parts": note_parts(t.get("note", "")),
+            "rules": (rids := rules_for(t, rules)), "src": src(t), "parts": note_parts(t.get("note", "")),
+            "formats": derive_formats(t, have_by_title.get(norm(t["title"]), set())), "flags": target_flags(t, rids),
             **{k: t[k] for k in ("why", "alternatives", "condition", "max_price", "facts", "checked") if k in t},
         })
     series = []
@@ -969,6 +1102,14 @@ def cmd_check(_args) -> None:
         print(f"{path.parent.name}/{path.name}: {len(items)} entries")
     ok = check_rules() and ok
     ok = check_decisions() and ok
+    for t in load_targets():
+        for p, v in (t.get("versions") or {}).items():
+            for f in ([v] if isinstance(v, str) else v):
+                if f not in FORMATS:
+                    print(f"ERROR target {t['title']!r}: versions.{p} = {f!r} — use one of {', '.join(sorted(FORMATS))}")
+                    ok = False
+            if canon_platform(p) not in PLATFORM_ORDER:
+                print(f"WARN target {t['title']!r}: versions: unknown platform {p!r}")
     sys.exit(0 if ok else 1)
 
 

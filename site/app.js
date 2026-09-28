@@ -172,6 +172,7 @@ function prepare(d) {
     if (x.status === "open") x.targets.forEach((t) => t.decisions.push(x.id));
     x._n = norm([x.id, x.question, x.context, x.recommendation, x.outcome, ...(x.option || []).map((o) => o.label)].join(" "));
   });
+  d.targets.forEach((t) => (t.check = ruleCheck(t)));
   d.gamesByTitle = new Map();
   d.games.forEach((g) => {
     const k = norm(g.title);
@@ -495,7 +496,8 @@ function targetHTML(t) {
         ${t.elsewhere.length && t.status !== "done" ? pill("📀 owned on " + t.elsewhere.map(shortPlat).join(", "), "var(--good)") : ""}
         ${t.verify && t.status !== "done" ? pill("❓ verify", "var(--warn)") : ""}
         ${t.status === "open" ? t.decisions.map((id) => D.decisionsById.get(id)).filter((x) => x.targets.length <= 5).map((x) =>
-          `<button class="q-pill" data-decision="${esc(x.id)}" title="${esc(x.question)}">⚖️ open question</button>`).join("") : ""}</div>
+          `<button class="q-pill" data-decision="${esc(x.id)}" title="${esc(x.question)}">⚖️ open question</button>`).join("") : ""}
+        ${t.check?.state === "differs" ? `<span class="diff-pill" title="${esc(t.check.why)}">≠ rules</span>` : ""}</div>
       ${t.rules.length ? `<div class="row rules-row">${rulePills(t.rules, 3)}</div>` : ""}
       ${t.note ? `<div class="note">${esc(t.note)}</div>` : ""}</div>
     <div class="right">${right}${t.status === "open" ? `<div class="shops-inline">${shopChips(t.title, targetPlatforms(t)[0], t.plan)}</div>` : ""}</div></div>`;
@@ -627,16 +629,17 @@ function conflicts() {
   const split = D.series.filter((s) => new Set(s.entries.flatMap((e) => e.hits.filter((h) => HAVE.has(h.status)).map((h) => platFamily(h.platform)))).size > 1);
   const undecided = D.targets.filter((t) => t.status === "open" && ["undecided", "watching"].includes(t.state));
   const untagged = D.targets.filter((t) => !t.rules.length);
-  return { inBoth, cross, ownedElsewhere, tentative, split, undecided, untagged };
+  const differs = D.targets.filter((t) => t.check?.state === "differs");
+  return { inBoth, cross, ownedElsewhere, tentative, split, undecided, untagged, differs };
 }
 
 function pageStrategy(page, params) {
   const S = { tab: params.get("tab") || "rules", scope: params.get("scope") || "", q: params.get("q") || "", status: params.get("status") || "", sort: params.get("sort") || "" };
   const C = conflicts();
-  const nConf = C.inBoth.length + C.cross.length + C.ownedElsewhere.length + C.tentative.length + C.split.length + C.untagged.length;
+  const nConf = C.differs.length + C.inBoth.length + C.cross.length + C.ownedElsewhere.length + C.tentative.length + C.split.length + C.untagged.length;
   page.innerHTML = `
     <div class="page-head"><div><h1>Strategy</h1><p>The rules behind every buy-plan decision — from <code>data/rules.toml</code>. Click a rule to see what it decides.</p></div>
-      <div class="seg" id="tabs2"><button data-t="rules">📐 Rules</button><button data-t="path">🧭 Decision path</button><button data-t="conflicts">⚠️ Conflicts <span class="badge">${nConf}</span></button></div></div>
+      <div class="seg" id="tabs2"><button data-t="rules">📐 Rules</button><button data-t="path">🧭 Decision path</button><button data-t="wizard">🧮 Where to buy?</button><button data-t="conflicts">⚠️ Conflicts <span class="badge">${nConf}</span></button></div></div>
     <div class="strategies">${(D.strategies || []).map((p) => {
       const open = D.targets.filter((t) => t.family === p.id && t.status === "open").length;
       const owned = D.games.filter((g) => g.family === p.id && HAVE.has(g.status)).length;
@@ -687,9 +690,13 @@ function pageStrategy(page, params) {
     C.cross.forEach((t) => { const k = `${fam(FILE_FAMILY[t.file]).label} plan → ${t.family === "other" ? "mixed / any" : fam(t.family).label}`; (crossBy[k] = crossBy[k] || []).push(t); });
     const undecidedBy = {};
     C.undecided.forEach((t) => (t.rules.length ? t.rules : ["(no rule)"]).forEach((id) => (undecidedBy[id] = (undecidedBy[id] || 0) + 1)));
+    const diffBy = {};
+    C.differs.forEach((t) => { const r = [...t.check.trace].reverse().find((x) => D.rulesById.get(x.rule)); const k = r ? D.rulesById.get(r.rule).short : "other"; (diffBy[k] = diffBy[k] || []).push(t); });
     body.innerHTML = [
+      section("🧮 Plan differs from the rules", "Where the rules engine would buy it somewhere else (or not at all). Each one is either an exception worth writing down or an outdated plan.", C.differs.length,
+        Object.entries(diffBy).sort((a, b) => b[1].length - a[1].length).map(([k, ts]) => `<div class="group-head">Rules say: ${esc(k)} · ${ts.length}</div><div class="targets">${ts.map(targetHTML).join("")}</div>`).join(""), true),
       section("🔀 In both platform plans", "The PlayStation and Xbox chats both planned the same game — check that the two decisions agree.", C.inBoth.length,
-        C.inBoth.map((ts) => `<div class="pair">${ts.map(targetHTML).join("")}</div>`).join(""), true),
+        C.inBoth.map((ts) => `<div class="pair">${ts.map(targetHTML).join("")}</div>`).join("")),
       section("↪️ Decided for another platform", "A platform plan sends the game somewhere else (e.g. PlayStation plan → Switch, Xbox plan → PS5). These are the cross-strategy calls.", C.cross.length,
         Object.entries(crossBy).map(([k, ts]) => `<div class="group-head">${esc(k)} · ${ts.length}</div><div class="targets">${ts.map(targetHTML).join("")}</div>`).join("")),
       section("📀 Open, but already owned elsewhere", "Tension with “one copy per game” — still wanted, although another version is on the shelf.", C.ownedElsewhere.length,
@@ -714,7 +721,8 @@ function pageStrategy(page, params) {
     $$("#tabs2 button", page).forEach((b) => b.classList.toggle("on", b.dataset.t === S.tab));
     $$(".strategy", page).forEach((c) => c.classList.toggle("on", S.tab === "rules" && c.dataset.scope === S.scope));
   };
-  const show = () => (S.tab === "path" ? renderPath : S.tab === "conflicts" ? renderConflicts : renderRules)();
+  const renderWiz = () => { sync(); renderWizard(body, params); };
+  const show = () => (S.tab === "path" ? renderPath : S.tab === "wizard" ? renderWiz : S.tab === "conflicts" ? renderConflicts : renderRules)();
   $("#tabs2", page).addEventListener("click", (e) => { const b = e.target.closest("button"); if (b) { S.tab = b.dataset.t; show(); } });
   page.addEventListener("click", (e) => {
     if (e.target.closest("[data-rule], [data-decision], [data-ask], a")) return;
@@ -788,6 +796,8 @@ const NOTE_FILTERS = {
   dated: { label: "📌 Has dated facts", test: (t) => (t.parts || []).some((p) => p.date) },
   stale: { label: `⚠️ Facts older than ${STALE_DAYS} days`, test: (t) => (t.parts || []).some((p) => p.date && daysSince(p.date) > STALE_DAYS) },
   question: { label: "⚖️ Linked to an open question", test: (t) => t.decisions.length },
+  differs: { label: "🧮 Plan differs from the rules", test: (t) => t.check?.state === "differs" },
+  thin: { label: "🧮 Only the planned platform known", test: (t) => ["open", "ordered"].includes(t.status) && t.check?.thin },
 };
 const DEC_KIND = { decision: "Decision", research: "Research", "clz-fix": "CLZ fix" };
 const areaColor = (a) => (a === "all" ? "var(--accent)" : fam(a).color);
@@ -989,6 +999,191 @@ function ask(spec) {
   askClaude(text);
 }
 
+/* ------------------------------------------------ format matrix + rules engine ("where should I buy this?") */
+const FORMAT = {
+  disc: { icon: "💿", label: "Disc" }, cart: { icon: "🎴", label: "Cart" }, gkc: { icon: "🔑", label: "Game-Key Card" },
+  code: { icon: "🎟️", label: "Code in box" }, digital: { icon: "☁️", label: "Digital" }, steam: { icon: "💻", label: "Owned on Steam" },
+  owned: { icon: "📀", label: "Owned" }, none: { icon: "✖", label: "Not released" },
+};
+const SRC_LABEL = { explicit: "versions", note: "from note", plan: "plan", owned: "collection", assumed: "assumed" };
+const NEWEST = {
+  nintendo: ["Nintendo Switch 2", "Nintendo Switch", "Wii U", "Wii", "GameCube", "Nintendo 64", "Super Nintendo", "NES", "Nintendo 3DS", "Nintendo DS", "Game Boy Advance", "Game Boy Color", "Game Boy"],
+  playstation: ["PlayStation 5", "PlayStation 4", "PlayStation 3", "PlayStation 2", "PlayStation", "PlayStation Vita", "PSP"],
+  xbox: ["Xbox Series X|S", "Xbox One", "Xbox 360", "Xbox"],
+};
+const MATRIX_PLATS = ["Nintendo Switch 2", "Nintendo Switch", "PlayStation 5", "PlayStation 4", "Xbox Series X|S", "Xbox One", "PC"];
+const VERDICT = {
+  buy: { label: "Buy", color: "var(--good)" }, "cheap-only": { label: "Only if cheap", color: "var(--warn)" },
+  "case-by-case": { label: "Case by case", color: "var(--accent-2)" }, digital: { label: "Digital", color: "var(--playstation)" },
+  code: { label: "Code-in-box", color: "var(--warn)" }, gkc: { label: "Game-Key Card only", color: "var(--warn)" },
+  owned: { label: "Already owned", color: "var(--faint)" }, unknown: { label: "Not enough info", color: "var(--faint)" },
+};
+
+// F = { platform: ["disc", "gkc", …] } · flags = { jrpg, shooter, msfp, delisted, upgrade, bc }
+function suggest(F, flags = {}) {
+  const has = (p, f) => (F[p] || []).includes(f);
+  const find = (fam, fs) => NEWEST[fam].find((p) => fs.some((f) => has(p, f)));
+  const trace = [], step = (rule, text) => trace.push({ rule, text });
+  const off = new Set(flags.off || []), use = (rule) => !off.has(rule);  // not_rules = documented exceptions
+  if (off.size) step("", `Exceptions for this game (not_rules): ${[...off].map((id) => D.rulesById.get(id)?.short || id).join(", ")}.`);
+  const owned = Object.keys(F).filter((p) => has(p, "owned"));
+  if (owned.length && !flags.upgrade && use("one-copy-newest-gen")) {
+    step("one-copy-newest-gen", `Already owned on ${owned.map(shortPlat).join(", ")} — one copy per game.`);
+    return { pick: { platform: owned[0], format: "owned" }, verdict: "owned", trace };
+  }
+  const swCart = NEWEST.nintendo.find((p) => has(p, "cart") || has(p, "disc"));
+  const swGkc = NEWEST.nintendo.find((p) => has(p, "gkc"));
+  const psDisc = find("playstation", ["disc"]), xbDisc = find("xbox", ["disc"]);
+  let pick = null, alt = null, verdict = "buy";
+  if (flags.shooter && xbDisc && use("shooter-console")) {
+    pick = xbDisc; step("shooter-console", `Shooter series → Xbox disc (${shortPlat(xbDisc)}), even before Nintendo.`);
+  } else if (flags.msfp && xbDisc && use("xbox-first-party-scope")) {
+    pick = xbDisc; step("xbox-first-party-scope", `Microsoft first-party → Xbox disc (${shortPlat(xbDisc)}).`);
+    if (["Xbox Series X|S", "Xbox One"].includes(xbDisc)) step("disc-to-digital", "The disc carries a Disc-to-Digital licence.");
+  } else if (flags.msfp && psDisc === "PlayStation 5") {
+    pick = psDisc; step("ms-games-on-ps5-disc", "Microsoft game without an Xbox disc → PS5 disc.");
+  } else if (swCart && use("switch-first")) {
+    pick = swCart; step("switch-first", `A real Nintendo cart exists (${shortPlat(swCart)}) → Nintendo first.`);
+  } else if (swGkc && flags.jrpg && use("gkc-not-physical")) {
+    pick = swGkc; alt = psDisc || xbDisc; verdict = "case-by-case";
+    step("gkc-not-physical", `JRPG whose only Nintendo version is a Game-Key Card → case by case${alt ? `: Game-Key Card or ${shortPlat(alt)} disc` : ""}.`);
+  } else if (psDisc || xbDisc) {
+    if (swGkc) step("gkc-not-physical", `${shortPlat(swGkc)} only has a Game-Key Card — that doesn't count as physical.`);
+    pick = psDisc || xbDisc;
+    step(psDisc ? "ps-exclusives-and-disc-worthy" : "platform-priority", psDisc ? `PlayStation disc (${shortPlat(psDisc)}).` : `Only Xbox has a disc (${shortPlat(xbDisc)}).`);
+  } else if (swGkc) {
+    pick = swGkc; verdict = "gkc"; step("gkc-not-physical", "Only a Game-Key Card exists — buy it only as an exception.");
+  } else {
+    const other = Object.keys(F).find((p) => has(p, "disc") || has(p, "cart"));
+    const code = Object.keys(F).find((p) => has(p, "code")), dig = Object.keys(F).find((p) => has(p, "digital"));
+    if (other) { pick = other; step("physical-first", `Physical version on ${shortPlat(other)}.`); }
+    else if (code) { pick = code; verdict = "code"; step("code-in-box", "Only a code-in-box: sealed, EU box, at or below the store sale price."); }
+    else if (dig || has("PC", "steam")) {
+      pick = dig || "PC"; verdict = has("PC", "steam") && !dig ? "owned" : "digital";
+      step("physical-first", "No physical version — digital is the fallback.");
+      if (flags.msfp) step("digital-only-game-pass", "Digital-only Microsoft game → Game Pass first; Xbox Store (Play Anywhere) if keeping.");
+    } else {
+      step("", "Not enough format information — add `versions = { … }` to the target (or use the wizard).");
+      return { pick: null, verdict: "unknown", trace };
+    }
+  }
+  if (["Xbox 360", "Xbox"].includes(pick) && has(pick, "digital") && use("bc-digital-unless-delisted")) {
+    if (flags.delisted) step("bc-digital-unless-delisted", "Delisted from the store → the disc is the only way.");
+    else { verdict = "digital"; step("bc-digital-unless-delisted", "Backward-compatible and still listed → buy it digitally in an Xbox Store sale."); }
+  }
+  if (has("PC", "steam") && verdict === "buy" && use("steam-owned-only-cheap")) { verdict = "cheap-only"; step("steam-owned-only-cheap", "Already owned on Steam → only if the price is really good."); }
+  const format = verdict === "owned" && has(pick, "steam") ? "steam" : verdict === "digital" ? "digital" : verdict === "code" ? "code" : (F[pick] || []).find((f) => ["disc", "cart", "gkc"].includes(f)) || "disc";
+  return { pick: { platform: pick, format }, alt, verdict, trace };
+}
+
+const formatsOf = (t) => Object.fromEntries(Object.entries(t.formats || {}).map(([p, v]) => [p, v.map((x) => x.f).filter((f) => f !== "none")]));
+function plannedOf(t) {
+  const ps = targetPlatforms(t);
+  return ps;
+}
+// compare the rules' suggestion with the target's plan
+function ruleCheck(t) {
+  const s = suggest(formatsOf(t), t.flags || {});
+  const known = Object.values(t.formats || {}).filter((v) => v.some((x) => x.src !== "assumed")).length;
+  const thin = Object.keys(t.formats || {}).length < 2;
+  const planned = plannedOf(t);
+  // what kind of purchase the plan text describes: physical, digital, or "either" ("disc if delisted, else digital")
+  const lp = (t.plan || "").toLowerCase();
+  const pd = /digital|store sale|game pass|steam sale/.test(lp), pp = !lp || /disc|cart|physical|used|new\b|pre-?order|limited run|netgames|code-in-box/.test(lp);
+  const planKind = pd && pp ? "either" : pd ? "digital" : "physical";
+  let state = "unknown", why = "";
+  if (!["open", "ordered"].includes(t.status)) state = "n/a";
+  else if (!s.pick || !planned.length) state = "unknown";
+  else if (s.verdict === "owned" && s.pick.format === "owned") { state = "differs"; why = "the rules say you already own it"; }
+  else {
+    const hit = planned.includes(s.pick.platform) || (s.alt && planned.includes(s.alt));
+    const fmtOk = planKind === "either" || s.verdict === "case-by-case" || (s.verdict === "digital") === (planKind === "digital");
+    state = hit && fmtOk ? "agrees" : "differs";
+    if (!hit) why = `the rules pick ${shortPlat(s.pick.platform)}, the plan says ${planned.map(shortPlat).join(" / ")}`;
+    else if (!fmtOk) why = s.verdict === "digital" ? "the rules say digital, the plan says physical" : "the rules say physical, the plan says digital";
+  }
+  return { ...s, state, why, thin, known };
+}
+
+function matrixHTML(F, pick, editable = false) {
+  const plats = [...new Set([...MATRIX_PLATS, ...Object.keys(F)])]
+    .sort((a, b) => (PLATFORM_ORDER_JS.indexOf(a) + 99) % 999 - (PLATFORM_ORDER_JS.indexOf(b) + 99) % 999);
+  return `<div class="matrix">${plats.map((p) => {
+    const cells = F[p] || [];
+    const on = pick && pick.platform === p;
+    const content = cells.length ? cells.map((x) => {
+      const f = FORMAT[x.f] || { icon: "", label: x.f };
+      return `<span class="fmt fmt-${x.f}${x.src === "assumed" ? " assumed" : ""}" title="${esc(x.text || "")}">${f.icon} ${f.label}<small>${esc(SRC_LABEL[x.src] || x.src || "")}</small></span>`;
+    }).join("") : `<span class="fmt unknown">? unknown</span>`;
+    return `<div class="mx-row${on ? " pick" : ""}"><span>${platPill(p)}</span><span>${content}</span><span class="m-pick">${on ? "◀ rules" : ""}</span></div>`;
+  }).join("")}</div>`;
+}
+const PLATFORM_ORDER_JS = ["PC", ...NEWEST.nintendo, ...NEWEST.playstation, ...NEWEST.xbox];
+
+function traceHTML(trace) {
+  return `<ol class="trace">${trace.map((s) => `<li>${s.rule && D.rulesById.get(s.rule) ? rulePills([s.rule]) : ""} <span>${esc(s.text)}</span></li>`).join("")}</ol>`;
+}
+function verdictHead(s) {
+  const v = VERDICT[s.verdict] || VERDICT.unknown;
+  const f = s.pick ? FORMAT[s.pick.format] || { icon: "", label: s.pick.format } : null;
+  return `${s.pick ? `<span class="sugg-main">${f.icon} ${esc(shortPlat(s.pick.platform || ""))} · ${esc(f.label)}</span>` : `<span class="sugg-main">—</span>`}
+    ${pill(v.label, v.color)}${s.alt ? ` <span class="sub">or ${esc(shortPlat(s.alt))} disc</span>` : ""}`;
+}
+function ruleCheckHTML(t) {
+  const c = t.check || ruleCheck(t);
+  const badge = c.state === "agrees" ? pill("✓ matches the plan", "var(--good)") : c.state === "differs" ? pill("≠ differs from the plan", "var(--bad)") : "";
+  return `<div class="why check ${c.state}"><div class="why-head">🧮 Where the rules would buy it</div>
+    <div class="sugg">${verdictHead(c)} ${badge}</div>
+    ${c.state === "differs" && c.why ? `<p class="check-why">Plan vs rules: ${esc(c.why)}. Either the plan is an exception worth writing down (as a note or a rule), or it's outdated.</p>` : ""}
+    ${c.thin ? `<p class="check-why">⚠️ Only the planned platform is known — add <code>versions = { … }</code> (or check in the wizard) to test other platforms.</p>` : ""}
+    <details class="matrix-d"${c.state === "differs" ? " open" : ""}><summary>Formats per platform & reasoning</summary>
+      ${matrixHTML(t.formats || {}, c.pick)}${traceHTML(c.trace)}</details>
+    <a class="btn" href="#/strategy?tab=wizard&t=${t.id}">🧮 Try variations in the wizard →</a></div>`;
+}
+
+/* ---- wizard: same engine, formats and flags set by hand */
+const WIZ_FLAGS = [["jrpg", "JRPG"], ["shooter", "Shooter series"], ["msfp", "Microsoft first-party"], ["delisted", "Delisted from the Xbox Store"], ["upgrade", "Upgrade of an owned copy"]];
+const WIZ_PLATS = ["Nintendo Switch 2", "Nintendo Switch", "PlayStation 5", "PlayStation 4", "PlayStation 3", "PlayStation 2", "Xbox Series X|S", "Xbox One", "Xbox 360", "Xbox", "PC"];
+const WIZ_OPTS = (p) => p === "PC" ? ["", "steam", "digital", "none"] : NEWEST.nintendo.includes(p) ? ["", "cart", "gkc", "digital", "owned", "none"] : ["", "disc", "code", "digital", "owned", "none"];
+function renderWizard(body, params) {
+  const t = params.get("t") != null ? D.targets[+params.get("t")] : null;
+  body.innerHTML = `<p class="lead">Set which versions exist and the engine walks your rules — the same logic that checks every buy-plan target.
+    ${t ? "" : "Start empty, or load a target:"}</p>
+    <div class="card toolbar"><label class="search">🎯<input id="wt" list="wtl" placeholder="Load a buy-plan target…" value="${t ? esc(t.title) : ""}"></label>
+      <datalist id="wtl">${D.targets.filter((x) => x.status === "open").map((x) => `<option value="${esc(x.title)}">`).join("")}</datalist>
+      <button class="btn" id="wreset">Reset</button></div>
+    <div class="wizard"><div class="card wiz-form">
+      <h3>Versions</h3><div class="wiz-grid">${WIZ_PLATS.map((p) => `<label>${platPill(p)}<select data-p="${esc(p)}">${WIZ_OPTS(p).map((f) => `<option value="${f}">${f ? FORMAT[f].icon + " " + FORMAT[f].label : "—"}</option>`).join("")}</select></label>`).join("")}</div>
+      <h3>About the game</h3><div class="wiz-flags">${WIZ_FLAGS.map(([k, l]) => `<label><input type="checkbox" data-f="${k}"> ${l}</label>`).join("")}</div>
+    </div><div class="card wiz-out" id="wout"></div></div>`;
+  const load = (tt) => {
+    $$("select[data-p]", body).forEach((s) => {
+      const fs = (tt?.formats?.[s.dataset.p] || []).map((x) => x.f).filter((f) => WIZ_OPTS(s.dataset.p).includes(f));
+      s.value = fs.find((f) => f !== "owned") || fs[0] || "";
+    });
+    $$("input[data-f]", body).forEach((c) => (c.checked = !!tt?.flags?.[c.dataset.f]));
+    body.dataset.tid = tt ? tt.id : "";
+    run();
+  };
+  const run = () => {
+    const F = {}, flags = {};
+    $$("select[data-p]", body).forEach((s) => { if (s.value && s.value !== "none") F[s.dataset.p] = [s.value]; });
+    $$("input[data-f]", body).forEach((c) => (flags[c.dataset.f] = c.checked));
+    const s = suggest(F, flags);
+    const tt = body.dataset.tid ? D.targets[+body.dataset.tid] : null;
+    const planned = tt ? plannedOf(tt) : [];
+    $("#wout", body).innerHTML = `<h3>Suggestion</h3><div class="sugg">${verdictHead(s)}</div>${traceHTML(s.trace)}
+      ${tt ? `<div class="wiz-plan">Plan for <button class="linkish" data-target="${tt.id}">${esc(tt.title)}</button>: ${planned.map(shortPlat).join(" / ") || "any"} — ${esc(tt.plan || "no plan text")}
+        ${s.pick && planned.length ? (planned.includes(s.pick.platform) || planned.includes(s.alt) ? pill("✓ matches", "var(--good)") : pill("≠ differs", "var(--bad)")) : ""}</div>` : ""}
+      <p class="sub">To store versions for a target: <code>versions = { "PlayStation 5" = "disc", "Nintendo Switch 2" = "gkc" }</code> in its TOML entry.</p>`;
+  };
+  body.addEventListener("change", (e) => { if (e.target.matches("select[data-p], input[data-f]")) run(); });
+  $("#wt", body).addEventListener("change", (e) => { const tt = D.targets.find((x) => x.title === e.target.value); if (tt) load(tt); });
+  $("#wreset", body).addEventListener("click", () => { $("#wt", body).value = ""; load(null); });
+  body.addEventListener("click", (e) => { const b = e.target.closest("button[data-target]"); if (b) openTarget(+b.dataset.target); });
+  load(t);
+}
+
 /* ------------------------------------------------ series */
 function pageSeries(page, params) {
   const S = { q: params.get("q") || "", show: params.get("show") || "", sort: params.get("sort") || "file" };
@@ -1127,7 +1322,7 @@ function openTarget(id) {
   rel.targets = rel.targets.filter((x) => x.id !== t.id);
   const shops = t.status === "done" ? "" : shopBlock(t.title, targetPlatforms(t), t.plan);
   showModal(`<div style="font-size:40px;line-height:1">${st.icon}</div><div><h2>${esc(t.title)}</h2><div class="row">${pill(st.label, st.color)}</div></div>`,
-    whyHTML(t.rules) + questionsHTML(t.decisions) + notesHTML(t) + body + askButton("target", t.id) + shops + relatedHTML(rel));
+    whyHTML(t.rules) + questionsHTML(t.decisions) + (["open", "ordered"].includes(t.status) ? ruleCheckHTML(t) : "") + notesHTML(t) + body + askButton("target", t.id) + shops + relatedHTML(rel));
 }
 
 function openSeries(id) {

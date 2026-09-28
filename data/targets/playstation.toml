@@ -1427,6 +1427,7 @@ note = "Series. · PAL release"
 
 [[target]]
 title = "Harry Potter and the Philosopher's Stone"
+not_rules = ["one-copy-newest-gen"]  # PS1 and PS2 versions are different games
 platforms = ["PlayStation 2"]
 priority = "low"
 group = "PS2 gaps – Multiplatform"
@@ -1557,6 +1558,7 @@ note = "Needs a DualShock (works on PS3 with a DS3). · PAL release"
 
 [[target]]
 title = "Harry Potter and the Chamber of Secrets"
+not_rules = ["one-copy-newest-gen"]  # PS1 and PS2 versions are different games
 platforms = ["PlayStation"]
 priority = "low"
 group = "PS1 gaps – Multiplatform"
