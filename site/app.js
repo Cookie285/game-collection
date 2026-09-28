@@ -588,15 +588,13 @@ function shopBlock(title, platforms, plan) {
 }
 // release databases: which physical versions exist, what's on the disc / cart, German cut or uncut
 const RELEASE_SITES = [
-  { label: "VGCollect", tip: "Physical releases per region and edition, box photos", url: (t, p) => ddg("vgcollect.com", t, p) },
-  { label: "Does It Play?", tip: "Full game on the disc / cart, or does it need a download?", url: (t) => ddg("doesitplay.org", t) },
+  { label: "VGCollect", tip: "Physical releases per region and edition, box photos", url: (t) => `https://vgcollect.com/search/${enc(t)}` },
+  { label: "Does It Play?", tip: "Full game on the disc / cart, or does it need a download?", url: (t) => `https://www.doesitplay.org/list?search=${enc(t)}&order=Alphabetically` },
   { label: "MobyGames", tip: "Releases per platform and region, editions", url: (t) => `https://www.mobygames.com/search/?q=${enc(t)}&type=game` },
   { label: "PriceCharting", tip: "Editions and variants (with used prices)", url: (t, p) => `https://www.pricecharting.com/search-products?q=${enc(p ? `${t} ${SHOP_PLATFORM[p] || p}` : t)}&type=prices` },
   { label: "Schnittberichte", tip: "Is the German release cut?", url: (t) => `https://www.schnittberichte.com/svds.php?Page=Suche&String=${enc(t)}` },
 ];
 const enc = (s) => encodeURIComponent(s.replace(/[™®©]/g, "").replace(/\s+/g, " ").trim());
-// sites without a linkable search page: a site-restricted web search
-const ddg = (site, t, p) => `https://duckduckgo.com/?q=${enc(`site:${site} "${t}"${p ? " " + (SHOP_PLATFORM[p] || p) : ""}`)}`;
 function releaseBlock(title, platforms) {
   const p = platforms.length === 1 ? platforms[0] : "";
   return `<h3 style="margin:18px 0 8px;font-size:15px">🔎 Check releases <small style="color:var(--faint);font-weight:500">physical versions · what's on the disc · DLC · German cut</small></h3>
