@@ -3,6 +3,7 @@
 [[series]]
 platforms = ["xbox"]
 name = "Call of Duty"
+rules = ["shooter-console"]
 description = "Complete Xbox run, one copy per game, newest-gen pressing. Single-player focus; servers irrelevant. ❓ Call of Duty (2003, PC-only) and OG Xbox spin-offs (Finest Hour, Big Red One) were never discussed – not listed"
 
 [[series.entry]]
@@ -128,6 +129,7 @@ note = "Digital-only – nothing to collect"
 [[series]]
 platforms = ["xbox"]
 name = "Battlefield"
+rules = ["shooter-console"]
 description = "Complete Xbox run, one copy per game, newest-gen pressing. Single-player focus; servers irrelevant."
 
 [[series.entry]]
@@ -189,6 +191,7 @@ note = "Xbox Series X disc"
 [[series]]
 platforms = ["xbox"]
 name = "Halo"
+rules = ["xbox-first-party-scope"]
 description = "Microsoft first-party core franchise. ❓ Spartan Assault/Strike (digital) and Halo: CE Anniversary 360 disc were not discussed"
 
 [[series.entry]]
@@ -256,6 +259,7 @@ note = "Owned on PS5; Xbox Series X disc wanted when on sale"
 [[series]]
 platforms = ["xbox"]
 name = "Gears of War"
+rules = ["xbox-first-party-scope"]
 description = "Microsoft first-party core franchise."
 
 [[series.entry]]
@@ -308,6 +312,7 @@ note = "Pre-ordered on Xbox"
 [[series]]
 platforms = ["xbox"]
 name = "Forza Motorsport"
+rules = ["xbox-first-party-scope"]
 description = "Microsoft first-party."
 
 [[series.entry]]
@@ -359,6 +364,7 @@ note = "Xbox Series X disc (2023 game)"
 [[series]]
 platforms = ["xbox"]
 name = "Forza Horizon"
+rules = ["xbox-first-party-scope"]
 description = "Microsoft first-party."
 
 [[series.entry]]
@@ -394,6 +400,7 @@ note = "Xbox Series X disc"
 [[series]]
 platforms = ["xbox", "PlayStation 5"]
 name = "Fable"
+rules = ["xbox-first-party-scope"]
 description = "Microsoft first-party. ❓ tracking Fable as a full run was implied (first-party + BC tabs), not stated explicitly"
 
 [[series.entry]]
@@ -422,6 +429,7 @@ note = "Pre-ordered on PS5; Xbox disc only if really cheap later"
 [[series]]
 platforms = ["xbox-modern"]
 name = "Titanfall"
+rules = ["series-on-one-platform"]
 description = "Xbox-anchored series (Titanfall 1 never on PlayStation)."
 
 [[series.entry]]
@@ -437,6 +445,7 @@ note = "Xbox One disc; bought for completion"
 [[series]]
 platforms = ["xbox-modern"]
 name = "State of Decay"
+rules = ["series-on-one-platform"]
 description = "Owned in full so far. ❓ State of Decay as a tracked full run was not stated explicitly"
 
 [[series.entry]]

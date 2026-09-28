@@ -5,7 +5,7 @@ name: CLZ import
 on:
   push:
     branches: [main]
-    paths: ["imports/*.csv", "data/targets/**", "data/series/**", "data/annotations.csv"]
+    paths: ["imports/*.csv", "data/targets/**", "data/series/**", "data/annotations.csv", "data/rules.toml"]
   workflow_dispatch:
 
 permissions:

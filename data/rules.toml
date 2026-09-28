@@ -1,0 +1,306 @@
+# Collecting rules as data — the "why" behind every buy-plan decision.
+#
+# Each [[rule]] has a stable `id`. Targets and series entries are linked to rules in two ways:
+#   1. automatically: a rule's `match` patterns (regex, case-insensitive) are tested against the target's
+#      fields — note, plan, group, state, title, verify, platforms (any field matching tags the target);
+#   2. by hand: `rules = ["id", …]` on a target / series / series entry adds rules,
+#      `not_rules = ["id", …]` removes an automatic match that is wrong.
+# `platform` = which strategy the rule belongs to: all · nintendo · pc · playstation · xbox
+# `status`   = adopted (default) · suggested (proposed, not decided) · retired (kept for history)
+# RULES.md is the long-form explanation; this file is what the web app and views/rules.md show.
+
+# ---------------------------------------------------------------- platform strategies
+[[platform]]
+id = "pc"
+name = "PC"
+role = "Best graphics — but Steam sales only, no physical PC games. Owning a game on Steam lowers the priority of the disc."
+rules = ["platform-priority", "pc-steam-only", "steam-owned-only-cheap"]
+
+[[platform]]
+id = "nintendo"
+name = "Nintendo"
+role = "Best physical line-up. First choice for JRPGs and for anything with a real Switch cart."
+rules = ["platform-priority", "switch-first", "gkc-not-physical"]
+
+[[platform]]
+id = "playstation"
+name = "PlayStation"
+role = "Exclusives plus multiplatform games worth having on disc. Fill the collection while discs are still made — the next PlayStation is probably not being bought."
+rules = ["ps-exclusives-and-disc-worthy", "no-next-playstation", "pal-only-ps1-ps2", "handhelds-not-collected", "ms-games-on-ps5-disc"]
+
+[[platform]]
+id = "xbox"
+name = "Xbox"
+role = "Shooter console (full Call of Duty + Battlefield runs) and Microsoft first-party on disc for the Disc-to-Digital licence — even for games released elsewhere."
+rules = ["shooter-console", "xbox-first-party-scope", "disc-to-digital", "bc-digital-unless-delisted", "non-bc-shelf-only"]
+
+# ---------------------------------------------------------------- decision path (general order of questions)
+[[step]]
+question = "Is there a real physical version I can play on current hardware?"
+rules = ["physical-first", "handhelds-not-collected", "non-bc-shelf-only"]
+
+[[step]]
+question = "Is it a shooter series or Microsoft first-party?"
+rules = ["shooter-console", "xbox-first-party-scope"]
+
+[[step]]
+question = "Is there a real Switch cart (not a Game-Key Card), or is it a JRPG?"
+rules = ["switch-first", "gkc-not-physical"]
+
+[[step]]
+question = "Otherwise: PlayStation disc if exclusive or worth having on disc"
+rules = ["ps-exclusives-and-disc-worthy", "platform-priority"]
+
+[[step]]
+question = "Do I already own it (Steam, another platform, a compilation)?"
+rules = ["steam-owned-only-cheap", "one-copy-newest-gen", "compilations-count"]
+
+[[step]]
+question = "How to buy: used, new at a good price, or digital on sale?"
+rules = ["used-for-gaps", "bc-digital-unless-delisted", "limited-run-good-price"]
+
+# ---------------------------------------------------------------- general rules
+[[rule]]
+id = "physical-first"
+short = "Physical first"
+platform = "all"
+summary = "Physical first. Digital only when there is no other option."
+rationale = "The collection is about owning discs and carts; digital purchases are a fallback, not a goal."
+match = { plan = "digital|Steam sale only", note = "no physical|digital-only" }
+
+[[rule]]
+id = "platform-priority"
+short = "PC → Nintendo → PS/Xbox"
+platform = "all"
+summary = "Platform order: PC (best graphics) → Nintendo (best physical line-up) → whatever is still exclusive on PlayStation or Xbox."
+rationale = "Each game is bought once, on the platform where it plays or collects best."
+match = { group = "Buy elsewhere", note = "Buy on (Switch|Xbox|PC) instead" }
+
+[[rule]]
+id = "one-copy-newest-gen"
+short = "One copy, newest gen"
+platform = "all"
+summary = "One copy per game. For cross-gen releases take the newest-gen version."
+rationale = "Avoids double-buying; the newest pressing plays on current hardware and usually runs best."
+precedents = ["Battlefield Hardline on Xbox One, not 360"]
+match = { note = "surplus|newest-gen|one copy|replaces your", group = "Upgrade of an owned disc" }
+
+[[rule]]
+id = "compilations-count"
+short = "Compilations count"
+platform = "all"
+summary = "Compilations and remasters on a newer gen replace the originals and count as owning their games."
+rationale = "No need to hunt older discs when a newer disc contains the same games."
+precedents = ["MW Trilogy → CoD 4 / MW2 / MW3", "MCC → Halo CE–4", "God of War Collection → GoW I + II", "Gears UE → Gears of War", "Year One → State of Decay"]
+match = { note = "Covered by|covers? (the|both)|Collection covers|in .*Collection \\(|Remaster(ed)? replaces" }
+
+[[rule]]
+id = "steam-owned-only-cheap"
+short = "On Steam → only if cheap"
+platform = "pc"
+summary = "Already owned on Steam → buy the disc only if the price is really good, new or used."
+rationale = "The game is already playable; the disc is a nice-to-have for the shelf."
+match = { note = "owned on Steam|also on Steam|on Steam" }
+
+[[rule]]
+id = "pc-steam-only"
+short = "PC = Steam sales"
+platform = "pc"
+summary = "PC games are bought on Steam sales only — no physical PC games."
+match = { plan = "Steam sale" }
+
+[[rule]]
+id = "used-for-gaps"
+short = "Gaps bought used"
+platform = "all"
+summary = "Gaps in older generations are mostly bought used."
+rationale = "Older discs are cheap and plentiful used; new copies are often gone or overpriced."
+match = { plan = "used" }
+
+[[rule]]
+id = "good-price-only"
+short = "Only at a good price"
+platform = "all"
+summary = "Nice-to-have titles are bought only at a really good price."
+match = { plan = "only at a really good price|when very cheap|only if really cheap|when on sale", note = "only if (very )?cheap" }
+
+[[rule]]
+id = "single-player-focus"
+short = "Single-player focus"
+platform = "all"
+summary = "Single-player focus — multiplayer-only / online-focused games are skipped; dead servers don't matter. No peripheral games."
+precedents = ["Destiny, Overwatch, Crash Team Rumble skipped", "no Guitar Hero / Skylanders"]
+match = { note = "single-player|multiplayer|online[- ]only|online features|servers|peripheral" }
+
+[[rule]]
+id = "limited-run-good-price"
+short = "Limited Run at a good price"
+platform = "all"
+summary = "Limited Run / boutique pressings count as real discs, but only at a good price."
+precedents = ["Pentiment, Grounded via eBay saved searches"]
+match = { note = "Limited Run|boutique", plan = "Limited Run" }
+
+# ---------------------------------------------------------------- Nintendo
+[[rule]]
+id = "switch-first"
+short = "Switch first"
+platform = "nintendo"
+summary = "Switch is first choice for JRPGs and for anything that has a real Switch cart."
+rationale = "Best physical line-up; carts are complete and play on Switch 2."
+match = { plan = "Switch (cart|physical|2 full cart)", note = "Buy on Switch instead|Check for a Switch cart|Switch cart exists|Also on Switch" }
+
+[[rule]]
+id = "gkc-not-physical"
+short = "Game-Key Card ≠ physical"
+platform = "nintendo"
+summary = "A Switch 2 Game-Key Card does not count as physical for non-JRPGs → take the PlayStation disc. JRPGs whose only Switch version is a Game-Key Card → case by case."
+rationale = "A Game-Key Card is only a download licence in a box; the disc is the real physical copy."
+precedents = ["Pragmata, Onimusha: Way of the Sword, Full Metal Schoolgirl → PS5", "Bravely Default HD Remaster, Brigandine Abyss, Granblue Fantasy: Relink bought as GKC (JRPGs)"]
+match = { note = "Game-Key Card|GKC" }
+
+# ---------------------------------------------------------------- PlayStation
+[[rule]]
+id = "ps-exclusives-and-disc-worthy"
+short = "PS exclusives + disc-worthy"
+platform = "playstation"
+summary = "PlayStation gets exclusives plus multiplatform games worth having on disc."
+match = { group = "^PS\\d gaps" }
+
+[[rule]]
+id = "no-next-playstation"
+short = "No next PlayStation"
+platform = "playstation"
+summary = "Most likely not buying the next PlayStation (no Disc-to-Digital, anti-consumer moves) → fill the PlayStation collection while discs are still produced."
+rationale = "Unless a very big exclusive changes the picture — Intergalactic is on watch."
+match = { title = "Intergalactic", note = "next PlayStation" }
+
+[[rule]]
+id = "pal-only-ps1-ps2"
+short = "PS1/PS2: PAL only"
+platform = "playstation"
+summary = "PS1/PS2 discs are region-locked on the PS3 → PAL only. PS3/PS4/PS5 discs are practically region-free."
+match = { note = "(?-i:\\bPAL\\b|NTSC)", plan = "(?-i:\\bPAL\\b)" }
+
+[[rule]]
+id = "handhelds-not-collected"
+short = "No PSP / Vita"
+platform = "playstation"
+summary = "PSP / PS Vita games can't be played → not collected; the owned ones stay as collection pieces."
+match = { platforms = "^(PSP|PlayStation Vita)$" }
+
+[[rule]]
+id = "ms-games-on-ps5-disc"
+short = "MS game → PS5 disc if only disc"
+platform = "playstation"
+summary = "Microsoft games whose only disc is on PS5 are bought on PS5. Otherwise don't buy another platform's disc just to fill an Xbox gap."
+precedents = ["Halo: Campaign Evolved bought on PS5", "Fable pre-ordered on PS5", "Gears of War: Reloaded only when very cheap"]
+match = { group = "Microsoft 1st-party", note = "No Xbox disc exists|PS5 disc only" }
+
+# ---------------------------------------------------------------- Xbox
+[[rule]]
+id = "shooter-console"
+short = "Xbox = shooter console"
+platform = "xbox"
+summary = "Xbox is the shooter console: full Call of Duty and Battlefield runs. Beats Nintendo-first for shooter series."
+rationale = "Switch shooter ports are usually the weakest version."
+match = { group = "Shooter console|Series runs – (Call of Duty|Battlefield)" }
+
+[[rule]]
+id = "xbox-first-party-scope"
+short = "MS first-party (layers 1–2)"
+platform = "xbox"
+summary = "Microsoft first-party on Xbox disc: layer 1 = published by Microsoft / Xbox Game Studios at release, layer 2 = Bethesda/ZeniMax titles published after March 2021."
+rationale = "Historical publisher counts — the Sep 2026 Xbox reset doesn't change scope."
+match = { note = "scope layer [12]", group = "^First-party" }
+
+[[rule]]
+id = "xbox-layer-3-optional"
+short = "Layer 3 optional"
+platform = "xbox"
+summary = "Layer 3 (studio owned by Microsoft today, but game published by someone else at release) is optional; Activision/Blizzard pre-Oct-2023 titles follow normal platform rules per game."
+match = { note = "scope layer 3|Pre-acquisition", group = "Activision / Blizzard|Bethesda / Remedy" }
+
+[[rule]]
+id = "no-xbox-disc-out-of-scope"
+short = "No Xbox disc → out of scope"
+platform = "xbox"
+summary = "If no Xbox retail disc exists, the game is out of Xbox disc scope (layer X), regardless of platform."
+match = { note = "scope layer X|No Xbox disc" }
+
+[[rule]]
+id = "disc-to-digital"
+short = "Disc-to-Digital"
+platform = "xbox"
+summary = "Xbox One / Series discs carry a Disc-to-Digital licence — a reason to buy Microsoft games on Xbox disc. 360 / OG discs are not eligible."
+rationale = "One revocable licence per disc; licence moves if the disc is claimed elsewhere → don't lend discs casually."
+match = { note = "D2D|Disc-to-Digital", plan = "Disc-to-Digital", group = "Disc-to-Digital" }
+
+[[rule]]
+id = "bc-digital-unless-delisted"
+short = "BC: digital unless delisted"
+platform = "xbox"
+summary = "Xbox 360 / OG Xbox backward-compatible titles are bought digitally in Xbox Store sales — on disc only if delisted (or for Gears 2/3/Judgment shelf consistency)."
+rationale = "No key sellers for 360 titles; digital BC licences likely outlive discs."
+match = { group = "360 BC|OG Xbox BC", note = "Xbox Store: (Digital|DISC ONLY)|Delisted", plan = "Xbox Store sale|delisted" }
+
+[[rule]]
+id = "check-full-library"
+short = "Check Full Library first"
+platform = "xbox"
+summary = "Check the Xbox Full Library first — some 360 games are free or were Games with Gold."
+precedents = ["Crackdown 1/2, Too Human"]
+match = { note = "Full Library|Free digitally|Games with Gold", plan = "digital \\(free\\)" }
+
+[[rule]]
+id = "goty-editions"
+short = "Prefer GOTY / Ultimate discs"
+platform = "xbox"
+summary = "Prefer GOTY / Ultimate disc editions when the DLC is on the disc."
+precedents = ["Fallout 3", "Fallout: New Vegas"]
+match = { plan = "Game of the Year|Ultimate Edition", note = "GOTY" }
+
+[[rule]]
+id = "non-bc-shelf-only"
+short = "Non-BC = shelf only"
+platform = "xbox"
+summary = "Non-backward-compatible discs (PGR, Forza Motorsport 1–4, Jet Set Radio Future, Kinect …) are shelf-only → not collecting."
+match = { note = "Not backward compatible|shelf only", group = "Shelf-only" }
+
+[[rule]]
+id = "code-in-box"
+short = "Code-in-box: sealed & cheap"
+platform = "xbox"
+summary = "Code-in-a-box only sealed/new, at or below the Xbox Store sale price, EU/DACH box; redeem immediately; doesn't count toward disc runs."
+match = { note = "code-in-(a-)?box|code in a box", plan = "code-in-box" }
+
+[[rule]]
+id = "digital-only-game-pass"
+short = "Digital-only → Game Pass first"
+platform = "xbox"
+summary = "Digital-only games: play on Game Pass first; buy only if keeping/replaying, prefer Xbox Store with Play Anywhere, else Steam sale."
+match = { plan = "Game Pass", note = "Game Pass" }
+
+[[rule]]
+id = "third-party-series-not-collected"
+short = "3rd-party Xbox series: no"
+platform = "xbox"
+summary = "Third-party series that are \"complete only on Xbox\" are not collected (Valve set, Dead Space, Max Payne, Splinter Cell, Saints Row …). Exception: Titanfall 2."
+match = { group = "Third-party Xbox series", note = "doesn't sound interesting" }
+
+[[rule]]
+id = "series-on-one-platform"
+short = "Keep a series on one platform"
+platform = "all"
+status = "suggested"
+summary = "Once a series run is started on a platform, later entries follow it there — even if the studio changes owner."
+rationale = "Implied by the Xbox series runs; not written down as a rule yet — see OPEN-QUESTIONS.md (State of Decay 3)."
+match = { note = "series-on-one-platform|series rule" }
+
+[[rule]]
+id = "xbox-exclusive-series-tiebreak"
+short = "Xbox-exclusive entry → keep series on Xbox"
+platform = "xbox"
+status = "suggested"
+summary = "Tie-break idea: if a series has at least one Xbox-exclusive entry, keep the whole run on Xbox."
+rationale = "Suggested in the Xbox chat, not adopted — see OPEN-QUESTIONS.md."
+match = { group = "BC exclusive series \\(suggested\\)", note = "series origin on Xbox|Xbox-exclusive entry" }
