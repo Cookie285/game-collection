@@ -420,6 +420,7 @@ function gameRow(g) {
 
 /* ------------------------------------------------ buy plan */
 function pagePlan(page, params) {
+  let observer;
   const S = {
     q: params.get("q") || "", st: params.get("st") ?? "open", prio: params.get("prio") || "",
     state: params.get("state") || "", fam: params.get("fam") || "", group: params.get("group") || "",
@@ -468,6 +469,7 @@ function pagePlan(page, params) {
     $("#ruleNote", page).innerHTML = r ? `<div class="card rule-banner" data-rule="${esc(r.id)}" style="--c:${ruleColor(r)}">
       <b>${esc(r.short)}</b>${r.status !== "adopted" ? " " + pill(r.status, "var(--warn)") : ""}<span>${esc(r.summary)}</span><span class="more-link">Rule details →</span></div>` : "";
     const res = $("#results", page);
+    observer?.disconnect();
     if (!list.length) { res.innerHTML = `<div class="card empty-state"><div class="big">🛒</div>Nothing matches.</div>`; return; }
     const buckets = new Map();
     list.forEach((t) => {
@@ -478,8 +480,31 @@ function pagePlan(page, params) {
     if (S.by === "group") keys.sort();
     if (S.by === "rule") keys.sort((a, b) => (D.rulesById.get(a)?.idx ?? 999) - (D.rulesById.get(b)?.idx ?? 999));
     const head = (k) => S.by === "prio" ? (PRIORITY[k]?.label || k) + " priority" : S.by === "rule" ? D.rulesById.get(k)?.short || k : k;
-    res.innerHTML = keys.map((k) => `${k ? `<div class="group-head">${esc(head(k))} · ${buckets.get(k).length}</div>` : ""}
-      <div class="targets">${buckets.get(k).map(targetHTML).join("")}</div>`).join("");
+    // rendered in chunks while scrolling (like the collection): hundreds of cards at once crash iPhone Safari
+    const queue = keys.flatMap((k) => buckets.get(k).map((t) => [k, t]));
+    res.innerHTML = `<div id="groups"></div><div class="more" id="sentinel"></div>`;
+    const groupsEl = $("#groups", res);
+    let shown = 0, curKey = null, curList = null;
+    const more = () => {
+      const chunk = queue.slice(shown, shown + 40);
+      shown += chunk.length;
+      for (let i = 0; i < chunk.length;) {
+        const k = chunk[i][0];
+        if (k !== curKey || !curList) {
+          curKey = k;
+          groupsEl.insertAdjacentHTML("beforeend", `${k ? `<div class="group-head">${esc(head(k))} · ${buckets.get(k).length}</div>` : ""}<div class="targets"></div>`);
+          curList = groupsEl.lastElementChild;
+        }
+        let j = i;
+        while (j < chunk.length && chunk[j][0] === k) j++;
+        curList.insertAdjacentHTML("beforeend", chunk.slice(i, j).map(([, t]) => targetHTML(t)).join(""));
+        i = j;
+      }
+      if (shown >= queue.length) observer?.disconnect();
+    };
+    more();
+    observer = new IntersectionObserver((es) => es[0].isIntersecting && more(), { rootMargin: "800px" });
+    observer.observe($("#sentinel", res));
   };
 
   bindTargets(page);
