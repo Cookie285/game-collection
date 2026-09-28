@@ -388,6 +388,7 @@ a.shop {
 }
 a.shop[data-kind="new"] { --c: var(--playstation); }
 a.shop[data-kind="used"] { --c: var(--good); }
+a.shop[data-kind="info"] { --c: var(--accent); }
 a.shop::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--c); }
 a.shop:hover { color: var(--text); border-color: var(--c); transform: translateY(-1px); }
 a.shop.pref { color: var(--text); border-color: color-mix(in srgb, var(--c) 60%, transparent); background: color-mix(in srgb, var(--c) 14%, transparent); }

@@ -586,6 +586,23 @@ function shopBlock(title, platforms, plan) {
   return `<h3 style="margin:18px 0 8px;font-size:15px">🛒 Find it <small style="color:var(--faint);font-weight:500">Geizhals = new · rebuy / eBay / medimops = used</small></h3>
     <div class="shop-block">${rows.join("")}</div>`;
 }
+// release databases: which physical versions exist, what's on the disc / cart, German cut or uncut
+const RELEASE_SITES = [
+  { label: "VGCollect", tip: "Physical releases per region and edition, box photos", url: (t, p) => ddg("vgcollect.com", t, p) },
+  { label: "Does It Play?", tip: "Full game on the disc / cart, or does it need a download?", url: (t) => ddg("doesitplay.org", t) },
+  { label: "MobyGames", tip: "Releases per platform and region, editions", url: (t) => `https://www.mobygames.com/search/?q=${enc(t)}&type=game` },
+  { label: "PriceCharting", tip: "Editions and variants (with used prices)", url: (t, p) => `https://www.pricecharting.com/search-products?q=${enc(p ? `${t} ${SHOP_PLATFORM[p] || p}` : t)}&type=prices` },
+  { label: "Schnittberichte", tip: "Is the German release cut?", url: (t) => `https://www.schnittberichte.com/svds.php?Page=Suche&String=${enc(t)}` },
+];
+const enc = (s) => encodeURIComponent(s.replace(/[™®©]/g, "").replace(/\s+/g, " ").trim());
+// sites without a linkable search page: a site-restricted web search
+const ddg = (site, t, p) => `https://duckduckgo.com/?q=${enc(`site:${site} "${t}"${p ? " " + (SHOP_PLATFORM[p] || p) : ""}`)}`;
+function releaseBlock(title, platforms) {
+  const p = platforms.length === 1 ? platforms[0] : "";
+  return `<h3 style="margin:18px 0 8px;font-size:15px">🔎 Check releases <small style="color:var(--faint);font-weight:500">physical versions · what's on the disc · DLC · German cut</small></h3>
+    <div class="shop-row">${RELEASE_SITES.map((s) => `<a class="shop" data-kind="info" href="${esc(s.url(title, p))}" target="_blank" rel="noopener noreferrer"
+      title="${esc(s.tip)}">${esc(s.label)}</a>`).join("")}</div>`;
+}
 function bindTargets(root) {
   root.addEventListener("click", (e) => {
     if (e.target.closest("a[target=_blank], [data-rule], [data-decision], [data-ask]")) return; // external links / rule pills: not the target modal
@@ -1406,7 +1423,7 @@ function openGame(id) {
     ["Genre", esc(g.genre)], ["Purchased", esc([g.purchase_date, g.store, g.purchase_price].filter(Boolean).join(" · "))],
     ["Notes", esc(g.note)],
   ]) + (HAVE.has(g.status) ? `<details class="shop-details"><summary>🛒 Look for another copy (upgrade / replacement)</summary>${shopBlock(g.title, [g.platform])}</details>`
-    : shopBlock(g.title, [g.platform])) + relatedHTML(relatedFor(g.title), g.id);
+    : shopBlock(g.title, [g.platform])) + releaseBlock(g.title, [g.platform]) + relatedHTML(relatedFor(g.title), g.id);
   showModal(`${coverHTML(g)}<div><h2>${esc(g.title)}</h2><div class="row">${platPill(g.platform)}${pill(st.icon + " " + st.label, st.color)}</div></div>`,
     body || `<p style="color:var(--muted)">No extra details in CLZ for this one.</p>`);
   $(".modal-head .cover", modal).style.width = "90px";
@@ -1429,7 +1446,7 @@ function openTarget(id) {
   const head = t.cover ? coverHTML({ title: t.title, family: t.family, platform: targetPlatforms(t)[0] || t.platforms[0] || "", cover: t.cover })
     : `<div style="font-size:40px;line-height:1">${st.icon}</div>`;
   showModal(`${head}<div><h2>${esc(t.title)}</h2><div class="row">${pill(st.label, st.color)}</div></div>`,
-    whyHTML(t.rules) + questionsHTML(t.decisions) + (["open", "ordered"].includes(t.status) ? ruleCheckHTML(t) : "") + notesHTML(t) + body + askButton("target", t.id) + shops + relatedHTML(rel));
+    whyHTML(t.rules) + questionsHTML(t.decisions) + (["open", "ordered"].includes(t.status) ? ruleCheckHTML(t) : "") + notesHTML(t) + body + askButton("target", t.id) + shops + releaseBlock(t.title, targetPlatforms(t)) + relatedHTML(rel));
 }
 
 function openSeries(id) {
