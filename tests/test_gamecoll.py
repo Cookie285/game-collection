@@ -95,6 +95,26 @@ class Covers(unittest.TestCase):
         best, _ = g.rank_candidates("Fable", "Xbox 360", [{"id": 9, "name": "Fable Fortune", "cover": {"image_id": "co1x"}}])
         self.assertIsNone(best)
 
+    def test_real_world_cases(self):
+        c = lambda i, name, pl=(), **kw: {"id": i, "name": name, "cover": {"image_id": f"co{i}"}, "platforms": list(pl), **kw}
+        pick = lambda title, plat, cands: (g.rank_candidates(title, plat, cands)[0] or {}).get("id")
+        # DLC / skins / persona sets are never the game
+        self.assertEqual(pick("Batman: Arkham Knight", "PlayStation 4",
+                              [c(1, "Batman: Arkham Knight - 2008 Movie Batman Skin", [48]), c(2, "Batman: Arkham Knight", [6])]), 2)
+        self.assertIsNone(pick("Persona 3 Reload", "Nintendo Switch 2", [c(3, "Persona 3 Reload: Persona 5 Royal Persona Set 1", [508])]))
+        self.assertIsNone(pick("Control", "Xbox One", [c(4, "Control: Override", [49], game_type=1)]))
+        # a sequel is not the game
+        self.assertIsNone(pick("Forbidden Siren", "PlayStation 2", [c(5, "Forbidden Siren 2", [8])]))
+        # Roman numerals and edition suffixes
+        self.assertEqual(pick("Alan Wake 2", "PlayStation 5", [c(6, "Alan Wake II", [167])]), 6)
+        self.assertEqual(pick("Diablo III: Ultimate Evil Edition", "PlayStation 4", [c(7, "Diablo III", [48])]), 7)
+        self.assertEqual(pick("Moonlight Peaks - Nintendo Switch 2 Edition", "Nintendo Switch 2", [c(8, "Moonlight Peaks", [508])]), 8)
+        # a longer official name is fine on the right platform, not on another one
+        self.assertEqual(pick("Castlevania Requiem", "PlayStation 4",
+                              [c(9, "Castlevania Requiem: Symphony of the Night & Rondo of Blood", [48])]), 9)
+        self.assertIsNone(pick("Castlevania Requiem", "PlayStation 4",
+                               [c(10, "Castlevania Requiem: Symphony of the Night & Rondo of Blood", [6])]))
+
     def test_image_id_validation(self):
         self.assertTrue(g.IMAGE_ID_RX.match("co1r7f"))
         for bad in ('co1"><script>', "../x", "CO1R7F", ""):
