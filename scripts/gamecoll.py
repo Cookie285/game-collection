@@ -36,6 +36,8 @@ VIEWS = ROOT / "views"
 IMPORTS = ROOT / "imports"
 ARCHIVE = IMPORTS / "archive"
 COLLECTION = DATA / "collection.csv"
+COVERS = DATA / "covers.json"                    # IGDB cover ids (public), written by `covers`
+COVER_OVERRIDES = DATA / "covers-overrides.toml"  # hand fixes for wrong / missing covers
 TARGETS_DIR = DATA / "targets"   # every *.toml in here is loaded (one file per source/platform)
 SERIES_DIR = DATA / "series"
 RULES = DATA / "rules.toml"      # collecting rules as data: ids, rationale, auto-tagging patterns
@@ -175,9 +177,9 @@ def slug(s: str) -> str:
 
 # ---------------------------------------------------------------- title normalisation / matching
 def norm(s: str) -> str:
-    s = unicodedata.normalize("NFKD", s or "").encode("ascii", "ignore").decode()
+    s = re.sub(r"[™®©]", "", s or "")  # before NFKD, which would turn ™ into "TM"
+    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode()
     s = s.lower().replace("&", " and ")
-    s = re.sub(r"[™®©]", "", s)
     s = re.sub(r"[^a-z0-9]+", " ", s)
     return re.sub(r"\s+", " ", s).strip()
 
@@ -1008,8 +1010,10 @@ def cmd_export(args) -> None:
         if r["status"] in HAVE:
             have_by_title[norm(r["title"])].add(r["platform"])
     hit = lambda h: {"title": h["title"], "platform": h["platform"], "edition": h["edition"], "status": h["status"]}
+    covers, cover_ov = load_covers(), cover_overrides()
     games = [{**{k: r[k] for k in FIELDS if r[k] and k != "source"}, "note": note_for(r, ann),
-              "family": family_of(r["platform"])} for r in sorted(rows, key=sort_key)]
+              "family": family_of(r["platform"]), "cover": cover_for(r["title"], r["platform"], covers, cover_ov)}
+             for r in sorted(rows, key=sort_key)]
     R = load_rules()
     rules = R["rules"]
     src = lambda x: {"path": x["_src"][0], "line": x["_src"][1]}
@@ -1024,6 +1028,8 @@ def cmd_export(args) -> None:
             "hits": [hit(h) for h in hits],
             "elsewhere": sorted(have_by_title.get(norm(t["title"]), set()) - {h["platform"] for h in hits}),
             "rules": (rids := rules_for(t, rules)), "src": src(t), "parts": note_parts(t.get("note", "")),
+            "cover": cover_for(t["title"], next(iter(sorted(expand_platforms(t.get("platforms")) or [], key=lambda x: PLATFORM_ORDER.index(x)
+                                                               if x in PLATFORM_ORDER else 99)), ""), covers, cover_ov),
             "formats": derive_formats(t, have_by_title.get(norm(t["title"]), set())), "flags": target_flags(t, rids),
             **{k: t[k] for k in ("why", "alternatives", "condition", "max_price", "facts", "checked") if k in t},
         })
@@ -1048,6 +1054,7 @@ def cmd_export(args) -> None:
         "decisions": [{k: v for k, v in d.items() if not k.startswith("_") and k != "match"}
                       | {"src": src(d), "target_ids": decision_links(d, raw_targets)} for d in load_decisions()],
         "changelog": CHANGELOG.read_text(encoding="utf-8") if CHANGELOG.exists() else "",
+        "cleanup": cleanup_groups(),
         "reviews": [{"date": f.stem, "md": f.read_text(encoding="utf-8")}
                     for f in sorted(REVIEWS.glob("*.md"), reverse=True)] if REVIEWS.exists() else [],
     }
@@ -1245,6 +1252,216 @@ def cmd_review(args) -> None:
     print(f"wrote {path.relative_to(ROOT)} — fill in Summary / Changes / Sources")
 
 
+# ---------------------------------------------------------------- IGDB covers (build-time only, secrets never leave Actions)
+IGDB_PLATFORMS = {  # canonical platform → IGDB platform id (only used to rank candidates)
+    "PC": 6, "PlayStation": 7, "PlayStation 2": 8, "PlayStation 3": 9, "PlayStation 4": 48, "PlayStation 5": 167,
+    "PSP": 38, "PlayStation Vita": 46, "Xbox": 11, "Xbox 360": 12, "Xbox One": 49, "Xbox Series X|S": 169,
+    "Nintendo Switch": 130, "Nintendo Switch 2": 508, "Wii U": 41, "Wii": 5, "GameCube": 21, "Nintendo 64": 4,
+    "Super Nintendo": 19, "NES": 18, "Nintendo 3DS": 37, "Nintendo DS": 20, "Game Boy Advance": 24,
+    "Game Boy Color": 22, "Game Boy": 33,
+}
+IMAGE_ID_RX = re.compile(r"^[a-z0-9]{2,32}$")  # IGDB image ids; anything else is rejected (no injection into URLs)
+COVER_RETRY_DAYS = 90
+
+
+def cover_key(title: str, platform: str = "") -> str:
+    return f"{norm(title)}|{platform}"
+
+
+def load_covers() -> dict:
+    import json
+    if not COVERS.exists():
+        return {}
+    data = json.loads(COVERS.read_text(encoding="utf-8"))
+    return {k: v for k, v in data.items() if not v.get("image") or IMAGE_ID_RX.match(v["image"])}
+
+
+def cover_overrides() -> dict:
+    """cover_key → {"image": id} or {"none": True}; platform "" = every platform."""
+    out = {}
+    for c in load_toml(COVER_OVERRIDES).get("cover", []):
+        img = c.get("image", "")
+        if img and not IMAGE_ID_RX.match(img):
+            raise SystemExit(f"{COVER_OVERRIDES.name}: bad image id {img!r} for {c.get('title')!r}")
+        out[cover_key(c["title"], canon_platform(c["platform"]) if c.get("platform") else "")] = \
+            {"none": True} if c.get("none") else {"image": img, "igdb_id": c.get("igdb_id")}
+    return out
+
+
+def cover_for(title: str, platform: str, covers: dict, overrides: dict) -> str | None:
+    for k in (cover_key(title, platform), cover_key(title)):
+        if k in overrides:
+            return None if overrides[k].get("none") else overrides[k].get("image") or None
+    hit = covers.get(cover_key(title, platform)) or covers.get(cover_key(title))
+    return hit.get("image") if hit else None
+
+
+def rank_candidates(title: str, platform: str, candidates: list[dict]) -> tuple[dict | None, int]:
+    """Pick the IGDB result that best matches a CLZ title + platform. Score ≥ 3 is accepted."""
+    want, pid = norm(title), IGDB_PLATFORMS.get(platform)
+    strip = lambda s: re.sub(r"\b(the|edition|remastered|definitive|complete|goty|game of the year|hd)\b", "", s).split()
+    best, best_score = None, 0
+    for c in candidates:
+        if not (c.get("cover") or {}).get("image_id"):
+            continue
+        name = norm(c.get("name", ""))
+        score = 4 if name == want else 3 if strip(name) == strip(want) else \
+            1 if (name.startswith(want) or want.startswith(name)) else 0
+        if pid and pid in (c.get("platforms") or []):
+            score += 2
+        if score > best_score:
+            best, best_score = c, score
+    return (best, best_score) if best_score >= 3 else (None, best_score)
+
+
+def igdb_request(url: str, body: str, headers: dict) -> list:
+    import json
+    import urllib.request
+    req = urllib.request.Request(url, data=body.encode(), headers=headers, method="POST")
+    with urllib.request.urlopen(req, timeout=30) as r:
+        return json.loads(r.read().decode())
+
+
+def cmd_covers(args) -> None:
+    """Look up IGDB covers for collection games and open targets. Needs TWITCH_CLIENT_ID / TWITCH_CLIENT_SECRET
+    (GitHub Actions secrets). Only public cover ids are written to data/covers.json."""
+    import json
+    import os
+    import time
+    import urllib.parse
+    cid, secret = os.environ.get("TWITCH_CLIENT_ID", ""), os.environ.get("TWITCH_CLIENT_SECRET", "")
+    if not (cid and secret):
+        print("covers: TWITCH_CLIENT_ID / TWITCH_CLIENT_SECRET not set — skipping (see README → Covers).")
+        return
+    tok = igdb_request("https://id.twitch.tv/oauth2/token?" + urllib.parse.urlencode(
+        {"client_id": cid, "client_secret": secret, "grant_type": "client_credentials"}), "", {})
+    token = tok["access_token"] if isinstance(tok, dict) else tok[0]["access_token"]
+    headers = {"Client-ID": cid, "Authorization": f"Bearer {token}", "Accept": "application/json"}
+    covers, overrides = load_covers(), cover_overrides()
+    today = dt.date.today()
+    wanted = {}
+    for r in load_collection():
+        wanted[cover_key(r["title"], r["platform"])] = (r["title"], r["platform"])
+    rows = load_collection()
+    for t in load_targets():
+        if eval_target(t, rows)[0] in ("open", "ordered"):
+            p = next(iter(sorted(expand_platforms(t.get("platforms")) or [], key=lambda x: PLATFORM_ORDER.index(x)
+                                 if x in PLATFORM_ORDER else 99)), "")
+            wanted.setdefault(cover_key(t["title"], p), (t["title"], p))
+    todo = []
+    for k, (title, plat) in wanted.items():
+        if k in overrides or cover_key(title) in overrides:
+            continue
+        c = covers.get(k)
+        if c and (c.get("image") or (today - dt.date.fromisoformat(c.get("checked", "2000-01-01"))).days < COVER_RETRY_DAYS):
+            continue
+        todo.append((k, title, plat))
+    todo = todo[: args.limit] if args.limit else todo
+    print(f"covers: {len(wanted)} titles, {len(todo)} to look up")
+    esc_q = lambda s: s.replace("\\", " ").replace('"', " ")
+    for i in range(0, len(todo), 10):  # multiquery: up to 10 searches per request, 4 requests / s allowed
+        batch = todo[i:i + 10]
+        body = "\n".join(f'query games "q{j}" {{ search "{esc_q(title)}"; fields name,cover.image_id,platforms; limit 8; }};'
+                         for j, (_, title, _) in enumerate(batch))
+        try:
+            res = igdb_request("https://api.igdb.com/v4/multiquery", body, headers)
+        except Exception as e:  # network / rate limit: keep what we have, try again next run
+            print(f"covers: request failed ({e}) — stopping, {i} done")
+            break
+        by_name = {r.get("name"): r.get("result", []) for r in res}
+        for j, (k, title, plat) in enumerate(batch):
+            best, score = rank_candidates(title, plat, by_name.get(f"q{j}", []))
+            img = best["cover"]["image_id"] if best else None
+            covers[k] = {"title": title, "platform": plat, "image": img if img and IMAGE_ID_RX.match(img) else None,
+                         "igdb_id": best.get("id") if best else None, "name": best.get("name") if best else None,
+                         "score": score, "checked": today.isoformat()}
+        time.sleep(0.3)
+    COVERS.write_text(json.dumps(dict(sorted(covers.items())), ensure_ascii=False, indent=0) + "\n", encoding="utf-8")
+    found = sum(1 for k in wanted if covers.get(k, {}).get("image"))
+    print(f"covers: {found}/{len(wanted)} with a cover → {COVERS.relative_to(ROOT)}")
+
+
+# ---------------------------------------------------------------- buy-plan clean-up
+DATE_TEXT_RX = re.compile(r"\b(\d{1,2}) (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]* (20\d\d)\b|\b(20\d\d-\d\d-\d\d)\b")
+MONTHS = {m: i for i, m in enumerate(["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], 1)}
+NOT_COLLECTING_RX = re.compile(r"not collecting|not interested|doesn't sound interesting|shelf only|out of (disc )?scope|"
+                               r"low value|not taken", re.I)
+
+
+def text_dates(text: str) -> list[dt.date]:
+    out = []
+    for m in DATE_TEXT_RX.finditer(text or ""):
+        try:
+            out.append(dt.date.fromisoformat(m.group(4)) if m.group(4) else
+                       dt.date(int(m.group(3)), MONTHS[m.group(2)[:3]], int(m.group(1))))
+        except ValueError:
+            pass
+    return out
+
+
+def cleanup_groups() -> list[dict]:
+    """Buy-plan housekeeping: groups of target indexes (into load_targets()) with a suggested action."""
+    rows, targets, today = load_collection(), load_targets(), dt.date.today()
+    st = [eval_target(t, rows)[0] for t in targets]
+    have = defaultdict(set)
+    for r in rows:
+        if r["status"] in HAVE:
+            have[norm(r["title"])].add(r["platform"])
+    open_ = [i for i, s in enumerate(st) if s in ("open", "ordered")]
+    T = lambda i: targets[i]
+    groups = [
+        ("not-collecting", "Notes say “not collecting” but still open",
+         "The note says it's out of scope (shelf only, not collecting, low value …) — probably `state = \"skip\"`.",
+         [i for i in open_ if T(i).get("state") != "skip" and NOT_COLLECTING_RX.search(T(i).get("note", "") + " " + T(i).get("group", ""))]),
+        ("released-watching", "Watching, but the date in the note has passed",
+         "Released (or the date slipped) — buy, change to open, or update the date.",
+         [i for i in open_ if T(i).get("state") in ("watching", "preordered") and
+          (ds := text_dates(T(i).get("note", "") + " " + T(i).get("plan", ""))) and max(ds) < today]),
+        ("decided-pending", "Question decided, target not updated",
+         "The linked question in data/decisions.toml is decided — set the target's state / platform / plan to match.",
+         sorted({i for d in load_decisions() if d["status"] == "decided" and d["kind"] == "decision"
+                 for i in decision_links(d, targets) if i in open_ and T(i).get("state") in ("undecided", "watching")})),
+        ("owned-elsewhere", "Open, but already owned on another platform",
+         "One copy per game — drop it, or record why a second copy is wanted (`not_rules = [\"one-copy-newest-gen\"]`).",
+         [i for i in open_ if not re.search("Upgrade", T(i).get("group", "")) and "one-copy-newest-gen" not in T(i).get("not_rules", [])
+          and (have.get(norm(T(i)["title"]), set()) - set(expand_platforms(T(i).get("platforms")) or []))]),
+        ("parked-suggestions", "Parked suggestions (someday)",
+         "Suggestions that were never adopted — keep as ideas, promote, or skip in bulk (see the linked open questions).",
+         [i for i in open_ if T(i).get("priority") == "someday" and re.search(r"^Suggested|; Suggested|· Suggested", T(i).get("note", ""))]),
+        ("someday-no-reason", "Someday, without a reason",
+         "Low-priority targets with (almost) no note — keep only if you can say why.",
+         [i for i in open_ if T(i).get("priority") == "someday" and len(T(i).get("note", "")) < 25
+          and not re.search(r"Suggested", T(i).get("note", ""))]),
+        ("other-versions-unknown", "Important, but only the planned platform is known",
+         "High / medium priority with no information about other platforms — check versions (wizard) and add `versions = { … }`.",
+         [i for i in open_ if T(i).get("priority") in ("high", "medium")
+          and len(derive_formats(T(i), have.get(norm(T(i)["title"]), set()))) < 2]),
+    ]
+    return [{"id": gid, "title": title, "action": action, "targets": idx} for gid, title, action, idx in groups]
+
+
+def cmd_cleanup(args) -> None:
+    targets = load_targets()
+    groups = cleanup_groups()
+    if args.apply:
+        g = next((x for x in groups if x["id"] == args.apply), None)
+        if not g or args.apply != "not-collecting":
+            sys.exit("only `--apply not-collecting` (→ state = \"skip\") is automatic; the other groups need a decision per target")
+        for i in g["targets"]:
+            t = targets[i]
+            edit_entry(ROOT / t["_src"][0], "[[target]]", "title", t["title"], set_={"state": "skip"})
+            print(f"skip  {t['title']}")
+        return
+    for g in groups:
+        print(f"\n## {g['title']} ({len(g['targets'])}) — `{g['id']}`\n{g['action']}")
+        for i in g["targets"][: args.max]:
+            t = targets[i]
+            print(f"  - {t['title']} [{', '.join(t.get('platforms', []))}] {t.get('priority', 'medium')}"
+                  f"{', ' + t['state'] if t.get('state') else ''} — {t['_src'][0]}:{t['_src'][1]}")
+        if len(g["targets"]) > args.max:
+            print(f"  … {len(g['targets']) - args.max} more")
+
+
 def cmd_find(args) -> None:
     q = norm(" ".join(args.text))
     hits = [r for r in load_collection() if q in norm(r["title"]) or q in norm(r["edition"])]
@@ -1395,6 +1612,13 @@ def main() -> None:
     p.add_argument("text", nargs="+")
     p.set_defaults(fn=cmd_find)
     sub.add_parser("check").set_defaults(fn=cmd_check)
+    p = sub.add_parser("covers", help="look up IGDB covers (needs TWITCH_CLIENT_ID / TWITCH_CLIENT_SECRET)")
+    p.add_argument("--limit", type=int, default=0, help="look up at most N titles this run")
+    p.set_defaults(fn=cmd_covers)
+    p = sub.add_parser("cleanup", help="buy-plan housekeeping report (--apply not-collecting → state = skip)")
+    p.add_argument("--apply", metavar="GROUP")
+    p.add_argument("--max", type=int, default=15, help="targets listed per group")
+    p.set_defaults(fn=cmd_cleanup)
     p = sub.add_parser("decide", help="record a decision in data/decisions.toml")
     p.add_argument("id")
     p.add_argument("--outcome", required=True)

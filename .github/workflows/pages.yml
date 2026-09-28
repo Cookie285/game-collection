@@ -4,9 +4,9 @@ name: Web frontend
 on:
   push:
     branches: [main]
-    paths: ["data/**", "scripts/**", "site/**", "CHANGELOG.md", ".github/workflows/pages.yml"]
+    paths: ["data/**", "scripts/**", "site/**", "reviews/**", "CHANGELOG.md", ".github/workflows/pages.yml"]
   workflow_run:
-    workflows: ["CLZ import", "Record decision"]
+    workflows: ["CLZ import", "Record decision", "Covers"]
     types: [completed]
   workflow_dispatch:
 

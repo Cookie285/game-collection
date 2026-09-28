@@ -45,8 +45,8 @@ const app = document.getElementById("app");
 
 /* ------------------------------------------------ helpers */
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
-const norm = (s) => String(s ?? "").normalize("NFKD").replace(/[̀-ͯ]/g, "").toLowerCase()
-  .replace(/&/g, " and ").replace(/[™®©]/g, "").replace(/[^a-z0-9]+/g, " ").trim();
+const norm = (s) => String(s ?? "").replace(/[™®©]/g, "").normalize("NFKD").replace(/[\u0300-\u036f]/g, "").toLowerCase()
+  .replace(/&/g, " and ").replace(/[^a-z0-9]+/g, " ").trim();
 const hash = (s) => { let h = 2166136261; for (const c of s) { h ^= c.charCodeAt(0); h = Math.imul(h, 16777619); } return h >>> 0; };
 const $ = (sel, root = document) => root.querySelector(sel);
 const $$ = (sel, root = document) => [...root.querySelectorAll(sel)];
@@ -72,12 +72,17 @@ function shortPlat(p) {
   })[p] || p;
 }
 
+// IGDB cover (image id checked again here; the build already rejects anything else) with the gradient card as fallback
+const COVER_ID = /^[a-z0-9]{2,32}$/;
+const coverUrl = (id, size = "t_cover_big") => `https://images.igdb.com/igdb/image/upload/${size}/${id}.jpg`;
 function coverHTML(g, extra = "") {
   const f = fam(g.family);
   const h = (f.hue + (hash(g.title) % 70) - 35 + 360) % 360;
   const letter = (g.title.match(/[A-Za-z0-9]/) || ["?"])[0].toUpperCase();
-  const st = g.status !== "owned" ? `<span class="badge-st">${pill(GAME_STATUS[g.status]?.label || g.status)}</span>` : "";
-  return `<div class="cover" style="--h:${h};--fc:${f.color}">
+  const st = g.status && g.status !== "owned" ? `<span class="badge-st">${pill(GAME_STATUS[g.status]?.label || g.status)}</span>` : "";
+  const img = g.cover && COVER_ID.test(g.cover)
+    ? `<img class="cv" src="${coverUrl(g.cover)}" alt="" loading="lazy" decoding="async" width="264" height="374" referrerpolicy="no-referrer">` : "";
+  return `<div class="cover${img ? " has-img" : ""}" style="--h:${h};--fc:${f.color}">${img}
     <div class="band">${esc(shortPlat(g.platform))}</div>${st}
     <div class="initial">${esc(letter)}</div>
     <div class="t">${esc(g.title)}</div>${extra}
@@ -640,7 +645,7 @@ function pageStrategy(page, params) {
   const nConf = C.differs.length + C.inBoth.length + C.cross.length + C.ownedElsewhere.length + C.tentative.length + C.split.length + C.untagged.length;
   page.innerHTML = `
     <div class="page-head"><div><h1>Strategy</h1><p>The rules behind every buy-plan decision — from <code>data/rules.toml</code>. Click a rule to see what it decides.</p></div>
-      <div class="seg" id="tabs2"><button data-t="rules">📐 Rules</button><button data-t="path">🧭 Decision path</button><button data-t="wizard">🧮 Where to buy?</button><button data-t="conflicts">⚠️ Conflicts <span class="badge">${nConf}</span></button></div></div>
+      <div class="seg" id="tabs2"><button data-t="rules">📐 Rules</button><button data-t="path">🧭 Decision path</button><button data-t="wizard">🧮 Where to buy?</button><button data-t="cleanup">🧹 Clean-up <span class="badge">${(D.cleanup || []).reduce((n, g) => n + g.targets.length, 0)}</span></button><button data-t="conflicts">⚠️ Conflicts <span class="badge">${nConf}</span></button></div></div>
     <div class="strategies">${(D.strategies || []).map((p) => {
       const open = D.targets.filter((t) => t.family === p.id && t.status === "open").length;
       const owned = D.games.filter((g) => g.family === p.id && HAVE.has(g.status)).length;
@@ -723,7 +728,20 @@ function pageStrategy(page, params) {
     $$(".strategy", page).forEach((c) => c.classList.toggle("on", S.tab === "rules" && c.dataset.scope === S.scope));
   };
   const renderWiz = () => { sync(); renderWizard(body, params); };
-  const show = () => (S.tab === "path" ? renderPath : S.tab === "wizard" ? renderWiz : S.tab === "conflicts" ? renderConflicts : renderRules)();
+  const CLEAN_HINT = {
+    "not-collecting": `Apply in one go: <code>python3 scripts/gamecoll.py cleanup --apply not-collecting</code> (sets <code>state = "skip"</code>) — or ask Claude to do it.`,
+    "parked-suggestions": `The open questions <button class="linkish" data-decision="shooter-expansion">Shooter-console expansion</button>, <button class="linkish" data-decision="activision-blizzard">Activision / Blizzard</button> and <button class="linkish" data-decision="fallout-elder-scrolls">Fallout / Elder Scrolls</button> decide most of these.`,
+    "other-versions-unknown": `Open one → <b>Try variations in the wizard</b>, or let the next review check them (it lists these under “other platforms unknown”).`,
+  };
+  const renderClean = () => {
+    sync();
+    const gs = D.cleanup || [];
+    body.innerHTML = `<p class="lead">Housekeeping for the buy plan — nothing here changes on its own. Each group says what to do; open a target to see why it's listed.</p>` +
+      gs.map((g) => section(`🧹 ${esc(g.title)}`, esc(g.action).replace(/`([^`]+)`/g, "<code>$1</code>"), g.targets.length,
+        g.targets.length ? `${CLEAN_HINT[g.id] ? `<div class="howto card">${CLEAN_HINT[g.id]}</div>` : ""}<div class="targets">${g.targets.map((i) => targetHTML(D.targets[i])).join("")}</div>` : "",
+        g.targets.length > 0 && g.targets.length <= 12)).join("");
+  };
+  const show = () => (S.tab === "path" ? renderPath : S.tab === "wizard" ? renderWiz : S.tab === "cleanup" ? renderClean : S.tab === "conflicts" ? renderConflicts : renderRules)();
   $("#tabs2", page).addEventListener("click", (e) => { const b = e.target.closest("button"); if (b) { S.tab = b.dataset.t; show(); } });
   page.addEventListener("click", (e) => {
     if (e.target.closest("[data-rule], [data-decision], [data-ask], a")) return;
@@ -1035,7 +1053,7 @@ function suggest(F, flags = {}) {
   const find = (fam, fs) => NEWEST[fam].find((p) => fs.some((f) => has(p, f)));
   const trace = [], step = (rule, text) => trace.push({ rule, text });
   const off = new Set(flags.off || []), use = (rule) => !off.has(rule);  // not_rules = documented exceptions
-  if (off.size) step("", `Exceptions for this game (not_rules): ${[...off].map((id) => D.rulesById.get(id)?.short || id).join(", ")}.`);
+  if (off.size) step("", `Exceptions for this game (not_rules): ${[...off].map((id) => D?.rulesById?.get(id)?.short || id).join(", ")}.`);
   const owned = Object.keys(F).filter((p) => has(p, "owned"));
   if (owned.length && !flags.upgrade && use("one-copy-newest-gen")) {
     step("one-copy-newest-gen", `Already owned on ${owned.map(shortPlat).join(", ")} — one copy per game.`);
@@ -1383,7 +1401,9 @@ function openTarget(id) {
   const rel = relatedFor(t.title);
   rel.targets = rel.targets.filter((x) => x.id !== t.id);
   const shops = t.status === "done" ? "" : shopBlock(t.title, targetPlatforms(t), t.plan);
-  showModal(`<div style="font-size:40px;line-height:1">${st.icon}</div><div><h2>${esc(t.title)}</h2><div class="row">${pill(st.label, st.color)}</div></div>`,
+  const head = t.cover ? coverHTML({ title: t.title, family: t.family, platform: targetPlatforms(t)[0] || t.platforms[0] || "", cover: t.cover })
+    : `<div style="font-size:40px;line-height:1">${st.icon}</div>`;
+  showModal(`${head}<div><h2>${esc(t.title)}</h2><div class="row">${pill(st.label, st.color)}</div></div>`,
     whyHTML(t.rules) + questionsHTML(t.decisions) + (["open", "ordered"].includes(t.status) ? ruleCheckHTML(t) : "") + notesHTML(t) + body + askButton("target", t.id) + shops + relatedHTML(rel));
 }
 
@@ -1474,13 +1494,21 @@ document.getElementById("themeBtn").onclick = () => {
   try { localStorage.setItem("gc-theme", next); } catch (e) { /* storage unavailable */ }
 };
 
+// a cover that fails to load falls back to the gradient card
+document.addEventListener("error", (e) => {
+  const img = e.target;
+  if (img instanceof HTMLImageElement && img.classList.contains("cv")) { img.closest(".cover")?.classList.remove("has-img"); img.remove(); }
+}, true);
+
 /* ------------------------------------------------ boot */
 fetch("data.json", { cache: "no-cache" })
   .then((r) => { if (!r.ok) throw new Error(r.status + " " + r.statusText); return r.json(); })
   .then((d) => {
     D = d;
     prepare(D);
-    document.getElementById("foot").innerHTML = `Data updated ${esc(D.updated)} · generated from CLZ by <code>scripts/gamecoll.py export</code>`;
+    const nCovers = D.games.filter((g) => g.cover).length + D.targets.filter((t) => t.cover).length;
+    document.getElementById("foot").innerHTML = `Data updated ${esc(D.updated)} · generated from CLZ by <code>scripts/gamecoll.py export</code>${
+      nCovers ? ` · Cover art: <a href="https://www.igdb.com" target="_blank" rel="noopener">IGDB</a>` : ""}`;
     window.addEventListener("hashchange", route);
     route();
   })

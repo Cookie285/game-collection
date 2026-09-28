@@ -1,0 +1,43 @@
+name: Covers
+
+# Looks up IGDB cover ids for new titles and commits data/covers.json (public ids only).
+# Needs the repository secrets TWITCH_CLIENT_ID and TWITCH_CLIENT_SECRET — without them it does nothing.
+on:
+  workflow_run:
+    workflows: ["CLZ import"]
+    types: [completed]
+  schedule:
+    - cron: "17 4 * * 1"   # Mondays 04:17 UTC — new targets from reviews
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: clz-import   # one writer at a time with the import / decision workflows
+  cancel-in-progress: false
+
+jobs:
+  covers:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Look up covers
+        env:   # secrets only live in this step's environment; the script never prints or stores them
+          TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
+          TWITCH_CLIENT_SECRET: ${{ secrets.TWITCH_CLIENT_SECRET }}
+        run: python3 scripts/gamecoll.py covers
+      - name: Commit
+        run: |
+          [ -f data/covers.json ] || exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898699+github-actions[bot]@users.noreply.github.com"
+          git add data/covers.json
+          git diff --cached --quiet && { echo "no new covers"; exit 0; }
+          git commit -m "Covers: update IGDB cover ids"
+          git push

@@ -575,3 +575,11 @@ table.matrix { margin-top: 8px; font-size: 13px; }
 .review-card { padding: 16px 22px; }
 .review-card ul { margin: 0; padding-left: 18px; }
 .md li.sub { margin-left: 22px; list-style: circle; }
+
+/* ------------------------------------------------ IGDB covers */
+.cover img.cv { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; }
+.cover.has-img .initial, .cover.has-img .t { display: none; }
+.cover.has-img::before { z-index: 1; opacity: .35; }
+.cover .band, .cover .badge-st { z-index: 2; }
+.cover.has-img .band { opacity: .92; }
+.modal-head .cover { width: 90px; flex: none; }
