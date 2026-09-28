@@ -39,6 +39,8 @@ COLLECTION = DATA / "collection.csv"
 TARGETS_DIR = DATA / "targets"   # every *.toml in here is loaded (one file per source/platform)
 SERIES_DIR = DATA / "series"
 RULES = DATA / "rules.toml"      # collecting rules as data: ids, rationale, auto-tagging patterns
+DECISIONS = DATA / "decisions.toml"  # open questions + decision log (OPEN-QUESTIONS.md is generated from it)
+OPEN_QUESTIONS = ROOT / "OPEN-QUESTIONS.md"
 ANNOTATIONS = DATA / "annotations.csv"  # curated notes per game (Steam, surplus, upgrade …) – survive re-imports
 CHANGELOG = ROOT / "CHANGELOG.md"
 README = ROOT / "README.md"
@@ -351,17 +353,80 @@ def load_rules() -> dict:
     return {"rules": rules, "platforms": d.get("platform", []), "steps": d.get("step", [])}
 
 
-def rules_for(item: dict, rules: list[dict], extra: dict | None = None) -> list[str]:
+def matches(item: dict, rx: dict) -> bool:
+    """Does any compiled `match` pattern hit the item's field of the same name?"""
+    for k, r in rx.items():
+        v = item.get(k, "")
+        if r.search("\n".join(v) if isinstance(v, list) else str(v or "")):
+            return True
+    return False
+
+
+def rules_for(item: dict, rules: list[dict]) -> list[str]:
     """Rule ids for a target / series entry: automatic `match` hits + explicit `rules`, minus `not_rules`."""
-    fields = {k: item.get(k, "") for k in MATCH_FIELDS}
-    if extra:
-        fields.update({k: v for k, v in extra.items() if not fields.get(k)})
-    fields["platforms"] = "\n".join(fields["platforms"] or [])
-    ids = [r["id"] for r in rules
-           if any(rx.search(fields.get(k, "") or "") for k, rx in r["_rx"].items())]
+    ids = [r["id"] for r in rules if matches(item, r["_rx"])]
     ids += [i for i in item.get("rules", []) if i not in ids]
     drop = set(item.get("not_rules", []))
     return [i for i in ids if i not in drop]
+
+
+# ---------------------------------------------------------------- decisions (open questions + log)
+DECISION_KINDS = {"decision": "Decisions", "research": "Research / verify", "clz-fix": "CLZ data fixes"}
+
+
+def load_decisions() -> list[dict]:
+    if not DECISIONS.exists():
+        return []
+    lines = header_lines(DECISIONS, "[[decision]]")
+    out = load_toml(DECISIONS).get("decision", [])
+    for i, d in enumerate(out):
+        d.setdefault("kind", "decision")
+        d.setdefault("status", "open")
+        d.setdefault("area", "all")
+        d["_src"] = (DECISIONS.relative_to(ROOT).as_posix(), lines[i] if i < len(lines) else 0)
+        d["_rx"] = {k: re.compile(v, re.I) for k, v in d.get("match", {}).items()}
+    return out
+
+
+def decision_links(d: dict, targets: list[dict]) -> list[int]:
+    """Indexes of the targets a decision is about: listed titles + `match` patterns."""
+    keys = {norm(t) for t in d.get("targets", [])}
+    return [i for i, t in enumerate(targets) if norm(t["title"]) in keys or (d["_rx"] and matches(t, d["_rx"]))]
+
+
+# ---------------------------------------------------------------- note structure
+NOTE_KINDS = [  # (kind, pattern on a note segment) — first match wins
+    ("decision", r"^(Decision|Decide|Recommendation|suggestion)\b|\bRecommendation:"),
+    ("alternatives", r"^Other versions?:|^(PS|Switch|Xbox|PC)( \d)? = |\bvs\b"),
+    ("owned", r"\bown(ed)? on|Already owned|You (only )?own|Covered by|makes .* surplus|On my wish list"),
+    ("verify", r"^Verify|\bverify\b|^Check\b|\bcheck (whether|if|for)|marked '\?'|\?$"),
+    ("condition", r"only if|cheap|when on sale|pricey|rising prices|good price|expensive|Keep for shelf"),
+    ("fact", r"D2D|Disc-to-Digital|Xbox Store:|Delisted|Backward compatible|Not backward|scope layer|PAL|NTSC|"
+             r"\b(19|20)\d\d\b|Release date|release|No physical|disc exists|No Xbox disc|code-in-box|Game-Key Card|"
+             r"Limited Run|exclusive|ported|remaster"),
+]
+NOTE_RX = [(k, re.compile(p, re.I)) for k, p in NOTE_KINDS]
+DATE_RX = re.compile(r"\b(20\d\d-\d\d-\d\d)\b")
+
+
+def note_parts(note: str) -> list[dict]:
+    """Split a free-text note into labelled parts: decision · alternatives · owned · verify · condition · fact · reason."""
+    parts = []
+    for seg in (x.strip() for x in re.split(r" · ", note or "")):
+        if not seg:
+            continue
+        # "Decision: A; B; suggestion: …" stays one part, other '; '-lists are split
+        pieces = [seg] if re.match(r"(Decision|Decide)\b", seg) else [p.strip() for p in re.split(r"; ", seg)]
+        for piece in pieces:
+            if not piece:
+                continue
+            kind = next((k for k, rx in NOTE_RX if rx.search(piece)), "reason")
+            part = {"kind": kind, "text": piece.rstrip(".") if piece.endswith(".") and piece.count(".") == 1 else piece}
+            m = DATE_RX.search(piece)
+            if m:
+                part["date"] = m.group(1)
+            parts.append(part)
+    return parts
 
 
 def load_annotations() -> dict[tuple[str, str], str]:
@@ -697,6 +762,45 @@ def render() -> None:
                                  + md_table(["Title", "Platform", "Prio", "State"], rows_md) + "\n\n</details>\n")
         (VIEWS / "rules.md").write_text("\n".join(parts) + "\n", encoding="utf-8")
 
+    # --- open questions (generated from data/decisions.toml)
+    if DECISIONS.exists():
+        ds = load_decisions()
+        areas = {"all": "General", "nintendo": "Nintendo", "pc": "PC", "playstation": "PlayStation", "xbox": "Xbox"}
+        parts = [GEN_NOTE, "# Open questions\n",
+                 "Generated from [`data/decisions.toml`](data/decisions.toml) — edit there (options, recommendation; "
+                 "`status = \"decided\"` + `outcome` when decided). Also on the web app's **Decisions** page.\n"]
+        for kind, kind_name in DECISION_KINDS.items():
+            open_ = [d for d in ds if d["kind"] == kind and d["status"] == "open"]
+            if not open_:
+                continue
+            parts.append(f"## {kind_name} ({len(open_)})\n")
+            for area, area_name in areas.items():
+                sub = sorted((d for d in open_ if d["area"] == area), key=lambda d: d.get("due") or "9999")
+                if not sub:
+                    continue
+                if kind == "decision":
+                    parts.append(f"### {area_name}\n")
+                for d in sub:
+                    due = f" _(due {d['due']})_" if d.get("due") else ""
+                    opts = " / ".join(o["label"] for o in d.get("option", []))
+                    line = f"- [ ] **{d['question']}**{due}"
+                    if opts:
+                        line += f" — options: {opts}"
+                    if d.get("recommendation"):
+                        line += f" — suggestion: {d['recommendation']}"
+                    elif d.get("context") and not opts:
+                        line += f" — {d['context']}"
+                    parts.append(line)
+                parts.append("")
+        log = [d for d in ds if d["status"] in ("decided", "dropped")]
+        if log:
+            parts.append(f"## Decision log ({len(log)})\n")
+            for d in sorted(log, key=lambda d: d.get("decided") or "", reverse=True):
+                when = d.get("decided") or "earlier"
+                parts.append(f"- ✅ {when} — **{d['question']}** → {d.get('outcome', d['status'])}")
+            parts.append("")
+        OPEN_QUESTIONS.write_text("\n".join(parts) + "\n", encoding="utf-8")
+
     # --- overview + README summary
     counts = {p: Counter(r["status"] for r in by_plat[p]) for p in plats}
     tbl = [[f"[{p}](platforms/{slug(p)}.md)", counts[p]["owned"] + counts[p]["for_sale"], counts[p]["ordered"],
@@ -777,7 +881,8 @@ def cmd_export(args) -> None:
     rules = R["rules"]
     src = lambda x: {"path": x["_src"][0], "line": x["_src"][1]}
     targets = []
-    for t in load_targets():
+    raw_targets = load_targets()
+    for t in raw_targets:
         st, hits = eval_target(t, rows)
         targets.append({
             "title": t["title"], "platforms": t.get("platforms", []), "priority": t.get("priority", "medium"),
@@ -785,7 +890,8 @@ def cmd_export(args) -> None:
             "note": t.get("note", ""), "verify": t.get("verify", ""), "file": t["_file"], "status": st,
             "hits": [hit(h) for h in hits],
             "elsewhere": sorted(have_by_title.get(norm(t["title"]), set()) - {h["platform"] for h in hits}),
-            "rules": rules_for(t, rules), "src": src(t),
+            "rules": rules_for(t, rules), "src": src(t), "parts": note_parts(t.get("note", "")),
+            **{k: t[k] for k in ("why", "alternatives", "condition", "max_price", "facts", "checked") if k in t},
         })
     series = []
     for s in load_series():
@@ -805,6 +911,8 @@ def cmd_export(args) -> None:
         "games": games, "targets": targets, "series": series,
         "rules": [{k: v for k, v in r.items() if not k.startswith("_") and k != "match"} | {"src": src(r)} for r in rules],
         "strategies": R["platforms"], "steps": R["steps"], "repo": repo_url(),
+        "decisions": [{k: v for k, v in d.items() if not k.startswith("_") and k != "match"}
+                      | {"src": src(d), "target_ids": decision_links(d, raw_targets)} for d in load_decisions()],
         "changelog": CHANGELOG.read_text(encoding="utf-8") if CHANGELOG.exists() else "",
     }
     dest = Path(args.out)
@@ -860,7 +968,44 @@ def cmd_check(_args) -> None:
                     ok = False
         print(f"{path.parent.name}/{path.name}: {len(items)} entries")
     ok = check_rules() and ok
+    ok = check_decisions() and ok
     sys.exit(0 if ok else 1)
+
+
+def check_decisions() -> bool:
+    if not DECISIONS.exists():
+        return True
+    try:
+        ds = load_decisions()
+    except (tomllib.TOMLDecodeError, re.error) as e:
+        print(f"ERROR {DECISIONS.name}: {e}")
+        return False
+    ok = True
+    rule_ids = {r["id"] for r in load_rules()["rules"]}
+    titles = {norm(t["title"]) for t in load_targets()}
+    ids = [d.get("id") for d in ds]
+    for d in ds:
+        where = f"{DECISIONS.name}: {d.get('id', '?')}"
+        if not d.get("id") or not d.get("question"):
+            print(f"ERROR {where}: needs id and question")
+            ok = False
+        if d["kind"] not in DECISION_KINDS or d["status"] not in ("open", "decided", "dropped"):
+            print(f"ERROR {where}: kind must be {'/'.join(DECISION_KINDS)}, status open/decided/dropped")
+            ok = False
+        for i in d.get("rules", []):
+            if i not in rule_ids:
+                print(f"ERROR {where}: unknown rule id {i!r}")
+                ok = False
+        for t in d.get("targets", []):
+            if norm(t) not in titles:
+                print(f"WARN {where}: no buy-plan target titled {t!r}")
+        if d["status"] == "decided" and not d.get("outcome"):
+            print(f"WARN {where}: decided but no outcome")
+    for dup in {i for i in ids if ids.count(i) > 1}:
+        print(f"ERROR {DECISIONS.name}: duplicate id {dup!r}")
+        ok = False
+    print(f"decisions.toml: {len(ds)} entries · {sum(d['status'] == 'open' for d in ds)} open")
+    return ok
 
 
 def check_rules() -> bool:
