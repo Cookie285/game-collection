@@ -286,6 +286,8 @@ td .note { color: var(--muted); font-size: 13px; }
 
 /* ------------------------------------------------ plan */
 .targets { display: grid; gap: 10px; }
+/* long lists: no per-card blur — hundreds of blurred layers crash iPhone Safari (out of memory) */
+.targets .card { backdrop-filter: none; }
 .target {
   padding: 14px 16px; display: grid; grid-template-columns: 34px 1fr auto; gap: 14px; align-items: start;
   border-left: 3px solid var(--c, var(--border)); cursor: pointer; transition: transform .15s, background .15s;
