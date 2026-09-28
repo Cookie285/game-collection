@@ -73,9 +73,9 @@ Platform order: PC (best graphics) → Nintendo (best physical line-up) → what
 
 _Why:_ Each game is bought once, on the platform where it plays or collects best.
 
-73 targets — ⬜ 55 · 🕒 0 · ✅ 0 · ➖ 18
+75 targets — ⬜ 57 · 🕒 0 · ✅ 0 · ➖ 18
 
-<details><summary>55 open</summary>
+<details><summary>57 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -100,6 +100,7 @@ _Why:_ Each game is bought once, on the platform where it plays or collects best
 | Fatal Frame II: Crimson Butterfly Remake | Nintendo Switch 2 | low |  |
 | Final Fantasy IX | Nintendo Switch | low |  |
 | Final Fantasy VII | Nintendo Switch | low |  |
+| Final Fantasy VII Revelation | Nintendo Switch 2, PlayStation 5 | medium | watching |
 | Final Fantasy VIII Remastered | Nintendo Switch | low |  |
 | Final Fantasy X \| X-2 HD Remaster | Nintendo Switch | low |  |
 | Ghostwire: Tokyo | xbox-modern | low |  |
@@ -127,6 +128,7 @@ _Why:_ Each game is bought once, on the platform where it plays or collects best
 | The Legend of Heroes: Trails of Cold Steel IV | Nintendo Switch | low |  |
 | Tomb Raider I-III Remastered Starring Lara Croft | Nintendo Switch | low |  |
 | Tomb Raider IV-VI Remastered | Nintendo Switch | low |  |
+| Trails in the Sky 2nd Chapter | Nintendo Switch | high | watching |
 | Valkyria Chronicles | Nintendo Switch | low |  |
 | Valkyria Chronicles 4 | Nintendo Switch | low |  |
 | Wolfenstein II: The New Colossus | xbox-modern | low |  |
@@ -195,9 +197,9 @@ Gaps in older generations are mostly bought used.
 
 _Why:_ Older discs are cheap and plentiful used; new copies are often gone or overpriced.
 
-290 targets — ⬜ 290 · 🕒 0 · ✅ 0 · ➖ 0
+291 targets — ⬜ 291 · 🕒 0 · ✅ 0 · ➖ 0
 
-<details><summary>290 open</summary>
+<details><summary>291 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -414,6 +416,7 @@ _Why:_ Older discs are cheap and plentiful used; new copies are often gone or ov
 | Silent Hill HD Collection | PlayStation 3 | low |  |
 | Silent Hill: Origins | PlayStation 2 | low |  |
 | Silent Hill: Shattered Memories | PlayStation 2 | low |  |
+| Silent Hill: Townfall | PlayStation 5 | medium | undecided |
 | Singularity | Xbox 360 | someday | undecided |
 | Skyrim Special Edition | Xbox One | someday |  |
 | Sly Cooper: Thieves in Time | PlayStation 3 | medium |  |
@@ -713,9 +716,9 @@ Switch is first choice for JRPGs and for anything that has a real Switch cart.
 
 _Why:_ Best physical line-up; carts are complete and play on Switch 2.
 
-56 targets — ⬜ 55 · 🕒 0 · ✅ 0 · ➖ 1
+57 targets — ⬜ 56 · 🕒 0 · ✅ 0 · ➖ 1
 
-<details><summary>55 open</summary>
+<details><summary>56 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -765,6 +768,7 @@ _Why:_ Best physical line-up; carts are complete and play on Switch 2.
 | Tomb Raider IV-VI Remastered | Nintendo Switch | low |  |
 | Tony Hawk's Pro Skater 1 + 2 | Nintendo Switch | someday | undecided |
 | Tony Hawk's Pro Skater 3 + 4 | Nintendo Switch 2 | someday | undecided |
+| Trails in the Sky 2nd Chapter | Nintendo Switch | high | watching |
 | Utawarerumono: Prelude to the Fallen | PlayStation 4 | low |  |
 | Valkyria Chronicles | Nintendo Switch | low |  |
 | Valkyria Chronicles 4 | Nintendo Switch | low |  |
@@ -785,9 +789,9 @@ _Why:_ A Game-Key Card is only a download licence in a box; the disc is the real
 
 _Precedents:_ Pragmata, Onimusha: Way of the Sword, Full Metal Schoolgirl → PS5 · Bravely Default HD Remaster, Brigandine Abyss, Granblue Fantasy: Relink bought as GKC (JRPGs)
 
-25 targets — ⬜ 25 · 🕒 0 · ✅ 0 · ➖ 0
+26 targets — ⬜ 26 · 🕒 0 · ✅ 0 · ➖ 0
 
-<details><summary>25 open</summary>
+<details><summary>26 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -800,6 +804,7 @@ _Precedents:_ Pragmata, Onimusha: Way of the Sword, Full Metal Schoolgirl → PS
 | Final Fantasy X \| X-2 HD Remaster | Nintendo Switch | low |  |
 | Hogwarts Legacy | PlayStation 5, Nintendo Switch | high | undecided |
 | Kingdom Hearts Collection [I–III] | PlayStation 5, Nintendo Switch 2 | high | undecided |
+| Kingdom Hearts IV | Nintendo Switch 2, PlayStation 5 | low | watching |
 | Kunitsu-Gami: Path of the Goddess | PlayStation 5 | low |  |
 | Marvel's Guardians of the Galaxy | PlayStation 5 | medium |  |
 | Metaphor: ReFantazio | PlayStation 5, Nintendo Switch 2 | high | undecided |
@@ -825,9 +830,9 @@ _Precedents:_ Pragmata, Onimusha: Way of the Sword, Full Metal Schoolgirl → PS
 
 PlayStation gets exclusives plus multiplatform games worth having on disc.
 
-190 targets — ⬜ 189 · 🕒 1 · ✅ 0 · ➖ 0
+194 targets — ⬜ 193 · 🕒 1 · ✅ 0 · ➖ 0
 
-<details><summary>189 open</summary>
+<details><summary>193 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -909,6 +914,7 @@ PlayStation gets exclusives plus multiplatform games worth having on disc.
 | Judgment | PlayStation 5 | low |  |
 | Killzone Trilogy | PlayStation 3 | low |  |
 | Kingdom Hearts Collection [I–III] | PlayStation 5, Nintendo Switch 2 | high | undecided |
+| Kingdom Hearts IV | Nintendo Switch 2, PlayStation 5 | low | watching |
 | Kunitsu-Gami: Path of the Goddess | PlayStation 5 | low |  |
 | Lightning Returns: Final Fantasy XIII | PlayStation 3 | high |  |
 | Like a Dragon Gaiden: The Man Who Erased His Name | PlayStation 5 | low |  |
@@ -941,6 +947,7 @@ PlayStation gets exclusives plus multiplatform games worth having on disc.
 | Parasite Eve II | PlayStation | low |  |
 | Persona 3 Reload | PlayStation 5, Nintendo Switch 2 | high | undecided |
 | Persona 4 | PlayStation 2 | low |  |
+| Persona 4 Revival | PlayStation 5, Nintendo Switch 2 | medium | undecided |
 | Phantom Blade Zero | PlayStation 5 | medium |  |
 | Primal | PlayStation 2 | low |  |
 | Project Zero | PlayStation 2 | medium |  |
@@ -981,6 +988,7 @@ PlayStation gets exclusives plus multiplatform games worth having on disc.
 | Silent Hill HD Collection | PlayStation 3 | low |  |
 | Silent Hill: Origins | PlayStation 2 | low |  |
 | Silent Hill: Shattered Memories | PlayStation 2 | low |  |
+| Silent Hill: Townfall | PlayStation 5 | medium | undecided |
 | Sly Cooper: Thieves in Time | PlayStation 3 | medium |  |
 | Star Ocean: The Last Hope | PlayStation 4 | medium |  |
 | Star Wars: Episode III – Revenge of the Sith | PlayStation 2 | low |  |
@@ -1001,6 +1009,7 @@ PlayStation gets exclusives plus multiplatform games worth having on disc.
 | The Legend of Heroes: Trails of Cold Steel | PlayStation 4 | high |  |
 | The Legend of Heroes: Trails of Cold Steel II | PlayStation 4 | high |  |
 | The Yakuza Remastered Collection | PlayStation 4 | low |  |
+| Tomb Raider: Legacy of Atlantis | PlayStation 5 | medium | watching |
 | Utawarerumono: Mask of Deception | PlayStation 4 | medium |  |
 | Utawarerumono: Mask of Truth | PlayStation 4 | medium |  |
 | Utawarerumono: Prelude to the Fallen | PlayStation 4 | low |  |
@@ -1139,9 +1148,9 @@ Xbox is the shooter console: full Call of Duty and Battlefield runs. Beats Ninte
 
 _Why:_ Switch shooter ports are usually the weakest version.
 
-94 targets — ⬜ 58 · 🕒 0 · ✅ 33 · ➖ 3
+95 targets — ⬜ 59 · 🕒 0 · ✅ 33 · ➖ 3
 
-<details><summary>58 open</summary>
+<details><summary>59 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -1151,6 +1160,7 @@ _Why:_ Switch shooter ports are usually the weakest version.
 | Borderlands: The Handsome Collection | Xbox One | someday | undecided |
 | Bulletstorm | Xbox 360 | someday | undecided |
 | Bulletstorm: Full Clip Edition | Xbox One | someday | undecided |
+| Call of Duty: Modern Warfare 4 | Xbox Series X\|S | high | watching |
 | Crysis | Xbox 360 | someday | undecided |
 | Crysis 2 | Xbox 360 | someday | undecided |
 | Crysis 3 | Xbox 360 | someday | undecided |
@@ -1457,15 +1467,16 @@ Code-in-a-box only sealed/new, at or below the Xbox Store sale price, EU/DACH bo
 
 Digital-only games: play on Game Pass first; buy only if keeping/replaying, prefer Xbox Store with Play Anywhere, else Steam sale.
 
-3 targets — ⬜ 3 · 🕒 0 · ✅ 0 · ➖ 0
+4 targets — ⬜ 4 · 🕒 0 · ✅ 0 · ➖ 0
 
-<details><summary>3 open</summary>
+<details><summary>4 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
 | Avowed | Xbox Series X\|S | someday | undecided |
 | Diablo IV | Xbox Series X\|S | someday | undecided |
 | South of Midnight | Xbox Series X\|S | someday | undecided |
+| State of Decay 3 | Xbox Series X\|S | someday | undecided |
 
 </details>
 

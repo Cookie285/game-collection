@@ -22,7 +22,7 @@ id = "kh-collection-platform"
 question = "Kingdom Hearts Collection [I–III]: PS5 disc or Switch 2 Game-Key Card?"
 area = "playstation"
 due = "2026-10-08"
-context = "Switch 2 version is a Game-Key Card with a ~131 GB download; the PS5 version is a full-install disc. One disc = 1.5+2.5 ReMIX, 2.8 and KH III + Re Mind. KH III (PS4) is already owned."
+context = "Switch 2 version is a Game-Key Card with a ~131 GB download; the PS5 version is a full-install disc. One disc = 1.5+2.5 ReMIX, 2.8 and KH III + Re Mind. KH III (PS4) is already owned. · Also releasing on Xbox Series X|S, but digital only — the physical choice stays PS5 disc vs Switch 2 Game-Key Card (checked 2026-09-28)"
 recommendation = "PS5 — the JRPG rule says Switch, but the Switch 2 box is effectively a download voucher for a huge game."
 rules = ["gkc-not-physical", "switch-first", "one-copy-newest-gen"]
 targets = ["Kingdom Hearts Collection [I–III]"]
@@ -40,7 +40,7 @@ id = "metaphor-platform"
 question = "Metaphor: ReFantazio: Switch 2 Game-Key Card or PS5 disc?"
 area = "playstation"
 due = "2026-11-12"
-context = "Switch 2 version (12 Nov 2026) is a Game-Key Card; PS5 has a disc."
+context = "Switch 2 version (12 Nov 2026) is a Game-Key Card; PS5 has a disc. · Switch 2 physical is confirmed as a Game-Key Card (SteelBook edition too) (checked 2026-09-28)"
 recommendation = "Your call — if Game-Key Cards are accepted for JRPGs (as for Bravely Default HD, Brigandine Abyss, Granblue Relink) → Switch 2; else PS5."
 rules = ["gkc-not-physical", "switch-first"]
 targets = ["Metaphor: ReFantazio"]
@@ -56,7 +56,7 @@ pros = ["Real disc"]
 id = "p3r-platform"
 question = "Persona 3 Reload: Switch 2 Game-Key Card or PS5 disc?"
 area = "playstation"
-context = "Same situation as Metaphor. The Switch 2 version leaves out the Episode Aigis DLC. Persona 5 Royal is owned."
+context = "Same situation as Metaphor. The Switch 2 version leaves out the Episode Aigis DLC. Persona 5 Royal is owned. · Switch 2 version out since Oct 2025, physical = Game-Key Card (checked 2026-09-28)"
 recommendation = "Your call — same reasoning as Metaphor."
 rules = ["gkc-not-physical", "switch-first"]
 targets = ["Persona 3 Reload"]
@@ -108,7 +108,7 @@ pros = ["Best console version"]
 id = "clair-obscur-timing"
 question = "Clair Obscur: Expedition 33: buy on PS5 now, or wait for the rumoured Switch 2 port?"
 area = "playstation"
-context = "Switch 2 port is only rumoured. If a full Switch 2 cart is announced, the rule says wait for it."
+context = "Switch 2 port is only rumoured. If a full Switch 2 cart is announced, the rule says wait for it. · No official Switch 2 announcement yet — only an insider report that it lands in 2026 (checked 2026-09-28)"
 rules = ["switch-first", "gkc-not-physical"]
 targets = ["Clair Obscur: Expedition 33"]
 [[decision.option]]
@@ -147,7 +147,7 @@ id = "gta6-preorder"
 question = "GTA VI: pre-order or not?"
 area = "playstation"
 due = "2026-11-19"
-context = "Continues the GTA run (IV/V PS3, LCS/VCS PSP). No PC version at launch."
+context = "Continues the GTA run (IV/V PS3, LCS/VCS PSP). No PC version at launch. · Date reaffirmed by Take-Two in Aug 2026 (checked 2026-09-28)"
 rules = ["ps-exclusives-and-disc-worthy"]
 targets = ["Grand Theft Auto VI"]
 [[decision.option]]
@@ -159,7 +159,7 @@ label = "Buy later / used"
 id = "next-playstation"
 question = "Could Intergalactic change the “no next PlayStation” decision?"
 area = "playstation"
-context = "Next Naughty Dog game — no release date yet."
+context = "Next Naughty Dog game — no release date yet. · Intergalactic still has no date — reports say not before mid-2027 (checked 2026-09-28)"
 rules = ["no-next-playstation"]
 targets = ["Intergalactic: The Heretic Prophet"]
 
@@ -223,7 +223,7 @@ id = "hellblade-2-disc"
 question = "Hellblade II: does the EU Xbox box contain a real disc or only a code?"
 area = "xbox"
 kind = "research"
-context = "If it's code-in-box → treat like Avowed."
+context = "If it's code-in-box → treat like Avowed. · Amazon.de lists it only as a download code; no EU disc found yet (checked 2026-09-28)"
 rules = ["code-in-box", "xbox-first-party-scope"]
 targets = ["Senua's Saga: Hellblade II"]
 
@@ -301,7 +301,7 @@ targets = ["Blur"]
 id = "state-of-decay-3"
 question = "State of Decay 3: still buy on Xbox under the series rule?"
 area = "xbox"
-context = "Undead Labs is independent now; the game is no longer first-party (Sep 2026)."
+context = "Undead Labs is independent now; the game is no longer first-party (Sep 2026). · Out in 2027 on Xbox Series, PS5 and Steam, Game Pass day one — a PS5 disc is now an option too (checked 2026-09-28)"
 rules = ["series-on-one-platform", "xbox-first-party-scope"]
 targets = ["State of Decay 3"]
 [[decision.option]]
@@ -314,7 +314,7 @@ id = "mcc-ps5"
 question = "Halo: The Master Chief Collection — was a PS5 version announced?"
 area = "xbox"
 kind = "research"
-context = "Affects the “Xbox-exclusive” status only; already owned."
+context = "Affects the “Xbox-exclusive” status only; already owned. · Not announced (checked 2026-09-28)"
 targets = ["Halo: The Master Chief Collection"]
 
 [[decision]]
@@ -322,7 +322,7 @@ id = "d2d-ga"
 question = "Disc-to-Digital: general availability date; re-test Forza discs; test more discs"
 area = "xbox"
 kind = "research"
-context = "Re-test FM5/6/7, FH3/4 after GA; test Doom Eternal, Titanfall 2, Dead Rising 4, Killer Instinct (KI Classic sub-licences), Halo Wars 2 (bundled Halo Wars: DE?)."
+context = "Re-test FM5/6/7, FH3/4 after GA; test Doom Eternal, Titanfall 2, Dead Rising 4, Killer Instinct (KI Classic sub-licences), Halo Wars 2 (bundled Halo Wars: DE?). · Still an Insider rollout that keeps widening (Sep 2026); general availability only “in the coming months” (checked 2026-09-28)"
 rules = ["disc-to-digital"]
 match = { note = "re-test after GA|D2D not working" }
 
@@ -380,6 +380,9 @@ kind = "research"
 targets = ["Fable"]
 
 # ---------------------------------------------------------------- CLZ data fixes
+status = "decided"
+decided = "2026-09-28"
+outcome = "23 Feb 2027 on PS5, Xbox Series and PC (delayed from autumn 2026)"
 [[decision]]
 id = "clz-hp7-2-date"
 question = "Harry Potter and the Deathly Hallows Part 2 — release date"
@@ -450,3 +453,23 @@ area = "xbox"
 status = "decided"
 outcome = "Not collected — covered by the Master Chief Collection and Gears of War: Ultimate Edition."
 rules = ["compilations-count"]
+
+[[decision]]
+id = "p4-revival-platform"
+question = "Persona 4 Revival: PS5 disc in Feb 2027, or wait for Switch 2 in May 2027?"
+area = "playstation"
+due = "2027-02-18"
+context = "PS5 / Xbox / PC on 18 Feb 2027, Switch 2 on 20 May 2027 — Switch 2 physical format not announced (review 2026-09-28)."
+recommendation = "Wait for the Switch 2 format: a real cart → Switch (JRPG rule); a Game-Key Card → same call as Persona 3 Reload / Metaphor."
+rules = ["switch-first", "gkc-not-physical"]
+targets = ["Persona 4 Revival"]
+
+[[decision]]
+id = "phantom-blade-eu-disc"
+question = "Phantom Blade Zero: will there be an EU PS5 disc?"
+area = "playstation"
+kind = "research"
+due = "2026-10-29"
+context = "Releases 29 Oct 2026; only an Asian PS5 disc was listed on 2026-09-28. No disc → physical-first says import the Asian disc or skip."
+rules = ["physical-first"]
+targets = ["Phantom Blade Zero"]

@@ -234,7 +234,7 @@ Series Tracker tab
 | ✅ | Resident Evil: Revelations 2 | 2015 | PlayStation 4 |
 | ✅ | Resident Evil: Operation Raccoon City | 2012 | PlayStation 3 |
 
-## Silent Hill — 1/9
+## Silent Hill — 1/10
 
 Series Tracker tab
 
@@ -249,6 +249,7 @@ Series Tracker tab
 | ⬜ | Silent Hill: Shattered Memories | 2009 | PS2 port |
 | ⬜ | Silent Hill: Downpour | 2012 | ❓ not on the checklist |
 | ✅ | Silent Hill f | 2025 | PlayStation 5 |
+| ⬜ | Silent Hill: Townfall | 2026 | PS5 + PC, out 24 Sep 2026 (review 2026-09-28) |
 
 ## Metal Gear — 7/9 (+2 💻 Steam)
 
@@ -268,7 +269,7 @@ Series Tracker tab
 | ✅ | Metal Gear: Ghost Babel | 2000 | PlayStation 5 |
 | ➖ | Metal Gear Rising: Revengeance | 2013 | Spin-off |
 
-## Final Fantasy — 12/19 (+3 💻 Steam)
+## Final Fantasy — 12/20 (+3 💻 Steam)
 
 Series Tracker tab – VII/VIII/IX/X/XII go to Switch
 
@@ -296,8 +297,9 @@ Series Tracker tab – VII/VIII/IX/X/XII go to Switch
 | ✅ | Final Fantasy VII Remake | 2020 | PlayStation 4 |
 | ✅ | Final Fantasy VII Rebirth | 2024 | PlayStation 5 |
 | ➖ | Final Fantasy Type-0 HD | 2015 | Spin-off |
+| ⬜ | Final Fantasy VII Revelation | 2027 | FF VII Remake part 3, 8 Apr 2027, all platforms (review 2026-09-28) |
 
-## Kingdom Hearts — 1/6
+## Kingdom Hearts — 1/7
 
 Series Tracker tab
 
@@ -312,6 +314,7 @@ Series Tracker tab
 | ⬜ | Kingdom Hearts 3D: Dream Drop Distance | 2012 |  |
 | ➖ | Kingdom Hearts 0.2: Birth by Sleep – A Fragmentary Passage | 2017 |  |
 | ✅ | Kingdom Hearts III | 2019 | PlayStation 4 |
+| ⬜ | Kingdom Hearts IV | 2027 | Late 2027, all platforms (review 2026-09-28) |
 
 ## Tales of — 6/10 (+1 💻 Steam)
 
@@ -332,7 +335,7 @@ Series Tracker tab – mainline entries released in the West
 | 💻 | Tales of Arise | 2021 | Owned on Steam; platform decision open |
 | ⬜ | Tales of Eternia | 2000 | ❓ only mentioned via the Switch 2 Game-Key Card list |
 
-## Trails (The Legend of Heroes) — 6/13 (+3 💻 Steam)
+## Trails (The Legend of Heroes) — 6/14 (+3 💻 Steam)
 
 Series Tracker tab
 
@@ -352,6 +355,7 @@ Series Tracker tab
 | ✅ | The Legend of Heroes: Trails through Daybreak II | 2022 | Nintendo Switch |
 | ✅ | The Legend of Heroes: Trails beyond the Horizon | 2024 | Nintendo Switch |
 | ✅ | The Legend of Nayuta: Boundless Trails | 2012 | Nintendo Switch |
+| ⬜ | Trails in the Sky 2nd Chapter | 2026 | Switch physical 29 Sep 2026 (EU) (review 2026-09-28) |
 
 ## Star Ocean — 4/6
 
@@ -378,7 +382,7 @@ Series Tracker tab
 | 💻 | NieR Replicant | 2010 | ver.1.22 owned on Steam |
 | 💻 | NieR:Automata | 2017 | Owned on Steam; Switch per rule |
 
-## Persona — 1/3 (+1 💻 Steam)
+## Persona — 1/4 (+1 💻 Steam)
 
 Series Tracker tab (Persona / Atlus row)
 
@@ -392,6 +396,7 @@ Series Tracker tab (Persona / Atlus row)
 | ➖ | Revelations: Persona | 1996 | ❓ not on the checklist |
 | ➖ | Persona 2: Innocent Sin | 1999 | ❓ not on the checklist |
 | ➖ | Persona 2: Eternal Punishment | 2000 | ❓ not on the checklist |
+| ⬜ | Persona 4 Revival | 2027 | PS5 18 Feb 2027 · Switch 2 20 May 2027 (review 2026-09-28) |
 
 ## Like a Dragon (Yakuza) — 0/10 (+8 💻 Steam)
 
@@ -470,8 +475,9 @@ Series Tracker tab – Ezio + AC III go to Switch
 | ✅ | Assassin's Creed Valhalla | 2020 | PlayStation 5 |
 | ✅ | Assassin's Creed Mirage | 2023 | PlayStation 5 |
 | 💻 | Assassin's Creed Shadows | 2025 | Owned on Steam |
+| ➖ | Assassin's Creed Hexe | 2027 | Announced, no date (2027 rumoured) (review 2026-09-28) |
 
-## Tomb Raider — 4/12 (+3 💻 Steam)
+## Tomb Raider — 4/14 (+3 💻 Steam)
 
 Series Tracker tab – classics go to Switch
 
@@ -489,6 +495,8 @@ Series Tracker tab – classics go to Switch
 | ✅ | Tomb Raider (2013) | 2013 | PlayStation 3 |
 | 💻 | Rise of the Tomb Raider | 2015 | Owned on Steam |
 | 💻 | Shadow of the Tomb Raider | 2018 | Owned on Steam |
+| ⬜ | Tomb Raider: Legacy of Atlantis | 2027 | Remake of Tomb Raider (1996), 12 Feb 2027 (review 2026-09-28) |
+| ⬜ | Tomb Raider: Catalyst | 2028 | Announced for 2028 (review 2026-09-28) |
 
 ## Mass Effect — 3/4 (+1 💻 Steam)
 
@@ -588,7 +596,7 @@ Series Tracker tab – collecting the PlayStation Harry Potter games
 | ➖ | LEGO Harry Potter: Years 1-4 | 2010 | Owned via LEGO HP Collection (Xbox One) |
 | ➖ | LEGO Harry Potter: Years 5-7 | 2011 | Owned via LEGO HP Collection (Xbox One) |
 
-## Call of Duty — 22/22
+## Call of Duty — 22/23
 
 Complete Xbox run, one copy per game, newest-gen pressing. Single-player focus; servers irrelevant. ❓ Call of Duty (2003, PC-only) and OG Xbox spin-offs (Finest Hour, Big Red One) were never discussed – not listed
 
@@ -617,6 +625,7 @@ Complete Xbox run, one copy per game, newest-gen pressing. Single-player focus; 
 | ✅ | Call of Duty: Black Ops 6 | 2024 | Xbox Series X\|S |
 | ✅ | Call of Duty: Black Ops 7 | 2025 | Xbox Series X\|S |
 | ➖ | Call of Duty: Modern Warfare 2 Campaign Remastered | 2020 | Digital-only – nothing to collect |
+| ⬜ | Call of Duty: Modern Warfare 4 | 2026 | Announced — 23 Oct 2026 (review 2026-09-28) |
 
 ## Battlefield — 10/10
 

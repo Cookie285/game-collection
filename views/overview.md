@@ -33,7 +33,7 @@ _Updated 2026-09-28._
 
 ## Buy plan
 
-⬜ 405 open · 🕒 2 ordered · ✅ 72 done — see [gaps.md](gaps.md)
+⬜ 412 open · 🕒 2 ordered · ✅ 72 done — see [gaps.md](gaps.md)
 
 ## Series
 
@@ -58,21 +58,21 @@ _Updated 2026-09-28._
 | Quantic Dream (PlayStation) | 1/3 |  |
 | FromSoftware Souls | 2/7 | 1 |
 | Resident Evil | 9/11 |  |
-| Silent Hill | 1/9 |  |
+| Silent Hill | 1/10 |  |
 | Metal Gear | 7/9 | 2 |
-| Final Fantasy | 12/19 | 3 |
-| Kingdom Hearts | 1/6 |  |
+| Final Fantasy | 12/20 | 3 |
+| Kingdom Hearts | 1/7 |  |
 | Tales of | 6/10 | 1 |
-| Trails (The Legend of Heroes) | 6/13 | 3 |
+| Trails (The Legend of Heroes) | 6/14 | 3 |
 | Star Ocean | 4/6 |  |
 | NieR / Drakengard | 1/5 | 2 |
-| Persona | 1/3 | 1 |
+| Persona | 1/4 | 1 |
 | Like a Dragon (Yakuza) | 0/10 | 8 |
 | Devil May Cry | 0/5 | 1 |
 | Nioh | 3/3 ✅ |  |
 | Ninja Gaiden (3D) | 4/4 ✅ |  |
 | Assassin's Creed | 8/14 | 1 |
-| Tomb Raider | 4/12 | 3 |
+| Tomb Raider | 4/14 | 3 |
 | Mass Effect | 3/4 | 1 |
 | Dragon Age | 2/4 | 2 |
 | Star Wars Jedi | 0/2 | 2 |
@@ -81,7 +81,7 @@ _Updated 2026-09-28._
 | Grand Theft Auto | 2/6 |  |
 | Senran Kagura | 0/2 |  |
 | Harry Potter | 8/9 | 1 |
-| Call of Duty | 22/22 ✅ |  |
+| Call of Duty | 22/23 |  |
 | Battlefield | 10/10 ✅ |  |
 | Halo | 10/11 |  |
 | Gears of War | 4/8 |  |

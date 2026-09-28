@@ -664,6 +664,11 @@ title = "Silent Hill f"
 year = 2025
 note = "Owned (PS5)"
 
+[[series.entry]]
+title = "Silent Hill: Townfall"
+year = 2026
+note = "PS5 + PC, out 24 Sep 2026 (review 2026-09-28)"
+
 [[series]]
 platforms = ["playstation"]
 name = "Metal Gear"
@@ -853,6 +858,11 @@ year = 2015
 optional = true
 note = "Spin-off"
 
+[[series.entry]]
+title = "Final Fantasy VII Revelation"
+year = 2027
+note = "FF VII Remake part 3, 8 Apr 2027, all platforms (review 2026-09-28)"
+
 [[series]]
 platforms = ["playstation"]
 name = "Kingdom Hearts"
@@ -909,6 +919,11 @@ title = "Kingdom Hearts III"
 aliases = ["Kingdom Hearts Collection [I–III]"]
 year = 2019
 note = "Owned (PS4)"
+
+[[series.entry]]
+title = "Kingdom Hearts IV"
+year = 2027
+note = "Late 2027, all platforms (review 2026-09-28)"
 
 [[series]]
 platforms = ["playstation", "nintendo"]
@@ -1061,6 +1076,11 @@ year = 2012
 optional = true
 note = "Spin-off; owned (Switch)"
 
+[[series.entry]]
+title = "Trails in the Sky 2nd Chapter"
+year = 2026
+note = "Switch physical 29 Sep 2026 (EU) (review 2026-09-28)"
+
 [[series]]
 platforms = ["playstation", "nintendo"]
 name = "Star Ocean"
@@ -1182,6 +1202,11 @@ title = "Persona 2: Eternal Punishment"
 year = 2000
 optional = true
 verify = "not on the checklist"
+
+[[series.entry]]
+title = "Persona 4 Revival"
+year = 2027
+note = "PS5 18 Feb 2027 · Switch 2 20 May 2027 (review 2026-09-28)"
 
 [[series]]
 platforms = ["playstation"]
@@ -1445,6 +1470,12 @@ title = "Assassin's Creed Shadows"
 year = 2025
 note = "Owned on Steam"
 
+[[series.entry]]
+title = "Assassin's Creed Hexe"
+year = 2027
+optional = true
+note = "Announced, no date (2027 rumoured) (review 2026-09-28)"
+
 [[series]]
 platforms = ["playstation", "nintendo"]
 name = "Tomb Raider"
@@ -1518,6 +1549,16 @@ title = "Shadow of the Tomb Raider"
 aliases = ["Shadow of the Tomb Raider: Definitive Edition"]
 year = 2018
 note = "Owned on Steam"
+
+[[series.entry]]
+title = "Tomb Raider: Legacy of Atlantis"
+year = 2027
+note = "Remake of Tomb Raider (1996), 12 Feb 2027 (review 2026-09-28)"
+
+[[series.entry]]
+title = "Tomb Raider: Catalyst"
+year = 2028
+note = "Announced for 2028 (review 2026-09-28)"
 
 [[series]]
 platforms = ["playstation"]

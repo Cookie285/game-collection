@@ -262,6 +262,7 @@ function pageDashboard(page) {
       </div>
     </div>
 
+    ${latestReviewHTML()}
     ${dueSoonHTML()}
     <h2 class="section-title">🎯 Up next <small>high priority, still open</small></h2>
     <div class="targets">${upNext.map(targetHTML).join("") || `<div class="card empty-state">Nothing high-priority open 🎉</div>`}</div>
@@ -839,6 +840,14 @@ function dueBadge(due) {
   return `<span class="due ${cls}" title="${esc(due)}">${n < 0 ? `${-n} days overdue` : n === 0 ? "today" : `in ${n} days`}</span>`;
 }
 
+function latestReviewHTML() {
+  const r = (D.reviews || [])[0];
+  if (!r) return "";
+  const sum = (r.md.split(/^## Summary\s*$/m)[1] || "").split(/^## /m)[0];
+  const items = sum.split("\n").filter((l) => /^- /.test(l)).slice(0, 5);
+  return `<h2 class="section-title">🔎 Latest review <small>${esc(r.date)} · <a href="#/changelog?tab=reviews&r=${r.date}">full report →</a></small></h2>
+    <div class="card md review-card">${mdToHtml(items.join("\n"))}</div>`;
+}
 function dueSoonHTML() {
   const open = D.decisions.filter((x) => x.status === "open" && x.kind === "decision");
   if (!open.length) return "";
@@ -926,7 +935,8 @@ function openDecision(id) {
     ${(x.rules || []).length ? whyHTML(x.rules, "Rules involved") : ""}
     ${x.targets.length ? `<h3 class="mh">Targets this decides · ${x.targets.length}</h3><div class="targets">${shown.map(targetHTML).join("")}</div>
       ${x.targets.length > shown.length ? `<p><a href="#/plan?dec=${encodeURIComponent(x.id)}&st=">All ${x.targets.length} in the buy plan →</a></p>` : ""}` : ""}
-    ${decided ? "" : `<div class="howto card">✍️ When decided: set <code>status = "decided"</code>, <code>decided = "${new Date().toISOString().slice(0, 10)}"</code> and <code>outcome = "…"</code> for <code>${esc(x.id)}</code>, then update the targets above.</div>`}
+    ${decided ? "" : `<div class="howto card">✍️ <b>Decided?</b> ${D.repo ? `<a class="btn" style="margin:6px 0" target="_blank" rel="noopener" href="${esc(D.repo)}/issues/new?template=decide.yml&title=${encodeURIComponent("Decide: " + x.id)}&decision_id=${encodeURIComponent(x.id)}">⚖️ Record it on GitHub</a><br>` : ""}
+      Opens a short form (works on the phone); an Action writes <code>status</code>, <code>decided</code> and <code>outcome</code> for <code>${esc(x.id)}</code> into <code>data/decisions.toml</code>. Then update the targets above — or edit the file directly.</div>`}
     <div class="rule-actions">${askButton("decision", x.id)} ${srcLinks(x.src)}</div>`;
   showModal(`<div class="rule-ico" style="--c:${areaColor(x.area)}">⚖️</div><div><h2>${esc(x.question)}</h2>
     <div class="row">${pill(x.area === "all" ? "General" : fam(x.area).label, areaColor(x.area))}${pill(DEC_KIND[x.kind], "var(--faint)")}
@@ -1239,22 +1249,74 @@ function seriesCard(s) {
 }
 
 /* ------------------------------------------------ changelog */
-function pageChangelog(page) {
-  const md = D.changelog.replace(/^# .*\n/, "");
-  page.innerHTML = `<div class="page-head"><div><h1>Changelog</h1><p>Written automatically with every CLZ import.</p></div></div>
-    <div class="card md">${mdToHtml(md) || "<p>No imports yet.</p>"}</div>`;
+function pageChangelog(page, params) {
+  const reviews = D.reviews || [];
+  const tab = params.get("tab") || (reviews.length ? "reviews" : "imports");
+  const sel = reviews.find((r) => r.date === params.get("r")) || reviews[0];
+  page.innerHTML = `<div class="page-head"><div><h1>Changelog</h1><p>CLZ imports (automatic) and collection reviews (what changed in the world — release dates, platforms, formats).</p></div>
+      <div class="seg" id="ctabs"><button data-t="reviews">🔎 Reviews <span class="badge">${reviews.length}</span></button><button data-t="imports">📥 Imports</button></div></div>
+    ${tab === "reviews" ? (reviews.length ? `<div class="chips" style="margin-bottom:14px">${reviews.map((r) => `<a class="chip${r === sel ? " on" : ""}" style="text-decoration:none" href="#/changelog?tab=reviews&r=${r.date}">${r.date}</a>`).join("")}</div>
+      <div class="card md">${mdToHtml(sel.md)}</div>` : `<div class="card empty-state">No reviews yet — they're written when a CLZ export is reviewed.</div>`)
+      : `<div class="card md">${mdToHtml(D.changelog.replace(/^# .*\n/, "")) || "<p>No imports yet.</p>"}</div>`}`;
+  $$("#ctabs button", page).forEach((b) => b.classList.toggle("on", b.dataset.t === tab));
+  $("#ctabs", page).addEventListener("click", (e) => { const b = e.target.closest("button"); if (b) location.hash = `#/changelog?tab=${b.dataset.t}`; });
 }
+// small Markdown renderer: headings, lists, checkboxes, tables, links, bold / italic / code
 function mdToHtml(md) {
-  const inline = (s) => esc(s).replace(/`([^`]+)`/g, "<code>$1</code>").replace(/\*\*([^*]+)\*\*/g, "<b>$1</b>").replace(/_([^_]+)_/g, "<i>$1</i>");
-  let out = "", inList = false;
-  for (const line of md.split("\n")) {
-    if (/^- /.test(line)) { if (!inList) { out += "<ul>"; inList = true; } out += `<li>${inline(line.slice(2))}</li>`; continue; }
-    if (inList) { out += "</ul>"; inList = false; }
-    if (/^#{2,3} /.test(line)) out += `<h2>${inline(line.replace(/^#+ /, ""))}</h2>`;
-    else if (line.trim()) out += `<p>${inline(line)}</p>`;
+  const inline = (raw) => {
+    const links = [];
+    let s = raw.replace(/\[([^\]]+)\]\((https?:[^)\s]+|[^)\s]+\.md)\)/g, (_, t, u) => { links.push([t, u]); return `\u0000${links.length - 1}\u0000`; });
+    s = esc(s).replace(/`([^`]+)`/g, "<code>$1</code>").replace(/\*\*([^*]+)\*\*/g, "<b>$1</b>").replace(/(^|[\s(])_([^_]+)_(?=[\s).,;:]|$)/g, "$1<i>$2</i>");
+    return s.replace(/\u0000(\d+)\u0000/g, (_, i) => {
+      const [t, u] = links[+i];
+      const href = /^https?:/.test(u) ? u : D.repo ? `${D.repo}/blob/main/${u.replace(/^\.\.\//, "")}` : u;
+      return `<a href="${esc(href)}" target="_blank" rel="noopener">${esc(t)}</a>`;
+    });
+  };
+  // join wrapped lines: indented continuation of a list item, or consecutive paragraph lines
+  const lines = [];
+  const isBlock = (l) => /^\s*- |^#{1,4} |^\||^<!--/.test(l);
+  for (const l of md.split("\n")) {
+    const prev = lines.length ? lines[lines.length - 1] : "";
+    if (l.trim() && !isBlock(l) && prev.trim() && !/^#{1,4} |^\|/.test(prev) && (/^\s+/.test(l) || !/^\s*- /.test(prev))) {
+      lines[lines.length - 1] = prev + " " + l.trim();
+    } else lines.push(l);
   }
-  return out + (inList ? "</ul>" : "");
+  let out = "", list = null;
+  const close = () => { if (list) { out += "</ul>"; list = null; } };
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
+    if (/^\|/.test(line)) {
+      close();
+      const rows = [];
+      while (i < lines.length && /^\|/.test(lines[i])) rows.push(lines[i++]);
+      i--;
+      const cells = (r) => r.replace(/^\||\|$/g, "").split(/(?<!\\)\|/).map((c) => c.trim().replace(/\\\|/g, "|"));
+      const body = rows.filter((r) => !/^\|[\s:|-]+\|$/.test(r));
+      out += `<div class="table-wrap"><table><thead><tr>${cells(body[0]).map((c) => `<th>${inline(c)}</th>`).join("")}</tr></thead><tbody>${
+        body.slice(1).map((r) => `<tr>${cells(r).map((c) => `<td>${inline(c)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
+      continue;
+    }
+    const li = line.match(/^(\s*)- (\[( |x)\] )?(.*)/);
+    if (li && li[1].length && list) {  // nested item → indented li
+      out += `<li class="sub">${inline(li[4])}</li>`;
+      continue;
+    }
+    if (li) {
+      if (!list) { out += "<ul>"; list = true; }
+      const box = li[2] ? `<span class="box">${li[3] === "x" ? "☑" : "☐"}</span> ` : "";
+      out += `<li class="${li[2] ? (li[3] === "x" ? "done" : "todo") : ""}">${box}${inline(li[4])}</li>`;
+      continue;
+    }
+    close();
+    const h = line.match(/^(#{1,4}) (.*)/);
+    if (h) out += `<h${Math.min(h[1].length + 1, 4)}>${inline(h[2])}</h${Math.min(h[1].length + 1, 4)}>`;
+    else if (line.trim() && !/^<!--/.test(line)) out += `<p>${inline(line)}</p>`;
+  }
+  close();
+  return out;
 }
+
 
 /* ------------------------------------------------ detail modals */
 const modal = document.getElementById("modal");
