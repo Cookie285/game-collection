@@ -221,7 +221,7 @@ platforms = ["Xbox One"]
 priority = "low"
 group = "Checklist (Disc-to-Digital)"
 plan = "used disc, e.g. rebuy.de"
-note = "D2D (community, 2026-09-09): Reported working (single outlet, unconfirmed)"
+note = "D2D (community, 2026-09-09): Reported working (single outlet, unconfirmed) · Added to Xbox Disc-to-Digital program per TFW2005 (~1 Sep 2026) — second, independent confirmation; still delisted from the Xbox Store, playable via BC for existing owners (checked 2026-09-28)"
 
 [[target]]
 title = "Transformers: Rise of the Dark Spark"
@@ -261,7 +261,7 @@ priority = "medium"
 group = "First-party"
 plan = "Xbox Series X disc when on sale"
 state = "watching"
-note = "scope layer 1 (Halo / Halo Studios); Owned on PS5; last Halo made by Halo Studios (next Halo moves to Activision, Sep 2026)"
+note = "scope layer 1 (Halo / Halo Studios); Owned on PS5; last Halo made by Halo Studios (next Halo moves to Activision, Sep 2026) · Released 28 Jul 2026 on Xbox Series X|S, PS5 and Steam; physical disc confirmed at retail for both Xbox Series X and PS5 (GameStop) (checked 2026-09-28)"
 
 [[target]]
 title = "Gears of War: Reloaded"
@@ -792,7 +792,7 @@ priority = "medium"
 group = "OG Xbox BC"
 plan = "disc (store status unverified, likely disc only)"
 state = "watching"
-note = "Xbox Store: Verify – likely disc only; B – OG Xbox exclusive, BC; On my wish list"
+note = "Xbox Store: BC (Xbox One/Series X|S, added Nov 2021 for Xbox's 20th anniversary) and still purchasable digitally today — not disc-only; B – OG Xbox exclusive, BC; On my wish list (checked 2026-09-28)"
 
 [[target]]
 title = "Otogi 2: Immortal Warriors"
@@ -801,7 +801,7 @@ priority = "medium"
 group = "OG Xbox BC"
 plan = "disc (store status unverified, likely disc only)"
 state = "watching"
-note = "Xbox Store: Verify – likely disc only; B – OG Xbox exclusive, BC; On my wish list"
+note = "Xbox Store: BC (Xbox One/Series X|S, added Nov 2021 for Xbox's 20th anniversary) and still purchasable digitally today — not disc-only; B – OG Xbox exclusive, BC; On my wish list (checked 2026-09-28)"
 
 [[target]]
 title = "Conker: Live & Reloaded"
@@ -1221,7 +1221,7 @@ title = "Battlefield 3"
 platforms = ["Xbox 360"]
 priority = "someday"
 group = "Series runs – Battlefield"
-note = "Xbox Store: Digital (verify)"
+note = "Xbox Store: delisted — pulled with the Xbox 360 Marketplace closure, 14 Aug 2024 (checked 2026-09-28)"
 
 [[target]]
 title = "Battlefield 4"
@@ -1235,7 +1235,7 @@ title = "Battlefield Hardline"
 platforms = ["Xbox One"]
 priority = "someday"
 group = "Series runs – Battlefield"
-note = "Xbox Store: Digital (verify)"
+note = "Xbox Store: delisted 22 May 2026, servers shut down 22 Jun 2026; single-player still playable if owned (checked 2026-09-28)"
 
 [[target]]
 title = "Battlefield 1"

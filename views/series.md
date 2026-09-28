@@ -4,7 +4,7 @@
 
 Curated in [`data/series/`](../data/series/). ✅ owned · 🕒 ordered · ⬜ missing · 💻 only on Steam · ➖ not needed (optional / covered elsewhere / no disc)
 
-## God of War — 3/8 (+1 💻 Steam)
+## God of War — 3/11 (+1 💻 Steam)
 
 Series Tracker tab
 
@@ -18,6 +18,9 @@ Series Tracker tab
 | ✅ | God of War: Ascension | 2013 | PlayStation 3 |
 | 💻 | God of War (2018) | 2018 | Also owned on Steam |
 | ✅ | God of War Ragnarök | 2022 | PlayStation 5 |
+| ⬜ | God of War: Laufey |  | Faye-led narrative game; Santa Monica Studio; in development, announced Feb 2026 State of Play (checked 2026-09-28) |
+| ⬜ | God of War: Sons of Sparta | 2026 | 2D platformer, Mega Cat Studios; released 12 Feb 2026 alongside the Laufey reveal (checked 2026-09-28) |
+| ⬜ | God of War Trilogy Remake |  | Remakes of the Greek-era trilogy (GoW I–III); announced Feb 2026 State of Play, no date yet (checked 2026-09-28) |
 
 ## Uncharted — 5/5
 
@@ -108,7 +111,7 @@ Series Tracker tab
 | ✅ | Marvel's Spider-Man: Miles Morales | 2020 | PlayStation 5 |
 | ✅ | Marvel's Spider-Man 2 | 2023 | PlayStation 5 |
 
-## Horizon — 2/2
+## Horizon — 2/3
 
 Series Tracker tab – complete
 
@@ -117,6 +120,7 @@ Series Tracker tab – complete
 | ✅ | Horizon Zero Dawn | 2017 | PlayStation 4 |
 | ✅ | Horizon Forbidden West | 2022 | PlayStation 5 |
 | ➖ | Horizon Call of the Mountain | 2023 | Needs PS VR2 – skipped |
+| ⬜ | Horizon Hunters Gathering |  | Multiplayer spinoff; officially announced 2026 by Guerrilla Games; no date yet (checked 2026-09-28) |
 
 ## Ghost of … — 2/2
 
@@ -213,7 +217,7 @@ Series Tracker tab (FromSoftware row)
 | 💻 | Elden Ring | 2022 | Owned on Steam – disc only if very cheap |
 | ➖ | Armored Core VI: Fires of Rubicon | 2023 | Listed under FromSoftware in the tracker, not a Souls game |
 
-## Resident Evil — 9/11
+## Resident Evil — 9/12
 
 Series Tracker tab
 
@@ -233,6 +237,7 @@ Series Tracker tab
 | ➖ | Resident Evil: Revelations | 2012 | Spin-off; owned on Steam |
 | ✅ | Resident Evil: Revelations 2 | 2015 | PlayStation 4 |
 | ✅ | Resident Evil: Operation Raccoon City | 2012 | PlayStation 3 |
+| ⬜ | Resident Evil – Code: Veronica (2027 remake) | 2027 | Remake confirmed by Capcom for 2027 (checked 2026-09-28) |
 
 ## Silent Hill — 1/10
 
@@ -576,8 +581,9 @@ Series Tracker tab
 | ➖ | Senran Kagura: Peach Beach Splash | 2017 | Shooter spin-off |
 | ✅ | Neptunia x Senran Kagura: Ninja Wars | 2021 | PlayStation 4 |
 | ➖ | Senran Kagura Shinovi Versus | 2015 | ❓ not on the checklist · Vita – not playable |
+| ➖ | Shinobi Nexus: Senran Kagura | 2026 | Free-to-play mobile/PC spinoff, announced 2026 — not a physical collecting target (checked 2026-09-28) |
 
-## Harry Potter — 8/9 (+1 💻 Steam)
+## Harry Potter — 8/10 (+1 💻 Steam)
 
 Series Tracker tab – collecting the PlayStation Harry Potter games
 
@@ -595,6 +601,7 @@ Series Tracker tab – collecting the PlayStation Harry Potter games
 | ➖ | Harry Potter: Quidditch World Cup | 2003 | PS2 |
 | ➖ | LEGO Harry Potter: Years 1-4 | 2010 | Owned via LEGO HP Collection (Xbox One) |
 | ➖ | LEGO Harry Potter: Years 5-7 | 2011 | Owned via LEGO HP Collection (Xbox One) |
+| ⬜ | Hogwarts Legacy 2 |  | Confirmed in development by WB Games (Aug 2026 earnings call); expected Spring/Summer 2027 (checked 2026-09-28) |
 
 ## Call of Duty — 22/23
 
