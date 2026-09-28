@@ -322,7 +322,7 @@ id = "d2d-ga"
 question = "Disc-to-Digital: general availability date; re-test Forza discs; test more discs"
 area = "xbox"
 kind = "research"
-context = "Re-test FM5/6/7, FH3/4 after GA; test Doom Eternal, Titanfall 2, Dead Rising 4, Killer Instinct (KI Classic sub-licences), Halo Wars 2 (bundled Halo Wars: DE?). · Still an Insider rollout that keeps widening (Sep 2026); general availability only “in the coming months” (checked 2026-09-28)"
+context = "Re-test FM5/6/7, FH3/4 after GA; test Doom Eternal, Titanfall 2, Dead Rising 4, Killer Instinct (KI Classic sub-licences), Halo Wars 2 (bundled Halo Wars: DE?). · Still an Insider rollout that keeps widening (Sep 2026); general availability only “in the coming months” (checked 2026-09-28) · Late Sep 2026: rolled out to more Delta/Omega ring testers, 3 more supported games added (Split Fiction, A Way Out, It Takes Two); still no committed GA date. 8 Xbox titles delisted/scheduled Aug–Sep 2026 (incl. Xbox 360 Toy Story 3, tied to a new Complete Edition launching 15 Oct 2026); separately several previously-delisted Xbox 360 titles briefly reappeared on the store, a possible sign of a BC revival pledged by Xbox VP Jason Ronald at GDC 2026 for Xbox's 25th anniversary (checked 2026-09-28)."
 rules = ["disc-to-digital"]
 match = { note = "re-test after GA|D2D not working" }
 
@@ -332,13 +332,14 @@ question = "Disc-to-Digital edge cases: lending, second account on the same cons
 area = "xbox"
 kind = "research"
 rules = ["disc-to-digital"]
+context = "Lending: license follows the disc, not the original claimant — if account A claims digitally then lends the disc to account B, B can claim it too and A loses disc-based access. Family/shared-console members get access via the sharing account like any digital title. Nothing found yet on offline behaviour or account-recovery edge cases. Program still Insider-only (started 31 Aug 2026); official docs may still change before GA (checked 2026-09-28)."
 
 [[decision]]
 id = "bc-store-status"
 question = "360/OG store status (disc if delisted, digital if listed)"
 area = "xbox"
 kind = "research"
-context = "Fable III, Split/Second, Otogi 1/2, Earth Defense Force 2017."
+context = "Fable III, Split/Second, Otogi 1/2, Earth Defense Force 2017. · Otogi: Myth of Demons / Otogi 2: Immortal Warriors confirmed BC (Xbox One/Series X|S, added Nov 2021) and still purchasable digitally today — not delisted. Fable III / Split/Second / EDF 2017 not checked yet (checked 2026-09-28)."
 rules = ["bc-digital-unless-delisted"]
 targets = ["Fable III", "Split/Second", "Otogi: Myth of Demons", "Otogi 2: Immortal Warriors", "Earth Defense Force 2017"]
 
@@ -347,7 +348,7 @@ id = "bc-status-check"
 question = "Backward-compatibility status of a few 360 / OG titles"
 area = "xbox"
 kind = "research"
-context = "Battlefield 2: Modern Combat (360), Transformers: War for Cybertron / Fall of Cybertron, Medal of Honor: Warfighter, Far Cry OG/360 entries."
+context = "Battlefield 2: Modern Combat (360), Transformers: War for Cybertron / Fall of Cybertron, Medal of Honor: Warfighter, Far Cry OG/360 entries. · Side finding: Transformers: Fall of Cybertron and Rise of the Dark Spark are also confirmed BC and delisted (same source as the Devastation D2D finding). The rest of this list not checked yet (checked 2026-09-28)."
 rules = ["non-bc-shelf-only", "bc-digital-unless-delisted"]
 targets = ["Battlefield 2: Modern Combat", "Transformers: War for Cybertron", "Transformers: Fall of Cybertron", "Medal of Honor: Warfighter"]
 
@@ -356,6 +357,9 @@ id = "bf-store-listings"
 question = "Store status of Battlefield 3 and Hardline digital listings (informational, owned on disc)"
 area = "xbox"
 kind = "research"
+status = "decided"
+decided = "2026-09-28"
+outcome = "Battlefield 3 (Xbox 360): delisted, pulled with the Xbox 360 Marketplace closure 14 Aug 2024. Battlefield Hardline (Xbox One): delisted 22 May 2026, servers shut down 22 Jun 2026. Both single-player still playable if owned on disc."
 
 [[decision]]
 id = "killer-instinct-edition"
@@ -364,6 +368,7 @@ area = "xbox"
 kind = "research"
 
 # ---------------------------------------------------------------- research / verification
+context = "Two distinct Xbox One retail discs exist: \"Combo Breaker Pack\" (Season 1 cast + TJ Combo code) and \"Killer Instinct: Definitive Edition\" (all 26 characters/Seasons 1-3 + Killer Instinct Classic 1&2). The tracker already assumes \"Definitive Edition\" — worth physically checking the owned disc, since Combo Breaker Pack is the more common/cheaper retail find (checked 2026-09-28)."
 [[decision]]
 id = "verify-marked"
 question = "Verify all targets / series entries marked ❓"

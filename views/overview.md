@@ -33,13 +33,13 @@ _Updated 2026-09-28._
 
 ## Buy plan
 
-⬜ 412 open · 🕒 2 ordered · ✅ 72 done — see [gaps.md](gaps.md)
+⬜ 416 open · 🕒 2 ordered · ✅ 72 done — see [gaps.md](gaps.md)
 
 ## Series
 
 | Series | Physical | 💻 Steam only |
 |---|---|---|
-| God of War | 3/8 | 1 |
+| God of War | 3/11 | 1 |
 | Uncharted | 5/5 ✅ |  |
 | The Last of Us | 2/2 ✅ |  |
 | Ratchet & Clank | 4/10 |  |
@@ -47,7 +47,7 @@ _Updated 2026-09-28._
 | Killzone | 3/4 |  |
 | inFamous | 0/4 |  |
 | Marvel's Spider-Man (Insomniac) | 2/3 |  |
-| Horizon | 2/2 ✅ |  |
+| Horizon | 2/3 |  |
 | Ghost of … | 2/2 ✅ |  |
 | Sly Cooper | 3/4 |  |
 | Jak and Daxter | 3/3 ✅ |  |
@@ -57,7 +57,7 @@ _Updated 2026-09-28._
 | Death Stranding | 1/2 | 1 |
 | Quantic Dream (PlayStation) | 1/3 |  |
 | FromSoftware Souls | 2/7 | 1 |
-| Resident Evil | 9/11 |  |
+| Resident Evil | 9/12 |  |
 | Silent Hill | 1/10 |  |
 | Metal Gear | 7/9 | 2 |
 | Final Fantasy | 12/20 | 3 |
@@ -80,7 +80,7 @@ _Updated 2026-09-28._
 | Red Dead | 1/2 | 1 |
 | Grand Theft Auto | 2/6 |  |
 | Senran Kagura | 0/2 |  |
-| Harry Potter | 8/9 | 1 |
+| Harry Potter | 8/10 | 1 |
 | Call of Duty | 22/23 |  |
 | Battlefield | 10/10 ✅ |  |
 | Halo | 10/11 |  |

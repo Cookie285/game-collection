@@ -51,6 +51,19 @@ aliases = ["God of War: Ragnarök"]
 year = 2022
 note = "Owned (PS5)"
 
+[[series.entry]]
+title = "God of War: Laufey"
+note = "Faye-led narrative game; Santa Monica Studio; in development, announced Feb 2026 State of Play (checked 2026-09-28)"
+
+[[series.entry]]
+title = "God of War: Sons of Sparta"
+year = 2026
+note = "2D platformer, Mega Cat Studios; released 12 Feb 2026 alongside the Laufey reveal (checked 2026-09-28)"
+
+[[series.entry]]
+title = "God of War Trilogy Remake"
+note = "Remakes of the Greek-era trilogy (GoW I–III); announced Feb 2026 State of Play, no date yet (checked 2026-09-28)"
+
 [[series]]
 platforms = ["playstation"]
 name = "Uncharted"
@@ -323,6 +336,10 @@ title = "Horizon Call of the Mountain"
 year = 2023
 optional = true
 note = "Needs PS VR2 – skipped"
+
+[[series.entry]]
+title = "Horizon Hunters Gathering"
+note = "Multiplayer spinoff; officially announced 2026 by Guerrilla Games; no date yet (checked 2026-09-28)"
 
 [[series]]
 platforms = ["playstation"]
@@ -612,6 +629,11 @@ title = "Resident Evil: Operation Raccoon City"
 year = 2012
 optional = true
 note = "Spin-off; owned (PS3)"
+
+[[series.entry]]
+title = "Resident Evil – Code: Veronica (2027 remake)"
+year = 2027
+note = "Remake confirmed by Capcom for 2027 (checked 2026-09-28)"
 
 [[series]]
 platforms = ["playstation"]
@@ -1758,6 +1780,12 @@ optional = true
 note = "Vita – not playable"
 verify = "not on the checklist"
 
+[[series.entry]]
+title = "Shinobi Nexus: Senran Kagura"
+year = 2026
+optional = true
+note = "Free-to-play mobile/PC spinoff, announced 2026 — not a physical collecting target (checked 2026-09-28)"
+
 [[series]]
 platforms = ["playstation"]
 name = "Harry Potter"
@@ -1829,3 +1857,7 @@ aliases = ["LEGO Harry Potter Collection"]
 year = 2011
 optional = true
 note = "Owned via LEGO HP Collection (Xbox One)"
+
+[[series.entry]]
+title = "Hogwarts Legacy 2"
+note = "Confirmed in development by WB Games (Aug 2026 earnings call); expected Spring/Summer 2027 (checked 2026-09-28)"

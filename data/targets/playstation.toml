@@ -50,7 +50,7 @@ priority = "high"
 group = "PS5 gaps – Multiplatform"
 plan = "PS5 disc; new or used, only at a really good price"
 state = "undecided"
-note = "owned on Steam (Tales of ARISE) – only if very cheap, new or used · Decision: Switch = Switch 2 Game-Key Card incl. Beyond the Dawn; PS = PS5 disc (DLC separate); suggestion: Your call – Switch 2 includes the DLC; PS5 gives you a real disc. · Missing modern Tales entry. · Other versions: Switch 2 Beyond the Dawn Ed. (May 2026) = Game-Key Card · Check if a PS5 'Beyond the Dawn' disc edition exists; else DLC digital · Decide: Switch 2 GKC (incl. DLC) vs PS5 disc"
+note = "owned on Steam (Tales of ARISE) – only if very cheap, new or used · Decision: Switch = Switch 2 Game-Key Card incl. Beyond the Dawn; PS = PS5 disc (DLC separate); suggestion: Your call – Switch 2 includes the DLC; PS5 gives you a real disc. · Missing modern Tales entry. · Other versions: Switch 2 Beyond the Dawn Ed. (May 2026) = Game-Key Card · Check if a PS5 'Beyond the Dawn' disc edition exists; else DLC digital · Decide: Switch 2 GKC (incl. DLC) vs PS5 disc · No separate PS5 'Beyond the Dawn' disc edition found — DLC still separate on PS5 (checked 2026-09-28)"
 
 [[target]]
 title = "Clair Obscur: Expedition 33"
@@ -120,7 +120,7 @@ priority = "high"
 group = "PS5 gaps – Multiplatform"
 plan = "PS5 disc; new or used, only at a really good price"
 state = "undecided"
-note = "owned on Steam (Hogwarts Legacy) – only if very cheap, new or used · Decision: Switch = Switch 1 cart (weak port); Switch 2 Game-Key Card; PS = PS5 disc; suggestion: PS5 – Rule says Switch 1 cart, but it's the weakest version by far; this is a Harry Potter collection piece. · You collect the Harry Potter games (PS1–PS3). · Other versions: Switch 1 has a cart (weak port); Switch 2 = Game-Key Card · Rule says Switch 1 cart; quality says PS5"
+note = "owned on Steam (Hogwarts Legacy) – only if very cheap, new or used · Decision: Switch = Switch 1 cart (weak port); Switch 2 Game-Key Card; PS = PS5 disc; suggestion: PS5 – Rule says Switch 1 cart, but it's the weakest version by far; this is a Harry Potter collection piece. · You collect the Harry Potter games (PS1–PS3). · Other versions: Switch 1 has a cart (weak port); Switch 2 = Game-Key Card · Rule says Switch 1 cart; quality says PS5 · Confirmed: no new PS5/Switch news beyond current note (checked 2026-09-28)"
 
 [[target]]
 title = "Monster Hunter Wilds"
@@ -623,7 +623,7 @@ platforms = ["PlayStation 4"]
 priority = "high"
 group = "PS4 gaps – Multiplatform"
 plan = "PS4 disc; used preferred (price limit not set yet)"
-note = "Mainline FF not on Switch. · Other versions: Switch 2 port only 'under consideration'"
+note = "Mainline FF not on Switch. · Other versions: Switch 2 port only 'under consideration' · Square Enix (Jul 2026 shareholder meeting): a Switch 2 port is 'not entirely impossible' citing hardware constraints, but no commitment (checked 2026-09-28)"
 
 [[target]]
 title = "Final Fantasy Type-0 HD"
@@ -2315,3 +2315,35 @@ priority = "low"
 group = "PS5 gaps – Multiplatform"
 state = "watching"
 note = "Suggested (review 2026-09-28): late 2027 on PS5, Xbox Series, Switch 2, PC. Decide once the Switch 2 format (cart vs Game-Key Card) is known."
+
+[[target]]
+title = "Hogwarts Legacy 2"
+platforms = ["PlayStation 5"]
+priority = "low"
+group = "PS5 gaps – Multiplatform"
+state = "watching"
+note = "Suggested (review 2026-09-28): confirmed in development by WB Games (Aug 2026 earnings call); expected Spring/Summer 2027; other platforms and physical format not yet announced. You collect the Harry Potter games."
+
+[[target]]
+title = "Resident Evil – Code: Veronica (2027 remake)"
+platforms = ["PlayStation 5"]
+priority = "low"
+group = "PS5 gaps – Multiplatform"
+state = "watching"
+note = "Suggested (review 2026-09-28): remake confirmed by Capcom for 2027; other platforms and physical format not yet announced. Tracked RE series."
+
+[[target]]
+title = "God of War: Laufey"
+platforms = ["PlayStation 5"]
+priority = "low"
+group = "PS5 gaps – Multiplatform"
+state = "watching"
+note = "Suggested (review 2026-09-28): Faye-led narrative entry, Santa Monica Studio; announced Feb 2026 State of Play, no release date yet."
+
+[[target]]
+title = "God of War Trilogy Remake"
+platforms = ["PlayStation 5"]
+priority = "low"
+group = "PS5 gaps – Multiplatform"
+state = "watching"
+note = "Suggested (review 2026-09-28): remakes of the Greek-era trilogy (GoW I–III); announced Feb 2026 State of Play, no date yet."

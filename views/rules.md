@@ -570,7 +570,7 @@ Single-player focus — multiplayer-only / online-focused games are skipped; dea
 
 _Precedents:_ Destiny, Overwatch, Crash Team Rumble skipped · no Guitar Hero / Skylanders
 
-22 targets — ⬜ 10 · 🕒 0 · ✅ 4 · ➖ 8
+23 targets — ⬜ 10 · 🕒 0 · ✅ 5 · ➖ 8
 
 <details><summary>10 open</summary>
 
@@ -830,9 +830,9 @@ _Precedents:_ Pragmata, Onimusha: Way of the Sword, Full Metal Schoolgirl → PS
 
 PlayStation gets exclusives plus multiplatform games worth having on disc.
 
-194 targets — ⬜ 193 · 🕒 1 · ✅ 0 · ➖ 0
+198 targets — ⬜ 197 · 🕒 1 · ✅ 0 · ➖ 0
 
-<details><summary>193 open</summary>
+<details><summary>197 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -893,7 +893,9 @@ PlayStation gets exclusives plus multiplatform games worth having on disc.
 | Forspoken | PlayStation 5 | low |  |
 | God of War | PlayStation 4 | high |  |
 | God of War Collection | PlayStation 3 | high |  |
+| God of War: Laufey | PlayStation 5 | low | watching |
 | God of War: Origins Collection | PlayStation 3 | high |  |
+| God of War Trilogy Remake | PlayStation 5 | low | watching |
 | Gran Turismo 6 | PlayStation 3 | low |  |
 | Grand Theft Auto VI | PlayStation 5 | high | watching |
 | Gravity Rush 2 | PlayStation 4 | high |  |
@@ -904,6 +906,7 @@ PlayStation gets exclusives plus multiplatform games worth having on disc.
 | Haunting Ground | PlayStation 2 | low |  |
 | Heavy Rain & Beyond: Two Souls Collection | PlayStation 4 | medium |  |
 | Hogwarts Legacy | PlayStation 5, Nintendo Switch | high | undecided |
+| Hogwarts Legacy 2 | PlayStation 5 | low | watching |
 | ICO & Shadow of the Colossus Collection | PlayStation 3 | high |  |
 | inFamous | PlayStation 3 | high |  |
 | inFamous 2 | PlayStation 3 | high |  |
@@ -960,6 +963,7 @@ PlayStation gets exclusives plus multiplatform games worth having on disc.
 | Ratchet & Clank: Into the Nexus | PlayStation 3 | medium |  |
 | Ratchet: Gladiator | PlayStation 2 | low |  |
 | Red Dead Redemption 2 | PlayStation 4 | high |  |
+| Resident Evil – Code: Veronica (2027 remake) | PlayStation 5 | low | watching |
 | Resident Evil Requiem | PlayStation 5 | high |  |
 | Resident Evil Revelations | PlayStation 4 | low |  |
 | Resistance 3 | PlayStation 3 | high |  |
@@ -1349,9 +1353,9 @@ Xbox 360 / OG Xbox backward-compatible titles are bought digitally in Xbox Store
 
 _Why:_ No key sellers for 360 titles; digital BC licences likely outlive discs.
 
-100 targets — ⬜ 38 · 🕒 0 · ✅ 43 · ➖ 19
+101 targets — ⬜ 39 · 🕒 0 · ✅ 43 · ➖ 19
 
-<details><summary>38 open</summary>
+<details><summary>39 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -1390,6 +1394,7 @@ _Why:_ No key sellers for 360 titles; digital BC licences likely outlive discs.
 | Spec Ops: The Line | Xbox 360 | high |  |
 | Split/Second | Xbox 360 | medium |  |
 | Too Human | Xbox 360 | someday |  |
+| Transformers: Devastation | Xbox One | low |  |
 | Transformers: Fall of Cybertron | Xbox 360 | someday | undecided |
 | Transformers: War for Cybertron | Xbox 360 | someday | undecided |
 | Vanquish | Xbox 360 | someday |  |

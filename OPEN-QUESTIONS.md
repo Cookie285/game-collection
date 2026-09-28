@@ -43,7 +43,7 @@ Generated from [`data/decisions.toml`](data/decisions.toml) — edit there (opti
 - [ ] **Blur: buy the 360 disc for current-hardware playability, or drop it?** — Owned on PS3; delisted — the 360 disc is the only way on Xbox.
 - [ ] **State of Decay 3: still buy on Xbox under the series rule?** — options: Xbox (keep the series together) / Normal platform rules
 
-## Research / verify (10)
+## Research / verify (9)
 
 - [ ] **Verify all targets / series entries marked ❓** — E.g. EU disc releases of Quest for Booty, inFamous First Light, Castlevania Requiem, Lost Soul Aside, Kunitsu-Gami; whether Trails of Cold Steel I/II, Visions of Mana, One Piece Odyssey ever got a Switch cart; Code Vein II details; PAL releases of Wild ARMs 4/5, Atelier Iris 1–3, Magna Carta; Mafia: Trilogy disc contents.
 
@@ -51,12 +51,11 @@ Generated from [`data/decisions.toml`](data/decisions.toml) — edit there (opti
 
 - [ ] **Hellblade II: does the EU Xbox box contain a real disc or only a code?** — If it's code-in-box → treat like Avowed. · Amazon.de lists it only as a download code; no EU disc found yet (checked 2026-09-28)
 - [ ] **Halo: The Master Chief Collection — was a PS5 version announced?** — Affects the “Xbox-exclusive” status only; already owned. · Not announced (checked 2026-09-28)
-- [ ] **Disc-to-Digital: general availability date; re-test Forza discs; test more discs** — Re-test FM5/6/7, FH3/4 after GA; test Doom Eternal, Titanfall 2, Dead Rising 4, Killer Instinct (KI Classic sub-licences), Halo Wars 2 (bundled Halo Wars: DE?). · Still an Insider rollout that keeps widening (Sep 2026); general availability only “in the coming months” (checked 2026-09-28)
-- [ ] **Disc-to-Digital edge cases: lending, second account on the same console, offline, account recovery, family sharing**
-- [ ] **360/OG store status (disc if delisted, digital if listed)** — Fable III, Split/Second, Otogi 1/2, Earth Defense Force 2017.
-- [ ] **Backward-compatibility status of a few 360 / OG titles** — Battlefield 2: Modern Combat (360), Transformers: War for Cybertron / Fall of Cybertron, Medal of Honor: Warfighter, Far Cry OG/360 entries.
-- [ ] **Store status of Battlefield 3 and Hardline digital listings (informational, owned on disc)**
-- [ ] **Killer Instinct: which disc edition is owned (Definitive Edition?)**
+- [ ] **Disc-to-Digital: general availability date; re-test Forza discs; test more discs** — Re-test FM5/6/7, FH3/4 after GA; test Doom Eternal, Titanfall 2, Dead Rising 4, Killer Instinct (KI Classic sub-licences), Halo Wars 2 (bundled Halo Wars: DE?). · Still an Insider rollout that keeps widening (Sep 2026); general availability only “in the coming months” (checked 2026-09-28) · Late Sep 2026: rolled out to more Delta/Omega ring testers, 3 more supported games added (Split Fiction, A Way Out, It Takes Two); still no committed GA date. 8 Xbox titles delisted/scheduled Aug–Sep 2026 (incl. Xbox 360 Toy Story 3, tied to a new Complete Edition launching 15 Oct 2026); separately several previously-delisted Xbox 360 titles briefly reappeared on the store, a possible sign of a BC revival pledged by Xbox VP Jason Ronald at GDC 2026 for Xbox's 25th anniversary (checked 2026-09-28).
+- [ ] **Disc-to-Digital edge cases: lending, second account on the same console, offline, account recovery, family sharing** — Lending: license follows the disc, not the original claimant — if account A claims digitally then lends the disc to account B, B can claim it too and A loses disc-based access. Family/shared-console members get access via the sharing account like any digital title. Nothing found yet on offline behaviour or account-recovery edge cases. Program still Insider-only (started 31 Aug 2026); official docs may still change before GA (checked 2026-09-28).
+- [ ] **360/OG store status (disc if delisted, digital if listed)** — Fable III, Split/Second, Otogi 1/2, Earth Defense Force 2017. · Otogi: Myth of Demons / Otogi 2: Immortal Warriors confirmed BC (Xbox One/Series X|S, added Nov 2021) and still purchasable digitally today — not delisted. Fable III / Split/Second / EDF 2017 not checked yet (checked 2026-09-28).
+- [ ] **Backward-compatibility status of a few 360 / OG titles** — Battlefield 2: Modern Combat (360), Transformers: War for Cybertron / Fall of Cybertron, Medal of Honor: Warfighter, Far Cry OG/360 entries. · Side finding: Transformers: Fall of Cybertron and Rise of the Dark Spark are also confirmed BC and delisted (same source as the Devastation D2D finding). The rest of this list not checked yet (checked 2026-09-28).
+- [ ] **Killer Instinct: which disc edition is owned (Definitive Edition?)** — Two distinct Xbox One retail discs exist: "Combo Breaker Pack" (Season 1 cast + TJ Combo code) and "Killer Instinct: Definitive Edition" (all 26 characters/Seasons 1-3 + Killer Instinct Classic 1&2). The tracker already assumes "Definitive Edition" — worth physically checking the owned disc, since Combo Breaker Pack is the more common/cheaper retail find (checked 2026-09-28).
 
 ## CLZ data fixes (5)
 
@@ -66,8 +65,9 @@ Generated from [`data/decisions.toml`](data/decisions.toml) — edit there (opti
 - [ ] **KOTOR II listed twice on Switch (two spellings)**
 - [ ] **“Tales Of Xillia” casing**
 
-## Decision log (6)
+## Decision log (7)
 
+- ✅ 2026-09-28 — **Store status of Battlefield 3 and Hardline digital listings (informational, owned on disc)** → Battlefield 3 (Xbox 360): delisted, pulled with the Xbox 360 Marketplace closure 14 Aug 2024. Battlefield Hardline (Xbox One): delisted 22 May 2026, servers shut down 22 Jun 2026. Both single-player still playable if owned on disc.
 - ✅ 2026-09-28 — **Fable: release date** → 23 Feb 2027 on PS5, Xbox Series and PC (delayed from autumn 2026)
 - ✅ earlier — **Non-JRPGs whose Switch 2 version is a Game-Key Card: Switch 2 or PS5?** → PS5 disc — Pragmata, Onimusha: Way of the Sword, Full Metal Schoolgirl. Became the rule “Game-Key Card ≠ physical”.
 - ✅ earlier — **JRPGs only available as Switch 2 Game-Key Card?** → Case by case — Bravely Default HD Remaster, Brigandine Abyss, Granblue Fantasy: Relink bought as Game-Key Card.
