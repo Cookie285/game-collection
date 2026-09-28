@@ -1262,7 +1262,7 @@ IGDB_PLATFORMS = {  # canonical platform → IGDB platform id (only used to rank
 }
 IMAGE_ID_RX = re.compile(r"^[a-z0-9]{2,32}$")  # IGDB image ids; anything else is rejected (no injection into URLs)
 COVER_RETRY_DAYS = 90
-COVER_CACHE_VERSION = 2  # bump to re-check every cached miss (v1 misses came from the broken multiquery lookup)
+COVER_CACHE_VERSION = 3  # bump to re-check every cached title (v3: stricter matching, no DLC / sequels)
 
 
 def cover_key(title: str, platform: str = "") -> str:
@@ -1297,22 +1297,58 @@ def cover_for(title: str, platform: str, covers: dict, overrides: dict) -> str |
     return hit.get("image") if hit else None
 
 
+ROMAN = {"ii": "2", "iii": "3", "iv": "4", "v": "5", "vi": "6", "vii": "7", "viii": "8", "ix": "9", "x": "10",
+         "xi": "11", "xii": "12", "xiii": "13", "xiv": "14", "xv": "15", "xvi": "16"}
+EDITION_WORDS = {"the", "edition", "remastered", "remaster", "definitive", "complete", "goty", "game", "of", "year", "hd",
+                 "deluxe", "ultimate", "collectors", "collector", "s", "standard", "launch", "day", "one", "for",
+                 "bundle", "pack", "enhanced", "director", "cut", "anniversary"}  # never numbers: "2" is a sequel
+PLATFORM_SUFFIX_RX = re.compile(r"\b(nintendo )?switch 2 edition\b|\bfor nintendo switch( 2)?\b|\bnintendo switch 2\b")
+# IGDB game types that are never "the game on the shelf": DLC, expansion, mod, episode, season, pack, update
+NOT_A_GAME_TYPES = {1, 2, 5, 6, 7, 13, 14}
+NOT_A_GAME_RX = re.compile(r"\b(skin|costume|outfit|soundtrack|bonus content|dlc|season pass|persona set|avatar|"
+                           r"wallpaper|artbook|art book|demo|beta|trial|upgrade pack|character pack|expansion pass)\b", re.I)
+
+
+def title_words(s: str) -> list[str]:
+    """norm() without platform suffixes, Roman numerals as digits: "Alan Wake II" == "Alan Wake 2"."""
+    return [ROMAN.get(w, w) for w in PLATFORM_SUFFIX_RX.sub(" ", norm(s)).split()]
+
+
 def rank_candidates(title: str, platform: str, candidates: list[dict]) -> tuple[dict | None, int]:
-    """Pick the IGDB result that best matches a CLZ title + platform. Score ≥ 3 is accepted."""
-    want, pid = norm(title), IGDB_PLATFORMS.get(platform)
-    strip = lambda s: re.sub(r"\b(the|edition|remastered|definitive|complete|goty|game of the year|hd)\b", "", s).split()
-    best, best_score = None, 0
+    """Pick the IGDB result that best matches a CLZ title + platform.
+    Name score: 5 identical · 4 identical after numerals / edition words · 3 same words plus only edition words ·
+    2 starts the same (not a sequel number) — accepted only on the right platform. +2 when the platform matches.
+    DLC, skins, soundtracks etc. are never picked."""
+    want, pid = title_words(title), IGDB_PLATFORMS.get(platform)
+    core = lambda ws: [w for w in ws if w not in EDITION_WORDS]
+    best, best_score, best_base = None, 0, 0
     for c in candidates:
         if not (c.get("cover") or {}).get("image_id"):
             continue
-        name = norm(c.get("name", ""))
-        score = 4 if name == want else 3 if strip(name) == strip(want) else \
-            1 if (name.startswith(want) or want.startswith(name)) else 0
-        if pid and pid in (c.get("platforms") or []):
-            score += 2
+        if c.get("game_type") in NOT_A_GAME_TYPES or c.get("category") in NOT_A_GAME_TYPES:
+            continue
+        cname = c.get("name", "")
+        if NOT_A_GAME_RX.search(cname) and not NOT_A_GAME_RX.search(title):
+            continue
+        have = title_words(cname)
+        if norm(cname) == norm(title) or have == want:
+            base = 5
+        elif core(have) and core(have) == core(want):
+            base = 4
+        elif set(want) <= set(have) and set(have) - set(want) <= EDITION_WORDS:
+            base = 3
+        elif (have[:len(want)] == want and len(have) > len(want) and not have[len(want)].isdigit()) or \
+                (want[:len(have)] == have and len(want) > len(have) and not want[len(have)].isdigit()):
+            base = 2
+        else:
+            continue
+        on_platform = bool(pid and pid in (c.get("platforms") or []))
+        if base == 2 and not on_platform:
+            continue
+        score = base + (2 if on_platform else 0)
         if score > best_score:
-            best, best_score = c, score
-    return (best, best_score) if best_score >= 3 else (None, best_score)
+            best, best_score, best_base = c, score, base
+    return (best, best_score) if best else (None, 0)
 
 
 def igdb_request(url: str, body: str, headers: dict) -> list:
@@ -1355,9 +1391,9 @@ def cmd_covers(args) -> None:
         if k in overrides or cover_key(title) in overrides:
             continue
         c = covers.get(k)
-        fresh = c and c.get("v") == COVER_CACHE_VERSION and \
-            (today - dt.date.fromisoformat(c.get("checked", "2000-01-01"))).days < COVER_RETRY_DAYS
-        if c and (c.get("image") or fresh):
+        current = c and c.get("v") == COVER_CACHE_VERSION  # older versions are re-checked, hits included
+        fresh = current and (today - dt.date.fromisoformat(c.get("checked", "2000-01-01"))).days < COVER_RETRY_DAYS
+        if current and (c.get("image") or fresh):
             continue
         todo.append((k, title, plat))
     todo = todo[: args.limit] if args.limit else todo
@@ -1367,7 +1403,7 @@ def cmd_covers(args) -> None:
     esc_q = lambda s: re.sub(r'[\\"]', " ", s)
 
     def search(q: str) -> list:
-        body = f'search "{esc_q(q)}"; fields name,cover.image_id,platforms; limit 10;'
+        body = f'search "{esc_q(q)}"; fields name,cover.image_id,platforms,game_type,category; limit 20;'
         for attempt in range(4):
             try:
                 time.sleep(0.28)
@@ -1380,7 +1416,7 @@ def cmd_covers(args) -> None:
         return []
 
     def simpler(title: str) -> str:  # "Game: Subtitle (Remastered)" → "Game Subtitle" for a second try
-        t = re.sub(r"\(.*?\)|\[.*?\]", " ", title)
+        t = re.sub(r"\(.*?\)|\[.*?\]|[-–:]?\s*(Nintendo Switch 2 Edition|for Nintendo Switch)\b", " ", title)
         t = re.sub(r"\b(remastered|remaster|definitive|complete|deluxe|game of the year|goty|hd|edition|collection)\b",
                    " ", t, flags=re.I)
         return re.sub(r"[^\w' ]+", " ", t).strip()
