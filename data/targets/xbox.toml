@@ -710,6 +710,8 @@ note = "Xbox Store: Digital (Xbox Store); A – first-party, no modern version; 
 
 [[target]]
 title = "Gears of War 2"
+rules = ["xbox-first-party-scope"]
+not_rules = ["bc-digital-unless-delisted"]  # RULES.md: on disc for Gears shelf consistency
 platforms = ["Xbox 360"]
 priority = "medium"
 group = "Xbox 360 BC"
@@ -718,6 +720,8 @@ note = "Xbox Store: Digital (Xbox Store); A – first-party, no modern version; 
 
 [[target]]
 title = "Gears of War 3"
+rules = ["xbox-first-party-scope"]
+not_rules = ["bc-digital-unless-delisted"]  # RULES.md: on disc for Gears shelf consistency
 platforms = ["Xbox 360"]
 priority = "medium"
 group = "Xbox 360 BC"
@@ -726,6 +730,8 @@ note = "Xbox Store: Digital (Xbox Store); A – first-party, no modern version; 
 
 [[target]]
 title = "Gears of War: Judgment"
+rules = ["xbox-first-party-scope"]
+not_rules = ["bc-digital-unless-delisted"]  # RULES.md: on disc for Gears shelf consistency
 platforms = ["Xbox 360"]
 priority = "medium"
 group = "Xbox 360 BC"

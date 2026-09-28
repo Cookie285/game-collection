@@ -155,6 +155,13 @@ Python 3.11+ only, no packages to install.
   `alternatives` (text or `{ "Switch 2" = "Game-Key Card" }`), `facts = [...]` + `checked = "YYYY-MM-DD"`.
   Existing free-text notes are split into these parts automatically (decision · other versions · owned · condition ·
   facts · verify), dated facts show their age.
+- **Format matrix & rules check** — for every open target the web app works out which versions exist per platform
+  (from the plan, the notes — “Other versions: Switch 2 = Game-Key Card”, “No Xbox disc exists”, “owned on Steam” — and
+  the collection), runs the platform rules on it and shows where the rules would buy it, flagging plans that differ.
+  Add `versions = { "PlayStation 5" = "disc", "Nintendo Switch 2" = "gkc" }` (disc · cart · gkc · code · digital ·
+  steam · none) to state versions explicitly, `not_rules = ["id"]` to record a deliberate exception, and
+  `jrpg` / `shooter` / `msfp = true|false` to correct the engine's guesses. **Strategy → Where to buy?** runs the
+  same engine on any combination you enter.
 - **`data/series/*.toml`** — series checklists. Use `aliases` for compilations that cover an entry
   (e.g. *Modern Warfare Trilogy* covers CoD 4 / MW2 / MW3, *God of War Collection* covers GoW I + II).
   An entry whose note says "on Steam" shows as 💻 instead of ⬜.

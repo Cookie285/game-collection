@@ -1212,9 +1212,9 @@ Microsoft first-party on Xbox disc: layer 1 = published by Microsoft / Xbox Game
 
 _Why:_ Historical publisher counts — the Sep 2026 Xbox reset doesn't change scope.
 
-61 targets — ⬜ 26 · 🕒 1 · ✅ 33 · ➖ 1
+64 targets — ⬜ 29 · 🕒 1 · ✅ 33 · ➖ 1
 
-<details><summary>26 open</summary>
+<details><summary>29 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -1223,6 +1223,9 @@ _Why:_ Historical publisher counts — the Sep 2026 Xbox reset doesn't change sc
 | Doom: The Dark Ages | Xbox Series X\|S | low |  |
 | Fable | Xbox Series X\|S | low | watching |
 | Fallout 4 | Xbox One | someday |  |
+| Gears of War 2 | Xbox 360 | medium |  |
+| Gears of War 3 | Xbox 360 | medium |  |
+| Gears of War: Judgment | Xbox 360 | medium |  |
 | Gears of War: Reloaded | PlayStation 5 | someday | watching |
 | Grounded | Xbox Series X\|S | someday | watching |
 | Halo: Campaign Evolved | Xbox Series X\|S | medium | watching |
@@ -1336,9 +1339,9 @@ Xbox 360 / OG Xbox backward-compatible titles are bought digitally in Xbox Store
 
 _Why:_ No key sellers for 360 titles; digital BC licences likely outlive discs.
 
-103 targets — ⬜ 41 · 🕒 0 · ✅ 43 · ➖ 19
+100 targets — ⬜ 38 · 🕒 0 · ✅ 43 · ➖ 19
 
-<details><summary>41 open</summary>
+<details><summary>38 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -1360,9 +1363,6 @@ _Why:_ No key sellers for 360 titles; digital BC licences likely outlive discs.
 | Fable II | Xbox 360 | someday |  |
 | Fable III | Xbox 360 | medium |  |
 | Fuzion Frenzy | Xbox | someday |  |
-| Gears of War 2 | Xbox 360 | medium |  |
-| Gears of War 3 | Xbox 360 | medium |  |
-| Gears of War: Judgment | Xbox 360 | medium |  |
 | Jade Empire | Xbox | someday |  |
 | Lost Odyssey | Xbox 360 | someday |  |
 | Minecraft: Story Mode | Xbox One | low |  |
