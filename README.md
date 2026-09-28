@@ -218,8 +218,8 @@ Box art comes from [IGDB](https://www.igdb.com) — **switched off until two sec
 How it stays safe: the secrets only exist inside the *Covers* Action (never in the site, the repo or a PR from a
 fork); the Action stores only public IGDB image ids in `data/covers.json` (validated, so nothing can be injected);
 browsers load the images straight from `images.igdb.com`, and the page's Content-Security-Policy allows images only
-from there. Wrong or missing covers: `data/covers-overrides.toml`. Performance: the first run needs ~1 minute
-(10 titles per request), later runs only look up new titles; the site lazy-loads covers as you scroll and falls back
+from there. Wrong or missing covers: `data/covers-overrides.toml`. Performance: the first run needs ~6–8 minutes
+(one search per title, IGDB allows 4 requests / second), later runs only look up new titles; the site lazy-loads covers as you scroll and falls back
 to the drawn cards when an image is missing.
 
 ## Checks on pull requests

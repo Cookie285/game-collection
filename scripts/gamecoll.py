@@ -1262,6 +1262,7 @@ IGDB_PLATFORMS = {  # canonical platform → IGDB platform id (only used to rank
 }
 IMAGE_ID_RX = re.compile(r"^[a-z0-9]{2,32}$")  # IGDB image ids; anything else is rejected (no injection into URLs)
 COVER_RETRY_DAYS = 90
+COVER_CACHE_VERSION = 2  # bump to re-check every cached miss (v1 misses came from the broken multiquery lookup)
 
 
 def cover_key(title: str, platform: str = "") -> str:
@@ -1328,6 +1329,7 @@ def cmd_covers(args) -> None:
     import json
     import os
     import time
+    import urllib.error
     import urllib.parse
     cid, secret = os.environ.get("TWITCH_CLIENT_ID", ""), os.environ.get("TWITCH_CLIENT_SECRET", "")
     if not (cid and secret):
@@ -1353,32 +1355,63 @@ def cmd_covers(args) -> None:
         if k in overrides or cover_key(title) in overrides:
             continue
         c = covers.get(k)
-        if c and (c.get("image") or (today - dt.date.fromisoformat(c.get("checked", "2000-01-01"))).days < COVER_RETRY_DAYS):
+        fresh = c and c.get("v") == COVER_CACHE_VERSION and \
+            (today - dt.date.fromisoformat(c.get("checked", "2000-01-01"))).days < COVER_RETRY_DAYS
+        if c and (c.get("image") or fresh):
             continue
         todo.append((k, title, plat))
     todo = todo[: args.limit] if args.limit else todo
-    print(f"covers: {len(wanted)} titles, {len(todo)} to look up")
-    esc_q = lambda s: s.replace("\\", " ").replace('"', " ")
-    for i in range(0, len(todo), 10):  # multiquery: up to 10 searches per request, 4 requests / s allowed
-        batch = todo[i:i + 10]
-        body = "\n".join(f'query games "q{j}" {{ search "{esc_q(title)}"; fields name,cover.image_id,platforms; limit 8; }};'
-                         for j, (_, title, _) in enumerate(batch))
+    print(f"covers: {len(wanted)} titles, {len(todo)} to look up (~{len(todo) // 3 // 60 + 1} min)")
+    # One search per request: IGDB's multiquery endpoint ignores `fields` when `search` is used (returns ids only).
+    # Rate limit is 4 requests / second → ~3.5 / s with the pause below; 429 answers are retried with a back-off.
+    esc_q = lambda s: re.sub(r'[\\"]', " ", s)
+
+    def search(q: str) -> list:
+        body = f'search "{esc_q(q)}"; fields name,cover.image_id,platforms; limit 10;'
+        for attempt in range(4):
+            try:
+                time.sleep(0.28)
+                return igdb_request("https://api.igdb.com/v4/games", body, headers)
+            except urllib.error.HTTPError as e:
+                if e.code == 429 and attempt < 3:
+                    time.sleep(1.5 * (attempt + 1))
+                    continue
+                raise
+        return []
+
+    def simpler(title: str) -> str:  # "Game: Subtitle (Remastered)" → "Game Subtitle" for a second try
+        t = re.sub(r"\(.*?\)|\[.*?\]", " ", title)
+        t = re.sub(r"\b(remastered|remaster|definitive|complete|deluxe|game of the year|goty|hd|edition|collection)\b",
+                   " ", t, flags=re.I)
+        return re.sub(r"[^\w' ]+", " ", t).strip()
+
+    why = Counter()
+    for n, (k, title, plat) in enumerate(todo, 1):
         try:
-            res = igdb_request("https://api.igdb.com/v4/multiquery", body, headers)
-        except Exception as e:  # network / rate limit: keep what we have, try again next run
-            print(f"covers: request failed ({e}) — stopping, {i} done")
+            cands = search(title)
+            best, score = rank_candidates(title, plat, cands)
+            if not best and simpler(title) and simpler(title).lower() != title.lower():
+                more = search(simpler(title))
+                best, score = rank_candidates(title, plat, cands + more)
+                cands = cands + more
+        except Exception as e:  # network trouble: keep what we have, the next run continues
+            print(f"covers: request failed ({e}) — stopping after {n - 1}")
             break
-        by_name = {r.get("name"): r.get("result", []) for r in res}
-        for j, (k, title, plat) in enumerate(batch):
-            best, score = rank_candidates(title, plat, by_name.get(f"q{j}", []))
-            img = best["cover"]["image_id"] if best else None
-            covers[k] = {"title": title, "platform": plat, "image": img if img and IMAGE_ID_RX.match(img) else None,
-                         "igdb_id": best.get("id") if best else None, "name": best.get("name") if best else None,
-                         "score": score, "checked": today.isoformat()}
-        time.sleep(0.3)
+        img = best["cover"]["image_id"] if best else None
+        if not best:
+            why["no results" if not cands else "results without a cover" if not any((c.get("cover") or {}).get("image_id")
+                                                                                     for c in cands) else "names too different"] += 1
+        covers[k] = {"title": title, "platform": plat, "image": img if img and IMAGE_ID_RX.match(img) else None,
+                     "igdb_id": best.get("id") if best else None, "name": best.get("name") if best else None,
+                     "score": score, "checked": today.isoformat(), "v": COVER_CACHE_VERSION}
+        if n % 100 == 0:  # save progress so a failure later doesn't lose it
+            COVERS.write_text(json.dumps(dict(sorted(covers.items())), ensure_ascii=False, indent=0) + "\n", encoding="utf-8")
+            print(f"covers: {n}/{len(todo)} looked up")
     COVERS.write_text(json.dumps(dict(sorted(covers.items())), ensure_ascii=False, indent=0) + "\n", encoding="utf-8")
     found = sum(1 for k in wanted if covers.get(k, {}).get("image"))
-    print(f"covers: {found}/{len(wanted)} with a cover → {COVERS.relative_to(ROOT)}")
+    if why:
+        print("covers: not found — " + ", ".join(f"{v} {k}" for k, v in why.most_common()))
+    print(f"covers: {found}/{len(wanted)} with a cover → {COVERS.relative_to(ROOT) if COVERS.is_relative_to(ROOT) else COVERS}")
 
 
 # ---------------------------------------------------------------- buy-plan clean-up
