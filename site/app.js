@@ -118,10 +118,11 @@ function setParams(params) {
   const qs = params.toString();
   history.replaceState(null, "", `#/${route}${qs ? "?" + qs : ""}`);
 }
-const ROUTES = { "": pageDashboard, collection: pageCollection, plan: pagePlan, series: pageSeries, changelog: pageChangelog };
+const ROUTES = { "": pageDashboard, collection: pageCollection, plan: pagePlan, strategy: pageStrategy, series: pageSeries, changelog: pageChangelog };
 
 function route() {
   const { route, params } = parseHash();
+  if (modal.open) modal.close();
   const fn = ROUTES[route] || pageDashboard;
   $$("#tabs a").forEach((a) => a.classList.toggle("active", a.dataset.route === (ROUTES[route] ? route : "")));
   app.innerHTML = "";
@@ -148,6 +149,20 @@ function prepare(d) {
     s._n = norm(s.name + " " + s.entries.map((e) => e.title).join(" "));
   });
   d.targets.forEach((t) => (t.family = familyOfSpec(t.platforms)));
+  d.rules = d.rules || [];
+  d.rulesById = new Map(d.rules.map((r) => [r.id, r]));
+  d.rules.forEach((r, i) => {
+    r.idx = i;
+    r.targets = d.targets.filter((t) => (t.rules || []).includes(r.id));
+    r.entries = d.series.flatMap((s) => s.entries.filter((e) => (e.rules || []).includes(r.id)).map((e) => ({ s, e })));
+    r.seriesTagged = d.series.filter((s) => (s.rules || []).includes(r.id));
+    r.counts = { open: 0, ordered: 0, done: 0, skip: 0 };
+    r.targets.forEach((t) => r.counts[t.status]++);
+    r._n = norm([r.id, r.short, r.summary, r.rationale, ...(r.precedents || [])].join(" "));
+  });
+  // most specific rule first: a rule that decides few targets says more about this one than "gaps bought used"
+  const specific = (a, b) => d.rulesById.get(a).targets.length - d.rulesById.get(b).targets.length;
+  d.targets.forEach((t) => { t.rules = (t.rules || []).filter((id) => d.rulesById.has(id)).sort(specific); t._n += " " + norm(t.rules.join(" ")); });
   d.gamesByTitle = new Map();
   d.games.forEach((g) => {
     const k = norm(g.title);
@@ -391,7 +406,7 @@ function pagePlan(page, params) {
   const S = {
     q: params.get("q") || "", st: params.get("st") ?? "open", prio: params.get("prio") || "",
     state: params.get("state") || "", fam: params.get("fam") || "", group: params.get("group") || "",
-    by: params.get("by") || "prio",
+    by: params.get("by") || "prio", rule: params.get("rule") || "",
   };
   const groups = [...new Set(D.targets.map((t) => t.group || "Other"))].sort();
   const states = [...new Set(D.targets.map((t) => t.state).filter(Boolean))].sort();
@@ -409,11 +424,13 @@ function pagePlan(page, params) {
       <select id="fam" aria-label="Family"><option value="">All systems</option>${famKeys.map((f) => `<option value="${f}">${f === "other" ? "Mixed / any" : fam(f).label}</option>`).join("")}</select>
       <select id="state" aria-label="State"><option value="">Any state</option>${states.map((s) => `<option>${esc(s)}</option>`).join("")}</select>
       <select id="group" aria-label="Group"><option value="">All groups</option>${groups.map((g) => `<option>${esc(g)}</option>`).join("")}</select>
-      <select id="by" aria-label="Group by"><option value="prio">Group by priority</option><option value="group">Group by group</option><option value="none">No grouping</option></select>
+      <select id="rule" aria-label="Rule"><option value="">Any rule</option>${ruleOptions()}</select>
+      <select id="by" aria-label="Group by"><option value="prio">Group by priority</option><option value="group">Group by group</option><option value="rule">Group by rule</option><option value="none">No grouping</option></select>
       <span class="count" id="count"></span>
     </div>
+    <div id="ruleNote"></div>
     <div id="results"></div>`;
-  ["fam", "state", "group", "by"].forEach((k) => ($("#" + k, page).value = S[k]));
+  ["fam", "state", "group", "rule", "by"].forEach((k) => ($("#" + k, page).value = S[k]));
 
   const update = () => {
     const p = new URLSearchParams();
@@ -424,20 +441,24 @@ function pagePlan(page, params) {
     const q = norm(S.q);
     const list = D.targets.filter((t) => (!q || t._n.includes(q)) && (!S.st || t.status === S.st) &&
       (!S.prio || t.priority === S.prio) && (!S.state || t.state === S.state) && (!S.fam || t.family === S.fam) &&
-      (!S.group || (t.group || "Other") === S.group))
+      (!S.group || (t.group || "Other") === S.group) && (!S.rule || t.rules.includes(S.rule)))
       .sort((a, b) => (PRIORITY[a.priority]?.rank ?? 9) - (PRIORITY[b.priority]?.rank ?? 9) || a.title.localeCompare(b.title));
     $("#count", page).innerHTML = `<b>${list.length}</b> targets`;
+    const r = D.rulesById.get(S.rule);
+    $("#ruleNote", page).innerHTML = r ? `<div class="card rule-banner" data-rule="${esc(r.id)}" style="--c:${ruleColor(r)}">
+      <b>${esc(r.short)}</b>${r.status !== "adopted" ? " " + pill(r.status, "var(--warn)") : ""}<span>${esc(r.summary)}</span><span class="more-link">Rule details →</span></div>` : "";
     const res = $("#results", page);
     if (!list.length) { res.innerHTML = `<div class="card empty-state"><div class="big">🛒</div>Nothing matches.</div>`; return; }
     const buckets = new Map();
     list.forEach((t) => {
-      const k = S.by === "prio" ? t.priority : S.by === "group" ? t.group || "Other" : "";
-      if (!buckets.has(k)) buckets.set(k, []);
-      buckets.get(k).push(t);
+      const ks = S.by === "prio" ? [t.priority] : S.by === "group" ? [t.group || "Other"] : S.by === "rule" ? (t.rules.length ? t.rules : ["(no rule)"]) : [""];
+      ks.forEach((k) => { if (!buckets.has(k)) buckets.set(k, []); buckets.get(k).push(t); });
     });
     const keys = [...buckets.keys()];
     if (S.by === "group") keys.sort();
-    res.innerHTML = keys.map((k) => `${k ? `<div class="group-head">${esc(S.by === "prio" ? (PRIORITY[k]?.label || k) + " priority" : k)} · ${buckets.get(k).length}</div>` : ""}
+    if (S.by === "rule") keys.sort((a, b) => (D.rulesById.get(a)?.idx ?? 999) - (D.rulesById.get(b)?.idx ?? 999));
+    const head = (k) => S.by === "prio" ? (PRIORITY[k]?.label || k) + " priority" : S.by === "rule" ? D.rulesById.get(k)?.short || k : k;
+    res.innerHTML = keys.map((k) => `${k ? `<div class="group-head">${esc(head(k))} · ${buckets.get(k).length}</div>` : ""}
       <div class="targets">${buckets.get(k).map(targetHTML).join("")}</div>`).join("");
   };
 
@@ -445,7 +466,7 @@ function pagePlan(page, params) {
   $("#q", page).addEventListener("input", (e) => { S.q = e.target.value; update(); });
   $("#sts", page).addEventListener("click", (e) => { const c = e.target.closest(".chip"); if (c) { S.st = c.dataset.s; update(); } });
   $("#prios", page).addEventListener("click", (e) => { const c = e.target.closest(".chip"); if (c) { S.prio = S.prio === c.dataset.p ? "" : c.dataset.p; update(); } });
-  ["fam", "state", "group", "by"].forEach((k) => $("#" + k, page).addEventListener("change", (e) => { S[k] = e.target.value; update(); }));
+  ["fam", "state", "group", "rule", "by"].forEach((k) => $("#" + k, page).addEventListener("change", (e) => { S[k] = e.target.value; update(); }));
   update();
 }
 
@@ -460,6 +481,7 @@ function targetHTML(t) {
         ${t.state && t.status === "open" ? pill(t.state, "var(--accent-2)") : ""}
         ${t.elsewhere.length && t.status !== "done" ? pill("📀 owned on " + t.elsewhere.map(shortPlat).join(", "), "var(--good)") : ""}
         ${t.verify && t.status !== "done" ? pill("❓ verify", "var(--warn)") : ""}</div>
+      ${t.rules.length ? `<div class="row rules-row">${rulePills(t.rules, 3)}</div>` : ""}
       ${t.note ? `<div class="note">${esc(t.note)}</div>` : ""}</div>
     <div class="right">${right}${t.status === "open" ? `<div class="shops-inline">${shopChips(t.title, targetPlatforms(t)[0], t.plan)}</div>` : ""}</div></div>`;
 }
@@ -518,14 +540,209 @@ function shopBlock(title, platforms, plan) {
 }
 function bindTargets(root) {
   root.addEventListener("click", (e) => {
-    if (e.target.closest("a.shop")) return; // shop links open in a new tab, not the modal
+    if (e.target.closest("a[target=_blank], [data-rule]")) return; // external links / rule pills: not the target modal
     const t = e.target.closest("[data-target]"); if (t) openTarget(+t.dataset.target);
   });
   root.addEventListener("keydown", (e) => {
-    if (e.target.closest("a.shop")) return;
+    if (e.target.closest("a[target=_blank], [data-rule]")) return;
     const t = e.target.closest("[data-target]"); if (t && e.key === "Enter") openTarget(+t.dataset.target);
   });
 }
+
+/* ------------------------------------------------ rules & strategy */
+const RULE_STATUS = {
+  adopted: { label: "Adopted", color: "var(--good)" },
+  suggested: { label: "Suggested — not decided", color: "var(--warn)" },
+  retired: { label: "Retired", color: "var(--faint)" },
+};
+const RULE_SCOPES = [["all", "General"], ["nintendo", "Nintendo"], ["pc", "PC"], ["playstation", "PlayStation"], ["xbox", "Xbox"]];
+const FILE_FAMILY = { playstation: "playstation", xbox: "xbox" };
+const ruleColor = (r) => (r.platform === "all" ? "var(--accent)" : fam(r.platform).color);
+const scopeLabel = (p) => (RULE_SCOPES.find(([k]) => k === p) || [p, p])[1];
+
+function rulePills(ids, max = 99) {
+  const rs = ids.map((id) => D.rulesById.get(id)).filter(Boolean);
+  const shown = rs.slice(0, max).map((r) => `<button class="rule-pill${r.status !== "adopted" ? " tentative" : ""}" data-rule="${esc(r.id)}"
+    style="--c:${ruleColor(r)}" title="${esc(r.summary)}">${esc(r.short)}</button>`);
+  if (rs.length > max) shown.push(`<span class="rule-pill more">+${rs.length - max}</span>`);
+  return shown.join("");
+}
+function ruleOptions() {
+  return RULE_SCOPES.map(([k, label]) => {
+    const rs = D.rules.filter((r) => r.platform === k);
+    return rs.length ? `<optgroup label="${esc(label)}">${rs.map((r) => `<option value="${esc(r.id)}">${esc(r.short)} (${r.targets.length})</option>`).join("")}</optgroup>` : "";
+  }).join("");
+}
+function srcLinks(src, fallback) {
+  if (!src || !src.path) return fallback ? `<code>${esc(fallback)}</code>` : "";
+  if (!D.repo) return `<code>${esc(src.path)}:${src.line}</code>`;
+  return `<a class="src-link" href="${esc(D.repo)}/blob/main/${esc(src.path)}#L${src.line}" target="_blank" rel="noopener">📄 ${esc(src.path)}:${src.line}</a>
+    <a class="src-link" href="${esc(D.repo)}/edit/main/${esc(src.path)}" target="_blank" rel="noopener" title="Opens GitHub's editor — jump to line ${src.line}">✏️ Edit on GitHub</a>`;
+}
+function whyHTML(ids) {
+  const rs = ids.map((id) => D.rulesById.get(id)).filter(Boolean);
+  if (!rs.length) {
+    return `<div class="why empty">🧭 <b>No rule linked yet.</b> Add <code>rules = ["…"]</code> to this target, or a <code>match</code> pattern to a rule in <code>data/rules.toml</code>.</div>`;
+  }
+  return `<div class="why"><div class="why-head">🧭 Why this decision</div>${rs.map((r) => `
+    <button class="why-row" data-rule="${esc(r.id)}" style="--c:${ruleColor(r)}">
+      <span class="why-title">${esc(r.short)}${r.status !== "adopted" ? " " + pill("suggested", "var(--warn)") : ""}</span>
+      <span class="why-text">${esc(r.summary)}</span></button>`).join("")}</div>`;
+}
+function stackBar(c) {
+  const total = c.open + c.ordered + c.done + c.skip || 1;
+  return `<div class="stack">${["done", "ordered", "open", "skip"].map((k) => c[k] ? `<span style="width:${(c[k] / total) * 100}%;background:${TARGET_STATUS[k].color}" title="${TARGET_STATUS[k].label}: ${c[k]}"></span>` : "").join("")}</div>`;
+}
+function ruleCard(r) {
+  const n = r.targets.length, e = r.entries.length;
+  return `<button class="card rule-card${r.status !== "adopted" ? " tentative" : ""}" data-rule="${esc(r.id)}" style="--c:${ruleColor(r)}">
+    <div class="rule-top"><span class="rule-scope">${esc(scopeLabel(r.platform))}</span>${r.status !== "adopted" ? pill(RULE_STATUS[r.status]?.label || r.status, RULE_STATUS[r.status]?.color) : ""}</div>
+    <h3>${esc(r.short)}</h3><p>${esc(r.summary)}</p>
+    ${stackBar(r.counts)}
+    <div class="sub">${plural(n, "target")}${n ? ` · ⬜ ${r.counts.open} · ✅ ${r.counts.done} · ➖ ${r.counts.skip}` : ""}${e ? ` · ${plural(e, "series entry").replace("entrys", "entries")}` : ""}</div></button>`;
+}
+
+function conflicts() {
+  const byTitle = new Map();
+  D.targets.forEach((t) => { const k = norm(t.title); if (!byTitle.has(k)) byTitle.set(k, []); byTitle.get(k).push(t); });
+  const inBoth = [...byTitle.values()].filter((ts) => new Set(ts.map((t) => t.file)).size > 1);
+  const cross = D.targets.filter((t) => FILE_FAMILY[t.file] && t.family !== FILE_FAMILY[t.file] && t.status !== "skip");
+  const ownedElsewhere = D.targets.filter((t) => t.status === "open" && t.elsewhere.length && !/upgrade/i.test(t.group));
+  const tentative = D.targets.filter((t) => ["open", "ordered"].includes(t.status) && t.rules.some((id) => D.rulesById.get(id)?.status === "suggested"));
+  const split = D.series.filter((s) => new Set(s.entries.flatMap((e) => e.hits.filter((h) => HAVE.has(h.status)).map((h) => platFamily(h.platform)))).size > 1);
+  const undecided = D.targets.filter((t) => t.status === "open" && ["undecided", "watching"].includes(t.state));
+  const untagged = D.targets.filter((t) => !t.rules.length);
+  return { inBoth, cross, ownedElsewhere, tentative, split, undecided, untagged };
+}
+
+function pageStrategy(page, params) {
+  const S = { tab: params.get("tab") || "rules", scope: params.get("scope") || "", q: params.get("q") || "", status: params.get("status") || "", sort: params.get("sort") || "" };
+  const C = conflicts();
+  const nConf = C.inBoth.length + C.cross.length + C.ownedElsewhere.length + C.tentative.length + C.split.length + C.untagged.length;
+  page.innerHTML = `
+    <div class="page-head"><div><h1>Strategy</h1><p>The rules behind every buy-plan decision — from <code>data/rules.toml</code>. Click a rule to see what it decides.</p></div>
+      <div class="seg" id="tabs2"><button data-t="rules">📐 Rules</button><button data-t="path">🧭 Decision path</button><button data-t="conflicts">⚠️ Conflicts <span class="badge">${nConf}</span></button></div></div>
+    <div class="strategies">${(D.strategies || []).map((p) => {
+      const open = D.targets.filter((t) => t.family === p.id && t.status === "open").length;
+      const owned = D.games.filter((g) => g.family === p.id && HAVE.has(g.status)).length;
+      return `<div class="card strategy" data-scope="${esc(p.id)}" style="--c:${fam(p.id).color}">
+        <div class="strategy-head"><h3>${esc(p.name)}</h3><span class="sub">${owned} owned · ${open} to buy</span></div>
+        <p>${esc(p.role)}</p><div class="row rules-row">${rulePills(p.rules || [])}</div></div>`;
+    }).join("")}</div>
+    <div id="tabBody"></div>`;
+
+  const body = $("#tabBody", page);
+  const renderRules = () => {
+    body.innerHTML = `<div class="card toolbar">
+        <label class="search">⌕<input id="rq" type="search" placeholder="Search rules, rationale, precedents…" value="${esc(S.q)}"></label>
+        <div class="chips" id="scopes"><button class="chip" data-s="">All</button>${RULE_SCOPES.map(([k, l]) => `<button class="chip" data-s="${k}" style="--c:${k === "all" ? "var(--accent)" : fam(k).color}">${l}</button>`).join("")}</div>
+        <select id="rstatus" aria-label="Status"><option value="">Any status</option>${Object.entries(RULE_STATUS).map(([k, v]) => `<option value="${k}">${v.label}</option>`).join("")}</select>
+        <select id="rsort" aria-label="Sort"><option value="">Curated order</option><option value="targets">Most targets</option><option value="open">Most open</option></select>
+        <span class="count" id="rcount"></span></div><div class="rule-grid" id="rgrid"></div>`;
+    $("#rstatus", body).value = S.status;
+    $("#rsort", body).value = S.sort;
+    const upd = () => {
+      sync();
+      $$("#scopes .chip", body).forEach((c) => c.classList.toggle("on", c.dataset.s === S.scope));
+      const q = norm(S.q);
+      let rs = D.rules.filter((r) => (!q || r._n.includes(q)) && (!S.scope || r.platform === S.scope) && (!S.status || r.status === S.status));
+      if (S.sort === "targets") rs = [...rs].sort((a, b) => b.targets.length - a.targets.length);
+      if (S.sort === "open") rs = [...rs].sort((a, b) => b.counts.open - a.counts.open);
+      $("#rcount", body).innerHTML = `<b>${rs.length}</b> rules`;
+      $("#rgrid", body).innerHTML = rs.map(ruleCard).join("") || `<div class="card empty-state">No rules match.</div>`;
+    };
+    $("#rq", body).addEventListener("input", (e) => { S.q = e.target.value; upd(); });
+    $("#scopes", body).addEventListener("click", (e) => { const c = e.target.closest(".chip"); if (c) { S.scope = c.dataset.s; upd(); } });
+    $("#rstatus", body).addEventListener("change", (e) => { S.status = e.target.value; upd(); });
+    $("#rsort", body).addEventListener("change", (e) => { S.sort = e.target.value; upd(); });
+    upd();
+  };
+  const renderPath = () => {
+    sync();
+    body.innerHTML = `<p class="lead">The order of questions behind a platform / version decision. Each step links to the rules that answer it.</p>
+      <ol class="steps">${(D.steps || []).map((st, i) => `<li class="card step"><span class="step-n">${i + 1}</span>
+        <div><h3>${esc(st.question)}</h3><div class="row rules-row">${rulePills(st.rules || [])}</div></div></li>`).join("")}</ol>`;
+  };
+  const section = (title, why, count, inner, open = false) => `<details class="card conflict"${open ? " open" : ""}>
+    <summary><span class="c-title">${title}</span><span class="badge">${count}</span><span class="c-why">${why}</span></summary>
+    <div class="c-body">${inner || `<p class="lead">Nothing here 🎉</p>`}</div></details>`;
+  const renderConflicts = () => {
+    sync();
+    const crossBy = {};
+    C.cross.forEach((t) => { const k = `${fam(FILE_FAMILY[t.file]).label} plan → ${t.family === "other" ? "mixed / any" : fam(t.family).label}`; (crossBy[k] = crossBy[k] || []).push(t); });
+    const undecidedBy = {};
+    C.undecided.forEach((t) => (t.rules.length ? t.rules : ["(no rule)"]).forEach((id) => (undecidedBy[id] = (undecidedBy[id] || 0) + 1)));
+    body.innerHTML = [
+      section("🔀 In both platform plans", "The PlayStation and Xbox chats both planned the same game — check that the two decisions agree.", C.inBoth.length,
+        C.inBoth.map((ts) => `<div class="pair">${ts.map(targetHTML).join("")}</div>`).join(""), true),
+      section("↪️ Decided for another platform", "A platform plan sends the game somewhere else (e.g. PlayStation plan → Switch, Xbox plan → PS5). These are the cross-strategy calls.", C.cross.length,
+        Object.entries(crossBy).map(([k, ts]) => `<div class="group-head">${esc(k)} · ${ts.length}</div><div class="targets">${ts.map(targetHTML).join("")}</div>`).join("")),
+      section("📀 Open, but already owned elsewhere", "Tension with “one copy per game” — still wanted, although another version is on the shelf.", C.ownedElsewhere.length,
+        `<div class="targets">${C.ownedElsewhere.map(targetHTML).join("")}</div>`),
+      section("🤔 Depends on a rule that isn't decided", "Open targets whose reasoning relies on a suggested rule — decide the rule and these follow.", C.tentative.length,
+        `<div class="targets">${C.tentative.map(targetHTML).join("")}</div>`),
+      section("🧩 Series split across platforms", "Owned entries of one series sit on different platform families.", C.split.length,
+        `<div class="series-grid">${C.split.map(seriesCard).join("")}</div>`),
+      section("⏳ Waiting for a decision", "Open targets marked undecided / watching, by rule — open one to review it in the buy plan.", C.undecided.length,
+        `<div class="chips">${Object.entries(undecidedBy).sort((a, b) => b[1] - a[1]).map(([id, n]) => {
+          const r = D.rulesById.get(id);
+          return `<a class="chip" style="text-decoration:none;--c:${r ? ruleColor(r) : "var(--faint)"}" href="#/plan?state=undecided&rule=${encodeURIComponent(r ? id : "")}">${esc(r ? r.short : id)} · ${n}</a>`;
+        }).join("")}</div>`),
+      section("🏷️ No rule linked", "Targets the rules don't explain yet — add <code>rules = [\"…\"]</code> or a <code>match</code> pattern.", C.untagged.length,
+        `<div class="targets">${C.untagged.map(targetHTML).join("")}</div>`),
+    ].join("");
+  };
+  const sync = () => {
+    const p = new URLSearchParams();
+    Object.entries(S).forEach(([k, v]) => { if (v && !(k === "tab" && v === "rules")) p.set(k, v); });
+    setParams(p);
+    $$("#tabs2 button", page).forEach((b) => b.classList.toggle("on", b.dataset.t === S.tab));
+    $$(".strategy", page).forEach((c) => c.classList.toggle("on", S.tab === "rules" && c.dataset.scope === S.scope));
+  };
+  const show = () => (S.tab === "path" ? renderPath : S.tab === "conflicts" ? renderConflicts : renderRules)();
+  $("#tabs2", page).addEventListener("click", (e) => { const b = e.target.closest("button"); if (b) { S.tab = b.dataset.t; show(); } });
+  page.addEventListener("click", (e) => {
+    if (e.target.closest("[data-rule], a")) return;
+    const st = e.target.closest(".strategy");
+    if (st) { S.tab = "rules"; S.scope = S.scope === st.dataset.scope ? "" : st.dataset.scope; show(); return; }
+    const g = e.target.closest("[data-series]");
+    if (g) openSeries(+g.dataset.series);
+  });
+  bindTargets(page);
+  show();
+}
+
+function openRule(id) {
+  const r = D.rulesById.get(id);
+  if (!r) return;
+  const st = RULE_STATUS[r.status] || RULE_STATUS.adopted;
+  const byStatus = (k) => r.targets.filter((t) => t.status === k);
+  const list = (k, open) => {
+    const ts = byStatus(k);
+    if (!ts.length) return "";
+    const v = TARGET_STATUS[k];
+    const shown = ts.slice(0, 40);
+    return `<details class="rule-list"${open ? " open" : ""}><summary>${v.icon} ${v.label} · ${ts.length}</summary>
+      <div class="targets">${shown.map(targetHTML).join("")}</div>
+      ${ts.length > shown.length ? `<p><a href="#/plan?rule=${encodeURIComponent(r.id)}&st=${k}">All ${ts.length} in the buy plan →</a></p>` : ""}</details>`;
+  };
+  const entries = r.entries.length ? `<h3 class="mh">Series entries · ${r.entries.length}</h3><ul class="entries">${r.entries.slice(0, 30).map(({ s, e }) =>
+    `<li class="${e.status}"><span>${(ENTRY_STATUS[e.status] || ENTRY_STATUS.open).icon}</span><div><b>${esc(e.title)}</b><div class="note">${esc(s.name)}${e.note ? " · " + esc(e.note) : ""}</div></div><span class="yr">${esc(e.year)}</span></li>`).join("")}</ul>` : "";
+  const body = `<p class="rule-summary">${esc(r.summary)}</p>
+    ${r.rationale ? `<p><b>Why:</b> ${esc(r.rationale)}</p>` : ""}
+    ${(r.precedents || []).length ? `<h3 class="mh">Precedents</h3><ul class="precedents">${r.precedents.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}
+    <div class="rule-stats">${stackBar(r.counts)}<div class="sub">${plural(r.targets.length, "target")} · ⬜ ${r.counts.open} open · 🕒 ${r.counts.ordered} ordered · ✅ ${r.counts.done} done · ➖ ${r.counts.skip} skipped</div></div>
+    <div class="rule-actions"><a class="btn" href="#/plan?rule=${encodeURIComponent(r.id)}">Open ones in the buy plan →</a> ${srcLinks(r.src)}</div>
+    ${r.seriesTagged.length ? `<h3 class="mh">Series</h3><div class="series-grid">${r.seriesTagged.map(seriesCard).join("")}</div>` : ""}
+    ${r.targets.length ? `<h3 class="mh">Targets</h3>${list("open", true)}${list("ordered", true)}${list("done")}${list("skip")}` : ""}
+    ${entries}`;
+  showModal(`<div class="rule-ico" style="--c:${ruleColor(r)}">📐</div><div><h2>${esc(r.short)}</h2>
+    <div class="row">${pill(scopeLabel(r.platform), ruleColor(r))}${pill(st.label, st.color)}<code class="rule-id">${esc(r.id)}</code></div></div>`, body);
+}
+document.addEventListener("click", (e) => {
+  const r = e.target.closest("[data-rule]");
+  if (r && D) { e.preventDefault(); openRule(r.dataset.rule); }
+});
 
 /* ------------------------------------------------ series */
 function pageSeries(page, params) {
@@ -611,7 +828,7 @@ function showModal(head, body) {
 }
 modal.addEventListener("click", (e) => {
   if (e.target === modal) modal.close();
-  if (e.target.closest("a.shop")) return;
+  if (e.target.closest("a[target=_blank], [data-rule]")) return;
   const g = e.target.closest("[data-game]"), t = e.target.closest("[data-target]"), s = e.target.closest("[data-series]");
   if (g) openGame(+g.dataset.game); else if (t) openTarget(+t.dataset.target); else if (s) openSeries(+s.dataset.series);
 });
@@ -659,13 +876,13 @@ function openTarget(id) {
     ["Note", esc(t.note)], ["Verify", t.verify ? "❓ " + esc(t.verify) : ""],
     ["Owned on", t.hits.filter((h) => HAVE.has(h.status)).map((h) => platPill(h.platform)).join(" ")],
     ["Also owned", t.elsewhere.map(platPill).join(" ")],
-    ["Source", `<code>data/targets/${esc(t.file)}.toml</code>`],
+    ["Source", srcLinks(t.src, `data/targets/${t.file}.toml`)],
   ]);
   const rel = relatedFor(t.title);
   rel.targets = rel.targets.filter((x) => x.id !== t.id);
   const shops = t.status === "done" ? "" : shopBlock(t.title, targetPlatforms(t), t.plan);
   showModal(`<div style="font-size:40px;line-height:1">${st.icon}</div><div><h2>${esc(t.title)}</h2><div class="row">${pill(st.label, st.color)}</div></div>`,
-    body + shops + relatedHTML(rel));
+    whyHTML(t.rules) + body + shops + relatedHTML(rel));
 }
 
 function openSeries(id) {
@@ -685,8 +902,10 @@ function openSeries(id) {
         ${e.status === "open" ? `<div class="shops-inline">${shopChips(e.title, targetPlatforms({ platforms: s.platforms })[0], e.note)}</div>` : ""}</div>
         <span class="yr">${esc(e.year)}</span></li>`;
     }).join("")}</ul>`;
+  const head2 = `${(s.rules || []).length ? `<div class="row rules-row" style="margin-top:6px">${rulePills(s.rules)}</div>` : ""}
+    <div style="margin-top:8px;font-size:13px">${srcLinks(s.src)}</div>`;
   showModal(`${ring(s.have, s.need, color)}<div><h2>${esc(s.name)}</h2><div class="row">${pill(`${s.have}/${s.need} physical`, color)}
-    ${s.steam ? pill(`💻 ${s.steam} Steam`, "var(--pc)") : ""}${(s.platforms || []).map(platPill).join("")}</div></div>`, body);
+    ${s.steam ? pill(`💻 ${s.steam} Steam`, "var(--pc)") : ""}${(s.platforms || []).map(platPill).join("")}</div>${head2}</div>`, body);
 }
 
 /* ------------------------------------------------ command palette */
@@ -711,7 +930,9 @@ function renderPalette() {
     .map((s) => ({ kind: "series", id: s.id, label: s.name, sub: `${s.have}/${s.need}`, icon: "📚" }));
   const targets = D.targets.filter((t) => norm(t.title).includes(q)).slice(0, 6)
     .map((t) => ({ kind: "target", id: t.id, label: t.title, sub: t.platforms.join(", "), icon: TARGET_STATUS[t.status].icon }));
-  pItems = [...games, ...series, ...targets];
+  const rules = D.rules.filter((r) => r._n.includes(q)).slice(0, 4)
+    .map((r) => ({ kind: "rule", id: r.id, label: r.short, sub: r.summary.slice(0, 60), icon: "📐" }));
+  pItems = [...games, ...series, ...rules, ...targets];
   pRes.innerHTML = pItems.length ? pItems.map((it, i) => `<a data-i="${i}" class="${i === 0 ? "sel" : ""}"><span>${it.icon || ""}</span>
     <span><b>${esc(it.label)}</b> <span style="color:var(--muted);font-size:13px">${esc(it.sub)}</span></span>
     <span class="kind">${it.kind === "target" ? "buy plan" : it.kind}</span></a>`).join("") : `<div class="empty">No matches.</div>`;
@@ -719,7 +940,7 @@ function renderPalette() {
 function choosePalette(i) {
   const it = pItems[i]; if (!it) return;
   palette.close();
-  ({ game: openGame, target: openTarget, series: openSeries })[it.kind](it.id);
+  ({ game: openGame, target: openTarget, series: openSeries, rule: openRule })[it.kind](it.id);
 }
 pIn.addEventListener("input", renderPalette);
 pIn.addEventListener("keydown", (e) => {

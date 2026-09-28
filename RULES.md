@@ -1,5 +1,9 @@
 # Collecting rules
 
+> The same rules as data — with ids, precedents and the targets each one decides — live in
+> [`data/rules.toml`](data/rules.toml) (see [views/rules.md](views/rules.md) and the web app's **Strategy** page).
+> When a rule changes, update both.
+
 **Physical first.** Digital only when there's no other option.
 
 ## Platform choice

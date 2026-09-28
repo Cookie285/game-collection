@@ -5,7 +5,7 @@ Central, Excel-free home for my physical game collection — PC · Nintendo · P
 browsable lists, a buy plan with priorities and series trackers, with a full history in git.
 
 **🌐 Web app:** `https://cookie285.github.io/game-collection/` — dashboard, searchable cover grid, filterable buy plan,
-series progress rings, `/` for global search, and one-click searches on Geizhals (new) and rebuy / eBay / medimops (used)
+series progress rings, a **Strategy** page with the rules behind every decision, `/` for global search, and one-click searches on Geizhals (new) and rebuy / eBay / medimops (used)
 for every open target. Rebuilt automatically on every push (see [Web frontend](#web-frontend)).
 
 | View | What's in it |
@@ -16,13 +16,14 @@ for every open target. Rebuilt automatically on every push (see [Web frontend](#
 | [CLZ wishlist & orders](views/wishlist.md) | everything marked *Wish List* / *On Order* in CLZ |
 | [Per platform](views/platforms/) | full list per console |
 | [Rules](RULES.md) | how I decide which platform / version to buy |
+| [Rules & strategy](views/rules.md) | every rule from `data/rules.toml` with the targets it decides |
 | [Open questions](OPEN-QUESTIONS.md) | pending decisions, things to verify, CLZ data fixes |
 | [Changelog](CHANGELOG.md) | what changed with every import |
 
 ## Summary
 
 <!-- summary:start -->
-_Updated 2026-09-25._
+_Updated 2026-09-28._
 
 ### By platform
 
@@ -142,6 +143,10 @@ Python 3.11+ only, no packages to install.
 - **`data/targets/*.toml`** — gaps / things to buy (one file per area: `playstation.toml`, `xbox.toml`, add more freely):
   platform(s), priority, group, where to buy, `state` (`preordered` / `undecided` / `watching` / `skip`), `note`, `verify`.
   A target is ticked ✅ automatically once CLZ has a matching game *In Collection* on an allowed platform.
+- **`data/rules.toml`** — the collecting rules as data (id, summary, rationale, precedents, per-platform strategy,
+  decision path). Each rule's `match` patterns link it to targets / series entries automatically; add
+  `rules = ["id"]` (or `not_rules`) on a target or series to link or unlink by hand. The web app's **Strategy** page
+  shows rules, the decision path and cross-platform conflicts; `check` reports unknown rule ids and untagged targets.
 - **`data/series/*.toml`** — series checklists. Use `aliases` for compilations that cover an entry
   (e.g. *Modern Warfare Trilogy* covers CoD 4 / MW2 / MW3, *God of War Collection* covers GoW I + II).
   An entry whose note says "on Steam" shows as 💻 instead of ⬜.
@@ -176,6 +181,7 @@ python3 -m http.server -d site 8000         # open http://localhost:8000
 data/collection.csv      generated from CLZ (source of truth for what I own)
 data/annotations.csv     curated per-game notes (Steam, surplus …)
 data/targets/*.toml      curated buy plan
+data/rules.toml          curated rules / platform strategy (the "why")
 data/series/*.toml       curated series checklists
 views/                   generated Markdown (don't edit)
 imports/                 drop CLZ CSV exports here; processed ones move to imports/archive/

@@ -38,6 +38,7 @@ ARCHIVE = IMPORTS / "archive"
 COLLECTION = DATA / "collection.csv"
 TARGETS_DIR = DATA / "targets"   # every *.toml in here is loaded (one file per source/platform)
 SERIES_DIR = DATA / "series"
+RULES = DATA / "rules.toml"      # collecting rules as data: ids, rationale, auto-tagging patterns
 ANNOTATIONS = DATA / "annotations.csv"  # curated notes per game (Steam, surplus, upgrade …) – survive re-imports
 CHANGELOG = ROOT / "CHANGELOG.md"
 README = ROOT / "README.md"
@@ -305,17 +306,62 @@ def toml_files(d: Path) -> list[Path]:
     return sorted(d.glob("*.toml")) if d.exists() else []
 
 
+def header_lines(path: Path, header: str) -> list[int]:
+    """1-based line numbers of every `header` table line (e.g. [[target]]) — same order as tomllib's arrays."""
+    return [i for i, ln in enumerate(path.read_text(encoding="utf-8").splitlines(), 1) if ln.strip() == header]
+
+
 def load_targets() -> list[dict]:
     out = []
     for f in toml_files(TARGETS_DIR):
-        for t in load_toml(f).get("target", []):
+        lines = header_lines(f, "[[target]]")
+        for i, t in enumerate(load_toml(f).get("target", [])):
             t.setdefault("_file", f.stem)
+            t["_src"] = (f.relative_to(ROOT).as_posix(), lines[i] if i < len(lines) else 0)
             out.append(t)
     return out
 
 
 def load_series() -> list[dict]:
-    return [s for f in toml_files(SERIES_DIR) for s in load_toml(f).get("series", [])]
+    out = []
+    for f in toml_files(SERIES_DIR):
+        s_lines, e_lines = iter(header_lines(f, "[[series]]")), iter(header_lines(f, "[[series.entry]]"))
+        rel = f.relative_to(ROOT).as_posix()
+        for s in load_toml(f).get("series", []):
+            s["_src"] = (rel, next(s_lines, 0))
+            for e in s.get("entry", []):
+                e["_src"] = (rel, next(e_lines, 0))
+            out.append(s)
+    return out
+
+
+# ---------------------------------------------------------------- rules (the "why")
+MATCH_FIELDS = ("title", "note", "plan", "group", "state", "verify", "platforms")
+
+
+def load_rules() -> dict:
+    d = load_toml(RULES)
+    lines = header_lines(RULES, "[[rule]]") if RULES.exists() else []
+    rules = d.get("rule", [])
+    for i, r in enumerate(rules):
+        r.setdefault("status", "adopted")
+        r.setdefault("platform", "all")
+        r["_src"] = (RULES.relative_to(ROOT).as_posix(), lines[i] if i < len(lines) else 0)
+        r["_rx"] = {k: re.compile(v, re.I) for k, v in r.get("match", {}).items()}
+    return {"rules": rules, "platforms": d.get("platform", []), "steps": d.get("step", [])}
+
+
+def rules_for(item: dict, rules: list[dict], extra: dict | None = None) -> list[str]:
+    """Rule ids for a target / series entry: automatic `match` hits + explicit `rules`, minus `not_rules`."""
+    fields = {k: item.get(k, "") for k in MATCH_FIELDS}
+    if extra:
+        fields.update({k: v for k, v in extra.items() if not fields.get(k)})
+    fields["platforms"] = "\n".join(fields["platforms"] or [])
+    ids = [r["id"] for r in rules
+           if any(rx.search(fields.get(k, "") or "") for k, rx in r["_rx"].items())]
+    ids += [i for i in item.get("rules", []) if i not in ids]
+    drop = set(item.get("not_rules", []))
+    return [i for i in ids if i not in drop]
 
 
 def load_annotations() -> dict[tuple[str, str], str]:
@@ -611,6 +657,46 @@ def render() -> None:
         parts.append("_Nothing on the CLZ wishlist yet._")
     (VIEWS / "wishlist.md").write_text("\n".join(parts) + "\n", encoding="utf-8")
 
+    # --- rules (why)
+    if RULES.exists():
+        R = load_rules()
+        by_rule = defaultdict(list)
+        for t, st, _ in tstate:
+            for i in rules_for(t, R["rules"]):
+                by_rule[i].append((t, st))
+        parts = [GEN_NOTE, "# Rules & strategy\n",
+                 "Curated in [`data/rules.toml`](../data/rules.toml) — long form in [RULES.md](../RULES.md). "
+                 "Targets are linked to rules automatically (the rule's `match` patterns) or by `rules = [...]` "
+                 "on the target.\n"]
+        for p in R["platforms"]:
+            parts.append(f"- **{p['name']}** — {p.get('role', '')}")
+        parts.append("")
+        fams = [("all", "General")] + [(p["id"], p["name"]) for p in R["platforms"]]
+        for fam, fam_name in fams:
+            rs = [r for r in R["rules"] if r["platform"] == fam]
+            if not rs:
+                continue
+            parts.append(f"## {fam_name}\n")
+            for r in rs:
+                ts = by_rule.get(r["id"], [])
+                c = Counter(st for _, st in ts)
+                tag = " _(suggested, not adopted)_" if r["status"] == "suggested" else \
+                    " _(retired)_" if r["status"] == "retired" else ""
+                parts.append(f"### {r['short']} `{r['id']}`{tag}\n")
+                parts.append(r["summary"] + "\n")
+                if r.get("rationale"):
+                    parts.append(f"_Why:_ {r['rationale']}\n")
+                if r.get("precedents"):
+                    parts.append("_Precedents:_ " + " · ".join(r["precedents"]) + "\n")
+                parts.append(f"{len(ts)} targets — " + " · ".join(f"{ICON[k]} {c[k]}" for k in ("open", "ordered", "done", "skip")) + "\n")
+                open_ts = sorted((t for t, st in ts if st == "open"), key=lambda t: norm(t["title"]))
+                if open_ts:
+                    rows_md = [[t["title"], ", ".join(t.get("platforms", [])), t.get("priority", "medium"), t.get("state", "")]
+                               for t in open_ts]
+                    parts.append(f"<details><summary>{len(open_ts)} open</summary>\n\n"
+                                 + md_table(["Title", "Platform", "Prio", "State"], rows_md) + "\n\n</details>\n")
+        (VIEWS / "rules.md").write_text("\n".join(parts) + "\n", encoding="utf-8")
+
     # --- overview + README summary
     counts = {p: Counter(r["status"] for r in by_plat[p]) for p in plats}
     tbl = [[f"[{p}](platforms/{slug(p)}.md)", counts[p]["owned"] + counts[p]["for_sale"], counts[p]["ordered"],
@@ -660,6 +746,21 @@ def series_results(s: dict, rows: list[dict]) -> list[tuple[dict, str, list[dict
     return res
 
 
+def repo_url() -> str:
+    """https://github.com/owner/repo — from the Actions environment, else the git remote; '' if unknown."""
+    import os
+    import subprocess
+    if os.environ.get("GITHUB_REPOSITORY"):
+        return f"{os.environ.get('GITHUB_SERVER_URL', 'https://github.com')}/{os.environ['GITHUB_REPOSITORY']}"
+    try:
+        url = subprocess.run(["git", "-C", str(ROOT), "remote", "get-url", "origin"],
+                             capture_output=True, text=True, check=True).stdout.strip()
+    except (OSError, subprocess.CalledProcessError):
+        return ""
+    m = re.search(r"github\.com[:/]([^/]+/[^/]+?)(\.git)?$", url)
+    return f"https://github.com/{m.group(1)}" if m else ""
+
+
 def cmd_export(args) -> None:
     """Write everything the web frontend needs into one JSON file (default: site/data.json)."""
     import json
@@ -672,6 +773,9 @@ def cmd_export(args) -> None:
     hit = lambda h: {"title": h["title"], "platform": h["platform"], "edition": h["edition"], "status": h["status"]}
     games = [{**{k: r[k] for k in FIELDS if r[k] and k != "source"}, "note": note_for(r, ann),
               "family": family_of(r["platform"])} for r in sorted(rows, key=sort_key)]
+    R = load_rules()
+    rules = R["rules"]
+    src = lambda x: {"path": x["_src"][0], "line": x["_src"][1]}
     targets = []
     for t in load_targets():
         st, hits = eval_target(t, rows)
@@ -681,14 +785,17 @@ def cmd_export(args) -> None:
             "note": t.get("note", ""), "verify": t.get("verify", ""), "file": t["_file"], "status": st,
             "hits": [hit(h) for h in hits],
             "elsewhere": sorted(have_by_title.get(norm(t["title"]), set()) - {h["platform"] for h in hits}),
+            "rules": rules_for(t, rules), "src": src(t),
         })
     series = []
     for s in load_series():
         series.append({
             "name": s["name"], "description": s.get("description", ""), "platforms": s.get("platforms", []),
+            "rules": rules_for({**s, "note": s.get("description", "")}, rules), "src": src(s),
             "entries": [{"title": e["title"], "year": e.get("year", ""), "note": e.get("note", ""),
                          "verify": e.get("verify", ""), "optional": bool(e.get("optional")), "status": st,
-                         "hits": [hit(h) for h in hits]} for e, st, hits in series_results(s, rows)],
+                         "hits": [hit(h) for h in hits], "rules": rules_for(e, rules), "src": src(e)}
+                        for e, st, hits in series_results(s, rows)],
         })
     plats = sorted({r["platform"] for r in rows},
                    key=lambda p: (PLATFORM_ORDER.index(p) if p in PLATFORM_ORDER else 99, p))
@@ -696,6 +803,8 @@ def cmd_export(args) -> None:
         "updated": dt.date.today().isoformat(),
         "platforms": [{"name": p, "family": family_of(p), "slug": slug(p)} for p in plats],
         "games": games, "targets": targets, "series": series,
+        "rules": [{k: v for k, v in r.items() if not k.startswith("_") and k != "match"} | {"src": src(r)} for r in rules],
+        "strategies": R["platforms"], "steps": R["steps"], "repo": repo_url(),
         "changelog": CHANGELOG.read_text(encoding="utf-8") if CHANGELOG.exists() else "",
     }
     dest = Path(args.out)
@@ -750,7 +859,48 @@ def cmd_check(_args) -> None:
                     print(f"ERROR {path.name}: bad regex in {it['title']}: {e}")
                     ok = False
         print(f"{path.parent.name}/{path.name}: {len(items)} entries")
+    ok = check_rules() and ok
     sys.exit(0 if ok else 1)
+
+
+def check_rules() -> bool:
+    if not RULES.exists():
+        return True
+    try:
+        R = load_rules()
+    except (tomllib.TOMLDecodeError, re.error) as e:
+        print(f"ERROR {RULES.name}: {e}")
+        return False
+    ok = True
+    ids = [r.get("id") for r in R["rules"]]
+    for r in R["rules"]:
+        for k in ("id", "short", "summary"):
+            if not r.get(k):
+                print(f"ERROR {RULES.name}: rule {r.get('id', '?')} has no {k!r}")
+                ok = False
+        for k in r.get("match", {}):
+            if k not in MATCH_FIELDS:
+                print(f"ERROR {RULES.name}: rule {r['id']}: unknown match field {k!r} (use {', '.join(MATCH_FIELDS)})")
+                ok = False
+    for dup in {i for i in ids if ids.count(i) > 1}:
+        print(f"ERROR {RULES.name}: duplicate rule id {dup!r}")
+        ok = False
+    known = set(ids)
+    refs = [(f"strategy {p.get('id')}", p.get("rules", [])) for p in R["platforms"]]
+    refs += [(f"step {s.get('question', '')[:30]!r}", s.get("rules", [])) for s in R["steps"]]
+    refs += [(f"target {t['title']!r}", t.get("rules", []) + t.get("not_rules", [])) for t in load_targets()]
+    for s in load_series():
+        refs.append((f"series {s['name']!r}", s.get("rules", []) + s.get("not_rules", [])))
+        refs += [(f"series entry {e['title']!r}", e.get("rules", []) + e.get("not_rules", [])) for e in s.get("entry", [])]
+    for where, lst in refs:
+        for i in lst:
+            if i not in known:
+                print(f"ERROR unknown rule id {i!r} in {where}")
+                ok = False
+    untagged = [t["title"] for t in load_targets() if not rules_for(t, R["rules"])]
+    print(f"rules.toml: {len(ids)} rules · {len(untagged)} targets without a rule"
+          + (f" ({', '.join(untagged[:5])}{' …' if len(untagged) > 5 else ''})" if untagged else ""))
+    return ok
 
 
 def main() -> None:
