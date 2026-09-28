@@ -194,6 +194,40 @@ Reports show on the web app's **Changelog → Reviews** tab and the latest one o
 form. The *Record decision* Action (only for issues you open) writes `status`, `decided` and `outcome` into
 `data/decisions.toml`, re-renders and closes the issue. Locally: `python3 scripts/gamecoll.py decide <id> --outcome "…"`.
 
+**Monthly review:** a scheduled Claude routine runs the same playbook on the 1st of every month (no export needed)
+and opens a PR with the report — merge it or comment on it.
+
+## Buy-plan clean-up
+
+**Strategy → 🧹 Clean-up** (or `python3 scripts/gamecoll.py cleanup`) lists housekeeping: targets whose notes say
+"not collecting" but are still open, "watching" games whose date has passed, decided questions whose targets weren't
+updated, open targets already owned elsewhere, parked "someday" suggestions, and important targets whose other
+platforms are unknown. Nothing changes on its own; `cleanup --apply not-collecting` sets those to `state = "skip"`.
+
+## Covers (IGDB)
+
+Box art comes from [IGDB](https://www.igdb.com) — **switched off until two secrets exist**:
+
+1. Log in at [dev.twitch.tv/console](https://dev.twitch.tv/console) → *Register Your Application* (name: anything,
+   OAuth redirect: `http://localhost`, category: *Application Integration*) → copy the **Client ID**, create a
+   **Client Secret**.
+2. Repo → *Settings → Secrets and variables → Actions → New repository secret*: `TWITCH_CLIENT_ID` and
+   `TWITCH_CLIENT_SECRET`.
+3. *Actions → Covers → Run workflow* (afterwards it runs weekly and after every import).
+
+How it stays safe: the secrets only exist inside the *Covers* Action (never in the site, the repo or a PR from a
+fork); the Action stores only public IGDB image ids in `data/covers.json` (validated, so nothing can be injected);
+browsers load the images straight from `images.igdb.com`, and the page's Content-Security-Policy allows images only
+from there. Wrong or missing covers: `data/covers-overrides.toml`. Performance: the first run needs ~1 minute
+(10 titles per request), later runs only look up new titles; the site lazy-loads covers as you scroll and falls back
+to the drawn cards when an image is missing.
+
+## Checks on pull requests
+
+The **CI** workflow runs on every PR: `gamecoll.py check`, Python unit tests (`tests/test_gamecoll.py`), the web-app
+build, a JavaScript syntax check and the rules-engine tests (`tests/engine.test.js`). A red ✗ means: don't merge yet.
+Locally: `python3 -m unittest discover -s tests && node tests/engine.test.js`.
+
 ## Web frontend
 
 `site/` is a static, dependency-free web app (plain HTML/CSS/JS, no build step) published with GitHub Pages.
@@ -223,6 +257,8 @@ views/                   generated Markdown (don't edit)
 imports/                 drop CLZ CSV exports here; processed ones move to imports/archive/
 scripts/gamecoll.py      importer / renderer / search / JSON export / review agenda / decide
 reviews/                 dated collection reviews (what changed, sources, what to decide)
+tests/                   unit tests (Python) + rules-engine tests (Node), run by the CI workflow
+data/covers*.{json,toml} IGDB cover ids (generated) + hand fixes
 site/                    web frontend (GitHub Pages)
 .github/workflows/       automatic import on upload + Pages deploy
 ```
