@@ -107,6 +107,67 @@ class Covers(unittest.TestCase):
         self.assertEqual(g.cover_for("Halo 3", "Xbox 360", covers, {}), "co1bbb")
 
 
+class CoverLookup(unittest.TestCase):
+    """The whole `covers` command against a fake IGDB (no network, no secrets)."""
+
+    def setUp(self):
+        import json
+        import os
+        self.tmp = Path(tempfile.mkdtemp())
+        self.saved = (g.COVERS, g.COVER_OVERRIDES, g.load_collection, g.load_targets, g.igdb_request, os.environ.copy())
+        g.COVERS, g.COVER_OVERRIDES = self.tmp / "covers.json", self.tmp / "none.toml"
+        g.load_collection = lambda: [dict.fromkeys(g.FIELDS, "") | {"title": t, "platform": p, "status": "owned"}
+                                     for t, p in [("Halo 3", "Xbox 360"), ("Nothing Here", "PC"), ("Ids Only", "PC"),
+                                                  ("Old Miss", "PC")]]
+        g.load_targets = lambda: []
+        os.environ.update(TWITCH_CLIENT_ID="id", TWITCH_CLIENT_SECRET="secret")
+        # a v1 miss from the broken multiquery run must be retried
+        g.COVERS.write_text(json.dumps({g.cover_key("Old Miss", "PC"): {"image": None, "checked": "2099-01-01", "score": 0}}))
+        self.calls = []
+
+        def fake(url, body, headers):
+            self.calls.append((url, body))
+            if "oauth2/token" in url:
+                return {"access_token": "tok"}
+            self.assertIn("/v4/games", url)            # never the multiquery endpoint
+            self.assertEqual(headers["Authorization"], "Bearer tok")
+            if '"Halo 3"' in body:
+                return [{"id": 2, "name": "Halo 3", "cover": {"image_id": "co1bbb"}, "platforms": [12]}]
+            if '"Ids Only"' in body:
+                return [{"id": 5}]                      # what multiquery + search answered
+            if '"Old Miss"' in body:
+                return [{"id": 7, "name": "Old Miss", "cover": {"image_id": "co7old"}, "platforms": [6]}]
+            return []
+        g.igdb_request = fake
+
+    def tearDown(self):
+        import os
+        g.COVERS, g.COVER_OVERRIDES, g.load_collection, g.load_targets, g.igdb_request, env = self.saved
+        os.environ.clear()
+        os.environ.update(env)
+
+    def test_lookup(self):
+        import io
+        import json
+        import time
+        from contextlib import redirect_stdout
+        from types import SimpleNamespace
+        from unittest import mock
+        out = io.StringIO()
+        with mock.patch.object(time, "sleep", lambda s: None), redirect_stdout(out):
+            g.cmd_covers(SimpleNamespace(limit=0))
+        data = json.loads(g.COVERS.read_text())
+        self.assertEqual(data[g.cover_key("Halo 3", "Xbox 360")]["image"], "co1bbb")
+        self.assertEqual(data[g.cover_key("Old Miss", "PC")]["image"], "co7old")
+        self.assertIsNone(data[g.cover_key("Ids Only", "PC")]["image"])
+        self.assertTrue(all(v.get("v") == g.COVER_CACHE_VERSION for v in data.values()))
+        log = out.getvalue()
+        self.assertIn("2/4 with a cover", log)
+        self.assertIn("results without a cover", log)
+        self.assertIn("no results", log)
+        self.assertNotIn("secret", log)                 # the secret never shows up in the output
+
+
 class RepoData(unittest.TestCase):
     """The real data files load and link up."""
 
