@@ -1,0 +1,452 @@
+# Open questions and decisions as data — replaces the hand-written OPEN-QUESTIONS.md (now generated from this file).
+#
+# [[decision]] fields
+#   id              stable id (kebab-case)
+#   question        the question, one line
+#   area            all · nintendo · pc · playstation · xbox
+#   kind            decision (default) · research (find something out) · clz-fix (fix data in CLZ, then re-import)
+#   status          open (default) · decided · dropped
+#   due             optional date (release date / deadline), YYYY-MM-DD
+#   context         background, one paragraph
+#   recommendation  the current suggestion, if any
+#   rules           rule ids from data/rules.toml that this question is about
+#   targets         buy-plan titles this question decides (matched like CLZ titles; also finds series entries)
+#   match           optional patterns like in rules.toml, to link more targets automatically
+#   [[decision.option]]  label, pros = [...], cons = [...]
+# When you decide: set status = "decided", decided = "YYYY-MM-DD", outcome = "what and why",
+# then update the targets' state / platforms / plan (and rules.toml if it sets a precedent).
+
+# ---------------------------------------------------------------- Game-Key Card vs PS5 disc
+[[decision]]
+id = "kh-collection-platform"
+question = "Kingdom Hearts Collection [I–III]: PS5 disc or Switch 2 Game-Key Card?"
+area = "playstation"
+due = "2026-10-08"
+context = "Switch 2 version is a Game-Key Card with a ~131 GB download; the PS5 version is a full-install disc. One disc = 1.5+2.5 ReMIX, 2.8 and KH III + Re Mind. KH III (PS4) is already owned."
+recommendation = "PS5 — the JRPG rule says Switch, but the Switch 2 box is effectively a download voucher for a huge game."
+rules = ["gkc-not-physical", "switch-first", "one-copy-newest-gen"]
+targets = ["Kingdom Hearts Collection [I–III]"]
+[[decision.option]]
+label = "PS5 disc"
+pros = ["Full install on the disc", "Real physical copy"]
+cons = ["Makes KH III (PS4) surplus"]
+[[decision.option]]
+label = "Switch 2 Game-Key Card"
+pros = ["JRPG rule points to Switch"]
+cons = ["~131 GB download — the box is only a licence"]
+
+[[decision]]
+id = "metaphor-platform"
+question = "Metaphor: ReFantazio: Switch 2 Game-Key Card or PS5 disc?"
+area = "playstation"
+due = "2026-11-12"
+context = "Switch 2 version (12 Nov 2026) is a Game-Key Card; PS5 has a disc."
+recommendation = "Your call — if Game-Key Cards are accepted for JRPGs (as for Bravely Default HD, Brigandine Abyss, Granblue Relink) → Switch 2; else PS5."
+rules = ["gkc-not-physical", "switch-first"]
+targets = ["Metaphor: ReFantazio"]
+[[decision.option]]
+label = "Switch 2 Game-Key Card"
+pros = ["JRPG → Switch", "Precedent: other JRPGs bought as GKC"]
+cons = ["Not a real physical copy"]
+[[decision.option]]
+label = "PS5 disc"
+pros = ["Real disc"]
+
+[[decision]]
+id = "p3r-platform"
+question = "Persona 3 Reload: Switch 2 Game-Key Card or PS5 disc?"
+area = "playstation"
+context = "Same situation as Metaphor. The Switch 2 version leaves out the Episode Aigis DLC. Persona 5 Royal is owned."
+recommendation = "Your call — same reasoning as Metaphor."
+rules = ["gkc-not-physical", "switch-first"]
+targets = ["Persona 3 Reload"]
+[[decision.option]]
+label = "Switch 2 Game-Key Card"
+pros = ["JRPG → Switch"]
+cons = ["Not a real physical copy", "No Episode Aigis"]
+[[decision.option]]
+label = "PS5 disc"
+pros = ["Real disc"]
+
+[[decision]]
+id = "tales-of-arise-platform"
+question = "Tales of Arise: Switch 2 Game-Key Card or PS5 disc?"
+area = "playstation"
+context = "Already owned on Steam. Switch 2 Game-Key Card includes Beyond the Dawn; the PS5 disc has the DLC separate."
+recommendation = "Your call."
+rules = ["gkc-not-physical", "switch-first", "steam-owned-only-cheap"]
+targets = ["Tales of Arise"]
+[[decision.option]]
+label = "Switch 2 Game-Key Card"
+pros = ["Includes Beyond the Dawn", "JRPG → Switch"]
+cons = ["Not a real physical copy"]
+[[decision.option]]
+label = "PS5 disc"
+pros = ["Real disc"]
+cons = ["DLC separate"]
+[[decision.option]]
+label = "Neither — keep the Steam copy"
+pros = ["Already playable"]
+
+[[decision]]
+id = "hogwarts-platform"
+question = "Hogwarts Legacy: Switch 1 cart or PS5 disc?"
+area = "playstation"
+context = "Already owned on Steam. Switch 1 cart is a weak port; there is also a Switch 2 Game-Key Card."
+recommendation = "PS5 — the rule says Switch 1 cart, but it's by far the weakest version."
+rules = ["switch-first", "gkc-not-physical", "steam-owned-only-cheap"]
+targets = ["Hogwarts Legacy"]
+[[decision.option]]
+label = "Switch 1 cart"
+pros = ["Real cart, Nintendo-first rule"]
+cons = ["Weakest version by far"]
+[[decision.option]]
+label = "PS5 disc"
+pros = ["Best console version"]
+
+[[decision]]
+id = "clair-obscur-timing"
+question = "Clair Obscur: Expedition 33: buy on PS5 now, or wait for the rumoured Switch 2 port?"
+area = "playstation"
+context = "Switch 2 port is only rumoured. If a full Switch 2 cart is announced, the rule says wait for it."
+rules = ["switch-first", "gkc-not-physical"]
+targets = ["Clair Obscur: Expedition 33"]
+[[decision.option]]
+label = "PS5 disc now"
+pros = ["Available now"]
+[[decision.option]]
+label = "Wait for Switch 2"
+pros = ["Nintendo-first, if it's a full cart"]
+cons = ["Only rumoured; could be a Game-Key Card"]
+
+# ---------------------------------------------------------------- general
+[[decision]]
+id = "price-limits"
+question = "Set price limits per game or per group?"
+area = "all"
+context = "No price limits are set yet; ~130 targets say “price limit not set yet”."
+rules = ["good-price-only", "used-for-gaps"]
+match = { plan = "price limit not set" }
+
+[[decision]]
+id = "yakuza-on-disc"
+question = "Like a Dragon / Yakuza: start collecting the series on disc?"
+area = "playstation"
+context = "Most entries are already owned on Steam."
+rules = ["steam-owned-only-cheap"]
+match = { note = "RGG series|start the RGG series" }
+[[decision.option]]
+label = "Collect on disc (PS5 / PS4)"
+cons = ["Mostly double-buying Steam games"]
+[[decision.option]]
+label = "Stay on Steam"
+pros = ["Already owned"]
+
+[[decision]]
+id = "gta6-preorder"
+question = "GTA VI: pre-order or not?"
+area = "playstation"
+due = "2026-11-19"
+context = "Continues the GTA run (IV/V PS3, LCS/VCS PSP). No PC version at launch."
+rules = ["ps-exclusives-and-disc-worthy"]
+targets = ["Grand Theft Auto VI"]
+[[decision.option]]
+label = "Pre-order the PS5 disc"
+[[decision.option]]
+label = "Buy later / used"
+
+[[decision]]
+id = "next-playstation"
+question = "Could Intergalactic change the “no next PlayStation” decision?"
+area = "playstation"
+context = "Next Naughty Dog game — no release date yet."
+rules = ["no-next-playstation"]
+targets = ["Intergalactic: The Heretic Prophet"]
+
+[[decision]]
+id = "surplus-discs"
+question = "Surplus discs — keep or sell?"
+area = "playstation"
+context = "RE5 (PS3), Tales of Xillia (PS3), Neptunia x SK (PS4), DQ XI (PS4), ME3 (PS3), CoD BO + MW2 (PS3), Uncharted 1 + 3 (PS3), MGS4 + MGS Legacy Collection (PS3)."
+rules = ["one-copy-newest-gen", "compilations-count"]
+[[decision.option]]
+label = "Keep as collection pieces"
+[[decision.option]]
+label = "Sell"
+
+[[decision]]
+id = "optional-upgrades"
+question = "Which optional upgrades are worth buying?"
+area = "playstation"
+context = "TLOU Part I, Ghost of Tsushima DC, FF VII Remake Intergrade, TLOU II Remastered, Legacy of Thieves, HZD Remastered, Until Dawn 2024, GTA V PS5, RDR PS4, Tomb Raider DE."
+rules = ["one-copy-newest-gen"]
+match = { group = "Upgrade of an owned disc" }
+
+[[decision]]
+id = "steam-as-rows"
+question = "Should Steam games also become rows (platform “PC”) in the collection?"
+area = "pc"
+context = "The Steam library (~1,176 games) is noted per game in data/annotations.csv, not as collection rows."
+rules = ["pc-steam-only", "steam-owned-only-cheap"]
+
+# ---------------------------------------------------------------- Xbox
+[[decision]]
+id = "avowed"
+question = "Avowed: sealed code-in-box, Xbox Store, or just Game Pass?"
+area = "xbox"
+context = "The Xbox box is code-in-box (no disc, no Disc-to-Digital); no PS5 disc exists — out of disc scope."
+rules = ["code-in-box", "digital-only-game-pass", "no-xbox-disc-out-of-scope"]
+targets = ["Avowed"]
+[[decision.option]]
+label = "Sealed code-in-box"
+pros = ["A box on the shelf"]
+cons = ["Only if ≤ Xbox Store sale price", "No disc, no resale"]
+[[decision.option]]
+label = "Xbox Store (Play Anywhere)"
+[[decision.option]]
+label = "Just Game Pass"
+
+[[decision]]
+id = "south-of-midnight"
+question = "South of Midnight: Xbox Store or just Game Pass?"
+area = "xbox"
+context = "No physical release on any platform."
+rules = ["digital-only-game-pass", "no-xbox-disc-out-of-scope"]
+targets = ["South of Midnight"]
+[[decision.option]]
+label = "Xbox Store (Play Anywhere) on sale"
+[[decision.option]]
+label = "Just Game Pass"
+
+[[decision]]
+id = "hellblade-2-disc"
+question = "Hellblade II: does the EU Xbox box contain a real disc or only a code?"
+area = "xbox"
+kind = "research"
+context = "If it's code-in-box → treat like Avowed."
+rules = ["code-in-box", "xbox-first-party-scope"]
+targets = ["Senua's Saga: Hellblade II"]
+
+[[decision]]
+id = "fable-halo-xbox-discs"
+question = "Fable and Halo: Campaign Evolved Xbox discs: buy when really cheap?"
+area = "xbox"
+context = "Fable is pre-ordered on PS5; Halo: Campaign Evolved is owned on PS5."
+rules = ["ms-games-on-ps5-disc", "one-copy-newest-gen", "good-price-only"]
+targets = ["Fable", "Halo: Campaign Evolved"]
+
+[[decision]]
+id = "gears-reloaded"
+question = "Gears of War: Reloaded PS5 disc: buy only if very cheap?"
+area = "xbox"
+context = "No Xbox disc exists; the campaign is already covered by Gears of War: Ultimate Edition."
+rules = ["ms-games-on-ps5-disc", "compilations-count", "no-xbox-disc-out-of-scope"]
+targets = ["Gears of War: Reloaded"]
+
+[[decision]]
+id = "limited-run-price-cap"
+question = "Pentiment / Grounded Limited Run discs: what price cap?"
+area = "xbox"
+context = "Waiting for eBay saved searches; expensive on eBay."
+rules = ["limited-run-good-price"]
+targets = ["Pentiment", "Grounded"]
+
+[[decision]]
+id = "shooter-expansion"
+question = "Shooter-console expansion — which series to adopt?"
+area = "xbox"
+context = "Candidates: Far Cry, Metro (discs confirmed), S.T.A.L.K.E.R. 2 (Series X disc exists; trilogy only on Switch JP), Prey, Rainbow Six Vegas, Ghost Recon, Crysis, Rage, Bulletstorm, TimeSplitters, Doom, Wolfenstein, Borderlands, Sniper Elite, Homefront, Medal of Honor."
+rules = ["shooter-console"]
+match = { group = "Shooter console suggestions" }
+
+[[decision]]
+id = "fallout-elder-scrolls"
+question = "Fallout / Elder Scrolls on Xbox?"
+area = "xbox"
+context = "Not decided; Skyrim is a judgment call vs Switch."
+rules = ["xbox-first-party-scope", "xbox-layer-3-optional", "switch-first"]
+match = { group = "Fallout / Elder Scrolls" }
+
+[[decision]]
+id = "activision-blizzard"
+question = "Activision/Blizzard suggestions: which to buy, and where?"
+area = "xbox"
+context = "Switch: Crash, Spyro, Tony Hawk, Diablo II/III. Xbox: Diablo IV, Prototype Biohazard Bundle, Singularity, Transformers Cybertron."
+rules = ["xbox-layer-3-optional", "switch-first"]
+match = { group = "Activision / Blizzard" }
+
+[[decision]]
+id = "xbox-exclusive-tiebreak"
+question = "Formalise the “series with an Xbox-exclusive entry stays on Xbox” tie-break rule?"
+area = "xbox"
+context = "Suggested in the Xbox chat, not adopted."
+rules = ["xbox-exclusive-series-tiebreak"]
+match = { group = "BC exclusive series \\(suggested\\)", note = "series origin on Xbox" }
+[[decision.option]]
+label = "Adopt the rule"
+pros = ["Keeps series runs together on one shelf"]
+[[decision.option]]
+label = "Don't adopt"
+pros = ["Normal platform rules per game"]
+
+[[decision]]
+id = "blur-360"
+question = "Blur: buy the 360 disc for current-hardware playability, or drop it?"
+area = "xbox"
+context = "Owned on PS3; delisted — the 360 disc is the only way on Xbox."
+rules = ["one-copy-newest-gen", "bc-digital-unless-delisted"]
+targets = ["Blur"]
+
+[[decision]]
+id = "state-of-decay-3"
+question = "State of Decay 3: still buy on Xbox under the series rule?"
+area = "xbox"
+context = "Undead Labs is independent now; the game is no longer first-party (Sep 2026)."
+rules = ["series-on-one-platform", "xbox-first-party-scope"]
+targets = ["State of Decay 3"]
+[[decision.option]]
+label = "Xbox (keep the series together)"
+[[decision.option]]
+label = "Normal platform rules"
+
+[[decision]]
+id = "mcc-ps5"
+question = "Halo: The Master Chief Collection — was a PS5 version announced?"
+area = "xbox"
+kind = "research"
+context = "Affects the “Xbox-exclusive” status only; already owned."
+targets = ["Halo: The Master Chief Collection"]
+
+[[decision]]
+id = "d2d-ga"
+question = "Disc-to-Digital: general availability date; re-test Forza discs; test more discs"
+area = "xbox"
+kind = "research"
+context = "Re-test FM5/6/7, FH3/4 after GA; test Doom Eternal, Titanfall 2, Dead Rising 4, Killer Instinct (KI Classic sub-licences), Halo Wars 2 (bundled Halo Wars: DE?)."
+rules = ["disc-to-digital"]
+match = { note = "re-test after GA|D2D not working" }
+
+[[decision]]
+id = "d2d-edge-cases"
+question = "Disc-to-Digital edge cases: lending, second account on the same console, offline, account recovery, family sharing"
+area = "xbox"
+kind = "research"
+rules = ["disc-to-digital"]
+
+[[decision]]
+id = "bc-store-status"
+question = "360/OG store status (disc if delisted, digital if listed)"
+area = "xbox"
+kind = "research"
+context = "Fable III, Split/Second, Otogi 1/2, Earth Defense Force 2017."
+rules = ["bc-digital-unless-delisted"]
+targets = ["Fable III", "Split/Second", "Otogi: Myth of Demons", "Otogi 2: Immortal Warriors", "Earth Defense Force 2017"]
+
+[[decision]]
+id = "bc-status-check"
+question = "Backward-compatibility status of a few 360 / OG titles"
+area = "xbox"
+kind = "research"
+context = "Battlefield 2: Modern Combat (360), Transformers: War for Cybertron / Fall of Cybertron, Medal of Honor: Warfighter, Far Cry OG/360 entries."
+rules = ["non-bc-shelf-only", "bc-digital-unless-delisted"]
+targets = ["Battlefield 2: Modern Combat", "Transformers: War for Cybertron", "Transformers: Fall of Cybertron", "Medal of Honor: Warfighter"]
+
+[[decision]]
+id = "bf-store-listings"
+question = "Store status of Battlefield 3 and Hardline digital listings (informational, owned on disc)"
+area = "xbox"
+kind = "research"
+
+[[decision]]
+id = "killer-instinct-edition"
+question = "Killer Instinct: which disc edition is owned (Definitive Edition?)"
+area = "xbox"
+kind = "research"
+
+# ---------------------------------------------------------------- research / verification
+[[decision]]
+id = "verify-marked"
+question = "Verify all targets / series entries marked ❓"
+area = "all"
+kind = "research"
+context = "E.g. EU disc releases of Quest for Booty, inFamous First Light, Castlevania Requiem, Lost Soul Aside, Kunitsu-Gami; whether Trails of Cold Steel I/II, Visions of Mana, One Piece Odyssey ever got a Switch cart; Code Vein II details; PAL releases of Wild ARMs 4/5, Atelier Iris 1–3, Magna Carta; Mafia: Trilogy disc contents."
+match = { verify = "." }
+
+[[decision]]
+id = "fable-release-date"
+question = "Fable: release date"
+area = "xbox"
+kind = "research"
+targets = ["Fable"]
+
+# ---------------------------------------------------------------- CLZ data fixes
+[[decision]]
+id = "clz-hp7-2-date"
+question = "Harry Potter and the Deathly Hallows Part 2 — release date"
+area = "all"
+kind = "clz-fix"
+
+[[decision]]
+id = "clz-empty-publishers"
+question = "Empty publishers: Marvel's Wolverine, MGS Master Collection Vol. 2, Ninja Gaiden: Master Collection"
+area = "all"
+kind = "clz-fix"
+
+[[decision]]
+id = "clz-re-biohazard"
+question = "“Resident Evil: Biohazard” (PS5) is probably Resident Evil 7 — rename"
+area = "all"
+kind = "clz-fix"
+
+[[decision]]
+id = "clz-kotor2-duplicate"
+question = "KOTOR II listed twice on Switch (two spellings)"
+area = "all"
+kind = "clz-fix"
+
+[[decision]]
+id = "clz-xillia-casing"
+question = "“Tales Of Xillia” casing"
+area = "all"
+kind = "clz-fix"
+
+# ---------------------------------------------------------------- decided (precedents from RULES.md, before this repo)
+[[decision]]
+id = "gkc-non-jrpg-to-ps5"
+question = "Non-JRPGs whose Switch 2 version is a Game-Key Card: Switch 2 or PS5?"
+area = "nintendo"
+status = "decided"
+outcome = "PS5 disc — Pragmata, Onimusha: Way of the Sword, Full Metal Schoolgirl. Became the rule “Game-Key Card ≠ physical”."
+rules = ["gkc-not-physical"]
+
+[[decision]]
+id = "gkc-jrpgs-accepted"
+question = "JRPGs only available as Switch 2 Game-Key Card?"
+area = "nintendo"
+status = "decided"
+outcome = "Case by case — Bravely Default HD Remaster, Brigandine Abyss, Granblue Fantasy: Relink bought as Game-Key Card."
+rules = ["gkc-not-physical", "switch-first"]
+
+[[decision]]
+id = "ms-games-ps5-precedent"
+question = "Microsoft games whose only / first disc is on PS5?"
+area = "xbox"
+status = "decided"
+outcome = "Buy on PS5 — Halo: Campaign Evolved bought on PS5, Fable pre-ordered on PS5; Gears of War: Reloaded only when very cheap."
+rules = ["ms-games-on-ps5-disc"]
+
+[[decision]]
+id = "next-playstation-no"
+question = "Buy the next PlayStation?"
+area = "playstation"
+status = "decided"
+outcome = "Most likely not (no Disc-to-Digital, anti-consumer moves) — fill the PlayStation collection while discs are still produced. Intergalactic stays on watch."
+rules = ["no-next-playstation"]
+
+[[decision]]
+id = "covered-360-discs"
+question = "Halo 3/ODST/Reach/4 and Gears of War 360 discs?"
+area = "xbox"
+status = "decided"
+outcome = "Not collected — covered by the Master Chief Collection and Gears of War: Ultimate Edition."
+rules = ["compilations-count"]
