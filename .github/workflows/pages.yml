@@ -6,7 +6,7 @@ on:
     branches: [main]
     paths: ["data/**", "scripts/**", "site/**", "CHANGELOG.md", ".github/workflows/pages.yml"]
   workflow_run:
-    workflows: ["CLZ import"]
+    workflows: ["CLZ import", "Record decision"]
     types: [completed]
   workflow_dispatch:
 

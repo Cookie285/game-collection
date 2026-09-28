@@ -6,23 +6,29 @@ Curated in [`data/targets/`](../data/targets/). A target flips to ✅ automatica
 
 Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 
-⬜ 405 open · 🕒 2 ordered · ✅ 72 done · ➖ 100 skip
+⬜ 412 open · 🕒 2 ordered · ✅ 72 done · ➖ 100 skip
 
 📀 = same title already owned on another platform (one copy per game!)
 
-## 🤔 Decide / watch (9)
+## 🤔 Decide / watch (15)
 
 | Title | Platform | Prio | Group | State | Plan / where | Owned on / note |
 |---|---|---|---|---|---|---|
-| Grand Theft Auto VI | PlayStation 5 | high | PS5 gaps – Multiplatform | watching | PS5 disc; pre-order candidate | Continues your GTA run (IV/V PS3, LCS/VCS PSP). No PC version at launch. · Other versions: No Switch; PC later · Standard disc · Release date reaffirmed by Take-Two |
+| Trails in the Sky 2nd Chapter | Nintendo Switch | high | Buy elsewhere (not PlayStation) | watching | Switch cart | Suggested (review 2026-09-28): sequel to Trails in the Sky 1st Chapter (owned on Switch). Physical Switch + Switch 2 editions in the EU on 29 Sep 2026 (digital 17 Sep). |
+| Grand Theft Auto VI | PlayStation 5 | high | PS5 gaps – Multiplatform | watching | PS5 disc; pre-order candidate | Continues your GTA run (IV/V PS3, LCS/VCS PSP). No PC version at launch. · Other versions: No Switch; PC later · Standard disc · Release date reaffirmed by Take-Two · Still 19 Nov 2026 — Take-Two reaffirmed in Aug 2026 (checked 2026-09-28) |
 | Hogwarts Legacy | PlayStation 5, Nintendo Switch | high | PS5 gaps – Multiplatform | undecided | PS5 disc; new or used, only at a really good price | owned on Steam (Hogwarts Legacy) – only if very cheap, new or used · Decision: Switch = Switch 1 cart (weak port); Switch 2 Game-Key Card; PS = PS5 disc; suggestion: PS5 – Rule says Switch 1 cart, but it's the weakest version by far; this is a Harry Potter collection piece. · You collect the Harry Potter games (PS1–PS3). · Other versions: Switch 1 has a cart (weak port); Switch 2 = Game-Key Card · Rule says Switch 1 cart; quality says PS5 |
-| Kingdom Hearts Collection [I–III] | PlayStation 5, Nintendo Switch 2 | high | PS5 gaps – Multiplatform | undecided | PS5 disc; new (upcoming release, price limit not set yet) | Decision: Switch = Switch 2 Game-Key Card, 131 GB download; PS = PS5 full disc (8 Oct 2026); suggestion: PS5 – JRPG rule says Switch, but the Switch 2 box is effectively a download voucher for a huge game. · One disc = 1.5+2.5 ReMIX, 2.8 and KH III + Re Mind. You only own KH III (PS4). · Other versions: Switch 2 = Game-Key Card, ~131 GB download · PS5 disc is full install · JRPG rule says Switch – but Switch 2 is GKC. Recommendation: PS5. Makes KH III PS4 surplus. |
-| Metaphor: ReFantazio | PlayStation 5, Nintendo Switch 2 | high | PS5 gaps – Multiplatform | undecided | PS5 disc; used preferred (price limit not set yet) | Decision: Switch = Switch 2 Game-Key Card (12 Nov 2026); PS = PS5 disc; suggestion: Your call – If you accept Game-Key Cards for JRPGs (you did for Bravely Default HD, Brigandine Abyss, Granblue Relink) → Switch 2; else PS5. · Top-tier Atlus JRPG, not owned. · Other versions: Switch 2 (12 Nov 2026) = Game-Key Card · Decide: Switch 2 GKC (like Bravely Default/Granblue) vs PS5 disc |
-| Persona 3 Reload | PlayStation 5, Nintendo Switch 2 | high | PS5 gaps – Multiplatform | undecided | PS5 disc; used preferred (price limit not set yet) | Decision: Switch = Switch 2 Game-Key Card, no DLC; PS = PS5 disc; suggestion: Your call – Same as Metaphor. The Switch 2 version also leaves out Episode Aigis. · Missing Persona entry (own P5R). · Other versions: Switch 2 = Game-Key Card, Episode Aigis DLC not included · Decide: Switch 2 GKC vs PS5 disc |
+| Kingdom Hearts Collection [I–III] | PlayStation 5, Nintendo Switch 2 | high | PS5 gaps – Multiplatform | undecided | PS5 disc; new (upcoming release, price limit not set yet) | Decision: Switch = Switch 2 Game-Key Card, 131 GB download; PS = PS5 full disc (8 Oct 2026); suggestion: PS5 – JRPG rule says Switch, but the Switch 2 box is effectively a download voucher for a huge game. · One disc = 1.5+2.5 ReMIX, 2.8 and KH III + Re Mind. You only own KH III (PS4). · Other versions: Switch 2 = Game-Key Card, ~131 GB download · PS5 disc is full install · JRPG rule says Switch – but Switch 2 is GKC. Recommendation: PS5. Makes KH III PS4 surplus. · Also on Xbox Series X\|S, but digital only — physical only on PS5 (disc) and Switch 2 (Game-Key Card) (checked 2026-09-28) |
+| Metaphor: ReFantazio | PlayStation 5, Nintendo Switch 2 | high | PS5 gaps – Multiplatform | undecided | PS5 disc; used preferred (price limit not set yet) | Decision: Switch = Switch 2 Game-Key Card (12 Nov 2026); PS = PS5 disc; suggestion: Your call – If you accept Game-Key Cards for JRPGs (you did for Bravely Default HD, Brigandine Abyss, Granblue Relink) → Switch 2; else PS5. · Top-tier Atlus JRPG, not owned. · Other versions: Switch 2 (12 Nov 2026) = Game-Key Card · Decide: Switch 2 GKC (like Bravely Default/Granblue) vs PS5 disc · Switch 2 physical confirmed as Game-Key Card (also a SteelBook GKC edition), 12 Nov 2026 (checked 2026-09-28) |
+| Persona 3 Reload | PlayStation 5, Nintendo Switch 2 | high | PS5 gaps – Multiplatform | undecided | PS5 disc; used preferred (price limit not set yet) | Decision: Switch = Switch 2 Game-Key Card, no DLC; PS = PS5 disc; suggestion: Your call – Same as Metaphor. The Switch 2 version also leaves out Episode Aigis. · Missing Persona entry (own P5R). · Other versions: Switch 2 = Game-Key Card, Episode Aigis DLC not included · Decide: Switch 2 GKC vs PS5 disc · Switch 2 version out since 23 Oct 2025 — physical is a Game-Key Card (checked 2026-09-28) |
 | Tales of Arise | PlayStation 5, Nintendo Switch 2 | high | PS5 gaps – Multiplatform | undecided | PS5 disc; new or used, only at a really good price | owned on Steam (Tales of ARISE) – only if very cheap, new or used · Decision: Switch = Switch 2 Game-Key Card incl. Beyond the Dawn; PS = PS5 disc (DLC separate); suggestion: Your call – Switch 2 includes the DLC; PS5 gives you a real disc. · Missing modern Tales entry. · Other versions: Switch 2 Beyond the Dawn Ed. (May 2026) = Game-Key Card · Check if a PS5 'Beyond the Dawn' disc edition exists; else DLC digital · Decide: Switch 2 GKC (incl. DLC) vs PS5 disc |
+| Call of Duty: Modern Warfare 4 | Xbox Series X\|S | high | Series runs – Call of Duty | watching | Xbox Series X disc (pre-order candidate) | Suggested (review 2026-09-28): next entry of the complete Xbox CoD run — Infinity Ward, 23 Oct 2026. Also on PS5, PS4/Xbox One and Switch 2; the shooter rule keeps it on Xbox. |
+| Final Fantasy VII Revelation | Nintendo Switch 2, PlayStation 5 | medium | Buy elsewhere (not PlayStation) | watching |  | Suggested (review 2026-09-28): FF VII Remake part 3 — 8 Apr 2027, simultaneous on Switch 2, PS5, Xbox Series, PC. Physical format on Switch 2 not known yet (the series plan puts VII on Switch). |
 | Halo: Campaign Evolved | Xbox Series X\|S | medium | First-party | watching | Xbox Series X disc when on sale | 📀 owned on PlayStation 5 · scope layer 1 (Halo / Halo Studios); Owned on PS5; last Halo made by Halo Studios (next Halo moves to Activision, Sep 2026) |
 | Otogi 2: Immortal Warriors | Xbox | medium | OG Xbox BC | watching | disc (store status unverified, likely disc only) | Xbox Store: Verify – likely disc only; B – OG Xbox exclusive, BC; On my wish list |
 | Otogi: Myth of Demons | Xbox | medium | OG Xbox BC | watching | disc (store status unverified, likely disc only) | Xbox Store: Verify – likely disc only; B – OG Xbox exclusive, BC; On my wish list |
+| Persona 4 Revival | PlayStation 5, Nintendo Switch 2 | medium | PS5 gaps – Multiplatform | undecided |  | Suggested (review 2026-09-28): Persona 4 remake — PS5 / Xbox Series / PC on 18 Feb 2027, Switch 2 on 20 May 2027 (physical format not announced). JRPG rule: Switch if it's a real cart. |
+| Silent Hill: Townfall | PlayStation 5 | medium | PS5 gaps – Multiplatform | undecided | PS5 disc; new or used | Suggested (review 2026-09-28): new Silent Hill (tracked series), out 24 Sep 2026 on PS5 + PC, physical PS5 edition; no Xbox / Switch version. |
+| Tomb Raider: Legacy of Atlantis | PlayStation 5 | medium | PS5 gaps – Multiplatform | watching | PS5 disc (upcoming, 12 Feb 2027) | Suggested (review 2026-09-28): remake of the first Tomb Raider (Crystal Dynamics / Flying Wild Hog), PS5, Xbox Series, PC. Switch version not announced. |
 
 ## 🎯 High priority (42)
 
@@ -62,7 +68,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | The Last Guardian | PlayStation 4 | high | PS4 gaps – Sony 1st-party |  | PS4 disc; used preferred (price limit not set yet) | Team Ico finale. |
 | Detroit: Become Human | PlayStation 4 | high | PS4 gaps – Sony-published |  | PS4 disc; used preferred (price limit not set yet) | You own Heavy Rain. · Very cheap used |
 | Silent Hill 2 | PlayStation 5 | high | PS5 gaps – Console exclusive (timed) |  | PS5 disc; used preferred (price limit not set yet) | 2024 · You own Silent Hill f; SH2 remake is the other modern entry. |
-| Clair Obscur: Expedition 33 | PlayStation 5 | high | PS5 gaps – Multiplatform |  | PS5 disc; used preferred (price limit not set yet) | ❓ marked '?' in the checklist – verify before buying · Acclaimed turn-based RPG, not owned. · Other versions: Switch 2 port only rumoured for 2026 · If Switch 2 full cart is announced, rule says wait |
+| Clair Obscur: Expedition 33 | PlayStation 5 | high | PS5 gaps – Multiplatform |  | PS5 disc; used preferred (price limit not set yet) | ❓ marked '?' in the checklist – verify before buying · Acclaimed turn-based RPG, not owned. · Other versions: Switch 2 port only rumoured for 2026 · If Switch 2 full cart is announced, rule says wait · Switch 2 port still not announced — only an insider report (NateTheHate) that it comes in 2026 (checked 2026-09-28) |
 | Devil May Cry 5 Special Edition | PlayStation 5 | high | PS5 gaps – Multiplatform |  | PS5 disc; new or used, only at a really good price | owned on Steam (Devil May Cry 5) – only if very cheap, new or used · Fits your character-action line (Bayonetta, Ninja Gaiden, Onimusha). No DMC owned. · Other versions: Switch 2 Devil Hunter Ed. = digital / GKC |
 | Elden Ring | PlayStation 5 | high | PS5 gaps – Multiplatform |  | PS5 disc; new or used, only at a really good price | Shadow of the Erdtree Edition · owned on Steam (ELDEN RING) – only if very cheap, new or used · Biggest gap in your Souls line-up (own Demon's Souls, Bloodborne + many soulslikes). · Other versions: Switch 2 Tarnished Ed. (28 Aug 2026) = Game-Key Card · Common used · PS5 Pro is the best console version |
 | Resident Evil Requiem | PlayStation 5 | high | PS5 gaps – Multiplatform |  | PS5 disc; used preferred (price limit not set yet) | Only mainline RE missing; your RE line is on PS5. · Other versions: Switch 2 = Game-Key Card |
@@ -71,7 +77,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Sonic & All-Stars Racing Transformed | Xbox 360 | high | Xbox 360 BC |  | disc (delisted – not buyable in store) | Xbox Store: DISC ONLY (delisted); C – multiplatform, no modern version |
 | Spec Ops: The Line | Xbox 360 | high | Xbox 360 BC |  | disc (delisted – not buyable in store) | Xbox Store: DISC ONLY (delisted 2024); C – multiplatform, no modern version; Disc is the only legal copy on any platform |
 
-## ⬜ Open by group (405)
+## ⬜ Open by group (412)
 
 ### Activision / Blizzard (10)
 
@@ -105,10 +111,12 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | The Evil Within | Xbox One | someday | undecided | used disc | Suggested (scope layer 3, pre-acquisition). Tango – 360 disc also exists |
 | The Evil Within 2 | Xbox One | someday | undecided | used disc | Suggested (scope layer 3, pre-acquisition). Tango |
 
-### Buy elsewhere (not PlayStation) (55)
+### Buy elsewhere (not PlayStation) (57)
 
 | Title | Platform | Prio | State | Plan / where | Owned on / note |
 |---|---|---|---|---|---|
+| Trails in the Sky 2nd Chapter | Nintendo Switch | high | watching | Switch cart | Suggested (review 2026-09-28): sequel to Trails in the Sky 1st Chapter (owned on Switch). Physical Switch + Switch 2 editions in the EU on 29 Sep 2026 (digital 17 Sep). |
+| Final Fantasy VII Revelation | Nintendo Switch 2, PlayStation 5 | medium | watching |  | Suggested (review 2026-09-28): FF VII Remake part 3 — 8 Apr 2027, simultaneous on Switch 2, PS5, Xbox Series, PC. Physical format on Switch 2 not known yet (the series plan puts VII on Switch). |
 | Ace Combat 7: Skies Unknown | Nintendo Switch | low |  | Switch cart | Buy on Switch instead of PlayStation – Switch physical (You own Assault Horizon (PS3)) |
 | Assassin's Creed III Remastered | Nintendo Switch | low |  | Switch cart | Buy on Switch instead of PlayStation – Switch physical (AC series) |
 | Assassin's Creed: The Ezio Collection | Nintendo Switch | low |  | Switch cart | Buy on Switch instead of PlayStation – Switch physical (AC series) |
@@ -213,9 +221,9 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Minecraft Dungeons | Xbox One | medium |  | used disc, e.g. rebuy.de | scope layer 1 (Minecraft / Mojang & Double Eleven); Hero Edition preferred |
 | Minecraft Legends | Xbox One, Xbox Series X\|S | medium |  | used disc, e.g. rebuy.de | scope layer 1 (Minecraft / Mojang & Blackbird) |
 | Psychonauts 2 | Xbox One | medium |  | used disc, e.g. rebuy.de | scope layer 1 (Double Fine) |
-| Senua's Saga: Hellblade II | Xbox Series X\|S | medium |  | used disc | ❓ verify the EU Xbox box contains a real disc, not a code – if code-in-box, treat like Avowed · scope layer 1 (Ninja Theory); Ninja Theory at risk of closure (Sep 2026) |
+| Senua's Saga: Hellblade II | Xbox Series X\|S | medium |  | used disc | ❓ verify the EU Xbox box contains a real disc, not a code – if code-in-box, treat like Avowed · scope layer 1 (Ninja Theory); Ninja Theory at risk of closure (Sep 2026) · Amazon.de lists the Xbox Series version only as a download code; no EU disc found (checked 2026-09-28) |
 | Starfield | Xbox Series X\|S | medium |  | used disc, e.g. rebuy.de | scope layer 2 (Bethesda Game Studios); Bethesda post-acquisition |
-| Fable | Xbox Series X\|S | low | watching | Xbox disc only if really cheap later | scope layer 1 (Fable / Playground); PS5 copy pre-ordered (see Part 1) |
+| Fable | Xbox Series X\|S | low | watching | Xbox disc only if really cheap later | scope layer 1 (Fable / Playground); PS5 copy pre-ordered (see Part 1) · Delayed to 23 Feb 2027 (PS5, Xbox Series, PC) (checked 2026-09-28) |
 | Hi-Fi Rush | Xbox Series X\|S | low |  | netgames (available cheap there) | scope layer 1 (Tango (MS-published)); Limited Run exclusive physical |
 | Minecraft | Xbox One | low |  | used disc, e.g. rebuy.de | scope layer 1 (Minecraft / Mojang); Several disc variants (Explorers Pack, Starter, Master Collection); Bedrock disc; several variants (Explorers Pack, Starter, Master Collection) |
 | The Elder Scrolls IV: Oblivion Remastered | Xbox Series X\|S | low |  | used disc, e.g. rebuy.de | 📀 owned on Nintendo Switch 2 · scope layer 2 (Bethesda / Virtuos); Layer 2 – Xbox copy optional |
@@ -457,18 +465,18 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Silent Hill 2 | PlayStation 5 | high |  | PS5 disc; used preferred (price limit not set yet) | 2024 · You own Silent Hill f; SH2 remake is the other modern entry. |
 | Forspoken | PlayStation 5 | low |  | PS5 disc; used preferred (price limit not set yet) | Square Enix console exclusive; cheap used. · Very cheap used |
 
-### PS5 gaps – Multiplatform (39)
+### PS5 gaps – Multiplatform (43)
 
 | Title | Platform | Prio | State | Plan / where | Owned on / note |
 |---|---|---|---|---|---|
-| Clair Obscur: Expedition 33 | PlayStation 5 | high |  | PS5 disc; used preferred (price limit not set yet) | ❓ marked '?' in the checklist – verify before buying · Acclaimed turn-based RPG, not owned. · Other versions: Switch 2 port only rumoured for 2026 · If Switch 2 full cart is announced, rule says wait |
+| Clair Obscur: Expedition 33 | PlayStation 5 | high |  | PS5 disc; used preferred (price limit not set yet) | ❓ marked '?' in the checklist – verify before buying · Acclaimed turn-based RPG, not owned. · Other versions: Switch 2 port only rumoured for 2026 · If Switch 2 full cart is announced, rule says wait · Switch 2 port still not announced — only an insider report (NateTheHate) that it comes in 2026 (checked 2026-09-28) |
 | Devil May Cry 5 Special Edition | PlayStation 5 | high |  | PS5 disc; new or used, only at a really good price | owned on Steam (Devil May Cry 5) – only if very cheap, new or used · Fits your character-action line (Bayonetta, Ninja Gaiden, Onimusha). No DMC owned. · Other versions: Switch 2 Devil Hunter Ed. = digital / GKC |
 | Elden Ring | PlayStation 5 | high |  | PS5 disc; new or used, only at a really good price | Shadow of the Erdtree Edition · owned on Steam (ELDEN RING) – only if very cheap, new or used · Biggest gap in your Souls line-up (own Demon's Souls, Bloodborne + many soulslikes). · Other versions: Switch 2 Tarnished Ed. (28 Aug 2026) = Game-Key Card · Common used · PS5 Pro is the best console version |
-| Grand Theft Auto VI | PlayStation 5 | high | watching | PS5 disc; pre-order candidate | Continues your GTA run (IV/V PS3, LCS/VCS PSP). No PC version at launch. · Other versions: No Switch; PC later · Standard disc · Release date reaffirmed by Take-Two |
+| Grand Theft Auto VI | PlayStation 5 | high | watching | PS5 disc; pre-order candidate | Continues your GTA run (IV/V PS3, LCS/VCS PSP). No PC version at launch. · Other versions: No Switch; PC later · Standard disc · Release date reaffirmed by Take-Two · Still 19 Nov 2026 — Take-Two reaffirmed in Aug 2026 (checked 2026-09-28) |
 | Hogwarts Legacy | PlayStation 5, Nintendo Switch | high | undecided | PS5 disc; new or used, only at a really good price | owned on Steam (Hogwarts Legacy) – only if very cheap, new or used · Decision: Switch = Switch 1 cart (weak port); Switch 2 Game-Key Card; PS = PS5 disc; suggestion: PS5 – Rule says Switch 1 cart, but it's the weakest version by far; this is a Harry Potter collection piece. · You collect the Harry Potter games (PS1–PS3). · Other versions: Switch 1 has a cart (weak port); Switch 2 = Game-Key Card · Rule says Switch 1 cart; quality says PS5 |
-| Kingdom Hearts Collection [I–III] | PlayStation 5, Nintendo Switch 2 | high | undecided | PS5 disc; new (upcoming release, price limit not set yet) | Decision: Switch = Switch 2 Game-Key Card, 131 GB download; PS = PS5 full disc (8 Oct 2026); suggestion: PS5 – JRPG rule says Switch, but the Switch 2 box is effectively a download voucher for a huge game. · One disc = 1.5+2.5 ReMIX, 2.8 and KH III + Re Mind. You only own KH III (PS4). · Other versions: Switch 2 = Game-Key Card, ~131 GB download · PS5 disc is full install · JRPG rule says Switch – but Switch 2 is GKC. Recommendation: PS5. Makes KH III PS4 surplus. |
-| Metaphor: ReFantazio | PlayStation 5, Nintendo Switch 2 | high | undecided | PS5 disc; used preferred (price limit not set yet) | Decision: Switch = Switch 2 Game-Key Card (12 Nov 2026); PS = PS5 disc; suggestion: Your call – If you accept Game-Key Cards for JRPGs (you did for Bravely Default HD, Brigandine Abyss, Granblue Relink) → Switch 2; else PS5. · Top-tier Atlus JRPG, not owned. · Other versions: Switch 2 (12 Nov 2026) = Game-Key Card · Decide: Switch 2 GKC (like Bravely Default/Granblue) vs PS5 disc |
-| Persona 3 Reload | PlayStation 5, Nintendo Switch 2 | high | undecided | PS5 disc; used preferred (price limit not set yet) | Decision: Switch = Switch 2 Game-Key Card, no DLC; PS = PS5 disc; suggestion: Your call – Same as Metaphor. The Switch 2 version also leaves out Episode Aigis. · Missing Persona entry (own P5R). · Other versions: Switch 2 = Game-Key Card, Episode Aigis DLC not included · Decide: Switch 2 GKC vs PS5 disc |
+| Kingdom Hearts Collection [I–III] | PlayStation 5, Nintendo Switch 2 | high | undecided | PS5 disc; new (upcoming release, price limit not set yet) | Decision: Switch = Switch 2 Game-Key Card, 131 GB download; PS = PS5 full disc (8 Oct 2026); suggestion: PS5 – JRPG rule says Switch, but the Switch 2 box is effectively a download voucher for a huge game. · One disc = 1.5+2.5 ReMIX, 2.8 and KH III + Re Mind. You only own KH III (PS4). · Other versions: Switch 2 = Game-Key Card, ~131 GB download · PS5 disc is full install · JRPG rule says Switch – but Switch 2 is GKC. Recommendation: PS5. Makes KH III PS4 surplus. · Also on Xbox Series X\|S, but digital only — physical only on PS5 (disc) and Switch 2 (Game-Key Card) (checked 2026-09-28) |
+| Metaphor: ReFantazio | PlayStation 5, Nintendo Switch 2 | high | undecided | PS5 disc; used preferred (price limit not set yet) | Decision: Switch = Switch 2 Game-Key Card (12 Nov 2026); PS = PS5 disc; suggestion: Your call – If you accept Game-Key Cards for JRPGs (you did for Bravely Default HD, Brigandine Abyss, Granblue Relink) → Switch 2; else PS5. · Top-tier Atlus JRPG, not owned. · Other versions: Switch 2 (12 Nov 2026) = Game-Key Card · Decide: Switch 2 GKC (like Bravely Default/Granblue) vs PS5 disc · Switch 2 physical confirmed as Game-Key Card (also a SteelBook GKC edition), 12 Nov 2026 (checked 2026-09-28) |
+| Persona 3 Reload | PlayStation 5, Nintendo Switch 2 | high | undecided | PS5 disc; used preferred (price limit not set yet) | Decision: Switch = Switch 2 Game-Key Card, no DLC; PS = PS5 disc; suggestion: Your call – Same as Metaphor. The Switch 2 version also leaves out Episode Aigis. · Missing Persona entry (own P5R). · Other versions: Switch 2 = Game-Key Card, Episode Aigis DLC not included · Decide: Switch 2 GKC vs PS5 disc · Switch 2 version out since 23 Oct 2025 — physical is a Game-Key Card (checked 2026-09-28) |
 | Resident Evil Requiem | PlayStation 5 | high |  | PS5 disc; used preferred (price limit not set yet) | Only mainline RE missing; your RE line is on PS5. · Other versions: Switch 2 = Game-Key Card |
 | Star Wars Jedi: Survivor | PlayStation 5 | high |  | PS5 disc; new or used, only at a really good price | owned on Steam (STAR WARS Jedi: Survivor™) – only if very cheap, new or used · Single-player Star Wars; you collect SW (Force Unleashed, Bounty Hunter, KOTOR). |
 | Tales of Arise | PlayStation 5, Nintendo Switch 2 | high | undecided | PS5 disc; new or used, only at a really good price | owned on Steam (Tales of ARISE) – only if very cheap, new or used · Decision: Switch = Switch 2 Game-Key Card incl. Beyond the Dawn; PS = PS5 disc (DLC separate); suggestion: Your call – Switch 2 includes the DLC; PS5 gives you a real disc. · Missing modern Tales entry. · Other versions: Switch 2 Beyond the Dawn Ed. (May 2026) = Game-Key Card · Check if a PS5 'Beyond the Dawn' disc edition exists; else DLC digital · Decide: Switch 2 GKC (incl. DLC) vs PS5 disc |
@@ -482,14 +490,18 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Mafia: The Old Country | PlayStation 5 | medium |  | PS5 disc; used preferred (price limit not set yet) | Continues Mafia (own Mafia II). |
 | Marvel's Guardians of the Galaxy | PlayStation 5 | medium |  | PS5 disc; new or used, only at a really good price | owned on Steam (Marvel's Guardians of the Galaxy) – only if very cheap, new or used · Strong single-player Marvel title. · Other versions: Switch 2 = Game-Key Card |
 | Monster Hunter Wilds | PlayStation 5 | medium |  | PS5 disc; used preferred (price limit not set yet) | You own MH Rise/Generations/Stories on Switch; Wilds is solo-playable. · Other versions: Switch 2 = Game-Key Card |
-| Phantom Blade Zero | PlayStation 5 | medium |  | PS5 disc; new (upcoming release, price limit not set yet) | Chinese action game in the Black Myth / Wuchang vein. · Date per official site |
+| Persona 4 Revival | PlayStation 5, Nintendo Switch 2 | medium | undecided |  | Suggested (review 2026-09-28): Persona 4 remake — PS5 / Xbox Series / PC on 18 Feb 2027, Switch 2 on 20 May 2027 (physical format not announced). JRPG rule: Switch if it's a real cart. |
+| Phantom Blade Zero | PlayStation 5 | medium |  | PS5 disc; new (upcoming release, price limit not set yet) | ❓ EU PS5 disc? (only an Asian disc was listed on 2026-09-28) · Chinese action game in the Black Myth / Wuchang vein. · Date per official site · Releases 29 Oct 2026; a PS5 disc is only listed for Asia so far — no EU disc pre-orders (checked 2026-09-28) |
 | Scarlet Nexus | PlayStation 5 | medium |  | PS5 disc; new or used, only at a really good price | owned on Steam (SCARLET NEXUS) – only if very cheap, new or used · Bandai Namco ARPG, no Switch. |
+| Silent Hill: Townfall | PlayStation 5 | medium | undecided | PS5 disc; new or used | Suggested (review 2026-09-28): new Silent Hill (tracked series), out 24 Sep 2026 on PS5 + PC, physical PS5 edition; no Xbox / Switch version. |
 | Star Wars Outlaws | PlayStation 5 | medium |  | PS5 disc; used preferred (price limit not set yet) | Single-player Star Wars. · Other versions: Switch 2 = Game-Key Card |
 | The First Berserker: Khazan | PlayStation 5 | medium |  | PS5 disc; used preferred (price limit not set yet) | Fits your soulslike run (Wuchang, Lords of the Fallen, Mortal Shell). |
+| Tomb Raider: Legacy of Atlantis | PlayStation 5 | medium | watching | PS5 disc (upcoming, 12 Feb 2027) | Suggested (review 2026-09-28): remake of the first Tomb Raider (Crystal Dynamics / Flying Wild Hog), PS5, Xbox Series, PC. Switch version not announced. |
 | Visions of Mana | PlayStation 5 | medium |  | PS5 disc; new or used, only at a really good price | ❓ marked '?' in the checklist – verify before buying · owned on Steam (Visions of Mana) – only if very cheap, new or used · JRPG with no Switch version (own Collection of Mana, Legend of Mana). · Verify no Switch release |
 | Wo Long: Fallen Dynasty | PlayStation 5 | medium |  | PS5 disc; used preferred (price limit not set yet) | Complete Edition · Only Team Ninja action title you're missing (own Nioh 1–3, NG, Rise of the Ronin). · Other versions: Switch 2 = Game-Key Card |
 | Dynasty Warriors: Origins | PlayStation 5 | low |  | PS5 disc; used preferred (price limit not set yet) | Koei Tecmo. · Other versions: Switch 2 = Game-Key Card |
 | Judgment | PlayStation 5 | low |  | PS5 disc; used preferred (price limit not set yet) | RGG detective spin-off. |
+| Kingdom Hearts IV | Nintendo Switch 2, PlayStation 5 | low | watching |  | Suggested (review 2026-09-28): late 2027 on PS5, Xbox Series, Switch 2, PC. Decide once the Switch 2 format (cart vs Game-Key Card) is known. |
 | Kunitsu-Gami: Path of the Goddess | PlayStation 5 | low |  | PS5 disc; used preferred (price limit not set yet) | ❓ marked '?' in the checklist – verify before buying · Capcom new IP. · Other versions: Switch 2 = Game-Key Card · Verify a PS5 disc exists in your region |
 | Like a Dragon Gaiden: The Man Who Erased His Name | PlayStation 5 | low |  | PS5 disc; new or used, only at a really good price | owned on Steam (Like a Dragon Gaiden: The Man Who Erased His Name) – only if very cheap, new or used · RGG series. |
 | Like a Dragon: Ishin! | PlayStation 5 | low |  | PS5 disc; used preferred (price limit not set yet) | RGG series. |
@@ -505,7 +517,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 
 | Title | Platform | Prio | State | Plan / where | Owned on / note |
 |---|---|---|---|---|---|
-| Intergalactic: The Heretic Prophet | PlayStation 5 | low | watching | PS5 disc; new (upcoming release, price limit not set yet) | Next Naughty Dog game – could decide whether you buy the next PlayStation. · No date yet |
+| Intergalactic: The Heretic Prophet | PlayStation 5 | low | watching | PS5 disc; new (upcoming release, price limit not set yet) | Next Naughty Dog game – could decide whether you buy the next PlayStation. · No date yet · Still no date; reports say not before mid-2027 (checked 2026-09-28) |
 
 ### PS5 gaps – Sony China Hero Project (1)
 
@@ -519,11 +531,17 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 |---|---|---|---|---|---|
 | Death Stranding Director's Cut | PlayStation 5 | high |  | PS5 disc; new or used, only at a really good price | owned on Steam (DEATH STRANDING DIRECTOR'S CUT) – only if very cheap, new or used · Prequel to Death Stranding 2 (owned). · Common used |
 
+### Series runs – Call of Duty (1)
+
+| Title | Platform | Prio | State | Plan / where | Owned on / note |
+|---|---|---|---|---|---|
+| Call of Duty: Modern Warfare 4 | Xbox Series X\|S | high | watching | Xbox Series X disc (pre-order candidate) | Suggested (review 2026-09-28): next entry of the complete Xbox CoD run — Infinity Ward, 23 Oct 2026. Also on PS5, PS4/Xbox One and Switch 2; the shooter rule keeps it on Xbox. |
+
 ### Series runs – State of Decay (1)
 
 | Title | Platform | Prio | State | Plan / where | Owned on / note |
 |---|---|---|---|---|---|
-| State of Decay 3 | Xbox Series X\|S | someday | undecided |  | Undead Labs now independent; no longer first-party (Sep 2026) – series-on-one-platform rule would still put it on Xbox |
+| State of Decay 3 | Xbox Series X\|S | someday | undecided |  | Undead Labs now independent; no longer first-party (Sep 2026) – series-on-one-platform rule would still put it on Xbox · Out in 2027 on Xbox Series, PS5 and Steam; Game Pass day one (checked 2026-09-28) |
 
 ### Shooter console suggestions (57)
 
@@ -637,8 +655,8 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 
 | Title | Platform | Prio | Group | State | Plan / where | Owned on / note |
 |---|---|---|---|---|---|---|
-| Gears of War: E-Day | Xbox Series X\|S | high | First-party |  | Pre-ordered (Xbox) | scope layer 1 (Gears / The Coalition) |
-| Fable | PlayStation 5 | high | PS5 gaps – Microsoft 1st-party |  | PS5 disc (pre-ordered) | Pre-ordered on PS5 (Xbox disc only if cheap later). · Already pre-ordered |
+| Gears of War: E-Day | Xbox Series X\|S | high | First-party |  | Pre-ordered (Xbox) | scope layer 1 (Gears / The Coalition) · Releases 6 Oct 2026 (Premium early access from 1 Oct) (checked 2026-09-28) |
+| Fable | PlayStation 5 | high | PS5 gaps – Microsoft 1st-party |  | PS5 disc (pre-ordered) | Pre-ordered on PS5 (Xbox disc only if cheap later). · Already pre-ordered · Delayed to 23 Feb 2027 (PS5, Xbox Series, PC) (checked 2026-09-28) |
 
 ## ✅ Done (72)
 

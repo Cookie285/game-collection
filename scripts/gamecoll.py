@@ -41,6 +41,7 @@ SERIES_DIR = DATA / "series"
 RULES = DATA / "rules.toml"      # collecting rules as data: ids, rationale, auto-tagging patterns
 DECISIONS = DATA / "decisions.toml"  # open questions + decision log (OPEN-QUESTIONS.md is generated from it)
 OPEN_QUESTIONS = ROOT / "OPEN-QUESTIONS.md"
+REVIEWS = ROOT / "reviews"         # dated review reports (what changed in the world since the last check)
 ANNOTATIONS = DATA / "annotations.csv"  # curated notes per game (Steam, surplus, upgrade …) – survive re-imports
 CHANGELOG = ROOT / "CHANGELOG.md"
 README = ROOT / "README.md"
@@ -1047,6 +1048,8 @@ def cmd_export(args) -> None:
         "decisions": [{k: v for k, v in d.items() if not k.startswith("_") and k != "match"}
                       | {"src": src(d), "target_ids": decision_links(d, raw_targets)} for d in load_decisions()],
         "changelog": CHANGELOG.read_text(encoding="utf-8") if CHANGELOG.exists() else "",
+        "reviews": [{"date": f.stem, "md": f.read_text(encoding="utf-8")}
+                    for f in sorted(REVIEWS.glob("*.md"), reverse=True)] if REVIEWS.exists() else [],
     }
     dest = Path(args.out)
     dest.parent.mkdir(parents=True, exist_ok=True)
@@ -1055,6 +1058,193 @@ def cmd_export(args) -> None:
 
 
 # ---------------------------------------------------------------- misc commands
+# ---------------------------------------------------------------- careful TOML edits (keep comments and layout)
+def toml_str(v) -> str:
+    import json
+    if isinstance(v, bool):
+        return "true" if v else "false"
+    if isinstance(v, (int, float)):
+        return str(v)
+    if isinstance(v, (list, tuple)):
+        return "[" + ", ".join(toml_str(x) for x in v) + "]"
+    if isinstance(v, dict):
+        return "{ " + ", ".join(f"{toml_str(k) if not re.fullmatch(r'[A-Za-z0-9_-]+', k) else k} = {toml_str(x)}"
+                                for k, x in v.items()) + " }"
+    return json.dumps(str(v), ensure_ascii=False)
+
+
+def edit_entry(path: Path, header: str, key: str, value: str, set_: dict | None = None,
+               append: dict | None = None) -> None:
+    """Edit the array-of-tables entry `header` (e.g. "[[target]]") whose `key = value`: set keys (replace or insert)
+    and append text to string keys (joined with ' · '). Raises if the entry isn't found exactly once."""
+    lines = path.read_text(encoding="utf-8").split("\n")
+    starts = [i for i, ln in enumerate(lines) if ln.strip() == header]
+    hits = []
+    for n, st in enumerate(starts):
+        end = next((j for j in range(st + 1, len(lines)) if lines[j].startswith("[")), len(lines))
+        if any(re.match(rf"{re.escape(key)}\s*=\s*{re.escape(toml_str(value))}\s*$", lines[j]) for j in range(st + 1, end)):
+            hits.append((st, end))
+    if len(hits) != 1:
+        raise SystemExit(f"{path.name}: {len(hits)} entries with {key} = {value!r} (need exactly 1)")
+    st, end = hits[0]
+    while end > st + 1 and not lines[end - 1].strip():
+        end -= 1
+    data = tomllib.loads("\n".join(["[[x]]"] + lines[st + 1:end]))["x"][0]
+    for k, v in (append or {}).items():
+        old = data.get(k, "")
+        set_ = dict(set_ or {}, **{k: f"{old} · {v}" if old else v})
+    for k, v in (set_ or {}).items():
+        idx = next((j for j in range(st + 1, end) if re.match(rf"{re.escape(k)}\s*=", lines[j])), None)
+        if v is None:
+            if idx is not None:
+                del lines[idx]
+                end -= 1
+            continue
+        line = f"{k} = {toml_str(v)}"
+        if idx is None:
+            lines.insert(end, line)
+            end += 1
+        else:
+            lines[idx] = line
+    text = "\n".join(lines)
+    tomllib.loads(text)  # never write a broken file
+    path.write_text(text, encoding="utf-8")
+
+
+def append_entry(path: Path, header: str, fields: dict, after: tuple[str, str] | None = None) -> None:
+    """Add a new entry at the end of the file, or right after the table whose `after = (key, value)` (for series
+    entries: after the last entry of that series)."""
+    text = path.read_text(encoding="utf-8")
+    block = "\n".join([header] + [f"{k} = {toml_str(v)}" for k, v in fields.items() if v not in (None, "", [])])
+    if after is None:
+        text = text.rstrip("\n") + "\n\n" + block + "\n"
+    else:
+        lines = text.split("\n")
+        at = next(i for i, ln in enumerate(lines) if re.match(rf"{re.escape(after[0])}\s*=\s*{re.escape(toml_str(after[1]))}\s*$", ln))
+        nxt = next((j for j in range(at + 1, len(lines)) if lines[j].strip() == "[[series]]"), len(lines))
+        while nxt > at and not lines[nxt - 1].strip():
+            nxt -= 1
+        lines[nxt:nxt] = ["", *block.split("\n")]
+        text = "\n".join(lines)
+    tomllib.loads(text)
+    path.write_text(text, encoding="utf-8")
+
+
+def cmd_decide(args) -> None:
+    """Record a decision: status = decided, decided = date, outcome (used by the issue form Action too)."""
+    ids = {d["id"] for d in load_decisions()}
+    if args.id not in ids:
+        sys.exit(f"unknown decision id {args.id!r}")
+    status = "dropped" if args.drop else "decided"
+    edit_entry(DECISIONS, "[[decision]]", "id", args.id,
+               set_={"status": status, "decided": args.date or dt.date.today().isoformat(), "outcome": args.outcome})
+    print(f"{args.id}: {status} — {args.outcome}")
+
+
+# ---------------------------------------------------------------- review agenda (what to re-check after an import)
+RUMOUR_RX = re.compile(r"rumou?r|under consideration|announced\?|\blater\b|no (release )?date|TBA|upcoming|"
+                       r"re-test|after GA|not confirmed|unconfirmed|reportedly", re.I)
+
+
+def review_agenda(days_ahead: int = 120, stale_days: int = 30) -> str:
+    """Markdown checklist of everything that can have changed in the world since the data was written."""
+    today = dt.date.today()
+    rows = load_collection()
+    targets = load_targets()
+    ds = load_decisions()
+    R = load_rules()["rules"]
+    st = {id(t): eval_target(t, rows)[0] for t in targets}
+    open_t = [t for t in targets if st[id(t)] in ("open", "ordered")]
+    prio = {"high": 0, "medium": 1, "low": 2, "someday": 3}
+    by_prio = lambda ts: sorted(ts, key=lambda t: (prio.get(t.get("priority", "medium"), 9), norm(t["title"])))
+    tl = lambda t: f"**{t['title']}** [{', '.join(t.get('platforms', []))}] {t.get('priority', 'medium')}" + \
+        (f", {t['state']}" if t.get("state") else "") + f" — `{t['_src'][0]}:{t['_src'][1]}`"
+    out = [f"## Agenda (generated {today.isoformat()})\n",
+           "Generated by `python3 scripts/gamecoll.py review`. Research each item (release dates, platforms, "
+           "physical formats, store status), update the data, and record findings below with sources.\n"]
+
+    def sec(title, items, hint=""):
+        out.append(f"### {title} ({len(items)})\n")
+        if hint:
+            out.append(f"_{hint}_\n")
+        out.extend(f"- [ ] {i}" for i in items) if items else out.append("- nothing")
+        out.append("")
+
+    # 1. decisions with a date soon (release dates, pre-order windows)
+    due = sorted((d for d in ds if d["status"] == "open" and d.get("due")), key=lambda d: d["due"])
+    sec("Decisions with a date", [f"{d['due']} — **{d['question']}** (`{d['id']}`)" +
+                                  (" ⚠️ passed" if d["due"] < today.isoformat() else "")
+                                  for d in due if (dt.date.fromisoformat(d["due"]) - today).days <= days_ahead],
+        "Still on that date? Platforms / formats unchanged (Game-Key Card vs full cart, disc on Xbox)?")
+    # 2. watching / pre-ordered / undecided targets
+    sec("Watching, pre-ordered or undecided (high / medium)",
+        [tl(t) for t in by_prio(open_t) if t.get("state") in ("watching", "preordered", "undecided")
+         and t.get("priority", "medium") in ("high", "medium")],
+        "New release dates, delays, new platform versions, price drops, pre-order status.")
+    # 3. rumours and things that were 'not yet' when written
+    sec("Rumours, 'later', 'no date', re-tests",
+        [tl(t) + f" — “{m.group(0)}”" for t in by_prio(open_t)
+         for m in [RUMOUR_RX.search(t.get("note", "") + " " + t.get("plan", ""))] if m],
+        "Has the rumour been confirmed / denied, the date announced, the re-test done?")
+    # 4. research questions from decisions.toml
+    sec("Open research questions", [f"**{d['question']}** (`{d['id']}`)" for d in ds
+                                    if d["status"] == "open" and d["kind"] == "research"])
+    # 5. stale dated facts
+    stale = []
+    for t in open_t:
+        for p in note_parts(t.get("note", "")):
+            if p.get("date") and (today - dt.date.fromisoformat(p["date"])).days > stale_days:
+                stale.append(tl(t) + f" — {p['text']}")
+    sec(f"Dated facts older than {stale_days} days", stale)
+    # 6. verify flags on important targets
+    sec("Marked to verify (high / medium)", [tl(t) + f" — ❓ {t['verify']}" for t in by_prio(open_t)
+                                             if t.get("verify") and t.get("priority", "medium") in ("high", "medium")])
+    # 7. important targets where only the planned platform is known
+    have = defaultdict(set)
+    for r in rows:
+        if r["status"] in HAVE:
+            have[norm(r["title"])].add(r["platform"])
+    thin = [t for t in by_prio(open_t) if t.get("priority") == "high"
+            and len(derive_formats(t, have.get(norm(t["title"]), set()))) < 2]
+    sec("High priority, other platforms unknown", [tl(t) for t in thin],
+        "Check other versions (Switch 2 cart or Game-Key Card? Xbox disc? PC?) and add `versions = { … }`.")
+    # 8. series: new entries / remasters announced?
+    series = load_series()
+    sec("Series to scan for new entries, remasters or ports",
+        [f"**{s['name']}** ({', '.join(s.get('platforms', []))}) — {len(s.get('entry', []))} entries" for s in series],
+        "New mainline entry, remaster or collection announced? Add it to the series and, if it fits the rules, as a target.")
+    # 9. platform-level news
+    sec("Platform-level news", [
+        "Switch 2: new full-cart vs Game-Key Card policy changes; big third-party ports announced",
+        "PlayStation: next-gen / disc-drive news (rule `no-next-playstation`), Intergalactic date",
+        "Xbox: Disc-to-Digital general availability and results; Xbox Store delistings (360 / OG BC); first-party games coming to PS5 / Switch 2",
+        "PC: Steam versions of targets that are 'not on PC' yet",
+    ])
+    return "\n".join(out)
+
+
+def cmd_review(args) -> None:
+    agenda = review_agenda(args.days)
+    if not args.write:
+        print(agenda)
+        return
+    REVIEWS.mkdir(exist_ok=True)
+    path = REVIEWS / f"{dt.date.today().isoformat()}.md"
+    if path.exists():
+        sys.exit(f"{path.relative_to(ROOT)} exists already — edit it, or delete it to start over")
+    last = CHANGELOG.read_text(encoding="utf-8").split("\n## ")[1].split("\n", 1)[0] if CHANGELOG.exists() and "\n## " in CHANGELOG.read_text(encoding="utf-8") else "—"
+    path.write_text("\n".join([
+        f"# Collection review — {dt.date.today().isoformat()}\n",
+        f"Import: {last}\n",
+        "## Summary\n", "_What changed and what needs a decision — filled in after the research._\n",
+        "## Changes made\n", "| Item | Change | Source |", "|---|---|---|", "",
+        "## Needs your decision\n", "- \n",
+        "## Sources\n", "- \n",
+        agenda,
+    ]) + "\n", encoding="utf-8")
+    print(f"wrote {path.relative_to(ROOT)} — fill in Summary / Changes / Sources")
+
+
 def cmd_find(args) -> None:
     q = norm(" ".join(args.text))
     hits = [r for r in load_collection() if q in norm(r["title"]) or q in norm(r["edition"])]
@@ -1205,6 +1395,16 @@ def main() -> None:
     p.add_argument("text", nargs="+")
     p.set_defaults(fn=cmd_find)
     sub.add_parser("check").set_defaults(fn=cmd_check)
+    p = sub.add_parser("decide", help="record a decision in data/decisions.toml")
+    p.add_argument("id")
+    p.add_argument("--outcome", required=True)
+    p.add_argument("--date", help="YYYY-MM-DD (default today)")
+    p.add_argument("--drop", action="store_true", help="mark as dropped instead of decided")
+    p.set_defaults(fn=cmd_decide)
+    p = sub.add_parser("review", help="print the research agenda for a collection review (--write: start reviews/<date>.md)")
+    p.add_argument("--write", action="store_true")
+    p.add_argument("--days", type=int, default=120, help="look-ahead for dated decisions (default 120)")
+    p.set_defaults(fn=cmd_review)
     p = sub.add_parser("export", help="write site/data.json for the web frontend")
     p.add_argument("out", nargs="?", default=str(ROOT / "site" / "data.json"))
     p.set_defaults(fn=cmd_export)

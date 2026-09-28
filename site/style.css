@@ -561,3 +561,17 @@ table.matrix { margin-top: 8px; font-size: 13px; }
 .wiz-out { position: sticky; top: 80px; }
 .wiz-plan { font-size: 14px; padding: 10px 12px; border-radius: 10px; border: 1px solid var(--border); margin: 10px 0; }
 .linkish { border: 0; background: none; padding: 0; color: var(--accent); font-weight: 600; cursor: pointer; }
+
+/* ------------------------------------------------ reviews / markdown */
+.md h3 { font-size: 16px; margin: 20px 0 8px; }
+.md h4 { font-size: 14px; margin: 16px 0 6px; color: var(--muted); }
+.md a { color: var(--accent); }
+.md table { font-size: 13px; margin: 8px 0 16px; }
+.md td, .md th { padding: 8px 10px; }
+.md li { margin: 3px 0; }
+.md li.done { color: var(--muted); }
+.md li .box { font-size: 14px; }
+.md li.done .box { color: var(--good); }
+.review-card { padding: 16px 22px; }
+.review-card ul { margin: 0; padding-left: 18px; }
+.md li.sub { margin-left: 22px; list-style: circle; }

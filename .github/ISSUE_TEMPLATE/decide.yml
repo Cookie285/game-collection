@@ -1,0 +1,31 @@
+name: ⚖️ Record a decision
+description: Decide an open question from the web app's Decisions page. Only issues opened by the repo owner are applied.
+title: "Decide: "
+labels: ["decision"]
+body:
+  - type: input
+    id: decision_id
+    attributes:
+      label: Decision id
+      description: The id shown on the Decisions page (grey code next to the question), e.g. kh-collection-platform
+      placeholder: kh-collection-platform
+    validations:
+      required: true
+  - type: dropdown
+    id: status
+    attributes:
+      label: Status
+      options:
+        - decided
+        - dropped
+      default: 0
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Outcome
+      description: What you decided and why — one or two sentences. Update the affected targets afterwards (or ask Claude to).
+      placeholder: "PS5 disc — the Switch 2 box is only a download licence for a 131 GB game."
+    validations:
+      required: true

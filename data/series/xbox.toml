@@ -126,6 +126,11 @@ year = 2020
 optional = true
 note = "Digital-only – nothing to collect"
 
+[[series.entry]]
+title = "Call of Duty: Modern Warfare 4"
+year = 2026
+note = "Announced — 23 Oct 2026 (review 2026-09-28)"
+
 [[series]]
 platforms = ["xbox"]
 name = "Battlefield"

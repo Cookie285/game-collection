@@ -1,0 +1,56 @@
+name: Record decision
+
+# A "⚖️ Record a decision" issue (label: decision) opened by the repo owner is written into
+# data/decisions.toml (status, decided date, outcome), views are re-rendered and the issue is closed.
+on:
+  issues:
+    types: [opened, edited]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: clz-import   # same group as the import workflow: never two writers at once
+  cancel-in-progress: false
+
+jobs:
+  decide:
+    if: (contains(github.event.issue.labels.*.name, 'decision') || startsWith(github.event.issue.title, 'Decide:')) && github.event.issue.author_association == 'OWNER'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Apply the decision
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}   # passed as data, never interpolated into the script
+        run: |
+          python3 - <<'PY'
+          import os, re, subprocess, sys
+          body = os.environ["ISSUE_BODY"]
+          field = lambda name: (re.search(rf"### {name}\s*\n+(.*?)(?=\n### |\Z)", body, re.S) or [None, ""])[1].strip()
+          did, status, outcome = field("Decision id"), field("Status"), field("Outcome")
+          if not re.fullmatch(r"[a-z0-9-]+", did) or not outcome or outcome == "_No response_":
+              sys.exit(f"bad form: id={did!r} outcome={outcome!r}")
+          cmd = ["python3", "scripts/gamecoll.py", "decide", did, "--outcome", " ".join(outcome.split())]
+          if status == "dropped":
+              cmd.append("--drop")
+          subprocess.run(cmd, check=True)
+          with open(os.environ["GITHUB_ENV"], "a") as f:
+              f.write(f"DECISION_ID={did}\n")
+          PY
+          python3 scripts/gamecoll.py check
+          python3 scripts/gamecoll.py render
+      - name: Commit and close
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE: ${{ github.event.issue.number }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898699+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "Decision: $DECISION_ID (#$ISSUE)"
+          git push
+          gh issue close "$ISSUE" --comment "Recorded \`$DECISION_ID\` in data/decisions.toml — the web app updates in about a minute. Remember to update the affected targets (state / plan)."

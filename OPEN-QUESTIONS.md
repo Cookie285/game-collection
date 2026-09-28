@@ -4,7 +4,7 @@
 
 Generated from [`data/decisions.toml`](data/decisions.toml) — edit there (options, recommendation; `status = "decided"` + `outcome` when decided). Also on the web app's **Decisions** page.
 
-## Decisions (24)
+## Decisions (25)
 
 ### General
 
@@ -19,12 +19,13 @@ Generated from [`data/decisions.toml`](data/decisions.toml) — edit there (opti
 - [ ] **Kingdom Hearts Collection [I–III]: PS5 disc or Switch 2 Game-Key Card?** _(due 2026-10-08)_ — options: PS5 disc / Switch 2 Game-Key Card — suggestion: PS5 — the JRPG rule says Switch, but the Switch 2 box is effectively a download voucher for a huge game.
 - [ ] **Metaphor: ReFantazio: Switch 2 Game-Key Card or PS5 disc?** _(due 2026-11-12)_ — options: Switch 2 Game-Key Card / PS5 disc — suggestion: Your call — if Game-Key Cards are accepted for JRPGs (as for Bravely Default HD, Brigandine Abyss, Granblue Relink) → Switch 2; else PS5.
 - [ ] **GTA VI: pre-order or not?** _(due 2026-11-19)_ — options: Pre-order the PS5 disc / Buy later / used
+- [ ] **Persona 4 Revival: PS5 disc in Feb 2027, or wait for Switch 2 in May 2027?** _(due 2027-02-18)_ — suggestion: Wait for the Switch 2 format: a real cart → Switch (JRPG rule); a Game-Key Card → same call as Persona 3 Reload / Metaphor.
 - [ ] **Persona 3 Reload: Switch 2 Game-Key Card or PS5 disc?** — options: Switch 2 Game-Key Card / PS5 disc — suggestion: Your call — same reasoning as Metaphor.
 - [ ] **Tales of Arise: Switch 2 Game-Key Card or PS5 disc?** — options: Switch 2 Game-Key Card / PS5 disc / Neither — keep the Steam copy — suggestion: Your call.
 - [ ] **Hogwarts Legacy: Switch 1 cart or PS5 disc?** — options: Switch 1 cart / PS5 disc — suggestion: PS5 — the rule says Switch 1 cart, but it's by far the weakest version.
 - [ ] **Clair Obscur: Expedition 33: buy on PS5 now, or wait for the rumoured Switch 2 port?** — options: PS5 disc now / Wait for Switch 2
 - [ ] **Like a Dragon / Yakuza: start collecting the series on disc?** — options: Collect on disc (PS5 / PS4) / Stay on Steam
-- [ ] **Could Intergalactic change the “no next PlayStation” decision?** — Next Naughty Dog game — no release date yet.
+- [ ] **Could Intergalactic change the “no next PlayStation” decision?** — Next Naughty Dog game — no release date yet. · Intergalactic still has no date — reports say not before mid-2027 (checked 2026-09-28)
 - [ ] **Surplus discs — keep or sell?** — options: Keep as collection pieces / Sell
 - [ ] **Which optional upgrades are worth buying?** — TLOU Part I, Ghost of Tsushima DC, FF VII Remake Intergrade, TLOU II Remastered, Legacy of Thieves, HZD Remastered, Until Dawn 2024, GTA V PS5, RDR PS4, Tomb Raider DE.
 
@@ -46,15 +47,16 @@ Generated from [`data/decisions.toml`](data/decisions.toml) — edit there (opti
 
 - [ ] **Verify all targets / series entries marked ❓** — E.g. EU disc releases of Quest for Booty, inFamous First Light, Castlevania Requiem, Lost Soul Aside, Kunitsu-Gami; whether Trails of Cold Steel I/II, Visions of Mana, One Piece Odyssey ever got a Switch cart; Code Vein II details; PAL releases of Wild ARMs 4/5, Atelier Iris 1–3, Magna Carta; Mafia: Trilogy disc contents.
 
-- [ ] **Hellblade II: does the EU Xbox box contain a real disc or only a code?** — If it's code-in-box → treat like Avowed.
-- [ ] **Halo: The Master Chief Collection — was a PS5 version announced?** — Affects the “Xbox-exclusive” status only; already owned.
-- [ ] **Disc-to-Digital: general availability date; re-test Forza discs; test more discs** — Re-test FM5/6/7, FH3/4 after GA; test Doom Eternal, Titanfall 2, Dead Rising 4, Killer Instinct (KI Classic sub-licences), Halo Wars 2 (bundled Halo Wars: DE?).
+- [ ] **Phantom Blade Zero: will there be an EU PS5 disc?** _(due 2026-10-29)_ — Releases 29 Oct 2026; only an Asian PS5 disc was listed on 2026-09-28. No disc → physical-first says import the Asian disc or skip.
+
+- [ ] **Hellblade II: does the EU Xbox box contain a real disc or only a code?** — If it's code-in-box → treat like Avowed. · Amazon.de lists it only as a download code; no EU disc found yet (checked 2026-09-28)
+- [ ] **Halo: The Master Chief Collection — was a PS5 version announced?** — Affects the “Xbox-exclusive” status only; already owned. · Not announced (checked 2026-09-28)
+- [ ] **Disc-to-Digital: general availability date; re-test Forza discs; test more discs** — Re-test FM5/6/7, FH3/4 after GA; test Doom Eternal, Titanfall 2, Dead Rising 4, Killer Instinct (KI Classic sub-licences), Halo Wars 2 (bundled Halo Wars: DE?). · Still an Insider rollout that keeps widening (Sep 2026); general availability only “in the coming months” (checked 2026-09-28)
 - [ ] **Disc-to-Digital edge cases: lending, second account on the same console, offline, account recovery, family sharing**
 - [ ] **360/OG store status (disc if delisted, digital if listed)** — Fable III, Split/Second, Otogi 1/2, Earth Defense Force 2017.
 - [ ] **Backward-compatibility status of a few 360 / OG titles** — Battlefield 2: Modern Combat (360), Transformers: War for Cybertron / Fall of Cybertron, Medal of Honor: Warfighter, Far Cry OG/360 entries.
 - [ ] **Store status of Battlefield 3 and Hardline digital listings (informational, owned on disc)**
 - [ ] **Killer Instinct: which disc edition is owned (Definitive Edition?)**
-- [ ] **Fable: release date**
 
 ## CLZ data fixes (5)
 
@@ -64,8 +66,9 @@ Generated from [`data/decisions.toml`](data/decisions.toml) — edit there (opti
 - [ ] **KOTOR II listed twice on Switch (two spellings)**
 - [ ] **“Tales Of Xillia” casing**
 
-## Decision log (5)
+## Decision log (6)
 
+- ✅ 2026-09-28 — **Fable: release date** → 23 Feb 2027 on PS5, Xbox Series and PC (delayed from autumn 2026)
 - ✅ earlier — **Non-JRPGs whose Switch 2 version is a Game-Key Card: Switch 2 or PS5?** → PS5 disc — Pragmata, Onimusha: Way of the Sword, Full Metal Schoolgirl. Became the rule “Game-Key Card ≠ physical”.
 - ✅ earlier — **JRPGs only available as Switch 2 Game-Key Card?** → Case by case — Bravely Default HD Remaster, Brigandine Abyss, Granblue Fantasy: Relink bought as Game-Key Card.
 - ✅ earlier — **Microsoft games whose only / first disc is on PS5?** → Buy on PS5 — Halo: Campaign Evolved bought on PS5, Fable pre-ordered on PS5; Gears of War: Reloaded only when very cheap.

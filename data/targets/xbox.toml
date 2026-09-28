@@ -85,7 +85,7 @@ title = "Halo: The Master Chief Collection"
 platforms = ["Xbox One"]
 priority = "high"
 group = "Checklist (Disc-to-Digital) + First-party"
-note = "Check whether MCC was announced for PS5 before buying.; scope layer 1 (Halo / 343 (Halo Studios))"
+note = "Check whether MCC was announced for PS5 before buying.; scope layer 1 (Halo / 343 (Halo Studios)) · No PS5 version announced (only Halo: Campaign Evolved came to PS5, July 2026) (checked 2026-09-28)"
 
 [[target]]
 title = "Halo Infinite"
@@ -279,7 +279,7 @@ priority = "high"
 group = "First-party"
 plan = "Pre-ordered (Xbox)"
 state = "preordered"
-note = "scope layer 1 (Gears / The Coalition)"
+note = "scope layer 1 (Gears / The Coalition) · Releases 6 Oct 2026 (Premium early access from 1 Oct) (checked 2026-09-28)"
 
 [[target]]
 title = "Forza Motorsport"
@@ -349,7 +349,7 @@ priority = "low"
 group = "First-party"
 plan = "Xbox disc only if really cheap later"
 state = "watching"
-note = "scope layer 1 (Fable / Playground); PS5 copy pre-ordered (see Part 1)"
+note = "scope layer 1 (Fable / Playground); PS5 copy pre-ordered (see Part 1) · Delayed to 23 Feb 2027 (PS5, Xbox Series, PC) (checked 2026-09-28)"
 
 [[target]]
 title = "Sea of Thieves"
@@ -539,7 +539,7 @@ platforms = ["Xbox Series X|S"]
 priority = "medium"
 group = "First-party"
 plan = "used disc"
-note = "scope layer 1 (Ninja Theory); Ninja Theory at risk of closure (Sep 2026)"
+note = "scope layer 1 (Ninja Theory); Ninja Theory at risk of closure (Sep 2026) · Amazon.de lists the Xbox Series version only as a download code; no EU disc found (checked 2026-09-28)"
 verify = "verify the EU Xbox box contains a real disc, not a code – if code-in-box, treat like Avowed"
 
 [[target]]
@@ -2330,7 +2330,7 @@ platforms = ["Xbox Series X|S"]
 priority = "someday"
 group = "Series runs – State of Decay"
 state = "undecided"
-note = "Undead Labs now independent; no longer first-party (Sep 2026) – series-on-one-platform rule would still put it on Xbox"
+note = "Undead Labs now independent; no longer first-party (Sep 2026) – series-on-one-platform rule would still put it on Xbox · Out in 2027 on Xbox Series, PS5 and Steam; Game Pass day one (checked 2026-09-28)"
 
 [[target]]
 title = "Project Gotham Racing"
@@ -2507,3 +2507,12 @@ priority = "someday"
 group = "Shelf-only non-BC (not collecting)"
 state = "skip"
 note = "Not backward compatible (or Kinect) – shelf only; not collecting"
+
+[[target]]
+title = "Call of Duty: Modern Warfare 4"
+platforms = ["Xbox Series X|S"]
+priority = "high"
+group = "Series runs – Call of Duty"
+state = "watching"
+plan = "Xbox Series X disc (pre-order candidate)"
+note = "Suggested (review 2026-09-28): next entry of the complete Xbox CoD run — Infinity Ward, 23 Oct 2026. Also on PS5, PS4/Xbox One and Switch 2; the shooter rule keeps it on Xbox."
