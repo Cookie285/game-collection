@@ -2,7 +2,7 @@
 
 # PlayStation 4
 
-## Owned (49)
+## Owned (50)
 
 | Title | Edition | Format | Region | Completeness | Purchased | Notes |
 |---|---|---|---|---|---|---|
@@ -40,6 +40,7 @@
 | Resident Evil 5 |  |  |  |  |  | Also owned on Steam (Resident Evil 5) |
 | Resident Evil 6 |  |  |  |  |  | Also owned on Steam (Resident Evil 6) |
 | Resident Evil Origins Collection |  |  |  |  |  | Covers Resident Evil (HD Remaster) + Resident Evil 0 · Also owned on Steam (Resident Evil + Resident Evil 0) |
+| Resident Evil: Revelations |  |  |  |  |  |  |
 | Resident Evil: Revelations 2 |  |  |  |  |  | Also owned on Steam (Resident Evil Revelations 2) |
 | Sakura Wars |  |  |  |  |  |  |
 | Samurai Shodown |  |  |  |  |  |  |

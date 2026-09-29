@@ -2,7 +2,7 @@
 
 # Xbox One
 
-## Owned (44)
+## Owned (46)
 
 | Title | Edition | Format | Region | Completeness | Purchased | Notes |
 |---|---|---|---|---|---|---|
@@ -36,6 +36,7 @@
 | Halo Wars 2 |  |  |  |  |  |  |
 | Killer Instinct |  |  |  |  |  | ❓ disc edition (Definitive Edition?) not confirmed |
 | LEGO Harry Potter Collection |  |  |  |  |  | Compilation: LEGO Harry Potter Years 1–4 + Years 5–7 |
+| Moving Out |  |  |  |  |  |  |
 | Ori and the Blind Forest |  |  |  |  |  | Also owned on Steam (Ori and the Blind Forest) |
 | Ori and the Will of the Wisps |  |  |  |  |  |  |
 | Overcooked! + Overcooked! 2 |  |  |  |  |  | Compilation: Overcooked! + Overcooked! 2 |
@@ -44,6 +45,7 @@
 | Sea of Thieves |  |  |  |  |  |  |
 | State of Decay 2 |  |  |  |  |  |  |
 | State of Decay: Year One Survival Edition |  |  |  |  |  | Covers State of Decay (2013) incl. DLC |
+| Strange Brigade |  |  |  |  |  |  |
 | Sunset Overdrive |  |  |  |  |  |  |
 | Super Lucky's Tale |  |  |  |  |  |  |
 | Titanfall |  |  |  |  |  | Disc-to-Digital reported working by community testers (Sep 2026) |

@@ -2,14 +2,14 @@
 
 # Overview
 
-_Updated 2026-09-28._
+_Updated 2026-09-29._
 
 ## By platform
 
 | Platform | Owned | Ordered | Wishlist |
 |---|---|---|---|
 | [PC](platforms/pc.md) | 1 | 0 | 0 |
-| [Nintendo Switch 2](platforms/nintendo-switch-2.md) | 39 | 0 | 0 |
+| [Nintendo Switch 2](platforms/nintendo-switch-2.md) | 40 | 0 | 0 |
 | [Nintendo Switch](platforms/nintendo-switch.md) | 400 | 0 | 0 |
 | [Wii U](platforms/wii-u.md) | 12 | 0 | 0 |
 | [Nintendo 64](platforms/nintendo-64.md) | 7 | 0 | 0 |
@@ -19,21 +19,21 @@ _Updated 2026-09-28._
 | [Game Boy Color](platforms/game-boy-color.md) | 5 | 0 | 0 |
 | [Game Boy](platforms/game-boy.md) | 7 | 0 | 0 |
 | [PlayStation 5](platforms/playstation-5.md) | 62 | 1 | 0 |
-| [PlayStation 4](platforms/playstation-4.md) | 49 | 0 | 0 |
+| [PlayStation 4](platforms/playstation-4.md) | 50 | 0 | 0 |
 | [PlayStation 3](platforms/playstation-3.md) | 103 | 0 | 0 |
 | [PlayStation 2](platforms/playstation-2.md) | 5 | 0 | 0 |
 | [PlayStation](platforms/playstation.md) | 17 | 0 | 0 |
 | [PlayStation Vita](platforms/playstation-vita.md) | 4 | 0 | 0 |
 | [PSP](platforms/psp.md) | 10 | 0 | 0 |
-| [Xbox Series X\|S](platforms/xbox-series-x-s.md) | 16 | 1 | 0 |
-| [Xbox One](platforms/xbox-one.md) | 44 | 0 | 0 |
+| [Xbox Series X\|S](platforms/xbox-series-x-s.md) | 20 | 1 | 0 |
+| [Xbox One](platforms/xbox-one.md) | 46 | 0 | 0 |
 | [Xbox 360](platforms/xbox-360.md) | 13 | 0 | 3 |
 | [Xbox](platforms/xbox.md) | 1 | 0 | 2 |
-| **Total** | **825** | **2** | **5** |
+| **Total** | **833** | **2** | **5** |
 
 ## Buy plan
 
-⬜ 416 open · 🕒 2 ordered · ✅ 72 done — see [gaps.md](gaps.md)
+⬜ 412 open · 🕒 2 ordered · ✅ 76 done — see [gaps.md](gaps.md)
 
 ## Series
 
@@ -63,7 +63,7 @@ _Updated 2026-09-28._
 | Final Fantasy | 12/20 | 3 |
 | Kingdom Hearts | 1/7 |  |
 | Tales of | 6/10 | 1 |
-| Trails (The Legend of Heroes) | 6/14 | 3 |
+| Trails (The Legend of Heroes) | 7/14 | 3 |
 | Star Ocean | 4/6 |  |
 | NieR / Drakengard | 1/5 | 2 |
 | Persona | 1/4 | 1 |

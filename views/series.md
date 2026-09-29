@@ -234,7 +234,7 @@ Series Tracker tab
 | ✅ | Resident Evil 7: Biohazard | 2017 | PlayStation 5 |
 | ✅ | Resident Evil Village | 2021 | PlayStation 5 |
 | ⬜ | Resident Evil Requiem | 2026 |  |
-| ➖ | Resident Evil: Revelations | 2012 | Spin-off; owned on Steam |
+| ✅ | Resident Evil: Revelations | 2012 | PlayStation 4 |
 | ✅ | Resident Evil: Revelations 2 | 2015 | PlayStation 4 |
 | ✅ | Resident Evil: Operation Raccoon City | 2012 | PlayStation 3 |
 | ⬜ | Resident Evil – Code: Veronica (2027 remake) | 2027 | Remake confirmed by Capcom for 2027 (checked 2026-09-28) |
@@ -340,7 +340,7 @@ Series Tracker tab – mainline entries released in the West
 | 💻 | Tales of Arise | 2021 | Owned on Steam; platform decision open |
 | ⬜ | Tales of Eternia | 2000 | ❓ only mentioned via the Switch 2 Game-Key Card list |
 
-## Trails (The Legend of Heroes) — 6/14 (+3 💻 Steam)
+## Trails (The Legend of Heroes) — 7/14 (+3 💻 Steam)
 
 Series Tracker tab
 
@@ -360,7 +360,7 @@ Series Tracker tab
 | ✅ | The Legend of Heroes: Trails through Daybreak II | 2022 | Nintendo Switch |
 | ✅ | The Legend of Heroes: Trails beyond the Horizon | 2024 | Nintendo Switch |
 | ✅ | The Legend of Nayuta: Boundless Trails | 2012 | Nintendo Switch |
-| ⬜ | Trails in the Sky 2nd Chapter | 2026 | Switch physical 29 Sep 2026 (EU) (review 2026-09-28) |
+| ✅ | Trails in the Sky 2nd Chapter | 2026 | Nintendo Switch 2 |
 
 ## Star Ocean — 4/6
 
