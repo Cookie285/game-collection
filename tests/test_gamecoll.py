@@ -1,7 +1,9 @@
 """Unit tests for scripts/gamecoll.py — stdlib only: python3 -m unittest discover -s tests"""
+import io
 import sys
 import tempfile
 import unittest
+from contextlib import redirect_stdout
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts"))
@@ -77,6 +79,25 @@ class TomlEdits(unittest.TestCase):
     def test_append_entry_valid(self):
         g.append_entry(self.path, "[[target]]", {"title": 'Quote "me"', "platforms": ["PC"]})
         self.assertEqual(g.tomllib.loads(self.path.read_text(encoding="utf-8"))["target"][2]["title"], 'Quote "me"')
+
+
+class AskQuestion(unittest.TestCase):
+    def test_ask_adds_open_question_once(self):
+        from types import SimpleNamespace as NS
+        from unittest import mock
+        path = Path(tempfile.mkdtemp()) / "decisions.toml"
+        path.write_text('[[decision]]\nid = "old"\nquestion = "Q?"\narea = "all"\n', encoding="utf-8")
+        args = NS(question='Which "X" games?\nsecond line', issue=12, id=None, area="xbox", kind="research",
+                  context='Details with "quotes"', date="2026-09-29")
+        with mock.patch.object(g, "DECISIONS", path), mock.patch.object(g, "ROOT", path.parent), redirect_stdout(io.StringIO()):
+            g.cmd_ask(args)
+            d = g.tomllib.loads(path.read_text(encoding="utf-8"))["decision"][1]
+            self.assertEqual((d["id"], d["issue"], d["asked"], d["kind"]), ("q-12", 12, "2026-09-29", "research"))
+            self.assertEqual(d["question"], 'Which "X" games? second line')
+            with self.assertRaises(SystemExit):
+                g.cmd_ask(args)  # same issue twice
+            with self.assertRaises(SystemExit):
+                g.cmd_ask(NS(**{**vars(args), "issue": 13, "area": "moon"}))
 
 
 class Covers(unittest.TestCase):

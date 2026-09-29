@@ -34,9 +34,19 @@ platform-level news. Also look at what the import changed (newly owned games tic
 Use WebSearch / WebFetch. Prefer publisher / platform-holder pages and established outlets (Nintendo Life,
 Push Square, Pure Xbox, Eurogamer, VGC, IGN, GamesRadar, Gematsu); for Game-Key Card vs full cart check
 Nintendo Life / retailer listings; for Xbox store status and backward compatibility check the Xbox store / BC list.
-Work the agenda top to bottom; at minimum cover every **dated decision**, every **watching / pre-ordered / undecided
+Work the agenda top to bottom; **questions the user asked come first** (see below). At minimum cover every **dated decision**, every **watching / pre-ordered / undecided
 high-priority target**, every **rumour**, the **research questions** and **platform-level news**. Scan the series
 for newly announced entries (quick search per franchise; batch obvious ones). Note the date and URL of every fact.
+
+### Questions the user asked
+
+Asked via the web app's **❓ Ask a question** button (issue form `ask.yml` → *Record question* Action →
+`gamecoll.py ask`), or in chat ("add this as a question": run `python3 scripts/gamecoll.py ask "<question>" --id <slug>
+--area <area> --context "<what they said>"`). They are open `[[decision]]` entries with `asked` (and `issue`) and no
+`recommendation`. For each: research it like any agenda item, then fill `context` (facts with dates + sources),
+`[[decision.option]]`s with pros / cons, `targets` (existing buy-plan titles it affects; add missing ones as
+suggestions) and `recommendation`. Reply on the issue with a short answer + link to the Decisions page and close the
+issue — the decision itself stays open until the user decides (⚖️ Record a decision form).
 
 ## 4. Update the data (never decide for the user)
 

@@ -1,0 +1,60 @@
+name: Record question
+
+# A "❓ Ask a question" issue (label: question) opened by the repo owner is added to data/decisions.toml as an open
+# question (asked = today, issue = number); it shows on the Decisions page right away. Claude answers it at the next
+# collection review (the agenda lists unanswered questions first), replies on the issue and closes it.
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: clz-import   # same group as the other writers: never two at once
+  cancel-in-progress: false
+
+jobs:
+  ask:
+    if: (contains(github.event.issue.labels.*.name, 'question') || startsWith(github.event.issue.title, 'Ask:')) && github.event.issue.author_association == 'OWNER'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Add the question
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}   # passed as data, never interpolated into the script
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE: ${{ github.event.issue.number }}
+        run: |
+          python3 - <<'PY'
+          import os, re, subprocess, sys
+          body = os.environ.get("ISSUE_BODY") or ""
+          field = lambda name: (re.search(rf"### {re.escape(name)}\s*\n+(.*?)(?=\n### |\Z)", body, re.S) or [None, ""])[1].strip()
+          q = re.sub(r"^\s*Ask:\s*", "", os.environ["ISSUE_TITLE"]).strip()
+          area = field("Area") or "all"
+          kind = "research" if field("What do you need?").startswith("Find") else "decision"
+          details = field("Details")
+          if details == "_No response_":
+              details = ""
+          if not q:
+              sys.exit("empty question")
+          subprocess.run(["python3", "scripts/gamecoll.py", "ask", q, "--issue", os.environ["ISSUE"], "--area", area,
+                          "--kind", kind, "--context", details], check=True)
+          PY
+          python3 scripts/gamecoll.py check
+          python3 scripts/gamecoll.py render
+      - name: Commit and reply
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE: ${{ github.event.issue.number }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898699+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "Question: q-$ISSUE (#$ISSUE)"
+          git push
+          gh issue comment "$ISSUE" --body "Recorded as \`q-$ISSUE\` — it's on the Decisions page now (🙋 waiting for an answer). Claude answers it at the next collection review (monthly, or say \"answer my open questions\" in a Claude session), replies here and closes this issue."

@@ -54,7 +54,7 @@ _Updated 2026-09-29._
 
 ### Buy plan
 
-⬜ 412 open · 🕒 2 ordered · ✅ 76 done — see [gaps.md](views/gaps.md)
+⬜ 414 open · 🕒 2 ordered · ✅ 76 done — see [gaps.md](views/gaps.md)
 
 ### Series
 
@@ -193,6 +193,12 @@ Reports show on the web app's **Changelog → Reviews** tab and the latest one o
 **Recording a decision from the phone:** on the web app, open a question → **⚖️ Record it on GitHub** → a short issue
 form. The *Record decision* Action (only for issues you open) writes `status`, `decided` and `outcome` into
 `data/decisions.toml`, re-renders and closes the issue. Locally: `python3 scripts/gamecoll.py decide <id> --outcome "…"`.
+
+**Asking for advice:** Decisions page → **❓ Ask a question** → a short issue form (question in the title, area,
+details). The *Record question* Action (only for issues you open) adds it to `data/decisions.toml` as an open
+question marked 🙋 *waiting for an answer*. The next review (monthly, or "answer my open questions" in a Claude
+session) researches it, fills in facts, options and a recommendation, replies on the issue and closes it — you still
+decide with ⚖️ *Record it on GitHub*. Locally: `python3 scripts/gamecoll.py ask "…" --id <slug> --area xbox`.
 
 **Monthly review:** a scheduled Claude routine runs the same playbook on the 1st of every month (no export needed)
 and opens a PR with the report — merge it or comment on it.

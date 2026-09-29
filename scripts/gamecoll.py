@@ -1148,6 +1148,23 @@ def cmd_decide(args) -> None:
     print(f"{args.id}: {status} — {args.outcome}")
 
 
+def cmd_ask(args) -> None:
+    """Add a question the user asked (issue form "❓ Ask a question") as an open decision; answered in the next review."""
+    ids = {d["id"] for d in load_decisions()}
+    did = f"q-{args.issue}" if args.issue else args.id
+    if not did or not re.fullmatch(r"[a-z0-9-]+", did):
+        sys.exit("need --issue N or --id kebab-case-id")
+    if did in ids:
+        sys.exit(f"{did} already exists")
+    if args.area not in ("all", "nintendo", "pc", "playstation", "xbox") or args.kind not in DECISION_KINDS:
+        sys.exit("bad --area / --kind")
+    append_entry(DECISIONS, "[[decision]]", {
+        "id": did, "question": " ".join(args.question.split())[:200], "area": args.area, "kind": args.kind,
+        "asked": args.date or dt.date.today().isoformat(), "issue": args.issue or None,
+        "context": " ".join(args.context.split())[:4000] if args.context else None})
+    print(f"{did}: added — {args.question}")
+
+
 # ---------------------------------------------------------------- review agenda (what to re-check after an import)
 RUMOUR_RX = re.compile(r"rumou?r|under consideration|announced\?|\blater\b|no (release )?date|TBA|upcoming|"
                        r"re-test|after GA|not confirmed|unconfirmed|reportedly", re.I)
@@ -1177,6 +1194,11 @@ def review_agenda(days_ahead: int = 120, stale_days: int = 30) -> str:
         out.extend(f"- [ ] {i}" for i in items) if items else out.append("- nothing")
         out.append("")
 
+    # 0. questions the user asked that have no answer yet
+    sec("Questions you asked — answer first",
+        [f"**{d['question']}** (`{d['id']}`, asked {d['asked']}" + (f", issue #{d['issue']}" if d.get("issue") else "") + ")"
+         for d in ds if d["status"] == "open" and d.get("asked") and not d.get("recommendation")],
+        "Research, then fill context, options (pros / cons) and recommendation; reply on the issue and close it.")
     # 1. decisions with a date soon (release dates, pre-order windows)
     due = sorted((d for d in ds if d["status"] == "open" and d.get("due")), key=lambda d: d["due"])
     sec("Decisions with a date", [f"{d['due']} — **{d['question']}** (`{d['id']}`)" +
@@ -1694,6 +1716,15 @@ def main() -> None:
     p.add_argument("--date", help="YYYY-MM-DD (default today)")
     p.add_argument("--drop", action="store_true", help="mark as dropped instead of decided")
     p.set_defaults(fn=cmd_decide)
+    p = sub.add_parser("ask", help="add a question you want advice on to data/decisions.toml")
+    p.add_argument("question")
+    p.add_argument("--issue", type=int, help="GitHub issue number (id becomes q-<n>)")
+    p.add_argument("--id", help="id when there is no issue")
+    p.add_argument("--area", default="all")
+    p.add_argument("--kind", default="decision")
+    p.add_argument("--context", default="")
+    p.add_argument("--date", help="YYYY-MM-DD (default today)")
+    p.set_defaults(fn=cmd_ask)
     p = sub.add_parser("review", help="print the research agenda for a collection review (--write: start reviews/<date>.md)")
     p.add_argument("--write", action="store_true")
     p.add_argument("--days", type=int, default=120, help="look-ahead for dated decisions (default 120)")
