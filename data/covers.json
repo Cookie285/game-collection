@@ -1279,6 +1279,16 @@
 "checked": "2026-09-28",
 "v": 3
 },
+"bomb rush cyberfunk|Xbox Series X|S": {
+"title": "Bomb Rush Cyberfunk",
+"platform": "Xbox Series X|S",
+"image": "co6ya8",
+"igdb_id": 135940,
+"name": "Bomb Rush Cyberfunk",
+"score": 7,
+"checked": "2026-09-29",
+"v": 3
+},
 "boo party|Nintendo Switch": {
 "title": "Boo Party",
 "platform": "Nintendo Switch",
@@ -6699,6 +6709,16 @@
 "checked": "2026-09-28",
 "v": 3
 },
+"minecraft dungeons ii|Xbox Series X|S": {
+"title": "Minecraft Dungeons II",
+"platform": "Xbox Series X|S",
+"image": "coc75p",
+"igdb_id": 395525,
+"name": "Minecraft Dungeons II",
+"score": 7,
+"checked": "2026-09-29",
+"v": 3
+},
 "minecraft dungeons|Xbox One": {
 "title": "Minecraft Dungeons",
 "platform": "Xbox One",
@@ -6927,6 +6947,16 @@
 "name": "Mouse: P.I. For Hire",
 "score": 7,
 "checked": "2026-09-28",
+"v": 3
+},
+"moving out|Xbox One": {
+"title": "Moving Out",
+"platform": "Xbox One",
+"image": "co1xlt",
+"igdb_id": 113866,
+"name": "Moving Out",
+"score": 7,
+"checked": "2026-09-29",
 "v": 3
 },
 "mugen souls z|Nintendo Switch": {
@@ -8237,6 +8267,16 @@
 "name": "Psychonauts 2",
 "score": 7,
 "checked": "2026-09-28",
+"v": 3
+},
+"psychonauts 2|Xbox Series X|S": {
+"title": "Psychonauts 2",
+"platform": "Xbox Series X|S",
+"image": "cob7mx",
+"igdb_id": 14741,
+"name": "Psychonauts 2",
+"score": 7,
+"checked": "2026-09-29",
 "v": 3
 },
 "psychonauts|Xbox": {
@@ -10059,6 +10099,16 @@
 "checked": "2026-09-28",
 "v": 3
 },
+"strange brigade|Xbox One": {
+"title": "Strange Brigade",
+"platform": "Xbox One",
+"image": "co2769",
+"igdb_id": 36832,
+"name": "Strange Brigade",
+"score": 7,
+"checked": "2026-09-29",
+"v": 3
+},
 "strange horticulture strange antiquities|Nintendo Switch": {
 "title": "Strange Horticulture + Strange Antiquities",
 "platform": "Nintendo Switch",
@@ -11447,6 +11497,16 @@
 "name": "Trails in the Sky 2nd Chapter",
 "score": 7,
 "checked": "2026-09-28",
+"v": 3
+},
+"trails in the sky 2nd chapter|Nintendo Switch 2": {
+"title": "Trails In The Sky 2nd Chapter",
+"platform": "Nintendo Switch 2",
+"image": "cobrhh",
+"igdb_id": 377314,
+"name": "Trails in the Sky 2nd Chapter",
+"score": 7,
+"checked": "2026-09-29",
 "v": 3
 },
 "transformers devastation|Xbox One": {
