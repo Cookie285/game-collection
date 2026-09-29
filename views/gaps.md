@@ -6,7 +6,7 @@ Curated in [`data/targets/`](../data/targets/). A target flips to ✅ automatica
 
 Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 
-⬜ 412 open · 🕒 2 ordered · ✅ 76 done · ➖ 100 skip
+⬜ 414 open · 🕒 2 ordered · ✅ 76 done · ➖ 100 skip
 
 📀 = same title already owned on another platform (one copy per game!)
 
@@ -76,7 +76,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Sonic & All-Stars Racing Transformed | Xbox 360 | high | Xbox 360 BC |  | disc (delisted – not buyable in store) | Xbox Store: DISC ONLY (delisted); C – multiplatform, no modern version |
 | Spec Ops: The Line | Xbox 360 | high | Xbox 360 BC |  | disc (delisted – not buyable in store) | Xbox Store: DISC ONLY (delisted 2024); C – multiplatform, no modern version; Disc is the only legal copy on any platform |
 
-## ⬜ Open by group (412)
+## ⬜ Open by group (414)
 
 ### Activision / Blizzard (10)
 
@@ -542,7 +542,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 |---|---|---|---|---|---|
 | State of Decay 3 | Xbox Series X\|S | someday | undecided |  | Undead Labs now independent; no longer first-party (Sep 2026) – series-on-one-platform rule would still put it on Xbox · Out in 2027 on Xbox Series, PS5 and Steam; Game Pass day one (checked 2026-09-28) |
 
-### Shooter console suggestions (57)
+### Shooter console suggestions (59)
 
 | Title | Platform | Prio | State | Plan / where | Owned on / note |
 |---|---|---|---|---|---|
@@ -590,15 +590,17 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | TimeSplitters 2 | Xbox | someday | undecided | used disc | Suggested. |
 | TimeSplitters: Future Perfect | Xbox | someday | undecided | used disc | Suggested. |
 | Tiny Tina's Wonderlands | Xbox One | someday | undecided | used disc | Suggested. |
-| Tom Clancy's Ghost Recon Advanced Warfighter | Xbox 360 | someday | undecided | used disc | Suggested. |
+| Tom Clancy's Ghost Recon Advanced Warfighter | Xbox 360 | someday | undecided | used disc | Suggested. · Xbox 360 version backward compatible on Xbox One (2018); store status not checked (checked 2026-09-29) |
 | Tom Clancy's Ghost Recon Advanced Warfighter 2 | Xbox 360 | someday | undecided | used disc | Suggested. |
-| Tom Clancy's Ghost Recon Breakpoint | Xbox One | someday | undecided | used disc | Suggested. |
-| Tom Clancy's Ghost Recon: Future Soldier | Xbox 360 | someday | undecided | used disc | Suggested. |
-| Tom Clancy's Ghost Recon Wildlands | Xbox One | someday | undecided | used disc | Suggested. |
+| Tom Clancy's Ghost Recon Breakpoint | Xbox One | someday | undecided | used disc | Suggested. · always online — Ubisoft ruled out an offline mode; reported working with Disc-to-Digital (checked 2026-09-29) |
+| Tom Clancy's Ghost Recon: Future Soldier | Xbox 360 | someday | undecided | used disc | Suggested. · Xbox 360 game is backward compatible on Xbox One / Series; store status not checked (checked 2026-09-29) |
+| Tom Clancy's Ghost Recon Wildlands | Xbox One | someday | undecided | used disc | Suggested. · single player works fully offline (Ubisoft); reported working with Disc-to-Digital (checked 2026-09-29) |
 | Tom Clancy's Rainbow Six Extraction | Xbox One | someday | undecided | used disc | Suggested. |
-| Tom Clancy's Rainbow Six Siege | Xbox One | someday | undecided | used disc | Suggested. |
-| Tom Clancy's Rainbow Six Vegas | Xbox 360 | someday | undecided | used disc | 📀 owned on PlayStation 3 · Suggested. Owned on PS3 |
-| Tom Clancy's Rainbow Six Vegas 2 | Xbox 360 | someday | undecided | used disc | 📀 owned on PlayStation 3 · Suggested. Owned on PS3 |
+| Tom Clancy's Rainbow Six Siege | Xbox One | someday | undecided | used disc | Suggested. · free-to-play since Siege X (10 Jun 2025): the base game is free, a disc adds little; online only (checked 2026-09-29) |
+| Tom Clancy's Rainbow Six Vegas | Xbox 360 | someday | undecided | used disc | 📀 owned on PlayStation 3 · Suggested. Owned on PS3 · Xbox 360 game is backward compatible on Xbox One / Series; store status not checked (checked 2026-09-29) |
+| Tom Clancy's Rainbow Six Vegas 2 | Xbox 360 | someday | undecided | used disc | 📀 owned on PlayStation 3 · Suggested. Owned on PS3 · Xbox 360 game is backward compatible on Xbox One / Series; store status not checked (checked 2026-09-29) |
+| Tom Clancy's The Division | Xbox One | someday | undecided | used disc | Suggested (review 2026-09-29, question tom-clancy-xbox): always online (needs Ubisoft servers) (checked 2026-09-29) |
+| Tom Clancy's The Division 2 | Xbox One | someday | undecided | used disc | Suggested (review 2026-09-29, question tom-clancy-xbox): always online (needs Ubisoft servers). Reported working with Disc-to-Digital (checked 2026-09-29) |
 | Wolfenstein II: The New Colossus | Xbox One | someday | undecided | used disc | Suggested. Also on Switch |
 | Wolfenstein: The New Order | Xbox One | someday | undecided | used disc | Suggested. |
 | Wolfenstein: The Old Blood | Xbox One | someday | undecided | used disc | Suggested. |

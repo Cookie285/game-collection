@@ -196,9 +196,9 @@ Gaps in older generations are mostly bought used.
 
 _Why:_ Older discs are cheap and plentiful used; new copies are often gone or overpriced.
 
-291 targets — ⬜ 288 · 🕒 0 · ✅ 3 · ➖ 0
+293 targets — ⬜ 290 · 🕒 0 · ✅ 3 · ➖ 0
 
-<details><summary>288 open</summary>
+<details><summary>290 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -460,6 +460,8 @@ _Why:_ Older discs are cheap and plentiful used; new copies are often gone or ov
 | Tom Clancy's Rainbow Six Siege | Xbox One | someday | undecided |
 | Tom Clancy's Rainbow Six Vegas | Xbox 360 | someday | undecided |
 | Tom Clancy's Rainbow Six Vegas 2 | Xbox 360 | someday | undecided |
+| Tom Clancy's The Division | Xbox One | someday | undecided |
+| Tom Clancy's The Division 2 | Xbox One | someday | undecided |
 | Tomb Raider Definitive Edition | PlayStation 4 | low |  |
 | Transformers: Devastation | Xbox One | low |  |
 | Transformers: Fall of Cybertron | Xbox 360 | someday | undecided |
@@ -565,9 +567,9 @@ Single-player focus — multiplayer-only / online-focused games are skipped; dea
 
 _Precedents:_ Destiny, Overwatch, Crash Team Rumble skipped · no Guitar Hero / Skylanders
 
-23 targets — ⬜ 10 · 🕒 0 · ✅ 5 · ➖ 8
+26 targets — ⬜ 13 · 🕒 0 · ✅ 5 · ➖ 8
 
-<details><summary>10 open</summary>
+<details><summary>13 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -581,6 +583,9 @@ _Precedents:_ Destiny, Overwatch, Crash Team Rumble skipped · no Guitar Hero / 
 | Shadowrun | Xbox 360 | someday |  |
 | Star Wars Jedi: Survivor | PlayStation 5 | high |  |
 | Star Wars Outlaws | PlayStation 5 | medium |  |
+| Tom Clancy's Rainbow Six Siege | Xbox One | someday | undecided |
+| Tom Clancy's The Division | Xbox One | someday | undecided |
+| Tom Clancy's The Division 2 | Xbox One | someday | undecided |
 
 </details>
 
@@ -1145,9 +1150,9 @@ Xbox is the shooter console: full Call of Duty and Battlefield runs. Beats Ninte
 
 _Why:_ Switch shooter ports are usually the weakest version.
 
-95 targets — ⬜ 59 · 🕒 0 · ✅ 33 · ➖ 3
+97 targets — ⬜ 61 · 🕒 0 · ✅ 33 · ➖ 3
 
-<details><summary>59 open</summary>
+<details><summary>61 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -1206,6 +1211,8 @@ _Why:_ Switch shooter ports are usually the weakest version.
 | Tom Clancy's Rainbow Six Siege | Xbox One | someday | undecided |
 | Tom Clancy's Rainbow Six Vegas | Xbox 360 | someday | undecided |
 | Tom Clancy's Rainbow Six Vegas 2 | Xbox 360 | someday | undecided |
+| Tom Clancy's The Division | Xbox One | someday | undecided |
+| Tom Clancy's The Division 2 | Xbox One | someday | undecided |
 | Wolfenstein II: The New Colossus | Xbox One | someday | undecided |
 | Wolfenstein: The New Order | Xbox One | someday | undecided |
 | Wolfenstein: The Old Blood | Xbox One | someday | undecided |
@@ -1309,9 +1316,9 @@ Xbox One / Series discs carry a Disc-to-Digital licence — a reason to buy Micr
 
 _Why:_ One revocable licence per disc; licence moves if the disc is claimed elsewhere → don't lend discs casually.
 
-45 targets — ⬜ 20 · 🕒 0 · ✅ 24 · ➖ 1
+48 targets — ⬜ 23 · 🕒 0 · ✅ 24 · ➖ 1
 
-<details><summary>20 open</summary>
+<details><summary>23 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -1332,6 +1339,9 @@ _Why:_ One revocable licence per disc; licence moves if the disc is claimed else
 | The Amazing Spider-Man 2 | Xbox One | someday |  |
 | The Evil Within | xbox-modern | low |  |
 | The Evil Within 2 | xbox-modern | low |  |
+| Tom Clancy's Ghost Recon Breakpoint | Xbox One | someday | undecided |
+| Tom Clancy's Ghost Recon Wildlands | Xbox One | someday | undecided |
+| Tom Clancy's The Division 2 | Xbox One | someday | undecided |
 | Transformers: Devastation | Xbox One | low |  |
 | Transformers: Rise of the Dark Spark | Xbox One | someday |  |
 | Wolfenstein II: The New Colossus | xbox-modern | low |  |

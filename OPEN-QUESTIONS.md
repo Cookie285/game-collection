@@ -4,7 +4,7 @@
 
 Generated from [`data/decisions.toml`](data/decisions.toml) — edit there (options, recommendation; `status = "decided"` + `outcome` when decided). Also on the web app's **Decisions** page.
 
-## Decisions (25)
+## Decisions (26)
 
 ### General
 
@@ -42,6 +42,7 @@ Generated from [`data/decisions.toml`](data/decisions.toml) — edit there (opti
 - [ ] **Formalise the “series with an Xbox-exclusive entry stays on Xbox” tie-break rule?** — options: Adopt the rule / Don't adopt
 - [ ] **Blur: buy the 360 disc for current-hardware playability, or drop it?** — Owned on PS3; delisted — the 360 disc is the only way on Xbox.
 - [ ] **State of Decay 3: still buy on Xbox under the series rule?** — options: Xbox (keep the series together) / Normal platform rules
+- [ ] **Which Tom Clancy games make sense on Xbox — modern discs (Disc-to-Digital) and/or backward-compatible ones digitally?** — options: Modern discs only, offline-capable first / Modern discs + Xbox 360 backward-compatible titles digitally in store sales / Everything incl. original Xbox discs — suggestion: Wildlands on disc first (offline + Disc-to-Digital). The Division 2 / Breakpoint / The Division only very cheap used — they stop working when the servers close. Skip a Siege disc (free-to-play). 360 titles: digitally in a sale per your BC rule, starting with Future Soldier and GRAW 1/2; skip Vegas 1/2 (owned on PS3) unless you want the Xbox versions. Splinter Cell stays skipped unless you change your mind.
 
 ## Research / verify (9)
 
