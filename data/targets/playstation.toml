@@ -58,8 +58,9 @@ platforms = ["PlayStation 5"]
 priority = "high"
 group = "PS5 gaps – Multiplatform"
 plan = "PS5 disc; used preferred (price limit not set yet)"
-note = "Acclaimed turn-based RPG, not owned. · Other versions: Switch 2 port only rumoured for 2026 · If Switch 2 full cart is announced, rule says wait · Switch 2 port still not announced — only an insider report (NateTheHate) that it comes in 2026 (checked 2026-09-28)"
+note = "Acclaimed turn-based RPG, not owned. · Other versions: Switch 2 port only rumoured for 2026 · If Switch 2 full cart is announced, rule says wait · Switch 2 port still not announced — only an insider report (NateTheHate) that it comes in 2026 (checked 2026-09-28) · PS5 disc exists in the EU (physical distributed by Bandai Namco Europe) (checked 2026-09-29)"
 verify = "marked '?' in the checklist – verify before buying"
+versions = { "PlayStation 5" = "disc" }
 
 [[target]]
 title = "Elden Ring"
@@ -161,8 +162,9 @@ platforms = ["PlayStation 5"]
 priority = "medium"
 group = "PS5 gaps – Multiplatform"
 plan = "PS5 disc; used preferred (price limit not set yet)"
-note = "Anime soulslike; Bandai Namco. · Check release/physical"
+note = "Anime soulslike; Bandai Namco. · Check release/physical · released 29 Jan 2026; PS5 disc sold in the EU (checked 2026-09-29)"
 verify = "marked '?' in the checklist – verify before buying"
+versions = { "PlayStation 5" = "disc" }
 
 [[target]]
 title = "Armored Core VI: Fires of Rubicon"
@@ -283,8 +285,9 @@ platforms = ["PlayStation 5"]
 priority = "medium"
 group = "PS5 gaps – Multiplatform"
 plan = "PS5 disc; new or used, only at a really good price"
-note = "owned on Steam (Visions of Mana) – only if very cheap, new or used · JRPG with no Switch version (own Collection of Mana, Legend of Mana). · Verify no Switch release"
+note = "owned on Steam (Visions of Mana) – only if very cheap, new or used · JRPG with no Switch version (own Collection of Mana, Legend of Mana). · Verify no Switch release · PS5 standard edition disc exists (Aug 2024) (checked 2026-09-29)"
 verify = "marked '?' in the checklist – verify before buying"
+versions = { "PlayStation 5" = "disc" }
 
 [[target]]
 title = "Scarlet Nexus"
@@ -403,8 +406,9 @@ platforms = ["PlayStation 4"]
 priority = "high"
 group = "PS4 gaps – Sony 1st-party"
 plan = "PS4 disc; used preferred (price limit not set yet)"
-note = "Game of the Year Edition · You own Miles Morales + Spider-Man 2; the first game is missing. · Very cheap used · The PS5 Remastered version had no standalone disc – verify"
+note = "Game of the Year Edition · You own Miles Morales + Spider-Man 2; the first game is missing. · Very cheap used · The PS5 Remastered version had no standalone disc – verify · GOTY Edition = base-game disc + a one-time voucher for 'The City That Never Sleeps' DLC (not on the disc) – used copies may have a redeemed code (checked 2026-09-29)"
 verify = "marked '?' in the checklist – verify before buying"
+versions = { "PlayStation 4" = "disc" }
 
 [[target]]
 title = "Ratchet & Clank"
@@ -428,8 +432,9 @@ platforms = ["PlayStation 4"]
 priority = "medium"
 group = "PS4 gaps – Sony 1st-party"
 plan = "PS4 disc; used preferred (price limit not set yet)"
-note = "Stand-alone expansion. · Verify EU disc release"
+note = "Stand-alone expansion. · Verify EU disc release · EU disc exists (physical only in Europe / Asia / Australia, Sep 2014) (checked 2026-09-29)"
 verify = "marked '?' in the checklist – verify before buying"
+versions = { "PlayStation 4" = "disc" }
 
 [[target]]
 title = "Detroit: Become Human"
@@ -587,8 +592,9 @@ platforms = ["PlayStation 4"]
 priority = "medium"
 group = "PS4 gaps – Multiplatform"
 plan = "PS4 disc; used preferred (price limit not set yet)"
-note = "partly owned on Steam (Mafia) – value it by the missing part · Adds Mafia DE + III; makes Mafia II PS3 surplus. · Verify disc contents (some editions ship codes)"
+note = "partly owned on Steam (Mafia) – value it by the missing part · Adds Mafia DE + III; makes Mafia II PS3 surplus. · Verify disc contents (some editions ship codes) · PS4 Blu-ray released in EMEA / Asia (not the Americas); whether all three games and the DLC are on the disc is still unclear (checked 2026-09-29)"
 verify = "marked '?' in the checklist – verify before buying"
+versions = { "PlayStation 4" = "disc" }
 
 [[target]]
 title = "Rise of the Tomb Raider: 20 Year Celebration"
@@ -613,8 +619,9 @@ platforms = ["PlayStation 4"]
 priority = "medium"
 group = "PS4 gaps – Multiplatform"
 plan = "PS4 disc; new or used, only at a really good price"
-note = "owned on Steam (Batman: Arkham Asylum Game of the Year Edition + Batman: Arkham City - Game of the Year Edition) – only if very cheap, new or used · Asylum + City; you own Arkham Knight. · Other versions: Switch Arkham Trilogy exists – cart content/downloads unclear · Verify Switch cart; if it needs downloads, PS4"
+note = "owned on Steam (Batman: Arkham Asylum Game of the Year Edition + Batman: Arkham City - Game of the Year Edition) – only if very cheap, new or used · Asylum + City; you own Arkham Knight. · Other versions: Switch Arkham Trilogy exists – cart content/downloads unclear · Verify Switch cart; if it needs downloads, PS4 · PS4 box has 2 discs (Asylum + City), all DLC included (checked 2026-09-29)"
 verify = "marked '?' in the checklist – verify before buying"
+versions = { "PlayStation 4" = "disc" }
 
 [[target]]
 title = "Final Fantasy XV Royal Edition"
@@ -647,8 +654,9 @@ platforms = ["PlayStation 4"]
 priority = "high"
 group = "PS4 gaps – Multiplatform"
 plan = "PS4 disc; new or used, only at a really good price"
-note = "Decisive Edition · owned on Steam (The Legend of Heroes: Trails of Cold Steel) – only if very cheap, new or used · Fills the Trails gap between Azure and Daybreak (own on Switch). · Verify no Switch release of CS I/II"
+note = "Decisive Edition · owned on Steam (The Legend of Heroes: Trails of Cold Steel) – only if very cheap, new or used · Fills the Trails gap between Azure and Daybreak (own on Switch). · Verify no Switch release of CS I/II · EU PS4 disc exists: Marvelous Europe, 29 Mar 2019 (Decisive Edition) (checked 2026-09-29)"
 verify = "marked '?' in the checklist – verify before buying"
+versions = { "PlayStation 4" = "disc" }
 
 [[target]]
 title = "The Legend of Heroes: Trails of Cold Steel II"
@@ -656,8 +664,9 @@ platforms = ["PlayStation 4"]
 priority = "high"
 group = "PS4 gaps – Multiplatform"
 plan = "PS4 disc; new or used, only at a really good price"
-note = "Relentless Edition · owned on Steam (The Legend of Heroes: Trails of Cold Steel II) – only if very cheap, new or used · Cold Steel III/IV → Switch. · Verify no Switch release of CS I/II"
+note = "Relentless Edition · owned on Steam (The Legend of Heroes: Trails of Cold Steel II) – only if very cheap, new or used · Cold Steel III/IV → Switch. · Verify no Switch release of CS I/II · EU PS4 disc exists: Marvelous Europe, 7 Jun 2019 (Relentless Edition) (checked 2026-09-29)"
 verify = "marked '?' in the checklist – verify before buying"
+versions = { "PlayStation 4" = "disc" }
 
 [[target]]
 title = "Tales of Zestiria"
@@ -746,8 +755,9 @@ platforms = ["PlayStation 4"]
 priority = "medium"
 group = "PS4 gaps – Multiplatform"
 plan = "PS4 disc; used preferred (price limit not set yet)"
-note = "Symphony of the Night + Rondo of Blood – not in any Switch collection. · Verify EU disc release"
+note = "Symphony of the Night + Rondo of Blood – not in any Switch collection. · Verify EU disc release · only physical release: Limited Run Games 2022, region-free PS4 disc (Standard / Classic / Ultimate); no regular EU retail disc found (checked 2026-09-29)"
 verify = "marked '?' in the checklist – verify before buying"
+versions = { "PlayStation 4" = "disc" }
 
 [[target]]
 title = "Devil May Cry HD Collection"
@@ -925,8 +935,9 @@ platforms = ["PlayStation 3"]
 priority = "medium"
 group = "PS3 gaps – Sony 1st-party"
 plan = "PS3 disc; used preferred (price limit not set yet)"
-note = "Short episode; disc release in EU. · Verify EU disc"
+note = "Short episode; disc release in EU. · Verify EU disc · EU Blu-ray exists (12 Sep 2008, not released in the UK) (checked 2026-09-29)"
 verify = "marked '?' in the checklist – verify before buying"
+versions = { "PlayStation 3" = "disc" }
 
 [[target]]
 title = "Ratchet & Clank Future: A Crack in Time"
@@ -2293,12 +2304,13 @@ note = "Suggested (review 2026-09-28): Persona 4 remake — PS5 / Xbox Series / 
 
 [[target]]
 title = "Trails in the Sky 2nd Chapter"
-platforms = ["Nintendo Switch"]
+platforms = ["Nintendo Switch", "Nintendo Switch 2"]
 priority = "high"
 group = "Buy elsewhere (not PlayStation)"
 state = "watching"
 plan = "Switch cart"
-note = "Suggested (review 2026-09-28): sequel to Trails in the Sky 1st Chapter (owned on Switch). Physical Switch + Switch 2 editions in the EU on 29 Sep 2026 (digital 17 Sep)."
+note = "Suggested (review 2026-09-28): sequel to Trails in the Sky 1st Chapter (owned on Switch). Physical Switch + Switch 2 editions in the EU on 29 Sep 2026 (digital 17 Sep). · bought the Switch 2 edition (import 2026-09-29); Switch 2 edition is a full cart, not a Game-Key Card (GungHo) (checked 2026-09-29)"
+versions = { "Nintendo Switch 2" = "cart" }
 
 [[target]]
 title = "Final Fantasy VII Revelation"

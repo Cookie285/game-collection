@@ -6,15 +6,14 @@ Curated in [`data/targets/`](../data/targets/). A target flips to ✅ automatica
 
 Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 
-⬜ 416 open · 🕒 2 ordered · ✅ 72 done · ➖ 100 skip
+⬜ 412 open · 🕒 2 ordered · ✅ 76 done · ➖ 100 skip
 
 📀 = same title already owned on another platform (one copy per game!)
 
-## 🤔 Decide / watch (15)
+## 🤔 Decide / watch (14)
 
 | Title | Platform | Prio | Group | State | Plan / where | Owned on / note |
 |---|---|---|---|---|---|---|
-| Trails in the Sky 2nd Chapter | Nintendo Switch | high | Buy elsewhere (not PlayStation) | watching | Switch cart | Suggested (review 2026-09-28): sequel to Trails in the Sky 1st Chapter (owned on Switch). Physical Switch + Switch 2 editions in the EU on 29 Sep 2026 (digital 17 Sep). |
 | Grand Theft Auto VI | PlayStation 5 | high | PS5 gaps – Multiplatform | watching | PS5 disc; pre-order candidate | Continues your GTA run (IV/V PS3, LCS/VCS PSP). No PC version at launch. · Other versions: No Switch; PC later · Standard disc · Release date reaffirmed by Take-Two · Still 19 Nov 2026 — Take-Two reaffirmed in Aug 2026 (checked 2026-09-28) |
 | Hogwarts Legacy | PlayStation 5, Nintendo Switch | high | PS5 gaps – Multiplatform | undecided | PS5 disc; new or used, only at a really good price | owned on Steam (Hogwarts Legacy) – only if very cheap, new or used · Decision: Switch = Switch 1 cart (weak port); Switch 2 Game-Key Card; PS = PS5 disc; suggestion: PS5 – Rule says Switch 1 cart, but it's the weakest version by far; this is a Harry Potter collection piece. · You collect the Harry Potter games (PS1–PS3). · Other versions: Switch 1 has a cart (weak port); Switch 2 = Game-Key Card · Rule says Switch 1 cart; quality says PS5 · Confirmed: no new PS5/Switch news beyond current note (checked 2026-09-28) |
 | Kingdom Hearts Collection [I–III] | PlayStation 5, Nintendo Switch 2 | high | PS5 gaps – Multiplatform | undecided | PS5 disc; new (upcoming release, price limit not set yet) | Decision: Switch = Switch 2 Game-Key Card, 131 GB download; PS = PS5 full disc (8 Oct 2026); suggestion: PS5 – JRPG rule says Switch, but the Switch 2 box is effectively a download voucher for a huge game. · One disc = 1.5+2.5 ReMIX, 2.8 and KH III + Re Mind. You only own KH III (PS4). · Other versions: Switch 2 = Game-Key Card, ~131 GB download · PS5 disc is full install · JRPG rule says Switch – but Switch 2 is GKC. Recommendation: PS5. Makes KH III PS4 surplus. · Also on Xbox Series X\|S, but digital only — physical only on PS5 (disc) and Switch 2 (Game-Key Card) (checked 2026-09-28) |
@@ -56,19 +55,19 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Red Dead Redemption 2 | PlayStation 4 | high | PS4 gaps – Multiplatform |  | PS4 disc; new or used, only at a really good price | owned on Steam (Red Dead Redemption 2) – only if very cheap, new or used · You own RDR1 (PS3). · 2-disc set |
 | Sekiro: Shadows Die Twice | PlayStation 4 | high | PS4 gaps – Multiplatform |  | PS4 disc; used preferred (price limit not set yet) | GOTY · FromSoftware; plays on PS5 Pro. |
 | Star Wars Jedi: Fallen Order | PlayStation 4 | high | PS4 gaps – Multiplatform |  | PS4 disc; new or used, only at a really good price | owned on Steam (STAR WARS Jedi: Fallen Order™) – only if very cheap, new or used · Prequel to Survivor. · Free PS5 upgrade was digital-only |
-| The Legend of Heroes: Trails of Cold Steel | PlayStation 4 | high | PS4 gaps – Multiplatform |  | PS4 disc; new or used, only at a really good price | ❓ marked '?' in the checklist – verify before buying · Decisive Edition · owned on Steam (The Legend of Heroes: Trails of Cold Steel) – only if very cheap, new or used · Fills the Trails gap between Azure and Daybreak (own on Switch). · Verify no Switch release of CS I/II |
-| The Legend of Heroes: Trails of Cold Steel II | PlayStation 4 | high | PS4 gaps – Multiplatform |  | PS4 disc; new or used, only at a really good price | ❓ marked '?' in the checklist – verify before buying · Relentless Edition · owned on Steam (The Legend of Heroes: Trails of Cold Steel II) – only if very cheap, new or used · Cold Steel III/IV → Switch. · Verify no Switch release of CS I/II |
+| The Legend of Heroes: Trails of Cold Steel | PlayStation 4 | high | PS4 gaps – Multiplatform |  | PS4 disc; new or used, only at a really good price | ❓ marked '?' in the checklist – verify before buying · Decisive Edition · owned on Steam (The Legend of Heroes: Trails of Cold Steel) – only if very cheap, new or used · Fills the Trails gap between Azure and Daybreak (own on Switch). · Verify no Switch release of CS I/II · EU PS4 disc exists: Marvelous Europe, 29 Mar 2019 (Decisive Edition) (checked 2026-09-29) |
+| The Legend of Heroes: Trails of Cold Steel II | PlayStation 4 | high | PS4 gaps – Multiplatform |  | PS4 disc; new or used, only at a really good price | ❓ marked '?' in the checklist – verify before buying · Relentless Edition · owned on Steam (The Legend of Heroes: Trails of Cold Steel II) – only if very cheap, new or used · Cold Steel III/IV → Switch. · Verify no Switch release of CS I/II · EU PS4 disc exists: Marvelous Europe, 7 Jun 2019 (Relentless Edition) (checked 2026-09-29) |
 | Days Gone | PlayStation 4 | high | PS4 gaps – Sony 1st-party |  | PS4 disc; used preferred (price limit not set yet) | Remastered PS5 is digital-only – PS4 disc + paid upgrade is the only physical route. · Very cheap used |
 | God of War | PlayStation 4 | high | PS4 gaps – Sony 1st-party |  | PS4 disc; new or used, only at a really good price | 2018 · owned on Steam (God of War) – only if very cheap, new or used · Missing link between GoW III/Ascension and Ragnarök (owned). · Very cheap used |
 | Gravity Rush 2 | PlayStation 4 | high | PS4 gaps – Sony 1st-party |  | PS4 disc; used preferred (price limit not set yet) | Exclusive, never ported. |
 | inFamous Second Son | PlayStation 4 | high | PS4 gaps – Sony 1st-party |  | PS4 disc; used preferred (price limit not set yet) | No inFamous owned. · Very cheap used |
-| Marvel's Spider-Man | PlayStation 4 | high | PS4 gaps – Sony 1st-party |  | PS4 disc; used preferred (price limit not set yet) | ❓ marked '?' in the checklist – verify before buying · Game of the Year Edition · You own Miles Morales + Spider-Man 2; the first game is missing. · Very cheap used · The PS5 Remastered version had no standalone disc – verify |
+| Marvel's Spider-Man | PlayStation 4 | high | PS4 gaps – Sony 1st-party |  | PS4 disc; used preferred (price limit not set yet) | ❓ marked '?' in the checklist – verify before buying · Game of the Year Edition · You own Miles Morales + Spider-Man 2; the first game is missing. · Very cheap used · The PS5 Remastered version had no standalone disc – verify · GOTY Edition = base-game disc + a one-time voucher for 'The City That Never Sleeps' DLC (not on the disc) – used copies may have a redeemed code (checked 2026-09-29) |
 | Ratchet & Clank | PlayStation 4 | high | PS4 gaps – Sony 1st-party |  | PS4 disc; used preferred (price limit not set yet) | 2016 · Only Ratchet on PS4. · Very cheap used |
 | Shadow of the Colossus | PlayStation 4 | high | PS4 gaps – Sony 1st-party |  | PS4 disc; used preferred (price limit not set yet) | 2018 · Definitive version of SotC. |
 | The Last Guardian | PlayStation 4 | high | PS4 gaps – Sony 1st-party |  | PS4 disc; used preferred (price limit not set yet) | Team Ico finale. |
 | Detroit: Become Human | PlayStation 4 | high | PS4 gaps – Sony-published |  | PS4 disc; used preferred (price limit not set yet) | You own Heavy Rain. · Very cheap used |
 | Silent Hill 2 | PlayStation 5 | high | PS5 gaps – Console exclusive (timed) |  | PS5 disc; used preferred (price limit not set yet) | 2024 · You own Silent Hill f; SH2 remake is the other modern entry. |
-| Clair Obscur: Expedition 33 | PlayStation 5 | high | PS5 gaps – Multiplatform |  | PS5 disc; used preferred (price limit not set yet) | ❓ marked '?' in the checklist – verify before buying · Acclaimed turn-based RPG, not owned. · Other versions: Switch 2 port only rumoured for 2026 · If Switch 2 full cart is announced, rule says wait · Switch 2 port still not announced — only an insider report (NateTheHate) that it comes in 2026 (checked 2026-09-28) |
+| Clair Obscur: Expedition 33 | PlayStation 5 | high | PS5 gaps – Multiplatform |  | PS5 disc; used preferred (price limit not set yet) | ❓ marked '?' in the checklist – verify before buying · Acclaimed turn-based RPG, not owned. · Other versions: Switch 2 port only rumoured for 2026 · If Switch 2 full cart is announced, rule says wait · Switch 2 port still not announced — only an insider report (NateTheHate) that it comes in 2026 (checked 2026-09-28) · PS5 disc exists in the EU (physical distributed by Bandai Namco Europe) (checked 2026-09-29) |
 | Devil May Cry 5 Special Edition | PlayStation 5 | high | PS5 gaps – Multiplatform |  | PS5 disc; new or used, only at a really good price | owned on Steam (Devil May Cry 5) – only if very cheap, new or used · Fits your character-action line (Bayonetta, Ninja Gaiden, Onimusha). No DMC owned. · Other versions: Switch 2 Devil Hunter Ed. = digital / GKC |
 | Elden Ring | PlayStation 5 | high | PS5 gaps – Multiplatform |  | PS5 disc; new or used, only at a really good price | Shadow of the Erdtree Edition · owned on Steam (ELDEN RING) – only if very cheap, new or used · Biggest gap in your Souls line-up (own Demon's Souls, Bloodborne + many soulslikes). · Other versions: Switch 2 Tarnished Ed. (28 Aug 2026) = Game-Key Card · Common used · PS5 Pro is the best console version |
 | Resident Evil Requiem | PlayStation 5 | high | PS5 gaps – Multiplatform |  | PS5 disc; used preferred (price limit not set yet) | Only mainline RE missing; your RE line is on PS5. · Other versions: Switch 2 = Game-Key Card |
@@ -77,7 +76,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Sonic & All-Stars Racing Transformed | Xbox 360 | high | Xbox 360 BC |  | disc (delisted – not buyable in store) | Xbox Store: DISC ONLY (delisted); C – multiplatform, no modern version |
 | Spec Ops: The Line | Xbox 360 | high | Xbox 360 BC |  | disc (delisted – not buyable in store) | Xbox Store: DISC ONLY (delisted 2024); C – multiplatform, no modern version; Disc is the only legal copy on any platform |
 
-## ⬜ Open by group (416)
+## ⬜ Open by group (412)
 
 ### Activision / Blizzard (10)
 
@@ -111,11 +110,10 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | The Evil Within | Xbox One | someday | undecided | used disc | Suggested (scope layer 3, pre-acquisition). Tango – 360 disc also exists |
 | The Evil Within 2 | Xbox One | someday | undecided | used disc | Suggested (scope layer 3, pre-acquisition). Tango |
 
-### Buy elsewhere (not PlayStation) (57)
+### Buy elsewhere (not PlayStation) (56)
 
 | Title | Platform | Prio | State | Plan / where | Owned on / note |
 |---|---|---|---|---|---|
-| Trails in the Sky 2nd Chapter | Nintendo Switch | high | watching | Switch cart | Suggested (review 2026-09-28): sequel to Trails in the Sky 1st Chapter (owned on Switch). Physical Switch + Switch 2 editions in the EU on 29 Sep 2026 (digital 17 Sep). |
 | Final Fantasy VII Revelation | Nintendo Switch 2, PlayStation 5 | medium | watching |  | Suggested (review 2026-09-28): FF VII Remake part 3 — 8 Apr 2027, simultaneous on Switch 2, PS5, Xbox Series, PC. Physical format on Switch 2 not known yet (the series plan puts VII on Switch). |
 | Ace Combat 7: Skies Unknown | Nintendo Switch | low |  | Switch cart | Buy on Switch instead of PlayStation – Switch physical (You own Assault Horizon (PS3)) |
 | Assassin's Creed III Remastered | Nintendo Switch | low |  | Switch cart | Buy on Switch instead of PlayStation – Switch physical (AC series) |
@@ -209,7 +207,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | The Elder Scrolls III: Morrowind | Xbox | someday | undecided | disc – Game of the Year Edition | Backward compatible |
 | The Elder Scrolls IV: Oblivion | Xbox 360 | someday | undecided | disc – Game of the Year Edition | Backward compatible; Oblivion Remastered owned on Switch 2 |
 
-### First-party (21)
+### First-party (19)
 
 | Title | Platform | Prio | State | Plan / where | Owned on / note |
 |---|---|---|---|---|---|
@@ -219,9 +217,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Microsoft Flight Simulator | Xbox Series X\|S | medium |  | used disc, e.g. rebuy.de | scope layer 1 (Asobo); 2020 game |
 | Microsoft Flight Simulator 2024 | Xbox Series X\|S | medium |  | used disc, e.g. rebuy.de | scope layer 1 (Asobo) |
 | Minecraft Dungeons | Xbox One | medium |  | used disc, e.g. rebuy.de | scope layer 1 (Minecraft / Mojang & Double Eleven); Hero Edition preferred |
-| Minecraft Legends | Xbox One, Xbox Series X\|S | medium |  | used disc, e.g. rebuy.de | scope layer 1 (Minecraft / Mojang & Blackbird) |
-| Psychonauts 2 | Xbox One | medium |  | used disc, e.g. rebuy.de | scope layer 1 (Double Fine) |
-| Senua's Saga: Hellblade II | Xbox Series X\|S | medium |  | used disc | ❓ verify the EU Xbox box contains a real disc, not a code – if code-in-box, treat like Avowed · scope layer 1 (Ninja Theory); Ninja Theory at risk of closure (Sep 2026) · Amazon.de lists the Xbox Series version only as a download code; no EU disc found (checked 2026-09-28) |
+| Senua's Saga: Hellblade II | Xbox Series X\|S | medium |  | used disc | ❓ verify the EU Xbox box contains a real disc, not a code – if code-in-box, treat like Avowed · scope layer 1 (Ninja Theory); Ninja Theory at risk of closure (Sep 2026) · Amazon.de lists the Xbox Series version only as a download code; no EU disc found (checked 2026-09-28) · physical Xbox Series X\|S + PS5 edition announced via Limited Run Games (May 2025) – Microsoft itself released no disc; Xbox disc contents not confirmed yet (checked 2026-09-29) |
 | Starfield | Xbox Series X\|S | medium |  | used disc, e.g. rebuy.de | scope layer 2 (Bethesda Game Studios); Bethesda post-acquisition |
 | Fable | Xbox Series X\|S | low | watching | Xbox disc only if really cheap later | scope layer 1 (Fable / Playground); PS5 copy pre-ordered (see Part 1) · Delayed to 23 Feb 2027 (PS5, Xbox Series, PC) (checked 2026-09-28) |
 | Hi-Fi Rush | Xbox Series X\|S | low |  | netgames (available cheap there) | scope layer 1 (Tango (MS-published)); Limited Run exclusive physical |
@@ -372,7 +368,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Folklore | PlayStation 3 | medium |  | PS3 disc; used preferred (price limit not set yet) | Exclusive, never ported. |
 | LittleBigPlanet 2 | PlayStation 3 | medium |  | PS3 disc; used preferred (price limit not set yet) | Series completion. |
 | Puppeteer | PlayStation 3 | medium |  | PS3 disc; used preferred (price limit not set yet) | Exclusive, never ported. |
-| Ratchet & Clank Future: Quest for Booty | PlayStation 3 | medium |  | PS3 disc; used preferred (price limit not set yet) | ❓ marked '?' in the checklist – verify before buying · Short episode; disc release in EU. · Verify EU disc |
+| Ratchet & Clank Future: Quest for Booty | PlayStation 3 | medium |  | PS3 disc; used preferred (price limit not set yet) | ❓ marked '?' in the checklist – verify before buying · Short episode; disc release in EU. · Verify EU disc · EU Blu-ray exists (12 Sep 2008, not released in the UK) (checked 2026-09-29) |
 | Ratchet & Clank: Into the Nexus | PlayStation 3 | medium |  | PS3 disc; used preferred (price limit not set yet) | Closes the Future saga before Rift Apart. |
 | Gran Turismo 6 | PlayStation 3 | low |  | PS3 disc; used preferred (price limit not set yet) | You own GT5 + GT7. · Online features are gone |
 | Killzone Trilogy | PlayStation 3 | low |  | PS3 disc; used preferred (price limit not set yet) | Only disc with Killzone 1 HD; you own KZ2/3/SF. · Makes KZ2/KZ3 discs surplus |
@@ -385,7 +381,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Journey Collector's Edition | PlayStation 3 | medium |  | PS3 disc; used preferred (price limit not set yet) | Journey + flOw + Flower on disc. |
 | Sly Cooper: Thieves in Time | PlayStation 3 | medium |  | PS3 disc; used preferred (price limit not set yet) | Completes Sly (own Trilogy). |
 
-### PS4 gaps – Multiplatform (43)
+### PS4 gaps – Multiplatform (42)
 
 | Title | Platform | Prio | State | Plan / where | Owned on / note |
 |---|---|---|---|---|---|
@@ -397,18 +393,18 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Red Dead Redemption 2 | PlayStation 4 | high |  | PS4 disc; new or used, only at a really good price | owned on Steam (Red Dead Redemption 2) – only if very cheap, new or used · You own RDR1 (PS3). · 2-disc set |
 | Sekiro: Shadows Die Twice | PlayStation 4 | high |  | PS4 disc; used preferred (price limit not set yet) | GOTY · FromSoftware; plays on PS5 Pro. |
 | Star Wars Jedi: Fallen Order | PlayStation 4 | high |  | PS4 disc; new or used, only at a really good price | owned on Steam (STAR WARS Jedi: Fallen Order™) – only if very cheap, new or used · Prequel to Survivor. · Free PS5 upgrade was digital-only |
-| The Legend of Heroes: Trails of Cold Steel | PlayStation 4 | high |  | PS4 disc; new or used, only at a really good price | ❓ marked '?' in the checklist – verify before buying · Decisive Edition · owned on Steam (The Legend of Heroes: Trails of Cold Steel) – only if very cheap, new or used · Fills the Trails gap between Azure and Daybreak (own on Switch). · Verify no Switch release of CS I/II |
-| The Legend of Heroes: Trails of Cold Steel II | PlayStation 4 | high |  | PS4 disc; new or used, only at a really good price | ❓ marked '?' in the checklist – verify before buying · Relentless Edition · owned on Steam (The Legend of Heroes: Trails of Cold Steel II) – only if very cheap, new or used · Cold Steel III/IV → Switch. · Verify no Switch release of CS I/II |
-| Batman: Return to Arkham | PlayStation 4 | medium |  | PS4 disc; new or used, only at a really good price | ❓ marked '?' in the checklist – verify before buying · owned on Steam (Batman: Arkham Asylum Game of the Year Edition + Batman: Arkham City - Game of the Year Edition) – only if very cheap, new or used · Asylum + City; you own Arkham Knight. · Other versions: Switch Arkham Trilogy exists – cart content/downloads unclear · Verify Switch cart; if it needs downloads, PS4 |
+| The Legend of Heroes: Trails of Cold Steel | PlayStation 4 | high |  | PS4 disc; new or used, only at a really good price | ❓ marked '?' in the checklist – verify before buying · Decisive Edition · owned on Steam (The Legend of Heroes: Trails of Cold Steel) – only if very cheap, new or used · Fills the Trails gap between Azure and Daybreak (own on Switch). · Verify no Switch release of CS I/II · EU PS4 disc exists: Marvelous Europe, 29 Mar 2019 (Decisive Edition) (checked 2026-09-29) |
+| The Legend of Heroes: Trails of Cold Steel II | PlayStation 4 | high |  | PS4 disc; new or used, only at a really good price | ❓ marked '?' in the checklist – verify before buying · Relentless Edition · owned on Steam (The Legend of Heroes: Trails of Cold Steel II) – only if very cheap, new or used · Cold Steel III/IV → Switch. · Verify no Switch release of CS I/II · EU PS4 disc exists: Marvelous Europe, 7 Jun 2019 (Relentless Edition) (checked 2026-09-29) |
+| Batman: Return to Arkham | PlayStation 4 | medium |  | PS4 disc; new or used, only at a really good price | ❓ marked '?' in the checklist – verify before buying · owned on Steam (Batman: Arkham Asylum Game of the Year Edition + Batman: Arkham City - Game of the Year Edition) – only if very cheap, new or used · Asylum + City; you own Arkham Knight. · Other versions: Switch Arkham Trilogy exists – cart content/downloads unclear · Verify Switch cart; if it needs downloads, PS4 · PS4 box has 2 discs (Asylum + City), all DLC included (checked 2026-09-29) |
 | Bayonetta & Vanquish 10th Anniversary Bundle | PlayStation 4 | medium |  | PS4 disc; used preferred (price limit not set yet) | partly owned on Steam (Bayonetta) – value it by the missing part · Adds Vanquish; makes Bayonetta PS3 surplus. |
-| Castlevania Requiem | PlayStation 4 | medium |  | PS4 disc; used preferred (price limit not set yet) | ❓ marked '?' in the checklist – verify before buying · Symphony of the Night + Rondo of Blood – not in any Switch collection. · Verify EU disc release |
+| Castlevania Requiem | PlayStation 4 | medium |  | PS4 disc; used preferred (price limit not set yet) | ❓ marked '?' in the checklist – verify before buying · Symphony of the Night + Rondo of Blood – not in any Switch collection. · Verify EU disc release · only physical release: Limited Run Games 2022, region-free PS4 disc (Standard / Classic / Ultimate); no regular EU retail disc found (checked 2026-09-29) |
 | Dark Souls II: Scholar of the First Sin | PlayStation 4 | medium |  | PS4 disc; used preferred (price limit not set yet) | Completes the trilogy. |
 | Devil May Cry 4 Special Edition | PlayStation 4 | medium |  | PS4 disc; used preferred (price limit not set yet) | Completes DMC 1–5. |
 | Devil May Cry HD Collection | PlayStation 4 | medium |  | PS4 disc; used preferred (price limit not set yet) | DMC 1–3. |
 | Dragon Age: Inquisition | PlayStation 4 | medium |  | PS4 disc; new or used, only at a really good price | GOTY · owned on Steam (Dragon Age™ Inquisition) – only if very cheap, new or used · You own Origins + DA II. |
 | Dragon's Crown Pro | PlayStation 4 | medium |  | PS4 disc; used preferred (price limit not set yet) | Vanillaware, no Switch. |
 | Final Fantasy Type-0 HD | PlayStation 4 | medium |  | PS4 disc; used preferred (price limit not set yet) | FF spin-off, no Switch. |
-| Mafia: Trilogy | PlayStation 4 | medium |  | PS4 disc; used preferred (price limit not set yet) | ❓ marked '?' in the checklist – verify before buying · partly owned on Steam (Mafia) – value it by the missing part · Adds Mafia DE + III; makes Mafia II PS3 surplus. · Verify disc contents (some editions ship codes) |
+| Mafia: Trilogy | PlayStation 4 | medium |  | PS4 disc; used preferred (price limit not set yet) | ❓ marked '?' in the checklist – verify before buying · partly owned on Steam (Mafia) – value it by the missing part · Adds Mafia DE + III; makes Mafia II PS3 surplus. · Verify disc contents (some editions ship codes) · PS4 Blu-ray released in EMEA / Asia (not the Americas); whether all three games and the DLC are on the disc is still unclear (checked 2026-09-29) |
 | Monster Hunter: World – Iceborne Master Edition | PlayStation 4 | medium |  | PS4 disc; used preferred (price limit not set yet) | Not on Switch. |
 | Odin Sphere Leifthrasir | PlayStation 4 | medium |  | PS4 disc; used preferred (price limit not set yet) | Vanillaware, no Switch. |
 | Rise of the Tomb Raider: 20 Year Celebration | PlayStation 4 | medium |  | PS4 disc; new or used, only at a really good price | owned on Steam (Rise of the Tomb Raider™) – only if very cheap, new or used · You own TR 2013 (PS3). |
@@ -422,7 +418,6 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Code Vein | PlayStation 4 | low |  | PS4 disc; used preferred (price limit not set yet) | Prequel to Code Vein II. |
 | DmC: Devil May Cry Definitive Edition | PlayStation 4 | low |  | PS4 disc; used preferred (price limit not set yet) | Reboot. |
 | Dragon Quest Heroes II | PlayStation 4 | low |  | PS4 disc; used preferred (price limit not set yet) | Musou spin-off, no western Switch release. |
-| Resident Evil Revelations | PlayStation 4 | low |  | PS4 disc; new or used, only at a really good price | ❓ marked '?' in the checklist – verify before buying · owned on Steam (Resident Evil Revelations) – only if very cheap, new or used · You own Revelations 2 (PS4). · Check for a Switch cart first |
 | Senran Kagura: Peach Beach Splash | PlayStation 4 | low |  | PS4 disc; used preferred (price limit not set yet) | Has story mode; online modes are dead. |
 | Shenmue I & II | PlayStation 4 | low |  | PS4 disc; new or used, only at a really good price | owned on Steam (Shenmue I & II) – only if very cheap, new or used · Sega classic. |
 | Shenmue III | PlayStation 4 | low |  | PS4 disc; new or used, only at a really good price | owned on Steam (Shenmue III) – only if very cheap, new or used · Sequel. |
@@ -441,12 +436,12 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | God of War | PlayStation 4 | high |  | PS4 disc; new or used, only at a really good price | 2018 · owned on Steam (God of War) – only if very cheap, new or used · Missing link between GoW III/Ascension and Ragnarök (owned). · Very cheap used |
 | Gravity Rush 2 | PlayStation 4 | high |  | PS4 disc; used preferred (price limit not set yet) | Exclusive, never ported. |
 | inFamous Second Son | PlayStation 4 | high |  | PS4 disc; used preferred (price limit not set yet) | No inFamous owned. · Very cheap used |
-| Marvel's Spider-Man | PlayStation 4 | high |  | PS4 disc; used preferred (price limit not set yet) | ❓ marked '?' in the checklist – verify before buying · Game of the Year Edition · You own Miles Morales + Spider-Man 2; the first game is missing. · Very cheap used · The PS5 Remastered version had no standalone disc – verify |
+| Marvel's Spider-Man | PlayStation 4 | high |  | PS4 disc; used preferred (price limit not set yet) | ❓ marked '?' in the checklist – verify before buying · Game of the Year Edition · You own Miles Morales + Spider-Man 2; the first game is missing. · Very cheap used · The PS5 Remastered version had no standalone disc – verify · GOTY Edition = base-game disc + a one-time voucher for 'The City That Never Sleeps' DLC (not on the disc) – used copies may have a redeemed code (checked 2026-09-29) |
 | Ratchet & Clank | PlayStation 4 | high |  | PS4 disc; used preferred (price limit not set yet) | 2016 · Only Ratchet on PS4. · Very cheap used |
 | Shadow of the Colossus | PlayStation 4 | high |  | PS4 disc; used preferred (price limit not set yet) | 2018 · Definitive version of SotC. |
 | The Last Guardian | PlayStation 4 | high |  | PS4 disc; used preferred (price limit not set yet) | Team Ico finale. |
 | Gravity Rush Remastered | PlayStation 4 | medium |  | PS4 disc; used preferred (price limit not set yet) | Vita original, remastered. |
-| inFamous First Light | PlayStation 4 | medium |  | PS4 disc; used preferred (price limit not set yet) | ❓ marked '?' in the checklist – verify before buying · Stand-alone expansion. · Verify EU disc release |
+| inFamous First Light | PlayStation 4 | medium |  | PS4 disc; used preferred (price limit not set yet) | ❓ marked '?' in the checklist – verify before buying · Stand-alone expansion. · Verify EU disc release · EU disc exists (physical only in Europe / Asia / Australia, Sep 2014) (checked 2026-09-29) |
 | LittleBigPlanet 3 | PlayStation 4 | low |  | PS4 disc; used preferred (price limit not set yet) | Series completion (own LBP1 + Sackboy). · Online features are gone; story still playable |
 | Tearaway Unfolded | PlayStation 4 | low |  | PS4 disc; used preferred (price limit not set yet) | Exclusive. |
 
@@ -469,7 +464,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 
 | Title | Platform | Prio | State | Plan / where | Owned on / note |
 |---|---|---|---|---|---|
-| Clair Obscur: Expedition 33 | PlayStation 5 | high |  | PS5 disc; used preferred (price limit not set yet) | ❓ marked '?' in the checklist – verify before buying · Acclaimed turn-based RPG, not owned. · Other versions: Switch 2 port only rumoured for 2026 · If Switch 2 full cart is announced, rule says wait · Switch 2 port still not announced — only an insider report (NateTheHate) that it comes in 2026 (checked 2026-09-28) |
+| Clair Obscur: Expedition 33 | PlayStation 5 | high |  | PS5 disc; used preferred (price limit not set yet) | ❓ marked '?' in the checklist – verify before buying · Acclaimed turn-based RPG, not owned. · Other versions: Switch 2 port only rumoured for 2026 · If Switch 2 full cart is announced, rule says wait · Switch 2 port still not announced — only an insider report (NateTheHate) that it comes in 2026 (checked 2026-09-28) · PS5 disc exists in the EU (physical distributed by Bandai Namco Europe) (checked 2026-09-29) |
 | Devil May Cry 5 Special Edition | PlayStation 5 | high |  | PS5 disc; new or used, only at a really good price | owned on Steam (Devil May Cry 5) – only if very cheap, new or used · Fits your character-action line (Bayonetta, Ninja Gaiden, Onimusha). No DMC owned. · Other versions: Switch 2 Devil Hunter Ed. = digital / GKC |
 | Elden Ring | PlayStation 5 | high |  | PS5 disc; new or used, only at a really good price | Shadow of the Erdtree Edition · owned on Steam (ELDEN RING) – only if very cheap, new or used · Biggest gap in your Souls line-up (own Demon's Souls, Bloodborne + many soulslikes). · Other versions: Switch 2 Tarnished Ed. (28 Aug 2026) = Game-Key Card · Common used · PS5 Pro is the best console version |
 | Grand Theft Auto VI | PlayStation 5 | high | watching | PS5 disc; pre-order candidate | Continues your GTA run (IV/V PS3, LCS/VCS PSP). No PC version at launch. · Other versions: No Switch; PC later · Standard disc · Release date reaffirmed by Take-Two · Still 19 Nov 2026 — Take-Two reaffirmed in Aug 2026 (checked 2026-09-28) |
@@ -483,7 +478,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Alan Wake 2 | PlayStation 5 | medium |  | PS5 disc; used preferred (price limit not set yet) | Deluxe Edition · You own Alan Wake Remastered + Control. · Physical came a year after launch |
 | Armored Core VI: Fires of Rubicon | PlayStation 5 | medium |  | PS5 disc; used preferred (price limit not set yet) | FromSoftware single-player. |
 | Assassin's Creed Shadows | PlayStation 5 | medium |  | PS5 disc; new or used, only at a really good price | owned on Steam (Assassin’s Creed Shadows) – only if very cheap, new or used · Only modern AC you're missing on PS. · Other versions: Switch 2 = Game-Key Card |
-| Code Vein II | PlayStation 5 | medium |  | PS5 disc; used preferred (price limit not set yet) | ❓ marked '?' in the checklist – verify before buying · Anime soulslike; Bandai Namco. · Check release/physical |
+| Code Vein II | PlayStation 5 | medium |  | PS5 disc; used preferred (price limit not set yet) | ❓ marked '?' in the checklist – verify before buying · Anime soulslike; Bandai Namco. · Check release/physical · released 29 Jan 2026; PS5 disc sold in the EU (checked 2026-09-29) |
 | Dead Space | PlayStation 5 | medium |  | PS5 disc; new or used, only at a really good price | 2023 · owned on Steam (Dead Space) – only if very cheap, new or used · You own Dead Space 2 + 3 (PS3); the original is missing – remake = newest gen. |
 | Dragon's Dogma 2 | PlayStation 5 | medium |  | PS5 disc; new or used, only at a really good price | owned on Steam (Dragon's Dogma 2) – only if very cheap, new or used · Single-player ARPG. · Other versions: Switch 2 = Game-Key Card · DD1 Dark Arisen → Switch (see Buy Elsewhere) |
 | Like a Dragon: Infinite Wealth | PlayStation 5 | medium |  | PS5 disc; new or used, only at a really good price | owned on Steam (Like a Dragon: Infinite Wealth) – only if very cheap, new or used · Turn-based JRPG, no Switch version. · Only if you start the RGG series (see Series tab) |
@@ -497,7 +492,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Star Wars Outlaws | PlayStation 5 | medium |  | PS5 disc; used preferred (price limit not set yet) | Single-player Star Wars. · Other versions: Switch 2 = Game-Key Card |
 | The First Berserker: Khazan | PlayStation 5 | medium |  | PS5 disc; used preferred (price limit not set yet) | Fits your soulslike run (Wuchang, Lords of the Fallen, Mortal Shell). |
 | Tomb Raider: Legacy of Atlantis | PlayStation 5 | medium | watching | PS5 disc (upcoming, 12 Feb 2027) | Suggested (review 2026-09-28): remake of the first Tomb Raider (Crystal Dynamics / Flying Wild Hog), PS5, Xbox Series, PC. Switch version not announced. |
-| Visions of Mana | PlayStation 5 | medium |  | PS5 disc; new or used, only at a really good price | ❓ marked '?' in the checklist – verify before buying · owned on Steam (Visions of Mana) – only if very cheap, new or used · JRPG with no Switch version (own Collection of Mana, Legend of Mana). · Verify no Switch release |
+| Visions of Mana | PlayStation 5 | medium |  | PS5 disc; new or used, only at a really good price | ❓ marked '?' in the checklist – verify before buying · owned on Steam (Visions of Mana) – only if very cheap, new or used · JRPG with no Switch version (own Collection of Mana, Legend of Mana). · Verify no Switch release · PS5 standard edition disc exists (Aug 2024) (checked 2026-09-29) |
 | Wo Long: Fallen Dynasty | PlayStation 5 | medium |  | PS5 disc; used preferred (price limit not set yet) | Complete Edition · Only Team Ninja action title you're missing (own Nioh 1–3, NG, Rise of the Ronin). · Other versions: Switch 2 = Game-Key Card |
 | Dynasty Warriors: Origins | PlayStation 5 | low |  | PS5 disc; used preferred (price limit not set yet) | Koei Tecmo. · Other versions: Switch 2 = Game-Key Card |
 | God of War: Laufey | PlayStation 5 | low | watching |  | Suggested (review 2026-09-28): Faye-led narrative entry, Santa Monica Studio; announced Feb 2026 State of Play, no release date yet. |
@@ -662,12 +657,13 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Gears of War: E-Day | Xbox Series X\|S | high | First-party |  | Pre-ordered (Xbox) | scope layer 1 (Gears / The Coalition) · Releases 6 Oct 2026 (Premium early access from 1 Oct) (checked 2026-09-28) |
 | Fable | PlayStation 5 | high | PS5 gaps – Microsoft 1st-party |  | PS5 disc (pre-ordered) | Pre-ordered on PS5 (Xbox disc only if cheap later). · Already pre-ordered · Delayed to 23 Feb 2027 (PS5, Xbox Series, PC) (checked 2026-09-28) |
 
-## ✅ Done (72)
+## ✅ Done (76)
 
 <details><summary>show</summary>
 
 | Title | Platform | Prio | Group | State | Plan / where | Owned on / note |
 |---|---|---|---|---|---|---|
+| Trails in the Sky 2nd Chapter | Nintendo Switch, Nintendo Switch 2 | high | Buy elsewhere (not PlayStation) |  | Switch cart | Nintendo Switch 2 |
 | Titanfall | Xbox One | high | Checklist (Disc-to-Digital) |  |  | Xbox One |
 | Halo 5: Guardians | Xbox One | high | Checklist (Disc-to-Digital) + First-party |  |  | Xbox One |
 | Halo: The Master Chief Collection | Xbox One | high | Checklist (Disc-to-Digital) + First-party |  |  | Xbox One |
@@ -683,7 +679,9 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Quantum Break | Xbox One | medium | Checklist (Disc-to-Digital) + First-party |  |  | Xbox One |
 | Forza Horizon 5 | Xbox Series X\|S | medium | First-party |  |  | Xbox Series X\|S |
 | Forza Motorsport | Xbox Series X\|S | medium | First-party |  |  | Xbox Series X\|S |
+| Minecraft Legends | Xbox One, Xbox Series X\|S | medium | First-party |  | used disc, e.g. rebuy.de | Xbox Series X\|S |
 | Ori and the Blind Forest: Definitive Edition | Xbox One | medium | First-party |  |  | Xbox One |
+| Psychonauts 2 | Xbox One, Xbox Series X\|S | medium | First-party |  | used disc, e.g. rebuy.de | Xbox Series X\|S |
 | Redfall | Xbox Series X\|S | medium | First-party |  |  | Xbox Series X\|S |
 | Sea of Thieves | Xbox One | medium | First-party |  |  | Xbox One |
 | Call of Duty 2 | Xbox 360 | medium | Xbox 360 BC + Series runs – Call of Duty |  |  | Xbox 360 |
@@ -700,6 +698,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | State of Decay 2 | Xbox One | low | Checklist (Disc-to-Digital) + First-party |  |  | Xbox One |
 | Dead Rising 4 | Xbox One | low | First-party |  |  | Xbox One |
 | Ori and the Will of the Wisps | Xbox One | low | First-party |  |  | Xbox One |
+| Resident Evil Revelations | PlayStation 4 | low | PS4 gaps – Multiplatform |  | PS4 disc; new or used, only at a really good price | PlayStation 4 |
 | Forza Horizon 3 | Xbox One | someday | Checklist (Disc-to-Digital) + First-party |  |  | Xbox One |
 | Forza Horizon 4 | Xbox One | someday | Checklist (Disc-to-Digital) + First-party |  |  | Xbox One |
 | Forza Motorsport 5 | Xbox One | someday | Checklist (Disc-to-Digital) + First-party |  |  | Xbox One |

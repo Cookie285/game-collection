@@ -399,11 +399,11 @@ note = "scope layer 1 (Asobo)"
 
 [[target]]
 title = "Psychonauts 2"
-platforms = ["Xbox One"]
+platforms = ["Xbox One", "Xbox Series X|S"]
 priority = "medium"
 group = "First-party"
 plan = "used disc, e.g. rebuy.de"
-note = "scope layer 1 (Double Fine)"
+note = "scope layer 1 (Double Fine) · the retail disc (Sep 2022) is one Xbox One + Series X|S disc; CLZ lists your copy as Xbox Series X|S (import 2026-09-29) (checked 2026-09-29)"
 
 [[target]]
 title = "Avowed"
@@ -539,7 +539,7 @@ platforms = ["Xbox Series X|S"]
 priority = "medium"
 group = "First-party"
 plan = "used disc"
-note = "scope layer 1 (Ninja Theory); Ninja Theory at risk of closure (Sep 2026) · Amazon.de lists the Xbox Series version only as a download code; no EU disc found (checked 2026-09-28)"
+note = "scope layer 1 (Ninja Theory); Ninja Theory at risk of closure (Sep 2026) · Amazon.de lists the Xbox Series version only as a download code; no EU disc found (checked 2026-09-28) · physical Xbox Series X|S + PS5 edition announced via Limited Run Games (May 2025) – Microsoft itself released no disc; Xbox disc contents not confirmed yet (checked 2026-09-29)"
 verify = "verify the EU Xbox box contains a real disc, not a code – if code-in-box, treat like Avowed"
 
 [[target]]

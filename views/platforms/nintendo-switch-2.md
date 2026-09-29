@@ -2,7 +2,7 @@
 
 # Nintendo Switch 2
 
-## Owned (39)
+## Owned (40)
 
 | Title | Edition | Format | Region | Completeness | Purchased | Notes |
 |---|---|---|---|---|---|---|
@@ -41,6 +41,7 @@
 | Steins;Gate Re:Boot |  |  |  |  |  |  |
 | Story Of Seasons: Grand Bazaar |  |  |  |  |  |  |
 | The Elder Scrolls IV: Oblivion Remastered |  |  |  |  |  |  |
+| Trails In The Sky 2nd Chapter |  |  |  |  |  |  |
 | Truxton Extreme |  |  |  |  |  |  |
 | Wanderstop |  |  |  |  |  |  |
 | Yooka-Replaylee |  |  |  |  |  |  |

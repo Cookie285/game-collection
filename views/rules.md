@@ -73,9 +73,9 @@ Platform order: PC (best graphics) → Nintendo (best physical line-up) → what
 
 _Why:_ Each game is bought once, on the platform where it plays or collects best.
 
-75 targets — ⬜ 57 · 🕒 0 · ✅ 0 · ➖ 18
+75 targets — ⬜ 56 · 🕒 0 · ✅ 1 · ➖ 18
 
-<details><summary>57 open</summary>
+<details><summary>56 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -128,7 +128,6 @@ _Why:_ Each game is bought once, on the platform where it plays or collects best
 | The Legend of Heroes: Trails of Cold Steel IV | Nintendo Switch | low |  |
 | Tomb Raider I-III Remastered Starring Lara Croft | Nintendo Switch | low |  |
 | Tomb Raider IV-VI Remastered | Nintendo Switch | low |  |
-| Trails in the Sky 2nd Chapter | Nintendo Switch | high | watching |
 | Valkyria Chronicles | Nintendo Switch | low |  |
 | Valkyria Chronicles 4 | Nintendo Switch | low |  |
 | Wolfenstein II: The New Colossus | xbox-modern | low |  |
@@ -197,9 +196,9 @@ Gaps in older generations are mostly bought used.
 
 _Why:_ Older discs are cheap and plentiful used; new copies are often gone or overpriced.
 
-291 targets — ⬜ 291 · 🕒 0 · ✅ 0 · ➖ 0
+291 targets — ⬜ 288 · 🕒 0 · ✅ 3 · ➖ 0
 
-<details><summary>291 open</summary>
+<details><summary>288 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -351,7 +350,6 @@ _Why:_ Older discs are cheap and plentiful used; new copies are often gone or ov
 | Microsoft Flight Simulator 2024 | Xbox Series X\|S | medium |  |
 | Minecraft | Xbox One | low |  |
 | Minecraft Dungeons | Xbox One | medium |  |
-| Minecraft Legends | Xbox One, Xbox Series X\|S | medium |  |
 | Minecraft: Story Mode | Xbox One | low |  |
 | Minecraft: Xbox One Edition | Xbox One | high |  |
 | Monster Hunter Wilds | PlayStation 5 | medium |  |
@@ -372,7 +370,6 @@ _Why:_ Older discs are cheap and plentiful used; new copies are often gone or ov
 | Project Zero | PlayStation 2 | medium |  |
 | Project Zero 3: The Tormented | PlayStation 2 | medium |  |
 | Prototype Biohazard Bundle | Xbox One | someday | undecided |
-| Psychonauts 2 | Xbox One | medium |  |
 | Puppeteer | PlayStation 3 | medium |  |
 | Rage | Xbox 360 | someday | undecided |
 | Rage 2 | Xbox One | someday | undecided |
@@ -386,7 +383,6 @@ _Why:_ Older discs are cheap and plentiful used; new copies are often gone or ov
 | Red Dead Redemption 2 | PlayStation 4 | high |  |
 | Red Dead Redemption (2023) | PlayStation 4 | low |  |
 | Resident Evil Requiem | PlayStation 5 | high |  |
-| Resident Evil Revelations | PlayStation 4 | low |  |
 | Resistance 3 | PlayStation 3 | high |  |
 | Resonance of Fate | PlayStation 3 | medium |  |
 | Rise of the Tomb Raider: 20 Year Celebration | PlayStation 4 | medium |  |
@@ -501,9 +497,9 @@ _Why:_ Older discs are cheap and plentiful used; new copies are often gone or ov
 
 Nice-to-have titles are bought only at a really good price.
 
-56 targets — ⬜ 54 · 🕒 1 · ✅ 0 · ➖ 1
+56 targets — ⬜ 53 · 🕒 1 · ✅ 1 · ➖ 1
 
-<details><summary>54 open</summary>
+<details><summary>53 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -538,7 +534,6 @@ Nice-to-have titles are bought only at a really good price.
 | Persona 4 | PlayStation 2 | low |  |
 | Persona 5 Strikers | Nintendo Switch | low |  |
 | Red Dead Redemption 2 | PlayStation 4 | high |  |
-| Resident Evil Revelations | PlayStation 4 | low |  |
 | Rise of the Tomb Raider: 20 Year Celebration | PlayStation 4 | medium |  |
 | Scarlet Nexus | PlayStation 5 | medium |  |
 | Shadow of the Tomb Raider: Definitive Edition | PlayStation 4 | medium |  |
@@ -595,15 +590,17 @@ Limited Run / boutique pressings count as real discs, but only at a good price.
 
 _Precedents:_ Pentiment, Grounded via eBay saved searches
 
-3 targets — ⬜ 3 · 🕒 0 · ✅ 0 · ➖ 0
+5 targets — ⬜ 5 · 🕒 0 · ✅ 0 · ➖ 0
 
-<details><summary>3 open</summary>
+<details><summary>5 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
+| Castlevania Requiem | PlayStation 4 | medium |  |
 | Grounded | Xbox Series X\|S | someday | watching |
 | Hi-Fi Rush | Xbox Series X\|S | low |  |
 | Pentiment | Xbox Series X\|S | someday | watching |
+| Senua's Saga: Hellblade II | Xbox Series X\|S | medium |  |
 
 </details>
 
@@ -631,9 +628,9 @@ Already owned on Steam → buy the disc only if the price is really good, new or
 
 _Why:_ The game is already playable; the disc is a nice-to-have for the shelf.
 
-57 targets — ⬜ 54 · 🕒 0 · ✅ 0 · ➖ 3
+57 targets — ⬜ 53 · 🕒 0 · ✅ 1 · ➖ 3
 
-<details><summary>54 open</summary>
+<details><summary>53 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -667,7 +664,6 @@ _Why:_ The game is already playable; the disc is a nice-to-have for the shelf.
 | Persona 4 | PlayStation 2 | low |  |
 | Persona 5 Strikers | Nintendo Switch | low |  |
 | Red Dead Redemption 2 | PlayStation 4 | high |  |
-| Resident Evil Revelations | PlayStation 4 | low |  |
 | Rise of the Tomb Raider: 20 Year Celebration | PlayStation 4 | medium |  |
 | Scarlet Nexus | PlayStation 5 | medium |  |
 | Shadow of the Tomb Raider: Definitive Edition | PlayStation 4 | medium |  |
@@ -716,9 +712,9 @@ Switch is first choice for JRPGs and for anything that has a real Switch cart.
 
 _Why:_ Best physical line-up; carts are complete and play on Switch 2.
 
-57 targets — ⬜ 56 · 🕒 0 · ✅ 0 · ➖ 1
+57 targets — ⬜ 54 · 🕒 0 · ✅ 2 · ➖ 1
 
-<details><summary>56 open</summary>
+<details><summary>54 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -756,7 +752,6 @@ _Why:_ Best physical line-up; carts are complete and play on Switch 2.
 | Onimusha: Warlords | Nintendo Switch | low |  |
 | Persona 5 Strikers | Nintendo Switch | low |  |
 | Persona 5 Tactica | Nintendo Switch | low |  |
-| Resident Evil Revelations | PlayStation 4 | low |  |
 | Sifu | Nintendo Switch | low |  |
 | Skyrim Special Edition | Xbox One | someday |  |
 | Spyro Reignited Trilogy | Nintendo Switch | low |  |
@@ -768,7 +763,6 @@ _Why:_ Best physical line-up; carts are complete and play on Switch 2.
 | Tomb Raider IV-VI Remastered | Nintendo Switch | low |  |
 | Tony Hawk's Pro Skater 1 + 2 | Nintendo Switch | someday | undecided |
 | Tony Hawk's Pro Skater 3 + 4 | Nintendo Switch 2 | someday | undecided |
-| Trails in the Sky 2nd Chapter | Nintendo Switch | high | watching |
 | Utawarerumono: Prelude to the Fallen | PlayStation 4 | low |  |
 | Valkyria Chronicles | Nintendo Switch | low |  |
 | Valkyria Chronicles 4 | Nintendo Switch | low |  |
@@ -789,7 +783,7 @@ _Why:_ A Game-Key Card is only a download licence in a box; the disc is the real
 
 _Precedents:_ Pragmata, Onimusha: Way of the Sword, Full Metal Schoolgirl → PS5 · Bravely Default HD Remaster, Brigandine Abyss, Granblue Fantasy: Relink bought as GKC (JRPGs)
 
-26 targets — ⬜ 26 · 🕒 0 · ✅ 0 · ➖ 0
+27 targets — ⬜ 26 · 🕒 0 · ✅ 1 · ➖ 0
 
 <details><summary>26 open</summary>
 
@@ -830,9 +824,9 @@ _Precedents:_ Pragmata, Onimusha: Way of the Sword, Full Metal Schoolgirl → PS
 
 PlayStation gets exclusives plus multiplatform games worth having on disc.
 
-198 targets — ⬜ 197 · 🕒 1 · ✅ 0 · ➖ 0
+198 targets — ⬜ 196 · 🕒 1 · ✅ 1 · ➖ 0
 
-<details><summary>197 open</summary>
+<details><summary>196 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -965,7 +959,6 @@ PlayStation gets exclusives plus multiplatform games worth having on disc.
 | Red Dead Redemption 2 | PlayStation 4 | high |  |
 | Resident Evil – Code: Veronica (2027 remake) | PlayStation 5 | low | watching |
 | Resident Evil Requiem | PlayStation 5 | high |  |
-| Resident Evil Revelations | PlayStation 4 | low |  |
 | Resistance 3 | PlayStation 3 | high |  |
 | Resonance of Fate | PlayStation 3 | medium |  |
 | Rise of the Tomb Raider: 20 Year Celebration | PlayStation 4 | medium |  |
@@ -1226,9 +1219,9 @@ Microsoft first-party on Xbox disc: layer 1 = published by Microsoft / Xbox Game
 
 _Why:_ Historical publisher counts — the Sep 2026 Xbox reset doesn't change scope.
 
-64 targets — ⬜ 29 · 🕒 1 · ✅ 33 · ➖ 1
+64 targets — ⬜ 27 · 🕒 1 · ✅ 35 · ➖ 1
 
-<details><summary>29 open</summary>
+<details><summary>27 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -1251,10 +1244,8 @@ _Why:_ Historical publisher counts — the Sep 2026 Xbox reset doesn't change sc
 | Microsoft Flight Simulator 2024 | Xbox Series X\|S | medium |  |
 | Minecraft | Xbox One | low |  |
 | Minecraft Dungeons | Xbox One | medium |  |
-| Minecraft Legends | Xbox One, Xbox Series X\|S | medium |  |
 | Minecraft: Xbox One Edition | Xbox One | high |  |
 | Pentiment | Xbox Series X\|S | someday | watching |
-| Psychonauts 2 | Xbox One | medium |  |
 | ReCore | Xbox One | low |  |
 | Senua's Saga: Hellblade II | Xbox Series X\|S | medium |  |
 | Skyrim Special Edition | Xbox One | someday |  |
@@ -1425,15 +1416,16 @@ Prefer GOTY / Ultimate disc editions when the DLC is on the disc.
 
 _Precedents:_ Fallout 3 · Fallout: New Vegas
 
-6 targets — ⬜ 6 · 🕒 0 · ✅ 0 · ➖ 0
+7 targets — ⬜ 7 · 🕒 0 · ✅ 0 · ➖ 0
 
-<details><summary>6 open</summary>
+<details><summary>7 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
 | Dragon Age: Inquisition | PlayStation 4 | medium |  |
 | Fallout 3 | Xbox 360 | low | undecided |
 | Fallout: New Vegas | Xbox 360 | low | undecided |
+| Marvel's Spider-Man | PlayStation 4 | high |  |
 | Sekiro: Shadows Die Twice | PlayStation 4 | high |  |
 | The Elder Scrolls III: Morrowind | Xbox | someday | undecided |
 | The Elder Scrolls IV: Oblivion | Xbox 360 | someday | undecided |
