@@ -1432,7 +1432,7 @@ priority = "someday"
 group = "Shooter console suggestions"
 plan = "used disc"
 state = "undecided"
-note = "Suggested. Owned on PS3"
+note = "Suggested. Owned on PS3 · Xbox 360 game is backward compatible on Xbox One / Series; store status not checked (checked 2026-09-29)"
 
 [[target]]
 title = "Tom Clancy's Rainbow Six Vegas 2"
@@ -1441,7 +1441,7 @@ priority = "someday"
 group = "Shooter console suggestions"
 plan = "used disc"
 state = "undecided"
-note = "Suggested. Owned on PS3"
+note = "Suggested. Owned on PS3 · Xbox 360 game is backward compatible on Xbox One / Series; store status not checked (checked 2026-09-29)"
 
 [[target]]
 title = "Tom Clancy's Rainbow Six Siege"
@@ -1450,7 +1450,7 @@ priority = "someday"
 group = "Shooter console suggestions"
 plan = "used disc"
 state = "undecided"
-note = "Suggested."
+note = "Suggested. · free-to-play since Siege X (10 Jun 2025): the base game is free, a disc adds little; online only (checked 2026-09-29)"
 
 [[target]]
 title = "Tom Clancy's Rainbow Six Extraction"
@@ -1468,7 +1468,7 @@ priority = "someday"
 group = "Shooter console suggestions"
 plan = "used disc"
 state = "undecided"
-note = "Suggested."
+note = "Suggested. · Xbox 360 version backward compatible on Xbox One (2018); store status not checked (checked 2026-09-29)"
 
 [[target]]
 title = "Tom Clancy's Ghost Recon Advanced Warfighter 2"
@@ -1486,7 +1486,7 @@ priority = "someday"
 group = "Shooter console suggestions"
 plan = "used disc"
 state = "undecided"
-note = "Suggested."
+note = "Suggested. · Xbox 360 game is backward compatible on Xbox One / Series; store status not checked (checked 2026-09-29)"
 
 [[target]]
 title = "Tom Clancy's Ghost Recon Wildlands"
@@ -1495,7 +1495,7 @@ priority = "someday"
 group = "Shooter console suggestions"
 plan = "used disc"
 state = "undecided"
-note = "Suggested."
+note = "Suggested. · single player works fully offline (Ubisoft); reported working with Disc-to-Digital (checked 2026-09-29)"
 
 [[target]]
 title = "Tom Clancy's Ghost Recon Breakpoint"
@@ -1504,7 +1504,7 @@ priority = "someday"
 group = "Shooter console suggestions"
 plan = "used disc"
 state = "undecided"
-note = "Suggested."
+note = "Suggested. · always online — Ubisoft ruled out an offline mode; reported working with Disc-to-Digital (checked 2026-09-29)"
 
 [[target]]
 title = "Crysis"
@@ -2516,3 +2516,21 @@ group = "Series runs – Call of Duty"
 state = "watching"
 plan = "Xbox Series X disc (pre-order candidate)"
 note = "Suggested (review 2026-09-28): next entry of the complete Xbox CoD run — Infinity Ward, 23 Oct 2026. Also on PS5, PS4/Xbox One and Switch 2; the shooter rule keeps it on Xbox."
+
+[[target]]
+title = "Tom Clancy's The Division 2"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "Suggested (review 2026-09-29, question tom-clancy-xbox): always online (needs Ubisoft servers). Reported working with Disc-to-Digital (checked 2026-09-29)"
+
+[[target]]
+title = "Tom Clancy's The Division"
+platforms = ["Xbox One"]
+priority = "someday"
+group = "Shooter console suggestions"
+plan = "used disc"
+state = "undecided"
+note = "Suggested (review 2026-09-29, question tom-clancy-xbox): always online (needs Ubisoft servers) (checked 2026-09-29)"

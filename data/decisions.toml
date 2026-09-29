@@ -12,6 +12,8 @@
 #   rules           rule ids from data/rules.toml that this question is about
 #   targets         buy-plan titles this question decides (matched like CLZ titles; also finds series entries)
 #   match           optional patterns like in rules.toml, to link more targets automatically
+#   asked, issue    set by "❓ Ask a question" (issue form → Action → gamecoll.py ask): date asked, GitHub issue number
+#   sources         optional list of URLs backing the context / recommendation
 #   [[decision.option]]  label, pros = [...], cons = [...]
 # When you decide: set status = "decided", decided = "YYYY-MM-DD", outcome = "what and why",
 # then update the targets' state / platforms / plan (and rules.toml if it sets a precedent).
@@ -478,3 +480,27 @@ due = "2026-10-29"
 context = "Releases 29 Oct 2026; only an Asian PS5 disc was listed on 2026-09-28. No disc → physical-first says import the Asian disc or skip."
 rules = ["physical-first"]
 targets = ["Phantom Blade Zero"]
+
+# ---------------------------------------------------------------- asked by you
+[[decision]]
+id = "tom-clancy-xbox"
+question = "Which Tom Clancy games make sense on Xbox — modern discs (Disc-to-Digital) and/or backward-compatible ones digitally?"
+area = "xbox"
+asked = "2026-09-29"
+context = "Asked in chat 2026-09-29: consider all Tom Clancy games for Xbox — backward-compatible ones digitally (disc only if delisted), newer Xbox One / Series ones on disc now that Ubisoft is in Disc-to-Digital. · Facts: Ubisoft games started converting via Disc-to-Digital in Sep 2026 (Tom Clancy named; reported working: The Division 2, Wildlands, Breakpoint, Siege — can depend on the disc print). Rainbow Six Siege is free-to-play since Siege X (Jun 2025). The Division 1/2 and Breakpoint are always online; Wildlands single player works offline. Xbox 360 BC: Rainbow Six Vegas 1/2, GRAW 1/2, Future Soldier, EndWar, H.A.W.X, Splinter Cell Double Agent / Conviction / Blacklist. Original-Xbox Splinter Cell games are delisted (disc only). Splinter Cell was marked not interested earlier; Vegas 1/2 are owned on PS3. Store prices / listings of the 360 titles not checked; Rainbow Six Extraction offline status not checked (checked 2026-09-29)."
+recommendation = "Wildlands on disc first (offline + Disc-to-Digital). The Division 2 / Breakpoint / The Division only very cheap used — they stop working when the servers close. Skip a Siege disc (free-to-play). 360 titles: digitally in a sale per your BC rule, starting with Future Soldier and GRAW 1/2; skip Vegas 1/2 (owned on PS3) unless you want the Xbox versions. Splinter Cell stays skipped unless you change your mind."
+rules = ["shooter-console", "disc-to-digital", "bc-digital-unless-delisted"]
+targets = ["Tom Clancy's Ghost Recon Wildlands", "Tom Clancy's Ghost Recon Breakpoint", "Tom Clancy's The Division 2", "Tom Clancy's The Division", "Tom Clancy's Rainbow Six Siege", "Tom Clancy's Rainbow Six Extraction", "Tom Clancy's Rainbow Six Vegas", "Tom Clancy's Rainbow Six Vegas 2", "Tom Clancy's Ghost Recon Advanced Warfighter", "Tom Clancy's Ghost Recon Advanced Warfighter 2", "Tom Clancy's Ghost Recon: Future Soldier"]
+sources = ["https://www.videogameschronicle.com/news/ubisoft-games-have-been-added-to-xboxs-disc-to-digital-feature-as-more-titles-continue-to-support-the-service/", "https://www.techpowerup.com/352515/ubisoft-games-silently-join-xbox-disc-to-digital-program", "https://beebom.com/xbox-disc-to-digital-games-list/", "https://www.pcgamer.com/games/fps/rainbow-six-siege-x-is-out-today-meaning-one-of-the-best-tactical-shooters-ever-made-is-now-free-to-play/", "https://www.mondoxbox.com/en/news/52744/ubisoft-ghost-recon-wildlands-will-be-playable-offline-no-distance-limit-in-co-op.html", "https://www.shacknews.com/article/110739/is-the-division-2-an-online-only-game", "https://www.windowscentral.com/tom-clancys-endwar-and-hawx-join-xbox-backward-compatibility"]
+[[decision.option]]
+label = "Modern discs only, offline-capable first"
+pros = ["Disc-to-Digital: Ubisoft discs now convert (reported: Division 2, Wildlands, Breakpoint, Siege)", "Wildlands plays fully offline"]
+cons = ["Division 1/2 and Breakpoint are always online — the disc stops working when Ubisoft's servers close", "Siege is free-to-play now"]
+[[decision.option]]
+label = "Modern discs + Xbox 360 backward-compatible titles digitally in store sales"
+pros = ["Matches your rule 'BC: digital unless delisted'", "Vegas 1/2, Future Soldier, GRAW 1/2 (plus EndWar, H.A.W.X) are BC", "Cheap in sales"]
+cons = ["Vegas 1/2 are already owned on PS3 (one-copy rule)", "Store listing / price per title still needs a check"]
+[[decision.option]]
+label = "Everything incl. original Xbox discs"
+pros = ["Complete Tom Clancy run on Xbox"]
+cons = ["OG Splinter Cell games are delisted → disc only", "Splinter Cell was marked 'not interested' earlier", "OG discs don't get Disc-to-Digital"]

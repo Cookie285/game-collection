@@ -923,11 +923,14 @@ function optionsHTML(x) {
     ${(o.pros || []).map((p) => `<div class="pro">✓ ${esc(p)}</div>`).join("")}${(o.cons || []).map((c) => `<div class="con">✗ ${esc(c)}</div>`).join("")}</div>`).join("")}</div>`;
 }
 
+// questions asked via the "❓ Ask a question" form: waiting until the review fills in a recommendation
+const askedPill = (x) => x.asked && x.status === "open"
+  ? pill(x.recommendation ? `🙋 asked ${x.asked} · answered` : `🙋 asked ${x.asked} · waiting for an answer`, x.recommendation ? "var(--good)" : "var(--accent)") : "";
 function decisionCard(x) {
   const decided = x.status !== "open";
   return `<article class="card decision${decided ? " decided" : ""}" data-decision="${esc(x.id)}" style="--c:${areaColor(x.area)}" tabindex="0">
     <div class="d-top">${pill(x.area === "all" ? "General" : fam(x.area).label, areaColor(x.area))}${x.kind !== "decision" ? pill(DEC_KIND[x.kind], "var(--faint)") : ""}
-      ${decided ? pill(`✅ ${x.decided || "decided earlier"}`, "var(--good)") : x.due ? dueBadge(x.due) : ""}</div>
+      ${decided ? pill(`✅ ${x.decided || "decided earlier"}`, "var(--good)") : x.due ? dueBadge(x.due) : ""}${askedPill(x)}</div>
     <h3>${esc(x.question)}</h3>
     ${x.context ? `<p class="d-ctx">${esc(x.context)}</p>` : ""}
     ${decided ? `<div class="outcome">→ ${esc(x.outcome || x.status)}</div>` : ""}
@@ -945,7 +948,8 @@ function pageDecisions(page, params) {
     log: { label: "📜 Decision log", test: (x) => x.status !== "open" },
   };
   page.innerHTML = `
-    <div class="page-head"><div><h1>Decisions</h1><p>Open questions with their options, and a log of what was decided — from <code>data/decisions.toml</code>.</p></div>
+    <div class="page-head"><div><h1>Decisions</h1><p>Open questions with their options, and a log of what was decided — from <code>data/decisions.toml</code>.</p>
+      ${D.repo ? `<p><a class="btn" target="_blank" rel="noopener" href="${esc(D.repo)}/issues/new?template=ask.yml" title="Opens a short GitHub form (works on the phone); Claude researches and answers it at the next review">❓ Ask a question</a></p>` : ""}</div>
       <div class="seg" id="dtabs">${Object.entries(TABS).map(([k, v]) => `<button data-t="${k}">${v.label} <span class="badge">${D.decisions.filter(v.test).length}</span></button>`).join("")}</div></div>
     <div class="card toolbar">
       <label class="search">⌕<input id="dq" type="search" placeholder="Search questions, options…" value="${esc(S.q)}"></label>
@@ -990,15 +994,17 @@ function openDecision(id) {
     ${decided ? `<div class="outcome big">→ ${esc(x.outcome || x.status)}</div>` : ""}
     ${!decided && x.recommendation ? `<div class="reco">💡 <b>Suggestion:</b> ${esc(x.recommendation)}</div>` : ""}
     ${optionsHTML(x)}
+    ${(x.sources || []).filter((u) => /^https:\/\//.test(u)).length ? `<h3 class="mh">Sources</h3><ul class="sources">${x.sources.filter((u) => /^https:\/\//.test(u))
+      .map((u) => `<li><a href="${esc(u)}" target="_blank" rel="noopener noreferrer">${esc(u.replace(/^https:\/\/(www\.)?/, "").split("/")[0])}</a></li>`).join("")}</ul>` : ""}
     ${(x.rules || []).length ? whyHTML(x.rules, "Rules involved") : ""}
     ${x.targets.length ? `<h3 class="mh">Targets this decides · ${x.targets.length}</h3><div class="targets">${shown.map(targetHTML).join("")}</div>
       ${x.targets.length > shown.length ? `<p><a href="#/plan?dec=${encodeURIComponent(x.id)}&st=">All ${x.targets.length} in the buy plan →</a></p>` : ""}` : ""}
     ${decided ? "" : `<div class="howto card">✍️ <b>Decided?</b> ${D.repo ? `<a class="btn" style="margin:6px 0" target="_blank" rel="noopener" href="${esc(D.repo)}/issues/new?template=decide.yml&title=${encodeURIComponent("Decide: " + x.id)}&decision_id=${encodeURIComponent(x.id)}">⚖️ Record it on GitHub</a><br>` : ""}
       Opens a short form (works on the phone); an Action writes <code>status</code>, <code>decided</code> and <code>outcome</code> for <code>${esc(x.id)}</code> into <code>data/decisions.toml</code>. Then update the targets above — or edit the file directly.</div>`}
-    <div class="rule-actions">${askButton("decision", x.id)} ${srcLinks(x.src)}</div>`;
+    <div class="rule-actions">${askButton("decision", x.id)} ${x.issue && D.repo ? `<a class="src-link" href="${esc(D.repo)}/issues/${+x.issue}" target="_blank" rel="noopener">💬 Issue #${+x.issue}</a>` : ""} ${srcLinks(x.src)}</div>`;
   showModal(`<div class="rule-ico" style="--c:${areaColor(x.area)}">⚖️</div><div><h2>${esc(x.question)}</h2>
     <div class="row">${pill(x.area === "all" ? "General" : fam(x.area).label, areaColor(x.area))}${pill(DEC_KIND[x.kind], "var(--faint)")}
-    ${decided ? pill(`✅ ${x.decided || "decided earlier"}`, "var(--good)") : pill("open", "var(--warn)")}${x.due ? dueBadge(x.due) : ""}<code class="rule-id">${esc(x.id)}</code></div></div>`, body);
+    ${decided ? pill(`✅ ${x.decided || "decided earlier"}`, "var(--good)") : pill("open", "var(--warn)")}${x.due ? dueBadge(x.due) : ""}${askedPill(x)}<code class="rule-id">${esc(x.id)}</code></div></div>`, body);
 }
 
 /* ---- Ask Claude: builds a prompt with the full context, copies it and opens claude.ai */

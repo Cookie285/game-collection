@@ -1,0 +1,34 @@
+name: ❓ Ask a question
+description: Ask for advice or research (e.g. "which Tom Clancy games make sense on Xbox?"). It shows up on the Decisions page; Claude answers it at the next review. Only issues opened by the repo owner are recorded.
+title: "Ask: "
+labels: ["question"]
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - all
+        - xbox
+        - playstation
+        - nintendo
+        - pc
+      default: 0
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What do you need?
+      options:
+        - Advice for a decision
+        - Find something out
+      default: 0
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: What you're unsure about, what you already know, anything to consider. The question itself goes in the title.
+      placeholder: "Ubisoft is now part of Disc-to-Digital — are the newer Xbox One / Series discs worth it? Older ones digitally via backward compatibility?"
