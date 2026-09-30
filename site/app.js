@@ -423,12 +423,15 @@ function pagePlan(page, params) {
   let observer;
   const S = {
     q: params.get("q") || "", st: params.get("st") ?? "open", prio: params.get("prio") || "",
-    state: params.get("state") || "", fam: params.get("fam") || "", group: params.get("group") || "",
+    state: params.get("state") || "", fam: params.get("fam") || "", plat: params.get("plat") || "", group: params.get("group") || "",
     by: params.get("by") || "prio", rule: params.get("rule") || "", dec: params.get("dec") || "", nf: params.get("nf") || "",
   };
   const groups = [...new Set(D.targets.map((t) => t.group || "Other"))].sort();
   const states = [...new Set(D.targets.map((t) => t.state).filter(Boolean))].sort();
   const famKeys = ["nintendo", "playstation", "xbox", "pc", "other"].filter((f) => D.targets.some((t) => t.family === f));
+  // concrete consoles a target lists ("xbox-modern" counts for Xbox One and Series X|S)
+  const onPlat = (t, p) => t.platforms.some((x) => x === p || (SPEC_PLATFORMS[x] || []).includes(p));
+  const platKeys = D.platforms.map((p) => p.name).filter((p) => D.targets.some((t) => onPlat(t, p)));
 
   page.innerHTML = `
     <div class="page-head"><div><h1>Buy plan</h1><p>Curated targets — ticked ✅ automatically when the game shows up in CLZ. 📀 = already owned on another platform.</p></div></div>
@@ -440,6 +443,7 @@ function pagePlan(page, params) {
       </div>
       <div class="chips" id="prios">${Object.entries(PRIORITY).map(([k, v]) => `<button class="chip" data-p="${k}" style="--c:${v.color}">${v.label}</button>`).join("")}</div>
       <select id="fam" aria-label="Family"><option value="">All systems</option>${famKeys.map((f) => `<option value="${f}">${f === "other" ? "Mixed / any" : fam(f).label}</option>`).join("")}</select>
+      <select id="plat" aria-label="Platform"><option value="">All platforms</option>${platKeys.map((p) => `<option>${esc(p)}</option>`).join("")}</select>
       <select id="state" aria-label="State"><option value="">Any state</option>${states.map((s) => `<option>${esc(s)}</option>`).join("")}</select>
       <select id="group" aria-label="Group"><option value="">All groups</option>${groups.map((g) => `<option>${esc(g)}</option>`).join("")}</select>
       <select id="rule" aria-label="Rule"><option value="">Any rule</option>${ruleOptions()}</select>
@@ -450,7 +454,8 @@ function pagePlan(page, params) {
     </div>
     <div id="ruleNote"></div>
     <div id="results"></div>`;
-  ["fam", "state", "group", "rule", "nf", "dec", "by"].forEach((k) => ($("#" + k, page).value = S[k]));
+  if (!platKeys.includes(S.plat)) S.plat = "";
+  ["fam", "plat", "state", "group", "rule", "nf", "dec", "by"].forEach((k) => ($("#" + k, page).value = S[k]));
 
   const update = () => {
     const p = new URLSearchParams();
@@ -461,6 +466,7 @@ function pagePlan(page, params) {
     const q = norm(S.q);
     const list = D.targets.filter((t) => (!q || t._n.includes(q)) && (!S.st || t.status === S.st) &&
       (!S.prio || t.priority === S.prio) && (!S.state || t.state === S.state) && (!S.fam || t.family === S.fam) &&
+      (!S.plat || onPlat(t, S.plat)) &&
       (!S.group || (t.group || "Other") === S.group) && (!S.rule || t.rules.includes(S.rule)) &&
       (!S.dec || D.decisionsById.get(S.dec)?.targets.includes(t)) && (!S.nf || NOTE_FILTERS[S.nf]?.test(t)))
       .sort((a, b) => (PRIORITY[a.priority]?.rank ?? 9) - (PRIORITY[b.priority]?.rank ?? 9) || a.title.localeCompare(b.title));
@@ -511,7 +517,13 @@ function pagePlan(page, params) {
   $("#q", page).addEventListener("input", (e) => { S.q = e.target.value; update(); });
   $("#sts", page).addEventListener("click", (e) => { const c = e.target.closest(".chip"); if (c) { S.st = c.dataset.s; update(); } });
   $("#prios", page).addEventListener("click", (e) => { const c = e.target.closest(".chip"); if (c) { S.prio = S.prio === c.dataset.p ? "" : c.dataset.p; update(); } });
-  ["fam", "state", "group", "rule", "nf", "dec", "by"].forEach((k) => $("#" + k, page).addEventListener("change", (e) => { S[k] = e.target.value; update(); }));
+  ["fam", "plat", "state", "group", "rule", "nf", "dec", "by"].forEach((k) => $("#" + k, page).addEventListener("change", (e) => {
+    S[k] = e.target.value;
+    if (k === "plat" && S.plat) S.fam = ""; // a console implies its family
+    if (k === "fam" && S.plat && S.fam) S.plat = "";
+    $("#fam", page).value = S.fam; $("#plat", page).value = S.plat;
+    update();
+  }));
   update();
 }
 
