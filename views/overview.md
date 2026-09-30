@@ -2,7 +2,7 @@
 
 # Overview
 
-_Updated 2026-09-29._
+_Updated 2026-09-30._
 
 ## By platform
 
@@ -33,7 +33,7 @@ _Updated 2026-09-29._
 
 ## Buy plan
 
-⬜ 414 open · 🕒 2 ordered · ✅ 76 done — see [gaps.md](gaps.md)
+⬜ 413 open · 🕒 3 ordered · ✅ 76 done — see [gaps.md](gaps.md)
 
 ## Series
 

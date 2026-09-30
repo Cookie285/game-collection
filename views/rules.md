@@ -1150,9 +1150,9 @@ Xbox is the shooter console: full Call of Duty and Battlefield runs. Beats Ninte
 
 _Why:_ Switch shooter ports are usually the weakest version.
 
-97 targets — ⬜ 61 · 🕒 0 · ✅ 33 · ➖ 3
+97 targets — ⬜ 60 · 🕒 1 · ✅ 33 · ➖ 3
 
-<details><summary>61 open</summary>
+<details><summary>60 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -1162,7 +1162,6 @@ _Why:_ Switch shooter ports are usually the weakest version.
 | Borderlands: The Handsome Collection | Xbox One | someday | undecided |
 | Bulletstorm | Xbox 360 | someday | undecided |
 | Bulletstorm: Full Clip Edition | Xbox One | someday | undecided |
-| Call of Duty: Modern Warfare 4 | Xbox Series X\|S | high | watching |
 | Crysis | Xbox 360 | someday | undecided |
 | Crysis 2 | Xbox 360 | someday | undecided |
 | Crysis 3 | Xbox 360 | someday | undecided |

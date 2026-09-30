@@ -6,11 +6,11 @@ Curated in [`data/targets/`](../data/targets/). A target flips to ✅ automatica
 
 Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 
-⬜ 414 open · 🕒 2 ordered · ✅ 76 done · ➖ 100 skip
+⬜ 413 open · 🕒 3 ordered · ✅ 76 done · ➖ 100 skip
 
 📀 = same title already owned on another platform (one copy per game!)
 
-## 🤔 Decide / watch (14)
+## 🤔 Decide / watch (13)
 
 | Title | Platform | Prio | Group | State | Plan / where | Owned on / note |
 |---|---|---|---|---|---|---|
@@ -20,7 +20,6 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Metaphor: ReFantazio | PlayStation 5, Nintendo Switch 2 | high | PS5 gaps – Multiplatform | undecided | PS5 disc; used preferred (price limit not set yet) | Decision: Switch = Switch 2 Game-Key Card (12 Nov 2026); PS = PS5 disc; suggestion: Your call – If you accept Game-Key Cards for JRPGs (you did for Bravely Default HD, Brigandine Abyss, Granblue Relink) → Switch 2; else PS5. · Top-tier Atlus JRPG, not owned. · Other versions: Switch 2 (12 Nov 2026) = Game-Key Card · Decide: Switch 2 GKC (like Bravely Default/Granblue) vs PS5 disc · Switch 2 physical confirmed as Game-Key Card (also a SteelBook GKC edition), 12 Nov 2026 (checked 2026-09-28) |
 | Persona 3 Reload | PlayStation 5, Nintendo Switch 2 | high | PS5 gaps – Multiplatform | undecided | PS5 disc; used preferred (price limit not set yet) | Decision: Switch = Switch 2 Game-Key Card, no DLC; PS = PS5 disc; suggestion: Your call – Same as Metaphor. The Switch 2 version also leaves out Episode Aigis. · Missing Persona entry (own P5R). · Other versions: Switch 2 = Game-Key Card, Episode Aigis DLC not included · Decide: Switch 2 GKC vs PS5 disc · Switch 2 version out since 23 Oct 2025 — physical is a Game-Key Card (checked 2026-09-28) |
 | Tales of Arise | PlayStation 5, Nintendo Switch 2 | high | PS5 gaps – Multiplatform | undecided | PS5 disc; new or used, only at a really good price | owned on Steam (Tales of ARISE) – only if very cheap, new or used · Decision: Switch = Switch 2 Game-Key Card incl. Beyond the Dawn; PS = PS5 disc (DLC separate); suggestion: Your call – Switch 2 includes the DLC; PS5 gives you a real disc. · Missing modern Tales entry. · Other versions: Switch 2 Beyond the Dawn Ed. (May 2026) = Game-Key Card · Check if a PS5 'Beyond the Dawn' disc edition exists; else DLC digital · Decide: Switch 2 GKC (incl. DLC) vs PS5 disc · No separate PS5 'Beyond the Dawn' disc edition found — DLC still separate on PS5 (checked 2026-09-28) |
-| Call of Duty: Modern Warfare 4 | Xbox Series X\|S | high | Series runs – Call of Duty | watching | Xbox Series X disc (pre-order candidate) | Suggested (review 2026-09-28): next entry of the complete Xbox CoD run — Infinity Ward, 23 Oct 2026. Also on PS5, PS4/Xbox One and Switch 2; the shooter rule keeps it on Xbox. |
 | Final Fantasy VII Revelation | Nintendo Switch 2, PlayStation 5 | medium | Buy elsewhere (not PlayStation) | watching |  | Suggested (review 2026-09-28): FF VII Remake part 3 — 8 Apr 2027, simultaneous on Switch 2, PS5, Xbox Series, PC. Physical format on Switch 2 not known yet (the series plan puts VII on Switch). |
 | Halo: Campaign Evolved | Xbox Series X\|S | medium | First-party | watching | Xbox Series X disc when on sale | 📀 owned on PlayStation 5 · scope layer 1 (Halo / Halo Studios); Owned on PS5; last Halo made by Halo Studios (next Halo moves to Activision, Sep 2026) · Released 28 Jul 2026 on Xbox Series X\|S, PS5 and Steam; physical disc confirmed at retail for both Xbox Series X and PS5 (GameStop) (checked 2026-09-28) |
 | Otogi 2: Immortal Warriors | Xbox | medium | OG Xbox BC | watching | disc (store status unverified, likely disc only) | Xbox Store: BC (Xbox One/Series X\|S, added Nov 2021 for Xbox's 20th anniversary) and still purchasable digitally today — not disc-only; B – OG Xbox exclusive, BC; On my wish list (checked 2026-09-28) |
@@ -76,7 +75,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Sonic & All-Stars Racing Transformed | Xbox 360 | high | Xbox 360 BC |  | disc (delisted – not buyable in store) | Xbox Store: DISC ONLY (delisted); C – multiplatform, no modern version |
 | Spec Ops: The Line | Xbox 360 | high | Xbox 360 BC |  | disc (delisted – not buyable in store) | Xbox Store: DISC ONLY (delisted 2024); C – multiplatform, no modern version; Disc is the only legal copy on any platform |
 
-## ⬜ Open by group (414)
+## ⬜ Open by group (413)
 
 ### Activision / Blizzard (10)
 
@@ -530,12 +529,6 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 |---|---|---|---|---|---|
 | Death Stranding Director's Cut | PlayStation 5 | high |  | PS5 disc; new or used, only at a really good price | owned on Steam (DEATH STRANDING DIRECTOR'S CUT) – only if very cheap, new or used · Prequel to Death Stranding 2 (owned). · Common used |
 
-### Series runs – Call of Duty (1)
-
-| Title | Platform | Prio | State | Plan / where | Owned on / note |
-|---|---|---|---|---|---|
-| Call of Duty: Modern Warfare 4 | Xbox Series X\|S | high | watching | Xbox Series X disc (pre-order candidate) | Suggested (review 2026-09-28): next entry of the complete Xbox CoD run — Infinity Ward, 23 Oct 2026. Also on PS5, PS4/Xbox One and Switch 2; the shooter rule keeps it on Xbox. |
-
 ### Series runs – State of Decay (1)
 
 | Title | Platform | Prio | State | Plan / where | Owned on / note |
@@ -652,12 +645,13 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Too Human | Xbox 360 | someday |  | digital (free) | Xbox Store: Digital (Xbox Store); A – first-party, no modern version; Free digitally on Xbox – check Full Library before buying |
 | Vanquish | Xbox 360 | someday |  | digital, Xbox Store sale (no key sellers for 360 titles) | Xbox Store: Digital (Xbox Store); C – multiplatform, no modern version |
 
-## 🕒 Ordered / pre-ordered (2)
+## 🕒 Ordered / pre-ordered (3)
 
 | Title | Platform | Prio | Group | State | Plan / where | Owned on / note |
 |---|---|---|---|---|---|---|
 | Gears of War: E-Day | Xbox Series X\|S | high | First-party |  | Pre-ordered (Xbox) | scope layer 1 (Gears / The Coalition) · Releases 6 Oct 2026 (Premium early access from 1 Oct) (checked 2026-09-28) |
 | Fable | PlayStation 5 | high | PS5 gaps – Microsoft 1st-party |  | PS5 disc (pre-ordered) | Pre-ordered on PS5 (Xbox disc only if cheap later). · Already pre-ordered · Delayed to 23 Feb 2027 (PS5, Xbox Series, PC) (checked 2026-09-28) |
+| Call of Duty: Modern Warfare 4 | Xbox Series X\|S | high | Series runs – Call of Duty |  | Xbox Series X disc (pre-order candidate) | Suggested (review 2026-09-28): next entry of the complete Xbox CoD run — Infinity Ward, 23 Oct 2026. Also on PS5, PS4/Xbox One and Switch 2; the shooter rule keeps it on Xbox. |
 
 ## ✅ Done (76)
 
