@@ -149,10 +149,11 @@ id = "gta6-preorder"
 question = "GTA VI: pre-order or not?"
 area = "playstation"
 due = "2026-11-19"
-context = "Continues the GTA run (IV/V PS3, LCS/VCS PSP). No PC version at launch. · Date reaffirmed by Take-Two in Aug 2026 (checked 2026-09-28) · Still 19 Nov 2026 — Take-Two reaffirmed in Aug and at the Sep 2026 shareholder meeting; pre-orders open (Standard / Ultimate), pre-load 12 Nov. (checked 2026-10-01) · The boxed PS5 / Xbox edition is code-in-a-box — no disc, no map; redeemable from 12 Nov for pre-loading (Rockstar, Jun 2026). A December disc release is only a rumour that Take-Two denied (checked 2026-10-01)"
+context = "Continues the GTA run (IV/V PS3, LCS/VCS PSP). No PC version at launch. · Date reaffirmed by Take-Two in Aug 2026 (checked 2026-09-28) · Still 19 Nov 2026 — Take-Two reaffirmed in Aug and at the Sep 2026 shareholder meeting; pre-orders open (Standard / Ultimate), pre-load 12 Nov. (checked 2026-10-01) · The boxed PS5 / Xbox edition is code-in-a-box — no disc, no map; redeemable from 12 Nov for pre-loading (Rockstar, Jun 2026). A December disc release is only a rumour that Take-Two denied (checked 2026-10-01) · Re-confirmed: Rockstar confirmed on 24 Jun 2026 that the boxed copy is only a single-use download code (Kotaku, The Shortcut); boxed Standard Edition on PS5 and Xbox Series X|S at the same price as digital. Because it's a licence either way, the platform decides where it lives on: the user doesn't plan to buy the next PlayStation (next-playstation-no), while Microsoft says the next Xbox is fully compatible with the existing Xbox library. Disc-to-Digital doesn't apply (no disc) (checked 2026-10-01)"
 rules = ["ps-exclusives-and-disc-worthy", "physical-first", "code-in-box"]
 targets = ["Grand Theft Auto VI"]
-recommendation = "No disc exists, so the box is a licence like any digital purchase (no resale, no offline install). Under physical-first there's nothing to pre-order for the shelf: buy whichever is cheapest (sealed box code or PS Store) only if you want to play at launch, otherwise wait and see whether a disc edition appears."
+recommendation = "No disc exists on either console, so you are choosing a digital licence, not a shelf copy. If you want it at launch: take the Xbox Series X|S version (sealed box code or Xbox Store, whichever is cheaper) — Microsoft says the next Xbox runs the existing library, while a PSN licence stays behind if you skip the next PlayStation as planned. Otherwise wait: a later disc edition, a PC version or a next-gen re-release (GTA V got all three) may still come."
+sources = ["https://kotaku.com/physical-copies-of-gta-6-will-just-be-a-code-in-a-box-with-no-disc-at-launch-2000709919", "https://www.theshortcut.com/p/gta-6-physical-copies-are-just-a-download-code-in-a-box-rockstar-confirms", "https://www.resetera.com/threads/xbox-amd-powering-the-next-generation-of-xbox-fully-compatible-with-the-existing-xbox-game-library-not-tied-to-a-single-store.1220895/"]
 [[decision.option]]
 label = "Pre-order the boxed PS5 code (sealed)"
 pros = ["Play on 19 Nov (pre-load from 12 Nov)", "Box on the shelf"]
@@ -165,6 +166,10 @@ cons = ["Nothing physical"]
 label = "Wait (for a possible disc edition / a lower price)"
 pros = ["Physical-first: only a disc would add something", "Price drops"]
 cons = ["A disc edition is only rumoured and Take-Two denied it"]
+[[decision.option]]
+label = "Xbox Series X|S instead (boxed code or Xbox Store)"
+pros = ["Same game and price", "Licence carries to the next Xbox (Microsoft: next gen runs the existing library)", "No next PlayStation planned"]
+cons = ["Still no disc", "Breaks the 'GTA on PlayStation' shelf (IV/V on PS3)"]
 
 [[decision]]
 id = "next-playstation"
@@ -519,10 +524,10 @@ cons = ["OG Splinter Cell games are delisted → disc only", "Splinter Cell was 
 id = "ps-disc-end-2028"
 question = "Sony stops making discs for new PlayStation games from Jan 2028 — buy PS5 disc targets sooner?"
 area = "playstation"
-context = "Announced 1 Jul 2026: no physical discs for new PlayStation games from January 2028; games released or scheduled before then are not affected. Digital = 85% of PS4/PS5 full-game sales (FY2025 Q4). Sony is asking developers for feedback after the backlash. Already happening: GTA VI's box is code-only; Marvel's Wolverine ships fully on disc (checked 2026-10-01)"
-recommendation = "Keep buying released games used as now (those discs keep circulating). For upcoming 2026–2027 PS5 targets that do get discs (God of War: Laufey, Tomb Raider: Legacy of Atlantis, Persona 4 Revival, FF VII Revelation …), buying at or near launch is safer than waiting for cheap used copies, because late print runs may be small."
+context = "Announced 1 Jul 2026: no physical discs for new PlayStation games from January 2028; games released or scheduled before then are not affected. Digital = 85% of PS4/PS5 full-game sales (FY2025 Q4). Sony is asking developers for feedback after the backlash. Already happening: GTA VI's box is code-only; Marvel's Wolverine ships fully on disc (checked 2026-10-01) · Reprints: Sony told publishers they can still re-order discs for games released before Jan 2028, also after 2028 — the ordering process will change (details not announced), so expect smaller, on-demand runs (VGC, Jul 2026). Sony has said it doesn't plan to reverse the decision. Xbox goes the other way: discs continue and Disc-to-Digital is live, which strengthens 'multiplatform → Xbox disc' where your rules allow it (checked 2026-10-01)"
+recommendation = "Upcoming 2026–27 PS5 disc targets you're sure about (God of War: Laufey, Tomb Raider: Legacy of Atlantis, Persona 4 Revival, FF VII Revelation …): buy at or near launch — reprints stay possible but will likely be small and on demand. Popular released games (Sony first-party, big multiplatform hits) can stay on the cheap-used plan; niche or low-print PS5 discs you want are worth picking up before 2028."
 rules = ["physical-first", "no-next-playstation"]
-sources = ["https://gameinformer.com/2026/07/01/playstation-will-cease-production-of-physical-discs-for-new-games-in-january-2028", "https://techcrunch.com/2026/07/01/sony-to-end-physical-playstation-game-discs-in-2028/"]
+sources = ["https://gameinformer.com/2026/07/01/playstation-will-cease-production-of-physical-discs-for-new-games-in-january-2028", "https://techcrunch.com/2026/07/01/sony-to-end-physical-playstation-game-discs-in-2028/", "https://www.videogameschronicle.com/news/sony-tells-developers-theyll-still-be-able-to-make-discs-but-only-for-older-games/", "https://www.gamespot.com/articles/sony-confirms-playstation-disc-production-will-end-in-2028/", "https://www.pushsquare.com/news/2026/08/microsoft-confirms-xbox-disc-to-digital-program-in-the-wake-of-sony-decision-to-end-playstation-discs"]
 
 [[decision]]
 id = "ff7-revelation-platform"
