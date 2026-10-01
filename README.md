@@ -162,6 +162,10 @@ Python 3.11+ only, no packages to install.
   steam · none) to state versions explicitly, `not_rules = ["id"]` to record a deliberate exception, and
   `jrpg` / `shooter` / `msfp = true|false` to correct the engine's guesses. **Strategy → Where to buy?** runs the
   same engine on any combination you enter.
+- **Console exclusives** — the Buy plan's *🔒 Console exclusives* filter and badge use the release platforms IGDB lists
+  for each game (saved by the Covers workflow); PC, Mac, mobile and VR don't count, so PlayStation + PC is still a
+  PlayStation exclusive. Correct a target by hand with `exclusive = "playstation"` (· `xbox` · `nintendo` · `other` ·
+  `multi`).
 - **`data/series/*.toml`** — series checklists. Use `aliases` for compilations that cover an entry
   (e.g. *Modern Warfare Trilogy* covers CoD 4 / MW2 / MW3, *God of War Collection* covers GoW I + II).
   An entry whose note says "on Steam" shows as 💻 instead of ⬜.

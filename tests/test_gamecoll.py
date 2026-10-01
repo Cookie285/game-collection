@@ -158,6 +158,19 @@ class Covers(unittest.TestCase):
         self.assertEqual(g.cover_for("Halo 3", "Xbox 360", covers, {}), "co1bbb")
 
 
+class Exclusivity(unittest.TestCase):
+    def test_pc_does_not_count(self):
+        cov = lambda *ids: {g.cover_key("G", "PlayStation 5"): {"plats": list(ids)}}
+        t = {"title": "G", "platforms": ["PlayStation 5"]}
+        self.assertEqual(g.exclusivity(t, cov(167, 48, 6)), "playstation")      # PS5 + PS4 + PC
+        self.assertEqual(g.exclusivity(t, cov(167, 169, 6)), "multi")           # PS5 + Series X|S
+        self.assertEqual(g.exclusivity(t, cov(6, 14)), "")                      # PC / Mac only: no console
+        self.assertEqual(g.exclusivity(t, {}), "")                              # not looked up yet
+        self.assertEqual(g.exclusivity(t | {"exclusive": "multi"}, cov(167)), "multi")  # the target's own value wins
+        x = {"title": "H", "platforms": ["xbox-modern"]}
+        self.assertEqual(g.exclusivity(x, {g.cover_key("H", "Xbox Series X|S"): {"plats": [49, 169, 6]}}), "xbox")
+
+
 class CoverLookup(unittest.TestCase):
     """The whole `covers` command against a fake IGDB (no network, no secrets)."""
 
@@ -173,7 +186,9 @@ class CoverLookup(unittest.TestCase):
         g.load_targets = lambda: []
         os.environ.update(TWITCH_CLIENT_ID="id", TWITCH_CLIENT_SECRET="secret")
         # a v1 miss from the broken multiquery run must be retried
-        g.COVERS.write_text(json.dumps({g.cover_key("Old Miss", "PC"): {"image": None, "checked": "2099-01-01", "score": 0}}))
+        g.COVERS.write_text(json.dumps({g.cover_key("Old Miss", "PC"): {"image": None, "checked": "2099-01-01", "score": 0},
+                                        g.cover_key("Cached", "PS4"): {"image": "co9ccc", "igdb_id": 9, "checked": "2099-01-01",
+                                                                         "score": 7, "v": g.COVER_CACHE_VERSION}}))
         self.calls = []
 
         def fake(url, body, headers):
@@ -182,6 +197,9 @@ class CoverLookup(unittest.TestCase):
                 return {"access_token": "tok"}
             self.assertIn("/v4/games", url)            # never the multiquery endpoint
             self.assertEqual(headers["Authorization"], "Bearer tok")
+            if body.startswith("fields platforms; where id = ("):   # bulk release-platform lookup by id
+                self.assertIn("9", body)
+                return [{"id": 9, "platforms": [48, 6]}]
             if '"Halo 3"' in body:
                 return [{"id": 2, "name": "Halo 3", "cover": {"image_id": "co1bbb"}, "platforms": [12]}]
             if '"Ids Only"' in body:
@@ -212,6 +230,8 @@ class CoverLookup(unittest.TestCase):
         self.assertEqual(data[g.cover_key("Old Miss", "PC")]["image"], "co7old")
         self.assertIsNone(data[g.cover_key("Ids Only", "PC")]["image"])
         self.assertTrue(all(v.get("v") == g.COVER_CACHE_VERSION for v in data.values()))
+        self.assertEqual(data[g.cover_key("Halo 3", "Xbox 360")]["plats"], [12])   # stored with the match
+        self.assertEqual(data[g.cover_key("Cached", "PS4")]["plats"], [48, 6])     # backfilled by id
         log = out.getvalue()
         self.assertIn("2/4 with a cover", log)
         self.assertIn("results without a cover", log)

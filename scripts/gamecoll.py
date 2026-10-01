@@ -1031,6 +1031,7 @@ def cmd_export(args) -> None:
             "cover": cover_for(t["title"], next(iter(sorted(expand_platforms(t.get("platforms")) or [], key=lambda x: PLATFORM_ORDER.index(x)
                                                                if x in PLATFORM_ORDER else 99)), ""), covers, cover_ov),
             "formats": derive_formats(t, have_by_title.get(norm(t["title"]), set())), "flags": target_flags(t, rids),
+            "exclusive": exclusivity(t, covers),
             **{k: t[k] for k in ("why", "alternatives", "condition", "max_price", "facts", "checked") if k in t},
         })
     series = []
@@ -1291,6 +1292,31 @@ IGDB_PLATFORMS = {  # canonical platform → IGDB platform id (only used to rank
     "Super Nintendo": 19, "NES": 18, "Nintendo 3DS": 37, "Nintendo DS": 20, "Game Boy Advance": 24,
     "Game Boy Color": 22, "Game Boy": 33,
 }
+# IGDB platform ids → console family, for "console exclusive" (PC, Mac, Linux, mobile, web, VR headsets don't count)
+IGDB_FAMILY = {
+    **dict.fromkeys([7, 8, 9, 48, 167, 38, 46, 165, 390], "playstation"),
+    **dict.fromkeys([11, 12, 49, 169], "xbox"),
+    **dict.fromkeys([4, 5, 18, 19, 20, 21, 22, 24, 33, 37, 41, 47, 51, 58, 87, 99, 130, 137, 159, 306, 416, 508], "nintendo"),
+}
+IGDB_NOT_CONSOLE = {6, 3, 14, 34, 39, 82, 170, 74, 92, 163, 162, 384, 385, 386, 471, 52, 55, 405}
+EXCLUSIVE_VALUES = {"playstation", "xbox", "nintendo", "other", "multi"}
+
+
+def exclusivity(t: dict, covers: dict) -> str:
+    """"playstation" / "xbox" / "nintendo" / "other" = on one console family only (PC ignored), "multi" = several
+    console families, "" = not known. A target's own `exclusive = "…"` wins over the IGDB platform list."""
+    if t.get("exclusive"):
+        return t["exclusive"]
+    plat = next(iter(sorted(expand_platforms(t.get("platforms")) or [],
+                            key=lambda x: PLATFORM_ORDER.index(x) if x in PLATFORM_ORDER else 99)), "")
+    hit = covers.get(cover_key(t["title"], plat)) or covers.get(cover_key(t["title"]))
+    ids = (hit or {}).get("plats")
+    if not ids:
+        return ""
+    fams = {IGDB_FAMILY.get(i, "other") for i in ids if isinstance(i, int) and i not in IGDB_NOT_CONSOLE}
+    return "" if not fams else next(iter(fams)) if len(fams) == 1 else "multi"
+
+
 IMAGE_ID_RX = re.compile(r"^[a-z0-9]{2,32}$")  # IGDB image ids; anything else is rejected (no injection into URLs)
 COVER_RETRY_DAYS = 90
 COVER_CACHE_VERSION = 3  # bump to re-check every cached title (v3: stricter matching, no DLC / sequels)
@@ -1470,10 +1496,26 @@ def cmd_covers(args) -> None:
                                                                                      for c in cands) else "names too different"] += 1
         covers[k] = {"title": title, "platform": plat, "image": img if img and IMAGE_ID_RX.match(img) else None,
                      "igdb_id": best.get("id") if best else None, "name": best.get("name") if best else None,
+                     "plats": [i for i in (best.get("platforms") or []) if isinstance(i, int)] if best else None,
                      "score": score, "checked": today.isoformat(), "v": COVER_CACHE_VERSION}
         if n % 100 == 0:  # save progress so a failure later doesn't lose it
             COVERS.write_text(json.dumps(dict(sorted(covers.items())), ensure_ascii=False, indent=0) + "\n", encoding="utf-8")
             print(f"covers: {n}/{len(todo)} looked up")
+    missing = sorted({c["igdb_id"] for c in covers.values() if isinstance(c.get("igdb_id"), int) and c.get("plats") is None})
+    for i in range(0, len(missing), 500):  # release platforms for the console-exclusive filter
+        ids = missing[i:i + 500]
+        try:
+            time.sleep(0.28)
+            res = igdb_request("https://api.igdb.com/v4/games", f"fields platforms; where id = ({','.join(map(str, ids))}); limit 500;", headers)
+        except Exception as e:
+            print(f"covers: platform lookup failed ({e}) — the next run continues")
+            break
+        by_id = {g["id"]: [p for p in (g.get("platforms") or []) if isinstance(p, int)] for g in res if isinstance(g.get("id"), int)}
+        for c in covers.values():
+            if c.get("igdb_id") in by_id and c.get("plats") is None:
+                c["plats"] = by_id[c["igdb_id"]]
+    if missing:
+        print(f"covers: release platforms for {sum(1 for c in covers.values() if c.get('plats') is not None)} matches")
     COVERS.write_text(json.dumps(dict(sorted(covers.items())), ensure_ascii=False, indent=0) + "\n", encoding="utf-8")
     found = sum(1 for k in wanted if covers.get(k, {}).get("image"))
     if why:
@@ -1610,6 +1652,9 @@ def cmd_check(_args) -> None:
     ok = check_rules() and ok
     ok = check_decisions() and ok
     for t in load_targets():
+        if t.get("exclusive") and t["exclusive"] not in EXCLUSIVE_VALUES:
+            print(f"ERROR target {t['title']!r}: exclusive = {t['exclusive']!r} — use one of {', '.join(sorted(EXCLUSIVE_VALUES))}")
+            ok = False
         for p, v in (t.get("versions") or {}).items():
             for f in ([v] if isinstance(v, str) else v):
                 if f not in FORMATS:
