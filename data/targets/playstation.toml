@@ -7,9 +7,10 @@ title = "Grand Theft Auto VI"
 platforms = ["PlayStation 5"]
 priority = "high"
 group = "PS5 gaps – Multiplatform"
-plan = "PS5 disc; pre-order candidate"
+plan = "PS5 — but the boxed release is code-in-a-box (no disc); see decision gta6-preorder"
 state = "watching"
-note = "Continues your GTA run (IV/V PS3, LCS/VCS PSP). No PC version at launch. · Other versions: No Switch; PC later · Standard disc · Release date reaffirmed by Take-Two · Still 19 Nov 2026 — Take-Two reaffirmed in Aug 2026 (checked 2026-09-28)"
+note = "Continues your GTA run (IV/V PS3, LCS/VCS PSP). No PC version at launch. · Other versions: No Switch; PC later · Standard disc · Release date reaffirmed by Take-Two · Still 19 Nov 2026 — Take-Two reaffirmed in Aug 2026 (checked 2026-09-28) · Still 19 Nov 2026 — Take-Two reaffirmed 'no further delay' at the Sep 2026 shareholder meeting; pre-orders open since 25 Jun 2026 (Standard / Ultimate); pre-load from 12 Nov (checked 2026-10-01) · CORRECTION: the boxed PS5 / Xbox release contains no disc, only a download code (Rockstar, Jun 2026 — anti-leak; boxes in stores 12 Nov for pre-loading). The earlier 'Standard disc' was wrong. A later disc release is only rumoured and Take-Two has denied it (checked 2026-10-01)"
+versions = { "PlayStation 5" = "code", "Xbox Series X|S" = "code" }
 
 [[target]]
 title = "Kingdom Hearts Collection [I–III]"
@@ -19,7 +20,7 @@ priority = "high"
 group = "PS5 gaps – Multiplatform"
 plan = "PS5 disc; new (upcoming release, price limit not set yet)"
 state = "undecided"
-note = "Decision: Switch = Switch 2 Game-Key Card, 131 GB download; PS = PS5 full disc (8 Oct 2026); suggestion: PS5 – JRPG rule says Switch, but the Switch 2 box is effectively a download voucher for a huge game. · One disc = 1.5+2.5 ReMIX, 2.8 and KH III + Re Mind. You only own KH III (PS4). · Other versions: Switch 2 = Game-Key Card, ~131 GB download · PS5 disc is full install · JRPG rule says Switch – but Switch 2 is GKC. Recommendation: PS5. Makes KH III PS4 surplus. · Also on Xbox Series X|S, but digital only — physical only on PS5 (disc) and Switch 2 (Game-Key Card) (checked 2026-09-28)"
+note = "Decision: Switch = Switch 2 Game-Key Card, 131 GB download; PS = PS5 full disc (8 Oct 2026); suggestion: PS5 – JRPG rule says Switch, but the Switch 2 box is effectively a download voucher for a huge game. · One disc = 1.5+2.5 ReMIX, 2.8 and KH III + Re Mind. You only own KH III (PS4). · Other versions: Switch 2 = Game-Key Card, ~131 GB download · PS5 disc is full install · JRPG rule says Switch – but Switch 2 is GKC. Recommendation: PS5. Makes KH III PS4 surplus. · Also on Xbox Series X|S, but digital only — physical only on PS5 (disc) and Switch 2 (Game-Key Card) (checked 2026-09-28) · Still 8 Oct 2026; EU PS5 disc listed at retail (EAN 5021290103122). Pre-order coverage and Square Enix's store say the physical version needs an additional data download — 'full install on the disc' is not confirmed (checked 2026-10-01)"
 versions = { "PlayStation 5" = "disc", "Nintendo Switch 2" = "gkc", "Xbox Series X|S" = "digital" }
 
 [[target]]
@@ -29,7 +30,7 @@ priority = "high"
 group = "PS5 gaps – Multiplatform"
 plan = "PS5 disc; used preferred (price limit not set yet)"
 state = "undecided"
-note = "Decision: Switch = Switch 2 Game-Key Card (12 Nov 2026); PS = PS5 disc; suggestion: Your call – If you accept Game-Key Cards for JRPGs (you did for Bravely Default HD, Brigandine Abyss, Granblue Relink) → Switch 2; else PS5. · Top-tier Atlus JRPG, not owned. · Other versions: Switch 2 (12 Nov 2026) = Game-Key Card · Decide: Switch 2 GKC (like Bravely Default/Granblue) vs PS5 disc · Switch 2 physical confirmed as Game-Key Card (also a SteelBook GKC edition), 12 Nov 2026 (checked 2026-09-28)"
+note = "Decision: Switch = Switch 2 Game-Key Card (12 Nov 2026); PS = PS5 disc; suggestion: Your call – If you accept Game-Key Cards for JRPGs (you did for Bravely Default HD, Brigandine Abyss, Granblue Relink) → Switch 2; else PS5. · Top-tier Atlus JRPG, not owned. · Other versions: Switch 2 (12 Nov 2026) = Game-Key Card · Decide: Switch 2 GKC (like Bravely Default/Granblue) vs PS5 disc · Switch 2 physical confirmed as Game-Key Card (also a SteelBook GKC edition), 12 Nov 2026 (checked 2026-09-28) · Unchanged: Switch 2 12 Nov 2026, Game-Key Card (SteelBook edition also GKC) (checked 2026-10-01)"
 versions = { "PlayStation 5" = "disc", "Nintendo Switch 2" = "gkc" }
 
 [[target]]
@@ -50,7 +51,7 @@ priority = "high"
 group = "PS5 gaps – Multiplatform"
 plan = "PS5 disc; new or used, only at a really good price"
 state = "undecided"
-note = "owned on Steam (Tales of ARISE) – only if very cheap, new or used · Decision: Switch = Switch 2 Game-Key Card incl. Beyond the Dawn; PS = PS5 disc (DLC separate); suggestion: Your call – Switch 2 includes the DLC; PS5 gives you a real disc. · Missing modern Tales entry. · Other versions: Switch 2 Beyond the Dawn Ed. (May 2026) = Game-Key Card · Check if a PS5 'Beyond the Dawn' disc edition exists; else DLC digital · Decide: Switch 2 GKC (incl. DLC) vs PS5 disc · No separate PS5 'Beyond the Dawn' disc edition found — DLC still separate on PS5 (checked 2026-09-28)"
+note = "owned on Steam (Tales of ARISE) – only if very cheap, new or used · Decision: Switch = Switch 2 Game-Key Card incl. Beyond the Dawn; PS = PS5 disc (DLC separate); suggestion: Your call – Switch 2 includes the DLC; PS5 gives you a real disc. · Missing modern Tales entry. · Other versions: Switch 2 Beyond the Dawn Ed. (May 2026) = Game-Key Card · Check if a PS5 'Beyond the Dawn' disc edition exists; else DLC digital · Decide: Switch 2 GKC (incl. DLC) vs PS5 disc · No separate PS5 'Beyond the Dawn' disc edition found — DLC still separate on PS5 (checked 2026-09-28) · Still no PS5 'Beyond the Dawn' disc — the PS5 Beyond the Dawn editions are digital only (checked 2026-10-01)"
 
 [[target]]
 title = "Clair Obscur: Expedition 33"
@@ -58,7 +59,7 @@ platforms = ["PlayStation 5"]
 priority = "high"
 group = "PS5 gaps – Multiplatform"
 plan = "PS5 disc; used preferred (price limit not set yet)"
-note = "Acclaimed turn-based RPG, not owned. · Other versions: Switch 2 port only rumoured for 2026 · If Switch 2 full cart is announced, rule says wait · Switch 2 port still not announced — only an insider report (NateTheHate) that it comes in 2026 (checked 2026-09-28) · PS5 disc exists in the EU (physical distributed by Bandai Namco Europe) (checked 2026-09-29)"
+note = "Acclaimed turn-based RPG, not owned. · Other versions: Switch 2 port only rumoured for 2026 · If Switch 2 full cart is announced, rule says wait · Switch 2 port still not announced — only an insider report (NateTheHate) that it comes in 2026 (checked 2026-09-28) · PS5 disc exists in the EU (physical distributed by Bandai Namco Europe) (checked 2026-09-29) · Switch 2 still not announced (not in the 9 Sep 2026 Nintendo Direct); only insider reports (checked 2026-10-01)"
 verify = "marked '?' in the checklist – verify before buying"
 versions = { "PlayStation 5" = "disc" }
 
@@ -121,7 +122,7 @@ priority = "high"
 group = "PS5 gaps – Multiplatform"
 plan = "PS5 disc; new or used, only at a really good price"
 state = "undecided"
-note = "owned on Steam (Hogwarts Legacy) – only if very cheap, new or used · Decision: Switch = Switch 1 cart (weak port); Switch 2 Game-Key Card; PS = PS5 disc; suggestion: PS5 – Rule says Switch 1 cart, but it's the weakest version by far; this is a Harry Potter collection piece. · You collect the Harry Potter games (PS1–PS3). · Other versions: Switch 1 has a cart (weak port); Switch 2 = Game-Key Card · Rule says Switch 1 cart; quality says PS5 · Confirmed: no new PS5/Switch news beyond current note (checked 2026-09-28)"
+note = "owned on Steam (Hogwarts Legacy) – only if very cheap, new or used · Decision: Switch = Switch 1 cart (weak port); Switch 2 Game-Key Card; PS = PS5 disc; suggestion: PS5 – Rule says Switch 1 cart, but it's the weakest version by far; this is a Harry Potter collection piece. · You collect the Harry Potter games (PS1–PS3). · Other versions: Switch 1 has a cart (weak port); Switch 2 = Game-Key Card · Rule says Switch 1 cart; quality says PS5 · Confirmed: no new PS5/Switch news beyond current note (checked 2026-09-28) · No new PS5 edition; Switch 2 still Game-Key Card (~24 GB install) (checked 2026-10-01)"
 
 [[target]]
 title = "Monster Hunter Wilds"
@@ -129,7 +130,7 @@ platforms = ["PlayStation 5"]
 priority = "medium"
 group = "PS5 gaps – Multiplatform"
 plan = "PS5 disc; used preferred (price limit not set yet)"
-note = "You own MH Rise/Generations/Stories on Switch; Wilds is solo-playable. · Other versions: Switch 2 = Game-Key Card"
+note = "You own MH Rise/Generations/Stories on Switch; Wilds is solo-playable. · Other versions: Switch 2 = Game-Key Card · Switch 2 version 4 Dec 2026 — physical Deluxe Edition is a Game-Key Card (GameStop listing) (checked 2026-10-01)"
 
 [[target]]
 title = "Dragon's Dogma 2"
@@ -303,7 +304,7 @@ platforms = ["PlayStation 5"]
 priority = "medium"
 group = "PS5 gaps – Multiplatform"
 plan = "PS5 disc; new (upcoming release, price limit not set yet)"
-note = "Chinese action game in the Black Myth / Wuchang vein. · Date per official site · Releases 29 Oct 2026; a PS5 disc is only listed for Asia so far — no EU disc pre-orders (checked 2026-09-28)"
+note = "Chinese action game in the Black Myth / Wuchang vein. · Date per official site · Releases 29 Oct 2026; a PS5 disc is only listed for Asia so far — no EU disc pre-orders (checked 2026-09-28) · Still 29 Oct 2026; still no EU / PAL PS5 disc — publisher reportedly plans no physical release outside Asia for now (Play-Asia lists the Asian disc) (checked 2026-10-01)"
 verify = "EU PS5 disc? (only an Asian disc was listed on 2026-09-28)"
 
 [[target]]
@@ -380,7 +381,7 @@ priority = "high"
 group = "PS5 gaps – Microsoft 1st-party"
 plan = "PS5 disc (pre-ordered)"
 state = "preordered"
-note = "Pre-ordered on PS5 (Xbox disc only if cheap later). · Already pre-ordered · Delayed to 23 Feb 2027 (PS5, Xbox Series, PC) (checked 2026-09-28)"
+note = "Pre-ordered on PS5 (Xbox disc only if cheap later). · Already pre-ordered · Delayed to 23 Feb 2027 (PS5, Xbox Series, PC) (checked 2026-09-28) · Still 23 Feb 2027 (checked 2026-10-01)"
 
 [[target]]
 title = "Intergalactic: The Heretic Prophet"
@@ -389,7 +390,7 @@ priority = "low"
 group = "PS5 gaps – Sony 1st-party"
 plan = "PS5 disc; new (upcoming release, price limit not set yet)"
 state = "watching"
-note = "Next Naughty Dog game – could decide whether you buy the next PlayStation. · No date yet · Still no date; reports say not before mid-2027 (checked 2026-09-28)"
+note = "Next Naughty Dog game – could decide whether you buy the next PlayStation. · No date yet · Still no date; reports say not before mid-2027 (checked 2026-09-28) · Naughty Dog (28 Sep 2026): nothing more in 2026, full reveal in 2027; no date (checked 2026-10-01)"
 
 [[target]]
 title = "God of War"
@@ -630,7 +631,7 @@ platforms = ["PlayStation 4"]
 priority = "high"
 group = "PS4 gaps – Multiplatform"
 plan = "PS4 disc; used preferred (price limit not set yet)"
-note = "Mainline FF not on Switch. · Other versions: Switch 2 port only 'under consideration' · Square Enix (Jul 2026 shareholder meeting): a Switch 2 port is 'not entirely impossible' citing hardware constraints, but no commitment (checked 2026-09-28)"
+note = "Mainline FF not on Switch. · Other versions: Switch 2 port only 'under consideration' · Square Enix (Jul 2026 shareholder meeting): a Switch 2 port is 'not entirely impossible' citing hardware constraints, but no commitment (checked 2026-09-28) · No re-release announced; Square Enix said in Jun 2026 a Switch 2 version is 'under consideration' (checked 2026-10-01)"
 
 [[target]]
 title = "Final Fantasy Type-0 HD"
@@ -2283,7 +2284,8 @@ priority = "medium"
 group = "PS5 gaps – Multiplatform"
 state = "undecided"
 plan = "PS5 disc; new or used"
-note = "Suggested (review 2026-09-28): new Silent Hill (tracked series), out 24 Sep 2026 on PS5 + PC, physical PS5 edition; no Xbox / Switch version."
+note = "Suggested (review 2026-09-28): new Silent Hill (tracked series), out 24 Sep 2026 on PS5 + PC, physical PS5 edition; no Xbox / Switch version. · EU PS5 disc at retail (only the Standard Edition is physical; Deluxe is digital only); Konami: timed PS5 console exclusive (at least six months), no Xbox / Switch 2 version announced (checked 2026-10-01)"
+versions = { "PlayStation 5" = "disc" }
 
 [[target]]
 title = "Tomb Raider: Legacy of Atlantis"
@@ -2292,7 +2294,8 @@ priority = "medium"
 group = "PS5 gaps – Multiplatform"
 state = "watching"
 plan = "PS5 disc (upcoming, 12 Feb 2027)"
-note = "Suggested (review 2026-09-28): remake of the first Tomb Raider (Crystal Dynamics / Flying Wild Hog), PS5, Xbox Series, PC. Switch version not announced."
+note = "Suggested (review 2026-09-28): remake of the first Tomb Raider (Crystal Dynamics / Flying Wild Hog), PS5, Xbox Series, PC. Switch version not announced. · Still 12 Feb 2027 (Deluxe: 48 h early access from 10 Feb). Switch 2 version added for the same day — physical is a Game-Key Card; PS5 / Xbox physical editions at retail (checked 2026-10-01)"
+versions = { "PlayStation 5" = "disc", "Nintendo Switch 2" = "gkc" }
 
 [[target]]
 title = "Persona 4 Revival"
@@ -2300,7 +2303,7 @@ platforms = ["PlayStation 5", "Nintendo Switch 2"]
 priority = "medium"
 group = "PS5 gaps – Multiplatform"
 state = "undecided"
-note = "Suggested (review 2026-09-28): Persona 4 remake — PS5 / Xbox Series / PC on 18 Feb 2027, Switch 2 on 20 May 2027 (physical format not announced). JRPG rule: Switch if it's a real cart."
+note = "Suggested (review 2026-09-28): Persona 4 remake — PS5 / Xbox Series / PC on 18 Feb 2027, Switch 2 on 20 May 2027 (physical format not announced). JRPG rule: Switch if it's a real cart. · Switch 2 date 20 May 2027 restated in the Sep 2026 Nintendo Direct; Switch 2 physical format still not announced (checked 2026-10-01)"
 
 [[target]]
 title = "Trails in the Sky 2nd Chapter"
@@ -2318,7 +2321,8 @@ platforms = ["Nintendo Switch 2", "PlayStation 5"]
 priority = "medium"
 group = "Buy elsewhere (not PlayStation)"
 state = "watching"
-note = "Suggested (review 2026-09-28): FF VII Remake part 3 — 8 Apr 2027, simultaneous on Switch 2, PS5, Xbox Series, PC. Physical format on Switch 2 not known yet (the series plan puts VII on Switch)."
+note = "Suggested (review 2026-09-28): FF VII Remake part 3 — 8 Apr 2027, simultaneous on Switch 2, PS5, Xbox Series, PC. Physical format on Switch 2 not known yet (the series plan puts VII on Switch). · Switch 2 physical = Game-Key Card (~130 GB download); PS5 = one disc, download required; physical needs extra data on every format → see decision ff7-revelation-platform (checked 2026-10-01)"
+versions = { "Nintendo Switch 2" = "gkc", "PlayStation 5" = "disc" }
 
 [[target]]
 title = "Kingdom Hearts IV"
@@ -2326,7 +2330,7 @@ platforms = ["Nintendo Switch 2", "PlayStation 5"]
 priority = "low"
 group = "PS5 gaps – Multiplatform"
 state = "watching"
-note = "Suggested (review 2026-09-28): late 2027 on PS5, Xbox Series, Switch 2, PC. Decide once the Switch 2 format (cart vs Game-Key Card) is known."
+note = "Suggested (review 2026-09-28): late 2027 on PS5, Xbox Series, Switch 2, PC. Decide once the Switch 2 format (cart vs Game-Key Card) is known. · Still 'late 2027' on all platforms incl. Switch 2; no date, Switch 2 format not announced (checked 2026-10-01)"
 
 [[target]]
 title = "Hogwarts Legacy 2"
@@ -2334,7 +2338,7 @@ platforms = ["PlayStation 5"]
 priority = "low"
 group = "PS5 gaps – Multiplatform"
 state = "watching"
-note = "Suggested (review 2026-09-28): confirmed in development by WB Games (Aug 2026 earnings call); expected Spring/Summer 2027; other platforms and physical format not yet announced. You collect the Harry Potter games."
+note = "Suggested (review 2026-09-28): confirmed in development by WB Games (Aug 2026 earnings call); expected Spring/Summer 2027; other platforms and physical format not yet announced. You collect the Harry Potter games. · Still no title, date or platforms (WBD confirmed development in Aug 2026) (checked 2026-10-01)"
 
 [[target]]
 title = "Resident Evil – Code: Veronica (2027 remake)"
@@ -2342,7 +2346,7 @@ platforms = ["PlayStation 5"]
 priority = "low"
 group = "PS5 gaps – Multiplatform"
 state = "watching"
-note = "Suggested (review 2026-09-28): remake confirmed by Capcom for 2027; other platforms and physical format not yet announced. Tracked RE series."
+note = "Suggested (review 2026-09-28): remake confirmed by Capcom for 2027; other platforms and physical format not yet announced. Tracked RE series. · Titled 'Resident Evil Veronica' — 2027 on PS5, Xbox Series, Switch 2 and PC; no exact date, Switch 2 physical format not announced (checked 2026-10-01)"
 
 [[target]]
 title = "God of War: Laufey"
@@ -2350,7 +2354,8 @@ platforms = ["PlayStation 5"]
 priority = "low"
 group = "PS5 gaps – Multiplatform"
 state = "watching"
-note = "Suggested (review 2026-09-28): Faye-led narrative entry, Santa Monica Studio; announced Feb 2026 State of Play, no release date yet."
+note = "Suggested (review 2026-09-28): Faye-led narrative entry, Santa Monica Studio; announced Feb 2026 State of Play, no release date yet. · Dated: 16 Feb 2027, PS5 only; pre-orders opened 29 Sep 2026 — physical standard edition (disc) + Digital Deluxe, no collector's edition (checked 2026-10-01)"
+versions = { "PlayStation 5" = "disc" }
 
 [[target]]
 title = "God of War Trilogy Remake"
@@ -2358,4 +2363,32 @@ platforms = ["PlayStation 5"]
 priority = "low"
 group = "PS5 gaps – Multiplatform"
 state = "watching"
-note = "Suggested (review 2026-09-28): remakes of the Greek-era trilogy (GoW I–III); announced Feb 2026 State of Play, no date yet."
+note = "Suggested (review 2026-09-28): remakes of the Greek-era trilogy (GoW I–III); announced Feb 2026 State of Play, no date yet. · Still no date (early development) (checked 2026-10-01)"
+
+[[target]]
+title = "Tales of Eternia Remastered"
+platforms = ["Nintendo Switch"]
+priority = "medium"
+group = "Buy elsewhere (not PlayStation)"
+state = "watching"
+plan = "Switch cart (EU physical)"
+note = "Suggested (review 2026-10-01): Tales of Eternia (tracked, not owned) remastered — 16 Oct 2026 on PS4, PS5, Xbox, Switch, Switch 2, PC. Physical only in Europe / Japan: Switch = full cart, Switch 2 = Game-Key Card, PS5 disc. JRPG rule → Switch cart (checked 2026-10-01)"
+versions = { "Nintendo Switch" = "cart", "Nintendo Switch 2" = "gkc", "PlayStation 5" = "disc" }
+
+[[target]]
+title = "Final Fantasy Resonance"
+platforms = ["Nintendo Switch"]
+priority = "low"
+group = "Buy elsewhere (not PlayStation)"
+state = "watching"
+plan = "Switch cart"
+note = "Suggested (review 2026-10-01): HD-2D Final Fantasy spin-off (based on Brave Exvius) — 22 Oct 2026 on PS5, Xbox Series, Switch, Switch 2, PC. Physical: Switch = cart, Switch 2 = Game-Key Card, PS5 disc, no Xbox physical (checked 2026-10-01)"
+versions = { "Nintendo Switch" = "cart", "Nintendo Switch 2" = "gkc", "PlayStation 5" = "disc", "Xbox Series X|S" = "digital" }
+
+[[target]]
+title = "Persona 6"
+platforms = ["PlayStation 5", "Nintendo Switch 2"]
+priority = "low"
+group = "PS5 gaps – Multiplatform"
+state = "watching"
+note = "Suggested (review 2026-10-01): announced Jun 2026 for PS5, Xbox Series, PC; Switch 2 version added 9 Sep 2026. No date, no physical formats yet (checked 2026-10-01)"
