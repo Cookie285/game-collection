@@ -22,6 +22,7 @@ plan = "PS5 disc; new (upcoming release, price limit not set yet)"
 state = "undecided"
 note = "Decision: Switch = Switch 2 Game-Key Card, 131 GB download; PS = PS5 full disc (8 Oct 2026); suggestion: PS5 – JRPG rule says Switch, but the Switch 2 box is effectively a download voucher for a huge game. · One disc = 1.5+2.5 ReMIX, 2.8 and KH III + Re Mind. You only own KH III (PS4). · Other versions: Switch 2 = Game-Key Card, ~131 GB download · PS5 disc is full install · JRPG rule says Switch – but Switch 2 is GKC. Recommendation: PS5. Makes KH III PS4 surplus. · Also on Xbox Series X|S, but digital only — physical only on PS5 (disc) and Switch 2 (Game-Key Card) (checked 2026-09-28) · Still 8 Oct 2026; EU PS5 disc listed at retail (EAN 5021290103122). Pre-order coverage and Square Enix's store say the physical version needs an additional data download — 'full install on the disc' is not confirmed (checked 2026-10-01)"
 versions = { "PlayStation 5" = "disc", "Nintendo Switch 2" = "gkc", "Xbox Series X|S" = "digital" }
+exclusive = "multi"
 
 [[target]]
 title = "Metaphor: ReFantazio"
@@ -356,6 +357,7 @@ priority = "low"
 group = "PS5 gaps – Multiplatform"
 plan = "PS5 disc; used preferred (price limit not set yet)"
 note = "Atlus JRPG, no Switch."
+exclusive = "multi"
 
 [[target]]
 title = "Neptunia ReVerse"
@@ -1132,6 +1134,7 @@ priority = "high"
 group = "PS2 gaps – Sony 1st-party"
 plan = "PS2 disc (PAL); used preferred (price limit not set yet)"
 note = "Level-5 classic, not on any modern disc. · PAL release"
+exclusive = "playstation"
 
 [[target]]
 title = "Dark Cloud"
@@ -1308,6 +1311,7 @@ priority = "medium"
 group = "PS2 gaps – Multiplatform"
 plan = "PS2 disc (PAL); used preferred (price limit not set yet)"
 note = "You collect Fatal Frame on Switch. · PAL release; pricey"
+exclusive = "multi"
 
 [[target]]
 title = "Project Zero 3: The Tormented"
@@ -1317,6 +1321,7 @@ priority = "medium"
 group = "PS2 gaps – Multiplatform"
 plan = "PS2 disc (PAL); used preferred (price limit not set yet)"
 note = "Not remastered. · PAL release; pricey · Project Zero 2 → remake (see Buy Elsewhere)"
+exclusive = "playstation"
 
 [[target]]
 title = "Forbidden Siren"
@@ -1326,6 +1331,7 @@ priority = "medium"
 group = "PS2 gaps – Sony 1st-party"
 plan = "PS2 disc (PAL); used preferred (price limit not set yet)"
 note = "Only on PS2. · PAL release"
+exclusive = "playstation"
 
 [[target]]
 title = "Forbidden Siren 2"
@@ -1416,6 +1422,7 @@ priority = "low"
 group = "PS2 gaps – Sony 1st-party"
 plan = "PS2 disc (PAL); used preferred (price limit not set yet)"
 note = "Deadlocked – not in the HD Trilogy. · PAL release"
+exclusive = "playstation"
 
 [[target]]
 title = "Primal"
@@ -1449,6 +1456,7 @@ priority = "low"
 group = "PS2 gaps – Multiplatform"
 plan = "PS2 disc (PAL); used preferred (price limit not set yet)"
 note = "PS2 · Harry Potter collection: PS2 version differs from the PS1 game you own. · PAL release; cheap"
+exclusive = "multi"
 
 [[target]]
 title = "Harry Potter: Quidditch World Cup"
@@ -1547,6 +1555,7 @@ priority = "medium"
 group = "PS1 gaps – Multiplatform"
 plan = "PS1 disc (PAL); used preferred (price limit not set yet)"
 note = "The original was never re-released on disc. · PAL release; pricey"
+exclusive = "playstation"
 
 [[target]]
 title = "Dino Crisis"
@@ -1620,6 +1629,7 @@ priority = "medium"
 group = "Upgrade of an owned disc"
 plan = "PS5 disc; used preferred (price limit not set yet)"
 note = "Replaces/upgrades owned Final Fantasy VII Remake (PS4). Adds the INTERmission Yuffie episode."
+exclusive = "multi"
 
 [[target]]
 title = "TLOU Part II Remastered"
@@ -1628,6 +1638,7 @@ priority = "low"
 group = "Upgrade of an owned disc"
 plan = "PS5 disc; used preferred (price limit not set yet)"
 note = "Replaces/upgrades owned The Last of Us Part II (PS4). Adds the No Return mode."
+exclusive = "playstation"
 
 [[target]]
 title = "Uncharted: Legacy of Thieves Collection"
@@ -1652,6 +1663,7 @@ priority = "low"
 group = "Upgrade of an owned disc"
 plan = "PS5 disc; used preferred (price limit not set yet)"
 note = "Replaces/upgrades owned Until Dawn (PS4). Remake."
+exclusive = "playstation"
 
 [[target]]
 title = "Grand Theft Auto V"
@@ -1668,6 +1680,7 @@ priority = "low"
 group = "Upgrade of an owned disc"
 plan = "PS4 disc; used preferred (price limit not set yet)"
 note = "Replaces/upgrades owned Red Dead Redemption (PS3). Includes Undead Nightmare."
+exclusive = "multi"
 
 [[target]]
 title = "Tomb Raider Definitive Edition"
@@ -1909,6 +1922,7 @@ priority = "low"
 group = "Buy elsewhere (not PlayStation)"
 plan = "Switch cart"
 note = "Buy on Switch instead of PlayStation – Switch physical (Tomb Raider) · owned on Steam (Tomb Raider I-III Remastered Starring Lara Croft) – only if very cheap"
+exclusive = "multi"
 
 [[target]]
 title = "Tomb Raider IV-VI Remastered"
@@ -1917,6 +1931,7 @@ priority = "low"
 group = "Buy elsewhere (not PlayStation)"
 plan = "Switch cart"
 note = "Buy on Switch instead of PlayStation – Switch physical (Tomb Raider) · owned on Steam (Tomb Raider IV-VI Remastered) – only if very cheap"
+exclusive = "multi"
 
 [[target]]
 title = "BioShock: The Collection"
@@ -1957,6 +1972,7 @@ priority = "low"
 group = "Buy elsewhere (not PlayStation)"
 plan = "Switch cart"
 note = "Buy on Switch instead of PlayStation – Switch physical (Atelier series)"
+exclusive = "multi"
 
 [[target]]
 title = "Atelier Mysterious Trilogy Deluxe Pack"
@@ -1965,6 +1981,7 @@ priority = "low"
 group = "Buy elsewhere (not PlayStation)"
 plan = "Switch cart"
 note = "Buy on Switch instead of PlayStation – Switch physical (Atelier series)"
+exclusive = "multi"
 
 [[target]]
 title = "Disgaea 1 Complete"
@@ -1989,6 +2006,7 @@ priority = "low"
 group = "Buy elsewhere (not PlayStation)"
 plan = "Switch cart"
 note = "Buy on Switch instead of PlayStation – Switch physical (Disgaea series)"
+exclusive = "multi"
 
 [[target]]
 title = "Assassin's Creed: The Ezio Collection"
