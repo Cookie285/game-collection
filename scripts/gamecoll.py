@@ -1300,6 +1300,7 @@ IGDB_FAMILY = {
 }
 IGDB_NOT_CONSOLE = {6, 3, 14, 34, 39, 82, 170, 74, 92, 163, 162, 384, 385, 386, 471, 52, 55, 405}
 EXCLUSIVE_VALUES = {"playstation", "xbox", "nintendo", "other", "multi"}
+PLATS_VERSION = 2  # bump to re-fetch every release-platform list (v2: + original game and ports)
 
 
 def exclusivity(t: dict, covers: dict) -> str:
@@ -1501,19 +1502,30 @@ def cmd_covers(args) -> None:
         if n % 100 == 0:  # save progress so a failure later doesn't lose it
             COVERS.write_text(json.dumps(dict(sorted(covers.items())), ensure_ascii=False, indent=0) + "\n", encoding="utf-8")
             print(f"covers: {n}/{len(todo)} looked up")
-    missing = sorted({c["igdb_id"] for c in covers.values() if isinstance(c.get("igdb_id"), int) and c.get("plats") is None})
-    for i in range(0, len(missing), 500):  # release platforms for the console-exclusive filter
+    # release platforms for the console-exclusive filter: the game's own list plus its original (version_parent, for
+    # editions like "… Complete Edition" on Switch) and its ports — IGDB often keeps a port as its own entry
+    missing = sorted({c["igdb_id"] for c in covers.values() if isinstance(c.get("igdb_id"), int) and c.get("pv") != PLATS_VERSION})
+    ints = lambda xs: [x for x in (xs or []) if isinstance(x, int)]
+    for i in range(0, len(missing), 500):
         ids = missing[i:i + 500]
         try:
             time.sleep(0.28)
-            res = igdb_request("https://api.igdb.com/v4/games", f"fields platforms; where id = ({','.join(map(str, ids))}); limit 500;", headers)
+            res = igdb_request("https://api.igdb.com/v4/games",
+                               f"fields platforms,version_parent.platforms,version_parent.ports.platforms,ports.platforms; "
+                               f"where id = ({','.join(map(str, ids))}); limit 500;", headers)
         except Exception as e:
             print(f"covers: platform lookup failed ({e}) — the next run continues")
             break
-        by_id = {g["id"]: [p for p in (g.get("platforms") or []) if isinstance(p, int)] for g in res if isinstance(g.get("id"), int)}
+        by_id = {}
+        for gm in res:
+            if not isinstance(gm.get("id"), int):
+                continue
+            vp = gm.get("version_parent") if isinstance(gm.get("version_parent"), dict) else {}
+            related = [vp] + [x for x in (gm.get("ports") or []) + (vp.get("ports") or []) if isinstance(x, dict)]
+            by_id[gm["id"]] = sorted(set(ints(gm.get("platforms"))).union(*(ints(r.get("platforms")) for r in related)))
         for c in covers.values():
-            if c.get("igdb_id") in by_id and c.get("plats") is None:
-                c["plats"] = by_id[c["igdb_id"]]
+            if c.get("igdb_id") in by_id and c.get("pv") != PLATS_VERSION:
+                c["plats"], c["pv"] = by_id[c["igdb_id"]], PLATS_VERSION
     if missing:
         print(f"covers: release platforms for {sum(1 for c in covers.values() if c.get('plats') is not None)} matches")
     COVERS.write_text(json.dumps(dict(sorted(covers.items())), ensure_ascii=False, indent=0) + "\n", encoding="utf-8")
