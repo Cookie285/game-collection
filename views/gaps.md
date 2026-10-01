@@ -6,7 +6,7 @@ Curated in [`data/targets/`](../data/targets/). A target flips to ✅ automatica
 
 Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 
-⬜ 416 open · 🕒 3 ordered · ✅ 76 done · ➖ 100 skip
+⬜ 412 open · 🕒 3 ordered · ✅ 80 done · ➖ 100 skip
 
 📀 = same title already owned on another platform (one copy per game!)
 
@@ -76,7 +76,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Sonic & All-Stars Racing Transformed | Xbox 360 | high | Xbox 360 BC |  | disc (delisted – not buyable in store) | Xbox Store: DISC ONLY (delisted); C – multiplatform, no modern version |
 | Spec Ops: The Line | Xbox 360 | high | Xbox 360 BC |  | disc (delisted – not buyable in store) | Xbox Store: DISC ONLY (delisted 2024); C – multiplatform, no modern version; Disc is the only legal copy on any platform |
 
-## ⬜ Open by group (416)
+## ⬜ Open by group (412)
 
 ### Activision / Blizzard (10)
 
@@ -110,7 +110,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | The Evil Within | Xbox One | someday | undecided | used disc | Suggested (scope layer 3, pre-acquisition). Tango – 360 disc also exists |
 | The Evil Within 2 | Xbox One | someday | undecided | used disc | Suggested (scope layer 3, pre-acquisition). Tango |
 
-### Buy elsewhere (not PlayStation) (58)
+### Buy elsewhere (not PlayStation) (57)
 
 | Title | Platform | Prio | State | Plan / where | Owned on / note |
 |---|---|---|---|---|---|
@@ -142,7 +142,6 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Final Fantasy X \| X-2 HD Remaster | Nintendo Switch | low |  | Switch cart | ❓ marked '?' in the checklist – verify · Buy on Switch instead of PlayStation – Switch 1 cart (X-2 needs a download in the West); Switch 2 = Game-Key Card (FF classics) · owned on Steam (FINAL FANTASY X/X-2 HD Remaster) – only if very cheap |
 | Ghostwire: Tokyo | xbox-modern | low |  | Xbox disc (Disc-to-Digital) | Buy on Xbox instead of PlayStation – Xbox disc = Disc-to-Digital licence (your MS 1st-party angle) (Microsoft/Bethesda 1st-party) · owned on Steam (Ghostwire: Tokyo) – only if very cheap |
 | Grand Theft Auto: The Trilogy – The Definitive Edition | Nintendo Switch | low |  | Switch cart | Buy on Switch instead of PlayStation – Switch physical (Rockstar) |
-| Hi-Fi Rush | xbox-modern | low |  | Xbox disc, cheap from netgames | Buy on Xbox instead of PlayStation – Xbox disc = Disc-to-Digital licence (your MS 1st-party angle) (Microsoft/Bethesda 1st-party) · owned on Steam (Hi-Fi RUSH) – only if very cheap |
 | Indiana Jones and the Great Circle | xbox-modern | low |  | Xbox disc (Disc-to-Digital) | Buy on Xbox instead of PlayStation – Xbox disc = Disc-to-Digital licence (your MS 1st-party angle) (Microsoft/Bethesda 1st-party) |
 | Kingdom Come: Deliverance II | PC | low |  | Steam sale only (no physical) | Buy on PC instead of PlayStation – Steam sales (Western RPGs) |
 | L.A. Noire | Nintendo Switch | low |  | Switch cart | Buy on Switch instead of PlayStation – Switch physical (Rockstar) |
@@ -209,7 +208,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | The Elder Scrolls III: Morrowind | Xbox | someday | undecided | disc – Game of the Year Edition | Backward compatible |
 | The Elder Scrolls IV: Oblivion | Xbox 360 | someday | undecided | disc – Game of the Year Edition | Backward compatible; Oblivion Remastered owned on Switch 2 |
 
-### First-party (19)
+### First-party (16)
 
 | Title | Platform | Prio | State | Plan / where | Owned on / note |
 |---|---|---|---|---|---|
@@ -218,12 +217,9 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Indiana Jones and the Great Circle | Xbox Series X\|S | medium |  | used disc, e.g. rebuy.de | scope layer 2 (MachineGames) |
 | Microsoft Flight Simulator | Xbox Series X\|S | medium |  | used disc, e.g. rebuy.de | scope layer 1 (Asobo); 2020 game |
 | Microsoft Flight Simulator 2024 | Xbox Series X\|S | medium |  | used disc, e.g. rebuy.de | scope layer 1 (Asobo) |
-| Minecraft Dungeons | Xbox One | medium |  | used disc, e.g. rebuy.de | scope layer 1 (Minecraft / Mojang & Double Eleven); Hero Edition preferred |
 | Senua's Saga: Hellblade II | Xbox Series X\|S | medium |  | used disc | ❓ verify the EU Xbox box contains a real disc, not a code – if code-in-box, treat like Avowed · scope layer 1 (Ninja Theory); Ninja Theory at risk of closure (Sep 2026) · Amazon.de lists the Xbox Series version only as a download code; no EU disc found (checked 2026-09-28) · physical Xbox Series X\|S + PS5 edition announced via Limited Run Games (May 2025) – Microsoft itself released no disc; Xbox disc contents not confirmed yet (checked 2026-09-29) · Limited Run Games Xbox disc contents still unconfirmed (no unboxing / Does It Play? entry found). Xbox proposed closing Ninja Theory on 22 Sep 2026 after two sale deals fell through (consultation to year end) (checked 2026-10-01) |
 | Starfield | Xbox Series X\|S | medium |  | used disc, e.g. rebuy.de | scope layer 2 (Bethesda Game Studios); Bethesda post-acquisition |
 | Fable | Xbox Series X\|S | low | watching | Xbox disc only if really cheap later | scope layer 1 (Fable / Playground); PS5 copy pre-ordered (see Part 1) · Delayed to 23 Feb 2027 (PS5, Xbox Series, PC) (checked 2026-09-28) · Still 23 Feb 2027 (checked 2026-10-01) |
-| Hi-Fi Rush | Xbox Series X\|S | low |  | netgames (available cheap there) | scope layer 1 (Tango (MS-published)); Limited Run exclusive physical |
-| Minecraft | Xbox One | low |  | used disc, e.g. rebuy.de | scope layer 1 (Minecraft / Mojang); Several disc variants (Explorers Pack, Starter, Master Collection); Bedrock disc; several variants (Explorers Pack, Starter, Master Collection) |
 | The Elder Scrolls IV: Oblivion Remastered | Xbox Series X\|S | low |  | used disc, e.g. rebuy.de | 📀 owned on Nintendo Switch 2 · scope layer 2 (Bethesda / Virtuos); Layer 2 – Xbox copy optional |
 | Avowed | Xbox Series X\|S | someday | undecided | Game Pass first; if keeping, sealed code-in-box only if ≤ Xbox Store sale price, else Xbox Store (Play Anywhere) | scope layer X (Obsidian); Xbox box is code-in-box (no disc, no D2D); no PS5 disc exists – out of disc scope |
 | Gears of War: Reloaded | PlayStation 5 | someday | watching | PS5 disc when very cheap | scope layer X (Gears / The Coalition); No Xbox disc exists (PS5 disc only); campaign already covered by Gears of War: Ultimate Edition |
@@ -657,7 +653,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Fable | PlayStation 5 | high | PS5 gaps – Microsoft 1st-party |  | PS5 disc (pre-ordered) | Pre-ordered on PS5 (Xbox disc only if cheap later). · Already pre-ordered · Delayed to 23 Feb 2027 (PS5, Xbox Series, PC) (checked 2026-09-28) · Still 23 Feb 2027 (checked 2026-10-01) |
 | Call of Duty: Modern Warfare 4 | Xbox Series X\|S | high | Series runs – Call of Duty |  | Xbox Series X disc (pre-order candidate) | Suggested (review 2026-09-28): next entry of the complete Xbox CoD run — Infinity Ward, 23 Oct 2026. Also on PS5, PS4/Xbox One and Switch 2; the shooter rule keeps it on Xbox. · Still 23 Oct 2026. Xbox Series X standard edition = disc, content download required (Vault Edition digital only). Switch 2 retail = code-in-a-box (checked 2026-10-01) |
 
-## ✅ Done (76)
+## ✅ Done (80)
 
 <details><summary>show</summary>
 
@@ -679,6 +675,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Quantum Break | Xbox One | medium | Checklist (Disc-to-Digital) + First-party |  |  | Xbox One |
 | Forza Horizon 5 | Xbox Series X\|S | medium | First-party |  |  | Xbox Series X\|S |
 | Forza Motorsport | Xbox Series X\|S | medium | First-party |  |  | Xbox Series X\|S |
+| Minecraft Dungeons | Xbox One | medium | First-party |  | used disc, e.g. rebuy.de | Xbox One |
 | Minecraft Legends | Xbox One, Xbox Series X\|S | medium | First-party |  | used disc, e.g. rebuy.de | Xbox Series X\|S |
 | Ori and the Blind Forest: Definitive Edition | Xbox One | medium | First-party |  |  | Xbox One |
 | Psychonauts 2 | Xbox One, Xbox Series X\|S | medium | First-party |  | used disc, e.g. rebuy.de | Xbox Series X\|S |
@@ -690,6 +687,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Call of Duty: Black Ops II | Xbox 360 | medium | Xbox 360 BC + Series runs – Call of Duty |  |  | Xbox 360 |
 | Call of Duty: Modern Warfare Trilogy | Xbox 360 | medium | Xbox 360 BC + Series runs – Call of Duty |  |  | Xbox 360 |
 | Call of Duty: World at War | Xbox 360 | medium | Xbox 360 BC + Series runs – Call of Duty |  |  | Xbox 360 |
+| Hi-Fi Rush | xbox-modern | low | Buy elsewhere (not PlayStation) |  | Xbox disc, cheap from netgames | Xbox Series X\|S |
 | Titanfall 2 | Xbox One | low | Checklist (Disc-to-Digital) |  |  | Xbox One |
 | Crackdown 3 | Xbox One | low | Checklist (Disc-to-Digital) + First-party |  |  | Xbox One |
 | Halo Infinite | Xbox Series X\|S | low | Checklist (Disc-to-Digital) + First-party |  |  | Xbox Series X\|S |
@@ -697,6 +695,8 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Ryse: Son of Rome | Xbox One | low | Checklist (Disc-to-Digital) + First-party |  |  | Xbox One |
 | State of Decay 2 | Xbox One | low | Checklist (Disc-to-Digital) + First-party |  |  | Xbox One |
 | Dead Rising 4 | Xbox One | low | First-party |  |  | Xbox One |
+| Hi-Fi Rush | Xbox Series X\|S | low | First-party |  | netgames (available cheap there) | Xbox Series X\|S |
+| Minecraft | Xbox One | low | First-party |  | used disc, e.g. rebuy.de | Xbox One |
 | Ori and the Will of the Wisps | Xbox One | low | First-party |  |  | Xbox One |
 | Resident Evil Revelations | PlayStation 4 | low | PS4 gaps – Multiplatform |  | PS4 disc; new or used, only at a really good price | PlayStation 4 |
 | Forza Horizon 3 | Xbox One | someday | Checklist (Disc-to-Digital) + First-party |  |  | Xbox One |

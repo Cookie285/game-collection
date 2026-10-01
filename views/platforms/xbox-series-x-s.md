@@ -2,7 +2,7 @@
 
 # Xbox Series X|S
 
-## Owned (20)
+## Owned (21)
 
 | Title | Edition | Format | Region | Completeness | Purchased | Notes |
 |---|---|---|---|---|---|---|
@@ -20,6 +20,7 @@
 | Forza Motorsport |  |  |  |  |  |  |
 | Gears Tactics |  |  |  |  |  |  |
 | Halo Infinite |  |  |  |  |  |  |
+| Hi-Fi RUSH |  |  |  |  |  |  |
 | LEGO Star Wars: The Skywalker Saga |  |  |  |  |  |  |
 | Minecraft Dungeons II |  |  |  |  |  |  |
 | Minecraft Legends |  |  |  |  |  |  |

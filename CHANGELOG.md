@@ -2,6 +2,15 @@
 
 Newest first. Written automatically by `scripts/gamecoll.py import`.
 
+## 2026-10-01 — CLZ import `export_games.csv`
+
+Totals after import — Ordered: 2, Owned: 836, Wishlist: 5
+
+**Added** (3)
+- Hi-Fi RUSH — Xbox Series X|S · Owned
+- Minecraft — Xbox One · Owned
+- Minecraft Dungeons — Xbox One · Owned
+
 ## 2026-09-29 — CLZ import `export_games.csv`
 
 Totals after import — Ordered: 2, Owned: 833, Wishlist: 5

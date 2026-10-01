@@ -2,7 +2,7 @@
 
 # Xbox One
 
-## Owned (46)
+## Owned (48)
 
 | Title | Edition | Format | Region | Completeness | Purchased | Notes |
 |---|---|---|---|---|---|---|
@@ -36,6 +36,8 @@
 | Halo Wars 2 |  |  |  |  |  |  |
 | Killer Instinct |  |  |  |  |  | ❓ disc edition (Definitive Edition?) not confirmed |
 | LEGO Harry Potter Collection |  |  |  |  |  | Compilation: LEGO Harry Potter Years 1–4 + Years 5–7 |
+| Minecraft |  |  |  |  |  |  |
+| Minecraft Dungeons |  |  |  |  |  |  |
 | Moving Out |  |  |  |  |  |  |
 | Ori and the Blind Forest |  |  |  |  |  | Also owned on Steam (Ori and the Blind Forest) |
 | Ori and the Will of the Wisps |  |  |  |  |  |  |
