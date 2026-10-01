@@ -425,6 +425,7 @@ function pagePlan(page, params) {
     q: params.get("q") || "", st: params.get("st") ?? "open", prio: params.get("prio") || "",
     state: params.get("state") || "", fam: params.get("fam") || "", plat: params.get("plat") || "", group: params.get("group") || "",
     by: params.get("by") || "prio", rule: params.get("rule") || "", dec: params.get("dec") || "", nf: params.get("nf") || "",
+    excl: params.get("excl") || "",
   };
   const groups = [...new Set(D.targets.map((t) => t.group || "Other"))].sort();
   const states = [...new Set(D.targets.map((t) => t.state).filter(Boolean))].sort();
@@ -446,6 +447,8 @@ function pagePlan(page, params) {
       <details class="plat-pick" id="platPick"><summary id="platSum">All platforms</summary>
         <div class="chips" id="plats">${platKeys.map((p) => `<button class="chip" data-p="${esc(p)}" style="--c:${fam(platFamily(p)).color}">${esc(shortPlat(p))}</button>`).join("")}
           <button class="chip" data-p="">Clear</button></div></details>
+      <select id="excl" aria-label="Console exclusive"><option value="">Exclusive or not</option><option value="yes">🔒 Console exclusives</option>
+        <option value="multi">Multi-console</option><option value="unknown">Exclusivity not known</option></select>
       <select id="state" aria-label="State"><option value="">Any state</option>${states.map((s) => `<option>${esc(s)}</option>`).join("")}</select>
       <select id="group" aria-label="Group"><option value="">All groups</option>${groups.map((g) => `<option>${esc(g)}</option>`).join("")}</select>
       <select id="rule" aria-label="Rule"><option value="">Any rule</option>${ruleOptions()}</select>
@@ -464,7 +467,7 @@ function pagePlan(page, params) {
     $("#platSum", page).textContent = plats.length ? plats.map(shortPlat).join(" + ") : "All platforms";
   };
   syncPlats();
-  ["fam", "state", "group", "rule", "nf", "dec", "by"].forEach((k) => ($("#" + k, page).value = S[k]));
+  ["fam", "excl", "state", "group", "rule", "nf", "dec", "by"].forEach((k) => ($("#" + k, page).value = S[k]));
 
   const update = () => {
     const p = new URLSearchParams();
@@ -475,7 +478,7 @@ function pagePlan(page, params) {
     const q = norm(S.q);
     const list = D.targets.filter((t) => (!q || t._n.includes(q)) && (!S.st || t.status === S.st) &&
       (!S.prio || t.priority === S.prio) && (!S.state || t.state === S.state) && (!S.fam || t.family === S.fam) &&
-      (!plats.length || plats.some((p) => onPlat(t, p))) &&
+      (!plats.length || plats.some((p) => onPlat(t, p))) && (!S.excl || exclMatch(t, S.excl)) &&
       (!S.group || (t.group || "Other") === S.group) && (!S.rule || t.rules.includes(S.rule)) &&
       (!S.dec || D.decisionsById.get(S.dec)?.targets.includes(t)) && (!S.nf || NOTE_FILTERS[S.nf]?.test(t)))
       .sort((a, b) => (PRIORITY[a.priority]?.rank ?? 9) - (PRIORITY[b.priority]?.rank ?? 9) || a.title.localeCompare(b.title));
@@ -526,7 +529,7 @@ function pagePlan(page, params) {
   $("#q", page).addEventListener("input", (e) => { S.q = e.target.value; update(); });
   $("#sts", page).addEventListener("click", (e) => { const c = e.target.closest(".chip"); if (c) { S.st = c.dataset.s; update(); } });
   $("#prios", page).addEventListener("click", (e) => { const c = e.target.closest(".chip"); if (c) { S.prio = S.prio === c.dataset.p ? "" : c.dataset.p; update(); } });
-  ["fam", "state", "group", "rule", "nf", "dec", "by"].forEach((k) => $("#" + k, page).addEventListener("change", (e) => {
+  ["fam", "excl", "state", "group", "rule", "nf", "dec", "by"].forEach((k) => $("#" + k, page).addEventListener("change", (e) => {
     S[k] = e.target.value;
     if (k === "fam" && S.fam && plats.length) { plats = []; syncPlats(); } // a family replaces the console pick
     update();
@@ -542,6 +545,9 @@ function pagePlan(page, params) {
   update();
 }
 
+// console exclusive = released on one console family only; PC doesn't count (from IGDB release platforms, or `exclusive` in the target)
+const EXCL_LABEL = { playstation: "PlayStation exclusive", xbox: "Xbox exclusive", nintendo: "Nintendo exclusive", other: "Console exclusive" };
+const exclMatch = (t, v) => v === "yes" ? !!EXCL_LABEL[t.exclusive] : v === "multi" ? t.exclusive === "multi" : !t.exclusive;
 function targetHTML(t) {
   const st = TARGET_STATUS[t.status];
   const pr = PRIORITY[t.priority] || { label: t.priority, color: "var(--faint)" };
@@ -553,6 +559,7 @@ function targetHTML(t) {
         ${t.state && t.status === "open" ? pill(t.state, "var(--accent-2)") : ""}
         ${t.elsewhere.length && t.status !== "done" ? pill("📀 owned on " + t.elsewhere.map(shortPlat).join(", "), "var(--good)") : ""}
         ${t.verify && t.status !== "done" ? pill("❓ verify", "var(--warn)") : ""}
+        ${EXCL_LABEL[t.exclusive] ? pill("🔒 " + EXCL_LABEL[t.exclusive], fam(t.exclusive === "other" ? "other" : t.exclusive).color) : ""}
         ${t.status === "open" ? t.decisions.map((id) => D.decisionsById.get(id)).filter((x) => x.targets.length <= 5).map((x) =>
           `<button class="q-pill" data-decision="${esc(x.id)}" title="${esc(x.question)}">⚖️ open question</button>`).join("") : ""}
         ${t.check?.state === "differs" ? `<span class="diff-pill" title="${esc(t.check.why)}">≠ rules</span>` : ""}</div>
