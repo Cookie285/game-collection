@@ -53,7 +53,8 @@ note = "Owned (PS5)"
 
 [[series.entry]]
 title = "God of War: Laufey"
-note = "Faye-led narrative game; Santa Monica Studio; in development, announced Feb 2026 State of Play (checked 2026-09-28)"
+note = "Faye-led narrative game; Santa Monica Studio; in development, announced Feb 2026 State of Play (checked 2026-09-28) · 16 Feb 2027, PS5, standard edition on disc (checked 2026-10-01)"
+year = 2027
 
 [[series.entry]]
 title = "God of War: Sons of Sparta"
@@ -314,6 +315,11 @@ note = "Owned (PS5)"
 title = "Marvel's Spider-Man 2"
 year = 2023
 note = "Owned (PS5)"
+
+[[series.entry]]
+title = "Marvel's Wolverine"
+year = 2026
+note = "Insomniac, PS5, 15 Sep 2026 — full game on disc; owned (checked 2026-10-01)"
 
 [[series]]
 platforms = ["playstation"]
@@ -633,7 +639,7 @@ note = "Spin-off; owned (PS3)"
 [[series.entry]]
 title = "Resident Evil – Code: Veronica (2027 remake)"
 year = 2027
-note = "Remake confirmed by Capcom for 2027 (checked 2026-09-28)"
+note = "Remake confirmed by Capcom for 2027 (checked 2026-09-28) · Titled 'Resident Evil Veronica'; PS5, Xbox Series, Switch 2, PC (checked 2026-10-01)"
 
 [[series]]
 platforms = ["playstation"]
@@ -690,6 +696,11 @@ note = "Owned (PS5)"
 title = "Silent Hill: Townfall"
 year = 2026
 note = "PS5 + PC, out 24 Sep 2026 (review 2026-09-28)"
+
+[[series.entry]]
+title = "Silent Hill (remake)"
+year = 2027
+note = "Bloober Team remake of the first game, announced; no date (2027 at the earliest reported) (checked 2026-10-01)"
 
 [[series]]
 platforms = ["playstation"]
@@ -883,7 +894,13 @@ note = "Spin-off"
 [[series.entry]]
 title = "Final Fantasy VII Revelation"
 year = 2027
-note = "FF VII Remake part 3, 8 Apr 2027, all platforms (review 2026-09-28)"
+note = "FF VII Remake part 3, 8 Apr 2027, all platforms (review 2026-09-28) · Switch 2 = Game-Key Card, PS5 = disc + download (checked 2026-10-01)"
+
+[[series.entry]]
+title = "Final Fantasy Resonance"
+year = 2026
+optional = true
+note = "HD-2D spin-off, 22 Oct 2026; Switch cart (suggested target) (checked 2026-10-01)"
 
 [[series]]
 platforms = ["playstation"]
@@ -1020,6 +1037,7 @@ title = "Tales of Eternia"
 aliases = ["Tales of Eternia Remastered"]
 year = 2000
 verify = "only mentioned via the Switch 2 Game-Key Card list"
+note = "Remastered 16 Oct 2026 — Switch full cart in EU (target) (checked 2026-10-01)"
 
 [[series]]
 platforms = ["playstation", "nintendo"]
@@ -1230,6 +1248,10 @@ title = "Persona 4 Revival"
 year = 2027
 note = "PS5 18 Feb 2027 · Switch 2 20 May 2027 (review 2026-09-28)"
 
+[[series.entry]]
+title = "Persona 6"
+note = "Announced; PS5, Xbox, PC, Switch 2 — no date (checked 2026-10-01)"
+
 [[series]]
 platforms = ["playstation"]
 name = "Like a Dragon (Yakuza)"
@@ -1309,6 +1331,12 @@ title = "Lost Judgment"
 year = 2021
 optional = true
 note = "Spin-off series"
+
+[[series.entry]]
+title = "Stranger Than Heaven"
+year = 2027
+optional = true
+note = "RGG 'distant prequel', 15 Jan 2027 on PS5, Xbox Series, PC (checked 2026-10-01)"
 
 [[series]]
 platforms = ["playstation"]

@@ -18,7 +18,7 @@ Series Tracker tab
 | ✅ | God of War: Ascension | 2013 | PlayStation 3 |
 | 💻 | God of War (2018) | 2018 | Also owned on Steam |
 | ✅ | God of War Ragnarök | 2022 | PlayStation 5 |
-| ⬜ | God of War: Laufey |  | Faye-led narrative game; Santa Monica Studio; in development, announced Feb 2026 State of Play (checked 2026-09-28) |
+| ⬜ | God of War: Laufey | 2027 | Faye-led narrative game; Santa Monica Studio; in development, announced Feb 2026 State of Play (checked 2026-09-28) · 16 Feb 2027, PS5, standard edition on disc (checked 2026-10-01) |
 | ⬜ | God of War: Sons of Sparta | 2026 | 2D platformer, Mega Cat Studios; released 12 Feb 2026 alongside the Laufey reveal (checked 2026-09-28) |
 | ⬜ | God of War Trilogy Remake |  | Remakes of the Greek-era trilogy (GoW I–III); announced Feb 2026 State of Play, no date yet (checked 2026-09-28) |
 
@@ -101,7 +101,7 @@ Series Tracker tab
 | ⬜ | inFamous Second Son | 2014 |  |
 | ⬜ | inFamous First Light | 2014 | ❓ EU disc release to verify |
 
-## Marvel's Spider-Man (Insomniac) — 2/3
+## Marvel's Spider-Man (Insomniac) — 3/4
 
 Series Tracker tab
 
@@ -110,6 +110,7 @@ Series Tracker tab
 | ⬜ | Marvel's Spider-Man | 2018 | Buy PS4 GOTY disc |
 | ✅ | Marvel's Spider-Man: Miles Morales | 2020 | PlayStation 5 |
 | ✅ | Marvel's Spider-Man 2 | 2023 | PlayStation 5 |
+| ✅ | Marvel's Wolverine | 2026 | PlayStation 5 |
 
 ## Horizon — 2/3
 
@@ -237,9 +238,9 @@ Series Tracker tab
 | ✅ | Resident Evil: Revelations | 2012 | PlayStation 4 |
 | ✅ | Resident Evil: Revelations 2 | 2015 | PlayStation 4 |
 | ✅ | Resident Evil: Operation Raccoon City | 2012 | PlayStation 3 |
-| ⬜ | Resident Evil – Code: Veronica (2027 remake) | 2027 | Remake confirmed by Capcom for 2027 (checked 2026-09-28) |
+| ⬜ | Resident Evil – Code: Veronica (2027 remake) | 2027 | Remake confirmed by Capcom for 2027 (checked 2026-09-28) · Titled 'Resident Evil Veronica'; PS5, Xbox Series, Switch 2, PC (checked 2026-10-01) |
 
-## Silent Hill — 1/10
+## Silent Hill — 1/11
 
 Series Tracker tab
 
@@ -255,6 +256,7 @@ Series Tracker tab
 | ⬜ | Silent Hill: Downpour | 2012 | ❓ not on the checklist |
 | ✅ | Silent Hill f | 2025 | PlayStation 5 |
 | ⬜ | Silent Hill: Townfall | 2026 | PS5 + PC, out 24 Sep 2026 (review 2026-09-28) |
+| ⬜ | Silent Hill (remake) | 2027 | Bloober Team remake of the first game, announced; no date (2027 at the earliest reported) (checked 2026-10-01) |
 
 ## Metal Gear — 7/9 (+2 💻 Steam)
 
@@ -302,7 +304,8 @@ Series Tracker tab – VII/VIII/IX/X/XII go to Switch
 | ✅ | Final Fantasy VII Remake | 2020 | PlayStation 4 |
 | ✅ | Final Fantasy VII Rebirth | 2024 | PlayStation 5 |
 | ➖ | Final Fantasy Type-0 HD | 2015 | Spin-off |
-| ⬜ | Final Fantasy VII Revelation | 2027 | FF VII Remake part 3, 8 Apr 2027, all platforms (review 2026-09-28) |
+| ⬜ | Final Fantasy VII Revelation | 2027 | FF VII Remake part 3, 8 Apr 2027, all platforms (review 2026-09-28) · Switch 2 = Game-Key Card, PS5 = disc + download (checked 2026-10-01) |
+| ➖ | Final Fantasy Resonance | 2026 | HD-2D spin-off, 22 Oct 2026; Switch cart (suggested target) (checked 2026-10-01) |
 
 ## Kingdom Hearts — 1/7
 
@@ -338,7 +341,7 @@ Series Tracker tab – mainline entries released in the West
 | ⬜ | Tales of Zestiria | 2015 |  |
 | ✅ | Tales of Berseria | 2016 | Nintendo Switch |
 | 💻 | Tales of Arise | 2021 | Owned on Steam; platform decision open |
-| ⬜ | Tales of Eternia | 2000 | ❓ only mentioned via the Switch 2 Game-Key Card list |
+| ⬜ | Tales of Eternia | 2000 | ❓ only mentioned via the Switch 2 Game-Key Card list · Remastered 16 Oct 2026 — Switch full cart in EU (target) (checked 2026-10-01) |
 
 ## Trails (The Legend of Heroes) — 7/14 (+3 💻 Steam)
 
@@ -387,7 +390,7 @@ Series Tracker tab
 | 💻 | NieR Replicant | 2010 | ver.1.22 owned on Steam |
 | 💻 | NieR:Automata | 2017 | Owned on Steam; Switch per rule |
 
-## Persona — 1/4 (+1 💻 Steam)
+## Persona — 1/5 (+1 💻 Steam)
 
 Series Tracker tab (Persona / Atlus row)
 
@@ -402,6 +405,7 @@ Series Tracker tab (Persona / Atlus row)
 | ➖ | Persona 2: Innocent Sin | 1999 | ❓ not on the checklist |
 | ➖ | Persona 2: Eternal Punishment | 2000 | ❓ not on the checklist |
 | ⬜ | Persona 4 Revival | 2027 | PS5 18 Feb 2027 · Switch 2 20 May 2027 (review 2026-09-28) |
+| ⬜ | Persona 6 |  | Announced; PS5, Xbox, PC, Switch 2 — no date (checked 2026-10-01) |
 
 ## Like a Dragon (Yakuza) — 0/10 (+8 💻 Steam)
 
@@ -423,6 +427,7 @@ Series Tracker tab – 'your call' series, most entries owned on Steam
 | ➖ | Like a Dragon: Ishin! | 2023 | Spin-off |
 | ➖ | Judgment | 2018 | Spin-off series |
 | ➖ | Lost Judgment | 2021 | Spin-off series |
+| ➖ | Stranger Than Heaven | 2027 | RGG 'distant prequel', 15 Jan 2027 on PS5, Xbox Series, PC (checked 2026-10-01) |
 
 ## Devil May Cry — 0/5 (+1 💻 Steam)
 
@@ -723,7 +728,7 @@ Microsoft first-party. ❓ tracking Fable as a full run was implied (first-party
 | ⬜ | Fable | 2004 | Fable Anniversary (Xbox 360, BC) counts – digital Xbox Store sale |
 | ⬜ | Fable II | 2008 | Xbox 360, BC – digital Xbox Store sale |
 | ⬜ | Fable III | 2010 | Xbox 360, BC – store status to verify (disc if delisted) |
-| 🕒 | Fable | 2026 | PlayStation 5 |
+| 🕒 | Fable | 2027 | PlayStation 5 |
 
 ## Titanfall — 2/2
 

@@ -221,7 +221,7 @@ platforms = ["Xbox One"]
 priority = "low"
 group = "Checklist (Disc-to-Digital)"
 plan = "used disc, e.g. rebuy.de"
-note = "D2D (community, 2026-09-09): Reported working (single outlet, unconfirmed) · Added to Xbox Disc-to-Digital program per TFW2005 (~1 Sep 2026) — second, independent confirmation; still delisted from the Xbox Store, playable via BC for existing owners (checked 2026-09-28)"
+note = "D2D (community, 2026-09-09): Reported working (single outlet, unconfirmed) · Added to Xbox Disc-to-Digital program per TFW2005 (~1 Sep 2026) — second, independent confirmation; still delisted from the Xbox Store, playable via BC for existing owners (checked 2026-09-28) · Still delisted, no re-release — but the Xbox One disc is supported by Disc-to-Digital (1 Sep 2026): the disc grants a digital licence (checked 2026-10-01)"
 
 [[target]]
 title = "Transformers: Rise of the Dark Spark"
@@ -261,7 +261,7 @@ priority = "medium"
 group = "First-party"
 plan = "Xbox Series X disc when on sale"
 state = "watching"
-note = "scope layer 1 (Halo / Halo Studios); Owned on PS5; last Halo made by Halo Studios (next Halo moves to Activision, Sep 2026) · Released 28 Jul 2026 on Xbox Series X|S, PS5 and Steam; physical disc confirmed at retail for both Xbox Series X and PS5 (GameStop) (checked 2026-09-28)"
+note = "scope layer 1 (Halo / Halo Studios); Owned on PS5; last Halo made by Halo Studios (next Halo moves to Activision, Sep 2026) · Released 28 Jul 2026 on Xbox Series X|S, PS5 and Steam; physical disc confirmed at retail for both Xbox Series X and PS5 (GameStop) (checked 2026-09-28) · UK retail Xbox Series X standard edition = disc + content download (Amazon UK, ShopTo) (checked 2026-10-01)"
 
 [[target]]
 title = "Gears of War: Reloaded"
@@ -279,7 +279,8 @@ priority = "high"
 group = "First-party"
 plan = "Pre-ordered (Xbox)"
 state = "preordered"
-note = "scope layer 1 (Gears / The Coalition) · Releases 6 Oct 2026 (Premium early access from 1 Oct) (checked 2026-09-28)"
+note = "scope layer 1 (Gears / The Coalition) · Releases 6 Oct 2026 (Premium early access from 1 Oct) (checked 2026-09-28) · Still 6 Oct 2026 (Premium / Collector's early access 1 Oct). Xbox Series X disc, content download required; supports Disc-to-Digital + Play Anywhere. PS5 version cancelled — Xbox console exclusive, 'not timed' (checked 2026-10-01)"
+versions = { "Xbox Series X|S" = "disc" }
 
 [[target]]
 title = "Forza Motorsport"
@@ -349,7 +350,7 @@ priority = "low"
 group = "First-party"
 plan = "Xbox disc only if really cheap later"
 state = "watching"
-note = "scope layer 1 (Fable / Playground); PS5 copy pre-ordered (see Part 1) · Delayed to 23 Feb 2027 (PS5, Xbox Series, PC) (checked 2026-09-28)"
+note = "scope layer 1 (Fable / Playground); PS5 copy pre-ordered (see Part 1) · Delayed to 23 Feb 2027 (PS5, Xbox Series, PC) (checked 2026-09-28) · Still 23 Feb 2027 (checked 2026-10-01)"
 
 [[target]]
 title = "Sea of Thieves"
@@ -539,7 +540,7 @@ platforms = ["Xbox Series X|S"]
 priority = "medium"
 group = "First-party"
 plan = "used disc"
-note = "scope layer 1 (Ninja Theory); Ninja Theory at risk of closure (Sep 2026) · Amazon.de lists the Xbox Series version only as a download code; no EU disc found (checked 2026-09-28) · physical Xbox Series X|S + PS5 edition announced via Limited Run Games (May 2025) – Microsoft itself released no disc; Xbox disc contents not confirmed yet (checked 2026-09-29)"
+note = "scope layer 1 (Ninja Theory); Ninja Theory at risk of closure (Sep 2026) · Amazon.de lists the Xbox Series version only as a download code; no EU disc found (checked 2026-09-28) · physical Xbox Series X|S + PS5 edition announced via Limited Run Games (May 2025) – Microsoft itself released no disc; Xbox disc contents not confirmed yet (checked 2026-09-29) · Limited Run Games Xbox disc contents still unconfirmed (no unboxing / Does It Play? entry found). Xbox proposed closing Ninja Theory on 22 Sep 2026 after two sale deals fell through (consultation to year end) (checked 2026-10-01)"
 verify = "verify the EU Xbox box contains a real disc, not a code – if code-in-box, treat like Avowed"
 
 [[target]]
@@ -792,7 +793,7 @@ priority = "medium"
 group = "OG Xbox BC"
 plan = "disc (store status unverified, likely disc only)"
 state = "watching"
-note = "Xbox Store: BC (Xbox One/Series X|S, added Nov 2021 for Xbox's 20th anniversary) and still purchasable digitally today — not disc-only; B – OG Xbox exclusive, BC; On my wish list (checked 2026-09-28)"
+note = "Xbox Store: BC (Xbox One/Series X|S, added Nov 2021 for Xbox's 20th anniversary) and still purchasable digitally today — not disc-only; B – OG Xbox exclusive, BC; On my wish list (checked 2026-09-28) · No 2026 delisting news; still BC + digitally listed (checked 2026-10-01)"
 
 [[target]]
 title = "Otogi 2: Immortal Warriors"
@@ -801,7 +802,7 @@ priority = "medium"
 group = "OG Xbox BC"
 plan = "disc (store status unverified, likely disc only)"
 state = "watching"
-note = "Xbox Store: BC (Xbox One/Series X|S, added Nov 2021 for Xbox's 20th anniversary) and still purchasable digitally today — not disc-only; B – OG Xbox exclusive, BC; On my wish list (checked 2026-09-28)"
+note = "Xbox Store: BC (Xbox One/Series X|S, added Nov 2021 for Xbox's 20th anniversary) and still purchasable digitally today — not disc-only; B – OG Xbox exclusive, BC; On my wish list (checked 2026-09-28) · No 2026 delisting news; still BC + digitally listed (checked 2026-10-01)"
 
 [[target]]
 title = "Conker: Live & Reloaded"
@@ -809,7 +810,7 @@ platforms = ["Xbox"]
 priority = "someday"
 group = "OG Xbox BC"
 plan = "digital, Xbox Store sale (no key sellers for 360 titles)"
-note = "Xbox Store: Digital (Xbox Store); B – OG Xbox exclusive, BC; Also in Rare Replay (OG version only)"
+note = "Xbox Store: Digital (Xbox Store); B – OG Xbox exclusive, BC; Also in Rare Replay (OG version only) · Also on Windows PC since 22 Jul 2026 via 'Xbox Backward Compatibility on PC' ($9.99 in the Xbox app, in Game Pass); no delisting news (checked 2026-10-01)"
 
 [[target]]
 title = "Crimson Skies: High Road to Revenge"
@@ -817,7 +818,7 @@ platforms = ["Xbox"]
 priority = "someday"
 group = "OG Xbox BC"
 plan = "digital, Xbox Store sale (no key sellers for 360 titles)"
-note = "Xbox Store: Digital (Xbox Store); B – OG Xbox exclusive, BC"
+note = "Xbox Store: Digital (Xbox Store); B – OG Xbox exclusive, BC · Also on Windows PC since 22 Jul 2026 via 'Xbox Backward Compatibility on PC' ($9.99 in the Xbox app, in Game Pass); no delisting news (checked 2026-10-01)"
 
 [[target]]
 title = "Blinx: The Time Sweeper"
@@ -825,7 +826,7 @@ platforms = ["Xbox"]
 priority = "someday"
 group = "OG Xbox BC"
 plan = "digital, Xbox Store sale (no key sellers for 360 titles)"
-note = "Xbox Store: Digital (Xbox Store); B – OG Xbox exclusive, BC"
+note = "Xbox Store: Digital (Xbox Store); B – OG Xbox exclusive, BC · Also on Windows PC since 22 Jul 2026 via 'Xbox Backward Compatibility on PC' ($9.99 in the Xbox app, in Game Pass); no delisting news (checked 2026-10-01)"
 
 [[target]]
 title = "Fuzion Frenzy"
@@ -833,7 +834,7 @@ platforms = ["Xbox"]
 priority = "someday"
 group = "OG Xbox BC"
 plan = "digital, Xbox Store sale (no key sellers for 360 titles)"
-note = "Xbox Store: Digital (Xbox Store); B – OG Xbox exclusive, BC"
+note = "Xbox Store: Digital (Xbox Store); B – OG Xbox exclusive, BC · Also on Windows PC since 22 Jul 2026 via 'Xbox Backward Compatibility on PC' ($9.99 in the Xbox app, in Game Pass); no delisting news (checked 2026-10-01)"
 
 [[target]]
 title = "Grabbed by the Ghoulies"
@@ -2330,7 +2331,7 @@ platforms = ["Xbox Series X|S"]
 priority = "someday"
 group = "Series runs – State of Decay"
 state = "undecided"
-note = "Undead Labs now independent; no longer first-party (Sep 2026) – series-on-one-platform rule would still put it on Xbox · Out in 2027 on Xbox Series, PS5 and Steam; Game Pass day one (checked 2026-09-28)"
+note = "Undead Labs now independent; no longer first-party (Sep 2026) – series-on-one-platform rule would still put it on Xbox · Out in 2027 on Xbox Series, PS5 and Steam; Game Pass day one (checked 2026-09-28) · Still 2027 on Xbox Series, PS5, PC; no physical format announced (checked 2026-10-01)"
 
 [[target]]
 title = "Project Gotham Racing"
@@ -2515,7 +2516,8 @@ priority = "high"
 group = "Series runs – Call of Duty"
 state = "preordered"
 plan = "Xbox Series X disc (pre-order candidate)"
-note = "Suggested (review 2026-09-28): next entry of the complete Xbox CoD run — Infinity Ward, 23 Oct 2026. Also on PS5, PS4/Xbox One and Switch 2; the shooter rule keeps it on Xbox."
+note = "Suggested (review 2026-09-28): next entry of the complete Xbox CoD run — Infinity Ward, 23 Oct 2026. Also on PS5, PS4/Xbox One and Switch 2; the shooter rule keeps it on Xbox. · Still 23 Oct 2026. Xbox Series X standard edition = disc, content download required (Vault Edition digital only). Switch 2 retail = code-in-a-box (checked 2026-10-01)"
+versions = { "Xbox Series X|S" = "disc", "Nintendo Switch 2" = "code" }
 
 [[target]]
 title = "Tom Clancy's The Division 2"

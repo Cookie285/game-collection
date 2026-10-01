@@ -54,7 +54,7 @@ _Updated 2026-10-01._
 
 ### Buy plan
 
-⬜ 413 open · 🕒 3 ordered · ✅ 76 done — see [gaps.md](views/gaps.md)
+⬜ 416 open · 🕒 3 ordered · ✅ 76 done — see [gaps.md](views/gaps.md)
 
 ### Series
 
@@ -67,7 +67,7 @@ _Updated 2026-10-01._
 | Resistance | 2/3 |  |
 | Killzone | 3/4 |  |
 | inFamous | 0/4 |  |
-| Marvel's Spider-Man (Insomniac) | 2/3 |  |
+| Marvel's Spider-Man (Insomniac) | 3/4 |  |
 | Horizon | 2/3 |  |
 | Ghost of … | 2/2 ✅ |  |
 | Sly Cooper | 3/4 |  |
@@ -79,7 +79,7 @@ _Updated 2026-10-01._
 | Quantic Dream (PlayStation) | 1/3 |  |
 | FromSoftware Souls | 2/7 | 1 |
 | Resident Evil | 9/12 |  |
-| Silent Hill | 1/10 |  |
+| Silent Hill | 1/11 |  |
 | Metal Gear | 7/9 | 2 |
 | Final Fantasy | 12/20 | 3 |
 | Kingdom Hearts | 1/7 |  |
@@ -87,7 +87,7 @@ _Updated 2026-10-01._
 | Trails (The Legend of Heroes) | 7/14 | 3 |
 | Star Ocean | 4/6 |  |
 | NieR / Drakengard | 1/5 | 2 |
-| Persona | 1/4 | 1 |
+| Persona | 1/5 | 1 |
 | Like a Dragon (Yakuza) | 0/10 | 8 |
 | Devil May Cry | 0/5 | 1 |
 | Nioh | 3/3 ✅ |  |
