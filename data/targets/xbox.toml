@@ -324,7 +324,7 @@ platforms = ["Xbox One"]
 priority = "low"
 group = "First-party"
 plan = "used disc, e.g. rebuy.de"
-note = "scope layer 1 (Minecraft / Mojang); Several disc variants (Explorers Pack, Starter, Master Collection); Bedrock disc; several variants (Explorers Pack, Starter, Master Collection)"
+note = "scope layer 1 (Minecraft / Mojang); Several disc variants (Explorers Pack, Starter, Master Collection); Bedrock disc; several variants (Explorers Pack, Starter, Master Collection) · owned (import 2026-10-01); Minecraft (Xbox One) listed as Disc-to-Digital eligible – which disc variant converts isn't stated (checked 2026-10-01)"
 
 [[target]]
 title = "Minecraft Dungeons"
@@ -333,7 +333,7 @@ platforms = ["Xbox One"]
 priority = "medium"
 group = "First-party"
 plan = "used disc, e.g. rebuy.de"
-note = "scope layer 1 (Minecraft / Mojang & Double Eleven); Hero Edition preferred"
+note = "scope layer 1 (Minecraft / Mojang & Double Eleven); Hero Edition preferred · owned (import 2026-10-01); listed as Disc-to-Digital supported (checked 2026-10-01)"
 
 [[target]]
 title = "Minecraft Legends"
@@ -430,7 +430,7 @@ platforms = ["Xbox Series X|S"]
 priority = "low"
 group = "First-party"
 plan = "netgames (available cheap there)"
-note = "scope layer 1 (Tango (MS-published)); Limited Run exclusive physical"
+note = "scope layer 1 (Tango (MS-published)); Limited Run exclusive physical · owned (import 2026-10-01); the only Xbox disc is the Limited Run Games edition – whether it converts via Disc-to-Digital isn't reported yet, worth trying (checked 2026-10-01)"
 
 [[target]]
 title = "Pentiment"

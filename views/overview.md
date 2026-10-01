@@ -25,15 +25,15 @@ _Updated 2026-10-01._
 | [PlayStation](platforms/playstation.md) | 17 | 0 | 0 |
 | [PlayStation Vita](platforms/playstation-vita.md) | 4 | 0 | 0 |
 | [PSP](platforms/psp.md) | 10 | 0 | 0 |
-| [Xbox Series X\|S](platforms/xbox-series-x-s.md) | 20 | 1 | 0 |
-| [Xbox One](platforms/xbox-one.md) | 46 | 0 | 0 |
+| [Xbox Series X\|S](platforms/xbox-series-x-s.md) | 21 | 1 | 0 |
+| [Xbox One](platforms/xbox-one.md) | 48 | 0 | 0 |
 | [Xbox 360](platforms/xbox-360.md) | 13 | 0 | 3 |
 | [Xbox](platforms/xbox.md) | 1 | 0 | 2 |
-| **Total** | **833** | **2** | **5** |
+| **Total** | **836** | **2** | **5** |
 
 ## Buy plan
 
-⬜ 416 open · 🕒 3 ordered · ✅ 76 done — see [gaps.md](gaps.md)
+⬜ 412 open · 🕒 3 ordered · ✅ 80 done — see [gaps.md](gaps.md)
 
 ## Series
 

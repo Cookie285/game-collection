@@ -76,9 +76,9 @@ Platform order: PC (best graphics) → Nintendo (best physical line-up) → what
 
 _Why:_ Each game is bought once, on the platform where it plays or collects best.
 
-77 targets — ⬜ 58 · 🕒 0 · ✅ 1 · ➖ 18
+77 targets — ⬜ 57 · 🕒 0 · ✅ 2 · ➖ 18
 
-<details><summary>58 open</summary>
+<details><summary>57 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -109,7 +109,6 @@ _Why:_ Each game is bought once, on the platform where it plays or collects best
 | Final Fantasy X \| X-2 HD Remaster | Nintendo Switch | low |  |
 | Ghostwire: Tokyo | xbox-modern | low |  |
 | Grand Theft Auto: The Trilogy – The Definitive Edition | Nintendo Switch | low |  |
-| Hi-Fi Rush | xbox-modern | low |  |
 | Indiana Jones and the Great Circle | xbox-modern | low |  |
 | Kingdom Come: Deliverance II | PC | low |  |
 | L.A. Noire | Nintendo Switch | low |  |
@@ -201,9 +200,9 @@ Gaps in older generations are mostly bought used.
 
 _Why:_ Older discs are cheap and plentiful used; new copies are often gone or overpriced.
 
-293 targets — ⬜ 290 · 🕒 0 · ✅ 3 · ➖ 0
+293 targets — ⬜ 288 · 🕒 0 · ✅ 5 · ➖ 0
 
-<details><summary>290 open</summary>
+<details><summary>288 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -353,8 +352,6 @@ _Why:_ Older discs are cheap and plentiful used; new copies are often gone or ov
 | Metro Redux | Xbox One | low | undecided |
 | Microsoft Flight Simulator | Xbox Series X\|S | medium |  |
 | Microsoft Flight Simulator 2024 | Xbox Series X\|S | medium |  |
-| Minecraft | Xbox One | low |  |
-| Minecraft Dungeons | Xbox One | medium |  |
 | Minecraft: Story Mode | Xbox One | low |  |
 | Minecraft: Xbox One Edition | Xbox One | high |  |
 | Monster Hunter Wilds | PlayStation 5 | medium |  |
@@ -504,9 +501,9 @@ _Why:_ Older discs are cheap and plentiful used; new copies are often gone or ov
 
 Nice-to-have titles are bought only at a really good price.
 
-56 targets — ⬜ 53 · 🕒 1 · ✅ 1 · ➖ 1
+56 targets — ⬜ 52 · 🕒 1 · ✅ 2 · ➖ 1
 
-<details><summary>53 open</summary>
+<details><summary>52 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -526,7 +523,6 @@ Nice-to-have titles are bought only at a really good price.
 | Ghostwire: Tokyo | xbox-modern | low |  |
 | God of War | PlayStation 4 | high |  |
 | Halo: Campaign Evolved | Xbox Series X\|S | medium | watching |
-| Hi-Fi Rush | xbox-modern | low |  |
 | Hogwarts Legacy | PlayStation 5, Nintendo Switch | high | undecided |
 | Lightning Returns: Final Fantasy XIII | PlayStation 3 | high |  |
 | Like a Dragon Gaiden: The Man Who Erased His Name | PlayStation 5 | low |  |
@@ -600,15 +596,14 @@ Limited Run / boutique pressings count as real discs, but only at a good price.
 
 _Precedents:_ Pentiment, Grounded via eBay saved searches
 
-5 targets — ⬜ 5 · 🕒 0 · ✅ 0 · ➖ 0
+5 targets — ⬜ 4 · 🕒 0 · ✅ 1 · ➖ 0
 
-<details><summary>5 open</summary>
+<details><summary>4 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
 | Castlevania Requiem | PlayStation 4 | medium |  |
 | Grounded | Xbox Series X\|S | someday | watching |
-| Hi-Fi Rush | Xbox Series X\|S | low |  |
 | Pentiment | Xbox Series X\|S | someday | watching |
 | Senua's Saga: Hellblade II | Xbox Series X\|S | medium |  |
 
@@ -638,9 +633,9 @@ Already owned on Steam → buy the disc only if the price is really good, new or
 
 _Why:_ The game is already playable; the disc is a nice-to-have for the shelf.
 
-57 targets — ⬜ 53 · 🕒 0 · ✅ 1 · ➖ 3
+57 targets — ⬜ 52 · 🕒 0 · ✅ 2 · ➖ 3
 
-<details><summary>53 open</summary>
+<details><summary>52 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -658,7 +653,6 @@ _Why:_ The game is already playable; the disc is a nice-to-have for the shelf.
 | Final Fantasy X \| X-2 HD Remaster | Nintendo Switch | low |  |
 | Ghostwire: Tokyo | xbox-modern | low |  |
 | God of War | PlayStation 4 | high |  |
-| Hi-Fi Rush | xbox-modern | low |  |
 | Hogwarts Legacy | PlayStation 5, Nintendo Switch | high | undecided |
 | Lightning Returns: Final Fantasy XIII | PlayStation 3 | high |  |
 | Like a Dragon Gaiden: The Man Who Erased His Name | PlayStation 5 | low |  |
@@ -1238,9 +1232,9 @@ Microsoft first-party on Xbox disc: layer 1 = published by Microsoft / Xbox Game
 
 _Why:_ Historical publisher counts — the Sep 2026 Xbox reset doesn't change scope.
 
-64 targets — ⬜ 27 · 🕒 1 · ✅ 35 · ➖ 1
+64 targets — ⬜ 24 · 🕒 1 · ✅ 38 · ➖ 1
 
-<details><summary>27 open</summary>
+<details><summary>24 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -1256,13 +1250,10 @@ _Why:_ Historical publisher counts — the Sep 2026 Xbox reset doesn't change sc
 | Grounded | Xbox Series X\|S | someday | watching |
 | Halo: Campaign Evolved | Xbox Series X\|S | medium | watching |
 | Hellblade: Senua's Sacrifice | Xbox One | someday |  |
-| Hi-Fi Rush | Xbox Series X\|S | low |  |
 | Indiana Jones and the Great Circle | Xbox Series X\|S | medium |  |
 | Kinect Sports Rivals | Xbox One | someday |  |
 | Microsoft Flight Simulator | Xbox Series X\|S | medium |  |
 | Microsoft Flight Simulator 2024 | Xbox Series X\|S | medium |  |
-| Minecraft | Xbox One | low |  |
-| Minecraft Dungeons | Xbox One | medium |  |
 | Minecraft: Xbox One Edition | Xbox One | high |  |
 | Pentiment | Xbox Series X\|S | someday | watching |
 | ReCore | Xbox One | low |  |
@@ -1328,9 +1319,9 @@ Xbox One / Series discs carry a Disc-to-Digital licence — a reason to buy Micr
 
 _Why:_ One revocable licence per disc; licence moves if the disc is claimed elsewhere → don't lend discs casually.
 
-49 targets — ⬜ 23 · 🕒 1 · ✅ 24 · ➖ 1
+52 targets — ⬜ 22 · 🕒 1 · ✅ 28 · ➖ 1
 
-<details><summary>23 open</summary>
+<details><summary>22 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -1341,7 +1332,6 @@ _Why:_ One revocable licence per disc; licence moves if the disc is claimed else
 | Dishonored 2 | xbox-modern | low |  |
 | F1 2021 | Xbox One | low |  |
 | Ghostwire: Tokyo | xbox-modern | low |  |
-| Hi-Fi Rush | xbox-modern | low |  |
 | Indiana Jones and the Great Circle | xbox-modern | low |  |
 | Minecraft: Story Mode | Xbox One | low |  |
 | Prey | xbox-modern | low |  |
