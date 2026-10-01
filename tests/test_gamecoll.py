@@ -197,9 +197,11 @@ class CoverLookup(unittest.TestCase):
                 return {"access_token": "tok"}
             self.assertIn("/v4/games", url)            # never the multiquery endpoint
             self.assertEqual(headers["Authorization"], "Bearer tok")
-            if body.startswith("fields platforms; where id = ("):   # bulk release-platform lookup by id
+            if body.startswith("fields platforms,version_parent"):   # bulk release-platform lookup by id
                 self.assertIn("9", body)
-                return [{"id": 9, "platforms": [48, 6]}]
+                # a Switch port kept as its own entry: the original (PS4) and its ports count too
+                return [{"id": 9, "platforms": [130], "version_parent": {"id": 8, "platforms": [48, 6], "ports": [{"id": 10, "platforms": [49]}]}},
+                        {"id": 2, "platforms": [12]}, {"id": 7, "platforms": [6]}]
             if '"Halo 3"' in body:
                 return [{"id": 2, "name": "Halo 3", "cover": {"image_id": "co1bbb"}, "platforms": [12]}]
             if '"Ids Only"' in body:
@@ -231,7 +233,8 @@ class CoverLookup(unittest.TestCase):
         self.assertIsNone(data[g.cover_key("Ids Only", "PC")]["image"])
         self.assertTrue(all(v.get("v") == g.COVER_CACHE_VERSION for v in data.values()))
         self.assertEqual(data[g.cover_key("Halo 3", "Xbox 360")]["plats"], [12])   # stored with the match
-        self.assertEqual(data[g.cover_key("Cached", "PS4")]["plats"], [48, 6])     # backfilled by id
+        self.assertEqual(data[g.cover_key("Cached", "PS4")]["plats"], [6, 48, 49, 130])  # backfilled: own + original + ports
+        self.assertTrue(all(v.get("pv") == g.PLATS_VERSION for v in data.values() if v.get("igdb_id")))
         log = out.getvalue()
         self.assertIn("2/4 with a cover", log)
         self.assertIn("results without a cover", log)
