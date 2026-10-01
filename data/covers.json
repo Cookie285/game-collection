@@ -2499,6 +2499,16 @@
 "checked": "2026-09-28",
 "v": 3
 },
+"destruction allstars|PlayStation 5": {
+"title": "Destruction AllStars",
+"platform": "PlayStation 5",
+"image": "co2gw6",
+"igdb_id": 134587,
+"name": "Destruction AllStars",
+"score": 7,
+"checked": "2026-10-01",
+"v": 3
+},
 "detective dotson|Nintendo Switch": {
 "title": "Detective Dotson",
 "platform": "Nintendo Switch",
@@ -8139,6 +8149,16 @@
 "checked": "2026-09-28",
 "v": 3
 },
+"prey|Xbox One": {
+"title": "Prey",
+"platform": "Xbox One",
+"image": "co9aoh",
+"igdb_id": 19531,
+"name": "Prey",
+"score": 7,
+"checked": "2026-10-01",
+"v": 3
+},
 "prey|Xbox Series X|S": {
 "title": "Prey",
 "platform": "Xbox Series X|S",
@@ -9687,6 +9707,16 @@
 "name": "Sonic & All-Stars Racing Transformed",
 "score": 7,
 "checked": "2026-09-28",
+"v": 3
+},
+"sonic generations|PlayStation 3": {
+"title": "Sonic Generations",
+"platform": "PlayStation 3",
+"image": "co1zvv",
+"igdb_id": 506,
+"name": "Sonic Generations",
+"score": 7,
+"checked": "2026-10-01",
 "v": 3
 },
 "sonic unleashed|Xbox 360": {
@@ -11329,6 +11359,26 @@
 "checked": "2026-09-28",
 "v": 3
 },
+"tom clancy s h a w x 2|Xbox 360": {
+"title": "Tom Clancy's H.A.W.X 2",
+"platform": "Xbox 360",
+"image": "co1ypi",
+"igdb_id": 984,
+"name": "Tom Clancy's H.A.W.X 2",
+"score": 7,
+"checked": "2026-10-01",
+"v": 3
+},
+"tom clancy s h a w x|Xbox 360": {
+"title": "Tom Clancy's H.A.W.X",
+"platform": "Xbox 360",
+"image": "co1yh8",
+"igdb_id": 983,
+"name": "Tom Clancy's H.A.W.X",
+"score": 7,
+"checked": "2026-10-01",
+"v": 3
+},
 "tom clancy s rainbow six extraction|Xbox One": {
 "title": "Tom Clancy's Rainbow Six Extraction",
 "platform": "Xbox One",
@@ -11399,6 +11449,16 @@
 "checked": "2026-09-28",
 "v": 3
 },
+"tom clancy s splinter cell pandora tomorrow|Xbox": {
+"title": "Tom Clancy's Splinter Cell: Pandora Tomorrow",
+"platform": "Xbox",
+"image": "co9eos",
+"igdb_id": 874,
+"name": "Tom Clancy's Splinter Cell: Pandora Tomorrow",
+"score": 7,
+"checked": "2026-10-01",
+"v": 3
+},
 "tom clancy s splinter cell trilogy|PlayStation 3": {
 "title": "Tom Clancy's Splinter Cell Trilogy",
 "platform": "PlayStation 3",
@@ -11407,6 +11467,16 @@
 "name": "Tom Clancy's Splinter Cell Trilogy HD",
 "score": 6,
 "checked": "2026-09-28",
+"v": 3
+},
+"tom clancy s splinter cell|Xbox": {
+"title": "Tom Clancy's Splinter Cell",
+"platform": "Xbox",
+"image": "co95ri",
+"igdb_id": 910,
+"name": "Tom Clancy's Splinter Cell",
+"score": 7,
+"checked": "2026-10-01",
 "v": 3
 },
 "tom clancy s the division 2|Xbox One": {
