@@ -18,22 +18,22 @@ _Updated 2026-10-01._
 | [Game Boy Advance](platforms/game-boy-advance.md) | 18 | 0 | 0 |
 | [Game Boy Color](platforms/game-boy-color.md) | 5 | 0 | 0 |
 | [Game Boy](platforms/game-boy.md) | 7 | 0 | 0 |
-| [PlayStation 5](platforms/playstation-5.md) | 62 | 1 | 0 |
-| [PlayStation 4](platforms/playstation-4.md) | 50 | 0 | 0 |
-| [PlayStation 3](platforms/playstation-3.md) | 103 | 0 | 0 |
+| [PlayStation 5](platforms/playstation-5.md) | 62 | 2 | 0 |
+| [PlayStation 4](platforms/playstation-4.md) | 50 | 1 | 0 |
+| [PlayStation 3](platforms/playstation-3.md) | 103 | 1 | 0 |
 | [PlayStation 2](platforms/playstation-2.md) | 5 | 0 | 0 |
 | [PlayStation](platforms/playstation.md) | 17 | 0 | 0 |
 | [PlayStation Vita](platforms/playstation-vita.md) | 4 | 0 | 0 |
 | [PSP](platforms/psp.md) | 10 | 0 | 0 |
 | [Xbox Series X\|S](platforms/xbox-series-x-s.md) | 21 | 1 | 0 |
-| [Xbox One](platforms/xbox-one.md) | 48 | 0 | 0 |
-| [Xbox 360](platforms/xbox-360.md) | 13 | 0 | 3 |
-| [Xbox](platforms/xbox.md) | 1 | 0 | 2 |
-| **Total** | **836** | **2** | **5** |
+| [Xbox One](platforms/xbox-one.md) | 48 | 10 | 0 |
+| [Xbox 360](platforms/xbox-360.md) | 13 | 2 | 3 |
+| [Xbox](platforms/xbox.md) | 1 | 2 | 2 |
+| **Total** | **836** | **19** | **5** |
 
 ## Buy plan
 
-⬜ 412 open · 🕒 3 ordered · ✅ 80 done — see [gaps.md](gaps.md)
+⬜ 399 open · 🕒 18 ordered · ✅ 80 done — see [gaps.md](gaps.md)
 
 ## Series
 

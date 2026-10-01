@@ -17,9 +17,9 @@ Physical first. Digital only when there is no other option.
 
 _Why:_ The collection is about owning discs and carts; digital purchases are a fallback, not a goal.
 
-45 targets — ⬜ 44 · 🕒 0 · ✅ 0 · ➖ 1
+45 targets — ⬜ 41 · 🕒 3 · ✅ 0 · ➖ 1
 
-<details><summary>44 open</summary>
+<details><summary>41 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -32,10 +32,8 @@ _Why:_ The collection is about owning discs and carts; digital purchases are a f
 | Crackdown | Xbox 360 | someday |  |
 | Crackdown 2 | Xbox 360 | someday |  |
 | Crimson Skies: High Road to Revenge | Xbox | someday |  |
-| Days Gone | PlayStation 4 | high |  |
 | Diablo IV | Xbox Series X\|S | someday | undecided |
 | Dishonored | xbox-modern | low |  |
-| Dishonored 2 | xbox-modern | low |  |
 | Earth Defense Force 2017 | Xbox 360 | medium |  |
 | Enslaved: Odyssey to the West | Xbox 360 | someday |  |
 | Fable Anniversary | Xbox 360 | someday |  |
@@ -53,7 +51,6 @@ _Why:_ The collection is about owning discs and carts; digital purchases are a f
 | Panzer Dragoon Orta | Xbox | someday |  |
 | Persona 6 | PlayStation 5, Nintendo Switch 2 | low | watching |
 | Phantom Blade Zero | PlayStation 5 | medium |  |
-| Prey | xbox-modern | low |  |
 | Psychonauts | Xbox | someday |  |
 | Shadowrun | Xbox 360 | someday |  |
 | Skate 3 | Xbox 360 | someday |  |
@@ -76,9 +73,9 @@ Platform order: PC (best graphics) → Nintendo (best physical line-up) → what
 
 _Why:_ Each game is bought once, on the platform where it plays or collects best.
 
-77 targets — ⬜ 57 · 🕒 0 · ✅ 2 · ➖ 18
+77 targets — ⬜ 55 · 🕒 2 · ✅ 2 · ➖ 18
 
-<details><summary>57 open</summary>
+<details><summary>55 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -97,7 +94,6 @@ _Why:_ Each game is bought once, on the platform where it plays or collects best
 | Disgaea 4 Complete+ | Nintendo Switch | low |  |
 | Disgaea 5 Complete | Nintendo Switch | low |  |
 | Dishonored | xbox-modern | low |  |
-| Dishonored 2 | xbox-modern | low |  |
 | Dragon Ball Z: Kakarot | Nintendo Switch | low |  |
 | Dragon's Dogma: Dark Arisen | Nintendo Switch | low |  |
 | Fatal Frame II: Crimson Butterfly Remake | Nintendo Switch 2 | low |  |
@@ -120,7 +116,6 @@ _Why:_ Each game is bought once, on the platform where it plays or collects best
 | Onimusha: Warlords | Nintendo Switch | low |  |
 | Persona 5 Strikers | Nintendo Switch | low |  |
 | Persona 5 Tactica | Nintendo Switch | low |  |
-| Prey | xbox-modern | low |  |
 | Sifu | Nintendo Switch | low |  |
 | Spyro Reignited Trilogy | Nintendo Switch | low |  |
 | Stray | Nintendo Switch | low |  |
@@ -200,9 +195,9 @@ Gaps in older generations are mostly bought used.
 
 _Why:_ Older discs are cheap and plentiful used; new copies are often gone or overpriced.
 
-293 targets — ⬜ 288 · 🕒 0 · ✅ 5 · ➖ 0
+293 targets — ⬜ 277 · 🕒 11 · ✅ 5 · ➖ 0
 
-<details><summary>288 open</summary>
+<details><summary>277 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -247,7 +242,6 @@ _Why:_ Older discs are cheap and plentiful used; new copies are often gone or ov
 | Dark Cloud | PlayStation 2 | medium |  |
 | Dark Souls II: Scholar of the First Sin | PlayStation 4 | medium |  |
 | Dark Souls III: The Fire Fades Edition | PlayStation 4 | high |  |
-| Days Gone | PlayStation 4 | high |  |
 | Dead Rising 3 | Xbox One | low |  |
 | Dead Space | PlayStation 5 | medium |  |
 | Deadpool | Xbox One | high |  |
@@ -260,8 +254,6 @@ _Why:_ Older discs are cheap and plentiful used; new copies are often gone or ov
 | Dino Crisis | PlayStation | medium |  |
 | Dino Crisis 2 | PlayStation | low |  |
 | Dishonored | Xbox 360 | someday | undecided |
-| Dishonored 2 | Xbox One | someday | undecided |
-| Dishonored: Death of the Outsider | Xbox One | someday | undecided |
 | DmC: Devil May Cry Definitive Edition | PlayStation 4 | low |  |
 | Doom 3: BFG Edition | Xbox 360 | someday | undecided |
 | Doom Slayers Collection | Xbox One | someday | undecided |
@@ -308,7 +300,6 @@ _Why:_ Older discs are cheap and plentiful used; new copies are often gone or ov
 | Harry Potter: Quidditch World Cup | PlayStation 2 | low |  |
 | Haunting Ground | PlayStation 2 | low |  |
 | Heavy Rain & Beyond: Two Souls Collection | PlayStation 4 | medium |  |
-| Hellblade: Senua's Sacrifice | Xbox One | someday |  |
 | Hogwarts Legacy | PlayStation 5, Nintendo Switch | high | undecided |
 | Homefront | Xbox 360 | someday | undecided |
 | Homefront: The Revolution | Xbox One | someday | undecided |
@@ -349,7 +340,6 @@ _Why:_ Older discs are cheap and plentiful used; new copies are often gone or ov
 | Metro 2033 | Xbox 360 | low | undecided |
 | Metro Exodus | Xbox One | low | undecided |
 | Metro: Last Light | Xbox 360 | low | undecided |
-| Metro Redux | Xbox One | low | undecided |
 | Microsoft Flight Simulator | Xbox Series X\|S | medium |  |
 | Microsoft Flight Simulator 2024 | Xbox Series X\|S | medium |  |
 | Minecraft: Story Mode | Xbox One | low |  |
@@ -367,7 +357,6 @@ _Why:_ Older discs are cheap and plentiful used; new copies are often gone or ov
 | Persona 3 Reload | PlayStation 5, Nintendo Switch 2 | high | undecided |
 | Persona 4 | PlayStation 2 | low |  |
 | Prey | Xbox 360 | someday | undecided |
-| Prey (2017) | Xbox One | someday | undecided |
 | Primal | PlayStation 2 | low |  |
 | Project Zero | PlayStation 2 | medium |  |
 | Project Zero 3: The Tormented | PlayStation 2 | medium |  |
@@ -381,7 +370,6 @@ _Why:_ Older discs are cheap and plentiful used; new copies are often gone or ov
 | Ratchet & Clank Future: Tools of Destruction | PlayStation 3 | high |  |
 | Ratchet & Clank: Into the Nexus | PlayStation 3 | medium |  |
 | Ratchet: Gladiator | PlayStation 2 | low |  |
-| ReCore | Xbox One | low |  |
 | Red Dead Redemption 2 | PlayStation 4 | high |  |
 | Red Dead Redemption (2023) | PlayStation 4 | low |  |
 | Resident Evil Requiem | PlayStation 5 | high |  |
@@ -455,15 +443,11 @@ _Why:_ Older discs are cheap and plentiful used; new copies are often gone or ov
 | TLOU Part II Remastered | PlayStation 5 | low |  |
 | Tom Clancy's Ghost Recon Advanced Warfighter | Xbox 360 | someday | undecided |
 | Tom Clancy's Ghost Recon Advanced Warfighter 2 | Xbox 360 | someday | undecided |
-| Tom Clancy's Ghost Recon Breakpoint | Xbox One | someday | undecided |
 | Tom Clancy's Ghost Recon: Future Soldier | Xbox 360 | someday | undecided |
-| Tom Clancy's Ghost Recon Wildlands | Xbox One | someday | undecided |
 | Tom Clancy's Rainbow Six Extraction | Xbox One | someday | undecided |
 | Tom Clancy's Rainbow Six Siege | Xbox One | someday | undecided |
 | Tom Clancy's Rainbow Six Vegas | Xbox 360 | someday | undecided |
 | Tom Clancy's Rainbow Six Vegas 2 | Xbox 360 | someday | undecided |
-| Tom Clancy's The Division | Xbox One | someday | undecided |
-| Tom Clancy's The Division 2 | Xbox One | someday | undecided |
 | Tomb Raider Definitive Edition | PlayStation 4 | low |  |
 | Transformers: Devastation | Xbox One | low |  |
 | Transformers: Fall of Cybertron | Xbox 360 | someday | undecided |
@@ -568,9 +552,9 @@ Single-player focus — multiplayer-only / online-focused games are skipped; dea
 
 _Precedents:_ Destiny, Overwatch, Crash Team Rumble skipped · no Guitar Hero / Skylanders
 
-26 targets — ⬜ 13 · 🕒 0 · ✅ 5 · ➖ 8
+26 targets — ⬜ 11 · 🕒 2 · ✅ 5 · ➖ 8
 
-<details><summary>13 open</summary>
+<details><summary>11 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -585,8 +569,6 @@ _Precedents:_ Destiny, Overwatch, Crash Team Rumble skipped · no Guitar Hero / 
 | Star Wars Jedi: Survivor | PlayStation 5 | high |  |
 | Star Wars Outlaws | PlayStation 5 | medium |  |
 | Tom Clancy's Rainbow Six Siege | Xbox One | someday | undecided |
-| Tom Clancy's The Division | Xbox One | someday | undecided |
-| Tom Clancy's The Division 2 | Xbox One | someday | undecided |
 
 </details>
 
@@ -834,9 +816,9 @@ _Precedents:_ Pragmata, Onimusha: Way of the Sword, Full Metal Schoolgirl → PS
 
 PlayStation gets exclusives plus multiplatform games worth having on disc.
 
-199 targets — ⬜ 197 · 🕒 1 · ✅ 1 · ➖ 0
+199 targets — ⬜ 196 · 🕒 2 · ✅ 1 · ➖ 0
 
-<details><summary>197 open</summary>
+<details><summary>196 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -870,7 +852,6 @@ PlayStation gets exclusives plus multiplatform games worth having on disc.
 | Dark Cloud | PlayStation 2 | medium |  |
 | Dark Souls II: Scholar of the First Sin | PlayStation 4 | medium |  |
 | Dark Souls III: The Fire Fades Edition | PlayStation 4 | high |  |
-| Days Gone | PlayStation 4 | high |  |
 | Dead Space | PlayStation 5 | medium |  |
 | Death Stranding Director's Cut | PlayStation 5 | high |  |
 | Detroit: Become Human | PlayStation 4 | high |  |
@@ -1157,9 +1138,9 @@ Xbox is the shooter console: full Call of Duty and Battlefield runs. Beats Ninte
 
 _Why:_ Switch shooter ports are usually the weakest version.
 
-97 targets — ⬜ 60 · 🕒 1 · ✅ 33 · ➖ 3
+97 targets — ⬜ 54 · 🕒 7 · ✅ 33 · ➖ 3
 
-<details><summary>60 open</summary>
+<details><summary>54 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -1194,9 +1175,7 @@ _Why:_ Switch shooter ports are usually the weakest version.
 | Metro 2033 | Xbox 360 | low | undecided |
 | Metro Exodus | Xbox One | low | undecided |
 | Metro: Last Light | Xbox 360 | low | undecided |
-| Metro Redux | Xbox One | low | undecided |
 | Prey | Xbox 360 | someday | undecided |
-| Prey (2017) | Xbox One | someday | undecided |
 | Rage | Xbox 360 | someday | undecided |
 | Rage 2 | Xbox One | someday | undecided |
 | S.T.A.L.K.E.R. 2: Heart of Chornobyl | Xbox Series X\|S | low | undecided |
@@ -1210,15 +1189,11 @@ _Why:_ Switch shooter ports are usually the weakest version.
 | Tiny Tina's Wonderlands | Xbox One | someday | undecided |
 | Tom Clancy's Ghost Recon Advanced Warfighter | Xbox 360 | someday | undecided |
 | Tom Clancy's Ghost Recon Advanced Warfighter 2 | Xbox 360 | someday | undecided |
-| Tom Clancy's Ghost Recon Breakpoint | Xbox One | someday | undecided |
 | Tom Clancy's Ghost Recon: Future Soldier | Xbox 360 | someday | undecided |
-| Tom Clancy's Ghost Recon Wildlands | Xbox One | someday | undecided |
 | Tom Clancy's Rainbow Six Extraction | Xbox One | someday | undecided |
 | Tom Clancy's Rainbow Six Siege | Xbox One | someday | undecided |
 | Tom Clancy's Rainbow Six Vegas | Xbox 360 | someday | undecided |
 | Tom Clancy's Rainbow Six Vegas 2 | Xbox 360 | someday | undecided |
-| Tom Clancy's The Division | Xbox One | someday | undecided |
-| Tom Clancy's The Division 2 | Xbox One | someday | undecided |
 | Wolfenstein II: The New Colossus | Xbox One | someday | undecided |
 | Wolfenstein: The New Order | Xbox One | someday | undecided |
 | Wolfenstein: The Old Blood | Xbox One | someday | undecided |
@@ -1232,9 +1207,9 @@ Microsoft first-party on Xbox disc: layer 1 = published by Microsoft / Xbox Game
 
 _Why:_ Historical publisher counts — the Sep 2026 Xbox reset doesn't change scope.
 
-64 targets — ⬜ 24 · 🕒 1 · ✅ 38 · ➖ 1
+64 targets — ⬜ 22 · 🕒 3 · ✅ 38 · ➖ 1
 
-<details><summary>24 open</summary>
+<details><summary>22 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -1249,14 +1224,12 @@ _Why:_ Historical publisher counts — the Sep 2026 Xbox reset doesn't change sc
 | Gears of War: Reloaded | PlayStation 5 | someday | watching |
 | Grounded | Xbox Series X\|S | someday | watching |
 | Halo: Campaign Evolved | Xbox Series X\|S | medium | watching |
-| Hellblade: Senua's Sacrifice | Xbox One | someday |  |
 | Indiana Jones and the Great Circle | Xbox Series X\|S | medium |  |
 | Kinect Sports Rivals | Xbox One | someday |  |
 | Microsoft Flight Simulator | Xbox Series X\|S | medium |  |
 | Microsoft Flight Simulator 2024 | Xbox Series X\|S | medium |  |
 | Minecraft: Xbox One Edition | Xbox One | high |  |
 | Pentiment | Xbox Series X\|S | someday | watching |
-| ReCore | Xbox One | low |  |
 | Senua's Saga: Hellblade II | Xbox Series X\|S | medium |  |
 | Skyrim Special Edition | Xbox One | someday |  |
 | South of Midnight | Xbox Series X\|S | someday | undecided |
@@ -1269,9 +1242,9 @@ _Why:_ Historical publisher counts — the Sep 2026 Xbox reset doesn't change sc
 
 Layer 3 (studio owned by Microsoft today, but game published by someone else at release) is optional; Activision/Blizzard pre-Oct-2023 titles follow normal platform rules per game.
 
-25 targets — ⬜ 19 · 🕒 0 · ✅ 2 · ➖ 4
+25 targets — ⬜ 16 · 🕒 3 · ✅ 2 · ➖ 4
 
-<details><summary>19 open</summary>
+<details><summary>16 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -1280,10 +1253,7 @@ Layer 3 (studio owned by Microsoft today, but game published by someone else at 
 | Diablo III: Eternal Collection | Nintendo Switch | someday | undecided |
 | Diablo IV | Xbox Series X\|S | someday | undecided |
 | Dishonored | Xbox 360 | someday | undecided |
-| Dishonored 2 | Xbox One | someday | undecided |
-| Dishonored: Death of the Outsider | Xbox One | someday | undecided |
 | Fallout 4 | Xbox One | someday |  |
-| Hellblade: Senua's Sacrifice | Xbox One | someday |  |
 | Prototype Biohazard Bundle | Xbox One | someday | undecided |
 | Sekiro: Shadows Die Twice | PlayStation 4, Xbox One | someday | undecided |
 | Singularity | Xbox 360 | someday | undecided |
@@ -1319,9 +1289,9 @@ Xbox One / Series discs carry a Disc-to-Digital licence — a reason to buy Micr
 
 _Why:_ One revocable licence per disc; licence moves if the disc is claimed elsewhere → don't lend discs casually.
 
-52 targets — ⬜ 22 · 🕒 1 · ✅ 28 · ➖ 1
+52 targets — ⬜ 16 · 🕒 7 · ✅ 28 · ➖ 1
 
-<details><summary>22 open</summary>
+<details><summary>16 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -1329,21 +1299,15 @@ _Why:_ One revocable licence per disc; licence moves if the disc is claimed else
 | Dead Rising 3 | Xbox One | low |  |
 | Deadpool | Xbox One | high |  |
 | Dishonored | xbox-modern | low |  |
-| Dishonored 2 | xbox-modern | low |  |
 | F1 2021 | Xbox One | low |  |
 | Ghostwire: Tokyo | xbox-modern | low |  |
 | Indiana Jones and the Great Circle | xbox-modern | low |  |
 | Minecraft: Story Mode | Xbox One | low |  |
-| Prey | xbox-modern | low |  |
-| ReCore | Xbox One | low |  |
 | Rock Band 4 | Xbox One | medium |  |
 | Teenage Mutant Ninja Turtles: Mutants in Manhattan | Xbox One | someday |  |
 | The Amazing Spider-Man 2 | Xbox One | someday |  |
 | The Evil Within | xbox-modern | low |  |
 | The Evil Within 2 | xbox-modern | low |  |
-| Tom Clancy's Ghost Recon Breakpoint | Xbox One | someday | undecided |
-| Tom Clancy's Ghost Recon Wildlands | Xbox One | someday | undecided |
-| Tom Clancy's The Division 2 | Xbox One | someday | undecided |
 | Transformers: Devastation | Xbox One | low |  |
 | Transformers: Rise of the Dark Spark | Xbox One | someday |  |
 | Wolfenstein II: The New Colossus | xbox-modern | low |  |
@@ -1497,7 +1461,7 @@ Digital-only games: play on Game Pass first; buy only if keeping/replaying, pref
 
 Third-party series that are "complete only on Xbox" are not collected (Valve set, Dead Space, Max Payne, Splinter Cell, Saints Row …). Exception: Titanfall 2.
 
-23 targets — ⬜ 0 · 🕒 0 · ✅ 0 · ➖ 23
+23 targets — ⬜ 0 · 🕒 2 · ✅ 0 · ➖ 21
 
 ### Xbox-exclusive entry → keep series on Xbox `xbox-exclusive-series-tiebreak` _(suggested, not adopted)_
 

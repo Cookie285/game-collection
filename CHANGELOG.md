@@ -2,6 +2,29 @@
 
 Newest first. Written automatically by `scripts/gamecoll.py import`.
 
+## 2026-10-01 — Orders added from shop screenshots (not in CLZ yet)
+
+Totals after import — Ordered: 19, Owned: 836, Wishlist: 5
+
+**Added** (17)
+- Destruction AllStars — PlayStation 5 · Ordered
+- Days Gone — PlayStation 4 · Ordered
+- Sonic Generations — PlayStation 3 · Ordered
+- Dishonored 2 — Xbox One · Ordered
+- Dishonored: Death of the Outsider — Xbox One · Ordered
+- Hellblade: Senua's Sacrifice — Xbox One · Ordered
+- Metro Redux — Xbox One · Ordered
+- Prey — Xbox One · Ordered
+- ReCore — Xbox One · Ordered
+- Tom Clancy's Ghost Recon Breakpoint — Xbox One · Ordered
+- Tom Clancy's Ghost Recon Wildlands — Xbox One · Ordered
+- Tom Clancy's The Division — Xbox One · Ordered
+- Tom Clancy's The Division 2 — Xbox One · Ordered
+- Tom Clancy's H.A.W.X — Xbox 360 · Ordered
+- Tom Clancy's H.A.W.X 2 — Xbox 360 · Ordered
+- Tom Clancy's Splinter Cell — Xbox · Ordered
+- Tom Clancy's Splinter Cell: Pandora Tomorrow — Xbox · Ordered
+
 ## 2026-10-01 — CLZ import `export_games.csv`
 
 Totals after import — Ordered: 2, Owned: 836, Wishlist: 5

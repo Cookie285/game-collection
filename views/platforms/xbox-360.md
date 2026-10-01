@@ -20,6 +20,13 @@
 | Halo Wars |  |  |  |  |  |  |
 | Perfect Dark Zero |  |  |  |  |  |  |
 
+## Ordered (2)
+
+| Title | Edition | Format | Region | Completeness | Purchased | Notes |
+|---|---|---|---|---|---|---|
+| Tom Clancy's H.A.W.X |  |  |  |  |  |  |
+| Tom Clancy's H.A.W.X 2 |  |  |  |  |  |  |
+
 ## Wishlist (3)
 
 | Title | Edition | Format | Region | Completeness | Purchased | Notes |

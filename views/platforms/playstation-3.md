@@ -110,3 +110,9 @@
 | WET |  |  |  |  |  |  |
 | White Knight Chronicles 2 |  |  |  |  |  | Disc also contains White Knight Chronicles (I) |
 
+## Ordered (1)
+
+| Title | Edition | Format | Region | Completeness | Purchased | Notes |
+|---|---|---|---|---|---|---|
+| Sonic Generations |  |  |  |  |  |  |
+
