@@ -1426,6 +1426,7 @@ plan = "used disc"
 state = "undecided"
 note = "Suggested."
 aliases = ["Prey"]
+exclusive = "multi"
 
 [[target]]
 title = "Tom Clancy's Rainbow Six Vegas"
@@ -1453,6 +1454,7 @@ group = "Shooter console suggestions"
 plan = "used disc"
 state = "undecided"
 note = "Suggested. · free-to-play since Siege X (10 Jun 2025): the base game is free, a disc adds little; online only (checked 2026-09-29)"
+exclusive = "multi"
 
 [[target]]
 title = "Tom Clancy's Rainbow Six Extraction"
@@ -2035,6 +2037,7 @@ group = "Activision / Blizzard"
 plan = "Switch physical (Nintendo-first)"
 state = "undecided"
 note = "Suggested. Also on Switch"
+exclusive = "multi"
 
 [[target]]
 title = "Diablo II: Resurrected"
