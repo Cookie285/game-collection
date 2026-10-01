@@ -35,7 +35,12 @@ Use WebSearch / WebFetch. Prefer publisher / platform-holder pages and establish
 Push Square, Pure Xbox, Eurogamer, VGC, IGN, GamesRadar, Gematsu); for Game-Key Card vs full cart check
 Nintendo Life / retailer listings; for Xbox store status and backward compatibility check the Xbox store / BC list.
 Work the agenda top to bottom; **questions the user asked come first** (see below). At minimum cover every **dated decision**, every **watching / pre-ordered / undecided
-high-priority target**, every **rumour**, the **research questions** and **platform-level news**. Scan the series
+high-priority target**, every **rumour**, the **research questions** and **platform-level news**. **Delistings:** check announced store delistings and server shutdowns — [delistedgames.com](https://delistedgames.com/)
+(Watch List + news, may be blocked for web fetch → use search results), Push Square's monthly "will be delisted or
+disabled" list, Pure Xbox's Xbox delisting round-ups. Match them against the agenda's *Delisting watch* (targets
+planned as digital / store buys: a delisting means buy before the date or switch to disc → add a dated decision),
+against open disc targets and owned games (digital version gone → note "disc is the only way now"), and against
+online-only targets (server shutdown → the disc stops working; note it). Scan the series
 for newly announced entries (quick search per franchise; batch obvious ones). Note the date and URL of every fact.
 
 ### Questions the user asked

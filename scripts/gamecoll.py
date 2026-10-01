@@ -1166,6 +1166,8 @@ def cmd_ask(args) -> None:
 
 
 # ---------------------------------------------------------------- review agenda (what to re-check after an import)
+# plans that end in a store licence ("Disc-to-Digital" is a disc, not a digital buy)
+DIGITAL_PLAN_RX = re.compile(r"(?<!to-)\bdigital|Xbox Store|eShop|PS Store|PlayStation Store|\bSteam\b", re.I)
 RUMOUR_RX = re.compile(r"rumou?r|under consideration|announced\?|\blater\b|no (release )?date|TBA|upcoming|"
                        r"re-test|after GA|not confirmed|unconfirmed|reportedly", re.I)
 
@@ -1225,6 +1227,13 @@ def review_agenda(days_ahead: int = 120, stale_days: int = 30) -> str:
             if p.get("date") and (today - dt.date.fromisoformat(p["date"])).days > stale_days:
                 stale.append(tl(t) + f" — {p['text']}")
     sec(f"Dated facts older than {stale_days} days", stale)
+    # 5b. delisting watch: targets planned as digital / store purchases disappear when delisted
+    sec("Delisting watch — planned digital buys",
+        [tl(t) + f" — {t.get('plan', '')}" for t in by_prio(open_t) if DIGITAL_PLAN_RX.search(t.get("plan", ""))],
+        "Announced delistings (delistedgames.com Watch List + platform news, Push Square's monthly 'delisted or "
+        "disabled' list, Pure Xbox): if one of these is leaving the store, note the date and add a dated decision "
+        "(buy digitally before the date, or switch to disc). Also check delistings of owned or targeted games' "
+        "digital versions (→ disc only) and server shutdowns of online-only targets.")
     # 6. verify flags on important targets
     sec("Marked to verify (high / medium)", [tl(t) + f" — ❓ {t['verify']}" for t in by_prio(open_t)
                                              if t.get("verify") and t.get("priority", "medium") in ("high", "medium")])
