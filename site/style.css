@@ -213,6 +213,15 @@ select {
   max-width: 100%;
 }
 .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+/* multi-select platform picker in the buy plan toolbar: opens in place (full row) — no floating popup on phones */
+details.plat-pick { display: block; }
+details.plat-pick > summary { display: block; width: max-content; list-style: none; cursor: pointer; padding: 9px 30px 9px 12px; border: 1px solid var(--border); border-radius: 12px;
+  background: var(--card-solid); white-space: nowrap; max-width: min(260px, 100%); overflow: hidden; text-overflow: ellipsis;
+  background-image: linear-gradient(45deg, transparent 50%, var(--muted) 50%), linear-gradient(135deg, var(--muted) 50%, transparent 50%);
+  background-position: calc(100% - 16px) 55%, calc(100% - 11px) 55%; background-size: 5px 5px; background-repeat: no-repeat; }
+details.plat-pick > summary::-webkit-details-marker { display: none; }
+details.plat-pick[open] { flex-basis: 100%; }
+details.plat-pick[open] > .chips { margin-top: 8px; width: 100%; }
 .chip {
   padding: 7px 12px; border-radius: 999px; border: 1px solid var(--border); background: var(--card);
   cursor: pointer; font-size: 13px; font-weight: 600; color: var(--muted); transition: .15s; white-space: nowrap;

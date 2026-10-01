@@ -443,7 +443,9 @@ function pagePlan(page, params) {
       </div>
       <div class="chips" id="prios">${Object.entries(PRIORITY).map(([k, v]) => `<button class="chip" data-p="${k}" style="--c:${v.color}">${v.label}</button>`).join("")}</div>
       <select id="fam" aria-label="Family"><option value="">All systems</option>${famKeys.map((f) => `<option value="${f}">${f === "other" ? "Mixed / any" : fam(f).label}</option>`).join("")}</select>
-      <select id="plat" aria-label="Platform"><option value="">All platforms</option>${platKeys.map((p) => `<option>${esc(p)}</option>`).join("")}</select>
+      <details class="plat-pick" id="platPick"><summary id="platSum">All platforms</summary>
+        <div class="chips" id="plats">${platKeys.map((p) => `<button class="chip" data-p="${esc(p)}" style="--c:${fam(platFamily(p)).color}">${esc(shortPlat(p))}</button>`).join("")}
+          <button class="chip" data-p="">Clear</button></div></details>
       <select id="state" aria-label="State"><option value="">Any state</option>${states.map((s) => `<option>${esc(s)}</option>`).join("")}</select>
       <select id="group" aria-label="Group"><option value="">All groups</option>${groups.map((g) => `<option>${esc(g)}</option>`).join("")}</select>
       <select id="rule" aria-label="Rule"><option value="">Any rule</option>${ruleOptions()}</select>
@@ -454,8 +456,15 @@ function pagePlan(page, params) {
     </div>
     <div id="ruleNote"></div>
     <div id="results"></div>`;
-  if (!platKeys.includes(S.plat)) S.plat = "";
-  ["fam", "plat", "state", "group", "rule", "nf", "dec", "by"].forEach((k) => ($("#" + k, page).value = S[k]));
+  // several consoles at once, e.g. PS5 + Series X|S (comma-separated in the URL)
+  let plats = S.plat.split(",").filter((p) => platKeys.includes(p));
+  const syncPlats = () => {
+    S.plat = plats.join(",");
+    $$("#plats .chip[data-p]", page).forEach((c) => c.classList.toggle("on", plats.includes(c.dataset.p)));
+    $("#platSum", page).textContent = plats.length ? plats.map(shortPlat).join(" + ") : "All platforms";
+  };
+  syncPlats();
+  ["fam", "state", "group", "rule", "nf", "dec", "by"].forEach((k) => ($("#" + k, page).value = S[k]));
 
   const update = () => {
     const p = new URLSearchParams();
@@ -466,7 +475,7 @@ function pagePlan(page, params) {
     const q = norm(S.q);
     const list = D.targets.filter((t) => (!q || t._n.includes(q)) && (!S.st || t.status === S.st) &&
       (!S.prio || t.priority === S.prio) && (!S.state || t.state === S.state) && (!S.fam || t.family === S.fam) &&
-      (!S.plat || onPlat(t, S.plat)) &&
+      (!plats.length || plats.some((p) => onPlat(t, p))) &&
       (!S.group || (t.group || "Other") === S.group) && (!S.rule || t.rules.includes(S.rule)) &&
       (!S.dec || D.decisionsById.get(S.dec)?.targets.includes(t)) && (!S.nf || NOTE_FILTERS[S.nf]?.test(t)))
       .sort((a, b) => (PRIORITY[a.priority]?.rank ?? 9) - (PRIORITY[b.priority]?.rank ?? 9) || a.title.localeCompare(b.title));
@@ -517,13 +526,19 @@ function pagePlan(page, params) {
   $("#q", page).addEventListener("input", (e) => { S.q = e.target.value; update(); });
   $("#sts", page).addEventListener("click", (e) => { const c = e.target.closest(".chip"); if (c) { S.st = c.dataset.s; update(); } });
   $("#prios", page).addEventListener("click", (e) => { const c = e.target.closest(".chip"); if (c) { S.prio = S.prio === c.dataset.p ? "" : c.dataset.p; update(); } });
-  ["fam", "plat", "state", "group", "rule", "nf", "dec", "by"].forEach((k) => $("#" + k, page).addEventListener("change", (e) => {
+  ["fam", "state", "group", "rule", "nf", "dec", "by"].forEach((k) => $("#" + k, page).addEventListener("change", (e) => {
     S[k] = e.target.value;
-    if (k === "plat" && S.plat) S.fam = ""; // a console implies its family
-    if (k === "fam" && S.plat && S.fam) S.plat = "";
-    $("#fam", page).value = S.fam; $("#plat", page).value = S.plat;
+    if (k === "fam" && S.fam && plats.length) { plats = []; syncPlats(); } // a family replaces the console pick
     update();
   }));
+  $("#plats", page).addEventListener("click", (e) => {
+    const c = e.target.closest(".chip"); if (!c) return;
+    const p = c.dataset.p;
+    plats = !p ? [] : plats.includes(p) ? plats.filter((x) => x !== p) : [...plats, p];
+    if (plats.length && S.fam) { S.fam = ""; $("#fam", page).value = ""; } // consoles replace the family filter
+    syncPlats();
+    update();
+  });
   update();
 }
 
