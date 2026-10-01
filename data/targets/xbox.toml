@@ -1425,6 +1425,7 @@ group = "Shooter console suggestions"
 plan = "used disc"
 state = "undecided"
 note = "Suggested."
+aliases = ["Prey"]
 
 [[target]]
 title = "Tom Clancy's Rainbow Six Vegas"

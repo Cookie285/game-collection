@@ -57,3 +57,9 @@
 | Wolfenstein: The Two Pack |  |  |  |  |  | Covers Wolfenstein: The New Order + The Old Blood |
 | Wolfenstein: Youngblood |  |  |  |  |  |  |
 
+## Ordered (1)
+
+| Title | Edition | Format | Region | Completeness | Purchased | Notes |
+|---|---|---|---|---|---|---|
+| Days Gone |  |  |  |  |  |  |
+

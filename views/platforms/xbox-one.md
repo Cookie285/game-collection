@@ -55,3 +55,18 @@
 | Zoo Tycoon |  |  |  |  |  |  |
 | Zoo Tycoon: Ultimate Animal Collection |  |  |  |  |  |  |
 
+## Ordered (10)
+
+| Title | Edition | Format | Region | Completeness | Purchased | Notes |
+|---|---|---|---|---|---|---|
+| Dishonored 2 |  |  |  |  |  |  |
+| Dishonored: Death of the Outsider |  |  |  |  |  |  |
+| Hellblade: Senua's Sacrifice |  |  |  |  |  |  |
+| Metro Redux |  |  |  |  |  |  |
+| Prey |  |  |  |  |  |  |
+| ReCore |  |  |  |  |  |  |
+| Tom Clancy's Ghost Recon Breakpoint |  |  |  |  |  |  |
+| Tom Clancy's Ghost Recon Wildlands |  |  |  |  |  |  |
+| Tom Clancy's The Division |  |  |  |  |  |  |
+| Tom Clancy's The Division 2 |  |  |  |  |  |  |
+

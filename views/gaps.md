@@ -6,7 +6,7 @@ Curated in [`data/targets/`](../data/targets/). A target flips to ✅ automatica
 
 Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 
-⬜ 412 open · 🕒 3 ordered · ✅ 80 done · ➖ 100 skip
+⬜ 399 open · 🕒 18 ordered · ✅ 80 done · ➖ 98 skip
 
 📀 = same title already owned on another platform (one copy per game!)
 
@@ -29,7 +29,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Silent Hill: Townfall | PlayStation 5 | medium | PS5 gaps – Multiplatform | undecided | PS5 disc; new or used | Suggested (review 2026-09-28): new Silent Hill (tracked series), out 24 Sep 2026 on PS5 + PC, physical PS5 edition; no Xbox / Switch version. · EU PS5 disc at retail (only the Standard Edition is physical; Deluxe is digital only); Konami: timed PS5 console exclusive (at least six months), no Xbox / Switch 2 version announced (checked 2026-10-01) |
 | Tomb Raider: Legacy of Atlantis | PlayStation 5 | medium | PS5 gaps – Multiplatform | watching | PS5 disc (upcoming, 12 Feb 2027) | Suggested (review 2026-09-28): remake of the first Tomb Raider (Crystal Dynamics / Flying Wild Hog), PS5, Xbox Series, PC. Switch version not announced. · Still 12 Feb 2027 (Deluxe: 48 h early access from 10 Feb). Switch 2 version added for the same day — physical is a Game-Key Card; PS5 / Xbox physical editions at retail (checked 2026-10-01) |
 
-## 🎯 High priority (42)
+## 🎯 High priority (41)
 
 | Title | Platform | Prio | Group | State | Plan / where | Owned on / note |
 |---|---|---|---|---|---|---|
@@ -57,7 +57,6 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Star Wars Jedi: Fallen Order | PlayStation 4 | high | PS4 gaps – Multiplatform |  | PS4 disc; new or used, only at a really good price | owned on Steam (STAR WARS Jedi: Fallen Order™) – only if very cheap, new or used · Prequel to Survivor. · Free PS5 upgrade was digital-only |
 | The Legend of Heroes: Trails of Cold Steel | PlayStation 4 | high | PS4 gaps – Multiplatform |  | PS4 disc; new or used, only at a really good price | ❓ marked '?' in the checklist – verify before buying · Decisive Edition · owned on Steam (The Legend of Heroes: Trails of Cold Steel) – only if very cheap, new or used · Fills the Trails gap between Azure and Daybreak (own on Switch). · Verify no Switch release of CS I/II · EU PS4 disc exists: Marvelous Europe, 29 Mar 2019 (Decisive Edition) (checked 2026-09-29) |
 | The Legend of Heroes: Trails of Cold Steel II | PlayStation 4 | high | PS4 gaps – Multiplatform |  | PS4 disc; new or used, only at a really good price | ❓ marked '?' in the checklist – verify before buying · Relentless Edition · owned on Steam (The Legend of Heroes: Trails of Cold Steel II) – only if very cheap, new or used · Cold Steel III/IV → Switch. · Verify no Switch release of CS I/II · EU PS4 disc exists: Marvelous Europe, 7 Jun 2019 (Relentless Edition) (checked 2026-09-29) |
-| Days Gone | PlayStation 4 | high | PS4 gaps – Sony 1st-party |  | PS4 disc; used preferred (price limit not set yet) | Remastered PS5 is digital-only – PS4 disc + paid upgrade is the only physical route. · Very cheap used |
 | God of War | PlayStation 4 | high | PS4 gaps – Sony 1st-party |  | PS4 disc; new or used, only at a really good price | 2018 · owned on Steam (God of War) – only if very cheap, new or used · Missing link between GoW III/Ascension and Ragnarök (owned). · Very cheap used |
 | Gravity Rush 2 | PlayStation 4 | high | PS4 gaps – Sony 1st-party |  | PS4 disc; used preferred (price limit not set yet) | Exclusive, never ported. |
 | inFamous Second Son | PlayStation 4 | high | PS4 gaps – Sony 1st-party |  | PS4 disc; used preferred (price limit not set yet) | No inFamous owned. · Very cheap used |
@@ -76,7 +75,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Sonic & All-Stars Racing Transformed | Xbox 360 | high | Xbox 360 BC |  | disc (delisted – not buyable in store) | Xbox Store: DISC ONLY (delisted); C – multiplatform, no modern version |
 | Spec Ops: The Line | Xbox 360 | high | Xbox 360 BC |  | disc (delisted – not buyable in store) | Xbox Store: DISC ONLY (delisted 2024); C – multiplatform, no modern version; Disc is the only legal copy on any platform |
 
-## ⬜ Open by group (412)
+## ⬜ Open by group (399)
 
 ### Activision / Blizzard (10)
 
@@ -99,18 +98,16 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 |---|---|---|---|---|---|
 | Ninja Gaiden 3: Razor's Edge | Xbox 360 | someday | undecided |  | Suggested with the original Ninja Gaiden run (Black, II are on the BC tab) |
 
-### Bethesda / Remedy extras (6)
+### Bethesda / Remedy extras (4)
 
 | Title | Platform | Prio | State | Plan / where | Owned on / note |
 |---|---|---|---|---|---|
 | Control | Xbox One | someday | undecided | used disc | 📀 owned on PlayStation 5 · Suggested (scope layer 3, pre-acquisition). Remedy – fits alongside Quantum Break |
 | Dishonored | Xbox 360 | someday | undecided | used disc | Suggested (scope layer 3, pre-acquisition). Arkane |
-| Dishonored 2 | Xbox One | someday | undecided | used disc | Suggested (scope layer 3, pre-acquisition). Arkane |
-| Dishonored: Death of the Outsider | Xbox One | someday | undecided | used disc | Suggested (scope layer 3, pre-acquisition). Arkane |
 | The Evil Within | Xbox One | someday | undecided | used disc | Suggested (scope layer 3, pre-acquisition). Tango – 360 disc also exists |
 | The Evil Within 2 | Xbox One | someday | undecided | used disc | Suggested (scope layer 3, pre-acquisition). Tango |
 
-### Buy elsewhere (not PlayStation) (57)
+### Buy elsewhere (not PlayStation) (55)
 
 | Title | Platform | Prio | State | Plan / where | Owned on / note |
 |---|---|---|---|---|---|
@@ -131,7 +128,6 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Disgaea 4 Complete+ | Nintendo Switch | low |  | Switch cart | Buy on Switch instead of PlayStation – Switch physical (Disgaea series) |
 | Disgaea 5 Complete | Nintendo Switch | low |  | Switch cart | Buy on Switch instead of PlayStation – Switch physical (Disgaea series) |
 | Dishonored | xbox-modern | low |  | Xbox disc (Disc-to-Digital) | Buy on Xbox instead of PlayStation – Xbox disc = Disc-to-Digital licence (your MS 1st-party angle) (Microsoft/Bethesda 1st-party) |
-| Dishonored 2 | xbox-modern | low |  | Xbox disc (Disc-to-Digital) | Buy on Xbox instead of PlayStation – Xbox disc = Disc-to-Digital licence (your MS 1st-party angle) (Microsoft/Bethesda 1st-party) |
 | Dragon Ball Z: Kakarot | Nintendo Switch | low |  | Switch cart | Buy on Switch instead of PlayStation – Switch 1 physical (Bandai Namco) |
 | Dragon's Dogma: Dark Arisen | Nintendo Switch | low |  | Switch cart | Buy on Switch instead of PlayStation – Switch 1 physical (Dragon's Dogma series) · owned on Steam (Dragon's Dogma: Dark Arisen) – only if very cheap |
 | Fatal Frame II: Crimson Butterfly Remake | Nintendo Switch 2 | low |  | Switch 2 full cart | ❓ marked '?' in the checklist – verify · Buy on Switch 2 instead of PlayStation – Remake – check cart vs Game-Key Card before buying (Fatal Frame series) |
@@ -153,7 +149,6 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Onimusha: Warlords | Nintendo Switch | low |  | Switch cart | Buy on Switch instead of PlayStation – Switch physical (Capcom classics) |
 | Persona 5 Strikers | Nintendo Switch | low |  | Switch cart | Buy on Switch instead of PlayStation – Switch physical (Persona series) · owned on Steam (Persona® 5 Strikers) – only if very cheap |
 | Persona 5 Tactica | Nintendo Switch | low |  | Switch cart | Buy on Switch instead of PlayStation – Switch physical (Persona series) |
-| Prey | xbox-modern | low |  | Xbox disc (Disc-to-Digital) | Buy on Xbox instead of PlayStation – Xbox disc = Disc-to-Digital licence (your MS 1st-party angle) (Microsoft/Bethesda 1st-party) |
 | Sifu | Nintendo Switch | low |  | Switch cart | ❓ marked '?' in the checklist – verify · Buy on Switch instead of PlayStation – Switch 1 physical (Indie action) · owned on Steam (Sifu) – only if very cheap |
 | Spyro Reignited Trilogy | Nintendo Switch | low |  | Switch cart | Buy on Switch instead of PlayStation – Switch physical (PS1 mascots) · owned on Steam (Spyro™ Reignited Trilogy) – only if very cheap |
 | Stray | Nintendo Switch | low |  | Switch cart | ❓ marked '?' in the checklist – verify · Buy on Switch instead of PlayStation – Switch 1 physical (Indie action) · owned on Steam (Stray) – only if very cheap |
@@ -184,12 +179,11 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | The Amazing Spider-Man 2 | Xbox One | someday |  | used disc, e.g. rebuy.de | D2D (community, 2026-09-09): Reported NOT working; Activision licensed – hit-or-miss. |
 | Transformers: Rise of the Dark Spark | Xbox One | someday |  | used disc, e.g. rebuy.de | D2D (community, 2026-09-09): Reported NOT working; Activision licensed – hit-or-miss. |
 
-### Checklist (Disc-to-Digital) + First-party (2)
+### Checklist (Disc-to-Digital) + First-party (1)
 
 | Title | Platform | Prio | State | Plan / where | Owned on / note |
 |---|---|---|---|---|---|
 | Dead Rising 3 | Xbox One | low |  | used disc, e.g. rebuy.de | Apocalypse Edition preferred; scope layer 1 (Capcom Vancouver (MS-published)) |
-| ReCore | Xbox One | low |  | used disc, e.g. rebuy.de | Definitive Edition preferred; scope layer 1 (Armature / Comcept (MS-published)) |
 
 ### Checklist (Disc-to-Digital) + Xbox 360 BC (1)
 
@@ -208,7 +202,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | The Elder Scrolls III: Morrowind | Xbox | someday | undecided | disc – Game of the Year Edition | Backward compatible |
 | The Elder Scrolls IV: Oblivion | Xbox 360 | someday | undecided | disc – Game of the Year Edition | Backward compatible; Oblivion Remastered owned on Switch 2 |
 
-### First-party (16)
+### First-party (15)
 
 | Title | Platform | Prio | State | Plan / where | Owned on / note |
 |---|---|---|---|---|---|
@@ -224,7 +218,6 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Avowed | Xbox Series X\|S | someday | undecided | Game Pass first; if keeping, sealed code-in-box only if ≤ Xbox Store sale price, else Xbox Store (Play Anywhere) | scope layer X (Obsidian); Xbox box is code-in-box (no disc, no D2D); no PS5 disc exists – out of disc scope |
 | Gears of War: Reloaded | PlayStation 5 | someday | watching | PS5 disc when very cheap | scope layer X (Gears / The Coalition); No Xbox disc exists (PS5 disc only); campaign already covered by Gears of War: Ultimate Edition |
 | Grounded | Xbox Series X\|S | someday | watching | eBay saved search (Limited Run pressing) – buy only at a good price | scope layer 1 (Obsidian); Limited Run exclusive, expensive on eBay |
-| Hellblade: Senua's Sacrifice | Xbox One | someday |  | used disc, e.g. rebuy.de | scope layer 3 (Ninja Theory (self-published)); Pre-acquisition; studio at risk of closure (Sep 2026) |
 | Kinect Sports Rivals | Xbox One | someday |  | used disc | scope layer 1 (Rare); Kinect-only; unplayable on Series X |
 | Pentiment | Xbox Series X\|S | someday | watching | eBay saved search (Limited Run pressing) – buy only at a good price | scope layer 1 (Obsidian); Limited Run exclusive, expensive on eBay |
 | South of Midnight | Xbox Series X\|S | someday | undecided | Game Pass first; if keeping, buy on Xbox Store (Play Anywhere) on sale | scope layer X (Compulsion); No physical release on any platform – out of disc scope |
@@ -426,11 +419,10 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Yakuza Kiwami | PlayStation 4 | low |  | PS4 disc; new or used, only at a really good price | owned on Steam (Yakuza Kiwami (Legacy)) – only if very cheap, new or used · RGG series. · Other versions: Switch/Switch 2 = Game-Key Card |
 | Yakuza Kiwami 2 | PlayStation 4 | low |  | PS4 disc; new or used, only at a really good price | owned on Steam (Yakuza Kiwami 2) – only if very cheap, new or used · RGG series. · Other versions: Switch 2 = Game-Key Card |
 
-### PS4 gaps – Sony 1st-party (12)
+### PS4 gaps – Sony 1st-party (11)
 
 | Title | Platform | Prio | State | Plan / where | Owned on / note |
 |---|---|---|---|---|---|
-| Days Gone | PlayStation 4 | high |  | PS4 disc; used preferred (price limit not set yet) | Remastered PS5 is digital-only – PS4 disc + paid upgrade is the only physical route. · Very cheap used |
 | God of War | PlayStation 4 | high |  | PS4 disc; new or used, only at a really good price | 2018 · owned on Steam (God of War) – only if very cheap, new or used · Missing link between GoW III/Ascension and Ragnarök (owned). · Very cheap used |
 | Gravity Rush 2 | PlayStation 4 | high |  | PS4 disc; used preferred (price limit not set yet) | Exclusive, never ported. |
 | inFamous Second Son | PlayStation 4 | high |  | PS4 disc; used preferred (price limit not set yet) | No inFamous owned. · Very cheap used |
@@ -535,14 +527,13 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 |---|---|---|---|---|---|
 | State of Decay 3 | Xbox Series X\|S | someday | undecided |  | Undead Labs now independent; no longer first-party (Sep 2026) – series-on-one-platform rule would still put it on Xbox · Out in 2027 on Xbox Series, PS5 and Steam; Game Pass day one (checked 2026-09-28) · Still 2027 on Xbox Series, PS5, PC; no physical format announced (checked 2026-10-01) |
 
-### Shooter console suggestions (59)
+### Shooter console suggestions (53)
 
 | Title | Platform | Prio | State | Plan / where | Owned on / note |
 |---|---|---|---|---|---|
 | Metro 2033 | Xbox 360 | low | undecided | used disc | I confirmed Metro has discs. |
 | Metro Exodus | Xbox One | low | undecided | used disc | I confirmed Metro has discs. Series X disc via Complete Edition |
 | Metro: Last Light | Xbox 360 | low | undecided | used disc | I confirmed Metro has discs. |
-| Metro Redux | Xbox One | low | undecided | used disc | I confirmed Metro has discs. Contains Metro 2033 + Last Light remasters |
 | S.T.A.L.K.E.R. 2: Heart of Chornobyl | Xbox Series X\|S | low | undecided | used disc | Xbox Series X disc exists (Deep Silver retail/SteelBook editions); PC editions are codes; a PS5 Day One disc also exists. Trilogy owned on Switch (JP) |
 | Borderlands | Xbox 360 | someday | undecided | used disc | Suggested. |
 | Borderlands 3 | Xbox One | someday | undecided | used disc | Suggested. |
@@ -572,7 +563,6 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Medal of Honor: Airborne | Xbox 360 | someday | undecided | used disc | Suggested. |
 | Medal of Honor: Warfighter | Xbox 360 | someday | undecided | used disc | ❓ BC status · Suggested |
 | Prey | Xbox 360 | someday | undecided | used disc | Suggested. 2006 game; 360/PC only |
-| Prey (2017) | Xbox One | someday | undecided | used disc | Suggested. |
 | Rage | Xbox 360 | someday | undecided | used disc | Suggested. |
 | Rage 2 | Xbox One | someday | undecided | used disc | Suggested. |
 | Sniper Elite 3 | Xbox One | someday | undecided | used disc | Suggested. |
@@ -585,15 +575,11 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Tiny Tina's Wonderlands | Xbox One | someday | undecided | used disc | Suggested. |
 | Tom Clancy's Ghost Recon Advanced Warfighter | Xbox 360 | someday | undecided | used disc | Suggested. · Xbox 360 version backward compatible on Xbox One (2018); store status not checked (checked 2026-09-29) |
 | Tom Clancy's Ghost Recon Advanced Warfighter 2 | Xbox 360 | someday | undecided | used disc | Suggested. |
-| Tom Clancy's Ghost Recon Breakpoint | Xbox One | someday | undecided | used disc | Suggested. · always online — Ubisoft ruled out an offline mode; reported working with Disc-to-Digital (checked 2026-09-29) |
 | Tom Clancy's Ghost Recon: Future Soldier | Xbox 360 | someday | undecided | used disc | Suggested. · Xbox 360 game is backward compatible on Xbox One / Series; store status not checked (checked 2026-09-29) |
-| Tom Clancy's Ghost Recon Wildlands | Xbox One | someday | undecided | used disc | Suggested. · single player works fully offline (Ubisoft); reported working with Disc-to-Digital (checked 2026-09-29) |
 | Tom Clancy's Rainbow Six Extraction | Xbox One | someday | undecided | used disc | Suggested. |
 | Tom Clancy's Rainbow Six Siege | Xbox One | someday | undecided | used disc | Suggested. · free-to-play since Siege X (10 Jun 2025): the base game is free, a disc adds little; online only (checked 2026-09-29) |
 | Tom Clancy's Rainbow Six Vegas | Xbox 360 | someday | undecided | used disc | 📀 owned on PlayStation 3 · Suggested. Owned on PS3 · Xbox 360 game is backward compatible on Xbox One / Series; store status not checked (checked 2026-09-29) |
 | Tom Clancy's Rainbow Six Vegas 2 | Xbox 360 | someday | undecided | used disc | 📀 owned on PlayStation 3 · Suggested. Owned on PS3 · Xbox 360 game is backward compatible on Xbox One / Series; store status not checked (checked 2026-09-29) |
-| Tom Clancy's The Division | Xbox One | someday | undecided | used disc | Suggested (review 2026-09-29, question tom-clancy-xbox): always online (needs Ubisoft servers) (checked 2026-09-29) |
-| Tom Clancy's The Division 2 | Xbox One | someday | undecided | used disc | Suggested (review 2026-09-29, question tom-clancy-xbox): always online (needs Ubisoft servers). Reported working with Disc-to-Digital (checked 2026-09-29) |
 | Wolfenstein II: The New Colossus | Xbox One | someday | undecided | used disc | Suggested. Also on Switch |
 | Wolfenstein: The New Order | Xbox One | someday | undecided | used disc | Suggested. |
 | Wolfenstein: The Old Blood | Xbox One | someday | undecided | used disc | Suggested. |
@@ -645,13 +631,28 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Too Human | Xbox 360 | someday |  | digital (free) | Xbox Store: Digital (Xbox Store); A – first-party, no modern version; Free digitally on Xbox – check Full Library before buying |
 | Vanquish | Xbox 360 | someday |  | digital, Xbox Store sale (no key sellers for 360 titles) | Xbox Store: Digital (Xbox Store); C – multiplatform, no modern version |
 
-## 🕒 Ordered / pre-ordered (3)
+## 🕒 Ordered / pre-ordered (18)
 
 | Title | Platform | Prio | Group | State | Plan / where | Owned on / note |
 |---|---|---|---|---|---|---|
 | Gears of War: E-Day | Xbox Series X\|S | high | First-party |  | Pre-ordered (Xbox) | scope layer 1 (Gears / The Coalition) · Releases 6 Oct 2026 (Premium early access from 1 Oct) (checked 2026-09-28) · Still 6 Oct 2026 (Premium / Collector's early access 1 Oct). Xbox Series X disc, content download required; supports Disc-to-Digital + Play Anywhere. PS5 version cancelled — Xbox console exclusive, 'not timed' (checked 2026-10-01) |
+| Days Gone | PlayStation 4 | high | PS4 gaps – Sony 1st-party |  | PS4 disc; used preferred (price limit not set yet) | Remastered PS5 is digital-only – PS4 disc + paid upgrade is the only physical route. · Very cheap used |
 | Fable | PlayStation 5 | high | PS5 gaps – Microsoft 1st-party |  | PS5 disc (pre-ordered) | Pre-ordered on PS5 (Xbox disc only if cheap later). · Already pre-ordered · Delayed to 23 Feb 2027 (PS5, Xbox Series, PC) (checked 2026-09-28) · Still 23 Feb 2027 (checked 2026-10-01) |
 | Call of Duty: Modern Warfare 4 | Xbox Series X\|S | high | Series runs – Call of Duty |  | Xbox Series X disc (pre-order candidate) | Suggested (review 2026-09-28): next entry of the complete Xbox CoD run — Infinity Ward, 23 Oct 2026. Also on PS5, PS4/Xbox One and Switch 2; the shooter rule keeps it on Xbox. · Still 23 Oct 2026. Xbox Series X standard edition = disc, content download required (Vault Edition digital only). Switch 2 retail = code-in-a-box (checked 2026-10-01) |
+| Dishonored 2 | xbox-modern | low | Buy elsewhere (not PlayStation) |  | Xbox disc (Disc-to-Digital) | Buy on Xbox instead of PlayStation – Xbox disc = Disc-to-Digital licence (your MS 1st-party angle) (Microsoft/Bethesda 1st-party) |
+| Prey | xbox-modern | low | Buy elsewhere (not PlayStation) |  | Xbox disc (Disc-to-Digital) | Buy on Xbox instead of PlayStation – Xbox disc = Disc-to-Digital licence (your MS 1st-party angle) (Microsoft/Bethesda 1st-party) |
+| ReCore | Xbox One | low | Checklist (Disc-to-Digital) + First-party |  | used disc, e.g. rebuy.de | Definitive Edition preferred; scope layer 1 (Armature / Comcept (MS-published)) |
+| Metro Redux | Xbox One | low | Shooter console suggestions |  | used disc | I confirmed Metro has discs. Contains Metro 2033 + Last Light remasters |
+| Dishonored 2 | Xbox One | someday | Bethesda / Remedy extras |  | used disc | Suggested (scope layer 3, pre-acquisition). Arkane |
+| Dishonored: Death of the Outsider | Xbox One | someday | Bethesda / Remedy extras |  | used disc | Suggested (scope layer 3, pre-acquisition). Arkane |
+| Hellblade: Senua's Sacrifice | Xbox One | someday | First-party |  | used disc, e.g. rebuy.de | scope layer 3 (Ninja Theory (self-published)); Pre-acquisition; studio at risk of closure (Sep 2026) |
+| Prey (2017) | Xbox One | someday | Shooter console suggestions |  | used disc | Suggested. |
+| Tom Clancy's Ghost Recon Breakpoint | Xbox One | someday | Shooter console suggestions |  | used disc | Suggested. · always online — Ubisoft ruled out an offline mode; reported working with Disc-to-Digital (checked 2026-09-29) |
+| Tom Clancy's Ghost Recon Wildlands | Xbox One | someday | Shooter console suggestions |  | used disc | Suggested. · single player works fully offline (Ubisoft); reported working with Disc-to-Digital (checked 2026-09-29) |
+| Tom Clancy's The Division | Xbox One | someday | Shooter console suggestions |  | used disc | Suggested (review 2026-09-29, question tom-clancy-xbox): always online (needs Ubisoft servers) (checked 2026-09-29) |
+| Tom Clancy's The Division 2 | Xbox One | someday | Shooter console suggestions |  | used disc | Suggested (review 2026-09-29, question tom-clancy-xbox): always online (needs Ubisoft servers). Reported working with Disc-to-Digital (checked 2026-09-29) |
+| Tom Clancy's Splinter Cell | Xbox | someday | Third-party Xbox series (not interested) |  |  | Said 'doesn't sound interesting from series perspective' |
+| Tom Clancy's Splinter Cell: Pandora Tomorrow | Xbox | someday | Third-party Xbox series (not interested) |  |  | Said 'doesn't sound interesting from series perspective' |
 
 ## ✅ Done (80)
 
@@ -742,7 +743,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 
 </details>
 
-## ➖ Skipped (100)
+## ➖ Skipped (98)
 
 <details><summary>show</summary>
 
@@ -828,12 +829,10 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Saints Row IV: Re-Elected | Xbox One | someday | Third-party Xbox series (not interested) |  |  | Said 'doesn't sound interesting from series perspective' |
 | Saints Row: The Third Remastered | Xbox One | someday | Third-party Xbox series (not interested) |  |  | Said 'doesn't sound interesting from series perspective' |
 | The Orange Box | Xbox 360 | someday | Third-party Xbox series (not interested) |  |  | Said 'doesn't sound interesting from series perspective' |
-| Tom Clancy's Splinter Cell | Xbox | someday | Third-party Xbox series (not interested) |  |  | Said 'doesn't sound interesting from series perspective' |
 | Tom Clancy's Splinter Cell: Blacklist | Xbox 360 | someday | Third-party Xbox series (not interested) |  |  | 📀 owned on PlayStation 3 · Said 'doesn't sound interesting from series perspective' |
 | Tom Clancy's Splinter Cell: Chaos Theory | Xbox | someday | Third-party Xbox series (not interested) |  |  | Said 'doesn't sound interesting from series perspective' |
 | Tom Clancy's Splinter Cell: Conviction | Xbox 360 | someday | Third-party Xbox series (not interested) |  |  | Said 'doesn't sound interesting from series perspective' |
 | Tom Clancy's Splinter Cell: Double Agent | Xbox 360 | someday | Third-party Xbox series (not interested) |  |  | Said 'doesn't sound interesting from series perspective' |
-| Tom Clancy's Splinter Cell: Pandora Tomorrow | Xbox | someday | Third-party Xbox series (not interested) |  |  | Said 'doesn't sound interesting from series perspective' |
 | Banjo-Kazooie: Nuts & Bolts | Xbox 360 | someday | Xbox 360 BC |  |  | Xbox Store: Digital (Xbox Store); A – first-party, no modern version; Covered by Rare Replay (owned digitally) |
 | Forza Motorsport 2 | Xbox 360 | someday | Xbox 360 BC |  |  | Not backward compatible – shelf only; not collecting |
 | Forza Motorsport 3 | Xbox 360 | someday | Xbox 360 BC |  |  | Not backward compatible – shelf only; not collecting |

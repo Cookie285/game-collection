@@ -69,9 +69,10 @@
 | Venus Vacation Prism: Dead Or Alive Xtreme |  |  |  |  |  |  |
 | WUCHANG: Fallen Feathers |  |  |  |  |  |  |
 
-## Ordered (1)
+## Ordered (2)
 
 | Title | Edition | Format | Region | Completeness | Purchased | Notes |
 |---|---|---|---|---|---|---|
+| Destruction AllStars |  |  |  |  |  |  |
 | Fable |  |  |  |  |  | Pre-ordered on PS5; Xbox disc only if cheap later |
 
