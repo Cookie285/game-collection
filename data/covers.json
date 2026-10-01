@@ -3629,6 +3629,16 @@
 "checked": "2026-09-28",
 "v": 3
 },
+"final fantasy resonance|Nintendo Switch": {
+"title": "Final Fantasy Resonance",
+"platform": "Nintendo Switch",
+"image": "coc7q4",
+"igdb_id": 405454,
+"name": "Final Fantasy Resonance",
+"score": 7,
+"checked": "2026-10-01",
+"v": 3
+},
 "final fantasy tactics advance|Game Boy Advance": {
 "title": "Final Fantasy Tactics Advance",
 "platform": "Game Boy Advance",
@@ -7719,6 +7729,16 @@
 "checked": "2026-09-28",
 "v": 3
 },
+"persona 6|Nintendo Switch 2": {
+"title": "Persona 6",
+"platform": "Nintendo Switch 2",
+"image": "coc7cm",
+"igdb_id": 405088,
+"name": "Persona 6",
+"score": 7,
+"checked": "2026-10-01",
+"v": 3
+},
 "phantom blade zero|PlayStation 5": {
 "title": "Phantom Blade Zero",
 "platform": "PlayStation 5",
@@ -10447,6 +10467,16 @@
 "name": "Tales of Berseria Remastered",
 "score": 7,
 "checked": "2026-09-28",
+"v": 3
+},
+"tales of eternia remastered|Nintendo Switch": {
+"title": "Tales of Eternia Remastered",
+"platform": "Nintendo Switch",
+"image": "coc7n7",
+"igdb_id": 405458,
+"name": "Tales of Eternia: Remastered",
+"score": 7,
+"checked": "2026-10-01",
 "v": 3
 },
 "tales of graces f remastered|Nintendo Switch": {
