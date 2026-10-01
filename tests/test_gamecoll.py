@@ -100,6 +100,16 @@ class AskQuestion(unittest.TestCase):
                 g.cmd_ask(NS(**{**vars(args), "issue": 13, "area": "moon"}))
 
 
+class DelistingWatch(unittest.TestCase):
+    def test_digital_plans_only(self):
+        rx = g.DIGITAL_PLAN_RX
+        for plan in ["digital, Xbox Store sale (no key sellers for 360 titles)", "Steam sale only (no physical)",
+                     "disc if delisted, else digital Xbox Store sale", "digital (free)"]:
+            self.assertTrue(rx.search(plan), plan)
+        for plan in ["Xbox disc (Disc-to-Digital)", "used disc, e.g. rebuy.de", "PS5 disc; used preferred", ""]:
+            self.assertFalse(rx.search(plan), plan)
+
+
 class Covers(unittest.TestCase):
     CANDS = [
         {"id": 1, "name": "Halo 3: ODST", "cover": {"image_id": "co1aaa"}, "platforms": [12]},
