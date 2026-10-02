@@ -6885,6 +6885,17 @@
 ],
 "pv": 2
 },
+"gears of war judgement|Xbox 360": {
+"title": "Gears of War: Judgement",
+"platform": "Xbox 360",
+"image": null,
+"igdb_id": null,
+"name": null,
+"plats": null,
+"score": 0,
+"checked": "2026-10-02",
+"v": 3
+},
 "gears of war judgment|Xbox 360": {
 "title": "Gears of War: Judgment",
 "platform": "Xbox 360",
@@ -6928,6 +6939,20 @@
 6,
 49
 ],
+"pv": 2
+},
+"gears of war|Xbox 360": {
+"title": "Gears of War",
+"platform": "Xbox 360",
+"image": "co8rkr",
+"igdb_id": 547,
+"name": "Gears of War",
+"plats": [
+12
+],
+"score": 7,
+"checked": "2026-10-02",
+"v": 3,
 "pv": 2
 },
 "gears tactics|Xbox Series X|S": {
