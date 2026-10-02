@@ -210,6 +210,49 @@
 ],
 "pv": 2
 },
+"ace combat 04 shattered skies|PlayStation 2": {
+"title": "Ace Combat 04: Shattered Skies",
+"platform": "PlayStation 2",
+"image": "cobr0u",
+"igdb_id": 9763,
+"name": "Ace Combat 04: Shattered Skies",
+"plats": [
+8
+],
+"score": 7,
+"checked": "2026-10-02",
+"v": 3,
+"pv": 2
+},
+"ace combat 5 the unsung war|PlayStation 2": {
+"title": "Ace Combat 5: The Unsung War",
+"platform": "PlayStation 2",
+"image": "co1osm",
+"igdb_id": 14753,
+"name": "Ace Combat 5: The Unsung War",
+"plats": [
+8,
+48
+],
+"score": 7,
+"checked": "2026-10-02",
+"v": 3,
+"pv": 2
+},
+"ace combat 6 fires of liberation|Xbox 360": {
+"title": "Ace Combat 6: Fires of Liberation",
+"platform": "Xbox 360",
+"image": "co2sal",
+"igdb_id": 5476,
+"name": "Ace Combat 6: Fires of Liberation",
+"plats": [
+12
+],
+"score": 7,
+"checked": "2026-10-02",
+"v": 3,
+"pv": 2
+},
 "ace combat 7 skies unknown|Nintendo Switch": {
 "title": "Ace Combat 7: Skies Unknown",
 "platform": "Nintendo Switch",
@@ -228,6 +271,22 @@
 ],
 "pv": 2
 },
+"ace combat 8 wings of theve|PlayStation 5": {
+"title": "Ace Combat 8: Wings of Theve",
+"platform": "PlayStation 5",
+"image": "cob0h1",
+"igdb_id": 381247,
+"name": "Ace Combat 8: Wings of Theve",
+"plats": [
+6,
+167,
+169
+],
+"score": 7,
+"checked": "2026-10-02",
+"v": 3,
+"pv": 2
+},
 "ace combat assault horizon|PlayStation 3": {
 "title": "Ace Combat: Assault Horizon",
 "platform": "PlayStation 3",
@@ -242,6 +301,23 @@
 9,
 12
 ],
+"pv": 2
+},
+"ace combat zero the belkan war|PlayStation 2": {
+"title": "Ace Combat Zero: The Belkan War",
+"platform": "PlayStation 2",
+"image": "co6o8z",
+"igdb_id": 14754,
+"name": "Ace Combat Zero: The Belkan War",
+"plats": [
+6,
+8,
+167,
+169
+],
+"score": 7,
+"checked": "2026-10-02",
+"v": 3,
 "pv": 2
 },
 "aces of the luftwaffe squadron|Nintendo Switch": {
