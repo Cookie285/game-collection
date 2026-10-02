@@ -287,6 +287,7 @@ note = "Xbox 360 disc – buy on disc for shelf consistency"
 title = "Gears of War: Judgment"
 year = 2013
 note = "Xbox 360 disc – buy on disc for shelf consistency"
+aliases = ["Gears of War: Judgement"]
 
 [[series.entry]]
 title = "Gears of War 4"

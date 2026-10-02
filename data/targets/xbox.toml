@@ -753,6 +753,7 @@ priority = "medium"
 group = "Xbox 360 BC"
 plan = "disc – Gears shelf consistency"
 note = "Xbox Store: Digital (Xbox Store); A – first-party, no modern version"
+aliases = ["Gears of War: Judgement"]
 
 [[target]]
 title = "Forza Horizon"

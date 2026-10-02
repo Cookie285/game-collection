@@ -694,16 +694,16 @@ Microsoft first-party core franchise. ❓ Spartan Assault/Strike (digital) and H
 | ✅ | Halo Infinite | 2021 | Xbox Series X\|S |
 | ⬜ | Halo: Campaign Evolved | 2026 | Owned on PS5; Xbox Series X disc wanted when on sale |
 
-## Gears of War — 4/8
+## Gears of War — 7/8
 
 Microsoft first-party core franchise.
 
 |  | Title | Year | Owned on / note |
 |---|---|---|---|
-| ✅ | Gears of War | 2006 | Xbox One |
-| ⬜ | Gears of War 2 | 2008 | Xbox 360 disc – buy on disc for shelf consistency |
-| ⬜ | Gears of War 3 | 2011 | Xbox 360 disc – buy on disc for shelf consistency |
-| ⬜ | Gears of War: Judgment | 2013 | Xbox 360 disc – buy on disc for shelf consistency |
+| ✅ | Gears of War | 2006 | Xbox 360, Xbox One |
+| ✅ | Gears of War 2 | 2008 | Xbox 360 |
+| ✅ | Gears of War 3 | 2011 | Xbox 360 |
+| ✅ | Gears of War: Judgment | 2013 | Xbox 360 |
 | ✅ | Gears of War 4 | 2016 | Xbox One |
 | ✅ | Gears 5 | 2019 | Xbox One |
 | ✅ | Gears Tactics | 2020 | Xbox Series X\|S |

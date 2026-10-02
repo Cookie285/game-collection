@@ -2,6 +2,17 @@
 
 Newest first. Written automatically by `scripts/gamecoll.py import`.
 
+## 2026-10-02 — CLZ import
+
+Totals after import — Ordered: 19, Owned: 841, Wishlist: 5
+
+**Added** (5)
+- Lies of P: Complete Edition — Nintendo Switch 2 · Owned
+- Gears of War — Xbox 360 · Owned
+- Gears of War 2 — Xbox 360 · Owned
+- Gears of War 3 — Xbox 360 · Owned
+- Gears of War: Judgement — Xbox 360 · Owned
+
 ## 2026-10-01 — Orders added from shop screenshots (not in CLZ yet)
 
 Totals after import — Ordered: 19, Owned: 836, Wishlist: 5

@@ -2,7 +2,7 @@
 
 # Xbox 360
 
-## Owned (13)
+## Owned (17)
 
 | Title | Edition | Format | Region | Completeness | Purchased | Notes |
 |---|---|---|---|---|---|---|
@@ -17,6 +17,10 @@
 | Call of Duty: Modern Warfare Trilogy |  |  |  |  |  | Compilation: covers Call of Duty 4: Modern Warfare, Call of Duty: Modern Warfare 2, Call of Duty: Modern Warfare 3 |
 | Call of Duty World at War |  |  |  |  |  |  |
 | Forza Horizon |  |  |  |  |  |  |
+| Gears of War |  |  |  |  |  |  |
+| Gears of War 2 |  |  |  |  |  |  |
+| Gears of War 3 |  |  |  |  |  |  |
+| Gears of War: Judgement |  |  |  |  |  |  |
 | Halo Wars |  |  |  |  |  |  |
 | Perfect Dark Zero |  |  |  |  |  |  |
 

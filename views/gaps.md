@@ -6,7 +6,7 @@ Curated in [`data/targets/`](../data/targets/). A target flips to ✅ automatica
 
 Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 
-⬜ 404 open · 🕒 18 ordered · ✅ 80 done · ➖ 98 skip
+⬜ 400 open · 🕒 18 ordered · ✅ 85 done · ➖ 97 skip
 
 📀 = same title already owned on another platform (one copy per game!)
 
@@ -76,7 +76,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Sonic & All-Stars Racing Transformed | Xbox 360 | high | Xbox 360 BC |  | disc (delisted – not buyable in store) | Xbox Store: DISC ONLY (delisted); C – multiplatform, no modern version |
 | Spec Ops: The Line | Xbox 360 | high | Xbox 360 BC |  | disc (delisted – not buyable in store) | Xbox Store: DISC ONLY (delisted 2024); C – multiplatform, no modern version; Disc is the only legal copy on any platform |
 
-## ⬜ Open by group (404)
+## ⬜ Open by group (400)
 
 ### Activision / Blizzard (10)
 
@@ -108,7 +108,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | The Evil Within | Xbox One | someday | undecided | used disc | Suggested (scope layer 3, pre-acquisition). Tango – 360 disc also exists |
 | The Evil Within 2 | Xbox One | someday | undecided | used disc | Suggested (scope layer 3, pre-acquisition). Tango |
 
-### Buy elsewhere (not PlayStation) (55)
+### Buy elsewhere (not PlayStation) (54)
 
 | Title | Platform | Prio | State | Plan / where | Owned on / note |
 |---|---|---|---|---|---|
@@ -142,7 +142,6 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Indiana Jones and the Great Circle | xbox-modern | low |  | Xbox disc (Disc-to-Digital) | Buy on Xbox instead of PlayStation – Xbox disc = Disc-to-Digital licence (your MS 1st-party angle) (Microsoft/Bethesda 1st-party) · Xbox Play Anywhere: yes (checked 2026-10-02) |
 | Kingdom Come: Deliverance II | PC | low |  | Steam sale only (no physical) | Buy on PC instead of PlayStation – Steam sales (Western RPGs) |
 | L.A. Noire | Nintendo Switch | low |  | Switch cart | Buy on Switch instead of PlayStation – Switch physical (Rockstar) |
-| Lies of P: Complete Edition | Nintendo Switch 2 | low |  | Switch 2 full cart | Buy on Switch 2 instead of PlayStation – Full game on cart (6 Aug 2026) (Soulslike you'd want) |
 | Ni no Kuni: Wrath of the White Witch Remastered | Nintendo Switch | low |  | Switch cart | Buy on Switch instead of PlayStation – Switch physical (You own Ni no Kuni II (PS4)) |
 | NieR:Automata The End of YoRHa Edition | Nintendo Switch | low |  | Switch cart | Buy on Switch instead of PlayStation – Switch physical (NieR series) · owned on Steam (NieR:Automata™) – only if very cheap |
 | Okami HD | Nintendo Switch | low |  | Switch cart | Buy on Switch instead of PlayStation – Switch physical (Capcom classics) · owned on Steam (Okami HD) – only if very cheap |
@@ -605,7 +604,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Uncharted: Legacy of Thieves Collection | PlayStation 5 | low |  | PS5 disc; used preferred (price limit not set yet) | Replaces/upgrades owned Uncharted 4 + Lost Legacy (PS4). Same content, better performance. |
 | Until Dawn (2024) | PlayStation 5 | low |  | PS5 disc; used preferred (price limit not set yet) | Replaces/upgrades owned Until Dawn (PS4). Remake. |
 
-### Xbox 360 BC (27)
+### Xbox 360 BC (24)
 
 | Title | Platform | Prio | State | Plan / where | Owned on / note |
 |---|---|---|---|---|---|
@@ -613,9 +612,6 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Spec Ops: The Line | Xbox 360 | high |  | disc (delisted – not buyable in store) | Xbox Store: DISC ONLY (delisted 2024); C – multiplatform, no modern version; Disc is the only legal copy on any platform |
 | Earth Defense Force 2017 | Xbox 360 | medium |  | disc if delisted, else digital Xbox Store sale – verify store status | Xbox Store: Verify; C – multiplatform, no modern version |
 | Fable III | Xbox 360 | medium |  | disc if delisted, else digital Xbox Store sale – verify store status | Xbox Store: Verify – delisted on PC; Xbox listing uncertain; A – first-party, no modern version; Delisted digitally |
-| Gears of War 2 | Xbox 360 | medium |  | disc – Gears shelf consistency | Xbox Store: Digital (Xbox Store); A – first-party, no modern version; No remaster – 360 disc is the only copy |
-| Gears of War 3 | Xbox 360 | medium |  | disc – Gears shelf consistency | Xbox Store: Digital (Xbox Store); A – first-party, no modern version; No remaster |
-| Gears of War: Judgment | Xbox 360 | medium |  | disc – Gears shelf consistency | Xbox Store: Digital (Xbox Store); A – first-party, no modern version |
 | Split/Second | Xbox 360 | medium |  | disc if delisted, else digital Xbox Store sale – verify store status | Xbox Store: Verify – likely delisted; C – multiplatform, no modern version |
 | Ace Combat 6: Fires of Liberation | Xbox 360 | low | undecided | Xbox 360 disc (delisted digitally) | Suggested (review 2026-10-02, question ace-combat): Xbox 360 exclusive; backward compatible on Xbox One / Series since 2019; not sold digitally (was only an Ace Combat 7 pre-order bonus), DLC delisted 2016 – the disc is the way (checked 2026-10-02) |
 | Blur | Xbox 360 | low |  | disc (delisted – not buyable in store) | 📀 owned on PlayStation 3 · Xbox Store: DISC ONLY (delisted); C – multiplatform, no modern version; Already owned on PlayStation 3 – 360 disc only if wanted playable on current hardware |
@@ -660,7 +656,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Tom Clancy's Splinter Cell | Xbox | someday | Third-party Xbox series (not interested) |  |  | Said 'doesn't sound interesting from series perspective' |
 | Tom Clancy's Splinter Cell: Pandora Tomorrow | Xbox | someday | Third-party Xbox series (not interested) |  |  | Said 'doesn't sound interesting from series perspective' |
 
-## ✅ Done (80)
+## ✅ Done (85)
 
 <details><summary>show</summary>
 
@@ -688,6 +684,9 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Psychonauts 2 | Xbox One, Xbox Series X\|S | medium | First-party |  | used disc, e.g. rebuy.de | Xbox Series X\|S |
 | Redfall | Xbox Series X\|S | medium | First-party |  |  | Xbox Series X\|S |
 | Sea of Thieves | Xbox One | medium | First-party |  |  | Xbox One |
+| Gears of War 2 | Xbox 360 | medium | Xbox 360 BC |  | disc – Gears shelf consistency | Xbox 360 |
+| Gears of War 3 | Xbox 360 | medium | Xbox 360 BC |  | disc – Gears shelf consistency | Xbox 360 |
+| Gears of War: Judgment | Xbox 360 | medium | Xbox 360 BC |  | disc – Gears shelf consistency | Xbox 360 |
 | Call of Duty 2 | Xbox 360 | medium | Xbox 360 BC + Series runs – Call of Duty |  |  | Xbox 360 |
 | Call of Duty 3 | Xbox 360 | medium | Xbox 360 BC + Series runs – Call of Duty |  |  | Xbox 360 |
 | Call of Duty: Black Ops | Xbox 360 | medium | Xbox 360 BC + Series runs – Call of Duty |  |  | Xbox 360 |
@@ -695,6 +694,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Call of Duty: Modern Warfare Trilogy | Xbox 360 | medium | Xbox 360 BC + Series runs – Call of Duty |  |  | Xbox 360 |
 | Call of Duty: World at War | Xbox 360 | medium | Xbox 360 BC + Series runs – Call of Duty |  |  | Xbox 360 |
 | Hi-Fi Rush | xbox-modern | low | Buy elsewhere (not PlayStation) |  | Xbox disc, cheap from netgames | Xbox Series X\|S |
+| Lies of P: Complete Edition | Nintendo Switch 2 | low | Buy elsewhere (not PlayStation) |  | Switch 2 full cart | Nintendo Switch 2 |
 | Titanfall 2 | Xbox One | low | Checklist (Disc-to-Digital) |  |  | Xbox One |
 | Crackdown 3 | Xbox One | low | Checklist (Disc-to-Digital) + First-party |  |  | Xbox One |
 | Halo Infinite | Xbox Series X\|S | low | Checklist (Disc-to-Digital) + First-party |  |  | Xbox Series X\|S |
@@ -743,13 +743,14 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Call of Duty: Modern Warfare Remastered | Xbox One | someday | Series runs – Call of Duty |  |  | Xbox One |
 | Call of Duty: Vanguard | Xbox Series X\|S | someday | Series runs – Call of Duty |  |  | Xbox Series X\|S |
 | Call of Duty: WWII | Xbox One | someday | Series runs – Call of Duty |  |  | Xbox One |
+| Gears of War | Xbox 360 | someday | Xbox 360 BC |  |  | Xbox 360 |
 | Halo Wars | Xbox 360 | someday | Xbox 360 BC |  |  | Xbox 360 |
 | Perfect Dark Zero | Xbox 360 | someday | Xbox 360 BC |  |  | Xbox 360 |
 | Call of Duty 4: Modern Warfare | Xbox 360 | someday | Xbox 360 BC + Series runs – Call of Duty |  |  | Xbox 360 |
 
 </details>
 
-## ➖ Skipped (98)
+## ➖ Skipped (97)
 
 <details><summary>show</summary>
 
@@ -843,7 +844,6 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Forza Motorsport 2 | Xbox 360 | someday | Xbox 360 BC |  |  | Not backward compatible – shelf only; not collecting |
 | Forza Motorsport 3 | Xbox 360 | someday | Xbox 360 BC |  |  | Not backward compatible – shelf only; not collecting |
 | Forza Motorsport 4 | Xbox 360 | someday | Xbox 360 BC |  |  | Not backward compatible – shelf only; not collecting |
-| Gears of War | Xbox 360 | someday | Xbox 360 BC |  |  | Xbox Store: Digital (Xbox Store); A – first-party, no modern version; Covered by Gears of War: Ultimate Edition (owned) |
 | Halo 3 | Xbox 360 | someday | Xbox 360 BC |  |  | Xbox Store: Digital (Xbox Store); A – first-party, no modern version; Covered by Halo: The Master Chief Collection (owned) |
 | Halo 3: ODST | Xbox 360 | someday | Xbox 360 BC |  |  | Xbox Store: Digital (Xbox Store); A – first-party, no modern version; Covered by Halo: The Master Chief Collection (owned) |
 | Halo 4 | Xbox 360 | someday | Xbox 360 BC |  |  | Xbox Store: Digital (Xbox Store); A – first-party, no modern version; Covered by Halo: The Master Chief Collection (owned) |

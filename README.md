@@ -30,7 +30,7 @@ _Updated 2026-10-02._
 | Platform | Owned | Ordered | Wishlist |
 |---|---|---|---|
 | [PC](views/platforms/pc.md) | 1 | 0 | 0 |
-| [Nintendo Switch 2](views/platforms/nintendo-switch-2.md) | 40 | 0 | 0 |
+| [Nintendo Switch 2](views/platforms/nintendo-switch-2.md) | 41 | 0 | 0 |
 | [Nintendo Switch](views/platforms/nintendo-switch.md) | 400 | 0 | 0 |
 | [Wii U](views/platforms/wii-u.md) | 12 | 0 | 0 |
 | [Nintendo 64](views/platforms/nintendo-64.md) | 7 | 0 | 0 |
@@ -48,13 +48,13 @@ _Updated 2026-10-02._
 | [PSP](views/platforms/psp.md) | 10 | 0 | 0 |
 | [Xbox Series X\|S](views/platforms/xbox-series-x-s.md) | 21 | 1 | 0 |
 | [Xbox One](views/platforms/xbox-one.md) | 48 | 10 | 0 |
-| [Xbox 360](views/platforms/xbox-360.md) | 13 | 2 | 3 |
+| [Xbox 360](views/platforms/xbox-360.md) | 17 | 2 | 3 |
 | [Xbox](views/platforms/xbox.md) | 1 | 2 | 2 |
-| **Total** | **836** | **19** | **5** |
+| **Total** | **841** | **19** | **5** |
 
 ### Buy plan
 
-⬜ 404 open · 🕒 18 ordered · ✅ 80 done — see [gaps.md](views/gaps.md)
+⬜ 400 open · 🕒 18 ordered · ✅ 85 done — see [gaps.md](views/gaps.md)
 
 ### Series
 
@@ -106,7 +106,7 @@ _Updated 2026-10-02._
 | Call of Duty | 22/23 |  |
 | Battlefield | 10/10 ✅ |  |
 | Halo | 10/11 |  |
-| Gears of War | 4/8 |  |
+| Gears of War | 7/8 |  |
 | Forza Motorsport | 4/4 ✅ |  |
 | Forza Horizon | 6/6 ✅ |  |
 | Fable | 0/4 |  |

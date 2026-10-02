@@ -2,7 +2,7 @@
 
 # Nintendo Switch 2
 
-## Owned (40)
+## Owned (41)
 
 | Title | Edition | Format | Region | Completeness | Purchased | Notes |
 |---|---|---|---|---|---|---|
@@ -23,6 +23,7 @@
 | Hades II |  |  |  |  |  | Also owned on Steam (Hades II) |
 | Hyrule Warriors: Age of Imprisonment |  |  |  |  |  |  |
 | Kirby Air Riders |  |  |  |  |  |  |
+| Lies of P: Complete Edition |  |  |  |  |  |  |
 | LoveR Kiss: Endless Memories |  |  |  |  |  |  |
 | Majogami |  |  |  |  |  |  |
 | Mario Tennis Fever |  |  |  |  |  |  |
