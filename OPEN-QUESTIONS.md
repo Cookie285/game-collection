@@ -4,7 +4,7 @@
 
 Generated from [`data/decisions.toml`](data/decisions.toml) — edit there (options, recommendation; `status = "decided"` + `outcome` when decided). Also on the web app's **Decisions** page.
 
-## Decisions (30)
+## Decisions (32)
 
 ### General
 
@@ -31,6 +31,7 @@ Generated from [`data/decisions.toml`](data/decisions.toml) — edit there (opti
 - [ ] **Surplus discs — keep or sell?** — options: Keep as collection pieces / Sell
 - [ ] **Which optional upgrades are worth buying?** — TLOU Part I, Ghost of Tsushima DC, FF VII Remake Intergrade, TLOU II Remastered, Legacy of Thieves, HZD Remastered, Until Dawn 2024, GTA V PS5, RDR PS4, Tomb Raider DE.
 - [ ] **Sony stops making discs for new PlayStation games from Jan 2028 — buy PS5 disc targets sooner?** — suggestion: Upcoming 2026–27 PS5 disc targets you're sure about (God of War: Laufey, Tomb Raider: Legacy of Atlantis, Persona 4 Revival, FF VII Revelation …): buy at or near launch — reprints stay possible but will likely be small and on demand. Popular released games (Sony first-party, big multiplatform hits) can stay on the cheap-used plan; niche or low-print PS5 discs you want are worth picking up before 2028.
+- [ ] **Next PlayStation: under which conditions would it still be relevant?** — options: Stay with 'no next PlayStation' / Reconsider only if Sony brings discs back for new games / Reconsider if the PS6 drive plays PS4/PS5 discs + strong exclusives — suggestion: Keep 'not by default', but write the conditions into the rule: reconsider if Sony brings discs back for new games, or if a PS6 drive plays your PS4/PS5 discs AND there's a reason beyond the drive (exclusives like Intergalactic). A drive only for old discs is not a reason on its own — your PS4/PS5 consoles already play them.
 
 ### Xbox
 
@@ -47,6 +48,7 @@ Generated from [`data/decisions.toml`](data/decisions.toml) — edit there (opti
 - [ ] **State of Decay 3: still buy on Xbox under the series rule?** — options: Xbox (keep the series together) / Normal platform rules
 - [ ] **Which Tom Clancy games make sense on Xbox — modern discs (Disc-to-Digital) and/or backward-compatible ones digitally?** — options: Modern discs only, offline-capable first / Modern discs + Xbox 360 backward-compatible titles digitally in store sales / Everything incl. original Xbox discs — suggestion: Wildlands on disc first (offline + Disc-to-Digital). The Division 2 / Breakpoint / The Division only very cheap used — they stop working when the servers close. Skip a Siege disc (free-to-play). 360 titles: digitally in a sale per your BC rule, starting with Future Soldier and GRAW 1/2; skip Vegas 1/2 (owned on PS3) unless you want the Xbox versions. Splinter Cell stays skipped unless you change your mind.
 - [ ] **Game Pass and the collection: change any rules (first-party Game Pass first, disc later; leaving-Game-Pass watch; tier)?** — options: Keep the rules as they are / Game Pass first, disc later — for Microsoft first-party too / Also watch 'leaving Game Pass' in reviews / Downgrade to Premium — suggestion: Keep the collection rules as they are and use Game Pass as the 'try first, buy later' layer: (1) Microsoft first-party: play it on Game Pass at launch and buy the disc later, used and cheaper, only if you want to keep it — a pre-order is only worth it for collector's / limited editions or when the disc may become scarce. (2) Digital-only third-party games you're playing on Game Pass: buy in the 20%-off window when they leave, only if keeping. (3) Call of Duty is unaffected (no longer day one, you buy the disc anyway). Gears of War: E-Day is your call before 6 Oct: keep the disc pre-order (first print, day one disc) or play on Game Pass and buy a used disc later. Tier: if you mostly play first-party a year after launch anyway, Premium would do; Ultimate only pays off for day-one first-party.
+- [ ] **Xbox Play Anywhere: should it change where multiplatform games are bought (Xbox disc instead of PS disc)?** — options: No change / Tie-breaker: Xbox disc when Disc-to-Digital + Play Anywhere / Xbox first for all multiplatform games — suggestion: Add a tie-breaker, not a new default: for a multiplatform game whose Xbox disc converts via Disc-to-Digital AND supports Play Anywhere, buy the Xbox disc instead of the PS disc (unless the PS version has a real extra, e.g. exclusive content). Keep PS discs for PlayStation exclusives and for publishers outside Disc-to-Digital. The reviews would then check Play Anywhere for multiplatform targets and note it — a `play_anywhere = true` field on targets would let the rules engine and the buy plan use it.
 
 ## Research / verify (9)
 

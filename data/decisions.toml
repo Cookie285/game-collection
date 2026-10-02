@@ -589,3 +589,48 @@ cons = ["No next PlayStation planned", "PS discs end for new games in 2028 (not 
 label = "Classics only (04 / 5 / Zero / 6), skip 8 for now"
 pros = ["The irreplaceable discs first", "Ace Combat 8 gets cheaper used"]
 cons = ["Waits on the newest game"]
+
+[[decision]]
+id = "play-anywhere"
+question = "Xbox Play Anywhere: should it change where multiplatform games are bought (Xbox disc instead of PS disc)?"
+area = "xbox"
+asked = "2026-10-02"
+context = "Asked in chat 2026-10-02: Play Anywhere is a big plus — one licence plays on Xbox and on PC (Xbox app). Today it only appears in the digital-only rule. · Facts: Disc-to-Digital (open to everyone since 29 Sep 2026) turns a supported Xbox One / Series disc into a digital licence, and if the game supports Play Anywhere that licence includes the Windows PC version. 360 / OG Xbox discs are excluded; each publisher opts in (Ubisoft, SEGA, EA, Microsoft yes; Square Enix and Bandai Namco not yet). Play Anywhere itself is per game and inconsistent among third parties (e.g. Crimson Desert and The Witcher 3 Remastered have it). So an Xbox disc of a Play Anywhere game = disc on the shelf + digital Xbox licence + PC version; a PS disc = disc only, and no next PlayStation is planned (checked 2026-10-02)."
+recommendation = "Add a tie-breaker, not a new default: for a multiplatform game whose Xbox disc converts via Disc-to-Digital AND supports Play Anywhere, buy the Xbox disc instead of the PS disc (unless the PS version has a real extra, e.g. exclusive content). Keep PS discs for PlayStation exclusives and for publishers outside Disc-to-Digital. The reviews would then check Play Anywhere for multiplatform targets and note it — a `play_anywhere = true` field on targets would let the rules engine and the buy plan use it."
+rules = ["disc-to-digital", "ps-exclusives-and-disc-worthy", "no-next-playstation", "digital-only-game-pass"]
+sources = ["https://pcmasterinsider.com/xbox-disc-to-digital-windows-pc-play-anywhere/", "https://www.g2a.com/news/features/hardware/xbox-disc-to-digital-games-list/", "https://www.windowscentral.com/gaming/xbox/confirmed-over-800-xbox-discs-are-supported-by-the-disc-to-digital-program-and-growing-heres-the-list", "https://www.windowscentral.com/gaming/xbox/xbox-scores-wins-with-crimson-desert-on-xbox-play-anywhere-and-pirate-yakuza-on-game-pass", "https://www.trueachievements.com/news/xbox-play-anywhere-march-2026-update"]
+[[decision.option]]
+label = "No change"
+pros = ["Rules stay simple"]
+cons = ["Misses a free PC copy for games where it applies"]
+[[decision.option]]
+label = "Tie-breaker: Xbox disc when Disc-to-Digital + Play Anywhere"
+pros = ["Disc + Xbox licence + PC version for one price", "Licence carries to the next Xbox", "Fits 'no next PlayStation'"]
+cons = ["Needs a per-game check (Play Anywhere and the publisher's Disc-to-Digital opt-in)", "Moves some PS5/PS4 multiplatform targets to Xbox"]
+[[decision.option]]
+label = "Xbox first for all multiplatform games"
+pros = ["Simplest long-term platform", "Forward compatible"]
+cons = ["Xbox discs are rarer / pricier used", "No PC copy where Play Anywhere is missing"]
+
+[[decision]]
+id = "ps6-conditions"
+question = "Next PlayStation: under which conditions would it still be relevant?"
+area = "playstation"
+asked = "2026-10-02"
+context = "Asked in chat 2026-10-02: make 'no next PlayStation' more open — if Sony reverses the disc decision and/or the PS6 has at least an (optional) disc drive for backward-compatible games it might still matter; but you don't want to pay Sony for a drive that only serves PS4/PS5 discs. · Facts: Sony stops discs for new games from Jan 2028 (reprints of older games stay possible) and says it won't reverse. PS6 reports: backward compatible with PS4 and PS5 games (AMD document); likely no built-in drive, a detachable or USB drive sold separately is rumoured; no official word (checked 2026-10-02)."
+recommendation = "Keep 'not by default', but write the conditions into the rule: reconsider if Sony brings discs back for new games, or if a PS6 drive plays your PS4/PS5 discs AND there's a reason beyond the drive (exclusives like Intergalactic). A drive only for old discs is not a reason on its own — your PS4/PS5 consoles already play them."
+rules = ["no-next-playstation"]
+targets = ["Intergalactic: The Heretic Prophet"]
+sources = ["https://www.pushsquare.com/news/2026/07/ps6-will-be-a-digital-console-and-sony-has-huge-questions-to-answer-about-backwards-compatibility", "https://insider-gaming.com/playstation-6-will-have-backward-compatibility-with-ps4-and-ps5-games-its-claimed/", "https://www.videogameschronicle.com/news/sony-tells-developers-theyll-still-be-able-to-make-discs-but-only-for-older-games/"]
+[[decision.option]]
+label = "Stay with 'no next PlayStation'"
+pros = ["No new console spend", "Your PS4/PS5 keep playing the discs"]
+cons = ["Miss PS6 exclusives"]
+[[decision.option]]
+label = "Reconsider only if Sony brings discs back for new games"
+pros = ["Physical-first stays intact"]
+cons = ["Sony says it won't reverse"]
+[[decision.option]]
+label = "Reconsider if the PS6 drive plays PS4/PS5 discs + strong exclusives"
+pros = ["One box for old discs and new exclusives", "Keeps the collection playable on new hardware"]
+cons = ["New games would still be digital-only", "Paying Sony for the drive — what you don't want"]
