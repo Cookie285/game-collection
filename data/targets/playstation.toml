@@ -20,7 +20,7 @@ priority = "high"
 group = "PS5 gaps – Multiplatform"
 plan = "PS5 disc; new (upcoming release, price limit not set yet)"
 state = "undecided"
-note = "Decision: Switch = Switch 2 Game-Key Card, 131 GB download; PS = PS5 full disc (8 Oct 2026); suggestion: PS5 – JRPG rule says Switch, but the Switch 2 box is effectively a download voucher for a huge game. · One disc = 1.5+2.5 ReMIX, 2.8 and KH III + Re Mind. You only own KH III (PS4). · Other versions: Switch 2 = Game-Key Card, ~131 GB download · PS5 disc is full install · JRPG rule says Switch – but Switch 2 is GKC. Recommendation: PS5. Makes KH III PS4 surplus. · Also on Xbox Series X|S, but digital only — physical only on PS5 (disc) and Switch 2 (Game-Key Card) (checked 2026-09-28) · Still 8 Oct 2026; EU PS5 disc listed at retail (EAN 5021290103122). Pre-order coverage and Square Enix's store say the physical version needs an additional data download — 'full install on the disc' is not confirmed (checked 2026-10-01)"
+note = "Decision: Switch = Switch 2 Game-Key Card, 131 GB download; PS = PS5 full disc (8 Oct 2026); suggestion: PS5 – JRPG rule says Switch, but the Switch 2 box is effectively a download voucher for a huge game. · One disc = 1.5+2.5 ReMIX, 2.8 and KH III + Re Mind. You only own KH III (PS4). · Other versions: Switch 2 = Game-Key Card, ~131 GB download · PS5 disc is full install · JRPG rule says Switch – but Switch 2 is GKC. Recommendation: PS5. Makes KH III PS4 surplus. · Also on Xbox Series X|S, but digital only — physical only on PS5 (disc) and Switch 2 (Game-Key Card) (checked 2026-09-28) · Still 8 Oct 2026; EU PS5 disc listed at retail (EAN 5021290103122). Pre-order coverage and Square Enix's store say the physical version needs an additional data download — 'full install on the disc' is not confirmed (checked 2026-10-01) · Still 8 Oct 2026 on PS5 / Xbox / Switch 2; Switch 2 physical = Game-Key Card (checked 2026-10-02)"
 versions = { "PlayStation 5" = "disc", "Nintendo Switch 2" = "gkc", "Xbox Series X|S" = "digital" }
 exclusive = "multi"
 
@@ -326,7 +326,7 @@ platforms = ["PlayStation 5"]
 priority = "medium"
 group = "PS5 gaps – Multiplatform"
 plan = "PS5 disc; new (upcoming release, price limit not set yet)"
-note = "Chinese action game in the Black Myth / Wuchang vein. · Date per official site · Releases 29 Oct 2026; a PS5 disc is only listed for Asia so far — no EU disc pre-orders (checked 2026-09-28) · Still 29 Oct 2026; still no EU / PAL PS5 disc — publisher reportedly plans no physical release outside Asia for now (Play-Asia lists the Asian disc) (checked 2026-10-01)"
+note = "Chinese action game in the Black Myth / Wuchang vein. · Date per official site · Releases 29 Oct 2026; a PS5 disc is only listed for Asia so far — no EU disc pre-orders (checked 2026-09-28) · Still 29 Oct 2026; still no EU / PAL PS5 disc — publisher reportedly plans no physical release outside Asia for now (Play-Asia lists the Asian disc) (checked 2026-10-01) · Still no EU standard PS5 disc; the global Collector's Edition (8,000 units) holds a digital code, not a disc; a disc is only sold via Asian import (Play-Asia) (checked 2026-10-02)"
 verify = "EU PS5 disc? (only an Asian disc was listed on 2026-09-28)"
 
 [[target]]

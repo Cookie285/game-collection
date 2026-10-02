@@ -491,12 +491,12 @@ question = "Phantom Blade Zero: will there be an EU PS5 disc?"
 area = "playstation"
 kind = "research"
 due = "2026-10-29"
-context = "Releases 29 Oct 2026; only an Asian PS5 disc was listed on 2026-09-28. No disc → physical-first says import the Asian disc or skip. · Still no EU PS5 disc; the publisher reportedly plans no physical release outside Asia for now and Sony's own ads present the PS5 version as digital (Aug 2026). (checked 2026-10-01)"
+context = "Releases 29 Oct 2026; only an Asian PS5 disc was listed on 2026-09-28. No disc → physical-first says import the Asian disc or skip. · Still no EU PS5 disc; the publisher reportedly plans no physical release outside Asia for now and Sony's own ads present the PS5 version as digital (Aug 2026). (checked 2026-10-01) · Still no EU disc; the Collector's Edition contains a digital code, so it is not a disc either (checked 2026-10-02)"
 rules = ["physical-first"]
 targets = ["Phantom Blade Zero"]
+recommendation = "No EU disc four weeks before launch: import the Asian PS5 disc (check it has English) or skip — don't buy digitally under physical-first."
 
 # ---------------------------------------------------------------- asked by you
-recommendation = "No EU disc four weeks before launch: import the Asian PS5 disc (check it has English) or skip — don't buy digitally under physical-first."
 [[decision]]
 id = "tom-clancy-xbox"
 question = "Which Tom Clancy games make sense on Xbox — modern discs (Disc-to-Digital) and/or backward-compatible ones digitally?"
