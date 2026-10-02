@@ -2540,3 +2540,21 @@ group = "Shooter console suggestions"
 plan = "used disc"
 state = "undecided"
 note = "Suggested (review 2026-09-29, question tom-clancy-xbox): always online (needs Ubisoft servers) (checked 2026-09-29)"
+
+[[target]]
+title = "Ace Combat 6: Fires of Liberation"
+platforms = ["Xbox 360"]
+priority = "low"
+group = "Xbox 360 BC"
+plan = "Xbox 360 disc (delisted digitally)"
+state = "undecided"
+note = "Suggested (review 2026-10-02, question ace-combat): Xbox 360 exclusive; backward compatible on Xbox One / Series since 2019; not sold digitally (was only an Ace Combat 7 pre-order bonus), DLC delisted 2016 – the disc is the way (checked 2026-10-02)"
+
+[[target]]
+title = "Ace Combat 8: Wings of Theve"
+platforms = ["Xbox Series X|S", "PlayStation 5"]
+priority = "medium"
+group = "Shooter console suggestions"
+plan = "disc — Xbox Series X or PS5, see question ace-combat"
+state = "undecided"
+note = "Suggested (review 2026-10-02, question ace-combat): out 2 Oct 2026 on PS5, Xbox Series X|S and PC (no Switch); Standard and Deluxe on disc for both consoles; Bandai Namco discs don't convert via Disc-to-Digital (yet) (checked 2026-10-02)"

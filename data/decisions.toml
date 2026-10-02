@@ -566,3 +566,26 @@ cons = ["One more agenda item each month"]
 label = "Downgrade to Premium"
 pros = ["About a third cheaper than Ultimate", "First-party arrives ~1 year later — around when used discs get cheap"]
 cons = ["No day-one first-party (e.g. Gears E-Day, Fable)", "No cloud / PC Game Pass"]
+
+[[decision]]
+id = "ace-combat"
+question = "Ace Combat: where does the series fit — and Ace Combat 8 on Xbox Series X or PS5 disc?"
+area = "all"
+asked = "2026-10-02"
+context = "Asked in chat 2026-10-02: where does the Ace Combat series fit best? · Owned: Assault Horizon (PS3); Ace Combat 7 is already planned as a Switch cart. Facts: the classic games are PlayStation-only — 04 (EU 'Distant Thunder'), 5 (EU 'Squadron Leader'), Zero on PS2, never re-released on disc (5's PS4 port was only a 2019 pre-order bonus). 6 is an Xbox 360 exclusive, backward compatible since 2019, not sold digitally, DLC delisted. 7: Switch cart has the full Deluxe game on the cart; only PS4 has the PS VR missions. 8: Wings of Theve out 2 Oct 2026 on PS5, Xbox Series X|S, PC (no Switch), on disc for both consoles; Bandai Namco discs don't convert via Disc-to-Digital yet. PSP entries (X, X2) fall under 'handhelds not collected'. (checked 2026-10-02)"
+recommendation = "Split by era, as your rules already do: classic 04 / 5 / Zero → PS2 PAL discs (they're PlayStation exclusives); 6 → Xbox 360 disc (exclusive, BC, delisted digitally); 7 → keep the Switch cart plan; skip the PSP games. For Ace Combat 8 I'd take the Xbox Series X disc: you don't plan a next PlayStation, while the next Xbox runs the current library — and if Bandai Namco joins Disc-to-Digital the disc gains a digital licence. PS5 is the alternative if you want the modern games next to the PS2 trilogy."
+rules = ["pal-only-ps1-ps2", "handhelds-not-collected", "bc-digital-unless-delisted", "switch-first", "no-next-playstation", "ps-exclusives-and-disc-worthy"]
+targets = ["Ace Combat 04: Shattered Skies", "Ace Combat 5: The Unsung War", "Ace Combat Zero: The Belkan War", "Ace Combat 6: Fires of Liberation", "Ace Combat 7: Skies Unknown", "Ace Combat 8: Wings of Theve"]
+sources = ["https://en.wikipedia.org/wiki/Ace_Combat_8:_Wings_of_Theve", "https://en.bandainamcoent.eu/ace-combat/news/ace-combat-8-wings-of-theve-all-you-need-know", "https://www.trueachievements.com/n36033/ace-combat-6-fires-of-liberation-now-backward-compatible", "https://delistedgames.com/ace-combat-6-fires-of-liberation/", "https://en.wikipedia.org/wiki/Ace_Combat_04:_Shattered_Skies", "https://en.wikipedia.org/wiki/Ace_Combat_5:_The_Unsung_War", "https://www.nintendolife.com/reviews/nintendo-switch/ace-combat-7-skies-unknown-deluxe-edition", "https://acecombat.fandom.com/wiki/VR_Mode"]
+[[decision.option]]
+label = "Ace Combat 8 on Xbox Series X disc"
+pros = ["Plays on the next Xbox (Microsoft: full compatibility with the current library)", "Possible Disc-to-Digital later", "Next to Ace Combat 6 on Xbox"]
+cons = ["Bandai Namco not in Disc-to-Digital yet", "Splits the modern games from the PlayStation classics"]
+[[decision.option]]
+label = "Ace Combat 8 on PS5 disc"
+pros = ["Keeps the series on PlayStation next to 04 / 5 / Zero and Assault Horizon", "Fits 'multiplatform worth having on disc'"]
+cons = ["No next PlayStation planned", "PS discs end for new games in 2028 (not an issue for an Oct 2026 game)"]
+[[decision.option]]
+label = "Classics only (04 / 5 / Zero / 6), skip 8 for now"
+pros = ["The irreplaceable discs first", "Ace Combat 8 gets cheaper used"]
+cons = ["Waits on the newest game"]

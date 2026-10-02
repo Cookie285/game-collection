@@ -54,7 +54,7 @@ _Updated 2026-10-02._
 
 ### Buy plan
 
-⬜ 399 open · 🕒 18 ordered · ✅ 80 done — see [gaps.md](views/gaps.md)
+⬜ 404 open · 🕒 18 ordered · ✅ 80 done — see [gaps.md](views/gaps.md)
 
 ### Series
 
@@ -102,6 +102,7 @@ _Updated 2026-10-02._
 | Grand Theft Auto | 2/6 |  |
 | Senran Kagura | 0/2 |  |
 | Harry Potter | 8/10 | 1 |
+| Ace Combat | 1/7 |  |
 | Call of Duty | 22/23 |  |
 | Battlefield | 10/10 ✅ |  |
 | Halo | 10/11 |  |

@@ -608,6 +608,25 @@ Series Tracker tab – collecting the PlayStation Harry Potter games
 | ➖ | LEGO Harry Potter: Years 5-7 | 2011 | Owned via LEGO HP Collection (Xbox One) |
 | ⬜ | Hogwarts Legacy 2 |  | Confirmed in development by WB Games (Aug 2026 earnings call); expected Spring/Summer 2027 (checked 2026-09-28) |
 
+## Ace Combat — 1/7
+
+Added 2026-10-02 (question ace-combat): numbered games PS1/PS2 → PAL discs, 6 → Xbox 360, 7 → Switch, 8 → see question
+
+|  | Title | Year | Owned on / note |
+|---|---|---|---|
+| ⬜ | Ace Combat 04: Shattered Skies | 2001 | PS2; EU: 'Ace Combat: Distant Thunder' |
+| ⬜ | Ace Combat 5: The Unsung War | 2004 | PS2; EU: 'Ace Combat: Squadron Leader' |
+| ⬜ | Ace Combat Zero: The Belkan War | 2006 | PS2 |
+| ⬜ | Ace Combat 6: Fires of Liberation | 2007 | Xbox 360 exclusive, backward compatible; disc only |
+| ✅ | Ace Combat: Assault Horizon | 2011 | PlayStation 3 |
+| ⬜ | Ace Combat 7: Skies Unknown | 2019 | Plan: Switch cart (Deluxe, full game on the cart); PS4 version has the PS VR missions |
+| ⬜ | Ace Combat 8: Wings of Theve | 2026 | PS5 / Xbox Series X\|S / PC, 2 Oct 2026 |
+| ➖ | Air Combat | 1995 | PS1 (spin-off era); optional |
+| ➖ | Ace Combat 2 | 1997 | PS1; optional |
+| ➖ | Ace Combat 3: Electrosphere | 1999 | PS1; the PAL version is heavily cut (no story); optional |
+| ➖ | Ace Combat X: Skies of Deception | 2006 | PSP – handhelds not collected |
+| ➖ | Ace Combat X2: Joint Assault | 2010 | PSP – handhelds not collected |
+
 ## Call of Duty — 22/23
 
 Complete Xbox run, one copy per game, newest-gen pressing. Single-player focus; servers irrelevant. ❓ Call of Duty (2003, PC-only) and OG Xbox spin-offs (Finest Hour, Big Red One) were never discussed – not listed
