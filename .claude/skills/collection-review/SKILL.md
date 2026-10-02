@@ -40,7 +40,12 @@ high-priority target**, every **rumour**, the **research questions** and **platf
 disabled" list, Pure Xbox's Xbox delisting round-ups. Match them against the agenda's *Delisting watch* (targets
 planned as digital / store buys: a delisting means buy before the date or switch to disc → add a dated decision),
 against open disc targets and owned games (digital version gone → note "disc is the only way now"), and against
-online-only targets (server shutdown → the disc stops working; note it). Scan the series
+online-only targets (server shutdown → the disc stops working; note it). **Xbox Play Anywhere:** for open targets
+whose game has an Xbox One / Series version and no `play_anywhere` yet (Buy plan filter *Play Anywhere not checked*),
+check a batch (Xbox store page / Pure Xbox / Windows Central) and set `play_anywhere = true|false` plus a dated note
+fact; note Disc-to-Digital too if an Xbox disc exists (publisher opted in?). Re-check `false` for new or updated games —
+publishers add it later (Hogwarts Legacy 2025, Fallout 4 2025). Facts only: never change a plan for it unless the
+user decided `play-anywhere`. Scan the series
 for newly announced entries (quick search per franchise; batch obvious ones). Note the date and URL of every fact.
 
 ### Questions the user asked

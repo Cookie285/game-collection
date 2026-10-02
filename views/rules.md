@@ -1297,14 +1297,15 @@ Xbox One / Series discs carry a Disc-to-Digital licence — a reason to buy Micr
 
 _Why:_ One revocable licence per disc; licence moves if the disc is claimed elsewhere → don't lend discs casually.
 
-53 targets — ⬜ 17 · 🕒 7 · ✅ 28 · ➖ 1
+54 targets — ⬜ 18 · 🕒 7 · ✅ 28 · ➖ 1
 
-<details><summary>17 open</summary>
+<details><summary>18 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
 | Ace Combat 8: Wings of Theve | Xbox Series X\|S, PlayStation 5 | medium | undecided |
 | Avowed | Xbox Series X\|S | someday | undecided |
+| Clair Obscur: Expedition 33 | PlayStation 5 | high |  |
 | Dead Rising 3 | Xbox One | low |  |
 | Deadpool | Xbox One | high |  |
 | Dishonored | xbox-modern | low |  |

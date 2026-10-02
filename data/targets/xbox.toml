@@ -270,7 +270,8 @@ priority = "someday"
 group = "First-party"
 plan = "PS5 disc when very cheap"
 state = "watching"
-note = "scope layer X (Gears / The Coalition); No Xbox disc exists (PS5 disc only); campaign already covered by Gears of War: Ultimate Edition"
+note = "scope layer X (Gears / The Coalition); No Xbox disc exists (PS5 disc only); campaign already covered by Gears of War: Ultimate Edition · Xbox Play Anywhere: yes on the Xbox version (checked 2026-10-02)"
+play_anywhere = true
 
 [[target]]
 title = "Gears of War: E-Day"
@@ -281,6 +282,7 @@ plan = "Pre-ordered (Xbox)"
 state = "preordered"
 note = "scope layer 1 (Gears / The Coalition) · Releases 6 Oct 2026 (Premium early access from 1 Oct) (checked 2026-09-28) · Still 6 Oct 2026 (Premium / Collector's early access 1 Oct). Xbox Series X disc, content download required; supports Disc-to-Digital + Play Anywhere. PS5 version cancelled — Xbox console exclusive, 'not timed' (checked 2026-10-01)"
 versions = { "Xbox Series X|S" = "disc" }
+play_anywhere = true
 
 [[target]]
 title = "Forza Motorsport"
@@ -388,7 +390,8 @@ platforms = ["Xbox Series X|S"]
 priority = "medium"
 group = "First-party"
 plan = "used disc, e.g. rebuy.de"
-note = "scope layer 1 (Asobo); 2020 game"
+note = "scope layer 1 (Asobo); 2020 game · Xbox Play Anywhere: yes (Xbox Game Studios / Bethesda title) (checked 2026-10-02)"
+play_anywhere = true
 
 [[target]]
 title = "Microsoft Flight Simulator 2024"
@@ -396,7 +399,8 @@ platforms = ["Xbox Series X|S"]
 priority = "medium"
 group = "First-party"
 plan = "used disc, e.g. rebuy.de"
-note = "scope layer 1 (Asobo)"
+note = "scope layer 1 (Asobo) · Xbox Play Anywhere: yes (Xbox Game Studios / Bethesda title) (checked 2026-10-02)"
+play_anywhere = true
 
 [[target]]
 title = "Psychonauts 2"
@@ -413,7 +417,8 @@ priority = "someday"
 group = "First-party"
 plan = "Game Pass first; if keeping, sealed code-in-box only if ≤ Xbox Store sale price, else Xbox Store (Play Anywhere)"
 state = "undecided"
-note = "scope layer X (Obsidian); Xbox box is code-in-box (no disc, no D2D); no PS5 disc exists – out of disc scope"
+note = "scope layer X (Obsidian); Xbox box is code-in-box (no disc, no D2D); no PS5 disc exists – out of disc scope · Xbox Play Anywhere: yes (Xbox Game Studios / Bethesda title) (checked 2026-10-02)"
+play_anywhere = true
 
 [[target]]
 title = "South of Midnight"
@@ -422,7 +427,8 @@ priority = "someday"
 group = "First-party"
 plan = "Game Pass first; if keeping, buy on Xbox Store (Play Anywhere) on sale"
 state = "undecided"
-note = "scope layer X (Compulsion); No physical release on any platform – out of disc scope"
+note = "scope layer X (Compulsion); No physical release on any platform – out of disc scope · Xbox Play Anywhere: yes (Xbox Game Studios / Bethesda title) (checked 2026-10-02)"
+play_anywhere = true
 
 [[target]]
 title = "Hi-Fi Rush"
@@ -439,7 +445,8 @@ priority = "someday"
 group = "First-party"
 plan = "eBay saved search (Limited Run pressing) – buy only at a good price"
 state = "watching"
-note = "scope layer 1 (Obsidian); Limited Run exclusive, expensive on eBay"
+note = "scope layer 1 (Obsidian); Limited Run exclusive, expensive on eBay · Xbox Play Anywhere: yes (Xbox Game Studios / Bethesda title) (checked 2026-10-02)"
+play_anywhere = true
 
 [[target]]
 title = "Grounded"
@@ -448,7 +455,8 @@ priority = "someday"
 group = "First-party"
 plan = "eBay saved search (Limited Run pressing) – buy only at a good price"
 state = "watching"
-note = "scope layer 1 (Obsidian); Limited Run exclusive, expensive on eBay"
+note = "scope layer 1 (Obsidian); Limited Run exclusive, expensive on eBay · Xbox Play Anywhere: yes (Xbox Game Studios / Bethesda title) (checked 2026-10-02)"
+play_anywhere = true
 
 [[target]]
 title = "Starfield"
@@ -456,7 +464,8 @@ platforms = ["Xbox Series X|S"]
 priority = "medium"
 group = "First-party"
 plan = "used disc, e.g. rebuy.de"
-note = "scope layer 2 (Bethesda Game Studios); Bethesda post-acquisition"
+note = "scope layer 2 (Bethesda Game Studios); Bethesda post-acquisition · Xbox Play Anywhere: yes (Xbox Game Studios / Bethesda title) (checked 2026-10-02)"
+play_anywhere = true
 
 [[target]]
 title = "Redfall"
@@ -471,7 +480,8 @@ platforms = ["Xbox Series X|S"]
 priority = "medium"
 group = "First-party"
 plan = "used disc, e.g. rebuy.de"
-note = "scope layer 2 (MachineGames)"
+note = "scope layer 2 (MachineGames) · Xbox Play Anywhere: yes (checked 2026-10-02)"
+play_anywhere = true
 
 [[target]]
 title = "Doom: The Dark Ages"
@@ -479,7 +489,8 @@ platforms = ["Xbox Series X|S"]
 priority = "low"
 group = "First-party + Shooter console suggestions"
 plan = "used disc, e.g. rebuy.de"
-note = "scope layer 2 (id Software); Suggested."
+note = "scope layer 2 (id Software); Suggested. · Xbox Play Anywhere: yes (Xbox Game Studios / Bethesda title) (checked 2026-10-02)"
+play_anywhere = true
 
 [[target]]
 title = "The Elder Scrolls IV: Oblivion Remastered"
@@ -487,7 +498,8 @@ platforms = ["Xbox Series X|S"]
 priority = "low"
 group = "First-party"
 plan = "used disc, e.g. rebuy.de"
-note = "scope layer 2 (Bethesda / Virtuos); Layer 2 – Xbox copy optional"
+note = "scope layer 2 (Bethesda / Virtuos); Layer 2 – Xbox copy optional · Xbox Play Anywhere: yes (Xbox Game Studios / Bethesda title) (checked 2026-10-02)"
+play_anywhere = true
 
 [[target]]
 title = "Doom Eternal"
@@ -502,7 +514,8 @@ platforms = ["Xbox One"]
 priority = "someday"
 group = "First-party + Fallout / Elder Scrolls"
 plan = "used disc, e.g. rebuy.de"
-note = "scope layer 3 (Bethesda Game Studios); Pre-acquisition – optional; Next-gen update on Series X"
+note = "scope layer 3 (Bethesda Game Studios); Pre-acquisition – optional; Next-gen update on Series X · Xbox Play Anywhere: yes (added with the Anniversary Edition) (checked 2026-10-02)"
+play_anywhere = true
 
 [[target]]
 title = "Skyrim Special Edition"
@@ -510,7 +523,8 @@ platforms = ["Xbox One"]
 priority = "someday"
 group = "First-party + Fallout / Elder Scrolls"
 plan = "used disc, e.g. rebuy.de"
-note = "scope layer 3 (Bethesda Game Studios); Pre-acquisition – optional; Judgment call: also on Switch (Nintendo-first)"
+note = "scope layer 3 (Bethesda Game Studios); Pre-acquisition – optional; Judgment call: also on Switch (Nintendo-first) · Xbox Play Anywhere: yes (checked 2026-10-02)"
+play_anywhere = true
 
 [[target]]
 title = "Dead Rising 4"
@@ -540,8 +554,9 @@ platforms = ["Xbox Series X|S"]
 priority = "medium"
 group = "First-party"
 plan = "used disc"
-note = "scope layer 1 (Ninja Theory); Ninja Theory at risk of closure (Sep 2026) · Amazon.de lists the Xbox Series version only as a download code; no EU disc found (checked 2026-09-28) · physical Xbox Series X|S + PS5 edition announced via Limited Run Games (May 2025) – Microsoft itself released no disc; Xbox disc contents not confirmed yet (checked 2026-09-29) · Limited Run Games Xbox disc contents still unconfirmed (no unboxing / Does It Play? entry found). Xbox proposed closing Ninja Theory on 22 Sep 2026 after two sale deals fell through (consultation to year end) (checked 2026-10-01)"
+note = "scope layer 1 (Ninja Theory); Ninja Theory at risk of closure (Sep 2026) · Amazon.de lists the Xbox Series version only as a download code; no EU disc found (checked 2026-09-28) · physical Xbox Series X|S + PS5 edition announced via Limited Run Games (May 2025) – Microsoft itself released no disc; Xbox disc contents not confirmed yet (checked 2026-09-29) · Limited Run Games Xbox disc contents still unconfirmed (no unboxing / Does It Play? entry found). Xbox proposed closing Ninja Theory on 22 Sep 2026 after two sale deals fell through (consultation to year end) (checked 2026-10-01) · Xbox Play Anywhere: yes (Xbox Game Studios / Bethesda title) (checked 2026-10-02)"
 verify = "verify the EU Xbox box contains a real disc, not a code – if code-in-box, treat like Avowed"
+play_anywhere = true
 
 [[target]]
 title = "DOOM"
@@ -1273,7 +1288,8 @@ priority = "low"
 group = "Shooter console suggestions"
 plan = "used disc"
 state = "undecided"
-note = "Xbox Series X disc exists (Deep Silver retail/SteelBook editions); PC editions are codes; a PS5 Day One disc also exists. Trilogy owned on Switch (JP)"
+note = "Xbox Series X disc exists (Deep Silver retail/SteelBook editions); PC editions are codes; a PS5 Day One disc also exists. Trilogy owned on Switch (JP) · Xbox Play Anywhere: yes (added later; Xbox and Microsoft Store versions merged into one licence) (checked 2026-10-02)"
+play_anywhere = true
 
 [[target]]
 title = "Metro 2033"
@@ -1697,7 +1713,8 @@ priority = "someday"
 group = "Shooter console suggestions"
 plan = "used disc"
 state = "undecided"
-note = "Suggested."
+note = "Suggested. · Xbox Play Anywhere: no (checked 2026-10-02)"
+play_anywhere = false
 
 [[target]]
 title = "Sniper Elite V2"
@@ -1841,7 +1858,8 @@ priority = "someday"
 group = "Fallout / Elder Scrolls"
 plan = "used disc, completion only"
 state = "undecided"
-note = "Online-only – low value under single-player rule"
+note = "Online-only – low value under single-player rule · Xbox Play Anywhere: no (checked 2026-10-02)"
+play_anywhere = false
 
 [[target]]
 title = "Fallout: Brotherhood of Steel"
@@ -2064,7 +2082,8 @@ priority = "someday"
 group = "Activision / Blizzard"
 plan = "used disc"
 state = "undecided"
-note = "Suggested. Online-only; on Game Pass; disc only when cheap, as shelf copy; expansions digital-only"
+note = "Suggested. Online-only; on Game Pass; disc only when cheap, as shelf copy; expansions digital-only · Xbox Play Anywhere: no (separate licences, cross-progression only) (checked 2026-10-02)"
+play_anywhere = false
 
 [[target]]
 title = "Prototype Biohazard Bundle"

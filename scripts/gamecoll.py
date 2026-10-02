@@ -1032,6 +1032,8 @@ def cmd_export(args) -> None:
                                                                if x in PLATFORM_ORDER else 99)), ""), covers, cover_ov),
             "formats": derive_formats(t, have_by_title.get(norm(t["title"]), set())), "flags": target_flags(t, rids),
             "exclusive": exclusivity(t, covers),
+            # Xbox Play Anywhere: true / false = checked, missing = not checked yet
+            **({"play_anywhere": t["play_anywhere"]} if "play_anywhere" in t else {}),
             **{k: t[k] for k in ("why", "alternatives", "condition", "max_price", "facts", "checked") if k in t},
         })
     series = []
@@ -1666,6 +1668,9 @@ def cmd_check(_args) -> None:
     for t in load_targets():
         if t.get("exclusive") and t["exclusive"] not in EXCLUSIVE_VALUES:
             print(f"ERROR target {t['title']!r}: exclusive = {t['exclusive']!r} — use one of {', '.join(sorted(EXCLUSIVE_VALUES))}")
+            ok = False
+        if "play_anywhere" in t and not isinstance(t["play_anywhere"], bool):
+            print(f"ERROR target {t['title']!r}: play_anywhere = {t['play_anywhere']!r} — use true or false")
             ok = False
         for p, v in (t.get("versions") or {}).items():
             for f in ([v] if isinstance(v, str) else v):
