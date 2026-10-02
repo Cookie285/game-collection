@@ -167,6 +167,10 @@ Python 3.11+ only, no packages to install.
   for each game (saved by the Covers workflow); PC, Mac, mobile and VR don't count, so PlayStation + PC is still a
   PlayStation exclusive. Correct a target by hand with `exclusive = "playstation"` (· `xbox` · `nintendo` · `other` ·
   `multi`).
+- **Xbox Play Anywhere** — `play_anywhere = true` on a target means the Xbox One / Series version includes the Windows
+  PC version (one licence); `false` = checked, no Play Anywhere; missing = not checked yet. The Buy plan shows a
+  *🖥️ Play Anywhere* badge and has a filter for it. It's a fact only — it doesn't change any plan (open question
+  `play-anywhere`). Whether a disc converts via Disc-to-Digital goes in the note.
 - **`data/series/*.toml`** — series checklists. Use `aliases` for compilations that cover an entry
   (e.g. *Modern Warfare Trilogy* covers CoD 4 / MW2 / MW3, *God of War Collection* covers GoW I + II).
   An entry whose note says "on Steam" shows as 💻 instead of ⬜.
