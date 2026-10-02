@@ -539,3 +539,30 @@ recommendation = "PS5 — the Switch 2 box is only a licence, and the PS5 disc k
 rules = ["gkc-not-physical", "switch-first", "series-on-one-platform"]
 targets = ["Final Fantasy VII Revelation"]
 sources = ["https://www.nintendolife.com/news/2026/09/final-fantasy-vii-revelation-is-a-game-key-card-on-switch-2-and-its-no-wonder-with-that-file-size", "https://www.pushsquare.com/news/2026/09/final-fantasy-7-revelation-will-ship-on-one-ps5-disc-digital-download-required"]
+
+[[decision]]
+id = "game-pass-role"
+question = "Game Pass and the collection: change any rules (first-party Game Pass first, disc later; leaving-Game-Pass watch; tier)?"
+area = "xbox"
+asked = "2026-10-02"
+context = "Asked in chat 2026-10-02: how does Game Pass relate to the collection — any impact or rule changes? You have Game Pass active; today it only appears in the rule 'Digital-only → Game Pass first'. · Facts: tiers since Oct 2025 are Essential / Premium / Ultimate (+ PC Game Pass); Ultimate cut to $22.99 in Apr 2026. New Microsoft first-party games are day one only in Ultimate / PC Game Pass; Premium gets them about a year later. New Call of Duty games are no longer day one (MW4 arrives around holiday 2027). Third-party games leave in regular waves (e.g. Witcher 3, Cyberpunk 2077 in Aug/Sep 2026); members get 20% off a departing game before it leaves. Game Pass is a licence that ends with the subscription; a disc stays and, with Disc-to-Digital, also gives a permanent digital licence. Gears of War: E-Day (6 Oct, pre-ordered on disc) is day one in Ultimate; Modern Warfare 4 (23 Oct) is not (checked 2026-10-02)."
+recommendation = "Keep the collection rules as they are and use Game Pass as the 'try first, buy later' layer: (1) Microsoft first-party: play it on Game Pass at launch and buy the disc later, used and cheaper, only if you want to keep it — a pre-order is only worth it for collector's / limited editions or when the disc may become scarce. (2) Digital-only third-party games you're playing on Game Pass: buy in the 20%-off window when they leave, only if keeping. (3) Call of Duty is unaffected (no longer day one, you buy the disc anyway). Gears of War: E-Day is your call before 6 Oct: keep the disc pre-order (first print, day one disc) or play on Game Pass and buy a used disc later. Tier: if you mostly play first-party a year after launch anyway, Premium would do; Ultimate only pays off for day-one first-party."
+rules = ["digital-only-game-pass", "disc-to-digital", "xbox-first-party-scope", "physical-first"]
+targets = ["Gears of War: E-Day", "Call of Duty: Modern Warfare 4", "Avowed", "South of Midnight", "Halo: Campaign Evolved"]
+sources = ["https://en.wikipedia.org/wiki/Xbox_Game_Pass", "https://www.twoaveragegamers.com/xbox-game-pass-in-2026-every-tier-price-and-change-explained/", "https://www.purexbox.com/news/2026/07/xbox-reminds-game-pass-members-to-buy-modern-warfare-4-if-they-want-to-play-it-day-one", "https://www.purexbox.com/news/2026/09/11-games-are-leaving-xbox-game-pass-in-early-september-2026", "https://www.gamespot.com/articles/gears-of-war-e-day-is-it-on-game-pass/", "https://news.xbox.com/en-us/2026/06/08/gears-of-war-e-day-collectors-edition-xbox-games-showcase-2026/"]
+[[decision.option]]
+label = "Keep the rules as they are"
+pros = ["No change; Game Pass stays for digital-only games"]
+cons = ["Pays twice for first-party games you buy on disc at launch and could have played on Game Pass"]
+[[decision.option]]
+label = "Game Pass first, disc later — for Microsoft first-party too"
+pros = ["Play day one at no extra cost", "Buy the disc used and cheaper later, only for games you keep", "Disc-to-Digital still gives you the permanent licence then"]
+cons = ["Some Xbox discs get small print runs (e.g. Hi-Fi Rush only via Limited Run) — later can mean pricier", "No first-print / steelbook editions"]
+[[decision.option]]
+label = "Also watch 'leaving Game Pass' in reviews"
+pros = ["Catches the 20%-off window for digital-only games you play on Game Pass", "Fits the existing delisting watch"]
+cons = ["One more agenda item each month"]
+[[decision.option]]
+label = "Downgrade to Premium"
+pros = ["About a third cheaper than Ultimate", "First-party arrives ~1 year later — around when used discs get cheap"]
+cons = ["No day-one first-party (e.g. Gears E-Day, Fable)", "No cloud / PC Game Pass"]
