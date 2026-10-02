@@ -1025,11 +1025,11 @@ PlayStation gets exclusives plus multiplatform games worth having on disc.
 
 </details>
 
-### No next PlayStation `no-next-playstation`
+### Next PlayStation: not by default `no-next-playstation`
 
-Most likely not buying the next PlayStation (no Disc-to-Digital, anti-consumer moves) → fill the PlayStation collection while discs are still produced.
+Not planning the next PlayStation by default (no Disc-to-Digital, discs end for new games in 2028) → fill the PlayStation collection while discs are still produced. Reconsider if Sony brings discs back for new games, or if a PS6 disc drive (built-in or optional) plays PS4/PS5 discs AND there's a reason beyond the drive (big exclusives).
 
-_Why:_ Unless a very big exclusive changes the picture — Intergalactic is on watch.
+_Why:_ A drive that only serves old PS4/PS5 discs is no reason on its own — the PS4/PS5 already play them, and paying Sony for the drive is what you don't want. Intergalactic is on watch; see question ps6-conditions.
 
 1 targets — ⬜ 1 · 🕒 0 · ✅ 0 · ➖ 0
 

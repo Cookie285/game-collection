@@ -70,7 +70,9 @@ Priority across platforms: **PC** (best graphics) → **Nintendo** (best physica
 
 ## Next PlayStation
 
-- Most likely **not** buying the next PlayStation (no Disc-to-Digital; Sony's recent moves seen as anti-consumer) — unless a very big exclusive changes that (*Intergalactic* on watch).
+- **Not by default** buying the next PlayStation (no Disc-to-Digital; Sony's recent moves seen as anti-consumer; no discs for new games from Jan 2028).
+- **Reconsider** if Sony brings discs back for new games, or if a PS6 disc drive (built-in or optional) plays PS4/PS5 discs **and** there's a reason beyond the drive — big exclusives (*Intergalactic* on watch).
+- A drive that only serves old PS4/PS5 discs isn't a reason on its own: the PS4/PS5 already play them, and paying Sony for the drive is exactly what's not wanted.
 - So: fill the PlayStation collection while discs are still produced; buy used copies for older gaps.
 
 ## Future-proofing
