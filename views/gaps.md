@@ -6,7 +6,7 @@ Curated in [`data/targets/`](../data/targets/). A target flips to ✅ automatica
 
 Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 
-⬜ 404 open · 🕒 18 ordered · ✅ 80 done · ➖ 98 skip
+⬜ 400 open · 🕒 18 ordered · ✅ 85 done · ➖ 97 skip
 
 📀 = same title already owned on another platform (one copy per game!)
 
@@ -16,7 +16,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 |---|---|---|---|---|---|---|
 | Grand Theft Auto VI | PlayStation 5 | high | PS5 gaps – Multiplatform | watching | PS5 — but the boxed release is code-in-a-box (no disc); see decision gta6-preorder | Continues your GTA run (IV/V PS3, LCS/VCS PSP). No PC version at launch. · Other versions: No Switch; PC later · Standard disc · Release date reaffirmed by Take-Two · Still 19 Nov 2026 — Take-Two reaffirmed in Aug 2026 (checked 2026-09-28) · Still 19 Nov 2026 — Take-Two reaffirmed 'no further delay' at the Sep 2026 shareholder meeting; pre-orders open since 25 Jun 2026 (Standard / Ultimate); pre-load from 12 Nov (checked 2026-10-01) · CORRECTION: the boxed PS5 / Xbox release contains no disc, only a download code (Rockstar, Jun 2026 — anti-leak; boxes in stores 12 Nov for pre-loading). The earlier 'Standard disc' was wrong. A later disc release is only rumoured and Take-Two has denied it (checked 2026-10-01) |
 | Hogwarts Legacy | PlayStation 5, Nintendo Switch | high | PS5 gaps – Multiplatform | undecided | PS5 disc; new or used, only at a really good price | owned on Steam (Hogwarts Legacy) – only if very cheap, new or used · Decision: Switch = Switch 1 cart (weak port); Switch 2 Game-Key Card; PS = PS5 disc; suggestion: PS5 – Rule says Switch 1 cart, but it's the weakest version by far; this is a Harry Potter collection piece. · You collect the Harry Potter games (PS1–PS3). · Other versions: Switch 1 has a cart (weak port); Switch 2 = Game-Key Card · Rule says Switch 1 cart; quality says PS5 · Confirmed: no new PS5/Switch news beyond current note (checked 2026-09-28) · No new PS5 edition; Switch 2 still Game-Key Card (~24 GB install) (checked 2026-10-01) · Xbox Play Anywhere: yes on Xbox Series X\|S since Sep 2025 (not the Xbox One version) (checked 2026-10-02) |
-| Kingdom Hearts Collection [I–III] | PlayStation 5, Nintendo Switch 2 | high | PS5 gaps – Multiplatform | undecided | PS5 disc; new (upcoming release, price limit not set yet) | Decision: Switch = Switch 2 Game-Key Card, 131 GB download; PS = PS5 full disc (8 Oct 2026); suggestion: PS5 – JRPG rule says Switch, but the Switch 2 box is effectively a download voucher for a huge game. · One disc = 1.5+2.5 ReMIX, 2.8 and KH III + Re Mind. You only own KH III (PS4). · Other versions: Switch 2 = Game-Key Card, ~131 GB download · PS5 disc is full install · JRPG rule says Switch – but Switch 2 is GKC. Recommendation: PS5. Makes KH III PS4 surplus. · Also on Xbox Series X\|S, but digital only — physical only on PS5 (disc) and Switch 2 (Game-Key Card) (checked 2026-09-28) · Still 8 Oct 2026; EU PS5 disc listed at retail (EAN 5021290103122). Pre-order coverage and Square Enix's store say the physical version needs an additional data download — 'full install on the disc' is not confirmed (checked 2026-10-01) |
+| Kingdom Hearts Collection [I–III] | PlayStation 5, Nintendo Switch 2 | high | PS5 gaps – Multiplatform | undecided | PS5 disc; new (upcoming release, price limit not set yet) | Decision: Switch = Switch 2 Game-Key Card, 131 GB download; PS = PS5 full disc (8 Oct 2026); suggestion: PS5 – JRPG rule says Switch, but the Switch 2 box is effectively a download voucher for a huge game. · One disc = 1.5+2.5 ReMIX, 2.8 and KH III + Re Mind. You only own KH III (PS4). · Other versions: Switch 2 = Game-Key Card, ~131 GB download · PS5 disc is full install · JRPG rule says Switch – but Switch 2 is GKC. Recommendation: PS5. Makes KH III PS4 surplus. · Also on Xbox Series X\|S, but digital only — physical only on PS5 (disc) and Switch 2 (Game-Key Card) (checked 2026-09-28) · Still 8 Oct 2026; EU PS5 disc listed at retail (EAN 5021290103122). Pre-order coverage and Square Enix's store say the physical version needs an additional data download — 'full install on the disc' is not confirmed (checked 2026-10-01) · Still 8 Oct 2026 on PS5 / Xbox / Switch 2; Switch 2 physical = Game-Key Card (checked 2026-10-02) |
 | Metaphor: ReFantazio | PlayStation 5, Nintendo Switch 2 | high | PS5 gaps – Multiplatform | undecided | PS5 disc; used preferred (price limit not set yet) | Decision: Switch = Switch 2 Game-Key Card (12 Nov 2026); PS = PS5 disc; suggestion: Your call – If you accept Game-Key Cards for JRPGs (you did for Bravely Default HD, Brigandine Abyss, Granblue Relink) → Switch 2; else PS5. · Top-tier Atlus JRPG, not owned. · Other versions: Switch 2 (12 Nov 2026) = Game-Key Card · Decide: Switch 2 GKC (like Bravely Default/Granblue) vs PS5 disc · Switch 2 physical confirmed as Game-Key Card (also a SteelBook GKC edition), 12 Nov 2026 (checked 2026-09-28) · Unchanged: Switch 2 12 Nov 2026, Game-Key Card (SteelBook edition also GKC) (checked 2026-10-01) · Xbox Play Anywhere: yes (checked 2026-10-02) |
 | Persona 3 Reload | PlayStation 5, Nintendo Switch 2 | high | PS5 gaps – Multiplatform | undecided | PS5 disc; used preferred (price limit not set yet) | Decision: Switch = Switch 2 Game-Key Card, no DLC; PS = PS5 disc; suggestion: Your call – Same as Metaphor. The Switch 2 version also leaves out Episode Aigis. · Missing Persona entry (own P5R). · Other versions: Switch 2 = Game-Key Card, Episode Aigis DLC not included · Decide: Switch 2 GKC vs PS5 disc · Switch 2 version out since 23 Oct 2025 — physical is a Game-Key Card (checked 2026-09-28) · Xbox Play Anywhere: yes (checked 2026-10-02) |
 | Tales of Arise | PlayStation 5, Nintendo Switch 2 | high | PS5 gaps – Multiplatform | undecided | PS5 disc; new or used, only at a really good price | owned on Steam (Tales of ARISE) – only if very cheap, new or used · Decision: Switch = Switch 2 Game-Key Card incl. Beyond the Dawn; PS = PS5 disc (DLC separate); suggestion: Your call – Switch 2 includes the DLC; PS5 gives you a real disc. · Missing modern Tales entry. · Other versions: Switch 2 Beyond the Dawn Ed. (May 2026) = Game-Key Card · Check if a PS5 'Beyond the Dawn' disc edition exists; else DLC digital · Decide: Switch 2 GKC (incl. DLC) vs PS5 disc · No separate PS5 'Beyond the Dawn' disc edition found — DLC still separate on PS5 (checked 2026-09-28) · Still no PS5 'Beyond the Dawn' disc — the PS5 Beyond the Dawn editions are digital only (checked 2026-10-01) · Xbox Play Anywhere: no (checked 2026-10-02) |
@@ -76,7 +76,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Sonic & All-Stars Racing Transformed | Xbox 360 | high | Xbox 360 BC |  | disc (delisted – not buyable in store) | Xbox Store: DISC ONLY (delisted); C – multiplatform, no modern version |
 | Spec Ops: The Line | Xbox 360 | high | Xbox 360 BC |  | disc (delisted – not buyable in store) | Xbox Store: DISC ONLY (delisted 2024); C – multiplatform, no modern version; Disc is the only legal copy on any platform |
 
-## ⬜ Open by group (404)
+## ⬜ Open by group (400)
 
 ### Activision / Blizzard (10)
 
@@ -108,7 +108,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | The Evil Within | Xbox One | someday | undecided | used disc | Suggested (scope layer 3, pre-acquisition). Tango – 360 disc also exists |
 | The Evil Within 2 | Xbox One | someday | undecided | used disc | Suggested (scope layer 3, pre-acquisition). Tango |
 
-### Buy elsewhere (not PlayStation) (55)
+### Buy elsewhere (not PlayStation) (54)
 
 | Title | Platform | Prio | State | Plan / where | Owned on / note |
 |---|---|---|---|---|---|
@@ -142,7 +142,6 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Indiana Jones and the Great Circle | xbox-modern | low |  | Xbox disc (Disc-to-Digital) | Buy on Xbox instead of PlayStation – Xbox disc = Disc-to-Digital licence (your MS 1st-party angle) (Microsoft/Bethesda 1st-party) · Xbox Play Anywhere: yes (checked 2026-10-02) |
 | Kingdom Come: Deliverance II | PC | low |  | Steam sale only (no physical) | Buy on PC instead of PlayStation – Steam sales (Western RPGs) |
 | L.A. Noire | Nintendo Switch | low |  | Switch cart | Buy on Switch instead of PlayStation – Switch physical (Rockstar) |
-| Lies of P: Complete Edition | Nintendo Switch 2 | low |  | Switch 2 full cart | Buy on Switch 2 instead of PlayStation – Full game on cart (6 Aug 2026) (Soulslike you'd want) |
 | Ni no Kuni: Wrath of the White Witch Remastered | Nintendo Switch | low |  | Switch cart | Buy on Switch instead of PlayStation – Switch physical (You own Ni no Kuni II (PS4)) |
 | NieR:Automata The End of YoRHa Edition | Nintendo Switch | low |  | Switch cart | Buy on Switch instead of PlayStation – Switch physical (NieR series) · owned on Steam (NieR:Automata™) – only if very cheap |
 | Okami HD | Nintendo Switch | low |  | Switch cart | Buy on Switch instead of PlayStation – Switch physical (Capcom classics) · owned on Steam (Okami HD) – only if very cheap |
@@ -463,7 +462,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Elden Ring | PlayStation 5 | high |  | PS5 disc; new or used, only at a really good price | Shadow of the Erdtree Edition · owned on Steam (ELDEN RING) – only if very cheap, new or used · Biggest gap in your Souls line-up (own Demon's Souls, Bloodborne + many soulslikes). · Other versions: Switch 2 Tarnished Ed. (28 Aug 2026) = Game-Key Card · Common used · PS5 Pro is the best console version · Xbox Play Anywhere: no (PC only via Steam) (checked 2026-10-02) |
 | Grand Theft Auto VI | PlayStation 5 | high | watching | PS5 — but the boxed release is code-in-a-box (no disc); see decision gta6-preorder | Continues your GTA run (IV/V PS3, LCS/VCS PSP). No PC version at launch. · Other versions: No Switch; PC later · Standard disc · Release date reaffirmed by Take-Two · Still 19 Nov 2026 — Take-Two reaffirmed in Aug 2026 (checked 2026-09-28) · Still 19 Nov 2026 — Take-Two reaffirmed 'no further delay' at the Sep 2026 shareholder meeting; pre-orders open since 25 Jun 2026 (Standard / Ultimate); pre-load from 12 Nov (checked 2026-10-01) · CORRECTION: the boxed PS5 / Xbox release contains no disc, only a download code (Rockstar, Jun 2026 — anti-leak; boxes in stores 12 Nov for pre-loading). The earlier 'Standard disc' was wrong. A later disc release is only rumoured and Take-Two has denied it (checked 2026-10-01) |
 | Hogwarts Legacy | PlayStation 5, Nintendo Switch | high | undecided | PS5 disc; new or used, only at a really good price | owned on Steam (Hogwarts Legacy) – only if very cheap, new or used · Decision: Switch = Switch 1 cart (weak port); Switch 2 Game-Key Card; PS = PS5 disc; suggestion: PS5 – Rule says Switch 1 cart, but it's the weakest version by far; this is a Harry Potter collection piece. · You collect the Harry Potter games (PS1–PS3). · Other versions: Switch 1 has a cart (weak port); Switch 2 = Game-Key Card · Rule says Switch 1 cart; quality says PS5 · Confirmed: no new PS5/Switch news beyond current note (checked 2026-09-28) · No new PS5 edition; Switch 2 still Game-Key Card (~24 GB install) (checked 2026-10-01) · Xbox Play Anywhere: yes on Xbox Series X\|S since Sep 2025 (not the Xbox One version) (checked 2026-10-02) |
-| Kingdom Hearts Collection [I–III] | PlayStation 5, Nintendo Switch 2 | high | undecided | PS5 disc; new (upcoming release, price limit not set yet) | Decision: Switch = Switch 2 Game-Key Card, 131 GB download; PS = PS5 full disc (8 Oct 2026); suggestion: PS5 – JRPG rule says Switch, but the Switch 2 box is effectively a download voucher for a huge game. · One disc = 1.5+2.5 ReMIX, 2.8 and KH III + Re Mind. You only own KH III (PS4). · Other versions: Switch 2 = Game-Key Card, ~131 GB download · PS5 disc is full install · JRPG rule says Switch – but Switch 2 is GKC. Recommendation: PS5. Makes KH III PS4 surplus. · Also on Xbox Series X\|S, but digital only — physical only on PS5 (disc) and Switch 2 (Game-Key Card) (checked 2026-09-28) · Still 8 Oct 2026; EU PS5 disc listed at retail (EAN 5021290103122). Pre-order coverage and Square Enix's store say the physical version needs an additional data download — 'full install on the disc' is not confirmed (checked 2026-10-01) |
+| Kingdom Hearts Collection [I–III] | PlayStation 5, Nintendo Switch 2 | high | undecided | PS5 disc; new (upcoming release, price limit not set yet) | Decision: Switch = Switch 2 Game-Key Card, 131 GB download; PS = PS5 full disc (8 Oct 2026); suggestion: PS5 – JRPG rule says Switch, but the Switch 2 box is effectively a download voucher for a huge game. · One disc = 1.5+2.5 ReMIX, 2.8 and KH III + Re Mind. You only own KH III (PS4). · Other versions: Switch 2 = Game-Key Card, ~131 GB download · PS5 disc is full install · JRPG rule says Switch – but Switch 2 is GKC. Recommendation: PS5. Makes KH III PS4 surplus. · Also on Xbox Series X\|S, but digital only — physical only on PS5 (disc) and Switch 2 (Game-Key Card) (checked 2026-09-28) · Still 8 Oct 2026; EU PS5 disc listed at retail (EAN 5021290103122). Pre-order coverage and Square Enix's store say the physical version needs an additional data download — 'full install on the disc' is not confirmed (checked 2026-10-01) · Still 8 Oct 2026 on PS5 / Xbox / Switch 2; Switch 2 physical = Game-Key Card (checked 2026-10-02) |
 | Metaphor: ReFantazio | PlayStation 5, Nintendo Switch 2 | high | undecided | PS5 disc; used preferred (price limit not set yet) | Decision: Switch = Switch 2 Game-Key Card (12 Nov 2026); PS = PS5 disc; suggestion: Your call – If you accept Game-Key Cards for JRPGs (you did for Bravely Default HD, Brigandine Abyss, Granblue Relink) → Switch 2; else PS5. · Top-tier Atlus JRPG, not owned. · Other versions: Switch 2 (12 Nov 2026) = Game-Key Card · Decide: Switch 2 GKC (like Bravely Default/Granblue) vs PS5 disc · Switch 2 physical confirmed as Game-Key Card (also a SteelBook GKC edition), 12 Nov 2026 (checked 2026-09-28) · Unchanged: Switch 2 12 Nov 2026, Game-Key Card (SteelBook edition also GKC) (checked 2026-10-01) · Xbox Play Anywhere: yes (checked 2026-10-02) |
 | Persona 3 Reload | PlayStation 5, Nintendo Switch 2 | high | undecided | PS5 disc; used preferred (price limit not set yet) | Decision: Switch = Switch 2 Game-Key Card, no DLC; PS = PS5 disc; suggestion: Your call – Same as Metaphor. The Switch 2 version also leaves out Episode Aigis. · Missing Persona entry (own P5R). · Other versions: Switch 2 = Game-Key Card, Episode Aigis DLC not included · Decide: Switch 2 GKC vs PS5 disc · Switch 2 version out since 23 Oct 2025 — physical is a Game-Key Card (checked 2026-09-28) · Xbox Play Anywhere: yes (checked 2026-10-02) |
 | Resident Evil Requiem | PlayStation 5 | high |  | PS5 disc; used preferred (price limit not set yet) | Only mainline RE missing; your RE line is on PS5. · Other versions: Switch 2 = Game-Key Card · Xbox Play Anywhere: no (no Xbox PC version) (checked 2026-10-02) |
@@ -480,7 +479,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Marvel's Guardians of the Galaxy | PlayStation 5 | medium |  | PS5 disc; new or used, only at a really good price | owned on Steam (Marvel's Guardians of the Galaxy) – only if very cheap, new or used · Strong single-player Marvel title. · Other versions: Switch 2 = Game-Key Card · Xbox Play Anywhere: yes (checked 2026-10-02) |
 | Monster Hunter Wilds | PlayStation 5 | medium |  | PS5 disc; used preferred (price limit not set yet) | You own MH Rise/Generations/Stories on Switch; Wilds is solo-playable. · Other versions: Switch 2 = Game-Key Card · Switch 2 version 4 Dec 2026 — physical Deluxe Edition is a Game-Key Card (GameStop listing) (checked 2026-10-01) |
 | Persona 4 Revival | PlayStation 5, Nintendo Switch 2 | medium | undecided |  | Suggested (review 2026-09-28): Persona 4 remake — PS5 / Xbox Series / PC on 18 Feb 2027, Switch 2 on 20 May 2027 (physical format not announced). JRPG rule: Switch if it's a real cart. · Switch 2 date 20 May 2027 restated in the Sep 2026 Nintendo Direct; Switch 2 physical format still not announced (checked 2026-10-01) |
-| Phantom Blade Zero | PlayStation 5 | medium |  | PS5 disc; new (upcoming release, price limit not set yet) | ❓ EU PS5 disc? (only an Asian disc was listed on 2026-09-28) · Chinese action game in the Black Myth / Wuchang vein. · Date per official site · Releases 29 Oct 2026; a PS5 disc is only listed for Asia so far — no EU disc pre-orders (checked 2026-09-28) · Still 29 Oct 2026; still no EU / PAL PS5 disc — publisher reportedly plans no physical release outside Asia for now (Play-Asia lists the Asian disc) (checked 2026-10-01) |
+| Phantom Blade Zero | PlayStation 5 | medium |  | PS5 disc; new (upcoming release, price limit not set yet) | ❓ EU PS5 disc? (only an Asian disc was listed on 2026-09-28) · Chinese action game in the Black Myth / Wuchang vein. · Date per official site · Releases 29 Oct 2026; a PS5 disc is only listed for Asia so far — no EU disc pre-orders (checked 2026-09-28) · Still 29 Oct 2026; still no EU / PAL PS5 disc — publisher reportedly plans no physical release outside Asia for now (Play-Asia lists the Asian disc) (checked 2026-10-01) · Still no EU standard PS5 disc; the global Collector's Edition (8,000 units) holds a digital code, not a disc; a disc is only sold via Asian import (Play-Asia) (checked 2026-10-02) |
 | Scarlet Nexus | PlayStation 5 | medium |  | PS5 disc; new or used, only at a really good price | owned on Steam (SCARLET NEXUS) – only if very cheap, new or used · Bandai Namco ARPG, no Switch. · Xbox Play Anywhere: yes (checked 2026-10-02) |
 | Silent Hill: Townfall | PlayStation 5 | medium | undecided | PS5 disc; new or used | Suggested (review 2026-09-28): new Silent Hill (tracked series), out 24 Sep 2026 on PS5 + PC, physical PS5 edition; no Xbox / Switch version. · EU PS5 disc at retail (only the Standard Edition is physical; Deluxe is digital only); Konami: timed PS5 console exclusive (at least six months), no Xbox / Switch 2 version announced (checked 2026-10-01) |
 | Star Wars Outlaws | PlayStation 5 | medium |  | PS5 disc; used preferred (price limit not set yet) | Single-player Star Wars. · Other versions: Switch 2 = Game-Key Card · Xbox Play Anywhere: no (the Xbox-app PC version is a separate Ubisoft Connect purchase) (checked 2026-10-02) |
@@ -605,7 +604,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Uncharted: Legacy of Thieves Collection | PlayStation 5 | low |  | PS5 disc; used preferred (price limit not set yet) | Replaces/upgrades owned Uncharted 4 + Lost Legacy (PS4). Same content, better performance. |
 | Until Dawn (2024) | PlayStation 5 | low |  | PS5 disc; used preferred (price limit not set yet) | Replaces/upgrades owned Until Dawn (PS4). Remake. |
 
-### Xbox 360 BC (27)
+### Xbox 360 BC (24)
 
 | Title | Platform | Prio | State | Plan / where | Owned on / note |
 |---|---|---|---|---|---|
@@ -613,9 +612,6 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Spec Ops: The Line | Xbox 360 | high |  | disc (delisted – not buyable in store) | Xbox Store: DISC ONLY (delisted 2024); C – multiplatform, no modern version; Disc is the only legal copy on any platform |
 | Earth Defense Force 2017 | Xbox 360 | medium |  | disc if delisted, else digital Xbox Store sale – verify store status | Xbox Store: Verify; C – multiplatform, no modern version |
 | Fable III | Xbox 360 | medium |  | disc if delisted, else digital Xbox Store sale – verify store status | Xbox Store: Verify – delisted on PC; Xbox listing uncertain; A – first-party, no modern version; Delisted digitally |
-| Gears of War 2 | Xbox 360 | medium |  | disc – Gears shelf consistency | Xbox Store: Digital (Xbox Store); A – first-party, no modern version; No remaster – 360 disc is the only copy |
-| Gears of War 3 | Xbox 360 | medium |  | disc – Gears shelf consistency | Xbox Store: Digital (Xbox Store); A – first-party, no modern version; No remaster |
-| Gears of War: Judgment | Xbox 360 | medium |  | disc – Gears shelf consistency | Xbox Store: Digital (Xbox Store); A – first-party, no modern version |
 | Split/Second | Xbox 360 | medium |  | disc if delisted, else digital Xbox Store sale – verify store status | Xbox Store: Verify – likely delisted; C – multiplatform, no modern version |
 | Ace Combat 6: Fires of Liberation | Xbox 360 | low | undecided | Xbox 360 disc (delisted digitally) | Suggested (review 2026-10-02, question ace-combat): Xbox 360 exclusive; backward compatible on Xbox One / Series since 2019; not sold digitally (was only an Ace Combat 7 pre-order bonus), DLC delisted 2016 – the disc is the way (checked 2026-10-02) |
 | Blur | Xbox 360 | low |  | disc (delisted – not buyable in store) | 📀 owned on PlayStation 3 · Xbox Store: DISC ONLY (delisted); C – multiplatform, no modern version; Already owned on PlayStation 3 – 360 disc only if wanted playable on current hardware |
@@ -641,7 +637,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 
 | Title | Platform | Prio | Group | State | Plan / where | Owned on / note |
 |---|---|---|---|---|---|---|
-| Gears of War: E-Day | Xbox Series X\|S | high | First-party |  | Pre-ordered (Xbox) | scope layer 1 (Gears / The Coalition) · Releases 6 Oct 2026 (Premium early access from 1 Oct) (checked 2026-09-28) · Still 6 Oct 2026 (Premium / Collector's early access 1 Oct). Xbox Series X disc, content download required; supports Disc-to-Digital + Play Anywhere. PS5 version cancelled — Xbox console exclusive, 'not timed' (checked 2026-10-01) |
+| Gears of War: E-Day | Xbox Series X\|S | high | First-party |  | Pre-ordered (Xbox) | scope layer 1 (Gears / The Coalition) · Releases 6 Oct 2026 (Premium early access from 1 Oct) (checked 2026-09-28) · Still 6 Oct 2026 (Premium / Collector's early access 1 Oct). Xbox Series X disc, content download required; supports Disc-to-Digital + Play Anywhere. PS5 version cancelled — Xbox console exclusive, 'not timed' (checked 2026-10-01) · Early access live since 1 Oct (Premium / Collector's); standard launch still 6 Oct 2026 (checked 2026-10-02) |
 | Days Gone | PlayStation 4 | high | PS4 gaps – Sony 1st-party |  | PS4 disc; used preferred (price limit not set yet) | Remastered PS5 is digital-only – PS4 disc + paid upgrade is the only physical route. · Very cheap used |
 | Fable | PlayStation 5 | high | PS5 gaps – Microsoft 1st-party |  | PS5 disc (pre-ordered) | Pre-ordered on PS5 (Xbox disc only if cheap later). · Already pre-ordered · Delayed to 23 Feb 2027 (PS5, Xbox Series, PC) (checked 2026-09-28) · Still 23 Feb 2027 (checked 2026-10-01) |
 | Call of Duty: Modern Warfare 4 | Xbox Series X\|S | high | Series runs – Call of Duty |  | Xbox Series X disc (pre-order candidate) | Suggested (review 2026-09-28): next entry of the complete Xbox CoD run — Infinity Ward, 23 Oct 2026. Also on PS5, PS4/Xbox One and Switch 2; the shooter rule keeps it on Xbox. · Still 23 Oct 2026. Xbox Series X standard edition = disc, content download required (Vault Edition digital only). Switch 2 retail = code-in-a-box (checked 2026-10-01) |
@@ -660,7 +656,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Tom Clancy's Splinter Cell | Xbox | someday | Third-party Xbox series (not interested) |  |  | Said 'doesn't sound interesting from series perspective' |
 | Tom Clancy's Splinter Cell: Pandora Tomorrow | Xbox | someday | Third-party Xbox series (not interested) |  |  | Said 'doesn't sound interesting from series perspective' |
 
-## ✅ Done (80)
+## ✅ Done (85)
 
 <details><summary>show</summary>
 
@@ -688,6 +684,9 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Psychonauts 2 | Xbox One, Xbox Series X\|S | medium | First-party |  | used disc, e.g. rebuy.de | Xbox Series X\|S |
 | Redfall | Xbox Series X\|S | medium | First-party |  |  | Xbox Series X\|S |
 | Sea of Thieves | Xbox One | medium | First-party |  |  | Xbox One |
+| Gears of War 2 | Xbox 360 | medium | Xbox 360 BC |  | disc – Gears shelf consistency | Xbox 360 |
+| Gears of War 3 | Xbox 360 | medium | Xbox 360 BC |  | disc – Gears shelf consistency | Xbox 360 |
+| Gears of War: Judgment | Xbox 360 | medium | Xbox 360 BC |  | disc – Gears shelf consistency | Xbox 360 |
 | Call of Duty 2 | Xbox 360 | medium | Xbox 360 BC + Series runs – Call of Duty |  |  | Xbox 360 |
 | Call of Duty 3 | Xbox 360 | medium | Xbox 360 BC + Series runs – Call of Duty |  |  | Xbox 360 |
 | Call of Duty: Black Ops | Xbox 360 | medium | Xbox 360 BC + Series runs – Call of Duty |  |  | Xbox 360 |
@@ -695,6 +694,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Call of Duty: Modern Warfare Trilogy | Xbox 360 | medium | Xbox 360 BC + Series runs – Call of Duty |  |  | Xbox 360 |
 | Call of Duty: World at War | Xbox 360 | medium | Xbox 360 BC + Series runs – Call of Duty |  |  | Xbox 360 |
 | Hi-Fi Rush | xbox-modern | low | Buy elsewhere (not PlayStation) |  | Xbox disc, cheap from netgames | Xbox Series X\|S |
+| Lies of P: Complete Edition | Nintendo Switch 2 | low | Buy elsewhere (not PlayStation) |  | Switch 2 full cart | Nintendo Switch 2 |
 | Titanfall 2 | Xbox One | low | Checklist (Disc-to-Digital) |  |  | Xbox One |
 | Crackdown 3 | Xbox One | low | Checklist (Disc-to-Digital) + First-party |  |  | Xbox One |
 | Halo Infinite | Xbox Series X\|S | low | Checklist (Disc-to-Digital) + First-party |  |  | Xbox Series X\|S |
@@ -743,13 +743,14 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Call of Duty: Modern Warfare Remastered | Xbox One | someday | Series runs – Call of Duty |  |  | Xbox One |
 | Call of Duty: Vanguard | Xbox Series X\|S | someday | Series runs – Call of Duty |  |  | Xbox Series X\|S |
 | Call of Duty: WWII | Xbox One | someday | Series runs – Call of Duty |  |  | Xbox One |
+| Gears of War | Xbox 360 | someday | Xbox 360 BC |  |  | Xbox 360 |
 | Halo Wars | Xbox 360 | someday | Xbox 360 BC |  |  | Xbox 360 |
 | Perfect Dark Zero | Xbox 360 | someday | Xbox 360 BC |  |  | Xbox 360 |
 | Call of Duty 4: Modern Warfare | Xbox 360 | someday | Xbox 360 BC + Series runs – Call of Duty |  |  | Xbox 360 |
 
 </details>
 
-## ➖ Skipped (98)
+## ➖ Skipped (97)
 
 <details><summary>show</summary>
 
@@ -843,7 +844,6 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Forza Motorsport 2 | Xbox 360 | someday | Xbox 360 BC |  |  | Not backward compatible – shelf only; not collecting |
 | Forza Motorsport 3 | Xbox 360 | someday | Xbox 360 BC |  |  | Not backward compatible – shelf only; not collecting |
 | Forza Motorsport 4 | Xbox 360 | someday | Xbox 360 BC |  |  | Not backward compatible – shelf only; not collecting |
-| Gears of War | Xbox 360 | someday | Xbox 360 BC |  |  | Xbox Store: Digital (Xbox Store); A – first-party, no modern version; Covered by Gears of War: Ultimate Edition (owned) |
 | Halo 3 | Xbox 360 | someday | Xbox 360 BC |  |  | Xbox Store: Digital (Xbox Store); A – first-party, no modern version; Covered by Halo: The Master Chief Collection (owned) |
 | Halo 3: ODST | Xbox 360 | someday | Xbox 360 BC |  |  | Xbox Store: Digital (Xbox Store); A – first-party, no modern version; Covered by Halo: The Master Chief Collection (owned) |
 | Halo 4 | Xbox 360 | someday | Xbox 360 BC |  |  | Xbox Store: Digital (Xbox Store); A – first-party, no modern version; Covered by Halo: The Master Chief Collection (owned) |

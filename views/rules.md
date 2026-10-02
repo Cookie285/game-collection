@@ -74,9 +74,9 @@ Platform order: PC (best graphics) → Nintendo (best physical line-up) → what
 
 _Why:_ Each game is bought once, on the platform where it plays or collects best.
 
-77 targets — ⬜ 55 · 🕒 2 · ✅ 2 · ➖ 18
+77 targets — ⬜ 54 · 🕒 2 · ✅ 3 · ➖ 18
 
-<details><summary>55 open</summary>
+<details><summary>54 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -109,7 +109,6 @@ _Why:_ Each game is bought once, on the platform where it plays or collects best
 | Indiana Jones and the Great Circle | xbox-modern | low |  |
 | Kingdom Come: Deliverance II | PC | low |  |
 | L.A. Noire | Nintendo Switch | low |  |
-| Lies of P: Complete Edition | Nintendo Switch 2 | low |  |
 | Ni no Kuni: Wrath of the White Witch Remastered | Nintendo Switch | low |  |
 | NieR:Automata The End of YoRHa Edition | Nintendo Switch | low |  |
 | Okami HD | Nintendo Switch | low |  |
@@ -180,7 +179,7 @@ _Why:_ No need to hunt older discs when a newer disc contains the same games.
 
 _Precedents:_ MW Trilogy → CoD 4 / MW2 / MW3 · MCC → Halo CE–4 · God of War Collection → GoW I + II · Gears UE → Gears of War · Year One → State of Decay
 
-14 targets — ⬜ 1 · 🕒 0 · ✅ 3 · ➖ 10
+14 targets — ⬜ 1 · 🕒 0 · ✅ 4 · ➖ 9
 
 <details><summary>1 open</summary>
 
@@ -699,9 +698,9 @@ Switch is first choice for JRPGs and for anything that has a real Switch cart.
 
 _Why:_ Best physical line-up; carts are complete and play on Switch 2.
 
-59 targets — ⬜ 56 · 🕒 0 · ✅ 2 · ➖ 1
+59 targets — ⬜ 55 · 🕒 0 · ✅ 3 · ➖ 1
 
-<details><summary>56 open</summary>
+<details><summary>55 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -732,7 +731,6 @@ _Why:_ Best physical line-up; carts are complete and play on Switch 2.
 | Final Fantasy X \| X-2 HD Remaster | Nintendo Switch | low |  |
 | Grand Theft Auto: The Trilogy – The Definitive Edition | Nintendo Switch | low |  |
 | L.A. Noire | Nintendo Switch | low |  |
-| Lies of P: Complete Edition | Nintendo Switch 2 | low |  |
 | Ni no Kuni: Wrath of the White Witch Remastered | Nintendo Switch | low |  |
 | NieR:Automata The End of YoRHa Edition | Nintendo Switch | low |  |
 | Okami HD | Nintendo Switch | low |  |
@@ -1215,9 +1213,9 @@ Microsoft first-party on Xbox disc: layer 1 = published by Microsoft / Xbox Game
 
 _Why:_ Historical publisher counts — the Sep 2026 Xbox reset doesn't change scope.
 
-64 targets — ⬜ 22 · 🕒 3 · ✅ 38 · ➖ 1
+64 targets — ⬜ 19 · 🕒 3 · ✅ 41 · ➖ 1
 
-<details><summary>22 open</summary>
+<details><summary>19 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -1226,9 +1224,6 @@ _Why:_ Historical publisher counts — the Sep 2026 Xbox reset doesn't change sc
 | Doom: The Dark Ages | Xbox Series X\|S | low |  |
 | Fable | Xbox Series X\|S | low | watching |
 | Fallout 4 | Xbox One | someday |  |
-| Gears of War 2 | Xbox 360 | medium |  |
-| Gears of War 3 | Xbox 360 | medium |  |
-| Gears of War: Judgment | Xbox 360 | medium |  |
 | Gears of War: Reloaded | PlayStation 5 | someday | watching |
 | Grounded | Xbox Series X\|S | someday | watching |
 | Halo: Campaign Evolved | Xbox Series X\|S | medium | watching |
@@ -1330,7 +1325,7 @@ Xbox 360 / OG Xbox backward-compatible titles are bought digitally in Xbox Store
 
 _Why:_ No key sellers for 360 titles; digital BC licences likely outlive discs.
 
-102 targets — ⬜ 40 · 🕒 0 · ✅ 43 · ➖ 19
+102 targets — ⬜ 40 · 🕒 0 · ✅ 44 · ➖ 18
 
 <details><summary>40 open</summary>
 

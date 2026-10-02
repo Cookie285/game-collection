@@ -280,7 +280,7 @@ priority = "high"
 group = "First-party"
 plan = "Pre-ordered (Xbox)"
 state = "preordered"
-note = "scope layer 1 (Gears / The Coalition) · Releases 6 Oct 2026 (Premium early access from 1 Oct) (checked 2026-09-28) · Still 6 Oct 2026 (Premium / Collector's early access 1 Oct). Xbox Series X disc, content download required; supports Disc-to-Digital + Play Anywhere. PS5 version cancelled — Xbox console exclusive, 'not timed' (checked 2026-10-01)"
+note = "scope layer 1 (Gears / The Coalition) · Releases 6 Oct 2026 (Premium early access from 1 Oct) (checked 2026-09-28) · Still 6 Oct 2026 (Premium / Collector's early access 1 Oct). Xbox Series X disc, content download required; supports Disc-to-Digital + Play Anywhere. PS5 version cancelled — Xbox console exclusive, 'not timed' (checked 2026-10-01) · Early access live since 1 Oct (Premium / Collector's); standard launch still 6 Oct 2026 (checked 2026-10-02)"
 versions = { "Xbox Series X|S" = "disc" }
 play_anywhere = true
 
@@ -753,6 +753,7 @@ priority = "medium"
 group = "Xbox 360 BC"
 plan = "disc – Gears shelf consistency"
 note = "Xbox Store: Digital (Xbox Store); A – first-party, no modern version"
+aliases = ["Gears of War: Judgement"]
 
 [[target]]
 title = "Forza Horizon"
