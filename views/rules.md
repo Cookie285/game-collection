@@ -17,12 +17,13 @@ Physical first. Digital only when there is no other option.
 
 _Why:_ The collection is about owning discs and carts; digital purchases are a fallback, not a goal.
 
-45 targets — ⬜ 41 · 🕒 3 · ✅ 0 · ➖ 1
+46 targets — ⬜ 42 · 🕒 3 · ✅ 0 · ➖ 1
 
-<details><summary>41 open</summary>
+<details><summary>42 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
+| Ace Combat 6: Fires of Liberation | Xbox 360 | low | undecided |
 | Alan Wake | Xbox 360 | someday |  |
 | Asura's Wrath | Xbox 360 | someday |  |
 | Binary Domain | Xbox 360 | someday |  |
@@ -816,12 +817,15 @@ _Precedents:_ Pragmata, Onimusha: Way of the Sword, Full Metal Schoolgirl → PS
 
 PlayStation gets exclusives plus multiplatform games worth having on disc.
 
-199 targets — ⬜ 196 · 🕒 2 · ✅ 1 · ➖ 0
+202 targets — ⬜ 199 · 🕒 2 · ✅ 1 · ➖ 0
 
-<details><summary>196 open</summary>
+<details><summary>199 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
+| Ace Combat 04: Shattered Skies | PlayStation 2 | low | undecided |
+| Ace Combat 5: The Unsung War | PlayStation 2 | low | undecided |
+| Ace Combat Zero: The Belkan War | PlayStation 2 | low | undecided |
 | Alan Wake 2 | PlayStation 5 | medium |  |
 | Alundra | PlayStation | low |  |
 | Ape Escape | PlayStation | low |  |
@@ -1041,12 +1045,15 @@ _Why:_ Unless a very big exclusive changes the picture — Intergalactic is on w
 
 PS1/PS2 discs are region-locked on the PS3 → PAL only. PS3/PS4/PS5 discs are practically region-free.
 
-67 targets — ⬜ 58 · 🕒 0 · ✅ 0 · ➖ 9
+70 targets — ⬜ 61 · 🕒 0 · ✅ 0 · ➖ 9
 
-<details><summary>58 open</summary>
+<details><summary>61 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
+| Ace Combat 04: Shattered Skies | PlayStation 2 | low | undecided |
+| Ace Combat 5: The Unsung War | PlayStation 2 | low | undecided |
+| Ace Combat Zero: The Belkan War | PlayStation 2 | low | undecided |
 | Alundra | PlayStation | low |  |
 | Ape Escape | PlayStation | low |  |
 | Ape Escape 2 | PlayStation 2 | medium |  |
@@ -1138,12 +1145,13 @@ Xbox is the shooter console: full Call of Duty and Battlefield runs. Beats Ninte
 
 _Why:_ Switch shooter ports are usually the weakest version.
 
-97 targets — ⬜ 54 · 🕒 7 · ✅ 33 · ➖ 3
+98 targets — ⬜ 55 · 🕒 7 · ✅ 33 · ➖ 3
 
-<details><summary>54 open</summary>
+<details><summary>55 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
+| Ace Combat 8: Wings of Theve | Xbox Series X\|S, PlayStation 5 | medium | undecided |
 | Borderlands | Xbox 360 | someday | undecided |
 | Borderlands 3 | Xbox One | someday | undecided |
 | Borderlands 4 | Xbox Series X\|S | someday | undecided |
@@ -1289,12 +1297,13 @@ Xbox One / Series discs carry a Disc-to-Digital licence — a reason to buy Micr
 
 _Why:_ One revocable licence per disc; licence moves if the disc is claimed elsewhere → don't lend discs casually.
 
-52 targets — ⬜ 16 · 🕒 7 · ✅ 28 · ➖ 1
+53 targets — ⬜ 17 · 🕒 7 · ✅ 28 · ➖ 1
 
-<details><summary>16 open</summary>
+<details><summary>17 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
+| Ace Combat 8: Wings of Theve | Xbox Series X\|S, PlayStation 5 | medium | undecided |
 | Avowed | Xbox Series X\|S | someday | undecided |
 | Dead Rising 3 | Xbox One | low |  |
 | Deadpool | Xbox One | high |  |
@@ -1320,12 +1329,13 @@ Xbox 360 / OG Xbox backward-compatible titles are bought digitally in Xbox Store
 
 _Why:_ No key sellers for 360 titles; digital BC licences likely outlive discs.
 
-101 targets — ⬜ 39 · 🕒 0 · ✅ 43 · ➖ 19
+102 targets — ⬜ 40 · 🕒 0 · ✅ 43 · ➖ 19
 
-<details><summary>39 open</summary>
+<details><summary>40 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
+| Ace Combat 6: Fires of Liberation | Xbox 360 | low | undecided |
 | Alan Wake | Xbox 360 | someday |  |
 | Asura's Wrath | Xbox 360 | someday |  |
 | Avowed | Xbox Series X\|S | someday | undecided |

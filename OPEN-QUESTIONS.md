@@ -4,11 +4,12 @@
 
 Generated from [`data/decisions.toml`](data/decisions.toml) — edit there (options, recommendation; `status = "decided"` + `outcome` when decided). Also on the web app's **Decisions** page.
 
-## Decisions (29)
+## Decisions (30)
 
 ### General
 
 - [ ] **Set price limits per game or per group?** — No price limits are set yet; ~130 targets say “price limit not set yet”.
+- [ ] **Ace Combat: where does the series fit — and Ace Combat 8 on Xbox Series X or PS5 disc?** — options: Ace Combat 8 on Xbox Series X disc / Ace Combat 8 on PS5 disc / Classics only (04 / 5 / Zero / 6), skip 8 for now — suggestion: Split by era, as your rules already do: classic 04 / 5 / Zero → PS2 PAL discs (they're PlayStation exclusives); 6 → Xbox 360 disc (exclusive, BC, delisted digitally); 7 → keep the Switch cart plan; skip the PSP games. For Ace Combat 8 I'd take the Xbox Series X disc: you don't plan a next PlayStation, while the next Xbox runs the current library — and if Bandai Namco joins Disc-to-Digital the disc gains a digital licence. PS5 is the alternative if you want the modern games next to the PS2 trilogy.
 
 ### PC
 

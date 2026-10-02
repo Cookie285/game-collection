@@ -6,11 +6,11 @@ Curated in [`data/targets/`](../data/targets/). A target flips to ✅ automatica
 
 Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 
-⬜ 399 open · 🕒 18 ordered · ✅ 80 done · ➖ 98 skip
+⬜ 404 open · 🕒 18 ordered · ✅ 80 done · ➖ 98 skip
 
 📀 = same title already owned on another platform (one copy per game!)
 
-## 🤔 Decide / watch (14)
+## 🤔 Decide / watch (15)
 
 | Title | Platform | Prio | Group | State | Plan / where | Owned on / note |
 |---|---|---|---|---|---|---|
@@ -28,6 +28,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Persona 4 Revival | PlayStation 5, Nintendo Switch 2 | medium | PS5 gaps – Multiplatform | undecided |  | Suggested (review 2026-09-28): Persona 4 remake — PS5 / Xbox Series / PC on 18 Feb 2027, Switch 2 on 20 May 2027 (physical format not announced). JRPG rule: Switch if it's a real cart. · Switch 2 date 20 May 2027 restated in the Sep 2026 Nintendo Direct; Switch 2 physical format still not announced (checked 2026-10-01) |
 | Silent Hill: Townfall | PlayStation 5 | medium | PS5 gaps – Multiplatform | undecided | PS5 disc; new or used | Suggested (review 2026-09-28): new Silent Hill (tracked series), out 24 Sep 2026 on PS5 + PC, physical PS5 edition; no Xbox / Switch version. · EU PS5 disc at retail (only the Standard Edition is physical; Deluxe is digital only); Konami: timed PS5 console exclusive (at least six months), no Xbox / Switch 2 version announced (checked 2026-10-01) |
 | Tomb Raider: Legacy of Atlantis | PlayStation 5 | medium | PS5 gaps – Multiplatform | watching | PS5 disc (upcoming, 12 Feb 2027) | Suggested (review 2026-09-28): remake of the first Tomb Raider (Crystal Dynamics / Flying Wild Hog), PS5, Xbox Series, PC. Switch version not announced. · Still 12 Feb 2027 (Deluxe: 48 h early access from 10 Feb). Switch 2 version added for the same day — physical is a Game-Key Card; PS5 / Xbox physical editions at retail (checked 2026-10-01) |
+| Ace Combat 8: Wings of Theve | Xbox Series X\|S, PlayStation 5 | medium | Shooter console suggestions | undecided | disc — Xbox Series X or PS5, see question ace-combat | Suggested (review 2026-10-02, question ace-combat): out 2 Oct 2026 on PS5, Xbox Series X\|S and PC (no Switch); Standard and Deluxe on disc for both consoles; Bandai Namco discs don't convert via Disc-to-Digital (yet) (checked 2026-10-02) |
 
 ## 🎯 High priority (41)
 
@@ -75,7 +76,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Sonic & All-Stars Racing Transformed | Xbox 360 | high | Xbox 360 BC |  | disc (delisted – not buyable in store) | Xbox Store: DISC ONLY (delisted); C – multiplatform, no modern version |
 | Spec Ops: The Line | Xbox 360 | high | Xbox 360 BC |  | disc (delisted – not buyable in store) | Xbox Store: DISC ONLY (delisted 2024); C – multiplatform, no modern version; Disc is the only legal copy on any platform |
 
-## ⬜ Open by group (399)
+## ⬜ Open by group (404)
 
 ### Activision / Blizzard (10)
 
@@ -275,7 +276,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Wild ARMs | PlayStation | low |  | PS1 disc (PAL); used preferred (price limit not set yet) | Series start. · PAL release |
 | Wild ARMs 2 | PlayStation | low |  | PS1 disc (PAL); used preferred (price limit not set yet) | ❓ marked '?' in the checklist – verify before buying · Series. · PAL release |
 
-### PS2 gaps – Multiplatform (31)
+### PS2 gaps – Multiplatform (34)
 
 | Title | Platform | Prio | State | Plan / where | Owned on / note |
 |---|---|---|---|---|---|
@@ -289,6 +290,9 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Silent Hill 3 | PlayStation 2 | medium |  | PS2 disc (PAL); used preferred (price limit not set yet) | Better than the HD Collection port. · PAL release; pricey |
 | Suikoden V | PlayStation 2 | medium |  | PS2 disc (PAL); used preferred (price limit not set yet) | Continues Suikoden (I & II owned on Switch). · PAL release; pricey · Suikoden III was NTSC-only |
 | Valkyrie Profile 2: Silmeria | PlayStation 2 | medium |  | PS2 disc (PAL); used preferred (price limit not set yet) | tri-Ace; the PS1 original never came to PAL. · PAL release |
+| Ace Combat 04: Shattered Skies | PlayStation 2 | low | undecided | PS2 disc, PAL (sold as 'Ace Combat: Distant Thunder') | Suggested (review 2026-10-02, question ace-combat): PS2 only, never re-released; EU release Feb 2002 as 'Ace Combat: Distant Thunder' (checked 2026-10-02) |
+| Ace Combat 5: The Unsung War | PlayStation 2 | low | undecided | PS2 disc, PAL (sold as 'Ace Combat: Squadron Leader') | Suggested (review 2026-10-02, question ace-combat): PS2 only on disc (the PS4 port was only an Ace Combat 7 pre-order bonus in 2019); EU release Feb 2005 as 'Ace Combat: Squadron Leader' (checked 2026-10-02) |
+| Ace Combat Zero: The Belkan War | PlayStation 2 | low | undecided | PS2 disc, PAL | Suggested (review 2026-10-02, question ace-combat): PS2 only (checked 2026-10-02) |
 | Atelier Iris 2: The Azoth of Destiny | PlayStation 2 | low |  | PS2 disc (PAL); used preferred (price limit not set yet) | ❓ marked '?' in the checklist – verify before buying · Series. · PAL release |
 | Atelier Iris 3: Grand Phantasm | PlayStation 2 | low |  | PS2 disc (PAL); used preferred (price limit not set yet) | ❓ marked '?' in the checklist – verify before buying · Series. · PAL release |
 | Atelier Iris: Eternal Mana | PlayStation 2 | low |  | PS2 disc (PAL); used preferred (price limit not set yet) | ❓ marked '?' in the checklist – verify before buying · Not remastered. · PAL release |
@@ -527,10 +531,11 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 |---|---|---|---|---|---|
 | State of Decay 3 | Xbox Series X\|S | someday | undecided |  | Undead Labs now independent; no longer first-party (Sep 2026) – series-on-one-platform rule would still put it on Xbox · Out in 2027 on Xbox Series, PS5 and Steam; Game Pass day one (checked 2026-09-28) · Still 2027 on Xbox Series, PS5, PC; no physical format announced (checked 2026-10-01) |
 
-### Shooter console suggestions (53)
+### Shooter console suggestions (54)
 
 | Title | Platform | Prio | State | Plan / where | Owned on / note |
 |---|---|---|---|---|---|
+| Ace Combat 8: Wings of Theve | Xbox Series X\|S, PlayStation 5 | medium | undecided | disc — Xbox Series X or PS5, see question ace-combat | Suggested (review 2026-10-02, question ace-combat): out 2 Oct 2026 on PS5, Xbox Series X\|S and PC (no Switch); Standard and Deluxe on disc for both consoles; Bandai Namco discs don't convert via Disc-to-Digital (yet) (checked 2026-10-02) |
 | Metro 2033 | Xbox 360 | low | undecided | used disc | I confirmed Metro has discs. |
 | Metro Exodus | Xbox One | low | undecided | used disc | I confirmed Metro has discs. Series X disc via Complete Edition |
 | Metro: Last Light | Xbox 360 | low | undecided | used disc | I confirmed Metro has discs. |
@@ -600,7 +605,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Uncharted: Legacy of Thieves Collection | PlayStation 5 | low |  | PS5 disc; used preferred (price limit not set yet) | Replaces/upgrades owned Uncharted 4 + Lost Legacy (PS4). Same content, better performance. |
 | Until Dawn (2024) | PlayStation 5 | low |  | PS5 disc; used preferred (price limit not set yet) | Replaces/upgrades owned Until Dawn (PS4). Remake. |
 
-### Xbox 360 BC (26)
+### Xbox 360 BC (27)
 
 | Title | Platform | Prio | State | Plan / where | Owned on / note |
 |---|---|---|---|---|---|
@@ -612,6 +617,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Gears of War 3 | Xbox 360 | medium |  | disc – Gears shelf consistency | Xbox Store: Digital (Xbox Store); A – first-party, no modern version; No remaster |
 | Gears of War: Judgment | Xbox 360 | medium |  | disc – Gears shelf consistency | Xbox Store: Digital (Xbox Store); A – first-party, no modern version |
 | Split/Second | Xbox 360 | medium |  | disc if delisted, else digital Xbox Store sale – verify store status | Xbox Store: Verify – likely delisted; C – multiplatform, no modern version |
+| Ace Combat 6: Fires of Liberation | Xbox 360 | low | undecided | Xbox 360 disc (delisted digitally) | Suggested (review 2026-10-02, question ace-combat): Xbox 360 exclusive; backward compatible on Xbox One / Series since 2019; not sold digitally (was only an Ace Combat 7 pre-order bonus), DLC delisted 2016 – the disc is the way (checked 2026-10-02) |
 | Blur | Xbox 360 | low |  | disc (delisted – not buyable in store) | 📀 owned on PlayStation 3 · Xbox Store: DISC ONLY (delisted); C – multiplatform, no modern version; Already owned on PlayStation 3 – 360 disc only if wanted playable on current hardware |
 | Alan Wake | Xbox 360 | someday |  | digital, Xbox Store sale (no key sellers for 360 titles) | Xbox Store: Digital (Xbox Store); A – first-party, no modern version; MS-published at release |
 | Asura's Wrath | Xbox 360 | someday |  | digital, Xbox Store sale (no key sellers for 360 titles) | Xbox Store: Digital (Xbox Store); C – multiplatform, no modern version; Capcom; never re-released |

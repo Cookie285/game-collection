@@ -1889,3 +1889,75 @@ note = "Owned via LEGO HP Collection (Xbox One)"
 [[series.entry]]
 title = "Hogwarts Legacy 2"
 note = "Confirmed in development by WB Games (Aug 2026 earnings call); expected Spring/Summer 2027 (checked 2026-09-28)"
+
+[[series]]
+platforms = ["playstation", "xbox", "nintendo"]
+name = "Ace Combat"
+description = "Added 2026-10-02 (question ace-combat): numbered games PS1/PS2 → PAL discs, 6 → Xbox 360, 7 → Switch, 8 → see question"
+
+[[series.entry]]
+title = "Ace Combat 04: Shattered Skies"
+aliases = ["Ace Combat: Distant Thunder"]
+year = 2001
+note = "PS2; EU: 'Ace Combat: Distant Thunder'"
+
+[[series.entry]]
+title = "Ace Combat 5: The Unsung War"
+aliases = ["Ace Combat: Squadron Leader"]
+year = 2004
+note = "PS2; EU: 'Ace Combat: Squadron Leader'"
+
+[[series.entry]]
+title = "Ace Combat Zero: The Belkan War"
+year = 2006
+note = "PS2"
+
+[[series.entry]]
+title = "Ace Combat 6: Fires of Liberation"
+year = 2007
+note = "Xbox 360 exclusive, backward compatible; disc only"
+
+[[series.entry]]
+title = "Ace Combat: Assault Horizon"
+year = 2011
+note = "Owned (PS3)"
+
+[[series.entry]]
+title = "Ace Combat 7: Skies Unknown"
+year = 2019
+note = "Plan: Switch cart (Deluxe, full game on the cart); PS4 version has the PS VR missions"
+
+[[series.entry]]
+title = "Ace Combat 8: Wings of Theve"
+year = 2026
+note = "PS5 / Xbox Series X|S / PC, 2 Oct 2026"
+
+[[series.entry]]
+title = "Air Combat"
+year = 1995
+optional = true
+note = "PS1 (spin-off era); optional"
+
+[[series.entry]]
+title = "Ace Combat 2"
+year = 1997
+optional = true
+note = "PS1; optional"
+
+[[series.entry]]
+title = "Ace Combat 3: Electrosphere"
+year = 1999
+optional = true
+note = "PS1; the PAL version is heavily cut (no story); optional"
+
+[[series.entry]]
+title = "Ace Combat X: Skies of Deception"
+year = 2006
+optional = true
+note = "PSP – handhelds not collected"
+
+[[series.entry]]
+title = "Ace Combat X2: Joint Assault"
+year = 2010
+optional = true
+note = "PSP – handhelds not collected"

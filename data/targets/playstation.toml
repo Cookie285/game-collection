@@ -2410,3 +2410,32 @@ priority = "low"
 group = "PS5 gaps – Multiplatform"
 state = "watching"
 note = "Suggested (review 2026-10-01): announced Jun 2026 for PS5, Xbox Series, PC; Switch 2 version added 9 Sep 2026. No date, no physical formats yet (checked 2026-10-01)"
+
+[[target]]
+title = "Ace Combat 04: Shattered Skies"
+aliases = ["Ace Combat: Distant Thunder"]
+platforms = ["PlayStation 2"]
+priority = "low"
+group = "PS2 gaps – Multiplatform"
+plan = "PS2 disc, PAL (sold as 'Ace Combat: Distant Thunder')"
+state = "undecided"
+note = "Suggested (review 2026-10-02, question ace-combat): PS2 only, never re-released; EU release Feb 2002 as 'Ace Combat: Distant Thunder' (checked 2026-10-02)"
+
+[[target]]
+title = "Ace Combat 5: The Unsung War"
+aliases = ["Ace Combat: Squadron Leader"]
+platforms = ["PlayStation 2"]
+priority = "low"
+group = "PS2 gaps – Multiplatform"
+plan = "PS2 disc, PAL (sold as 'Ace Combat: Squadron Leader')"
+state = "undecided"
+note = "Suggested (review 2026-10-02, question ace-combat): PS2 only on disc (the PS4 port was only an Ace Combat 7 pre-order bonus in 2019); EU release Feb 2005 as 'Ace Combat: Squadron Leader' (checked 2026-10-02)"
+
+[[target]]
+title = "Ace Combat Zero: The Belkan War"
+platforms = ["PlayStation 2"]
+priority = "low"
+group = "PS2 gaps – Multiplatform"
+plan = "PS2 disc, PAL"
+state = "undecided"
+note = "Suggested (review 2026-10-02, question ace-combat): PS2 only (checked 2026-10-02)"
