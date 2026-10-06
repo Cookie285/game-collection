@@ -2,7 +2,7 @@
 
 # Xbox Series X|S
 
-## Owned (21)
+## Owned (22)
 
 | Title | Edition | Format | Region | Completeness | Purchased | Notes |
 |---|---|---|---|---|---|---|
@@ -18,6 +18,7 @@
 | Forza Horizon 5 |  |  |  |  |  |  |
 | Forza Horizon 6 |  |  |  |  |  |  |
 | Forza Motorsport |  |  |  |  |  |  |
+| Gears of War: E-Day |  |  |  |  |  | Pre-ordered |
 | Gears Tactics |  |  |  |  |  |  |
 | Halo Infinite |  |  |  |  |  |  |
 | Hi-Fi RUSH |  |  |  |  |  |  |
@@ -27,10 +28,4 @@
 | Psychonauts 2 |  |  |  |  |  |  |
 | Redfall |  |  |  |  |  |  |
 | Split Fiction |  |  |  |  |  |  |
-
-## Ordered (1)
-
-| Title | Edition | Format | Region | Completeness | Purchased | Notes |
-|---|---|---|---|---|---|---|
-| Gears of War: E-Day |  |  |  |  |  | Pre-ordered |
 

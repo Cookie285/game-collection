@@ -2,6 +2,25 @@
 
 Newest first. Written automatically by `scripts/gamecoll.py import`.
 
+## 2026-10-06 — CLZ import
+
+Totals after import — Ordered: 10, Owned: 852, Wishlist: 5
+
+**Added** (2)
+- Tom Clancy's HAWX — Xbox 360 · Owned
+- Tom Clancy's HAWX 2 — Xbox 360 · Owned
+
+**Status changed** (9)
+- Days Gone — PlayStation 4: Ordered → Owned
+- Gears of War: E-Day — Xbox Series X|S: Ordered → Owned
+- Dishonored 2 — Xbox One: Ordered → Owned
+- Dishonored: Death of the Outsider — Xbox One: Ordered → Owned
+- Metro Redux — Xbox One: Ordered → Owned
+- Tom Clancy's Ghost Recon: Breakpoint — Xbox One: Ordered → Owned
+- Tom Clancy's Ghost Recon: Wildlands — Xbox One: Ordered → Owned
+- Tom Clancy's The Division — Xbox One: Ordered → Owned
+- Tom Clancy's The Division 2 — Xbox One: Ordered → Owned
+
 ## 2026-10-02 — CLZ import
 
 Totals after import — Ordered: 19, Owned: 841, Wishlist: 5

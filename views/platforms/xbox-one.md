@@ -2,7 +2,7 @@
 
 # Xbox One
 
-## Owned (48)
+## Owned (55)
 
 | Title | Edition | Format | Region | Completeness | Purchased | Notes |
 |---|---|---|---|---|---|---|
@@ -20,6 +20,8 @@
 | Call of Duty: WWII |  |  |  |  |  | Also owned on Steam (Call of Duty®: WWII) |
 | Crackdown 3 |  |  |  |  |  |  |
 | Dead Rising 4 |  |  |  |  |  |  |
+| Dishonored 2 |  |  |  |  |  |  |
+| Dishonored: Death of the Outsider |  |  |  |  |  |  |
 | DOOM |  |  |  |  |  | Also owned on Steam (DOOM) |
 | Doom Eternal |  |  |  |  |  | Also owned on Steam (DOOM Eternal) |
 | Forza Horizon 2 |  |  |  |  |  |  |
@@ -36,6 +38,7 @@
 | Halo Wars 2 |  |  |  |  |  |  |
 | Killer Instinct |  |  |  |  |  | ❓ disc edition (Definitive Edition?) not confirmed |
 | LEGO Harry Potter Collection |  |  |  |  |  | Compilation: LEGO Harry Potter Years 1–4 + Years 5–7 |
+| Metro Redux |  |  |  |  |  |  |
 | Minecraft |  |  |  |  |  |  |
 | Minecraft Dungeons |  |  |  |  |  |  |
 | Moving Out |  |  |  |  |  |  |
@@ -52,21 +55,18 @@
 | Super Lucky's Tale |  |  |  |  |  |  |
 | Titanfall |  |  |  |  |  | Disc-to-Digital reported working by community testers (Sep 2026) |
 | Titanfall 2 |  |  |  |  |  |  |
+| Tom Clancy's Ghost Recon: Breakpoint |  |  |  |  |  |  |
+| Tom Clancy's Ghost Recon: Wildlands |  |  |  |  |  |  |
+| Tom Clancy's The Division |  |  |  |  |  |  |
+| Tom Clancy's The Division 2 |  |  |  |  |  |  |
 | Zoo Tycoon |  |  |  |  |  |  |
 | Zoo Tycoon: Ultimate Animal Collection |  |  |  |  |  |  |
 
-## Ordered (10)
+## Ordered (3)
 
 | Title | Edition | Format | Region | Completeness | Purchased | Notes |
 |---|---|---|---|---|---|---|
-| Dishonored 2 |  |  |  |  |  |  |
-| Dishonored: Death of the Outsider |  |  |  |  |  |  |
 | Hellblade: Senua's Sacrifice |  |  |  |  |  |  |
-| Metro Redux |  |  |  |  |  |  |
 | Prey |  |  |  |  |  |  |
 | ReCore |  |  |  |  |  |  |
-| Tom Clancy's Ghost Recon Breakpoint |  |  |  |  |  |  |
-| Tom Clancy's Ghost Recon Wildlands |  |  |  |  |  |  |
-| Tom Clancy's The Division |  |  |  |  |  |  |
-| Tom Clancy's The Division 2 |  |  |  |  |  |  |
 

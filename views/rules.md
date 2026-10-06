@@ -17,7 +17,7 @@ Physical first. Digital only when there is no other option.
 
 _Why:_ The collection is about owning discs and carts; digital purchases are a fallback, not a goal.
 
-46 targets — ⬜ 42 · 🕒 3 · ✅ 0 · ➖ 1
+46 targets — ⬜ 42 · 🕒 1 · ✅ 2 · ➖ 1
 
 <details><summary>42 open</summary>
 
@@ -74,7 +74,7 @@ Platform order: PC (best graphics) → Nintendo (best physical line-up) → what
 
 _Why:_ Each game is bought once, on the platform where it plays or collects best.
 
-77 targets — ⬜ 54 · 🕒 2 · ✅ 3 · ➖ 18
+77 targets — ⬜ 54 · 🕒 1 · ✅ 4 · ➖ 18
 
 <details><summary>54 open</summary>
 
@@ -179,7 +179,7 @@ _Why:_ No need to hunt older discs when a newer disc contains the same games.
 
 _Precedents:_ MW Trilogy → CoD 4 / MW2 / MW3 · MCC → Halo CE–4 · God of War Collection → GoW I + II · Gears UE → Gears of War · Year One → State of Decay
 
-14 targets — ⬜ 1 · 🕒 0 · ✅ 4 · ➖ 9
+16 targets — ⬜ 1 · 🕒 0 · ✅ 6 · ➖ 9
 
 <details><summary>1 open</summary>
 
@@ -195,9 +195,9 @@ Gaps in older generations are mostly bought used.
 
 _Why:_ Older discs are cheap and plentiful used; new copies are often gone or overpriced.
 
-293 targets — ⬜ 277 · 🕒 11 · ✅ 5 · ➖ 0
+293 targets — ⬜ 275 · 🕒 3 · ✅ 15 · ➖ 0
 
-<details><summary>277 open</summary>
+<details><summary>275 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -337,9 +337,7 @@ _Why:_ Older discs are cheap and plentiful used; new copies are often gone or ov
 | Metal Gear Rising: Revengeance | PlayStation 3 | medium |  |
 | Metal Gear Solid V: The Definitive Experience | PlayStation 4 | high |  |
 | Metaphor: ReFantazio | PlayStation 5, Nintendo Switch 2 | high | undecided |
-| Metro 2033 | Xbox 360 | low | undecided |
 | Metro Exodus | Xbox One | low | undecided |
-| Metro: Last Light | Xbox 360 | low | undecided |
 | Microsoft Flight Simulator | Xbox Series X\|S | medium |  |
 | Microsoft Flight Simulator 2024 | Xbox Series X\|S | medium |  |
 | Minecraft: Story Mode | Xbox One | low |  |
@@ -552,7 +550,7 @@ Single-player focus — multiplayer-only / online-focused games are skipped; dea
 
 _Precedents:_ Destiny, Overwatch, Crash Team Rumble skipped · no Guitar Hero / Skylanders
 
-26 targets — ⬜ 11 · 🕒 2 · ✅ 5 · ➖ 8
+26 targets — ⬜ 11 · 🕒 0 · ✅ 7 · ➖ 8
 
 <details><summary>11 open</summary>
 
@@ -815,7 +813,7 @@ _Precedents:_ Pragmata, Onimusha: Way of the Sword, Full Metal Schoolgirl → PS
 
 PlayStation gets exclusives plus multiplatform games worth having on disc.
 
-202 targets — ⬜ 199 · 🕒 2 · ✅ 1 · ➖ 0
+202 targets — ⬜ 199 · 🕒 1 · ✅ 2 · ➖ 0
 
 <details><summary>199 open</summary>
 
@@ -1143,9 +1141,9 @@ Xbox is the shooter console: full Call of Duty and Battlefield runs. Beats Ninte
 
 _Why:_ Switch shooter ports are usually the weakest version.
 
-98 targets — ⬜ 55 · 🕒 7 · ✅ 33 · ➖ 3
+98 targets — ⬜ 53 · 🕒 2 · ✅ 40 · ➖ 3
 
-<details><summary>55 open</summary>
+<details><summary>53 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -1178,9 +1176,7 @@ _Why:_ Switch shooter ports are usually the weakest version.
 | Medal of Honor | Xbox 360 | someday | undecided |
 | Medal of Honor: Airborne | Xbox 360 | someday | undecided |
 | Medal of Honor: Warfighter | Xbox 360 | someday | undecided |
-| Metro 2033 | Xbox 360 | low | undecided |
 | Metro Exodus | Xbox One | low | undecided |
-| Metro: Last Light | Xbox 360 | low | undecided |
 | Prey | Xbox 360 | someday | undecided |
 | Rage | Xbox 360 | someday | undecided |
 | Rage 2 | Xbox One | someday | undecided |
@@ -1213,7 +1209,7 @@ Microsoft first-party on Xbox disc: layer 1 = published by Microsoft / Xbox Game
 
 _Why:_ Historical publisher counts — the Sep 2026 Xbox reset doesn't change scope.
 
-64 targets — ⬜ 19 · 🕒 3 · ✅ 41 · ➖ 1
+64 targets — ⬜ 19 · 🕒 2 · ✅ 42 · ➖ 1
 
 <details><summary>19 open</summary>
 
@@ -1245,7 +1241,7 @@ _Why:_ Historical publisher counts — the Sep 2026 Xbox reset doesn't change sc
 
 Layer 3 (studio owned by Microsoft today, but game published by someone else at release) is optional; Activision/Blizzard pre-Oct-2023 titles follow normal platform rules per game.
 
-25 targets — ⬜ 16 · 🕒 3 · ✅ 2 · ➖ 4
+25 targets — ⬜ 16 · 🕒 1 · ✅ 4 · ➖ 4
 
 <details><summary>16 open</summary>
 
@@ -1292,7 +1288,7 @@ Xbox One / Series discs carry a Disc-to-Digital licence — a reason to buy Micr
 
 _Why:_ One revocable licence per disc; licence moves if the disc is claimed elsewhere → don't lend discs casually.
 
-54 targets — ⬜ 18 · 🕒 7 · ✅ 28 · ➖ 1
+54 targets — ⬜ 18 · 🕒 2 · ✅ 33 · ➖ 1
 
 <details><summary>18 open</summary>
 
@@ -1432,13 +1428,14 @@ Non-backward-compatible discs (PGR, Forza Motorsport 1–4, Jet Set Radio Future
 
 Code-in-a-box only sealed/new, at or below the Xbox Store sale price, EU/DACH box; redeem immediately; doesn't count toward disc runs.
 
-2 targets — ⬜ 1 · 🕒 1 · ✅ 0 · ➖ 0
+3 targets — ⬜ 2 · 🕒 1 · ✅ 0 · ➖ 0
 
-<details><summary>1 open</summary>
+<details><summary>2 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
 | Avowed | Xbox Series X\|S | someday | undecided |
+| Grand Theft Auto VI | PlayStation 5 | high | watching |
 
 </details>
 
@@ -1446,14 +1443,15 @@ Code-in-a-box only sealed/new, at or below the Xbox Store sale price, EU/DACH bo
 
 Digital-only games: play on Game Pass first; buy only if keeping/replaying, prefer Xbox Store with Play Anywhere, else Steam sale.
 
-8 targets — ⬜ 8 · 🕒 0 · ✅ 0 · ➖ 0
+9 targets — ⬜ 9 · 🕒 0 · ✅ 0 · ➖ 0
 
-<details><summary>8 open</summary>
+<details><summary>9 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
 | Avowed | Xbox Series X\|S | someday | undecided |
 | Blinx: The Time Sweeper | Xbox | someday |  |
+| Clair Obscur: Expedition 33 | PlayStation 5 | high |  |
 | Conker: Live & Reloaded | Xbox | someday |  |
 | Crimson Skies: High Road to Revenge | Xbox | someday |  |
 | Diablo IV | Xbox Series X\|S | someday | undecided |
