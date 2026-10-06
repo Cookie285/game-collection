@@ -17,7 +17,7 @@ Physical first. Digital only when there is no other option.
 
 _Why:_ The collection is about owning discs and carts; digital purchases are a fallback, not a goal.
 
-46 targets — ⬜ 42 · 🕒 3 · ✅ 0 · ➖ 1
+46 targets — ⬜ 42 · 🕒 1 · ✅ 2 · ➖ 1
 
 <details><summary>42 open</summary>
 
@@ -74,7 +74,7 @@ Platform order: PC (best graphics) → Nintendo (best physical line-up) → what
 
 _Why:_ Each game is bought once, on the platform where it plays or collects best.
 
-77 targets — ⬜ 54 · 🕒 2 · ✅ 3 · ➖ 18
+77 targets — ⬜ 54 · 🕒 1 · ✅ 4 · ➖ 18
 
 <details><summary>54 open</summary>
 
@@ -195,7 +195,7 @@ Gaps in older generations are mostly bought used.
 
 _Why:_ Older discs are cheap and plentiful used; new copies are often gone or overpriced.
 
-293 targets — ⬜ 277 · 🕒 11 · ✅ 5 · ➖ 0
+293 targets — ⬜ 277 · 🕒 3 · ✅ 13 · ➖ 0
 
 <details><summary>277 open</summary>
 
@@ -552,7 +552,7 @@ Single-player focus — multiplayer-only / online-focused games are skipped; dea
 
 _Precedents:_ Destiny, Overwatch, Crash Team Rumble skipped · no Guitar Hero / Skylanders
 
-26 targets — ⬜ 11 · 🕒 2 · ✅ 5 · ➖ 8
+26 targets — ⬜ 11 · 🕒 0 · ✅ 7 · ➖ 8
 
 <details><summary>11 open</summary>
 
@@ -815,7 +815,7 @@ _Precedents:_ Pragmata, Onimusha: Way of the Sword, Full Metal Schoolgirl → PS
 
 PlayStation gets exclusives plus multiplatform games worth having on disc.
 
-202 targets — ⬜ 199 · 🕒 2 · ✅ 1 · ➖ 0
+202 targets — ⬜ 199 · 🕒 1 · ✅ 2 · ➖ 0
 
 <details><summary>199 open</summary>
 
@@ -1143,7 +1143,7 @@ Xbox is the shooter console: full Call of Duty and Battlefield runs. Beats Ninte
 
 _Why:_ Switch shooter ports are usually the weakest version.
 
-98 targets — ⬜ 55 · 🕒 7 · ✅ 33 · ➖ 3
+98 targets — ⬜ 55 · 🕒 2 · ✅ 38 · ➖ 3
 
 <details><summary>55 open</summary>
 
@@ -1213,7 +1213,7 @@ Microsoft first-party on Xbox disc: layer 1 = published by Microsoft / Xbox Game
 
 _Why:_ Historical publisher counts — the Sep 2026 Xbox reset doesn't change scope.
 
-64 targets — ⬜ 19 · 🕒 3 · ✅ 41 · ➖ 1
+64 targets — ⬜ 19 · 🕒 2 · ✅ 42 · ➖ 1
 
 <details><summary>19 open</summary>
 
@@ -1245,7 +1245,7 @@ _Why:_ Historical publisher counts — the Sep 2026 Xbox reset doesn't change sc
 
 Layer 3 (studio owned by Microsoft today, but game published by someone else at release) is optional; Activision/Blizzard pre-Oct-2023 titles follow normal platform rules per game.
 
-25 targets — ⬜ 16 · 🕒 3 · ✅ 2 · ➖ 4
+25 targets — ⬜ 16 · 🕒 1 · ✅ 4 · ➖ 4
 
 <details><summary>16 open</summary>
 
@@ -1292,7 +1292,7 @@ Xbox One / Series discs carry a Disc-to-Digital licence — a reason to buy Micr
 
 _Why:_ One revocable licence per disc; licence moves if the disc is claimed elsewhere → don't lend discs casually.
 
-54 targets — ⬜ 18 · 🕒 7 · ✅ 28 · ➖ 1
+54 targets — ⬜ 18 · 🕒 2 · ✅ 33 · ➖ 1
 
 <details><summary>18 open</summary>
 

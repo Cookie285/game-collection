@@ -23,7 +23,7 @@ for every open target. Rebuilt automatically on every push (see [Web frontend](#
 ## Summary
 
 <!-- summary:start -->
-_Updated 2026-10-02._
+_Updated 2026-10-06._
 
 ### By platform
 
@@ -40,21 +40,21 @@ _Updated 2026-10-02._
 | [Game Boy Color](views/platforms/game-boy-color.md) | 5 | 0 | 0 |
 | [Game Boy](views/platforms/game-boy.md) | 7 | 0 | 0 |
 | [PlayStation 5](views/platforms/playstation-5.md) | 62 | 2 | 0 |
-| [PlayStation 4](views/platforms/playstation-4.md) | 50 | 1 | 0 |
+| [PlayStation 4](views/platforms/playstation-4.md) | 51 | 0 | 0 |
 | [PlayStation 3](views/platforms/playstation-3.md) | 103 | 1 | 0 |
 | [PlayStation 2](views/platforms/playstation-2.md) | 5 | 0 | 0 |
 | [PlayStation](views/platforms/playstation.md) | 17 | 0 | 0 |
 | [PlayStation Vita](views/platforms/playstation-vita.md) | 4 | 0 | 0 |
 | [PSP](views/platforms/psp.md) | 10 | 0 | 0 |
-| [Xbox Series X\|S](views/platforms/xbox-series-x-s.md) | 21 | 1 | 0 |
-| [Xbox One](views/platforms/xbox-one.md) | 48 | 10 | 0 |
-| [Xbox 360](views/platforms/xbox-360.md) | 17 | 2 | 3 |
+| [Xbox Series X\|S](views/platforms/xbox-series-x-s.md) | 22 | 0 | 0 |
+| [Xbox One](views/platforms/xbox-one.md) | 55 | 3 | 0 |
+| [Xbox 360](views/platforms/xbox-360.md) | 19 | 2 | 3 |
 | [Xbox](views/platforms/xbox.md) | 1 | 2 | 2 |
-| **Total** | **841** | **19** | **5** |
+| **Total** | **852** | **10** | **5** |
 
 ### Buy plan
 
-⬜ 400 open · 🕒 18 ordered · ✅ 85 done — see [gaps.md](views/gaps.md)
+⬜ 400 open · 🕒 8 ordered · ✅ 95 done — see [gaps.md](views/gaps.md)
 
 ### Series
 
@@ -106,7 +106,7 @@ _Updated 2026-10-02._
 | Call of Duty | 22/23 |  |
 | Battlefield | 10/10 ✅ |  |
 | Halo | 10/11 |  |
-| Gears of War | 7/8 |  |
+| Gears of War | 8/8 ✅ |  |
 | Forza Motorsport | 4/4 ✅ |  |
 | Forza Horizon | 6/6 ✅ |  |
 | Fable | 0/4 |  |

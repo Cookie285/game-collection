@@ -694,7 +694,7 @@ Microsoft first-party core franchise. ❓ Spartan Assault/Strike (digital) and H
 | ✅ | Halo Infinite | 2021 | Xbox Series X\|S |
 | ⬜ | Halo: Campaign Evolved | 2026 | Owned on PS5; Xbox Series X disc wanted when on sale |
 
-## Gears of War — 7/8
+## Gears of War — 8/8
 
 Microsoft first-party core franchise.
 
@@ -708,7 +708,7 @@ Microsoft first-party core franchise.
 | ✅ | Gears 5 | 2019 | Xbox One |
 | ✅ | Gears Tactics | 2020 | Xbox Series X\|S |
 | ➖ | Gears of War: Reloaded | 2025 | No Xbox disc (PS5 disc only); campaign covered by Ultimate Edition; PS5 disc only if very cheap |
-| 🕒 | Gears of War: E-Day | 2026 | Xbox Series X\|S |
+| ✅ | Gears of War: E-Day | 2026 | Xbox Series X\|S |
 
 ## Forza Motorsport — 4/4
 

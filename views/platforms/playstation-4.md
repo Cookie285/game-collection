@@ -2,7 +2,7 @@
 
 # PlayStation 4
 
-## Owned (50)
+## Owned (51)
 
 | Title | Edition | Format | Region | Completeness | Purchased | Notes |
 |---|---|---|---|---|---|---|
@@ -15,6 +15,7 @@
 | Batman: Arkham Knight |  |  |  |  |  | Also owned on Steam (Batman™: Arkham Knight) |
 | Bloodborne |  |  |  |  |  |  |
 | Concrete Genie |  |  |  |  |  |  |
+| Days Gone |  |  |  |  |  |  |
 | Diablo III: Ultimate Evil Edition |  |  |  |  |  |  |
 | Dragon Quest XI: Echoes Of An Elusive Age |  |  |  |  |  | Surplus: DQXI S (definitive version) owned on Switch |
 | DriveClub |  |  |  |  |  |  |
@@ -56,10 +57,4 @@
 | Watch Dogs 2 |  |  |  |  |  |  |
 | Wolfenstein: The Two Pack |  |  |  |  |  | Covers Wolfenstein: The New Order + The Old Blood |
 | Wolfenstein: Youngblood |  |  |  |  |  |  |
-
-## Ordered (1)
-
-| Title | Edition | Format | Region | Completeness | Purchased | Notes |
-|---|---|---|---|---|---|---|
-| Days Gone |  |  |  |  |  |  |
 

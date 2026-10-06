@@ -6,7 +6,7 @@ Curated in [`data/targets/`](../data/targets/). A target flips to ✅ automatica
 
 Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 
-⬜ 400 open · 🕒 18 ordered · ✅ 85 done · ➖ 97 skip
+⬜ 400 open · 🕒 8 ordered · ✅ 95 done · ➖ 97 skip
 
 📀 = same title already owned on another platform (one copy per game!)
 
@@ -633,30 +633,20 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Too Human | Xbox 360 | someday |  | digital (free) | Xbox Store: Digital (Xbox Store); A – first-party, no modern version; Free digitally on Xbox – check Full Library before buying |
 | Vanquish | Xbox 360 | someday |  | digital, Xbox Store sale (no key sellers for 360 titles) | Xbox Store: Digital (Xbox Store); C – multiplatform, no modern version |
 
-## 🕒 Ordered / pre-ordered (18)
+## 🕒 Ordered / pre-ordered (8)
 
 | Title | Platform | Prio | Group | State | Plan / where | Owned on / note |
 |---|---|---|---|---|---|---|
-| Gears of War: E-Day | Xbox Series X\|S | high | First-party |  | Pre-ordered (Xbox) | scope layer 1 (Gears / The Coalition) · Releases 6 Oct 2026 (Premium early access from 1 Oct) (checked 2026-09-28) · Still 6 Oct 2026 (Premium / Collector's early access 1 Oct). Xbox Series X disc, content download required; supports Disc-to-Digital + Play Anywhere. PS5 version cancelled — Xbox console exclusive, 'not timed' (checked 2026-10-01) · Early access live since 1 Oct (Premium / Collector's); standard launch still 6 Oct 2026 (checked 2026-10-02) |
-| Days Gone | PlayStation 4 | high | PS4 gaps – Sony 1st-party |  | PS4 disc; used preferred (price limit not set yet) | Remastered PS5 is digital-only – PS4 disc + paid upgrade is the only physical route. · Very cheap used |
 | Fable | PlayStation 5 | high | PS5 gaps – Microsoft 1st-party |  | PS5 disc (pre-ordered) | Pre-ordered on PS5 (Xbox disc only if cheap later). · Already pre-ordered · Delayed to 23 Feb 2027 (PS5, Xbox Series, PC) (checked 2026-09-28) · Still 23 Feb 2027 (checked 2026-10-01) |
 | Call of Duty: Modern Warfare 4 | Xbox Series X\|S | high | Series runs – Call of Duty |  | Xbox Series X disc (pre-order candidate) | Suggested (review 2026-09-28): next entry of the complete Xbox CoD run — Infinity Ward, 23 Oct 2026. Also on PS5, PS4/Xbox One and Switch 2; the shooter rule keeps it on Xbox. · Still 23 Oct 2026. Xbox Series X standard edition = disc, content download required (Vault Edition digital only). Switch 2 retail = code-in-a-box (checked 2026-10-01) |
-| Dishonored 2 | xbox-modern | low | Buy elsewhere (not PlayStation) |  | Xbox disc (Disc-to-Digital) | Buy on Xbox instead of PlayStation – Xbox disc = Disc-to-Digital licence (your MS 1st-party angle) (Microsoft/Bethesda 1st-party) |
 | Prey | xbox-modern | low | Buy elsewhere (not PlayStation) |  | Xbox disc (Disc-to-Digital) | Buy on Xbox instead of PlayStation – Xbox disc = Disc-to-Digital licence (your MS 1st-party angle) (Microsoft/Bethesda 1st-party) |
 | ReCore | Xbox One | low | Checklist (Disc-to-Digital) + First-party |  | used disc, e.g. rebuy.de | Definitive Edition preferred; scope layer 1 (Armature / Comcept (MS-published)) |
-| Metro Redux | Xbox One | low | Shooter console suggestions |  | used disc | I confirmed Metro has discs. Contains Metro 2033 + Last Light remasters |
-| Dishonored 2 | Xbox One | someday | Bethesda / Remedy extras |  | used disc | Suggested (scope layer 3, pre-acquisition). Arkane |
-| Dishonored: Death of the Outsider | Xbox One | someday | Bethesda / Remedy extras |  | used disc | Suggested (scope layer 3, pre-acquisition). Arkane |
 | Hellblade: Senua's Sacrifice | Xbox One | someday | First-party |  | used disc, e.g. rebuy.de | scope layer 3 (Ninja Theory (self-published)); Pre-acquisition; studio at risk of closure (Sep 2026) |
 | Prey (2017) | Xbox One | someday | Shooter console suggestions |  | used disc | Suggested. |
-| Tom Clancy's Ghost Recon Breakpoint | Xbox One | someday | Shooter console suggestions |  | used disc | Suggested. · always online — Ubisoft ruled out an offline mode; reported working with Disc-to-Digital (checked 2026-09-29) |
-| Tom Clancy's Ghost Recon Wildlands | Xbox One | someday | Shooter console suggestions |  | used disc | Suggested. · single player works fully offline (Ubisoft); reported working with Disc-to-Digital (checked 2026-09-29) |
-| Tom Clancy's The Division | Xbox One | someday | Shooter console suggestions |  | used disc | Suggested (review 2026-09-29, question tom-clancy-xbox): always online (needs Ubisoft servers) (checked 2026-09-29) |
-| Tom Clancy's The Division 2 | Xbox One | someday | Shooter console suggestions |  | used disc | Suggested (review 2026-09-29, question tom-clancy-xbox): always online (needs Ubisoft servers). Reported working with Disc-to-Digital (checked 2026-09-29) |
 | Tom Clancy's Splinter Cell | Xbox | someday | Third-party Xbox series (not interested) |  |  | Said 'doesn't sound interesting from series perspective' |
 | Tom Clancy's Splinter Cell: Pandora Tomorrow | Xbox | someday | Third-party Xbox series (not interested) |  |  | Said 'doesn't sound interesting from series perspective' |
 
-## ✅ Done (85)
+## ✅ Done (95)
 
 <details><summary>show</summary>
 
@@ -669,6 +659,8 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Sunset Overdrive | Xbox One | high | Checklist (Disc-to-Digital) + First-party |  |  | Xbox One |
 | Forza Horizon 2 | Xbox One | high | First-party |  |  | Xbox One |
 | Forza Horizon 6 | Xbox Series X\|S | high | First-party |  |  | Xbox Series X\|S |
+| Gears of War: E-Day | Xbox Series X\|S | high | First-party |  | Pre-ordered (Xbox) | Xbox Series X\|S |
+| Days Gone | PlayStation 4 | high | PS4 gaps – Sony 1st-party |  | PS4 disc; used preferred (price limit not set yet) | PlayStation 4 |
 | Forza Horizon | Xbox 360 | high | Xbox 360 BC |  |  | Xbox 360 |
 | Gears 5 | Xbox One | medium | Checklist (Disc-to-Digital) + First-party |  |  | Xbox One |
 | Gears of War 4 | Xbox One | medium | Checklist (Disc-to-Digital) + First-party |  |  | Xbox One |
@@ -693,6 +685,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Call of Duty: Black Ops II | Xbox 360 | medium | Xbox 360 BC + Series runs – Call of Duty |  |  | Xbox 360 |
 | Call of Duty: Modern Warfare Trilogy | Xbox 360 | medium | Xbox 360 BC + Series runs – Call of Duty |  |  | Xbox 360 |
 | Call of Duty: World at War | Xbox 360 | medium | Xbox 360 BC + Series runs – Call of Duty |  |  | Xbox 360 |
+| Dishonored 2 | xbox-modern | low | Buy elsewhere (not PlayStation) |  | Xbox disc (Disc-to-Digital) | Xbox One |
 | Hi-Fi Rush | xbox-modern | low | Buy elsewhere (not PlayStation) |  | Xbox disc, cheap from netgames | Xbox Series X\|S |
 | Lies of P: Complete Edition | Nintendo Switch 2 | low | Buy elsewhere (not PlayStation) |  | Switch 2 full cart | Nintendo Switch 2 |
 | Titanfall 2 | Xbox One | low | Checklist (Disc-to-Digital) |  |  | Xbox One |
@@ -706,6 +699,9 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Minecraft | Xbox One | low | First-party |  | used disc, e.g. rebuy.de | Xbox One |
 | Ori and the Will of the Wisps | Xbox One | low | First-party |  |  | Xbox One |
 | Resident Evil Revelations | PlayStation 4 | low | PS4 gaps – Multiplatform |  | PS4 disc; new or used, only at a really good price | PlayStation 4 |
+| Metro Redux | Xbox One | low | Shooter console suggestions |  | used disc | Xbox One |
+| Dishonored 2 | Xbox One | someday | Bethesda / Remedy extras |  | used disc | Xbox One |
+| Dishonored: Death of the Outsider | Xbox One | someday | Bethesda / Remedy extras |  | used disc | Xbox One |
 | Forza Horizon 3 | Xbox One | someday | Checklist (Disc-to-Digital) + First-party |  |  | Xbox One |
 | Forza Horizon 4 | Xbox One | someday | Checklist (Disc-to-Digital) + First-party |  |  | Xbox One |
 | Forza Motorsport 5 | Xbox One | someday | Checklist (Disc-to-Digital) + First-party |  |  | Xbox One |
@@ -743,6 +739,10 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Call of Duty: Modern Warfare Remastered | Xbox One | someday | Series runs – Call of Duty |  |  | Xbox One |
 | Call of Duty: Vanguard | Xbox Series X\|S | someday | Series runs – Call of Duty |  |  | Xbox Series X\|S |
 | Call of Duty: WWII | Xbox One | someday | Series runs – Call of Duty |  |  | Xbox One |
+| Tom Clancy's Ghost Recon Breakpoint | Xbox One | someday | Shooter console suggestions |  | used disc | Xbox One |
+| Tom Clancy's Ghost Recon Wildlands | Xbox One | someday | Shooter console suggestions |  | used disc | Xbox One |
+| Tom Clancy's The Division | Xbox One | someday | Shooter console suggestions |  | used disc | Xbox One |
+| Tom Clancy's The Division 2 | Xbox One | someday | Shooter console suggestions |  | used disc | Xbox One |
 | Gears of War | Xbox 360 | someday | Xbox 360 BC |  |  | Xbox 360 |
 | Halo Wars | Xbox 360 | someday | Xbox 360 BC |  |  | Xbox 360 |
 | Perfect Dark Zero | Xbox 360 | someday | Xbox 360 BC |  |  | Xbox 360 |
