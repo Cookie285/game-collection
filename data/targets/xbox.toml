@@ -1295,22 +1295,22 @@ play_anywhere = true
 [[target]]
 title = "Metro 2033"
 aliases = ["Metro Redux"]
-platforms = ["Xbox 360"]
+platforms = ["Xbox 360", "Xbox One"]
 priority = "low"
 group = "Shooter console suggestions"
 plan = "used disc"
 state = "undecided"
-note = "I confirmed Metro has discs."
+note = "I confirmed Metro has discs. · Covered by Metro Redux (Xbox One, owned since the 2026-10-06 import) — Xbox One added to platforms so the existing 'Metro Redux' alias counts (compilations-count)"
 
 [[target]]
 title = "Metro: Last Light"
 aliases = ["Metro Redux"]
-platforms = ["Xbox 360"]
+platforms = ["Xbox 360", "Xbox One"]
 priority = "low"
 group = "Shooter console suggestions"
 plan = "used disc"
 state = "undecided"
-note = "I confirmed Metro has discs."
+note = "I confirmed Metro has discs. · Covered by Metro Redux (Xbox One, owned since the 2026-10-06 import) — Xbox One added to platforms so the existing 'Metro Redux' alias counts (compilations-count)"
 
 [[target]]
 title = "Metro Redux"

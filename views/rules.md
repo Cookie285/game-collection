@@ -179,7 +179,7 @@ _Why:_ No need to hunt older discs when a newer disc contains the same games.
 
 _Precedents:_ MW Trilogy → CoD 4 / MW2 / MW3 · MCC → Halo CE–4 · God of War Collection → GoW I + II · Gears UE → Gears of War · Year One → State of Decay
 
-14 targets — ⬜ 1 · 🕒 0 · ✅ 4 · ➖ 9
+16 targets — ⬜ 1 · 🕒 0 · ✅ 6 · ➖ 9
 
 <details><summary>1 open</summary>
 
@@ -195,9 +195,9 @@ Gaps in older generations are mostly bought used.
 
 _Why:_ Older discs are cheap and plentiful used; new copies are often gone or overpriced.
 
-293 targets — ⬜ 277 · 🕒 3 · ✅ 13 · ➖ 0
+293 targets — ⬜ 275 · 🕒 3 · ✅ 15 · ➖ 0
 
-<details><summary>277 open</summary>
+<details><summary>275 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -337,9 +337,7 @@ _Why:_ Older discs are cheap and plentiful used; new copies are often gone or ov
 | Metal Gear Rising: Revengeance | PlayStation 3 | medium |  |
 | Metal Gear Solid V: The Definitive Experience | PlayStation 4 | high |  |
 | Metaphor: ReFantazio | PlayStation 5, Nintendo Switch 2 | high | undecided |
-| Metro 2033 | Xbox 360 | low | undecided |
 | Metro Exodus | Xbox One | low | undecided |
-| Metro: Last Light | Xbox 360 | low | undecided |
 | Microsoft Flight Simulator | Xbox Series X\|S | medium |  |
 | Microsoft Flight Simulator 2024 | Xbox Series X\|S | medium |  |
 | Minecraft: Story Mode | Xbox One | low |  |
@@ -1143,9 +1141,9 @@ Xbox is the shooter console: full Call of Duty and Battlefield runs. Beats Ninte
 
 _Why:_ Switch shooter ports are usually the weakest version.
 
-98 targets — ⬜ 55 · 🕒 2 · ✅ 38 · ➖ 3
+98 targets — ⬜ 53 · 🕒 2 · ✅ 40 · ➖ 3
 
-<details><summary>55 open</summary>
+<details><summary>53 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -1178,9 +1176,7 @@ _Why:_ Switch shooter ports are usually the weakest version.
 | Medal of Honor | Xbox 360 | someday | undecided |
 | Medal of Honor: Airborne | Xbox 360 | someday | undecided |
 | Medal of Honor: Warfighter | Xbox 360 | someday | undecided |
-| Metro 2033 | Xbox 360 | low | undecided |
 | Metro Exodus | Xbox One | low | undecided |
-| Metro: Last Light | Xbox 360 | low | undecided |
 | Prey | Xbox 360 | someday | undecided |
 | Rage | Xbox 360 | someday | undecided |
 | Rage 2 | Xbox One | someday | undecided |
@@ -1432,13 +1428,14 @@ Non-backward-compatible discs (PGR, Forza Motorsport 1–4, Jet Set Radio Future
 
 Code-in-a-box only sealed/new, at or below the Xbox Store sale price, EU/DACH box; redeem immediately; doesn't count toward disc runs.
 
-2 targets — ⬜ 1 · 🕒 1 · ✅ 0 · ➖ 0
+3 targets — ⬜ 2 · 🕒 1 · ✅ 0 · ➖ 0
 
-<details><summary>1 open</summary>
+<details><summary>2 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
 | Avowed | Xbox Series X\|S | someday | undecided |
+| Grand Theft Auto VI | PlayStation 5 | high | watching |
 
 </details>
 
@@ -1446,14 +1443,15 @@ Code-in-a-box only sealed/new, at or below the Xbox Store sale price, EU/DACH bo
 
 Digital-only games: play on Game Pass first; buy only if keeping/replaying, prefer Xbox Store with Play Anywhere, else Steam sale.
 
-8 targets — ⬜ 8 · 🕒 0 · ✅ 0 · ➖ 0
+9 targets — ⬜ 9 · 🕒 0 · ✅ 0 · ➖ 0
 
-<details><summary>8 open</summary>
+<details><summary>9 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
 | Avowed | Xbox Series X\|S | someday | undecided |
 | Blinx: The Time Sweeper | Xbox | someday |  |
+| Clair Obscur: Expedition 33 | PlayStation 5 | high |  |
 | Conker: Live & Reloaded | Xbox | someday |  |
 | Crimson Skies: High Road to Revenge | Xbox | someday |  |
 | Diablo IV | Xbox Series X\|S | someday | undecided |

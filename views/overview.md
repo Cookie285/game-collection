@@ -33,7 +33,7 @@ _Updated 2026-10-06._
 
 ## Buy plan
 
-⬜ 400 open · 🕒 8 ordered · ✅ 95 done — see [gaps.md](gaps.md)
+⬜ 398 open · 🕒 8 ordered · ✅ 97 done — see [gaps.md](gaps.md)
 
 ## Series
 
