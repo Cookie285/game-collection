@@ -2,18 +2,13 @@
 
 # Xbox
 
-## Owned (1)
+## Owned (3)
 
 | Title | Edition | Format | Region | Completeness | Purchased | Notes |
 |---|---|---|---|---|---|---|
 | Star Wars: Republic Commando |  |  |  |  |  | Also owned on Steam (STAR WARS™ Republic Commando™) |
-
-## Ordered (2)
-
-| Title | Edition | Format | Region | Completeness | Purchased | Notes |
-|---|---|---|---|---|---|---|
 | Tom Clancy's Splinter Cell |  |  |  |  |  |  |
-| Tom Clancy's Splinter Cell: Pandora Tomorrow |  |  |  |  |  |  |
+| Tom Clancy's Splinter Cell Pandora Tomorrow |  |  |  |  |  |  |
 
 ## Wishlist (2)
 

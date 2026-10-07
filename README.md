@@ -23,7 +23,7 @@ for every open target. Rebuilt automatically on every push (see [Web frontend](#
 ## Summary
 
 <!-- summary:start -->
-_Updated 2026-10-06._
+_Updated 2026-10-07._
 
 ### By platform
 
@@ -39,22 +39,22 @@ _Updated 2026-10-06._
 | [Game Boy Advance](views/platforms/game-boy-advance.md) | 18 | 0 | 0 |
 | [Game Boy Color](views/platforms/game-boy-color.md) | 5 | 0 | 0 |
 | [Game Boy](views/platforms/game-boy.md) | 7 | 0 | 0 |
-| [PlayStation 5](views/platforms/playstation-5.md) | 62 | 2 | 0 |
+| [PlayStation 5](views/platforms/playstation-5.md) | 63 | 2 | 0 |
 | [PlayStation 4](views/platforms/playstation-4.md) | 51 | 0 | 0 |
 | [PlayStation 3](views/platforms/playstation-3.md) | 103 | 1 | 0 |
 | [PlayStation 2](views/platforms/playstation-2.md) | 5 | 0 | 0 |
 | [PlayStation](views/platforms/playstation.md) | 17 | 0 | 0 |
 | [PlayStation Vita](views/platforms/playstation-vita.md) | 4 | 0 | 0 |
 | [PSP](views/platforms/psp.md) | 10 | 0 | 0 |
-| [Xbox Series X\|S](views/platforms/xbox-series-x-s.md) | 22 | 0 | 0 |
-| [Xbox One](views/platforms/xbox-one.md) | 55 | 3 | 0 |
+| [Xbox Series X\|S](views/platforms/xbox-series-x-s.md) | 23 | 0 | 0 |
+| [Xbox One](views/platforms/xbox-one.md) | 59 | 1 | 0 |
 | [Xbox 360](views/platforms/xbox-360.md) | 19 | 2 | 3 |
-| [Xbox](views/platforms/xbox.md) | 1 | 2 | 2 |
-| **Total** | **852** | **10** | **5** |
+| [Xbox](views/platforms/xbox.md) | 3 | 0 | 2 |
+| **Total** | **860** | **6** | **5** |
 
 ### Buy plan
 
-⬜ 398 open · 🕒 8 ordered · ✅ 97 done — see [gaps.md](views/gaps.md)
+⬜ 396 open · 🕒 3 ordered · ✅ 104 done — see [gaps.md](views/gaps.md)
 
 ### Series
 

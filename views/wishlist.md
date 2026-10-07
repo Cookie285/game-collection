@@ -9,8 +9,6 @@ Straight from the CLZ export (status *Wish List* / *On Order*). The curated plan
 | Ordered | Destruction AllStars | PlayStation 5 |  |  |
 | Ordered | Fable | PlayStation 5 |  |  |
 | Ordered | Sonic Generations | PlayStation 3 |  |  |
-| Ordered | Hellblade: Senua's Sacrifice | Xbox One |  |  |
-| Ordered | Prey | Xbox One |  |  |
 | Ordered | ReCore | Xbox One |  |  |
 | Wishlist | Skate | Xbox 360 |  |  |
 | Wishlist | Skate 2 | Xbox 360 |  |  |
@@ -19,5 +17,3 @@ Straight from the CLZ export (status *Wish List* / *On Order*). The curated plan
 | Ordered | Tom Clancy's H.A.W.X 2 | Xbox 360 |  |  |
 | Wishlist | Otogi 2: Immortal Warriors | Xbox |  |  |
 | Wishlist | Otogi: Myth of Demons | Xbox |  |  |
-| Ordered | Tom Clancy's Splinter Cell | Xbox |  |  |
-| Ordered | Tom Clancy's Splinter Cell: Pandora Tomorrow | Xbox |  |  |
