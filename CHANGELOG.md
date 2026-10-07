@@ -2,6 +2,22 @@
 
 Newest first. Written automatically by `scripts/gamecoll.py import`.
 
+## 2026-10-07 — CLZ import
+
+Totals after import — Ordered: 6, Owned: 860, Wishlist: 5
+
+**Added** (4)
+- Star Wars: Galactic Racer — PlayStation 5 · Owned
+- Tom Clancy's Rainbow Six: Siege X — Xbox Series X|S · Owned
+- Pillars of Eternity II: Deadfire — Xbox One · Owned
+- Tom Clancy's Rainbow Six: Extraction — Xbox One · Owned
+
+**Status changed** (4)
+- Hellblade: Senua's Sacrifice — Xbox One: Ordered → Owned
+- Prey — Xbox One: Ordered → Owned
+- Tom Clancy's Splinter Cell — Xbox: Ordered → Owned
+- Tom Clancy's Splinter Cell Pandora Tomorrow — Xbox: Ordered → Owned
+
 ## 2026-10-06 — CLZ import
 
 Totals after import — Ordered: 10, Owned: 852, Wishlist: 5

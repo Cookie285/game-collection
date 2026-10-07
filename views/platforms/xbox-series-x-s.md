@@ -2,7 +2,7 @@
 
 # Xbox Series X|S
 
-## Owned (22)
+## Owned (23)
 
 | Title | Edition | Format | Region | Completeness | Purchased | Notes |
 |---|---|---|---|---|---|---|
@@ -28,4 +28,5 @@
 | Psychonauts 2 |  |  |  |  |  |  |
 | Redfall |  |  |  |  |  |  |
 | Split Fiction |  |  |  |  |  |  |
+| Tom Clancy's Rainbow Six: Siege X |  |  |  |  |  |  |
 

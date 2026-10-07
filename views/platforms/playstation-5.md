@@ -2,7 +2,7 @@
 
 # PlayStation 5
 
-## Owned (62)
+## Owned (63)
 
 | Title | Edition | Format | Region | Completeness | Purchased | Notes |
 |---|---|---|---|---|---|---|
@@ -61,6 +61,7 @@
 | Saros |  |  |  |  |  |  |
 | Silent Hill f |  |  |  |  |  |  |
 | Star Ocean: The Divine Force |  |  |  |  |  |  |
+| Star Wars: Galactic Racer |  |  |  |  |  |  |
 | Stellar Blade |  |  |  |  |  |  |
 | Stranger of Paradise: Final Fantasy Origin |  |  |  |  |  |  |
 | The Blood Of Dawnwalker |  |  |  |  |  |  |

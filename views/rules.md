@@ -17,7 +17,7 @@ Physical first. Digital only when there is no other option.
 
 _Why:_ The collection is about owning discs and carts; digital purchases are a fallback, not a goal.
 
-46 targets — ⬜ 42 · 🕒 1 · ✅ 2 · ➖ 1
+46 targets — ⬜ 42 · 🕒 0 · ✅ 3 · ➖ 1
 
 <details><summary>42 open</summary>
 
@@ -74,7 +74,7 @@ Platform order: PC (best graphics) → Nintendo (best physical line-up) → what
 
 _Why:_ Each game is bought once, on the platform where it plays or collects best.
 
-77 targets — ⬜ 54 · 🕒 1 · ✅ 4 · ➖ 18
+77 targets — ⬜ 54 · 🕒 0 · ✅ 5 · ➖ 18
 
 <details><summary>54 open</summary>
 
@@ -195,9 +195,9 @@ Gaps in older generations are mostly bought used.
 
 _Why:_ Older discs are cheap and plentiful used; new copies are often gone or overpriced.
 
-293 targets — ⬜ 275 · 🕒 3 · ✅ 15 · ➖ 0
+293 targets — ⬜ 273 · 🕒 1 · ✅ 19 · ➖ 0
 
-<details><summary>275 open</summary>
+<details><summary>273 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -442,8 +442,6 @@ _Why:_ Older discs are cheap and plentiful used; new copies are often gone or ov
 | Tom Clancy's Ghost Recon Advanced Warfighter | Xbox 360 | someday | undecided |
 | Tom Clancy's Ghost Recon Advanced Warfighter 2 | Xbox 360 | someday | undecided |
 | Tom Clancy's Ghost Recon: Future Soldier | Xbox 360 | someday | undecided |
-| Tom Clancy's Rainbow Six Extraction | Xbox One | someday | undecided |
-| Tom Clancy's Rainbow Six Siege | Xbox One | someday | undecided |
 | Tom Clancy's Rainbow Six Vegas | Xbox 360 | someday | undecided |
 | Tom Clancy's Rainbow Six Vegas 2 | Xbox 360 | someday | undecided |
 | Tomb Raider Definitive Edition | PlayStation 4 | low |  |
@@ -550,9 +548,9 @@ Single-player focus — multiplayer-only / online-focused games are skipped; dea
 
 _Precedents:_ Destiny, Overwatch, Crash Team Rumble skipped · no Guitar Hero / Skylanders
 
-26 targets — ⬜ 11 · 🕒 0 · ✅ 7 · ➖ 8
+26 targets — ⬜ 10 · 🕒 0 · ✅ 8 · ➖ 8
 
-<details><summary>11 open</summary>
+<details><summary>10 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -566,7 +564,6 @@ _Precedents:_ Destiny, Overwatch, Crash Team Rumble skipped · no Guitar Hero / 
 | Shadowrun | Xbox 360 | someday |  |
 | Star Wars Jedi: Survivor | PlayStation 5 | high |  |
 | Star Wars Outlaws | PlayStation 5 | medium |  |
-| Tom Clancy's Rainbow Six Siege | Xbox One | someday | undecided |
 
 </details>
 
@@ -1141,9 +1138,9 @@ Xbox is the shooter console: full Call of Duty and Battlefield runs. Beats Ninte
 
 _Why:_ Switch shooter ports are usually the weakest version.
 
-98 targets — ⬜ 53 · 🕒 2 · ✅ 40 · ➖ 3
+98 targets — ⬜ 51 · 🕒 1 · ✅ 43 · ➖ 3
 
-<details><summary>53 open</summary>
+<details><summary>51 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -1192,8 +1189,6 @@ _Why:_ Switch shooter ports are usually the weakest version.
 | Tom Clancy's Ghost Recon Advanced Warfighter | Xbox 360 | someday | undecided |
 | Tom Clancy's Ghost Recon Advanced Warfighter 2 | Xbox 360 | someday | undecided |
 | Tom Clancy's Ghost Recon: Future Soldier | Xbox 360 | someday | undecided |
-| Tom Clancy's Rainbow Six Extraction | Xbox One | someday | undecided |
-| Tom Clancy's Rainbow Six Siege | Xbox One | someday | undecided |
 | Tom Clancy's Rainbow Six Vegas | Xbox 360 | someday | undecided |
 | Tom Clancy's Rainbow Six Vegas 2 | Xbox 360 | someday | undecided |
 | Wolfenstein II: The New Colossus | Xbox One | someday | undecided |
@@ -1209,7 +1204,7 @@ Microsoft first-party on Xbox disc: layer 1 = published by Microsoft / Xbox Game
 
 _Why:_ Historical publisher counts — the Sep 2026 Xbox reset doesn't change scope.
 
-64 targets — ⬜ 19 · 🕒 2 · ✅ 42 · ➖ 1
+64 targets — ⬜ 19 · 🕒 1 · ✅ 43 · ➖ 1
 
 <details><summary>19 open</summary>
 
@@ -1241,7 +1236,7 @@ _Why:_ Historical publisher counts — the Sep 2026 Xbox reset doesn't change sc
 
 Layer 3 (studio owned by Microsoft today, but game published by someone else at release) is optional; Activision/Blizzard pre-Oct-2023 titles follow normal platform rules per game.
 
-25 targets — ⬜ 16 · 🕒 1 · ✅ 4 · ➖ 4
+25 targets — ⬜ 16 · 🕒 0 · ✅ 5 · ➖ 4
 
 <details><summary>16 open</summary>
 
@@ -1288,7 +1283,7 @@ Xbox One / Series discs carry a Disc-to-Digital licence — a reason to buy Micr
 
 _Why:_ One revocable licence per disc; licence moves if the disc is claimed elsewhere → don't lend discs casually.
 
-54 targets — ⬜ 18 · 🕒 2 · ✅ 33 · ➖ 1
+54 targets — ⬜ 18 · 🕒 1 · ✅ 34 · ➖ 1
 
 <details><summary>18 open</summary>
 
@@ -1465,7 +1460,7 @@ Digital-only games: play on Game Pass first; buy only if keeping/replaying, pref
 
 Third-party series that are "complete only on Xbox" are not collected (Valve set, Dead Space, Max Payne, Splinter Cell, Saints Row …). Exception: Titanfall 2.
 
-23 targets — ⬜ 0 · 🕒 2 · ✅ 0 · ➖ 21
+23 targets — ⬜ 0 · 🕒 0 · ✅ 2 · ➖ 21
 
 ### Xbox-exclusive entry → keep series on Xbox `xbox-exclusive-series-tiebreak` _(suggested, not adopted)_
 

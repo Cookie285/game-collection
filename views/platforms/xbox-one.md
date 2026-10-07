@@ -2,7 +2,7 @@
 
 # Xbox One
 
-## Owned (55)
+## Owned (59)
 
 | Title | Edition | Format | Region | Completeness | Purchased | Notes |
 |---|---|---|---|---|---|---|
@@ -36,6 +36,7 @@
 | Halo 5: Guardians |  |  |  |  |  |  |
 | Halo: The Master Chief Collection |  |  |  |  |  | Compilation: covers Halo: Combat Evolved Anniversary, Halo 2 Anniversary, Halo 3, Halo 3: ODST, Halo: Reach, Halo 4 · Also owned on Steam (Halo: The Master Chief Collection) |
 | Halo Wars 2 |  |  |  |  |  |  |
+| Hellblade: Senua's Sacrifice |  |  |  |  |  |  |
 | Killer Instinct |  |  |  |  |  | ❓ disc edition (Definitive Edition?) not confirmed |
 | LEGO Harry Potter Collection |  |  |  |  |  | Compilation: LEGO Harry Potter Years 1–4 + Years 5–7 |
 | Metro Redux |  |  |  |  |  |  |
@@ -45,6 +46,8 @@
 | Ori and the Blind Forest |  |  |  |  |  | Also owned on Steam (Ori and the Blind Forest) |
 | Ori and the Will of the Wisps |  |  |  |  |  |  |
 | Overcooked! + Overcooked! 2 |  |  |  |  |  | Compilation: Overcooked! + Overcooked! 2 |
+| Pillars of Eternity II: Deadfire |  |  |  |  |  |  |
+| Prey |  |  |  |  |  |  |
 | Quantum Break |  |  |  |  |  |  |
 | Ryse: Son Of Rome |  |  |  |  |  |  |
 | Sea of Thieves |  |  |  |  |  |  |
@@ -57,16 +60,15 @@
 | Titanfall 2 |  |  |  |  |  |  |
 | Tom Clancy's Ghost Recon: Breakpoint |  |  |  |  |  |  |
 | Tom Clancy's Ghost Recon: Wildlands |  |  |  |  |  |  |
+| Tom Clancy's Rainbow Six: Extraction |  |  |  |  |  |  |
 | Tom Clancy's The Division |  |  |  |  |  |  |
 | Tom Clancy's The Division 2 |  |  |  |  |  |  |
 | Zoo Tycoon |  |  |  |  |  |  |
 | Zoo Tycoon: Ultimate Animal Collection |  |  |  |  |  |  |
 
-## Ordered (3)
+## Ordered (1)
 
 | Title | Edition | Format | Region | Completeness | Purchased | Notes |
 |---|---|---|---|---|---|---|
-| Hellblade: Senua's Sacrifice |  |  |  |  |  |  |
-| Prey |  |  |  |  |  |  |
 | ReCore |  |  |  |  |  |  |
 
