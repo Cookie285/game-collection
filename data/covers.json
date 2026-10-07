@@ -12699,6 +12699,25 @@
 ],
 "pv": 2
 },
+"pillars of eternity ii deadfire|Xbox One": {
+"title": "Pillars of Eternity II: Deadfire",
+"platform": "Xbox One",
+"image": "co2wuo",
+"igdb_id": 26951,
+"name": "Pillars of Eternity II: Deadfire",
+"plats": [
+3,
+6,
+14,
+48,
+49,
+130
+],
+"score": 7,
+"checked": "2026-10-07",
+"v": 3,
+"pv": 2
+},
 "pizza tower|Nintendo Switch": {
 "title": "Pizza Tower",
 "platform": "Nintendo Switch",
@@ -16149,6 +16168,22 @@
 ],
 "pv": 2
 },
+"star wars galactic racer|PlayStation 5": {
+"title": "Star Wars: Galactic Racer",
+"platform": "PlayStation 5",
+"image": "cobihx",
+"igdb_id": 381248,
+"name": "Star Wars: Galactic Racer",
+"plats": [
+6,
+167,
+169
+],
+"score": 7,
+"checked": "2026-10-07",
+"v": 3,
+"pv": 2
+},
 "star wars jedi fallen order|PlayStation 4": {
 "title": "Star Wars Jedi: Fallen Order",
 "platform": "PlayStation 4",
@@ -18578,6 +18613,25 @@
 169,
 170
 ],
+"pv": 2
+},
+"tom clancy s rainbow six siege x|Xbox Series X|S": {
+"title": "Tom Clancy's Rainbow Six: Siege X",
+"platform": "Xbox Series X|S",
+"image": "coaep2",
+"igdb_id": 349562,
+"name": "Tom Clancy's Rainbow Six Siege X: Elite Edition",
+"plats": [
+6,
+48,
+49,
+167,
+169,
+170
+],
+"score": 4,
+"checked": "2026-10-07",
+"v": 3,
 "pv": 2
 },
 "tom clancy s rainbow six siege|Xbox One": {
