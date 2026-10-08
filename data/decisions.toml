@@ -28,6 +28,9 @@ context = "Switch 2 version is a Game-Key Card with a ~131 GB download; the PS5 
 recommendation = "PS5 — still the more physical option (a disc with game data on it, playable without the eShop licence check), but likely not a full install; the Switch 2 box is a pure download licence."
 rules = ["gkc-not-physical", "switch-first", "one-copy-newest-gen"]
 targets = ["Kingdom Hearts Collection [I–III]"]
+status = "decided"
+decided = "2026-10-08"
+outcome = "i will buy Kingdom Hearts All-in-One Edition on PS4 as this is fully on disc for all games"
 [[decision.option]]
 label = "PS5 disc"
 pros = ["Real physical copy (disc with game data)"]

@@ -23,7 +23,7 @@ for every open target. Rebuilt automatically on every push (see [Web frontend](#
 ## Summary
 
 <!-- summary:start -->
-_Updated 2026-10-07._
+_Updated 2026-10-08._
 
 ### By platform
 

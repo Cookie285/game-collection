@@ -4,7 +4,7 @@
 
 Generated from [`data/decisions.toml`](data/decisions.toml) — edit there (options, recommendation; `status = "decided"` + `outcome` when decided). Also on the web app's **Decisions** page.
 
-## Decisions (32)
+## Decisions (31)
 
 ### General
 
@@ -17,7 +17,6 @@ Generated from [`data/decisions.toml`](data/decisions.toml) — edit there (opti
 
 ### PlayStation
 
-- [ ] **Kingdom Hearts Collection [I–III]: PS5 disc or Switch 2 Game-Key Card?** _(due 2026-10-08)_ — options: PS5 disc / Switch 2 Game-Key Card — suggestion: PS5 — still the more physical option (a disc with game data on it, playable without the eShop licence check), but likely not a full install; the Switch 2 box is a pure download licence.
 - [ ] **Metaphor: ReFantazio: Switch 2 Game-Key Card or PS5 disc?** _(due 2026-11-12)_ — options: Switch 2 Game-Key Card / PS5 disc — suggestion: Your call — if Game-Key Cards are accepted for JRPGs (as for Bravely Default HD, Brigandine Abyss, Granblue Relink) → Switch 2; else PS5.
 - [ ] **GTA VI: pre-order or not?** _(due 2026-11-19)_ — options: Pre-order the boxed PS5 code (sealed) / Buy digitally (PS Store) at launch / Wait (for a possible disc edition / a lower price) / Xbox Series X|S instead (boxed code or Xbox Store) — suggestion: No disc exists on either console, so you are choosing a digital licence, not a shelf copy. If you want it at launch: take the Xbox Series X|S version (sealed box code or Xbox Store, whichever is cheaper) — Microsoft says the next Xbox runs the existing library, while a PSN licence stays behind if you skip the next PlayStation as planned. Otherwise wait: a later disc edition, a PC version or a next-gen re-release (GTA V got all three) may still come.
 - [ ] **Persona 4 Revival: PS5 disc in Feb 2027, or wait for Switch 2 in May 2027?** _(due 2027-02-18)_ — suggestion: Wait for the Switch 2 format: a real cart → Switch (JRPG rule); a Game-Key Card → same call as Persona 3 Reload / Metaphor.
@@ -72,8 +71,9 @@ Generated from [`data/decisions.toml`](data/decisions.toml) — edit there (opti
 - [ ] **KOTOR II listed twice on Switch (two spellings)**
 - [ ] **“Tales Of Xillia” casing**
 
-## Decision log (7)
+## Decision log (8)
 
+- ✅ 2026-10-08 — **Kingdom Hearts Collection [I–III]: PS5 disc or Switch 2 Game-Key Card?** → i will buy Kingdom Hearts All-in-One Edition on PS4 as this is fully on disc for all games
 - ✅ 2026-09-28 — **Store status of Battlefield 3 and Hardline digital listings (informational, owned on disc)** → Battlefield 3 (Xbox 360): delisted, pulled with the Xbox 360 Marketplace closure 14 Aug 2024. Battlefield Hardline (Xbox One): delisted 22 May 2026, servers shut down 22 Jun 2026. Both single-player still playable if owned on disc.
 - ✅ 2026-09-28 — **Fable: release date** → 23 Feb 2027 on PS5, Xbox Series and PC (delayed from autumn 2026)
 - ✅ earlier — **Non-JRPGs whose Switch 2 version is a Game-Key Card: Switch 2 or PS5?** → PS5 disc — Pragmata, Onimusha: Way of the Sword, Full Metal Schoolgirl. Became the rule “Game-Key Card ≠ physical”.
