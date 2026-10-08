@@ -159,7 +159,7 @@ _Precedents:_ Battlefield Hardline on Xbox One, not 360
 | Heavy Rain & Beyond: Two Souls Collection | PlayStation 4 | medium |  |
 | Horizon Zero Dawn Remastered | PlayStation 5 | low |  |
 | Killzone Trilogy | PlayStation 3 | low |  |
-| Kingdom Hearts Collection [I–III] | PlayStation 5, Nintendo Switch 2 | high | undecided |
+| Kingdom Hearts Collection [I–III] | PlayStation 5, Nintendo Switch 2 | high | decided |
 | Mafia: Trilogy | PlayStation 4 | medium |  |
 | Mass Effect Legendary Edition | PlayStation 4 | high |  |
 | Red Dead Redemption (2023) | PlayStation 4 | low |  |
@@ -781,7 +781,7 @@ _Precedents:_ Pragmata, Onimusha: Way of the Sword, Full Metal Schoolgirl → PS
 | Final Fantasy VII Revelation | Nintendo Switch 2, PlayStation 5 | medium | watching |
 | Final Fantasy X \| X-2 HD Remaster | Nintendo Switch | low |  |
 | Hogwarts Legacy | PlayStation 5, Nintendo Switch | high | undecided |
-| Kingdom Hearts Collection [I–III] | PlayStation 5, Nintendo Switch 2 | high | undecided |
+| Kingdom Hearts Collection [I–III] | PlayStation 5, Nintendo Switch 2 | high | decided |
 | Kingdom Hearts IV | Nintendo Switch 2, PlayStation 5 | low | watching |
 | Kunitsu-Gami: Path of the Goddess | PlayStation 5 | low |  |
 | Marvel's Guardians of the Galaxy | PlayStation 5 | medium |  |
@@ -898,7 +898,7 @@ PlayStation gets exclusives plus multiplatform games worth having on disc.
 | Journey Collector's Edition | PlayStation 3 | medium |  |
 | Judgment | PlayStation 5 | low |  |
 | Killzone Trilogy | PlayStation 3 | low |  |
-| Kingdom Hearts Collection [I–III] | PlayStation 5, Nintendo Switch 2 | high | undecided |
+| Kingdom Hearts Collection [I–III] | PlayStation 5, Nintendo Switch 2 | high | decided |
 | Kingdom Hearts IV | Nintendo Switch 2, PlayStation 5 | low | watching |
 | Kunitsu-Gami: Path of the Goddess | PlayStation 5 | low |  |
 | Lightning Returns: Final Fantasy XIII | PlayStation 3 | high |  |
