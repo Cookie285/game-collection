@@ -1,8 +1,8 @@
 # Series checklists – Nintendo exclusives — started 2026-10-10 from the CLZ collection
 # Mainline entries only. Remakes / remasters / compilations on newer hardware count (aliases, compilations-count).
-# `optional = true` = only playable on older hardware (GB–Wii U, DS/3DS) — shown, but not counted as a gap until you
-# decide question `nintendo-retro-scope`. Upcoming entries are in data/targets/nintendo.toml.
-
+# `optional = true` = only playable on older hardware (GB–Wii U, DS/3DS): not collected — decided 2026-10-10
+# (nintendo-retro-scope: "not interested in retro Nintendo, will not buy"). They stay listed for completeness only.
+# Upcoming entries are in data/targets/nintendo.toml.
 [[series]]
 platforms = ["nintendo"]
 name = "The Legend of Zelda"

@@ -159,7 +159,7 @@ _Precedents:_ Battlefield Hardline on Xbox One, not 360
 | Heavy Rain & Beyond: Two Souls Collection | PlayStation 4 | medium |  |
 | Horizon Zero Dawn Remastered | PlayStation 5 | low |  |
 | Killzone Trilogy | PlayStation 3 | low |  |
-| Kingdom Hearts Collection [I–III] | PlayStation 5, Nintendo Switch 2 | high | decided |
+| Kingdom Hearts All-In-One Package | PlayStation 4 | high |  |
 | Mafia: Trilogy | PlayStation 4 | medium |  |
 | Mass Effect Legendary Edition | PlayStation 4 | high |  |
 | Pokémon Shield | Nintendo Switch | someday | undecided |
@@ -196,9 +196,9 @@ Gaps in older generations are mostly bought used.
 
 _Why:_ Older discs are cheap and plentiful used; new copies are often gone or overpriced.
 
-300 targets — ⬜ 280 · 🕒 1 · ✅ 19 · ➖ 0
+301 targets — ⬜ 281 · 🕒 1 · ✅ 19 · ➖ 0
 
-<details><summary>280 open</summary>
+<details><summary>281 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -317,6 +317,7 @@ _Why:_ Older discs are cheap and plentiful used; new copies are often gone or ov
 | Judgment | PlayStation 5 | low |  |
 | Killzone Trilogy | PlayStation 3 | low |  |
 | Kinect Sports Rivals | Xbox One | someday |  |
+| Kingdom Hearts All-In-One Package | PlayStation 4 | high |  |
 | Kunitsu-Gami: Path of the Goddess | PlayStation 5 | low |  |
 | Lightning Returns: Final Fantasy XIII | PlayStation 3 | high |  |
 | Like a Dragon Gaiden: The Man Who Erased His Name | PlayStation 5 | low |  |
@@ -806,7 +807,7 @@ _Precedents:_ Pragmata, Onimusha: Way of the Sword, Full Metal Schoolgirl → PS
 | Final Fantasy VII Revelation | Nintendo Switch 2, PlayStation 5 | medium | watching |
 | Final Fantasy X \| X-2 HD Remaster | Nintendo Switch | low |  |
 | Hogwarts Legacy | PlayStation 5, Nintendo Switch | high | undecided |
-| Kingdom Hearts Collection [I–III] | PlayStation 5, Nintendo Switch 2 | high | decided |
+| Kingdom Hearts All-In-One Package | PlayStation 4 | high |  |
 | Kingdom Hearts IV | Nintendo Switch 2, PlayStation 5 | low | watching |
 | Kirby and the World Beyond | Nintendo Switch 2 | medium | watching |
 | Kunitsu-Gami: Path of the Goddess | PlayStation 5 | low |  |
@@ -930,7 +931,7 @@ PlayStation gets exclusives plus multiplatform games worth having on disc.
 | Journey Collector's Edition | PlayStation 3 | medium |  |
 | Judgment | PlayStation 5 | low |  |
 | Killzone Trilogy | PlayStation 3 | low |  |
-| Kingdom Hearts Collection [I–III] | PlayStation 5, Nintendo Switch 2 | high | decided |
+| Kingdom Hearts All-In-One Package | PlayStation 4 | high |  |
 | Kingdom Hearts IV | Nintendo Switch 2, PlayStation 5 | low | watching |
 | Kunitsu-Gami: Path of the Goddess | PlayStation 5 | low |  |
 | Lightning Returns: Final Fantasy XIII | PlayStation 3 | high |  |
