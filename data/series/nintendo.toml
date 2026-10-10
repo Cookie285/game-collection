@@ -1,0 +1,742 @@
+# Series checklists – Nintendo exclusives — started 2026-10-10 from the CLZ collection
+# Mainline entries only. Remakes / remasters / compilations on newer hardware count (aliases, compilations-count).
+# `optional = true` = only playable on older hardware (GB–Wii U, DS/3DS) — shown, but not counted as a gap until you
+# decide question `nintendo-retro-scope`. Upcoming entries are in data/targets/nintendo.toml.
+
+[[series]]
+platforms = ["nintendo"]
+name = "The Legend of Zelda"
+description = "Mainline Zelda (no spin-offs)"
+
+[[series.entry]]
+title = "The Legend of Zelda"
+year = 1986
+optional = true
+note = "NES"
+
+[[series.entry]]
+title = "Zelda II: The Adventure of Link"
+year = 1987
+optional = true
+note = "NES"
+
+[[series.entry]]
+title = "The Legend of Zelda: A Link to the Past"
+year = 1991
+optional = true
+note = "SNES (GBA re-release with Four Swords)"
+
+[[series.entry]]
+title = "The Legend of Zelda: Link's Awakening"
+year = 1993
+note = "GB original; Switch remake 2019 — both owned"
+
+[[series.entry]]
+title = "The Legend of Zelda: Ocarina of Time"
+aliases = ["The Legend of Zelda: Ocarina of Time 3D"]
+year = 1998
+note = "N64; 3DS remake owned; Switch 2 remake 5 Nov 2026 (buy plan)"
+
+[[series.entry]]
+title = "The Legend of Zelda: Majora's Mask"
+aliases = ["The Legend of Zelda: Majora's Mask 3D"]
+year = 2000
+optional = true
+note = "N64; 3DS remake 2015"
+
+[[series.entry]]
+title = "The Legend of Zelda: Oracle of Seasons"
+aliases = ["The Legend of Zelda: Oracle of Ages"]
+year = 2001
+optional = true
+note = "GBC pair — either counts"
+
+[[series.entry]]
+title = "The Legend of Zelda: The Wind Waker"
+aliases = ["The Legend of Zelda: The Wind Waker HD"]
+year = 2002
+note = "GameCube; Wii U HD owned"
+
+[[series.entry]]
+title = "The Legend of Zelda: The Minish Cap"
+year = 2004
+optional = true
+note = "GBA"
+
+[[series.entry]]
+title = "The Legend of Zelda: Twilight Princess"
+aliases = ["The Legend of Zelda: Twilight Princess HD"]
+year = 2006
+optional = true
+note = "GameCube / Wii; Wii U HD 2016"
+
+[[series.entry]]
+title = "The Legend of Zelda: Phantom Hourglass"
+year = 2007
+optional = true
+note = "DS"
+
+[[series.entry]]
+title = "The Legend of Zelda: Spirit Tracks"
+year = 2009
+optional = true
+note = "DS"
+
+[[series.entry]]
+title = "The Legend of Zelda: Skyward Sword"
+aliases = ["The Legend of Zelda: Skyward Sword HD"]
+year = 2011
+note = "Wii; Switch HD owned"
+
+[[series.entry]]
+title = "The Legend of Zelda: A Link Between Worlds"
+year = 2013
+optional = true
+note = "3DS"
+
+[[series.entry]]
+title = "The Legend of Zelda: Breath of the Wild"
+year = 2017
+note = "Switch (also Wii U)"
+
+[[series.entry]]
+title = "The Legend of Zelda: Tears of the Kingdom"
+year = 2023
+
+[[series.entry]]
+title = "The Legend of Zelda: Echoes of Wisdom"
+year = 2024
+
+[[series]]
+platforms = ["nintendo"]
+name = "Super Mario"
+description = "Mainline 2D and 3D Mario platformers"
+
+[[series.entry]]
+title = "Super Mario Bros. 3"
+year = 1988
+optional = true
+note = "NES (GBA: Super Mario Advance 4)"
+
+[[series.entry]]
+title = "Super Mario World"
+aliases = ["Super Mario World: Super Mario Advance 2"]
+year = 1990
+note = "SNES; GBA version owned"
+
+[[series.entry]]
+title = "Super Mario Land 2: 6 Golden Coins"
+year = 1992
+note = "GB — owned"
+
+[[series.entry]]
+title = "Super Mario 64"
+aliases = ["Super Mario 3D All-Stars"]
+year = 1996
+note = "N64 owned; also in Super Mario 3D All-Stars"
+
+[[series.entry]]
+title = "Super Mario Sunshine"
+aliases = ["Super Mario 3D All-Stars"]
+year = 2002
+note = "GameCube; in Super Mario 3D All-Stars (owned)"
+
+[[series.entry]]
+title = "New Super Mario Bros."
+year = 2006
+optional = true
+note = "DS"
+
+[[series.entry]]
+title = "Super Mario Galaxy"
+aliases = ["Super Mario Galaxy + Super Mario Galaxy 2", "Super Mario 3D All-Stars"]
+year = 2007
+note = "Wii; Switch compilation owned"
+
+[[series.entry]]
+title = "New Super Mario Bros. Wii"
+year = 2009
+optional = true
+note = "Wii"
+
+[[series.entry]]
+title = "Super Mario Galaxy 2"
+aliases = ["Super Mario Galaxy + Super Mario Galaxy 2"]
+year = 2010
+note = "Wii; Switch compilation owned"
+
+[[series.entry]]
+title = "Super Mario 3D Land"
+year = 2011
+optional = true
+note = "3DS"
+
+[[series.entry]]
+title = "New Super Mario Bros. 2"
+year = 2012
+optional = true
+note = "3DS"
+
+[[series.entry]]
+title = "New Super Mario Bros. U"
+aliases = ["New Super Mario Bros. U Deluxe"]
+year = 2012
+note = "Wii U; Switch Deluxe owned"
+
+[[series.entry]]
+title = "Super Mario 3D World"
+aliases = ["Super Mario 3D World + Bowser's Fury"]
+year = 2013
+note = "Wii U; Switch version owned"
+
+[[series.entry]]
+title = "Super Mario Odyssey"
+year = 2017
+
+[[series.entry]]
+title = "Super Mario Bros. Wonder"
+year = 2023
+
+[[series]]
+platforms = ["nintendo"]
+name = "Mario RPGs"
+description = "Super Mario RPG, Paper Mario and Mario & Luigi"
+
+[[series.entry]]
+title = "Super Mario RPG"
+aliases = ["Super Mario RPG: Legend of the Seven Stars"]
+year = 1996
+note = "SNES; Switch remake owned"
+
+[[series.entry]]
+title = "Paper Mario"
+year = 2000
+optional = true
+note = "N64"
+
+[[series.entry]]
+title = "Mario & Luigi: Superstar Saga"
+aliases = ["Mario & Luigi: Superstar Saga + Bowser's Minions"]
+year = 2003
+optional = true
+note = "GBA; 3DS remake 2017"
+
+[[series.entry]]
+title = "Paper Mario: The Thousand-Year Door"
+year = 2004
+note = "GameCube; Switch remake owned"
+
+[[series.entry]]
+title = "Mario & Luigi: Partners in Time"
+year = 2005
+optional = true
+note = "DS"
+
+[[series.entry]]
+title = "Super Paper Mario"
+year = 2007
+optional = true
+note = "Wii"
+
+[[series.entry]]
+title = "Mario & Luigi: Bowser's Inside Story"
+aliases = ["Mario & Luigi: Bowser's Inside Story + Bowser Jr.'s Journey"]
+year = 2009
+optional = true
+note = "DS; 3DS remake 2018"
+
+[[series.entry]]
+title = "Paper Mario: Sticker Star"
+year = 2012
+optional = true
+note = "3DS"
+
+[[series.entry]]
+title = "Mario & Luigi: Dream Team"
+year = 2013
+optional = true
+note = "3DS"
+
+[[series.entry]]
+title = "Mario & Luigi: Paper Jam"
+year = 2015
+optional = true
+note = "3DS"
+
+[[series.entry]]
+title = "Paper Mario: Color Splash"
+aliases = ["Paper Mario Color Splash"]
+year = 2016
+note = "Wii U — owned"
+
+[[series.entry]]
+title = "Paper Mario: The Origami King"
+year = 2020
+
+[[series.entry]]
+title = "Mario & Luigi: Brothership"
+year = 2024
+
+[[series]]
+platforms = ["nintendo"]
+name = "Metroid"
+description = "Mainline Metroid and Metroid Prime"
+
+[[series.entry]]
+title = "Metroid"
+aliases = ["Metroid: Zero Mission"]
+year = 1986
+optional = true
+note = "NES; GBA remake Zero Mission (2004)"
+
+[[series.entry]]
+title = "Metroid II: Return of Samus"
+aliases = ["Metroid: Samus Returns"]
+year = 1991
+optional = true
+note = "GB; 3DS remake Samus Returns (2017)"
+
+[[series.entry]]
+title = "Super Metroid"
+year = 1994
+optional = true
+note = "SNES"
+
+[[series.entry]]
+title = "Metroid Prime"
+aliases = ["Metroid Prime Remastered"]
+year = 2002
+note = "GameCube; Switch remaster owned"
+
+[[series.entry]]
+title = "Metroid Fusion"
+year = 2002
+optional = true
+note = "GBA"
+
+[[series.entry]]
+title = "Metroid Prime 2: Echoes"
+year = 2004
+optional = true
+note = "GameCube (Wii: Metroid Prime Trilogy) — a Switch remaster is only rumoured"
+
+[[series.entry]]
+title = "Metroid Prime 3: Corruption"
+year = 2007
+optional = true
+note = "Wii (also Metroid Prime Trilogy)"
+
+[[series.entry]]
+title = "Metroid: Other M"
+year = 2010
+optional = true
+note = "Wii"
+
+[[series.entry]]
+title = "Metroid Dread"
+year = 2021
+note = "Switch — buy plan"
+
+[[series.entry]]
+title = "Metroid Prime 4: Beyond"
+year = 2025
+
+[[series]]
+platforms = ["nintendo"]
+name = "Fire Emblem"
+description = "Mainline Fire Emblem released in the West"
+
+[[series.entry]]
+title = "Fire Emblem"
+aliases = ["Fire Emblem: The Blazing Blade"]
+year = 2003
+optional = true
+note = "GBA (first Western release)"
+
+[[series.entry]]
+title = "Fire Emblem: The Sacred Stones"
+year = 2004
+optional = true
+note = "GBA"
+
+[[series.entry]]
+title = "Fire Emblem: Path of Radiance"
+year = 2005
+optional = true
+note = "GameCube — expensive used"
+
+[[series.entry]]
+title = "Fire Emblem: Radiant Dawn"
+year = 2007
+optional = true
+note = "Wii"
+
+[[series.entry]]
+title = "Fire Emblem: Shadow Dragon"
+year = 2008
+optional = true
+note = "DS"
+
+[[series.entry]]
+title = "Fire Emblem: Awakening"
+year = 2012
+optional = true
+note = "3DS"
+
+[[series.entry]]
+title = "Fire Emblem Fates"
+aliases = ["Fire Emblem Fates: Birthright", "Fire Emblem Fates: Conquest", "Fire Emblem Fates: Special Edition"]
+year = 2015
+optional = true
+note = "3DS"
+
+[[series.entry]]
+title = "Fire Emblem Echoes: Shadows of Valentia"
+year = 2017
+optional = true
+note = "3DS"
+
+[[series.entry]]
+title = "Fire Emblem: Three Houses"
+year = 2019
+note = "Switch — buy plan"
+
+[[series.entry]]
+title = "Fire Emblem Engage"
+year = 2023
+
+[[series.entry]]
+title = "Fire Emblem: Fortune's Weave"
+year = 2026
+
+[[series]]
+platforms = ["nintendo"]
+name = "Xenoblade"
+description = "Monolith Soft's Xenoblade series"
+
+[[series.entry]]
+title = "Xenoblade Chronicles"
+aliases = ["Xenoblade Chronicles: Definitive Edition"]
+year = 2010
+note = "Wii; Switch Definitive Edition owned"
+
+[[series.entry]]
+title = "Xenoblade Chronicles X"
+aliases = ["Xenoblade Chronicles X: Definitive Edition"]
+year = 2015
+note = "Wii U; Switch Definitive Edition owned"
+
+[[series.entry]]
+title = "Xenoblade Chronicles 2"
+year = 2017
+
+[[series.entry]]
+title = "Xenoblade Chronicles 2: Torna - The Golden Country"
+year = 2018
+
+[[series.entry]]
+title = "Xenoblade Chronicles 3"
+year = 2022
+note = "Future Redeemed (2023) is DLC, digital only"
+
+[[series.entry]]
+title = "Xenoblade Genesis"
+year = 2027
+note = "Switch 2, 2027 — buy plan"
+
+[[series]]
+platforms = ["nintendo"]
+name = "Kirby"
+description = "Mainline Kirby platformers"
+
+[[series.entry]]
+title = "Kirby's Dream Land"
+year = 1992
+optional = true
+note = "GB"
+
+[[series.entry]]
+title = "Kirby's Adventure"
+aliases = ["Kirby: Nightmare in Dream Land"]
+year = 1993
+optional = true
+note = "NES; GBA remake Nightmare in Dream Land"
+
+[[series.entry]]
+title = "Kirby Super Star"
+aliases = ["Kirby Super Star Ultra"]
+year = 1996
+optional = true
+note = "SNES; DS remake Super Star Ultra"
+
+[[series.entry]]
+title = "Kirby 64: The Crystal Shards"
+year = 2000
+optional = true
+note = "N64"
+
+[[series.entry]]
+title = "Kirby & the Amazing Mirror"
+year = 2004
+optional = true
+note = "GBA"
+
+[[series.entry]]
+title = "Kirby: Squeak Squad"
+year = 2006
+optional = true
+note = "DS"
+
+[[series.entry]]
+title = "Kirby's Return to Dream Land"
+aliases = ["Kirby's Return to Dream Land Deluxe", "Kirby's Adventure Wii"]
+year = 2011
+note = "Wii; Switch Deluxe owned"
+
+[[series.entry]]
+title = "Kirby: Triple Deluxe"
+year = 2014
+optional = true
+note = "3DS"
+
+[[series.entry]]
+title = "Kirby: Planet Robobot"
+year = 2016
+optional = true
+note = "3DS"
+
+[[series.entry]]
+title = "Kirby Star Allies"
+year = 2018
+
+[[series.entry]]
+title = "Kirby and the Forgotten Land"
+year = 2022
+
+[[series.entry]]
+title = "Kirby and the World Beyond"
+year = 2027
+note = "Switch 2, spring 2027 — buy plan"
+
+[[series]]
+platforms = ["nintendo"]
+name = "Pokémon"
+description = "Main-series Pokémon — one version of each pair counts"
+
+[[series.entry]]
+title = "Pokémon Red Version"
+aliases = ["Pokémon Blue Version", "Pokémon Yellow Version", "Pokémon FireRed Version", "Pokémon Leaf Green Version", "Pokémon LeafGreen Version"]
+year = 1996
+note = "Gen 1 — Yellow and LeafGreen owned"
+
+[[series.entry]]
+title = "Pokémon Gold Version"
+aliases = ["Pokémon Silver Version", "Pokémon Crystal Version", "Pokémon HeartGold Version", "Pokémon SoulSilver Version"]
+year = 1999
+note = "Gen 2 — Gold, Silver, Crystal owned"
+
+[[series.entry]]
+title = "Pokémon Ruby Version"
+aliases = ["Pokémon Sapphire Version", "Pokémon Emerald Version", "Pokémon Omega Ruby", "Pokémon Alpha Sapphire"]
+year = 2002
+note = "Gen 3 — Ruby and Alpha Sapphire owned"
+
+[[series.entry]]
+title = "Pokémon Diamond Version"
+aliases = ["Pokémon Pearl Version", "Pokémon Platinum Version", "Pokémon Brilliant Diamond", "Pokémon Shining Pearl", "Pokemon Brilliant Diamond & Shining Pearl Dual Pack"]
+year = 2006
+note = "Gen 4 — Brilliant Diamond & Shining Pearl owned"
+
+[[series.entry]]
+title = "Pokémon Black Version"
+aliases = ["Pokémon White Version"]
+year = 2010
+note = "Gen 5 — owned"
+
+[[series.entry]]
+title = "Pokémon Black Version 2"
+aliases = ["Pokémon White Version 2"]
+year = 2012
+note = "Gen 5 sequel — owned"
+
+[[series.entry]]
+title = "Pokémon X"
+aliases = ["Pokémon Y"]
+year = 2013
+note = "Gen 6 — owned"
+
+[[series.entry]]
+title = "Pokémon Sun"
+aliases = ["Pokémon Moon", "Pokémon Ultra Sun", "Pokémon Ultra Moon"]
+year = 2016
+note = "Gen 7 — Moon owned"
+
+[[series.entry]]
+title = "Pokémon: Let's Go, Pikachu!"
+aliases = ["Pokémon: Let's Go, Eevee!", "Pokemon Let's Go Pikachu", "Pokemon Let's Go Eevee"]
+year = 2018
+note = "Switch — buy plan"
+
+[[series.entry]]
+title = "Pokémon Sword"
+aliases = ["Pokémon Shield", "Pokemon Sword", "Pokemon Shield"]
+year = 2019
+note = "Gen 8 — Sword owned"
+
+[[series.entry]]
+title = "Pokémon Legends: Arceus"
+year = 2022
+
+[[series.entry]]
+title = "Pokémon Scarlet"
+aliases = ["Pokémon Violet", "Pokemon Scarlet & Violet Double Pack"]
+year = 2022
+note = "Gen 9 — owned"
+
+[[series.entry]]
+title = "Pokémon Legends: Z-A"
+aliases = ["Pokemon Legends: Z-A"]
+year = 2025
+
+[[series.entry]]
+title = "Pokémon Winds"
+aliases = ["Pokémon Waves", "Pokemon Winds", "Pokemon Waves"]
+year = 2027
+note = "Gen 10, Switch 2, 2027 — buy plan"
+
+[[series]]
+platforms = ["nintendo"]
+name = "Donkey Kong"
+description = "Donkey Kong Country and 3D Donkey Kong"
+
+[[series.entry]]
+title = "Donkey Kong Country"
+year = 1994
+optional = true
+note = "SNES (GBA port)"
+
+[[series.entry]]
+title = "Donkey Kong Country 2: Diddy's Kong Quest"
+year = 1995
+optional = true
+note = "SNES (GBA port)"
+
+[[series.entry]]
+title = "Donkey Kong Country 3: Dixie Kong's Double Trouble!"
+year = 1996
+optional = true
+note = "SNES (GBA port)"
+
+[[series.entry]]
+title = "Donkey Kong 64"
+year = 1999
+note = "N64 — owned"
+
+[[series.entry]]
+title = "Donkey Kong Country Returns"
+aliases = ["Donkey Kong Country Returns HD", "Donkey Kong Country Returns 3D"]
+year = 2010
+note = "Wii; Switch HD owned"
+
+[[series.entry]]
+title = "Donkey Kong Country: Tropical Freeze"
+year = 2014
+
+[[series.entry]]
+title = "Donkey Kong Bananza"
+year = 2025
+
+[[series]]
+platforms = ["nintendo"]
+name = "Pikmin"
+description = "Mainline Pikmin"
+
+[[series.entry]]
+title = "Pikmin"
+aliases = ["Pikmin 1 + 2", "Pikmin 1"]
+year = 2001
+note = "GameCube; in Pikmin 1 + 2 (Switch, owned)"
+
+[[series.entry]]
+title = "Pikmin 2"
+aliases = ["Pikmin 1 + 2"]
+year = 2004
+note = "GameCube; in Pikmin 1 + 2 (Switch, owned)"
+
+[[series.entry]]
+title = "Pikmin 3"
+aliases = ["Pikmin 3 Deluxe"]
+year = 2013
+note = "Wii U; Switch Deluxe owned"
+
+[[series.entry]]
+title = "Pikmin 4"
+year = 2023
+
+[[series]]
+platforms = ["nintendo"]
+name = "Luigi's Mansion"
+description = "Luigi's Mansion series"
+
+[[series.entry]]
+title = "Luigi's Mansion"
+year = 2001
+optional = true
+note = "GameCube; 3DS remake 2018"
+
+[[series.entry]]
+title = "Luigi's Mansion 2"
+aliases = ["Luigi's Mansion 2 HD", "Luigi's Mansion: Dark Moon"]
+year = 2013
+note = "3DS; Switch HD owned"
+
+[[series.entry]]
+title = "Luigi's Mansion 3"
+year = 2019
+
+[[series]]
+platforms = ["nintendo"]
+name = "Splatoon"
+description = "Splatoon series (single-player campaigns)"
+
+[[series.entry]]
+title = "Splatoon"
+year = 2015
+optional = true
+note = "Wii U"
+
+[[series.entry]]
+title = "Splatoon 2"
+year = 2017
+
+[[series.entry]]
+title = "Splatoon 3"
+year = 2022
+
+[[series.entry]]
+title = "Splatoon Raiders"
+year = 2026
+
+[[series]]
+platforms = ["nintendo"]
+name = "Bayonetta"
+description = "Bayonetta series (Nintendo-published since 2)"
+
+[[series.entry]]
+title = "Bayonetta"
+platforms = ["nintendo", "playstation", "xbox"]
+year = 2009
+note = "PS3 copy owned (Switch version exists too)"
+
+[[series.entry]]
+title = "Bayonetta 2"
+year = 2014
+note = "Wii U / Switch — buy plan"
+
+[[series.entry]]
+title = "Bayonetta 3"
+year = 2022
+
+[[series.entry]]
+title = "Bayonetta Origins: Cereza and the Lost Demon"
+year = 2023

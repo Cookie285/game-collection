@@ -1011,8 +1011,10 @@ def cmd_export(args) -> None:
             have_by_title[norm(r["title"])].add(r["platform"])
     hit = lambda h: {"title": h["title"], "platform": h["platform"], "edition": h["edition"], "status": h["status"]}
     covers, cover_ov = load_covers(), cover_overrides()
+    excl_by_title = {norm(t["title"]): t["exclusive"] for t in load_targets() if t.get("exclusive")}
     games = [{**{k: r[k] for k in FIELDS if r[k] and k != "source"}, "note": note_for(r, ann),
-              "family": family_of(r["platform"]), "cover": cover_for(r["title"], r["platform"], covers, cover_ov)}
+              "family": family_of(r["platform"]), "cover": cover_for(r["title"], r["platform"], covers, cover_ov),
+              "exclusive": game_exclusive(r, covers, excl_by_title)}
              for r in sorted(rows, key=sort_key)]
     R = load_rules()
     rules = R["rules"]
@@ -1313,11 +1315,26 @@ def exclusivity(t: dict, covers: dict) -> str:
     plat = next(iter(sorted(expand_platforms(t.get("platforms")) or [],
                             key=lambda x: PLATFORM_ORDER.index(x) if x in PLATFORM_ORDER else 99)), "")
     hit = covers.get(cover_key(t["title"], plat)) or covers.get(cover_key(t["title"]))
-    ids = (hit or {}).get("plats")
+    return exclusive_from_ids((hit or {}).get("plats"))
+
+
+def exclusive_from_ids(ids, own: str = "") -> str:
+    """IGDB release-platform ids → exclusivity value. `own` = the console family a copy is owned on (always counts,
+    so a wrong IGDB match listing only another console can't call it an exclusive of that one)."""
     if not ids:
         return ""
     fams = {IGDB_FAMILY.get(i, "other") for i in ids if isinstance(i, int) and i not in IGDB_NOT_CONSOLE}
+    if fams and own in ("playstation", "xbox", "nintendo"):
+        fams.add(own)
     return "" if not fams else next(iter(fams)) if len(fams) == 1 else "multi"
+
+
+def game_exclusive(r: dict, covers: dict, by_title: dict[str, str]) -> str:
+    """Exclusivity of an owned / listed game: a buy-plan target's own `exclusive` for the same title wins, else IGDB."""
+    if norm(r["title"]) in by_title:
+        return by_title[norm(r["title"])]
+    hit = covers.get(cover_key(r["title"], r["platform"])) or covers.get(cover_key(r["title"]))
+    return exclusive_from_ids((hit or {}).get("plats"), family_of(r["platform"]))
 
 
 IMAGE_ID_RX = re.compile(r"^[a-z0-9]{2,32}$")  # IGDB image ids; anything else is rejected (no injection into URLs)

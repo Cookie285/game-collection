@@ -2,7 +2,7 @@
 
 # Overview
 
-_Updated 2026-10-08._
+_Updated 2026-10-10._
 
 ## By platform
 
@@ -33,12 +33,25 @@ _Updated 2026-10-08._
 
 ## Buy plan
 
-⬜ 396 open · 🕒 3 ordered · ✅ 104 done — see [gaps.md](gaps.md)
+⬜ 410 open · 🕒 3 ordered · ✅ 104 done — see [gaps.md](gaps.md)
 
 ## Series
 
 | Series | Physical | 💻 Steam only |
 |---|---|---|
+| The Legend of Zelda | 7/7 ✅ |  |
+| Super Mario | 10/10 ✅ |  |
+| Mario RPGs | 5/5 ✅ |  |
+| Metroid | 2/3 |  |
+| Fire Emblem | 2/3 |  |
+| Xenoblade | 5/6 |  |
+| Kirby | 3/4 |  |
+| Pokémon | 12/14 |  |
+| Donkey Kong | 4/4 ✅ |  |
+| Pikmin | 4/4 ✅ |  |
+| Luigi's Mansion | 2/2 ✅ |  |
+| Splatoon | 3/3 ✅ |  |
+| Bayonetta | 3/4 |  |
 | God of War | 3/11 | 1 |
 | Uncharted | 5/5 ✅ |  |
 | The Last of Us | 2/2 ✅ |  |

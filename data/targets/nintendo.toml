@@ -1,0 +1,158 @@
+# Buy plan – Nintendo exclusives — started 2026-10-10 from the CLZ collection (≈500 Nintendo games owned)
+# Scope: Nintendo-exclusive games on Switch / Switch 2 that are missing from the collection, plus announced ones.
+# Every entry is a suggestion — priorities follow the series' weight; you decide what to keep.
+# Older platforms (GB–Wii U, DS/3DS) are tracked in data/series/nintendo.toml as optional — see question
+# `nintendo-retro-scope`. Switch 2 Editions of games you own are not listed here — see `switch2-editions`.
+
+# ---------------------------------------------------------------- Switch gaps
+[[target]]
+title = "Metroid Dread"
+platforms = ["Nintendo Switch"]
+priority = "high"
+group = "Switch gaps – Nintendo exclusive"
+plan = "Switch cart; used preferred"
+state = "undecided"
+note = "Suggested (Nintendo plan 2026-10-10): the last 2D Metroid before Metroid Ravenous (Jan 2027); you own Prime Remastered and Prime 4."
+exclusive = "nintendo"
+
+[[target]]
+title = "Fire Emblem: Three Houses"
+platforms = ["Nintendo Switch"]
+priority = "high"
+group = "Switch gaps – Nintendo exclusive"
+plan = "Switch cart; used preferred"
+state = "undecided"
+note = "Suggested (Nintendo plan 2026-10-10): the one mainline Switch Fire Emblem missing — you own Engage, Fortune's Weave and Three Hopes (its Warriors spin-off)."
+exclusive = "nintendo"
+
+[[target]]
+title = "Bayonetta 2"
+platforms = ["Nintendo Switch"]
+priority = "medium"
+group = "Switch gaps – Nintendo exclusive"
+plan = "Switch cart; used preferred"
+state = "undecided"
+note = "Suggested (Nintendo plan 2026-10-10): the gap between Bayonetta (PS3, owned) and Bayonetta 3 / Origins (owned). Check whether the edition includes Bayonetta 1."
+exclusive = "nintendo"
+
+[[target]]
+title = "Pokémon: Let's Go, Pikachu!"
+aliases = ["Pokémon: Let's Go, Eevee!", "Pokemon Let's Go Pikachu", "Pokemon Let's Go Eevee"]
+platforms = ["Nintendo Switch"]
+priority = "medium"
+group = "Switch gaps – Nintendo exclusive"
+plan = "Switch cart (one version); used preferred"
+state = "undecided"
+note = "Suggested (Nintendo plan 2026-10-10): the only Switch main-series Pokémon missing; either version counts."
+exclusive = "nintendo"
+
+[[target]]
+title = "Mario Kart 8 Deluxe"
+platforms = ["Nintendo Switch"]
+priority = "medium"
+group = "Switch gaps – Nintendo exclusive"
+plan = "Switch cart; used preferred"
+state = "undecided"
+note = "Suggested (Nintendo plan 2026-10-10): not in CLZ — check whether you own it digitally (it was often bundled with consoles). Racing / multiplayer-leaning, see single-player focus. Mario Kart World on Switch 2 is the newer entry."
+exclusive = "nintendo"
+
+[[target]]
+title = "Pokémon Shield"
+aliases = ["Pokemon Shield"]
+platforms = ["Nintendo Switch"]
+priority = "someday"
+group = "Switch gaps – Nintendo exclusive"
+plan = "Switch cart only if really cheap"
+state = "undecided"
+note = "Suggested (Nintendo plan 2026-10-10): you own Pokémon Sword — the counterpart version is a nice-to-have only (one copy per game)."
+exclusive = "nintendo"
+
+[[target]]
+title = "Tomodachi Life: Living the Dream"
+platforms = ["Nintendo Switch"]
+priority = "low"
+group = "Switch gaps – Nintendo exclusive"
+plan = "Switch cart; used preferred"
+state = "undecided"
+note = "Suggested (Nintendo plan 2026-10-10): Mii life sim, out 16 Apr 2026 on Switch (plays on Switch 2); in the vein of Miitopia and Animal Crossing, which you own."
+exclusive = "nintendo"
+
+# ---------------------------------------------------------------- Switch 2
+[[target]]
+title = "Mario Kart World"
+platforms = ["Nintendo Switch 2"]
+priority = "medium"
+group = "Switch 2 – Nintendo exclusive"
+plan = "Switch 2 cart; used preferred"
+state = "undecided"
+note = "Suggested (Nintendo plan 2026-10-10): not in CLZ — check whether you own it digitally via a Switch 2 bundle. Multiplayer-leaning, see single-player focus."
+exclusive = "nintendo"
+
+# ---------------------------------------------------------------- announced
+rules = ["switch-first", "gkc-not-physical"]
+[[target]]
+title = "The Legend of Zelda: Ocarina of Time"
+platforms = ["Nintendo Switch 2"]
+priority = "high"
+group = "Switch 2 – upcoming Nintendo exclusive"
+plan = "Switch 2 cart (check full cart vs Game-Key Card)"
+state = "watching"
+note = "Suggested (Nintendo plan 2026-10-10): Switch 2 remake, out 5 Nov 2026; physical edition at retail (format not confirmed yet). You own Ocarina of Time 3D (3DS). (checked 2026-10-10)"
+exclusive = "nintendo"
+rules = ["switch-first", "gkc-not-physical"]
+
+[[target]]
+title = "Metroid Ravenous"
+platforms = ["Nintendo Switch 2"]
+priority = "high"
+group = "Switch 2 – upcoming Nintendo exclusive"
+plan = "Switch 2 cart (check full cart vs Game-Key Card)"
+state = "watching"
+note = "Suggested (Nintendo plan 2026-10-10): new 2D Metroid, out 28 Jan 2027; standard physical edition plus a Special Edition with amiibo and steel case. (checked 2026-10-10)"
+exclusive = "nintendo"
+rules = ["switch-first", "gkc-not-physical"]
+
+[[target]]
+title = "Kirby and the World Beyond"
+platforms = ["Nintendo Switch 2"]
+priority = "medium"
+group = "Switch 2 – upcoming Nintendo exclusive"
+plan = "Switch 2 cart (check full cart vs Game-Key Card)"
+state = "watching"
+note = "Suggested (Nintendo plan 2026-10-10): second 3D mainline Kirby (HAL), spring 2027, no date yet. (checked 2026-10-10)"
+exclusive = "nintendo"
+rules = ["switch-first", "gkc-not-physical"]
+
+[[target]]
+title = "Pokémon Winds"
+aliases = ["Pokémon Waves", "Pokemon Winds", "Pokemon Waves"]
+platforms = ["Nintendo Switch 2"]
+priority = "high"
+group = "Switch 2 – upcoming Nintendo exclusive"
+plan = "Switch 2 cart (one version; check full cart vs Game-Key Card)"
+state = "watching"
+note = "Suggested (Nintendo plan 2026-10-10): Gen 10, Switch 2 exclusive, 2027 (no date; November is only a leak); either version counts. (checked 2026-10-10)"
+exclusive = "nintendo"
+rules = ["switch-first", "gkc-not-physical"]
+
+[[target]]
+title = "Xenoblade Genesis"
+platforms = ["Nintendo Switch 2"]
+priority = "high"
+group = "Switch 2 – upcoming Nintendo exclusive"
+plan = "Switch 2 cart (check full cart vs Game-Key Card)"
+state = "watching"
+note = "Suggested (Nintendo plan 2026-10-10): new Monolith Soft RPG, Switch 2 exclusive, 2027 (no date) — you own every Switch Xenoblade. (checked 2026-10-10)"
+exclusive = "nintendo"
+rules = ["switch-first", "gkc-not-physical"]
+
+[[target]]
+title = "Nintendo Switch Sports Resort"
+platforms = ["Nintendo Switch 2"]
+priority = "low"
+group = "Switch 2 – upcoming Nintendo exclusive"
+plan = "Switch 2 cart (check full cart vs Game-Key Card)"
+state = "watching"
+note = "Suggested (Nintendo plan 2026-10-10): out 22 Oct 2026, Switch 2 only; you own Nintendo Switch Sports. Motion / party game. (checked 2026-10-10)"
+exclusive = "nintendo"
+rules = ["switch-first", "gkc-not-physical"]

@@ -145,9 +145,9 @@ _Why:_ Avoids double-buying; the newest pressing plays on current hardware and u
 
 _Precedents:_ Battlefield Hardline on Xbox One, not 360
 
-17 targets — ⬜ 17 · 🕒 0 · ✅ 0 · ➖ 0
+18 targets — ⬜ 18 · 🕒 0 · ✅ 0 · ➖ 0
 
-<details><summary>17 open</summary>
+<details><summary>18 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -162,6 +162,7 @@ _Precedents:_ Battlefield Hardline on Xbox One, not 360
 | Kingdom Hearts Collection [I–III] | PlayStation 5, Nintendo Switch 2 | high | decided |
 | Mafia: Trilogy | PlayStation 4 | medium |  |
 | Mass Effect Legendary Edition | PlayStation 4 | high |  |
+| Pokémon Shield | Nintendo Switch | someday | undecided |
 | Red Dead Redemption (2023) | PlayStation 4 | low |  |
 | The Last of Us Part I | PlayStation 5 | medium |  |
 | TLOU Part II Remastered | PlayStation 5 | low |  |
@@ -195,9 +196,9 @@ Gaps in older generations are mostly bought used.
 
 _Why:_ Older discs are cheap and plentiful used; new copies are often gone or overpriced.
 
-293 targets — ⬜ 273 · 🕒 1 · ✅ 19 · ➖ 0
+300 targets — ⬜ 280 · 🕒 1 · ✅ 19 · ➖ 0
 
-<details><summary>273 open</summary>
+<details><summary>280 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -215,6 +216,7 @@ _Why:_ Older discs are cheap and plentiful used; new copies are often gone or ov
 | Atelier Iris 3: Grand Phantasm | PlayStation 2 | low |  |
 | Atelier Iris: Eternal Mana | PlayStation 2 | low |  |
 | Batman: Return to Arkham | PlayStation 4 | medium |  |
+| Bayonetta 2 | Nintendo Switch | medium | undecided |
 | Bayonetta & Vanquish 10th Anniversary Bundle | PlayStation 4 | medium |  |
 | Beyond Good & Evil | PlayStation 2 | low |  |
 | Binary Domain | PlayStation 3 | low |  |
@@ -283,6 +285,7 @@ _Why:_ Older discs are cheap and plentiful used; new copies are often gone or ov
 | FF VII Remake Intergrade | PlayStation 5 | medium |  |
 | Final Fantasy Type-0 HD | PlayStation 4 | medium |  |
 | Final Fantasy XV Royal Edition | PlayStation 4 | high |  |
+| Fire Emblem: Three Houses | Nintendo Switch | high | undecided |
 | Folklore | PlayStation 3 | medium |  |
 | Forbidden Siren | PlayStation 2 | medium |  |
 | Forbidden Siren 2 | PlayStation 2 | low |  |
@@ -327,6 +330,8 @@ _Why:_ Older discs are cheap and plentiful used; new copies are often gone or ov
 | Mafia: The Old Country | PlayStation 5 | medium |  |
 | Mafia: Trilogy | PlayStation 4 | medium |  |
 | Magna Carta: Tears of Blood | PlayStation 2 | low |  |
+| Mario Kart 8 Deluxe | Nintendo Switch | medium | undecided |
+| Mario Kart World | Nintendo Switch 2 | medium | undecided |
 | Marvel's Guardians of the Galaxy | PlayStation 5 | medium |  |
 | Marvel's Spider-Man | PlayStation 4 | high |  |
 | Mass Effect Legendary Edition | PlayStation 4 | high |  |
@@ -338,6 +343,7 @@ _Why:_ Older discs are cheap and plentiful used; new copies are often gone or ov
 | Metal Gear Solid V: The Definitive Experience | PlayStation 4 | high |  |
 | Metaphor: ReFantazio | PlayStation 5, Nintendo Switch 2 | high | undecided |
 | Metro Exodus | Xbox One | low | undecided |
+| Metroid Dread | Nintendo Switch | high | undecided |
 | Microsoft Flight Simulator | Xbox Series X\|S | medium |  |
 | Microsoft Flight Simulator 2024 | Xbox Series X\|S | medium |  |
 | Minecraft: Story Mode | Xbox One | low |  |
@@ -354,6 +360,7 @@ _Why:_ Older discs are cheap and plentiful used; new copies are often gone or ov
 | Parasite Eve II | PlayStation | low |  |
 | Persona 3 Reload | PlayStation 5, Nintendo Switch 2 | high | undecided |
 | Persona 4 | PlayStation 2 | low |  |
+| Pokémon: Let's Go, Pikachu! | Nintendo Switch | medium | undecided |
 | Prey | Xbox 360 | someday | undecided |
 | Primal | PlayStation 2 | low |  |
 | Project Zero | PlayStation 2 | medium |  |
@@ -445,6 +452,7 @@ _Why:_ Older discs are cheap and plentiful used; new copies are often gone or ov
 | Tom Clancy's Rainbow Six Vegas | Xbox 360 | someday | undecided |
 | Tom Clancy's Rainbow Six Vegas 2 | Xbox 360 | someday | undecided |
 | Tomb Raider Definitive Edition | PlayStation 4 | low |  |
+| Tomodachi Life: Living the Dream | Nintendo Switch | low | undecided |
 | Transformers: Devastation | Xbox One | low |  |
 | Transformers: Fall of Cybertron | Xbox 360 | someday | undecided |
 | Transformers: Rise of the Dark Spark | Xbox One | someday |  |
@@ -481,9 +489,9 @@ _Why:_ Older discs are cheap and plentiful used; new copies are often gone or ov
 
 Nice-to-have titles are bought only at a really good price.
 
-56 targets — ⬜ 52 · 🕒 1 · ✅ 2 · ➖ 1
+57 targets — ⬜ 53 · 🕒 1 · ✅ 2 · ➖ 1
 
-<details><summary>52 open</summary>
+<details><summary>53 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -516,6 +524,7 @@ Nice-to-have titles are bought only at a really good price.
 | One Piece Odyssey | PlayStation 5 | low |  |
 | Persona 4 | PlayStation 2 | low |  |
 | Persona 5 Strikers | Nintendo Switch | low |  |
+| Pokémon Shield | Nintendo Switch | someday | undecided |
 | Red Dead Redemption 2 | PlayStation 4 | high |  |
 | Rise of the Tomb Raider: 20 Year Celebration | PlayStation 4 | medium |  |
 | Scarlet Nexus | PlayStation 5 | medium |  |
@@ -548,9 +557,9 @@ Single-player focus — multiplayer-only / online-focused games are skipped; dea
 
 _Precedents:_ Destiny, Overwatch, Crash Team Rumble skipped · no Guitar Hero / Skylanders
 
-26 targets — ⬜ 10 · 🕒 0 · ✅ 8 · ➖ 8
+28 targets — ⬜ 12 · 🕒 0 · ✅ 8 · ➖ 8
 
-<details><summary>10 open</summary>
+<details><summary>12 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -560,6 +569,8 @@ _Precedents:_ Destiny, Overwatch, Crash Team Rumble skipped · no Guitar Hero / 
 | Fallout 76 | Xbox One | someday | undecided |
 | Gran Turismo 6 | PlayStation 3 | low |  |
 | LittleBigPlanet 3 | PlayStation 4 | low |  |
+| Mario Kart 8 Deluxe | Nintendo Switch | medium | undecided |
+| Mario Kart World | Nintendo Switch 2 | medium | undecided |
 | Marvel's Guardians of the Galaxy | PlayStation 5 | medium |  |
 | Shadowrun | Xbox 360 | someday |  |
 | Star Wars Jedi: Survivor | PlayStation 5 | high |  |
@@ -693,9 +704,9 @@ Switch is first choice for JRPGs and for anything that has a real Switch cart.
 
 _Why:_ Best physical line-up; carts are complete and play on Switch 2.
 
-59 targets — ⬜ 55 · 🕒 0 · ✅ 3 · ➖ 1
+73 targets — ⬜ 69 · 🕒 0 · ✅ 3 · ➖ 1
 
-<details><summary>55 open</summary>
+<details><summary>69 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -704,6 +715,7 @@ _Why:_ Best physical line-up; carts are complete and play on Switch 2.
 | Assassin's Creed: The Ezio Collection | Nintendo Switch | low |  |
 | Atelier Arland Series Deluxe Pack | Nintendo Switch | low |  |
 | Atelier Mysterious Trilogy Deluxe Pack | Nintendo Switch | low |  |
+| Bayonetta 2 | Nintendo Switch | medium | undecided |
 | BioShock: The Collection | Nintendo Switch | low |  |
 | Crash Bandicoot 4: It's About Time | Nintendo Switch | low |  |
 | Crash Bandicoot N. Sane Trilogy | Nintendo Switch | low |  |
@@ -724,15 +736,25 @@ _Why:_ Best physical line-up; carts are complete and play on Switch 2.
 | Final Fantasy VII | Nintendo Switch | low |  |
 | Final Fantasy VIII Remastered | Nintendo Switch | low |  |
 | Final Fantasy X \| X-2 HD Remaster | Nintendo Switch | low |  |
+| Fire Emblem: Three Houses | Nintendo Switch | high | undecided |
 | Grand Theft Auto: The Trilogy – The Definitive Edition | Nintendo Switch | low |  |
+| Kirby and the World Beyond | Nintendo Switch 2 | medium | watching |
 | L.A. Noire | Nintendo Switch | low |  |
+| Mario Kart 8 Deluxe | Nintendo Switch | medium | undecided |
+| Mario Kart World | Nintendo Switch 2 | medium | undecided |
+| Metroid Dread | Nintendo Switch | high | undecided |
+| Metroid Ravenous | Nintendo Switch 2 | high | watching |
 | Ni no Kuni: Wrath of the White Witch Remastered | Nintendo Switch | low |  |
 | NieR:Automata The End of YoRHa Edition | Nintendo Switch | low |  |
+| Nintendo Switch Sports Resort | Nintendo Switch 2 | low | watching |
 | Okami HD | Nintendo Switch | low |  |
 | Onimusha 2: Samurai's Destiny | Nintendo Switch | low |  |
 | Onimusha: Warlords | Nintendo Switch | low |  |
 | Persona 5 Strikers | Nintendo Switch | low |  |
 | Persona 5 Tactica | Nintendo Switch | low |  |
+| Pokémon: Let's Go, Pikachu! | Nintendo Switch | medium | undecided |
+| Pokémon Shield | Nintendo Switch | someday | undecided |
+| Pokémon Winds | Nintendo Switch 2 | high | watching |
 | Sifu | Nintendo Switch | low |  |
 | Skyrim Special Edition | Xbox One | someday |  |
 | Spyro Reignited Trilogy | Nintendo Switch | low |  |
@@ -741,8 +763,10 @@ _Why:_ Best physical line-up; carts are complete and play on Switch 2.
 | The Legend of Heroes: Trails into Reverie | Nintendo Switch | low |  |
 | The Legend of Heroes: Trails of Cold Steel III | Nintendo Switch | low |  |
 | The Legend of Heroes: Trails of Cold Steel IV | Nintendo Switch | low |  |
+| The Legend of Zelda: Ocarina of Time | Nintendo Switch 2 | high | watching |
 | Tomb Raider I-III Remastered Starring Lara Croft | Nintendo Switch | low |  |
 | Tomb Raider IV-VI Remastered | Nintendo Switch | low |  |
+| Tomodachi Life: Living the Dream | Nintendo Switch | low | undecided |
 | Tony Hawk's Pro Skater 1 + 2 | Nintendo Switch | someday | undecided |
 | Tony Hawk's Pro Skater 3 + 4 | Nintendo Switch 2 | someday | undecided |
 | Utawarerumono: Prelude to the Fallen | PlayStation 4 | low |  |
@@ -751,6 +775,7 @@ _Why:_ Best physical line-up; carts are complete and play on Switch 2.
 | Wolfenstein II: The New Colossus | Xbox One | someday | undecided |
 | Wolfenstein: Youngblood | Xbox One | someday | undecided |
 | World of Final Fantasy Maxima | Nintendo Switch | low |  |
+| Xenoblade Genesis | Nintendo Switch 2 | high | watching |
 | Ys IX: Monstrum Nox | Nintendo Switch | low |  |
 | Ys VIII: Lacrimosa of Dana | Nintendo Switch | low |  |
 | Ys X: Nordics | Nintendo Switch | low |  |
@@ -765,9 +790,9 @@ _Why:_ A Game-Key Card is only a download licence in a box; the disc is the real
 
 _Precedents:_ Pragmata, Onimusha: Way of the Sword, Full Metal Schoolgirl → PS5 · Bravely Default HD Remaster, Brigandine Abyss, Granblue Fantasy: Relink bought as GKC (JRPGs)
 
-31 targets — ⬜ 30 · 🕒 0 · ✅ 1 · ➖ 0
+38 targets — ⬜ 37 · 🕒 0 · ✅ 1 · ➖ 0
 
-<details><summary>30 open</summary>
+<details><summary>37 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -783,17 +808,24 @@ _Precedents:_ Pragmata, Onimusha: Way of the Sword, Full Metal Schoolgirl → PS
 | Hogwarts Legacy | PlayStation 5, Nintendo Switch | high | undecided |
 | Kingdom Hearts Collection [I–III] | PlayStation 5, Nintendo Switch 2 | high | decided |
 | Kingdom Hearts IV | Nintendo Switch 2, PlayStation 5 | low | watching |
+| Kirby and the World Beyond | Nintendo Switch 2 | medium | watching |
 | Kunitsu-Gami: Path of the Goddess | PlayStation 5 | low |  |
+| Mario Kart World | Nintendo Switch 2 | medium | undecided |
 | Marvel's Guardians of the Galaxy | PlayStation 5 | medium |  |
 | Metaphor: ReFantazio | PlayStation 5, Nintendo Switch 2 | high | undecided |
+| Metroid Ravenous | Nintendo Switch 2 | high | watching |
 | Monster Hunter Wilds | PlayStation 5 | medium |  |
+| Nintendo Switch Sports Resort | Nintendo Switch 2 | low | watching |
 | Persona 3 Reload | PlayStation 5, Nintendo Switch 2 | high | undecided |
+| Pokémon Winds | Nintendo Switch 2 | high | watching |
 | Resident Evil Requiem | PlayStation 5 | high |  |
 | Star Wars Outlaws | PlayStation 5 | medium |  |
 | Tales of Arise | PlayStation 5, Nintendo Switch 2 | high | undecided |
 | Tales of Eternia Remastered | Nintendo Switch | medium | watching |
+| The Legend of Zelda: Ocarina of Time | Nintendo Switch 2 | high | watching |
 | Tomb Raider: Legacy of Atlantis | PlayStation 5 | medium | watching |
 | Wo Long: Fallen Dynasty | PlayStation 5 | medium |  |
+| Xenoblade Genesis | Nintendo Switch 2 | high | watching |
 | Yakuza 0 | PlayStation 4 | low |  |
 | Yakuza Kiwami | PlayStation 4 | low |  |
 | Yakuza Kiwami 2 | PlayStation 4 | low |  |

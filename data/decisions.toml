@@ -637,3 +637,43 @@ cons = ["Sony says it won't reverse"]
 label = "Reconsider if the PS6 drive plays PS4/PS5 discs + strong exclusives"
 pros = ["One box for old discs and new exclusives", "Keeps the collection playable on new hardware"]
 cons = ["New games would still be digital-only", "Paying Sony for the drive — what you don't want"]
+
+[[decision]]
+id = "nintendo-retro-scope"
+question = "Nintendo series on older hardware (GB–Wii U, DS / 3DS): collect missing entries on the original platform?"
+area = "nintendo"
+context = "Raised with the new Nintendo buy plan / series trackers (2026-10-10). You own ≈440 Switch / Switch 2 games and a smaller retro shelf (GB 7, GBC 5, GBA 18, N64 7, DS 6, 3DS 6, Wii U 12) — mostly Pokémon, Mario and Zelda. The trackers mark entries that are only playable on old hardware as optional, so they don't count as gaps yet. Many of those games are playable through Nintendo Switch Online (NES / SNES / GB / GBA / N64, GameCube on Switch 2), and some got Switch remakes that already count (Link's Awakening, Super Mario RPG, Thousand-Year Door, Metroid Prime …). Used retro carts are plentiful, but sought-after ones (Fire Emblem: Path of Radiance, Pokémon Emerald, boxed N64 / GBA) are expensive."
+recommendation = "Keep old-hardware entries optional (Switch first) and buy retro only case by case at a good price — e.g. finishing a run you already started on that platform (Pokémon on GB / GBA / DS / 3DS). Revisit if Nintendo announces Switch remakes (they then count automatically)."
+rules = ["switch-first", "used-for-gaps", "good-price-only", "compilations-count"]
+[[decision.option]]
+label = "Switch era only — older entries stay optional"
+pros = ["No retro hunting; Switch remakes and NSO cover a lot", "Matches 'Switch first'"]
+cons = ["Classic entries without a remake stay missing from the shelf"]
+[[decision.option]]
+label = "Collect retro entries of tracked series (used, good price)"
+pros = ["Complete series on the shelf", "Retro carts don't need online / downloads"]
+cons = ["Some carts are expensive and fakes exist (GBA / DS Pokémon)", "Needs old hardware to play"]
+[[decision.option]]
+label = "Case by case — mark single entries as wanted"
+pros = ["Flexible; only what you really want"]
+cons = ["Decisions per game instead of one rule"]
+
+[[decision]]
+id = "switch2-editions"
+question = "Switch 2 Editions of Switch games you own: buy the Switch 2 version or keep the Switch cart?"
+area = "nintendo"
+context = "Raised with the new Nintendo buy plan (2026-10-10). Your Switch carts play on Switch 2. Nintendo sells 'Nintendo Switch 2 Edition' versions — physically as new carts, or as a paid upgrade pack for an owned copy — with better performance and sometimes new content (e.g. Breath of the Wild, Tears of the Kingdom, Kirby and the Forgotten Land, Super Mario Party Jamboree). Announced: Xenoblade Chronicles 3 Switch 2 Edition (3 Dec 2026) and Hyrule Warriors: Age of Calamity Definitive Edition (25 Feb 2027) — you own both base games. The 'one copy, newest gen' rule says one copy per game and the newest-gen version for cross-gen releases, but you already own the older copy."
+recommendation = "Don't double-buy by default: keep the Switch cart and buy the digital upgrade pack only if you replay the game. Buy a Switch 2 Edition cart only when it adds substantial new content you want — then it replaces the Switch copy (one copy per game)."
+rules = ["one-copy-newest-gen", "switch-first"]
+[[decision.option]]
+label = "Keep Switch carts; upgrade pack only when replaying"
+pros = ["No double-buying", "Owned carts stay complete"]
+cons = ["Upgrade packs are digital"]
+[[decision.option]]
+label = "Switch 2 Edition cart when it adds real content"
+pros = ["Physical, newest version", "Matches 'newest gen'"]
+cons = ["Pays again for a game you own"]
+[[decision.option]]
+label = "Always replace with the Switch 2 Edition"
+pros = ["Best version of everything on the shelf"]
+cons = ["Expensive", "Duplicates on the shelf"]

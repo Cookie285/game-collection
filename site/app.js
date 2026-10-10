@@ -317,6 +317,7 @@ function pageCollection(page, params) {
   const S = {
     q: params.get("q") || "", fam: params.get("fam") || "", plat: params.get("plat") || "",
     st: params.get("st") || "have", sort: params.get("sort") || "platform", view: params.get("view") || "grid",
+    excl: params.get("excl") || "",
   };
   const famKeys = ["nintendo", "playstation", "xbox", "pc"].filter((f) => D.games.some((g) => g.family === f));
   const statuses = ["owned", "for_sale", "ordered", "wishlist", "sold", "other"].filter((s) => D.games.some((g) => g.status === s));
@@ -334,6 +335,8 @@ function pageCollection(page, params) {
         <option value="have">On the shelf</option><option value="">Any status</option>
         ${statuses.map((s) => `<option value="${s}">${GAME_STATUS[s].label}</option>`).join("")}
       </select>
+      <select id="excl" aria-label="Console exclusive"><option value="">Exclusive or not</option><option value="yes">🔒 Console exclusives</option>
+        <option value="multi">Multi-console</option><option value="unknown">Exclusivity not known</option></select>
       <select id="sort" aria-label="Sort"><option value="platform">By platform</option><option value="title">A → Z</option><option value="title-desc">Z → A</option><option value="random">Shuffle</option></select>
       <div class="seg" id="view"><button data-v="grid" title="Cover grid">▦</button><button data-v="list" title="List">☰</button></div>
       <span class="count" id="count"></span>
@@ -342,6 +345,7 @@ function pageCollection(page, params) {
 
   $("#plat", page).value = S.plat;
   $("#st", page).value = S.st;
+  $("#excl", page).value = S.excl;
   $("#sort", page).value = S.sort;
   const shuffleSeed = Math.random();
   let observer;
@@ -359,7 +363,7 @@ function pageCollection(page, params) {
     const q = norm(S.q);
     let list = D.games.filter((g) =>
       (!q || g._n.includes(q)) && (!S.fam || g.family === S.fam) && (!S.plat || g.platform === S.plat) &&
-      (!S.st || (S.st === "have" ? HAVE.has(g.status) : g.status === S.st)));
+      (!S.st || (S.st === "have" ? HAVE.has(g.status) : g.status === S.st)) && (!S.excl || exclMatch(g, S.excl)));
     if (S.sort === "title") list = [...list].sort((a, b) => a.title.localeCompare(b.title));
     if (S.sort === "title-desc") list = [...list].sort((a, b) => b.title.localeCompare(a.title));
     if (S.sort === "random") list = [...list].sort((a, b) => hash(a.title + shuffleSeed) - hash(b.title + shuffleSeed));
@@ -404,18 +408,19 @@ function pageCollection(page, params) {
   });
   $("#plat", page).addEventListener("change", (e) => { S.plat = e.target.value; if (S.plat) S.fam = ""; update(); });
   $("#st", page).addEventListener("change", (e) => { S.st = e.target.value; update(); });
+  $("#excl", page).addEventListener("change", (e) => { S.excl = e.target.value; update(); });
   $("#sort", page).addEventListener("change", (e) => { S.sort = e.target.value; update(); });
   $("#view", page).addEventListener("click", (e) => { const b = e.target.closest("button"); if (b) { S.view = b.dataset.v; update(); } });
   update();
 }
 
 function gameCard(g) {
-  return `<button class="game" data-game="${g.id}">${coverHTML(g)}<div class="meta">${esc(g.platform)}${g.note ? " · 📝" : ""}</div></button>`;
+  return `<button class="game" data-game="${g.id}">${coverHTML(g)}<div class="meta">${esc(g.platform)}${EXCL_LABEL[g.exclusive] ? ` · <span title="${EXCL_LABEL[g.exclusive]}">🔒</span>` : ""}${g.note ? " · 📝" : ""}</div></button>`;
 }
 function gameRow(g) {
   const st = GAME_STATUS[g.status] || GAME_STATUS.other;
   return `<tr data-game="${g.id}" style="cursor:pointer"><td class="title">${esc(g.title)}${g.edition ? ` <span class="note">(${esc(g.edition)})</span>` : ""}</td>
-    <td>${platPill(g.platform)}</td><td>${pill(st.label, st.color)}</td><td class="note">${esc(g.note || "")}</td></tr>`;
+    <td>${platPill(g.platform)}${exclPill(g)}</td><td>${pill(st.label, st.color)}</td><td class="note">${esc(g.note || "")}</td></tr>`;
 }
 
 /* ------------------------------------------------ buy plan */
@@ -551,6 +556,7 @@ function pagePlan(page, params) {
 const EXCL_LABEL = { playstation: "PlayStation exclusive", xbox: "Xbox exclusive", nintendo: "Nintendo exclusive", other: "Console exclusive" };
 // Xbox Play Anywhere = one Xbox licence also plays on Windows PC (`play_anywhere` in the target; missing = not checked)
 const paMatch = (t, v) => v === "yes" ? t.play_anywhere === true : v === "no" ? t.play_anywhere === false : t.play_anywhere === undefined;
+const exclPill = (x) => EXCL_LABEL[x.exclusive] ? pill("🔒 " + EXCL_LABEL[x.exclusive], fam(x.exclusive).color) : "";
 const exclMatch = (t, v) => v === "yes" ? !!EXCL_LABEL[t.exclusive] : v === "multi" ? t.exclusive === "multi" : !t.exclusive;
 function targetHTML(t) {
   const st = TARGET_STATUS[t.status];
@@ -563,7 +569,7 @@ function targetHTML(t) {
         ${t.state && t.status === "open" ? pill(t.state, "var(--accent-2)") : ""}
         ${t.elsewhere.length && t.status !== "done" ? pill("📀 owned on " + t.elsewhere.map(shortPlat).join(", "), "var(--good)") : ""}
         ${t.verify && t.status !== "done" ? pill("❓ verify", "var(--warn)") : ""}
-        ${EXCL_LABEL[t.exclusive] ? pill("🔒 " + EXCL_LABEL[t.exclusive], fam(t.exclusive === "other" ? "other" : t.exclusive).color) : ""}
+        ${exclPill(t)}
         ${t.play_anywhere && t.status !== "done" ? pill("🖥️ Play Anywhere", fam("xbox").color) : ""}
         ${t.status === "open" ? t.decisions.map((id) => D.decisionsById.get(id)).filter((x) => x.targets.length <= 5).map((x) =>
           `<button class="q-pill" data-decision="${esc(x.id)}" title="${esc(x.question)}">⚖️ open question</button>`).join("") : ""}
@@ -658,7 +664,7 @@ const RULE_STATUS = {
   retired: { label: "Retired", color: "var(--faint)" },
 };
 const RULE_SCOPES = [["all", "General"], ["nintendo", "Nintendo"], ["pc", "PC"], ["playstation", "PlayStation"], ["xbox", "Xbox"]];
-const FILE_FAMILY = { playstation: "playstation", xbox: "xbox" };
+const FILE_FAMILY = { playstation: "playstation", xbox: "xbox", nintendo: "nintendo" };
 const ruleColor = (r) => (r.platform === "all" ? "var(--accent)" : fam(r.platform).color);
 const scopeLabel = (p) => (RULE_SCOPES.find(([k]) => k === p) || [p, p])[1];
 
@@ -1467,7 +1473,7 @@ function openGame(id) {
     ["Notes", esc(g.note)],
   ]) + (HAVE.has(g.status) ? `<details class="shop-details"><summary>🛒 Look for another copy (upgrade / replacement)</summary>${shopBlock(g.title, [g.platform])}</details>`
     : shopBlock(g.title, [g.platform])) + releaseBlock(g.title, [g.platform]) + relatedHTML(relatedFor(g.title), g.id);
-  showModal(`${coverHTML(g)}<div><h2>${esc(g.title)}</h2><div class="row">${platPill(g.platform)}${pill(st.icon + " " + st.label, st.color)}</div></div>`,
+  showModal(`${coverHTML(g)}<div><h2>${esc(g.title)}</h2><div class="row">${platPill(g.platform)}${pill(st.icon + " " + st.label, st.color)}${exclPill(g)}</div></div>`,
     body || `<p style="color:var(--muted)">No extra details in CLZ for this one.</p>`);
   $(".modal-head .cover", modal).style.width = "90px";
 }
