@@ -6,11 +6,11 @@ Curated in [`data/targets/`](../data/targets/). A target flips to ✅ automatica
 
 Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 
-⬜ 396 open · 🕒 3 ordered · ✅ 104 done · ➖ 97 skip
+⬜ 410 open · 🕒 3 ordered · ✅ 104 done · ➖ 97 skip
 
 📀 = same title already owned on another platform (one copy per game!)
 
-## 🤔 Decide / watch (14)
+## 🤔 Decide / watch (25)
 
 | Title | Platform | Prio | Group | State | Plan / where | Owned on / note |
 |---|---|---|---|---|---|---|
@@ -19,6 +19,12 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Metaphor: ReFantazio | PlayStation 5, Nintendo Switch 2 | high | PS5 gaps – Multiplatform | undecided | PS5 disc; used preferred (price limit not set yet) | Decision: Switch = Switch 2 Game-Key Card (12 Nov 2026); PS = PS5 disc; suggestion: Your call – If you accept Game-Key Cards for JRPGs (you did for Bravely Default HD, Brigandine Abyss, Granblue Relink) → Switch 2; else PS5. · Top-tier Atlus JRPG, not owned. · Other versions: Switch 2 (12 Nov 2026) = Game-Key Card · Decide: Switch 2 GKC (like Bravely Default/Granblue) vs PS5 disc · Switch 2 physical confirmed as Game-Key Card (also a SteelBook GKC edition), 12 Nov 2026 (checked 2026-09-28) · Unchanged: Switch 2 12 Nov 2026, Game-Key Card (SteelBook edition also GKC) (checked 2026-10-01) · Xbox Play Anywhere: yes (checked 2026-10-02) |
 | Persona 3 Reload | PlayStation 5, Nintendo Switch 2 | high | PS5 gaps – Multiplatform | undecided | PS5 disc; used preferred (price limit not set yet) | Decision: Switch = Switch 2 Game-Key Card, no DLC; PS = PS5 disc; suggestion: Your call – Same as Metaphor. The Switch 2 version also leaves out Episode Aigis. · Missing Persona entry (own P5R). · Other versions: Switch 2 = Game-Key Card, Episode Aigis DLC not included · Decide: Switch 2 GKC vs PS5 disc · Switch 2 version out since 23 Oct 2025 — physical is a Game-Key Card (checked 2026-09-28) · Xbox Play Anywhere: yes (checked 2026-10-02) |
 | Tales of Arise | PlayStation 5, Nintendo Switch 2 | high | PS5 gaps – Multiplatform | undecided | PS5 disc; new or used, only at a really good price | owned on Steam (Tales of ARISE) – only if very cheap, new or used · Decision: Switch = Switch 2 Game-Key Card incl. Beyond the Dawn; PS = PS5 disc (DLC separate); suggestion: Your call – Switch 2 includes the DLC; PS5 gives you a real disc. · Missing modern Tales entry. · Other versions: Switch 2 Beyond the Dawn Ed. (May 2026) = Game-Key Card · Check if a PS5 'Beyond the Dawn' disc edition exists; else DLC digital · Decide: Switch 2 GKC (incl. DLC) vs PS5 disc · No separate PS5 'Beyond the Dawn' disc edition found — DLC still separate on PS5 (checked 2026-09-28) · Still no PS5 'Beyond the Dawn' disc — the PS5 Beyond the Dawn editions are digital only (checked 2026-10-01) · Xbox Play Anywhere: no (checked 2026-10-02) |
+| Metroid Ravenous | Nintendo Switch 2 | high | Switch 2 – upcoming Nintendo exclusive | watching | Switch 2 cart (check full cart vs Game-Key Card) | Suggested (Nintendo plan 2026-10-10): new 2D Metroid, out 28 Jan 2027; standard physical edition plus a Special Edition with amiibo and steel case. (checked 2026-10-10) |
+| Pokémon Winds | Nintendo Switch 2 | high | Switch 2 – upcoming Nintendo exclusive | watching | Switch 2 cart (one version; check full cart vs Game-Key Card) | Suggested (Nintendo plan 2026-10-10): Gen 10, Switch 2 exclusive, 2027 (no date; November is only a leak); either version counts. (checked 2026-10-10) |
+| The Legend of Zelda: Ocarina of Time | Nintendo Switch 2 | high | Switch 2 – upcoming Nintendo exclusive | watching | Switch 2 cart (check full cart vs Game-Key Card) | Suggested (Nintendo plan 2026-10-10): Switch 2 remake, out 5 Nov 2026; physical edition at retail (format not confirmed yet). You own Ocarina of Time 3D (3DS). (checked 2026-10-10) |
+| Xenoblade Genesis | Nintendo Switch 2 | high | Switch 2 – upcoming Nintendo exclusive | watching | Switch 2 cart (check full cart vs Game-Key Card) | Suggested (Nintendo plan 2026-10-10): new Monolith Soft RPG, Switch 2 exclusive, 2027 (no date) — you own every Switch Xenoblade. (checked 2026-10-10) |
+| Fire Emblem: Three Houses | Nintendo Switch | high | Switch gaps – Nintendo exclusive | undecided | Switch cart; used preferred | Suggested (Nintendo plan 2026-10-10): the one mainline Switch Fire Emblem missing — you own Engage, Fortune's Weave and Three Hopes (its Warriors spin-off). |
+| Metroid Dread | Nintendo Switch | high | Switch gaps – Nintendo exclusive | undecided | Switch cart; used preferred | Suggested (Nintendo plan 2026-10-10): the last 2D Metroid before Metroid Ravenous (Jan 2027); you own Prime Remastered and Prime 4. |
 | Final Fantasy VII Revelation | Nintendo Switch 2, PlayStation 5 | medium | Buy elsewhere (not PlayStation) | watching |  | Suggested (review 2026-09-28): FF VII Remake part 3 — 8 Apr 2027, simultaneous on Switch 2, PS5, Xbox Series, PC. Physical format on Switch 2 not known yet (the series plan puts VII on Switch). · Switch 2 physical = Game-Key Card (~130 GB download); PS5 = one disc, download required; physical needs extra data on every format → see decision ff7-revelation-platform (checked 2026-10-01) |
 | Tales of Eternia Remastered | Nintendo Switch | medium | Buy elsewhere (not PlayStation) | watching | Switch cart (EU physical) | Suggested (review 2026-10-01): Tales of Eternia (tracked, not owned) remastered — 16 Oct 2026 on PS4, PS5, Xbox, Switch, Switch 2, PC. Physical only in Europe / Japan: Switch = full cart, Switch 2 = Game-Key Card, PS5 disc. JRPG rule → Switch cart (checked 2026-10-01) |
 | Halo: Campaign Evolved | Xbox Series X\|S | medium | First-party | watching | Xbox Series X disc when on sale | 📀 owned on PlayStation 5 · scope layer 1 (Halo / Halo Studios); Owned on PS5; last Halo made by Halo Studios (next Halo moves to Activision, Sep 2026) · Released 28 Jul 2026 on Xbox Series X\|S, PS5 and Steam; physical disc confirmed at retail for both Xbox Series X and PS5 (GameStop) (checked 2026-09-28) · UK retail Xbox Series X standard edition = disc + content download (Amazon UK, ShopTo) (checked 2026-10-01) |
@@ -28,6 +34,11 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Silent Hill: Townfall | PlayStation 5 | medium | PS5 gaps – Multiplatform | undecided | PS5 disc; new or used | Suggested (review 2026-09-28): new Silent Hill (tracked series), out 24 Sep 2026 on PS5 + PC, physical PS5 edition; no Xbox / Switch version. · EU PS5 disc at retail (only the Standard Edition is physical; Deluxe is digital only); Konami: timed PS5 console exclusive (at least six months), no Xbox / Switch 2 version announced (checked 2026-10-01) |
 | Tomb Raider: Legacy of Atlantis | PlayStation 5 | medium | PS5 gaps – Multiplatform | watching | PS5 disc (upcoming, 12 Feb 2027) | Suggested (review 2026-09-28): remake of the first Tomb Raider (Crystal Dynamics / Flying Wild Hog), PS5, Xbox Series, PC. Switch version not announced. · Still 12 Feb 2027 (Deluxe: 48 h early access from 10 Feb). Switch 2 version added for the same day — physical is a Game-Key Card; PS5 / Xbox physical editions at retail (checked 2026-10-01) |
 | Ace Combat 8: Wings of Theve | Xbox Series X\|S, PlayStation 5 | medium | Shooter console suggestions | undecided | disc — Xbox Series X or PS5, see question ace-combat | Suggested (review 2026-10-02, question ace-combat): out 2 Oct 2026 on PS5, Xbox Series X\|S and PC (no Switch); Standard and Deluxe on disc for both consoles; Bandai Namco discs don't convert via Disc-to-Digital (yet) (checked 2026-10-02) |
+| Mario Kart World | Nintendo Switch 2 | medium | Switch 2 – Nintendo exclusive | undecided | Switch 2 cart; used preferred | Suggested (Nintendo plan 2026-10-10): not in CLZ — check whether you own it digitally via a Switch 2 bundle. Multiplayer-leaning, see single-player focus. |
+| Kirby and the World Beyond | Nintendo Switch 2 | medium | Switch 2 – upcoming Nintendo exclusive | watching | Switch 2 cart (check full cart vs Game-Key Card) | Suggested (Nintendo plan 2026-10-10): second 3D mainline Kirby (HAL), spring 2027, no date yet. (checked 2026-10-10) |
+| Bayonetta 2 | Nintendo Switch | medium | Switch gaps – Nintendo exclusive | undecided | Switch cart; used preferred | Suggested (Nintendo plan 2026-10-10): the gap between Bayonetta (PS3, owned) and Bayonetta 3 / Origins (owned). Check whether the edition includes Bayonetta 1. |
+| Mario Kart 8 Deluxe | Nintendo Switch | medium | Switch gaps – Nintendo exclusive | undecided | Switch cart; used preferred | Suggested (Nintendo plan 2026-10-10): not in CLZ — check whether you own it digitally (it was often bundled with consoles). Racing / multiplayer-leaning, see single-player focus. Mario Kart World on Switch 2 is the newer entry. |
+| Pokémon: Let's Go, Pikachu! | Nintendo Switch | medium | Switch gaps – Nintendo exclusive | undecided | Switch cart (one version); used preferred | Suggested (Nintendo plan 2026-10-10): the only Switch main-series Pokémon missing; either version counts. |
 
 ## 🎯 High priority (42)
 
@@ -76,7 +87,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Sonic & All-Stars Racing Transformed | Xbox 360 | high | Xbox 360 BC |  | disc (delisted – not buyable in store) | Xbox Store: DISC ONLY (delisted); C – multiplatform, no modern version |
 | Spec Ops: The Line | Xbox 360 | high | Xbox 360 BC |  | disc (delisted – not buyable in store) | Xbox Store: DISC ONLY (delisted 2024); C – multiplatform, no modern version; Disc is the only legal copy on any platform |
 
-## ⬜ Open by group (396)
+## ⬜ Open by group (410)
 
 ### Activision / Blizzard (10)
 
@@ -584,6 +595,35 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Wolfenstein: The New Order | Xbox One | someday | undecided | used disc | Suggested. |
 | Wolfenstein: The Old Blood | Xbox One | someday | undecided | used disc | Suggested. |
 | Wolfenstein: Youngblood | Xbox One | someday | undecided | used disc | 📀 owned on PlayStation 4 · Suggested. Also on Switch |
+
+### Switch 2 – Nintendo exclusive (1)
+
+| Title | Platform | Prio | State | Plan / where | Owned on / note |
+|---|---|---|---|---|---|
+| Mario Kart World | Nintendo Switch 2 | medium | undecided | Switch 2 cart; used preferred | Suggested (Nintendo plan 2026-10-10): not in CLZ — check whether you own it digitally via a Switch 2 bundle. Multiplayer-leaning, see single-player focus. |
+
+### Switch 2 – upcoming Nintendo exclusive (6)
+
+| Title | Platform | Prio | State | Plan / where | Owned on / note |
+|---|---|---|---|---|---|
+| Metroid Ravenous | Nintendo Switch 2 | high | watching | Switch 2 cart (check full cart vs Game-Key Card) | Suggested (Nintendo plan 2026-10-10): new 2D Metroid, out 28 Jan 2027; standard physical edition plus a Special Edition with amiibo and steel case. (checked 2026-10-10) |
+| Pokémon Winds | Nintendo Switch 2 | high | watching | Switch 2 cart (one version; check full cart vs Game-Key Card) | Suggested (Nintendo plan 2026-10-10): Gen 10, Switch 2 exclusive, 2027 (no date; November is only a leak); either version counts. (checked 2026-10-10) |
+| The Legend of Zelda: Ocarina of Time | Nintendo Switch 2 | high | watching | Switch 2 cart (check full cart vs Game-Key Card) | Suggested (Nintendo plan 2026-10-10): Switch 2 remake, out 5 Nov 2026; physical edition at retail (format not confirmed yet). You own Ocarina of Time 3D (3DS). (checked 2026-10-10) |
+| Xenoblade Genesis | Nintendo Switch 2 | high | watching | Switch 2 cart (check full cart vs Game-Key Card) | Suggested (Nintendo plan 2026-10-10): new Monolith Soft RPG, Switch 2 exclusive, 2027 (no date) — you own every Switch Xenoblade. (checked 2026-10-10) |
+| Kirby and the World Beyond | Nintendo Switch 2 | medium | watching | Switch 2 cart (check full cart vs Game-Key Card) | Suggested (Nintendo plan 2026-10-10): second 3D mainline Kirby (HAL), spring 2027, no date yet. (checked 2026-10-10) |
+| Nintendo Switch Sports Resort | Nintendo Switch 2 | low | watching | Switch 2 cart (check full cart vs Game-Key Card) | Suggested (Nintendo plan 2026-10-10): out 22 Oct 2026, Switch 2 only; you own Nintendo Switch Sports. Motion / party game. (checked 2026-10-10) |
+
+### Switch gaps – Nintendo exclusive (7)
+
+| Title | Platform | Prio | State | Plan / where | Owned on / note |
+|---|---|---|---|---|---|
+| Fire Emblem: Three Houses | Nintendo Switch | high | undecided | Switch cart; used preferred | Suggested (Nintendo plan 2026-10-10): the one mainline Switch Fire Emblem missing — you own Engage, Fortune's Weave and Three Hopes (its Warriors spin-off). |
+| Metroid Dread | Nintendo Switch | high | undecided | Switch cart; used preferred | Suggested (Nintendo plan 2026-10-10): the last 2D Metroid before Metroid Ravenous (Jan 2027); you own Prime Remastered and Prime 4. |
+| Bayonetta 2 | Nintendo Switch | medium | undecided | Switch cart; used preferred | Suggested (Nintendo plan 2026-10-10): the gap between Bayonetta (PS3, owned) and Bayonetta 3 / Origins (owned). Check whether the edition includes Bayonetta 1. |
+| Mario Kart 8 Deluxe | Nintendo Switch | medium | undecided | Switch cart; used preferred | Suggested (Nintendo plan 2026-10-10): not in CLZ — check whether you own it digitally (it was often bundled with consoles). Racing / multiplayer-leaning, see single-player focus. Mario Kart World on Switch 2 is the newer entry. |
+| Pokémon: Let's Go, Pikachu! | Nintendo Switch | medium | undecided | Switch cart (one version); used preferred | Suggested (Nintendo plan 2026-10-10): the only Switch main-series Pokémon missing; either version counts. |
+| Tomodachi Life: Living the Dream | Nintendo Switch | low | undecided | Switch cart; used preferred | Suggested (Nintendo plan 2026-10-10): Mii life sim, out 16 Apr 2026 on Switch (plays on Switch 2); in the vein of Miitopia and Animal Crossing, which you own. |
+| Pokémon Shield | Nintendo Switch | someday | undecided | Switch cart only if really cheap | Suggested (Nintendo plan 2026-10-10): you own Pokémon Sword — the counterpart version is a nice-to-have only (one copy per game). |
 
 ### Upgrade of an owned disc (10)
 

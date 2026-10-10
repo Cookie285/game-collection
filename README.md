@@ -23,7 +23,7 @@ for every open target. Rebuilt automatically on every push (see [Web frontend](#
 ## Summary
 
 <!-- summary:start -->
-_Updated 2026-10-08._
+_Updated 2026-10-10._
 
 ### By platform
 
@@ -54,12 +54,25 @@ _Updated 2026-10-08._
 
 ### Buy plan
 
-⬜ 396 open · 🕒 3 ordered · ✅ 104 done — see [gaps.md](views/gaps.md)
+⬜ 410 open · 🕒 3 ordered · ✅ 104 done — see [gaps.md](views/gaps.md)
 
 ### Series
 
 | Series | Physical | 💻 Steam only |
 |---|---|---|
+| The Legend of Zelda | 7/7 ✅ |  |
+| Super Mario | 10/10 ✅ |  |
+| Mario RPGs | 5/5 ✅ |  |
+| Metroid | 2/3 |  |
+| Fire Emblem | 2/3 |  |
+| Xenoblade | 5/6 |  |
+| Kirby | 3/4 |  |
+| Pokémon | 12/14 |  |
+| Donkey Kong | 4/4 ✅ |  |
+| Pikmin | 4/4 ✅ |  |
+| Luigi's Mansion | 2/2 ✅ |  |
+| Splatoon | 3/3 ✅ |  |
+| Bayonetta | 3/4 |  |
 | God of War | 3/11 | 1 |
 | Uncharted | 5/5 ✅ |  |
 | The Last of Us | 2/2 ✅ |  |
@@ -141,7 +154,7 @@ Python 3.11+ only, no packages to install.
 
 ## Editing the plan
 
-- **`data/targets/*.toml`** — gaps / things to buy (one file per area: `playstation.toml`, `xbox.toml`, add more freely):
+- **`data/targets/*.toml`** — gaps / things to buy (one file per area: `playstation.toml`, `xbox.toml`, `nintendo.toml`, add more freely):
   platform(s), priority, group, where to buy, `state` (`preordered` / `undecided` / `watching` / `skip`), `note`, `verify`.
   A target is ticked ✅ automatically once CLZ has a matching game *In Collection* on an allowed platform.
 - **`data/rules.toml`** — the collecting rules as data (id, summary, rationale, precedents, per-platform strategy,
@@ -163,9 +176,10 @@ Python 3.11+ only, no packages to install.
   steam · none) to state versions explicitly, `not_rules = ["id"]` to record a deliberate exception, and
   `jrpg` / `shooter` / `msfp = true|false` to correct the engine's guesses. **Strategy → Where to buy?** runs the
   same engine on any combination you enter.
-- **Console exclusives** — the Buy plan's *🔒 Console exclusives* filter and badge use the release platforms IGDB lists
-  for each game (saved by the Covers workflow); PC, Mac, mobile and VR don't count, so PlayStation + PC is still a
-  PlayStation exclusive. Correct a target by hand with `exclusive = "playstation"` (· `xbox` · `nintendo` · `other` ·
+- **Console exclusives** — the Buy plan's and the Collection's *🔒 Console exclusives* filter and badge use the
+  release platforms IGDB lists for each game (saved by the Covers workflow); PC, Mac, mobile and VR don't count, so
+  PlayStation + PC is still a PlayStation exclusive. For owned games the console you own it on always counts (guards
+  against a wrong IGDB match), and a buy-plan target's `exclusive` also corrects owned copies of the same title. Correct a target by hand with `exclusive = "playstation"` (· `xbox` · `nintendo` · `other` ·
   `multi`).
 - **Xbox Play Anywhere** — `play_anywhere = true` on a target means the Xbox One / Series version includes the Windows
   PC version (one licence); `false` = checked, no Play Anywhere; missing = not checked yet. The Buy plan shows a

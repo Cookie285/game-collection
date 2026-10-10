@@ -170,6 +170,15 @@ class Exclusivity(unittest.TestCase):
         x = {"title": "H", "platforms": ["xbox-modern"]}
         self.assertEqual(g.exclusivity(x, {g.cover_key("H", "Xbox Series X|S"): {"plats": [49, 169, 6]}}), "xbox")
 
+    def test_owned_games(self):
+        cov = {g.cover_key("G", "PlayStation 4"): {"plats": [49]}, g.cover_key("N", "Nintendo Switch"): {"plats": [130, 6]}}
+        row = lambda t, p: {"title": t, "platform": p}
+        self.assertEqual(g.game_exclusive(row("N", "Nintendo Switch"), cov, {}), "nintendo")
+        # a wrong IGDB match (Xbox One only) can't make a PS4 copy an Xbox exclusive: the owned console counts
+        self.assertEqual(g.game_exclusive(row("G", "PlayStation 4"), cov, {}), "multi")
+        self.assertEqual(g.game_exclusive(row("G", "PlayStation 4"), cov, {"g": "playstation"}), "playstation")  # target override
+        self.assertEqual(g.game_exclusive(row("X", "Xbox 360"), cov, {}), "")
+
 
 class CoverLookup(unittest.TestCase):
     """The whole `covers` command against a fake IGDB (no network, no secrets)."""

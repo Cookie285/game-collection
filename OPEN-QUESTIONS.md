@@ -4,12 +4,17 @@
 
 Generated from [`data/decisions.toml`](data/decisions.toml) — edit there (options, recommendation; `status = "decided"` + `outcome` when decided). Also on the web app's **Decisions** page.
 
-## Decisions (31)
+## Decisions (33)
 
 ### General
 
 - [ ] **Set price limits per game or per group?** — No price limits are set yet; ~130 targets say “price limit not set yet”.
 - [ ] **Ace Combat: where does the series fit — and Ace Combat 8 on Xbox Series X or PS5 disc?** — options: Ace Combat 8 on Xbox Series X disc / Ace Combat 8 on PS5 disc / Classics only (04 / 5 / Zero / 6), skip 8 for now — suggestion: Split by era, as your rules already do: classic 04 / 5 / Zero → PS2 PAL discs (they're PlayStation exclusives); 6 → Xbox 360 disc (exclusive, BC, delisted digitally); 7 → keep the Switch cart plan; skip the PSP games. For Ace Combat 8 I'd take the Xbox Series X disc: you don't plan a next PlayStation, while the next Xbox runs the current library — and if Bandai Namco joins Disc-to-Digital the disc gains a digital licence. PS5 is the alternative if you want the modern games next to the PS2 trilogy.
+
+### Nintendo
+
+- [ ] **Nintendo series on older hardware (GB–Wii U, DS / 3DS): collect missing entries on the original platform?** — options: Switch era only — older entries stay optional / Collect retro entries of tracked series (used, good price) / Case by case — mark single entries as wanted — suggestion: Keep old-hardware entries optional (Switch first) and buy retro only case by case at a good price — e.g. finishing a run you already started on that platform (Pokémon on GB / GBA / DS / 3DS). Revisit if Nintendo announces Switch remakes (they then count automatically).
+- [ ] **Switch 2 Editions of Switch games you own: buy the Switch 2 version or keep the Switch cart?** — options: Keep Switch carts; upgrade pack only when replaying / Switch 2 Edition cart when it adds real content / Always replace with the Switch 2 Edition — suggestion: Don't double-buy by default: keep the Switch cart and buy the digital upgrade pack only if you replay the game. Buy a Switch 2 Edition cart only when it adds substantial new content you want — then it replaces the Switch copy (one copy per game).
 
 ### PC
 

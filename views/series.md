@@ -4,6 +4,217 @@
 
 Curated in [`data/series/`](../data/series/). ✅ owned · 🕒 ordered · ⬜ missing · 💻 only on Steam · ➖ not needed (optional / covered elsewhere / no disc)
 
+## The Legend of Zelda — 7/7
+
+Mainline Zelda (no spin-offs)
+
+|  | Title | Year | Owned on / note |
+|---|---|---|---|
+| ➖ | The Legend of Zelda | 1986 | NES |
+| ➖ | Zelda II: The Adventure of Link | 1987 | NES |
+| ➖ | The Legend of Zelda: A Link to the Past | 1991 | SNES (GBA re-release with Four Swords) |
+| ✅ | The Legend of Zelda: Link's Awakening | 1993 | Game Boy, Nintendo Switch |
+| ✅ | The Legend of Zelda: Ocarina of Time | 1998 | Nintendo 3DS |
+| ➖ | The Legend of Zelda: Majora's Mask | 2000 | N64; 3DS remake 2015 |
+| ➖ | The Legend of Zelda: Oracle of Seasons | 2001 | GBC pair — either counts |
+| ✅ | The Legend of Zelda: The Wind Waker | 2002 | Wii U |
+| ➖ | The Legend of Zelda: The Minish Cap | 2004 | GBA |
+| ➖ | The Legend of Zelda: Twilight Princess | 2006 | GameCube / Wii; Wii U HD 2016 |
+| ➖ | The Legend of Zelda: Phantom Hourglass | 2007 | DS |
+| ➖ | The Legend of Zelda: Spirit Tracks | 2009 | DS |
+| ✅ | The Legend of Zelda: Skyward Sword | 2011 | Nintendo Switch |
+| ➖ | The Legend of Zelda: A Link Between Worlds | 2013 | 3DS |
+| ✅ | The Legend of Zelda: Breath of the Wild | 2017 | Nintendo Switch |
+| ✅ | The Legend of Zelda: Tears of the Kingdom | 2023 | Nintendo Switch |
+| ✅ | The Legend of Zelda: Echoes of Wisdom | 2024 | Nintendo Switch |
+
+## Super Mario — 10/10
+
+Mainline 2D and 3D Mario platformers
+
+|  | Title | Year | Owned on / note |
+|---|---|---|---|
+| ➖ | Super Mario Bros. 3 | 1988 | NES (GBA: Super Mario Advance 4) |
+| ✅ | Super Mario World | 1990 | Game Boy Advance |
+| ✅ | Super Mario Land 2: 6 Golden Coins | 1992 | Game Boy |
+| ✅ | Super Mario 64 | 1996 | Nintendo 64, Nintendo Switch |
+| ✅ | Super Mario Sunshine | 2002 | Nintendo Switch |
+| ➖ | New Super Mario Bros. | 2006 | DS |
+| ✅ | Super Mario Galaxy | 2007 | Nintendo Switch |
+| ➖ | New Super Mario Bros. Wii | 2009 | Wii |
+| ✅ | Super Mario Galaxy 2 | 2010 | Nintendo Switch |
+| ➖ | Super Mario 3D Land | 2011 | 3DS |
+| ➖ | New Super Mario Bros. 2 | 2012 | 3DS |
+| ✅ | New Super Mario Bros. U | 2012 | Nintendo Switch |
+| ✅ | Super Mario 3D World | 2013 | Nintendo Switch |
+| ✅ | Super Mario Odyssey | 2017 | Nintendo Switch |
+| ✅ | Super Mario Bros. Wonder | 2023 | Nintendo Switch |
+
+## Mario RPGs — 5/5
+
+Super Mario RPG, Paper Mario and Mario & Luigi
+
+|  | Title | Year | Owned on / note |
+|---|---|---|---|
+| ✅ | Super Mario RPG | 1996 | Nintendo Switch |
+| ➖ | Paper Mario | 2000 | N64 |
+| ➖ | Mario & Luigi: Superstar Saga | 2003 | GBA; 3DS remake 2017 |
+| ✅ | Paper Mario: The Thousand-Year Door | 2004 | Nintendo Switch |
+| ➖ | Mario & Luigi: Partners in Time | 2005 | DS |
+| ➖ | Super Paper Mario | 2007 | Wii |
+| ➖ | Mario & Luigi: Bowser's Inside Story | 2009 | DS; 3DS remake 2018 |
+| ➖ | Paper Mario: Sticker Star | 2012 | 3DS |
+| ➖ | Mario & Luigi: Dream Team | 2013 | 3DS |
+| ➖ | Mario & Luigi: Paper Jam | 2015 | 3DS |
+| ✅ | Paper Mario: Color Splash | 2016 | Wii U |
+| ✅ | Paper Mario: The Origami King | 2020 | Nintendo Switch |
+| ✅ | Mario & Luigi: Brothership | 2024 | Nintendo Switch |
+
+## Metroid — 2/3
+
+Mainline Metroid and Metroid Prime
+
+|  | Title | Year | Owned on / note |
+|---|---|---|---|
+| ➖ | Metroid | 1986 | NES; GBA remake Zero Mission (2004) |
+| ➖ | Metroid II: Return of Samus | 1991 | GB; 3DS remake Samus Returns (2017) |
+| ➖ | Super Metroid | 1994 | SNES |
+| ✅ | Metroid Prime | 2002 | Nintendo Switch |
+| ➖ | Metroid Fusion | 2002 | GBA |
+| ➖ | Metroid Prime 2: Echoes | 2004 | GameCube (Wii: Metroid Prime Trilogy) — a Switch remaster is only rumoured |
+| ➖ | Metroid Prime 3: Corruption | 2007 | Wii (also Metroid Prime Trilogy) |
+| ➖ | Metroid: Other M | 2010 | Wii |
+| ⬜ | Metroid Dread | 2021 | Switch — buy plan |
+| ✅ | Metroid Prime 4: Beyond | 2025 | Nintendo Switch 2 |
+
+## Fire Emblem — 2/3
+
+Mainline Fire Emblem released in the West
+
+|  | Title | Year | Owned on / note |
+|---|---|---|---|
+| ➖ | Fire Emblem | 2003 | GBA (first Western release) |
+| ➖ | Fire Emblem: The Sacred Stones | 2004 | GBA |
+| ➖ | Fire Emblem: Path of Radiance | 2005 | GameCube — expensive used |
+| ➖ | Fire Emblem: Radiant Dawn | 2007 | Wii |
+| ➖ | Fire Emblem: Shadow Dragon | 2008 | DS |
+| ➖ | Fire Emblem: Awakening | 2012 | 3DS |
+| ➖ | Fire Emblem Fates | 2015 | 3DS |
+| ➖ | Fire Emblem Echoes: Shadows of Valentia | 2017 | 3DS |
+| ⬜ | Fire Emblem: Three Houses | 2019 | Switch — buy plan |
+| ✅ | Fire Emblem Engage | 2023 | Nintendo Switch |
+| ✅ | Fire Emblem: Fortune's Weave | 2026 | Nintendo Switch 2 |
+
+## Xenoblade — 5/6
+
+Monolith Soft's Xenoblade series
+
+|  | Title | Year | Owned on / note |
+|---|---|---|---|
+| ✅ | Xenoblade Chronicles | 2010 | Nintendo Switch |
+| ✅ | Xenoblade Chronicles X | 2015 | Nintendo Switch |
+| ✅ | Xenoblade Chronicles 2 | 2017 | Nintendo Switch |
+| ✅ | Xenoblade Chronicles 2: Torna - The Golden Country | 2018 | Nintendo Switch |
+| ✅ | Xenoblade Chronicles 3 | 2022 | Nintendo Switch |
+| ⬜ | Xenoblade Genesis | 2027 | Switch 2, 2027 — buy plan |
+
+## Kirby — 3/4
+
+Mainline Kirby platformers
+
+|  | Title | Year | Owned on / note |
+|---|---|---|---|
+| ➖ | Kirby's Dream Land | 1992 | GB |
+| ➖ | Kirby's Adventure | 1993 | NES; GBA remake Nightmare in Dream Land |
+| ➖ | Kirby Super Star | 1996 | SNES; DS remake Super Star Ultra |
+| ➖ | Kirby 64: The Crystal Shards | 2000 | N64 |
+| ➖ | Kirby & the Amazing Mirror | 2004 | GBA |
+| ➖ | Kirby: Squeak Squad | 2006 | DS |
+| ✅ | Kirby's Return to Dream Land | 2011 | Nintendo Switch |
+| ➖ | Kirby: Triple Deluxe | 2014 | 3DS |
+| ➖ | Kirby: Planet Robobot | 2016 | 3DS |
+| ✅ | Kirby Star Allies | 2018 | Nintendo Switch |
+| ✅ | Kirby and the Forgotten Land | 2022 | Nintendo Switch |
+| ⬜ | Kirby and the World Beyond | 2027 | Switch 2, spring 2027 — buy plan |
+
+## Pokémon — 12/14
+
+Main-series Pokémon — one version of each pair counts
+
+|  | Title | Year | Owned on / note |
+|---|---|---|---|
+| ✅ | Pokémon Red Version | 1996 | Game Boy, Game Boy Advance |
+| ✅ | Pokémon Gold Version | 1999 | Game Boy Color |
+| ✅ | Pokémon Ruby Version | 2002 | Game Boy Advance, Nintendo 3DS |
+| ✅ | Pokémon Diamond Version | 2006 | Nintendo Switch |
+| ✅ | Pokémon Black Version | 2010 | Nintendo DS |
+| ✅ | Pokémon Black Version 2 | 2012 | Nintendo DS |
+| ✅ | Pokémon X | 2013 | Nintendo 3DS |
+| ✅ | Pokémon Sun | 2016 | Nintendo 3DS |
+| ⬜ | Pokémon: Let's Go, Pikachu! | 2018 | Switch — buy plan |
+| ✅ | Pokémon Sword | 2019 | Nintendo Switch |
+| ✅ | Pokémon Legends: Arceus | 2022 | Nintendo Switch |
+| ✅ | Pokémon Scarlet | 2022 | Nintendo Switch |
+| ✅ | Pokémon Legends: Z-A | 2025 | Nintendo Switch 2 |
+| ⬜ | Pokémon Winds | 2027 | Gen 10, Switch 2, 2027 — buy plan |
+
+## Donkey Kong — 4/4
+
+Donkey Kong Country and 3D Donkey Kong
+
+|  | Title | Year | Owned on / note |
+|---|---|---|---|
+| ➖ | Donkey Kong Country | 1994 | SNES (GBA port) |
+| ➖ | Donkey Kong Country 2: Diddy's Kong Quest | 1995 | SNES (GBA port) |
+| ➖ | Donkey Kong Country 3: Dixie Kong's Double Trouble! | 1996 | SNES (GBA port) |
+| ✅ | Donkey Kong 64 | 1999 | Nintendo 64 |
+| ✅ | Donkey Kong Country Returns | 2010 | Nintendo Switch |
+| ✅ | Donkey Kong Country: Tropical Freeze | 2014 | Nintendo Switch |
+| ✅ | Donkey Kong Bananza | 2025 | Nintendo Switch 2 |
+
+## Pikmin — 4/4
+
+Mainline Pikmin
+
+|  | Title | Year | Owned on / note |
+|---|---|---|---|
+| ✅ | Pikmin | 2001 | Nintendo Switch |
+| ✅ | Pikmin 2 | 2004 | Nintendo Switch |
+| ✅ | Pikmin 3 | 2013 | Nintendo Switch |
+| ✅ | Pikmin 4 | 2023 | Nintendo Switch |
+
+## Luigi's Mansion — 2/2
+
+Luigi's Mansion series
+
+|  | Title | Year | Owned on / note |
+|---|---|---|---|
+| ➖ | Luigi's Mansion | 2001 | GameCube; 3DS remake 2018 |
+| ✅ | Luigi's Mansion 2 | 2013 | Nintendo Switch |
+| ✅ | Luigi's Mansion 3 | 2019 | Nintendo Switch |
+
+## Splatoon — 3/3
+
+Splatoon series (single-player campaigns)
+
+|  | Title | Year | Owned on / note |
+|---|---|---|---|
+| ➖ | Splatoon | 2015 | Wii U |
+| ✅ | Splatoon 2 | 2017 | Nintendo Switch |
+| ✅ | Splatoon 3 | 2022 | Nintendo Switch |
+| ✅ | Splatoon Raiders | 2026 | Nintendo Switch 2 |
+
+## Bayonetta — 3/4
+
+Bayonetta series (Nintendo-published since 2)
+
+|  | Title | Year | Owned on / note |
+|---|---|---|---|
+| ✅ | Bayonetta | 2009 | PlayStation 3 |
+| ⬜ | Bayonetta 2 | 2014 | Wii U / Switch — buy plan |
+| ✅ | Bayonetta 3 | 2022 | Nintendo Switch |
+| ✅ | Bayonetta Origins: Cereza and the Lost Demon | 2023 | Nintendo Switch |
+
 ## God of War — 3/11 (+1 💻 Steam)
 
 Series Tracker tab
