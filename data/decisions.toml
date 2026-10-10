@@ -570,6 +570,9 @@ recommendation = "PS5 — the Switch 2 box is only a licence, and the PS5 disc k
 rules = ["gkc-not-physical", "switch-first", "series-on-one-platform"]
 targets = ["Final Fantasy VII Revelation"]
 sources = ["https://www.nintendolife.com/news/2026/09/final-fantasy-vii-revelation-is-a-game-key-card-on-switch-2-and-its-no-wonder-with-that-file-size", "https://www.pushsquare.com/news/2026/09/final-fantasy-7-revelation-will-ship-on-one-ps5-disc-digital-download-required"]
+status = "decided"
+decided = "2026-10-10"
+outcome = "preordered on ps5 disc"
 
 [[decision]]
 id = "game-pass-role"

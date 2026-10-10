@@ -4,7 +4,7 @@
 
 Generated from [`data/decisions.toml`](data/decisions.toml) — edit there (options, recommendation; `status = "decided"` + `outcome` when decided). Also on the web app's **Decisions** page.
 
-## Decisions (30)
+## Decisions (29)
 
 ### General
 
@@ -19,7 +19,6 @@ Generated from [`data/decisions.toml`](data/decisions.toml) — edit there (opti
 
 - [ ] **Metaphor: ReFantazio: Switch 2 Game-Key Card or PS5 disc?** _(due 2026-11-12)_ — options: Switch 2 Game-Key Card / PS5 disc — suggestion: Your call — if Game-Key Cards are accepted for JRPGs (as for Bravely Default HD, Brigandine Abyss, Granblue Relink) → Switch 2; else PS5.
 - [ ] **Persona 4 Revival: PS5 disc in Feb 2027, or wait for Switch 2 in May 2027?** _(due 2027-02-18)_ — suggestion: Wait for the Switch 2 format: a real cart → Switch (JRPG rule); a Game-Key Card → same call as Persona 3 Reload / Metaphor.
-- [ ] **Final Fantasy VII Revelation: Switch 2 Game-Key Card or PS5 disc?** _(due 2027-04-08)_ — suggestion: PS5 — the Switch 2 box is only a licence, and the PS5 disc keeps the Remake trilogy on one platform. Same reasoning as the Kingdom Hearts Collection call.
 - [ ] **Persona 3 Reload: Switch 2 Game-Key Card or PS5 disc?** — options: Switch 2 Game-Key Card / PS5 disc — suggestion: Your call — same reasoning as Metaphor.
 - [ ] **Tales of Arise: Switch 2 Game-Key Card or PS5 disc?** — options: Switch 2 Game-Key Card / PS5 disc / Neither — keep the Steam copy — suggestion: Your call.
 - [ ] **Hogwarts Legacy: Switch 1 cart or PS5 disc?** — options: Switch 1 cart / PS5 disc — suggestion: PS5 — the rule says Switch 1 cart, but it's by far the weakest version.
@@ -70,9 +69,10 @@ Generated from [`data/decisions.toml`](data/decisions.toml) — edit there (opti
 - [ ] **KOTOR II listed twice on Switch (two spellings)** — Still present in the 2026-10-07 import (checked 2026-10-10)
 - [ ] **“Tales Of Xillia” casing** — Still present in the 2026-10-07 import (checked 2026-10-10)
 
-## Decision log (11)
+## Decision log (12)
 
 - ✅ 2026-10-10 — **GTA VI: pre-order or not?** → preordered on ps5 even though it was a pain to do so
+- ✅ 2026-10-10 — **Final Fantasy VII Revelation: Switch 2 Game-Key Card or PS5 disc?** → preordered on ps5 disc
 - ✅ 2026-10-10 — **Nintendo series on older hardware (GB–Wii U, DS / 3DS): collect missing entries on the original platform?** → No interested in retro nintendo. will not buy.
 - ✅ 2026-10-10 — **Switch 2 Editions of Switch games you own: buy the Switch 2 version or keep the Switch cart?** → not buying them again. keep the switch versions
 - ✅ 2026-10-08 — **Kingdom Hearts Collection [I–III]: PS5 disc or Switch 2 Game-Key Card?** → i will buy Kingdom Hearts All-in-One Edition on PS4 as this is fully on disc for all games
