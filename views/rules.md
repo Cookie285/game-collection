@@ -789,7 +789,7 @@ A Switch 2 Game-Key Card does not count as physical for non-JRPGs → take the P
 
 _Why:_ A Game-Key Card is only a download licence in a box; the disc is the real physical copy.
 
-_Precedents:_ Pragmata, Onimusha: Way of the Sword, Full Metal Schoolgirl → PS5 · Bravely Default HD Remaster, Brigandine Abyss, Granblue Fantasy: Relink bought as GKC (JRPGs)
+_Precedents:_ Pragmata, Onimusha: Way of the Sword, Full Metal Schoolgirl → PS5 · Bravely Default HD Remaster, Brigandine Abyss, Granblue Fantasy: Relink bought as GKC (JRPGs) · Kingdom Hearts Collection (Switch 2 GKC) → Kingdom Hearts All-In-One Package on PS4, every game on disc (2026-10-08)
 
 38 targets — ⬜ 37 · 🕒 0 · ✅ 1 · ➖ 0
 
@@ -836,6 +836,16 @@ _Precedents:_ Pragmata, Onimusha: Way of the Sword, Full Metal Schoolgirl → PS
 | Ys X: Nordics | Nintendo Switch | low |  |
 
 </details>
+
+### Nintendo: Switch / Switch 2 only `nintendo-switch-era-only`
+
+Nintendo is collected on Switch / Switch 2 only: no retro Nintendo hardware (GB–Wii U, DS / 3DS) and no Switch 2 Editions of games already owned on Switch. Owned retro games stay as collection pieces.
+
+_Why:_ No interest in retro Nintendo; Switch carts play on Switch 2, so buying them again adds little.
+
+_Precedents:_ Older Nintendo series entries listed as optional only (nintendo-retro-scope, 2026-10-10) · Xenoblade Chronicles 3 / Hyrule Warriors: Age of Calamity Switch 2 versions not bought — Switch versions kept (switch2-editions, 2026-10-10)
+
+1 targets — ⬜ 0 · 🕒 0 · ✅ 1 · ➖ 0
 
 ## PlayStation
 

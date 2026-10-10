@@ -20,7 +20,7 @@ rules = ["platform-priority", "pc-steam-only", "steam-owned-only-cheap"]
 id = "nintendo"
 name = "Nintendo"
 role = "Best physical line-up. First choice for JRPGs and for anything with a real Switch cart."
-rules = ["platform-priority", "switch-first", "gkc-not-physical"]
+rules = ["platform-priority", "switch-first", "gkc-not-physical", "nintendo-switch-era-only"]
 
 [[platform]]
 id = "playstation"
@@ -155,8 +155,17 @@ short = "Game-Key Card ≠ physical"
 platform = "nintendo"
 summary = "A Switch 2 Game-Key Card does not count as physical for non-JRPGs → take the PlayStation disc. JRPGs whose only Switch version is a Game-Key Card → case by case."
 rationale = "A Game-Key Card is only a download licence in a box; the disc is the real physical copy."
-precedents = ["Pragmata, Onimusha: Way of the Sword, Full Metal Schoolgirl → PS5", "Bravely Default HD Remaster, Brigandine Abyss, Granblue Fantasy: Relink bought as GKC (JRPGs)"]
+precedents = ["Pragmata, Onimusha: Way of the Sword, Full Metal Schoolgirl → PS5", "Bravely Default HD Remaster, Brigandine Abyss, Granblue Fantasy: Relink bought as GKC (JRPGs)", "Kingdom Hearts Collection (Switch 2 GKC) → Kingdom Hearts All-In-One Package on PS4, every game on disc (2026-10-08)"]
 match = { note = "Game-Key Card|GKC" }
+
+[[rule]]
+id = "nintendo-switch-era-only"
+short = "Nintendo: Switch / Switch 2 only"
+platform = "nintendo"
+summary = "Nintendo is collected on Switch / Switch 2 only: no retro Nintendo hardware (GB–Wii U, DS / 3DS) and no Switch 2 Editions of games already owned on Switch. Owned retro games stay as collection pieces."
+rationale = "No interest in retro Nintendo; Switch carts play on Switch 2, so buying them again adds little."
+precedents = ["Older Nintendo series entries listed as optional only (nintendo-retro-scope, 2026-10-10)", "Xenoblade Chronicles 3 / Hyrule Warriors: Age of Calamity Switch 2 versions not bought — Switch versions kept (switch2-editions, 2026-10-10)"]
+match = { note = "Switch 2 Edition", platforms = "^(Game Boy|Game Boy Color|Game Boy Advance|Nintendo 64|Nintendo DS|Nintendo 3DS|Wii|Wii U|GameCube)$" }
 
 # ---------------------------------------------------------------- PlayStation
 [[rule]]
