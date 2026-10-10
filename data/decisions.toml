@@ -160,6 +160,9 @@ rules = ["ps-exclusives-and-disc-worthy", "physical-first", "code-in-box"]
 targets = ["Grand Theft Auto VI"]
 recommendation = "No disc exists on either console, so you are choosing a digital licence, not a shelf copy. If you want it at launch: take the Xbox Series X|S version (sealed box code or Xbox Store, whichever is cheaper) — Microsoft says the next Xbox runs the existing library, while a PSN licence stays behind if you skip the next PlayStation as planned. Otherwise wait: a later disc edition, a PC version or a next-gen re-release (GTA V got all three) may still come."
 sources = ["https://kotaku.com/physical-copies-of-gta-6-will-just-be-a-code-in-a-box-with-no-disc-at-launch-2000709919", "https://www.theshortcut.com/p/gta-6-physical-copies-are-just-a-download-code-in-a-box-rockstar-confirms", "https://www.resetera.com/threads/xbox-amd-powering-the-next-generation-of-xbox-fully-compatible-with-the-existing-xbox-game-library-not-tied-to-a-single-store.1220895/"]
+status = "decided"
+decided = "2026-10-10"
+outcome = "preordered on ps5 even though it was a pain to do so"
 [[decision.option]]
 label = "Pre-order the boxed PS5 code (sealed)"
 pros = ["Play on 19 Nov (pre-load from 12 Nov)", "Box on the shelf"]
