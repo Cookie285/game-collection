@@ -645,6 +645,9 @@ area = "nintendo"
 context = "Raised with the new Nintendo buy plan / series trackers (2026-10-10). You own ≈440 Switch / Switch 2 games and a smaller retro shelf (GB 7, GBC 5, GBA 18, N64 7, DS 6, 3DS 6, Wii U 12) — mostly Pokémon, Mario and Zelda. The trackers mark entries that are only playable on old hardware as optional, so they don't count as gaps yet. Many of those games are playable through Nintendo Switch Online (NES / SNES / GB / GBA / N64, GameCube on Switch 2), and some got Switch remakes that already count (Link's Awakening, Super Mario RPG, Thousand-Year Door, Metroid Prime …). Used retro carts are plentiful, but sought-after ones (Fire Emblem: Path of Radiance, Pokémon Emerald, boxed N64 / GBA) are expensive."
 recommendation = "Keep old-hardware entries optional (Switch first) and buy retro only case by case at a good price — e.g. finishing a run you already started on that platform (Pokémon on GB / GBA / DS / 3DS). Revisit if Nintendo announces Switch remakes (they then count automatically)."
 rules = ["switch-first", "used-for-gaps", "good-price-only", "compilations-count"]
+status = "decided"
+decided = "2026-10-10"
+outcome = "No interested in retro nintendo. will not buy."
 [[decision.option]]
 label = "Switch era only — older entries stay optional"
 pros = ["No retro hunting; Switch remakes and NSO cover a lot", "Matches 'Switch first'"]
