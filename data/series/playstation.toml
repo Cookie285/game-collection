@@ -909,53 +909,53 @@ description = "Series Tracker tab"
 
 [[series.entry]]
 title = "Kingdom Hearts"
-aliases = ["Kingdom Hearts HD 1.5 + 2.5 ReMIX", "Kingdom Hearts Collection [I–III]"]
+aliases = ["Kingdom Hearts HD 1.5 + 2.5 ReMIX", "Kingdom Hearts Collection [I–III]", "Kingdom Hearts All-In-One Package"]
 year = 2002
 
 [[series.entry]]
 title = "Kingdom Hearts: Chain of Memories"
-aliases = ["Kingdom Hearts HD 1.5 + 2.5 ReMIX", "Kingdom Hearts Collection [I–III]"]
+aliases = ["Kingdom Hearts HD 1.5 + 2.5 ReMIX", "Kingdom Hearts Collection [I–III]", "Kingdom Hearts All-In-One Package"]
 year = 2004
 note = "Re:Chain of Memories"
 
 [[series.entry]]
 title = "Kingdom Hearts II"
-aliases = ["Kingdom Hearts HD 1.5 + 2.5 ReMIX", "Kingdom Hearts Collection [I–III]"]
+aliases = ["Kingdom Hearts HD 1.5 + 2.5 ReMIX", "Kingdom Hearts Collection [I–III]", "Kingdom Hearts All-In-One Package"]
 year = 2005
 
 [[series.entry]]
 title = "Kingdom Hearts 358/2 Days"
-aliases = ["Kingdom Hearts HD 1.5 + 2.5 ReMIX", "Kingdom Hearts Collection [I–III]"]
+aliases = ["Kingdom Hearts HD 1.5 + 2.5 ReMIX", "Kingdom Hearts Collection [I–III]", "Kingdom Hearts All-In-One Package"]
 year = 2009
 optional = true
 note = "Movie version only"
 
 [[series.entry]]
 title = "Kingdom Hearts Birth by Sleep"
-aliases = ["Kingdom Hearts HD 1.5 + 2.5 ReMIX", "Kingdom Hearts Collection [I–III]"]
+aliases = ["Kingdom Hearts HD 1.5 + 2.5 ReMIX", "Kingdom Hearts Collection [I–III]", "Kingdom Hearts All-In-One Package"]
 year = 2010
 
 [[series.entry]]
 title = "Kingdom Hearts Re:coded"
-aliases = ["Kingdom Hearts HD 1.5 + 2.5 ReMIX", "Kingdom Hearts Collection [I–III]"]
+aliases = ["Kingdom Hearts HD 1.5 + 2.5 ReMIX", "Kingdom Hearts Collection [I–III]", "Kingdom Hearts All-In-One Package"]
 year = 2010
 optional = true
 note = "Movie version only"
 
 [[series.entry]]
 title = "Kingdom Hearts 3D: Dream Drop Distance"
-aliases = ["Kingdom Hearts HD 2.8 Final Chapter Prologue", "Kingdom Hearts Collection [I–III]"]
+aliases = ["Kingdom Hearts HD 2.8 Final Chapter Prologue", "Kingdom Hearts Collection [I–III]", "Kingdom Hearts All-In-One Package"]
 year = 2012
 
 [[series.entry]]
 title = "Kingdom Hearts 0.2: Birth by Sleep – A Fragmentary Passage"
-aliases = ["Kingdom Hearts HD 2.8 Final Chapter Prologue", "Kingdom Hearts Collection [I–III]"]
+aliases = ["Kingdom Hearts HD 2.8 Final Chapter Prologue", "Kingdom Hearts Collection [I–III]", "Kingdom Hearts All-In-One Package"]
 year = 2017
 optional = true
 
 [[series.entry]]
 title = "Kingdom Hearts III"
-aliases = ["Kingdom Hearts Collection [I–III]"]
+aliases = ["Kingdom Hearts Collection [I–III]", "Kingdom Hearts All-In-One Package"]
 year = 2019
 note = "Owned (PS4)"
 

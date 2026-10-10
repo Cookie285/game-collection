@@ -27,7 +27,7 @@ due = "2026-10-08"
 context = "Switch 2 version is a Game-Key Card with a ~131 GB download; the PS5 version is a full-install disc. One disc = 1.5+2.5 ReMIX, 2.8 and KH III + Re Mind. KH III (PS4) is already owned. · Also releasing on Xbox Series X|S, but digital only — the physical choice stays PS5 disc vs Switch 2 Game-Key Card (checked 2026-09-28) · Still 8 Oct. The PS5 disc is listed at EU retail, but pre-order coverage / Square Enix's store say physical needs an additional data download — the PS5 disc may not be a full install. Switch 2 = Game-Key Card (~131 GB). (Separately, the old Switch 1 cloud versions were delisted; servers off Jun 2027 — not relevant to the Switch 2 / PS5 choice.) (checked 2026-10-01) · Reviews (7 Oct): PS5 disc has all content on disc plus a required data download; Switch 2 = Game-Key Card (checked 2026-10-07)"
 recommendation = "PS5 — still the more physical option (a disc with game data on it, playable without the eShop licence check), but likely not a full install; the Switch 2 box is a pure download licence."
 rules = ["gkc-not-physical", "switch-first", "one-copy-newest-gen"]
-targets = ["Kingdom Hearts Collection [I–III]"]
+targets = ["Kingdom Hearts All-In-One Package"]
 status = "decided"
 decided = "2026-10-08"
 outcome = "i will buy Kingdom Hearts All-in-One Edition on PS4 as this is fully on disc for all games"
@@ -113,9 +113,10 @@ pros = ["Best console version"]
 id = "clair-obscur-timing"
 question = "Clair Obscur: Expedition 33: buy on PS5 now, or wait for the rumoured Switch 2 port?"
 area = "playstation"
-context = "Switch 2 port is only rumoured. If a full Switch 2 cart is announced, the rule says wait for it. · No official Switch 2 announcement yet — only an insider report that it lands in 2026 (checked 2026-09-28)"
+context = "Switch 2 port is only rumoured. If a full Switch 2 cart is announced, the rule says wait for it. · No official Switch 2 announcement yet — only an insider report that it lands in 2026 (checked 2026-09-28) · Still no official Switch 2 version — only insider reports (NateTheHate, Jun 2026); it wasn't in the Sep 2026 Direct. It leaves Game Pass on 15 Oct 2026. An Xbox Series X disc with Disc-to-Digital + Play Anywhere exists (checked 2026-10-10)"
 rules = ["switch-first", "gkc-not-physical"]
 targets = ["Clair Obscur: Expedition 33"]
+recommendation = "Don't wait for an unannounced port: buy the PS5 disc per the plan — or the Xbox disc if you adopt the `play-anywhere` tie-breaker. If a full Switch 2 cart is announced before you buy, the Switch-first rule takes over."
 [[decision.option]]
 label = "PS5 disc now"
 pros = ["Available now"]
@@ -132,6 +133,7 @@ area = "all"
 context = "No price limits are set yet; ~130 targets say “price limit not set yet”."
 rules = ["good-price-only", "used-for-gaps"]
 match = { plan = "price limit not set" }
+recommendation = "Use tiers per group instead of per-game numbers — e.g. 'impulse' (always worth checking), 'normal', 'only on a real deal' — and keep actual amounts out of this public repo (eBay saved searches / your notes). That replaces the ~130 'price limit not set yet' notes with one rule."
 
 [[decision]]
 id = "yakuza-on-disc"
@@ -140,6 +142,7 @@ area = "playstation"
 context = "Most entries are already owned on Steam."
 rules = ["steam-owned-only-cheap"]
 match = { note = "RGG series|start the RGG series" }
+recommendation = "Follow 'On Steam → only if cheap': the series stays on Steam; buy a disc only at a really good price, and prefer entries you don't own on Steam. No separate series rule needed."
 [[decision.option]]
 label = "Collect on disc (PS5 / PS4)"
 cons = ["Mostly double-buying Steam games"]
@@ -178,9 +181,10 @@ cons = ["Still no disc", "Breaks the 'GTA on PlayStation' shelf (IV/V on PS3)"]
 id = "next-playstation"
 question = "Could Intergalactic change the “no next PlayStation” decision?"
 area = "playstation"
-context = "Next Naughty Dog game — no release date yet. · Intergalactic still has no date — reports say not before mid-2027 (checked 2026-09-28) · Naughty Dog: no more Intergalactic news in 2026, full reveal in 2027. Sony announced on 1 Jul 2026 that it stops producing discs for new games from Jan 2028 → see `ps-disc-end-2028`. (checked 2026-10-01)"
+context = "Next Naughty Dog game — no release date yet. · Intergalactic still has no date — reports say not before mid-2027 (checked 2026-09-28) · Naughty Dog: no more Intergalactic news in 2026, full reveal in 2027. Sony announced on 1 Jul 2026 that it stops producing discs for new games from Jan 2028 → see `ps-disc-end-2028`. (checked 2026-10-01) · Superseded by `ps6-conditions` (2026-10-02), which covers Intergalactic as a possible reason (checked 2026-10-10)"
 rules = ["no-next-playstation"]
 targets = ["Intergalactic: The Heretic Prophet"]
+recommendation = "Close this as a duplicate of `ps6-conditions` — Intergalactic is already named there as the kind of exclusive that could matter."
 
 [[decision]]
 id = "surplus-discs"
@@ -188,6 +192,7 @@ question = "Surplus discs — keep or sell?"
 area = "playstation"
 context = "RE5 (PS3), Tales of Xillia (PS3), Neptunia x SK (PS4), DQ XI (PS4), ME3 (PS3), CoD BO + MW2 (PS3), Uncharted 1 + 3 (PS3), MGS4 + MGS Legacy Collection (PS3)."
 rules = ["one-copy-newest-gen", "compilations-count"]
+recommendation = "Keep them unless shelf space matters — used PS3 discs bring little when sold and they still play on the PS3. Sell only the ones you'd never replay."
 [[decision.option]]
 label = "Keep as collection pieces"
 [[decision.option]]
@@ -200,6 +205,7 @@ area = "playstation"
 context = "TLOU Part I, Ghost of Tsushima DC, FF VII Remake Intergrade, TLOU II Remastered, Legacy of Thieves, HZD Remastered, Until Dawn 2024, GTA V PS5, RDR PS4, Tomb Raider DE."
 rules = ["one-copy-newest-gen"]
 match = { group = "Upgrade of an owned disc" }
+recommendation = "Only at a really good price, and favour upgrades that add content over pure remasters: Ghost of Tsushima DC (Iki Island), TLOU Part II Remastered (No Return mode), FF VII Remake Intergrade (INTERmission). Skip the rest unless very cheap."
 
 [[decision]]
 id = "steam-as-rows"
@@ -209,6 +215,7 @@ context = "The Steam library (~1,176 games) is noted per game in data/annotation
 rules = ["pc-steam-only", "steam-owned-only-cheap"]
 
 # ---------------------------------------------------------------- Xbox
+recommendation = "No — keep Steam in data/annotations.csv. ~1,176 digital games as rows would swamp the physical collection's stats and views; the annotations already lower disc priority where needed."
 [[decision]]
 id = "avowed"
 question = "Avowed: sealed code-in-box, Xbox Store, or just Game Pass?"
@@ -216,6 +223,7 @@ area = "xbox"
 context = "The Xbox box is code-in-box (no disc, no Disc-to-Digital); no PS5 disc exists — out of disc scope."
 rules = ["code-in-box", "digital-only-game-pass", "no-xbox-disc-out-of-scope"]
 targets = ["Avowed"]
+recommendation = "Just Game Pass first (digital-only rule); if you want to keep it, buy on the Xbox Store on sale (Play Anywhere gives the PC version too). A sealed code-in-box only if it's cheaper than the store sale."
 [[decision.option]]
 label = "Sealed code-in-box"
 pros = ["A box on the shelf"]
@@ -232,6 +240,7 @@ area = "xbox"
 context = "No physical release on any platform."
 rules = ["digital-only-game-pass", "no-xbox-disc-out-of-scope"]
 targets = ["South of Midnight"]
+recommendation = "Game Pass first; buy on the Xbox Store on sale only if you want to keep / replay it (no physical version exists)."
 [[decision.option]]
 label = "Xbox Store (Play Anywhere) on sale"
 [[decision.option]]
@@ -253,6 +262,7 @@ area = "xbox"
 context = "Fable is pre-ordered on PS5; Halo: Campaign Evolved is owned on PS5."
 rules = ["ms-games-on-ps5-disc", "one-copy-newest-gen", "good-price-only"]
 targets = ["Fable", "Halo: Campaign Evolved"]
+recommendation = "Skip unless really cheap — one copy per game, and the PS5 copies (Fable pre-ordered, Halo: Campaign Evolved owned) cover them. The Xbox disc would only add Disc-to-Digital / Play Anywhere."
 
 [[decision]]
 id = "gears-reloaded"
@@ -261,6 +271,7 @@ area = "xbox"
 context = "No Xbox disc exists; the campaign is already covered by Gears of War: Ultimate Edition."
 rules = ["ms-games-on-ps5-disc", "compilations-count", "no-xbox-disc-out-of-scope"]
 targets = ["Gears of War: Reloaded"]
+recommendation = "Skip unless very cheap: the campaign is already covered by Gears of War: Ultimate Edition (compilations count) and there's no Xbox disc."
 
 [[decision]]
 id = "limited-run-price-cap"
@@ -269,22 +280,25 @@ area = "xbox"
 context = "Waiting for eBay saved searches; expensive on eBay."
 rules = ["limited-run-good-price"]
 targets = ["Pentiment", "Grounded"]
+recommendation = "Set your cap privately in the eBay saved searches (no prices in this public repo) — roughly the original Limited Run price plus shipping; don't chase listings above it."
 
 [[decision]]
 id = "shooter-expansion"
 question = "Shooter-console expansion — which series to adopt?"
 area = "xbox"
-context = "Candidates: Far Cry, Metro (discs confirmed), S.T.A.L.K.E.R. 2 (Series X disc exists; trilogy only on Switch JP), Prey, Rainbow Six Vegas, Ghost Recon, Crysis, Rage, Bulletstorm, TimeSplitters, Doom, Wolfenstein, Borderlands, Sniper Elite, Homefront, Medal of Honor."
+context = "Candidates: Far Cry, Metro (discs confirmed), S.T.A.L.K.E.R. 2 (Series X disc exists; trilogy only on Switch JP), Prey, Rainbow Six Vegas, Ghost Recon, Crysis, Rage, Bulletstorm, TimeSplitters, Doom, Wolfenstein, Borderlands, Sniper Elite, Homefront, Medal of Honor. · Partly answered by purchases: on Xbox you now own Metro Redux, Prey, DOOM + Doom Eternal, Ghost Recon Wildlands / Breakpoint, The Division 1 + 2, Rainbow Six Siege X / Extraction, HAWX 1 + 2 and Splinter Cell (imports to 2026-10-07); Far Cry only as Far Cry 2 on PS3"
 rules = ["shooter-console"]
 match = { group = "Shooter console suggestions" }
+recommendation = "Record the series you've started on Xbox as adopted (Metro, Doom, Tom Clancy) and keep the rest (Far Cry, Crysis, Rage, Bulletstorm, TimeSplitters, Doom, Wolfenstein, Borderlands, Sniper Elite, Homefront, Medal of Honor) as suggestions — buy used at a good price."
 
 [[decision]]
 id = "fallout-elder-scrolls"
 question = "Fallout / Elder Scrolls on Xbox?"
 area = "xbox"
-context = "Not decided; Skyrim is a judgment call vs Switch."
+context = "Not decided; Skyrim is a judgment call vs Switch. · Fallout 4 and Skyrim Special Edition are Xbox Play Anywhere (checked 2026-10-02)"
 rules = ["xbox-first-party-scope", "xbox-layer-3-optional", "switch-first"]
 match = { group = "Fallout / Elder Scrolls" }
+recommendation = "Fallout 3 / New Vegas / 4 on Xbox (backward compatible / Disc-to-Digital, Fallout 4 with Play Anywhere). Skyrim: Switch cart per Switch-first, unless you value the PC copy that the Xbox disc's Play Anywhere licence gives."
 
 [[decision]]
 id = "activision-blizzard"
@@ -293,6 +307,7 @@ area = "xbox"
 context = "Switch: Crash, Spyro, Tony Hawk, Diablo II/III. Xbox: Diablo IV, Prototype Biohazard Bundle, Singularity, Transformers Cybertron."
 rules = ["xbox-layer-3-optional", "switch-first"]
 match = { group = "Activision / Blizzard" }
+recommendation = "Keep the existing plans: Crash, Spyro, Tony Hawk, Diablo II/III on Switch (Switch-first); the Xbox suggestions (Diablo IV, Prototype, Singularity, Transformers) are layer 3 — only when cheap. Diablo IV has no Play Anywhere."
 
 [[decision]]
 id = "xbox-exclusive-tiebreak"
@@ -301,6 +316,7 @@ area = "xbox"
 context = "Suggested in the Xbox chat, not adopted."
 rules = ["xbox-exclusive-series-tiebreak"]
 match = { group = "BC exclusive series \\(suggested\\)", note = "series origin on Xbox" }
+recommendation = "Don't adopt it as a separate rule — 'Keep a series on one platform' already covers it; decide per series (as with Ace Combat)."
 [[decision.option]]
 label = "Adopt the rule"
 pros = ["Keeps series runs together on one shelf"]
@@ -315,6 +331,7 @@ area = "xbox"
 context = "Owned on PS3; delisted — the 360 disc is the only way on Xbox."
 rules = ["one-copy-newest-gen", "bc-digital-unless-delisted"]
 targets = ["Blur"]
+recommendation = "Drop it unless very cheap — you own it on PS3 (one copy per game); the 360 disc only matters if you want it playable on current Xbox hardware."
 
 [[decision]]
 id = "state-of-decay-3"
@@ -323,6 +340,7 @@ area = "xbox"
 context = "Undead Labs is independent now; the game is no longer first-party (Sep 2026). · Out in 2027 on Xbox Series, PS5 and Steam, Game Pass day one — a PS5 disc is now an option too (checked 2026-09-28) · Still 2027 on Xbox Series, PS5, PC; no physical format announced. (checked 2026-10-01)"
 rules = ["series-on-one-platform", "xbox-first-party-scope"]
 targets = ["State of Decay 3"]
+recommendation = "Normal platform rules: it's no longer first-party and also comes to PS5. Wait for a physical announcement, then take the best disc."
 [[decision.option]]
 label = "Xbox (keep the series together)"
 [[decision.option]]
@@ -333,17 +351,19 @@ id = "mcc-ps5"
 question = "Halo: The Master Chief Collection — was a PS5 version announced?"
 area = "xbox"
 kind = "research"
-context = "Affects the “Xbox-exclusive” status only; already owned. · Not announced (checked 2026-09-28) · Still not announced; only Halo: Campaign Evolved is on PS5. (checked 2026-10-01)"
+context = "Affects the “Xbox-exclusive” status only; already owned. · Not announced (checked 2026-09-28) · Still not announced; only Halo: Campaign Evolved is on PS5. (checked 2026-10-01) · No PS5 version announced as of Oct 2026 — only 2025 rumours; Microsoft released Halo: Campaign Evolved (CE remake) on PS5 instead (checked 2026-10-10)"
 targets = ["Halo: The Master Chief Collection"]
+recommendation = "No action — MCC is owned on Xbox; there's no PS5 version. Close it."
 
 [[decision]]
 id = "d2d-ga"
 question = "Disc-to-Digital: general availability date; re-test Forza discs; test more discs"
 area = "xbox"
 kind = "research"
-context = "Re-test FM5/6/7, FH3/4 after GA; test Doom Eternal, Titanfall 2, Dead Rising 4, Killer Instinct (KI Classic sub-licences), Halo Wars 2 (bundled Halo Wars: DE?). · Still an Insider rollout that keeps widening (Sep 2026); general availability only “in the coming months” (checked 2026-09-28) · Late Sep 2026: rolled out to more Delta/Omega ring testers, 3 more supported games added (Split Fiction, A Way Out, It Takes Two); still no committed GA date. 8 Xbox titles delisted/scheduled Aug–Sep 2026 (incl. Xbox 360 Toy Story 3, tied to a new Complete Edition launching 15 Oct 2026); separately several previously-delisted Xbox 360 titles briefly reappeared on the store, a possible sign of a BC revival pledged by Xbox VP Jason Ronald at GDC 2026 for Xbox's 25th anniversary (checked 2026-09-28). · GENERALLY AVAILABLE since 29 Sep 2026 (Xbox One / Series X with a disc drive; Xbox One + Series discs only, not 360 / OG). Ubisoft (early Sep) and SEGA (29 Sep) joined; Square Enix and Bandai Namco still missing; hundreds of discs not redeemable yet. Community reports: Forza Horizon 4 and 2 work, Forza Horizon 3 does not (licensing). Discs of delisted games grant licences. The Forza / other disc re-tests can be done now. (checked 2026-10-01)"
+context = "Re-test FM5/6/7, FH3/4 after GA; test Doom Eternal, Titanfall 2, Dead Rising 4, Killer Instinct (KI Classic sub-licences), Halo Wars 2 (bundled Halo Wars: DE?). · Still an Insider rollout that keeps widening (Sep 2026); general availability only “in the coming months” (checked 2026-09-28) · Late Sep 2026: rolled out to more Delta/Omega ring testers, 3 more supported games added (Split Fiction, A Way Out, It Takes Two); still no committed GA date. 8 Xbox titles delisted/scheduled Aug–Sep 2026 (incl. Xbox 360 Toy Story 3, tied to a new Complete Edition launching 15 Oct 2026); separately several previously-delisted Xbox 360 titles briefly reappeared on the store, a possible sign of a BC revival pledged by Xbox VP Jason Ronald at GDC 2026 for Xbox's 25th anniversary (checked 2026-09-28). · GENERALLY AVAILABLE since 29 Sep 2026 (Xbox One / Series X with a disc drive; Xbox One + Series discs only, not 360 / OG). Ubisoft (early Sep) and SEGA (29 Sep) joined; Square Enix and Bandai Namco still missing; hundreds of discs not redeemable yet. Community reports: Forza Horizon 4 and 2 work, Forza Horizon 3 does not (licensing). Discs of delisted games grant licences. The Forza / other disc re-tests can be done now. (checked 2026-10-01) · Disc-to-Digital opened to everyone on 29 Sep 2026 (checked 2026-10-02)"
 rules = ["disc-to-digital"]
 match = { note = "re-test after GA|D2D not working" }
+recommendation = "Answered: general availability was 29 Sep 2026 — close this; the Forza re-test stays a note on those targets."
 
 [[decision]]
 id = "d2d-edge-cases"
@@ -412,24 +432,28 @@ id = "clz-hp7-2-date"
 question = "Harry Potter and the Deathly Hallows Part 2 — release date"
 area = "all"
 kind = "clz-fix"
+context = "Still present in the 2026-10-07 import (checked 2026-10-10)"
 
 [[decision]]
 id = "clz-empty-publishers"
 question = "Empty publishers: Marvel's Wolverine, MGS Master Collection Vol. 2, Ninja Gaiden: Master Collection"
 area = "all"
 kind = "clz-fix"
+context = "Still present in the 2026-10-07 import (checked 2026-10-10)"
 
 [[decision]]
 id = "clz-re-biohazard"
 question = "“Resident Evil: Biohazard” (PS5) is probably Resident Evil 7 — rename"
 area = "all"
 kind = "clz-fix"
+context = "Still present in the 2026-10-07 import (checked 2026-10-10)"
 
 [[decision]]
 id = "clz-kotor2-duplicate"
 question = "KOTOR II listed twice on Switch (two spellings)"
 area = "all"
 kind = "clz-fix"
+context = "Still present in the 2026-10-07 import (checked 2026-10-10)"
 
 [[decision]]
 id = "clz-xillia-casing"
@@ -438,6 +462,7 @@ area = "all"
 kind = "clz-fix"
 
 # ---------------------------------------------------------------- decided (precedents from RULES.md, before this repo)
+context = "Still present in the 2026-10-07 import (checked 2026-10-10)"
 [[decision]]
 id = "gkc-non-jrpg-to-ps5"
 question = "Non-JRPGs whose Switch 2 version is a Game-Key Card: Switch 2 or PS5?"
@@ -505,7 +530,7 @@ id = "tom-clancy-xbox"
 question = "Which Tom Clancy games make sense on Xbox — modern discs (Disc-to-Digital) and/or backward-compatible ones digitally?"
 area = "xbox"
 asked = "2026-09-29"
-context = "Asked in chat 2026-09-29: consider all Tom Clancy games for Xbox — backward-compatible ones digitally (disc only if delisted), newer Xbox One / Series ones on disc now that Ubisoft is in Disc-to-Digital. · Facts: Ubisoft games started converting via Disc-to-Digital in Sep 2026 (Tom Clancy named; reported working: The Division 2, Wildlands, Breakpoint, Siege — can depend on the disc print). Rainbow Six Siege is free-to-play since Siege X (Jun 2025). The Division 1/2 and Breakpoint are always online; Wildlands single player works offline. Xbox 360 BC: Rainbow Six Vegas 1/2, GRAW 1/2, Future Soldier, EndWar, H.A.W.X, Splinter Cell Double Agent / Conviction / Blacklist. Original-Xbox Splinter Cell games are delisted (disc only). Splinter Cell was marked not interested earlier; Vegas 1/2 are owned on PS3. Store prices / listings of the 360 titles not checked; Rainbow Six Extraction offline status not checked (checked 2026-09-29)."
+context = "Asked in chat 2026-09-29: consider all Tom Clancy games for Xbox — backward-compatible ones digitally (disc only if delisted), newer Xbox One / Series ones on disc now that Ubisoft is in Disc-to-Digital. · Facts: Ubisoft games started converting via Disc-to-Digital in Sep 2026 (Tom Clancy named; reported working: The Division 2, Wildlands, Breakpoint, Siege — can depend on the disc print). Rainbow Six Siege is free-to-play since Siege X (Jun 2025). The Division 1/2 and Breakpoint are always online; Wildlands single player works offline. Xbox 360 BC: Rainbow Six Vegas 1/2, GRAW 1/2, Future Soldier, EndWar, H.A.W.X, Splinter Cell Double Agent / Conviction / Blacklist. Original-Xbox Splinter Cell games are delisted (disc only). Splinter Cell was marked not interested earlier; Vegas 1/2 are owned on PS3. Store prices / listings of the 360 titles not checked; Rainbow Six Extraction offline status not checked (checked 2026-09-29). · Mostly answered by purchases: Division 1 + 2, Wildlands, Breakpoint, Siege X, Extraction, HAWX 1 + 2, Splinter Cell + Pandora Tomorrow now owned (imports 2026-10-02…07)"
 recommendation = "Wildlands on disc first (offline + Disc-to-Digital). The Division 2 / Breakpoint / The Division only very cheap used — they stop working when the servers close. Skip a Siege disc (free-to-play). 360 titles: digitally in a sale per your BC rule, starting with Future Soldier and GRAW 1/2; skip Vegas 1/2 (owned on PS3) unless you want the Xbox versions. Splinter Cell stays skipped unless you change your mind."
 rules = ["shooter-console", "disc-to-digital", "bc-digital-unless-delisted"]
 targets = ["Tom Clancy's Ghost Recon Wildlands", "Tom Clancy's Ghost Recon Breakpoint", "Tom Clancy's The Division 2", "Tom Clancy's The Division", "Tom Clancy's Rainbow Six Siege", "Tom Clancy's Rainbow Six Extraction", "Tom Clancy's Rainbow Six Vegas", "Tom Clancy's Rainbow Six Vegas 2", "Tom Clancy's Ghost Recon Advanced Warfighter", "Tom Clancy's Ghost Recon Advanced Warfighter 2", "Tom Clancy's Ghost Recon: Future Soldier"]

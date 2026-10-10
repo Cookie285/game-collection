@@ -1,8 +1,8 @@
 # Buy plan – Nintendo exclusives — started 2026-10-10 from the CLZ collection (≈500 Nintendo games owned)
 # Scope: Nintendo-exclusive games on Switch / Switch 2 that are missing from the collection, plus announced ones.
 # Every entry is a suggestion — priorities follow the series' weight; you decide what to keep.
-# Older platforms (GB–Wii U, DS/3DS) are tracked in data/series/nintendo.toml as optional — see question
-# `nintendo-retro-scope`. Switch 2 Editions of games you own are not listed here — see `switch2-editions`.
+# Decided 2026-10-10: no retro Nintendo (GB–Wii U, DS/3DS — nintendo-retro-scope) and no Switch 2 Editions of games
+# already owned on Switch (switch2-editions: keep the Switch versions). Only Switch / Switch 2 games belong here.
 
 # ---------------------------------------------------------------- Switch gaps
 [[target]]
