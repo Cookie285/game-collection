@@ -1700,6 +1700,20 @@
 ],
 "pv": 2
 },
+"bayonetta 2|Nintendo Switch": {
+"title": "Bayonetta 2",
+"platform": "Nintendo Switch",
+"image": "cob9e8",
+"igdb_id": 279336,
+"name": "Bayonetta 2",
+"plats": [
+130
+],
+"score": 7,
+"checked": "2026-10-10",
+"v": 3,
+"pv": 2
+},
 "bayonetta 3|Nintendo Switch": {
 "title": "Bayonetta 3",
 "platform": "Nintendo Switch",
@@ -6288,6 +6302,20 @@
 ],
 "pv": 2
 },
+"fire emblem three houses|Nintendo Switch": {
+"title": "Fire Emblem: Three Houses",
+"platform": "Nintendo Switch",
+"image": "co1n8t",
+"igdb_id": 26845,
+"name": "Fire Emblem: Three Houses",
+"plats": [
+130
+],
+"score": 7,
+"checked": "2026-10-10",
+"v": 3,
+"pv": 2
+},
 "fire emblem warriors three hopes|Nintendo Switch": {
 "title": "Fire Emblem Warriors: Three Hopes",
 "platform": "Nintendo Switch",
@@ -9105,6 +9133,20 @@
 ],
 "pv": 2
 },
+"kirby and the world beyond|Nintendo Switch 2": {
+"title": "Kirby and the World Beyond",
+"platform": "Nintendo Switch 2",
+"image": "cocvba",
+"igdb_id": 417186,
+"name": "Kirby and the World Beyond",
+"plats": [
+508
+],
+"score": 7,
+"checked": "2026-10-10",
+"v": 3,
+"pv": 2
+},
 "kirby s return to dream land deluxe|Nintendo Switch": {
 "title": "Kirby's Return to Dream Land Deluxe",
 "platform": "Nintendo Switch",
@@ -10124,6 +10166,21 @@
 ],
 "pv": 2
 },
+"mario kart 8 deluxe|Nintendo Switch": {
+"title": "Mario Kart 8 Deluxe",
+"platform": "Nintendo Switch",
+"image": "co213p",
+"igdb_id": 26764,
+"name": "Mario Kart 8 Deluxe",
+"plats": [
+130,
+508
+],
+"score": 7,
+"checked": "2026-10-10",
+"v": 3,
+"pv": 2
+},
 "mario kart super circuit|Game Boy Advance": {
 "title": "Mario Kart Super Circuit",
 "platform": "Game Boy Advance",
@@ -10138,6 +10195,20 @@
 37,
 41
 ],
+"pv": 2
+},
+"mario kart world|Nintendo Switch 2": {
+"title": "Mario Kart World",
+"platform": "Nintendo Switch 2",
+"image": "cob9s9",
+"igdb_id": 338067,
+"name": "Mario Kart World",
+"plats": [
+508
+],
+"score": 7,
+"checked": "2026-10-10",
+"v": 3,
 "pv": 2
 },
 "mario party superstars|Nintendo Switch": {
@@ -10850,6 +10921,20 @@
 ],
 "pv": 2
 },
+"metroid dread|Nintendo Switch": {
+"title": "Metroid Dread",
+"platform": "Nintendo Switch",
+"image": "coba9g",
+"igdb_id": 15698,
+"name": "Metroid Dread",
+"plats": [
+130
+],
+"score": 7,
+"checked": "2026-10-10",
+"v": 3,
+"pv": 2
+},
 "metroid prime 4 beyond|Nintendo Switch 2": {
 "title": "Metroid Prime 4: Beyond",
 "platform": "Nintendo Switch 2",
@@ -10891,6 +10976,20 @@
 "plats": [
 130
 ],
+"pv": 2
+},
+"metroid ravenous|Nintendo Switch 2": {
+"title": "Metroid Ravenous",
+"platform": "Nintendo Switch 2",
+"image": "cocvge",
+"igdb_id": 408719,
+"name": "Metroid Ravenous",
+"plats": [
+508
+],
+"score": 7,
+"checked": "2026-10-10",
+"v": 3,
 "pv": 2
 },
 "mickey s dangerous chase|Game Boy": {
@@ -11865,6 +11964,20 @@
 167,
 169
 ],
+"pv": 2
+},
+"nintendo switch sports resort|Nintendo Switch 2": {
+"title": "Nintendo Switch Sports Resort",
+"platform": "Nintendo Switch 2",
+"image": "coc7mb",
+"igdb_id": 405451,
+"name": "Nintendo Switch Sports Resort",
+"plats": [
+508
+],
+"score": 7,
+"checked": "2026-10-10",
+"v": 3,
 "pv": 2
 },
 "nintendo switch sports|Nintendo Switch": {
@@ -12872,6 +12985,20 @@
 ],
 "pv": 2
 },
+"pokemon let s go pikachu|Nintendo Switch": {
+"title": "Pokémon: Let's Go, Pikachu!",
+"platform": "Nintendo Switch",
+"image": "co1zjy",
+"igdb_id": 25877,
+"name": "Pokémon: Let's Go, Pikachu!",
+"plats": [
+130
+],
+"score": 7,
+"checked": "2026-10-10",
+"v": 3,
+"pv": 2
+},
 "pokemon moon|Nintendo 3DS": {
 "title": "Pokémon Moon",
 "platform": "Nintendo 3DS",
@@ -12986,6 +13113,20 @@
 ],
 "pv": 2
 },
+"pokemon shield|Nintendo Switch": {
+"title": "Pokémon Shield",
+"platform": "Nintendo Switch",
+"image": "co1zk1",
+"igdb_id": 115653,
+"name": "Pokémon Shield",
+"plats": [
+130
+],
+"score": 7,
+"checked": "2026-10-10",
+"v": 3,
+"pv": 2
+},
 "pokemon silver version|Game Boy Color": {
 "title": "Pokémon Silver Version",
 "platform": "Game Boy Color",
@@ -13088,6 +13229,20 @@
 130,
 508
 ],
+"pv": 2
+},
+"pokemon winds|Nintendo Switch 2": {
+"title": "Pokémon Winds",
+"platform": "Nintendo Switch 2",
+"image": "cobo9k",
+"igdb_id": 393105,
+"name": "Pokémon Winds",
+"plats": [
+508
+],
+"score": 7,
+"checked": "2026-10-10",
+"v": 3,
 "pv": 2
 },
 "pokemon x|Nintendo 3DS": {
@@ -18081,6 +18236,20 @@
 ],
 "pv": 2
 },
+"the legend of zelda ocarina of time|Nintendo Switch 2": {
+"title": "The Legend of Zelda: Ocarina of Time",
+"platform": "Nintendo Switch 2",
+"image": "cocv5r",
+"igdb_id": 405460,
+"name": "The Legend of Zelda: Ocarina of Time",
+"plats": [
+508
+],
+"score": 7,
+"checked": "2026-10-10",
+"v": 3,
+"pv": 2
+},
 "the legend of zelda skyward sword hd|Nintendo Switch": {
 "title": "The Legend of Zelda: Skyward Sword HD",
 "platform": "Nintendo Switch",
@@ -18896,6 +19065,20 @@
 42,
 405
 ],
+"pv": 2
+},
+"tomodachi life living the dream|Nintendo Switch": {
+"title": "Tomodachi Life: Living the Dream",
+"platform": "Nintendo Switch",
+"image": "cobdqd",
+"igdb_id": 337036,
+"name": "Tomodachi Life: Living the Dream",
+"plats": [
+130
+],
+"score": 7,
+"checked": "2026-10-10",
+"v": 3,
 "pv": 2
 },
 "tony hawk s pro skater 1 2|Nintendo Switch": {
@@ -20140,6 +20323,20 @@
 130,
 508
 ],
+"pv": 2
+},
+"xenoblade genesis|Nintendo Switch 2": {
+"title": "Xenoblade Genesis",
+"platform": "Nintendo Switch 2",
+"image": "coc8ai",
+"igdb_id": 405450,
+"name": "Xenoblade Genesis",
+"plats": [
+508
+],
+"score": 7,
+"checked": "2026-10-10",
+"v": 3,
 "pv": 2
 },
 "xenosaga episode ii|PlayStation 2": {
