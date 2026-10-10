@@ -668,6 +668,9 @@ area = "nintendo"
 context = "Raised with the new Nintendo buy plan (2026-10-10). Your Switch carts play on Switch 2. Nintendo sells 'Nintendo Switch 2 Edition' versions — physically as new carts, or as a paid upgrade pack for an owned copy — with better performance and sometimes new content (e.g. Breath of the Wild, Tears of the Kingdom, Kirby and the Forgotten Land, Super Mario Party Jamboree). Announced: Xenoblade Chronicles 3 Switch 2 Edition (3 Dec 2026) and Hyrule Warriors: Age of Calamity Definitive Edition (25 Feb 2027) — you own both base games. The 'one copy, newest gen' rule says one copy per game and the newest-gen version for cross-gen releases, but you already own the older copy."
 recommendation = "Don't double-buy by default: keep the Switch cart and buy the digital upgrade pack only if you replay the game. Buy a Switch 2 Edition cart only when it adds substantial new content you want — then it replaces the Switch copy (one copy per game)."
 rules = ["one-copy-newest-gen", "switch-first"]
+status = "decided"
+decided = "2026-10-10"
+outcome = "not buying them again. keep the switch versions"
 [[decision.option]]
 label = "Keep Switch carts; upgrade pack only when replaying"
 pros = ["No double-buying", "Owned carts stay complete"]
