@@ -2099,6 +2099,24 @@
 ],
 "pv": 2
 },
+"blue prince|Nintendo Switch 2": {
+"title": "Blue Prince",
+"platform": "Nintendo Switch 2",
+"image": "co9mzd",
+"igdb_id": 149657,
+"name": "Blue Prince",
+"plats": [
+6,
+14,
+167,
+169,
+508
+],
+"score": 7,
+"checked": "2026-10-28",
+"v": 3,
+"pv": 2
+},
 "blue reflection quartet shoujo tachi no kiseki|Nintendo Switch": {
 "title": "Blue Reflection Quartet: Shoujo-tachi no Kiseki",
 "platform": "Nintendo Switch",
@@ -3130,6 +3148,23 @@
 ],
 "pv": 2
 },
+"clive barker s hellraiser revival|PlayStation 5": {
+"title": "Clive Barker's Hellraiser: Revival",
+"platform": "PlayStation 5",
+"image": "coa5o9",
+"igdb_id": 356552,
+"name": "Clive Barker's Hellraiser: Revival",
+"plats": [
+6,
+167,
+169,
+508
+],
+"score": 7,
+"checked": "2026-10-28",
+"v": 3,
+"pv": 2
+},
 "clock tower 3|PlayStation 2": {
 "title": "Clock Tower 3",
 "platform": "PlayStation 2",
@@ -3247,6 +3282,23 @@
 6,
 11
 ],
+"pv": 2
+},
+"control resonant|PlayStation 5": {
+"title": "CONTROL Resonant",
+"platform": "PlayStation 5",
+"image": "coc64f",
+"igdb_id": 225582,
+"name": "Control Resonant",
+"plats": [
+6,
+14,
+167,
+169
+],
+"score": 7,
+"checked": "2026-10-28",
+"v": 3,
 "pv": 2
 },
 "control|PlayStation 5": {
@@ -3816,6 +3868,28 @@
 167,
 169
 ],
+"pv": 2
+},
+"dave the diver complete edition|Nintendo Switch 2": {
+"title": "Dave The Diver: Complete Edition",
+"platform": "Nintendo Switch 2",
+"image": "cocdlv",
+"igdb_id": 203722,
+"name": "Dave the Diver",
+"plats": [
+6,
+14,
+34,
+39,
+48,
+130,
+167,
+169,
+508
+],
+"score": 6,
+"checked": "2026-10-28",
+"v": 3,
 "pv": 2
 },
 "days collection akiba heroines|Nintendo Switch": {
@@ -5184,6 +5258,23 @@
 ],
 "pv": 2
 },
+"dynasty warriors 3 complete edition remastered|PlayStation 5": {
+"title": "Dynasty Warriors 3: Complete Edition Remastered",
+"platform": "PlayStation 5",
+"image": "coajzb",
+"igdb_id": 369991,
+"name": "Dynasty Warriors 3: Complete Edition Remastered",
+"plats": [
+6,
+167,
+169,
+508
+],
+"score": 7,
+"checked": "2026-10-28",
+"v": 3,
+"pv": 2
+},
 "dynasty warriors origins|PlayStation 5": {
 "title": "Dynasty Warriors: Origins",
 "platform": "PlayStation 5",
@@ -6130,6 +6221,23 @@
 169,
 508
 ],
+"pv": 2
+},
+"final fantasy vii revelation|PlayStation 5": {
+"title": "Final Fantasy VII Revelation",
+"platform": "PlayStation 5",
+"image": "cocbgb",
+"igdb_id": 404721,
+"name": "Final Fantasy VII Revelation",
+"plats": [
+6,
+167,
+169,
+508
+],
+"score": 7,
+"checked": "2026-10-28",
+"v": 3,
 "pv": 2
 },
 "final fantasy viii remastered|Nintendo Switch": {
@@ -9189,6 +9297,21 @@
 ],
 "pv": 2
 },
+"kugayama shiori s death diary|Nintendo Switch": {
+"title": "Kugayama Shiori's Death Diary",
+"platform": "Nintendo Switch",
+"image": "cobdps",
+"igdb_id": 343652,
+"name": "Kugayama Shiori's Death Diary",
+"plats": [
+6,
+130
+],
+"score": 7,
+"checked": "2026-10-28",
+"v": 3,
+"pv": 2
+},
 "kunitsu gami path of the goddess|PlayStation 5": {
 "title": "Kunitsu-Gami: Path of the Goddess",
 "platform": "PlayStation 5",
@@ -11979,6 +12102,17 @@
 169
 ],
 "pv": 2
+},
+"ninnin heroines|Nintendo Switch": {
+"title": "NinNin Heroines",
+"platform": "Nintendo Switch",
+"image": null,
+"igdb_id": null,
+"name": null,
+"plats": null,
+"score": 0,
+"checked": "2026-10-28",
+"v": 3
 },
 "nintendo switch sports resort|Nintendo Switch 2": {
 "title": "Nintendo Switch Sports Resort",
@@ -16819,6 +16953,21 @@
 ],
 "pv": 2
 },
+"stupid never dies|PlayStation 5": {
+"title": "Stupid Never Dies",
+"platform": "PlayStation 5",
+"image": "coc8br",
+"igdb_id": 381212,
+"name": "Stupid Never Dies",
+"plats": [
+6,
+167
+],
+"score": 7,
+"checked": "2026-10-28",
+"v": 3,
+"pv": 2
+},
 "suikoden i and ii hd remaster gate rune and dunan unification wars|Nintendo Switch": {
 "title": "Suikoden I & II HD Remaster: Gate Rune and Dunan Unification Wars",
 "platform": "Nintendo Switch",
@@ -18384,6 +18533,26 @@
 ],
 "pv": 2
 },
+"the witch s bakery|Nintendo Switch": {
+"title": "The Witch's Bakery",
+"platform": "Nintendo Switch",
+"image": "co8tks",
+"igdb_id": 278824,
+"name": "The Witch's Bakery",
+"plats": [
+6,
+34,
+39,
+130,
+167,
+169,
+508
+],
+"score": 7,
+"checked": "2026-10-28",
+"v": 3,
+"pv": 2
+},
 "the wonderful 101 remastered|Nintendo Switch": {
 "title": "The Wonderful 101: Remastered",
 "platform": "Nintendo Switch",
@@ -18628,6 +18797,24 @@
 "plats": [
 130
 ],
+"pv": 2
+},
+"tom clancy s endwar|Xbox 360": {
+"title": "Tom Clancy's EndWar",
+"platform": "Xbox 360",
+"image": "co1yhv",
+"igdb_id": 7468,
+"name": "Tom Clancy's EndWar",
+"plats": [
+6,
+9,
+12,
+20,
+38
+],
+"score": 7,
+"checked": "2026-10-28",
+"v": 3,
 "pv": 2
 },
 "tom clancy s ghost recon advanced warfighter 2|Xbox 360": {
@@ -19725,6 +19912,22 @@
 "plats": [
 8
 ],
+"pv": 2
+},
+"valor mortis|PlayStation 5": {
+"title": "Valor Mortis",
+"platform": "PlayStation 5",
+"image": "coaazc",
+"igdb_id": 361833,
+"name": "Valor Mortis",
+"plats": [
+6,
+167,
+169
+],
+"score": 7,
+"checked": "2026-10-28",
+"v": 3,
 "pv": 2
 },
 "vanquish|Xbox 360": {
