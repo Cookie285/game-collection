@@ -2,12 +2,13 @@
 
 # Nintendo Switch 2
 
-## Owned (41)
+## Owned (44)
 
 | Title | Edition | Format | Region | Completeness | Purchased | Notes |
 |---|---|---|---|---|---|---|
 | A-Train: All Aboard! Tourism |  |  |  |  |  |  |
 | Bang! Bang! Bandits - Nintendo Switch 2 Edition |  |  |  |  |  |  |
+| Blue Prince |  |  |  |  |  |  |
 | Bravely Default: Flying Fairy HD Remaster |  |  |  |  |  |  |
 | Brigandine Abyss |  |  |  |  |  |  |
 | Bubsy 4D |  |  |  |  |  |  |
@@ -15,6 +16,7 @@
 | Culdcept Begins |  |  |  |  |  |  |
 | Cyberpunk 2077: Ultimate Edition |  |  |  |  |  | Also owned on Steam (Cyberpunk 2077) |
 | Daemon X Machina: Titanic Scion |  |  |  |  |  | Also owned on Steam (Daemon X Machina: Titanic Scion) |
+| Dave The Diver: Complete Edition |  |  |  |  |  |  |
 | Donkey Kong Bananza |  |  |  |  |  |  |
 | Fantasy Life i: The Girl Who Steals Time |  |  |  |  |  |  |
 | Fire Emblem: Fortune's Weave |  |  |  |  |  |  |
@@ -32,6 +34,7 @@
 | Moonlight Peaks - Nintendo Switch 2 Edition |  |  |  |  |  |  |
 | Mortal Kombat: Legacy Kollection |  |  |  |  |  |  |
 | Mouse: P.I. For Hire |  |  |  |  |  |  |
+| Nintendo Switch Sports Resort |  |  |  |  |  |  |
 | Orbitals |  |  |  |  |  |  |
 | Outbound |  |  |  |  |  |  |
 | Pokemon Legends: Z-A |  |  |  |  |  |  |

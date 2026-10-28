@@ -6,11 +6,11 @@ Curated in [`data/targets/`](../data/targets/). A target flips to ✅ automatica
 
 Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 
-⬜ 410 open · 🕒 3 ordered · ✅ 104 done · ➖ 97 skip
+⬜ 402 open · 🕒 2 ordered · ✅ 113 done · ➖ 97 skip
 
 📀 = same title already owned on another platform (one copy per game!)
 
-## 🤔 Decide / watch (25)
+## 🤔 Decide / watch (24)
 
 | Title | Platform | Prio | Group | State | Plan / where | Owned on / note |
 |---|---|---|---|---|---|---|
@@ -31,7 +31,6 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Otogi 2: Immortal Warriors | Xbox | medium | OG Xbox BC | watching | disc (store status unverified, likely disc only) | Xbox Store: BC (Xbox One/Series X\|S, added Nov 2021 for Xbox's 20th anniversary) and still purchasable digitally today — not disc-only; B – OG Xbox exclusive, BC; On my wish list (checked 2026-09-28) · No 2026 delisting news; still BC + digitally listed (checked 2026-10-01) |
 | Otogi: Myth of Demons | Xbox | medium | OG Xbox BC | watching | disc (store status unverified, likely disc only) | Xbox Store: BC (Xbox One/Series X\|S, added Nov 2021 for Xbox's 20th anniversary) and still purchasable digitally today — not disc-only; B – OG Xbox exclusive, BC; On my wish list (checked 2026-09-28) · No 2026 delisting news; still BC + digitally listed (checked 2026-10-01) |
 | Persona 4 Revival | PlayStation 5, Nintendo Switch 2 | medium | PS5 gaps – Multiplatform | undecided |  | Suggested (review 2026-09-28): Persona 4 remake — PS5 / Xbox Series / PC on 18 Feb 2027, Switch 2 on 20 May 2027 (physical format not announced). JRPG rule: Switch if it's a real cart. · Switch 2 date 20 May 2027 restated in the Sep 2026 Nintendo Direct; Switch 2 physical format still not announced (checked 2026-10-01) |
-| Silent Hill: Townfall | PlayStation 5 | medium | PS5 gaps – Multiplatform | undecided | PS5 disc; new or used | Suggested (review 2026-09-28): new Silent Hill (tracked series), out 24 Sep 2026 on PS5 + PC, physical PS5 edition; no Xbox / Switch version. · EU PS5 disc at retail (only the Standard Edition is physical; Deluxe is digital only); Konami: timed PS5 console exclusive (at least six months), no Xbox / Switch 2 version announced (checked 2026-10-01) |
 | Tomb Raider: Legacy of Atlantis | PlayStation 5 | medium | PS5 gaps – Multiplatform | watching | PS5 disc (upcoming, 12 Feb 2027) | Suggested (review 2026-09-28): remake of the first Tomb Raider (Crystal Dynamics / Flying Wild Hog), PS5, Xbox Series, PC. Switch version not announced. · Still 12 Feb 2027 (Deluxe: 48 h early access from 10 Feb). Switch 2 version added for the same day — physical is a Game-Key Card; PS5 / Xbox physical editions at retail (checked 2026-10-01) |
 | Ace Combat 8: Wings of Theve | Xbox Series X\|S, PlayStation 5 | medium | Shooter console suggestions | undecided | disc — Xbox Series X or PS5, see question ace-combat | Suggested (review 2026-10-02, question ace-combat): out 2 Oct 2026 on PS5, Xbox Series X\|S and PC (no Switch); Standard and Deluxe on disc for both consoles; Bandai Namco discs don't convert via Disc-to-Digital (yet) (checked 2026-10-02) |
 | Mario Kart World | Nintendo Switch 2 | medium | Switch 2 – Nintendo exclusive | undecided | Switch 2 cart; used preferred | Suggested (Nintendo plan 2026-10-10): not in CLZ — check whether you own it digitally via a Switch 2 bundle. Multiplayer-leaning, see single-player focus. |
@@ -40,7 +39,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Mario Kart 8 Deluxe | Nintendo Switch | medium | Switch gaps – Nintendo exclusive | undecided | Switch cart; used preferred | Suggested (Nintendo plan 2026-10-10): not in CLZ — check whether you own it digitally (it was often bundled with consoles). Racing / multiplayer-leaning, see single-player focus. Mario Kart World on Switch 2 is the newer entry. |
 | Pokémon: Let's Go, Pikachu! | Nintendo Switch | medium | Switch gaps – Nintendo exclusive | undecided | Switch cart (one version); used preferred | Suggested (Nintendo plan 2026-10-10): the only Switch main-series Pokémon missing; either version counts. |
 
-## 🎯 High priority (42)
+## 🎯 High priority (41)
 
 | Title | Platform | Prio | Group | State | Plan / where | Owned on / note |
 |---|---|---|---|---|---|---|
@@ -75,7 +74,6 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Ratchet & Clank | PlayStation 4 | high | PS4 gaps – Sony 1st-party |  | PS4 disc; used preferred (price limit not set yet) | 2016 · Only Ratchet on PS4. · Very cheap used |
 | Shadow of the Colossus | PlayStation 4 | high | PS4 gaps – Sony 1st-party |  | PS4 disc; used preferred (price limit not set yet) | 2018 · Definitive version of SotC. |
 | The Last Guardian | PlayStation 4 | high | PS4 gaps – Sony 1st-party |  | PS4 disc; used preferred (price limit not set yet) | Team Ico finale. |
-| Detroit: Become Human | PlayStation 4 | high | PS4 gaps – Sony-published |  | PS4 disc; used preferred (price limit not set yet) | You own Heavy Rain. · Very cheap used |
 | Silent Hill 2 | PlayStation 5 | high | PS5 gaps – Console exclusive (timed) |  | PS5 disc; used preferred (price limit not set yet) | 2024 · You own Silent Hill f; SH2 remake is the other modern entry. · Xbox Play Anywhere: yes (Xbox Series X\|S version since 21 Nov 2025) (checked 2026-10-02) |
 | Clair Obscur: Expedition 33 | PlayStation 5 | high | PS5 gaps – Multiplatform |  | PS5 disc; used preferred (price limit not set yet) | ❓ marked '?' in the checklist – verify before buying · Acclaimed turn-based RPG, not owned. · Other versions: Switch 2 port only rumoured for 2026 · If Switch 2 full cart is announced, rule says wait · Switch 2 port still not announced — only an insider report (NateTheHate) that it comes in 2026 (checked 2026-09-28) · PS5 disc exists in the EU (physical distributed by Bandai Namco Europe) (checked 2026-09-29) · Switch 2 still not announced (not in the 9 Sep 2026 Nintendo Direct); only insider reports (checked 2026-10-01) · Xbox Play Anywhere: yes — and an Xbox Series X disc exists that is on the Disc-to-Digital list, so the Xbox disc also gives the digital licence + the Windows PC version (checked 2026-10-02) · Leaves Xbox Game Pass on 15 Oct 2026 — after that, playing it on Xbox/PC means buying it (checked 2026-10-06) |
 | Devil May Cry 5 Special Edition | PlayStation 5 | high | PS5 gaps – Multiplatform |  | PS5 disc; new or used, only at a really good price | owned on Steam (Devil May Cry 5) – only if very cheap, new or used · Fits your character-action line (Bayonetta, Ninja Gaiden, Onimusha). No DMC owned. · Other versions: Switch 2 Devil Hunter Ed. = digital / GKC · Xbox Play Anywhere: no (the Special Edition has no PC version) (checked 2026-10-02) |
@@ -87,7 +85,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Sonic & All-Stars Racing Transformed | Xbox 360 | high | Xbox 360 BC |  | disc (delisted – not buyable in store) | Xbox Store: DISC ONLY (delisted); C – multiplatform, no modern version |
 | Spec Ops: The Line | Xbox 360 | high | Xbox 360 BC |  | disc (delisted – not buyable in store) | Xbox Store: DISC ONLY (delisted 2024); C – multiplatform, no modern version; Disc is the only legal copy on any platform |
 
-## ⬜ Open by group (410)
+## ⬜ Open by group (402)
 
 ### Activision / Blizzard (10)
 
@@ -119,7 +117,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | The Evil Within | Xbox One | someday | undecided | used disc | Suggested (scope layer 3, pre-acquisition). Tango – 360 disc also exists |
 | The Evil Within 2 | Xbox One | someday | undecided | used disc | Suggested (scope layer 3, pre-acquisition). Tango |
 
-### Buy elsewhere (not PlayStation) (54)
+### Buy elsewhere (not PlayStation) (53)
 
 | Title | Platform | Prio | State | Plan / where | Owned on / note |
 |---|---|---|---|---|---|
@@ -144,7 +142,6 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Dragon's Dogma: Dark Arisen | Nintendo Switch | low |  | Switch cart | Buy on Switch instead of PlayStation – Switch 1 physical (Dragon's Dogma series) · owned on Steam (Dragon's Dogma: Dark Arisen) – only if very cheap |
 | Fatal Frame II: Crimson Butterfly Remake | Nintendo Switch 2 | low |  | Switch 2 full cart | ❓ marked '?' in the checklist – verify · Buy on Switch 2 instead of PlayStation – Remake – check cart vs Game-Key Card before buying (Fatal Frame series) |
 | Final Fantasy IX | Nintendo Switch | low |  | Switch cart | ❓ marked '?' in the checklist – verify · Buy on Switch instead of PlayStation – Switch physical (FF classics) |
-| Final Fantasy Resonance | Nintendo Switch | low | watching | Switch cart | Suggested (review 2026-10-01): HD-2D Final Fantasy spin-off (based on Brave Exvius) — 22 Oct 2026 on PS5, Xbox Series, Switch, Switch 2, PC. Physical: Switch = cart, Switch 2 = Game-Key Card, PS5 disc, no Xbox physical (checked 2026-10-01) |
 | Final Fantasy VII | Nintendo Switch | low |  | Switch cart | ❓ marked '?' in the checklist – verify · Buy on Switch instead of PlayStation – Switch physical (FF classics) |
 | Final Fantasy VIII Remastered | Nintendo Switch | low |  | Switch cart | ❓ marked '?' in the checklist – verify · Buy on Switch instead of PlayStation – Switch physical (FF classics) |
 | Final Fantasy X \| X-2 HD Remaster | Nintendo Switch | low |  | Switch cart | ❓ marked '?' in the checklist – verify · Buy on Switch instead of PlayStation – Switch 1 cart (X-2 needs a download in the West); Switch 2 = Game-Key Card (FF classics) · owned on Steam (FINAL FANTASY X/X-2 HD Remaster) – only if very cheap |
@@ -213,7 +210,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | The Elder Scrolls III: Morrowind | Xbox | someday | undecided | disc – Game of the Year Edition | Backward compatible |
 | The Elder Scrolls IV: Oblivion | Xbox 360 | someday | undecided | disc – Game of the Year Edition | Backward compatible; Oblivion Remastered owned on Switch 2 |
 
-### First-party (15)
+### First-party (12)
 
 | Title | Platform | Prio | State | Plan / where | Owned on / note |
 |---|---|---|---|---|---|
@@ -223,10 +220,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Microsoft Flight Simulator | Xbox Series X\|S | medium |  | used disc, e.g. rebuy.de | scope layer 1 (Asobo); 2020 game · Xbox Play Anywhere: yes (Xbox Game Studios / Bethesda title) (checked 2026-10-02) |
 | Microsoft Flight Simulator 2024 | Xbox Series X\|S | medium |  | used disc, e.g. rebuy.de | scope layer 1 (Asobo) · Xbox Play Anywhere: yes (Xbox Game Studios / Bethesda title) (checked 2026-10-02) |
 | Senua's Saga: Hellblade II | Xbox Series X\|S | medium |  | used disc | ❓ verify the EU Xbox box contains a real disc, not a code – if code-in-box, treat like Avowed · scope layer 1 (Ninja Theory); Ninja Theory at risk of closure (Sep 2026) · Amazon.de lists the Xbox Series version only as a download code; no EU disc found (checked 2026-09-28) · physical Xbox Series X\|S + PS5 edition announced via Limited Run Games (May 2025) – Microsoft itself released no disc; Xbox disc contents not confirmed yet (checked 2026-09-29) · Limited Run Games Xbox disc contents still unconfirmed (no unboxing / Does It Play? entry found). Xbox proposed closing Ninja Theory on 22 Sep 2026 after two sale deals fell through (consultation to year end) (checked 2026-10-01) · Xbox Play Anywhere: yes (Xbox Game Studios / Bethesda title) (checked 2026-10-02) |
-| Starfield | Xbox Series X\|S | medium |  | used disc, e.g. rebuy.de | scope layer 2 (Bethesda Game Studios); Bethesda post-acquisition · Xbox Play Anywhere: yes (Xbox Game Studios / Bethesda title) (checked 2026-10-02) |
 | Fable | Xbox Series X\|S | low | watching | Xbox disc only if really cheap later | scope layer 1 (Fable / Playground); PS5 copy pre-ordered (see Part 1) · Delayed to 23 Feb 2027 (PS5, Xbox Series, PC) (checked 2026-09-28) · Still 23 Feb 2027 (checked 2026-10-01) |
-| The Elder Scrolls IV: Oblivion Remastered | Xbox Series X\|S | low |  | used disc, e.g. rebuy.de | 📀 owned on Nintendo Switch 2 · scope layer 2 (Bethesda / Virtuos); Layer 2 – Xbox copy optional · Xbox Play Anywhere: yes (Xbox Game Studios / Bethesda title) (checked 2026-10-02) |
-| Avowed | Xbox Series X\|S | someday | undecided | Game Pass first; if keeping, sealed code-in-box only if ≤ Xbox Store sale price, else Xbox Store (Play Anywhere) | scope layer X (Obsidian); Xbox box is code-in-box (no disc, no D2D); no PS5 disc exists – out of disc scope · Xbox Play Anywhere: yes (Xbox Game Studios / Bethesda title) (checked 2026-10-02) |
 | Gears of War: Reloaded | PlayStation 5 | someday | watching | PS5 disc when very cheap | scope layer X (Gears / The Coalition); No Xbox disc exists (PS5 disc only); campaign already covered by Gears of War: Ultimate Edition · Xbox Play Anywhere: yes on the Xbox version (checked 2026-10-02) |
 | Grounded | Xbox Series X\|S | someday | watching | eBay saved search (Limited Run pressing) – buy only at a good price | scope layer 1 (Obsidian); Limited Run exclusive, expensive on eBay · Xbox Play Anywhere: yes (Xbox Game Studios / Bethesda title) (checked 2026-10-02) |
 | Kinect Sports Rivals | Xbox One | someday |  | used disc | scope layer 1 (Rare); Kinect-only; unplayable on Series X |
@@ -449,11 +443,10 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | LittleBigPlanet 3 | PlayStation 4 | low |  | PS4 disc; used preferred (price limit not set yet) | Series completion (own LBP1 + Sackboy). · Online features are gone; story still playable |
 | Tearaway Unfolded | PlayStation 4 | low |  | PS4 disc; used preferred (price limit not set yet) | Exclusive. |
 
-### PS4 gaps – Sony-published (3)
+### PS4 gaps – Sony-published (2)
 
 | Title | Platform | Prio | State | Plan / where | Owned on / note |
 |---|---|---|---|---|---|
-| Detroit: Become Human | PlayStation 4 | high |  | PS4 disc; used preferred (price limit not set yet) | You own Heavy Rain. · Very cheap used |
 | Heavy Rain & Beyond: Two Souls Collection | PlayStation 4 | medium |  | PS4 disc; used preferred (price limit not set yet) | Adds Beyond: Two Souls; makes Heavy Rain PS3 surplus. |
 | MediEvil | PlayStation 4 | medium |  | PS4 disc; used preferred (price limit not set yet) | 2019 · Remake = newest gen of the PS1 classic. |
 
@@ -464,7 +457,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Silent Hill 2 | PlayStation 5 | high |  | PS5 disc; used preferred (price limit not set yet) | 2024 · You own Silent Hill f; SH2 remake is the other modern entry. · Xbox Play Anywhere: yes (Xbox Series X\|S version since 21 Nov 2025) (checked 2026-10-02) |
 | Forspoken | PlayStation 5 | low |  | PS5 disc; used preferred (price limit not set yet) | Square Enix console exclusive; cheap used. · Very cheap used |
 
-### PS5 gaps – Multiplatform (48)
+### PS5 gaps – Multiplatform (47)
 
 | Title | Platform | Prio | State | Plan / where | Owned on / note |
 |---|---|---|---|---|---|
@@ -492,7 +485,6 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Persona 4 Revival | PlayStation 5, Nintendo Switch 2 | medium | undecided |  | Suggested (review 2026-09-28): Persona 4 remake — PS5 / Xbox Series / PC on 18 Feb 2027, Switch 2 on 20 May 2027 (physical format not announced). JRPG rule: Switch if it's a real cart. · Switch 2 date 20 May 2027 restated in the Sep 2026 Nintendo Direct; Switch 2 physical format still not announced (checked 2026-10-01) |
 | Phantom Blade Zero | PlayStation 5 | medium |  | PS5 disc; new (upcoming release, price limit not set yet) | ❓ EU PS5 disc? (only an Asian disc was listed on 2026-09-28) · Chinese action game in the Black Myth / Wuchang vein. · Date per official site · Releases 29 Oct 2026; a PS5 disc is only listed for Asia so far — no EU disc pre-orders (checked 2026-09-28) · Still 29 Oct 2026; still no EU / PAL PS5 disc — publisher reportedly plans no physical release outside Asia for now (Play-Asia lists the Asian disc) (checked 2026-10-01) · Still no EU standard PS5 disc; the global Collector's Edition (8,000 units) holds a digital code, not a disc; a disc is only sold via Asian import (Play-Asia) (checked 2026-10-02) |
 | Scarlet Nexus | PlayStation 5 | medium |  | PS5 disc; new or used, only at a really good price | owned on Steam (SCARLET NEXUS) – only if very cheap, new or used · Bandai Namco ARPG, no Switch. · Xbox Play Anywhere: yes (checked 2026-10-02) |
-| Silent Hill: Townfall | PlayStation 5 | medium | undecided | PS5 disc; new or used | Suggested (review 2026-09-28): new Silent Hill (tracked series), out 24 Sep 2026 on PS5 + PC, physical PS5 edition; no Xbox / Switch version. · EU PS5 disc at retail (only the Standard Edition is physical; Deluxe is digital only); Konami: timed PS5 console exclusive (at least six months), no Xbox / Switch 2 version announced (checked 2026-10-01) |
 | Star Wars Outlaws | PlayStation 5 | medium |  | PS5 disc; used preferred (price limit not set yet) | Single-player Star Wars. · Other versions: Switch 2 = Game-Key Card · Xbox Play Anywhere: no (the Xbox-app PC version is a separate Ubisoft Connect purchase) (checked 2026-10-02) |
 | The First Berserker: Khazan | PlayStation 5 | medium |  | PS5 disc; used preferred (price limit not set yet) | Fits your soulslike run (Wuchang, Lords of the Fallen, Mortal Shell). |
 | Tomb Raider: Legacy of Atlantis | PlayStation 5 | medium | watching | PS5 disc (upcoming, 12 Feb 2027) | Suggested (review 2026-09-28): remake of the first Tomb Raider (Crystal Dynamics / Flying Wild Hog), PS5, Xbox Series, PC. Switch version not announced. · Still 12 Feb 2027 (Deluxe: 48 h early access from 10 Feb). Switch 2 version added for the same day — physical is a Game-Key Card; PS5 / Xbox physical editions at retail (checked 2026-10-01) |
@@ -541,13 +533,12 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 |---|---|---|---|---|---|
 | State of Decay 3 | Xbox Series X\|S | someday | undecided |  | Undead Labs now independent; no longer first-party (Sep 2026) – series-on-one-platform rule would still put it on Xbox · Out in 2027 on Xbox Series, PS5 and Steam; Game Pass day one (checked 2026-09-28) · Still 2027 on Xbox Series, PS5, PC; no physical format announced (checked 2026-10-01) |
 
-### Shooter console suggestions (50)
+### Shooter console suggestions (49)
 
 | Title | Platform | Prio | State | Plan / where | Owned on / note |
 |---|---|---|---|---|---|
 | Ace Combat 8: Wings of Theve | Xbox Series X\|S, PlayStation 5 | medium | undecided | disc — Xbox Series X or PS5, see question ace-combat | Suggested (review 2026-10-02, question ace-combat): out 2 Oct 2026 on PS5, Xbox Series X\|S and PC (no Switch); Standard and Deluxe on disc for both consoles; Bandai Namco discs don't convert via Disc-to-Digital (yet) (checked 2026-10-02) |
 | Metro Exodus | Xbox One | low | undecided | used disc | I confirmed Metro has discs. Series X disc via Complete Edition |
-| S.T.A.L.K.E.R. 2: Heart of Chornobyl | Xbox Series X\|S | low | undecided | used disc | Xbox Series X disc exists (Deep Silver retail/SteelBook editions); PC editions are codes; a PS5 Day One disc also exists. Trilogy owned on Switch (JP) · Xbox Play Anywhere: yes (added later; Xbox and Microsoft Store versions merged into one licence) (checked 2026-10-02) |
 | Borderlands | Xbox 360 | someday | undecided | used disc | Suggested. |
 | Borderlands 3 | Xbox One | someday | undecided | used disc | Suggested. |
 | Borderlands 4 | Xbox Series X\|S | someday | undecided | used disc | Suggested. · Xbox Play Anywhere: no (checked 2026-10-02) |
@@ -602,7 +593,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 |---|---|---|---|---|---|
 | Mario Kart World | Nintendo Switch 2 | medium | undecided | Switch 2 cart; used preferred | Suggested (Nintendo plan 2026-10-10): not in CLZ — check whether you own it digitally via a Switch 2 bundle. Multiplayer-leaning, see single-player focus. |
 
-### Switch 2 – upcoming Nintendo exclusive (6)
+### Switch 2 – upcoming Nintendo exclusive (5)
 
 | Title | Platform | Prio | State | Plan / where | Owned on / note |
 |---|---|---|---|---|---|
@@ -611,7 +602,6 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | The Legend of Zelda: Ocarina of Time | Nintendo Switch 2 | high | watching | Switch 2 cart (check full cart vs Game-Key Card) | Suggested (Nintendo plan 2026-10-10): Switch 2 remake, out 5 Nov 2026; physical edition at retail (format not confirmed yet). You own Ocarina of Time 3D (3DS). (checked 2026-10-10) |
 | Xenoblade Genesis | Nintendo Switch 2 | high | watching | Switch 2 cart (check full cart vs Game-Key Card) | Suggested (Nintendo plan 2026-10-10): new Monolith Soft RPG, Switch 2 exclusive, 2027 (no date) — you own every Switch Xenoblade. (checked 2026-10-10) |
 | Kirby and the World Beyond | Nintendo Switch 2 | medium | watching | Switch 2 cart (check full cart vs Game-Key Card) | Suggested (Nintendo plan 2026-10-10): second 3D mainline Kirby (HAL), spring 2027, no date yet. (checked 2026-10-10) |
-| Nintendo Switch Sports Resort | Nintendo Switch 2 | low | watching | Switch 2 cart (check full cart vs Game-Key Card) | Suggested (Nintendo plan 2026-10-10): out 22 Oct 2026, Switch 2 only; you own Nintendo Switch Sports. Motion / party game. (checked 2026-10-10) |
 
 ### Switch gaps – Nintendo exclusive (7)
 
@@ -669,15 +659,14 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Too Human | Xbox 360 | someday |  | digital (free) | Xbox Store: Digital (Xbox Store); A – first-party, no modern version; Free digitally on Xbox – check Full Library before buying |
 | Vanquish | Xbox 360 | someday |  | digital, Xbox Store sale (no key sellers for 360 titles) | Xbox Store: Digital (Xbox Store); C – multiplatform, no modern version |
 
-## 🕒 Ordered / pre-ordered (3)
+## 🕒 Ordered / pre-ordered (2)
 
 | Title | Platform | Prio | Group | State | Plan / where | Owned on / note |
 |---|---|---|---|---|---|---|
 | Fable | PlayStation 5 | high | PS5 gaps – Microsoft 1st-party |  | PS5 disc (pre-ordered) | Pre-ordered on PS5 (Xbox disc only if cheap later). · Already pre-ordered · Delayed to 23 Feb 2027 (PS5, Xbox Series, PC) (checked 2026-09-28) · Still 23 Feb 2027 (checked 2026-10-01) |
 | Call of Duty: Modern Warfare 4 | Xbox Series X\|S | high | Series runs – Call of Duty |  | Xbox Series X disc (pre-order candidate) | Suggested (review 2026-09-28): next entry of the complete Xbox CoD run — Infinity Ward, 23 Oct 2026. Also on PS5, PS4/Xbox One and Switch 2; the shooter rule keeps it on Xbox. · Still 23 Oct 2026. Xbox Series X standard edition = disc, content download required (Vault Edition digital only). Switch 2 retail = code-in-a-box (checked 2026-10-01) |
-| ReCore | Xbox One | low | Checklist (Disc-to-Digital) + First-party |  | used disc, e.g. rebuy.de | Definitive Edition preferred; scope layer 1 (Armature / Comcept (MS-published)) |
 
-## ✅ Done (104)
+## ✅ Done (113)
 
 <details><summary>show</summary>
 
@@ -692,6 +681,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Forza Horizon 6 | Xbox Series X\|S | high | First-party |  |  | Xbox Series X\|S |
 | Gears of War: E-Day | Xbox Series X\|S | high | First-party |  | Pre-ordered (Xbox) | Xbox Series X\|S |
 | Days Gone | PlayStation 4 | high | PS4 gaps – Sony 1st-party |  | PS4 disc; used preferred (price limit not set yet) | PlayStation 4 |
+| Detroit: Become Human | PlayStation 4 | high | PS4 gaps – Sony-published |  | PS4 disc; used preferred (price limit not set yet) | PlayStation 4 |
 | Forza Horizon | Xbox 360 | high | Xbox 360 BC |  |  | Xbox 360 |
 | Gears 5 | Xbox One | medium | Checklist (Disc-to-Digital) + First-party |  |  | Xbox One |
 | Gears of War 4 | Xbox One | medium | Checklist (Disc-to-Digital) + First-party |  |  | Xbox One |
@@ -707,6 +697,8 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Psychonauts 2 | Xbox One, Xbox Series X\|S | medium | First-party |  | used disc, e.g. rebuy.de | Xbox Series X\|S |
 | Redfall | Xbox Series X\|S | medium | First-party |  |  | Xbox Series X\|S |
 | Sea of Thieves | Xbox One | medium | First-party |  |  | Xbox One |
+| Starfield | Xbox Series X\|S | medium | First-party |  | used disc, e.g. rebuy.de | Xbox Series X\|S |
+| Silent Hill: Townfall | PlayStation 5 | medium | PS5 gaps – Multiplatform |  | PS5 disc; new or used | PlayStation 5 |
 | Gears of War 2 | Xbox 360 | medium | Xbox 360 BC |  | disc – Gears shelf consistency | Xbox 360 |
 | Gears of War 3 | Xbox 360 | medium | Xbox 360 BC |  | disc – Gears shelf consistency | Xbox 360 |
 | Gears of War: Judgment | Xbox 360 | medium | Xbox 360 BC |  | disc – Gears shelf consistency | Xbox 360 |
@@ -717,6 +709,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Call of Duty: Modern Warfare Trilogy | Xbox 360 | medium | Xbox 360 BC + Series runs – Call of Duty |  |  | Xbox 360 |
 | Call of Duty: World at War | Xbox 360 | medium | Xbox 360 BC + Series runs – Call of Duty |  |  | Xbox 360 |
 | Dishonored 2 | xbox-modern | low | Buy elsewhere (not PlayStation) |  | Xbox disc (Disc-to-Digital) | Xbox One |
+| Final Fantasy Resonance | Nintendo Switch | low | Buy elsewhere (not PlayStation) |  | Switch cart | Nintendo Switch |
 | Hi-Fi Rush | xbox-modern | low | Buy elsewhere (not PlayStation) |  | Xbox disc, cheap from netgames | Xbox Series X\|S |
 | Lies of P: Complete Edition | Nintendo Switch 2 | low | Buy elsewhere (not PlayStation) |  | Switch 2 full cart | Nintendo Switch 2 |
 | Prey | xbox-modern | low | Buy elsewhere (not PlayStation) |  | Xbox disc (Disc-to-Digital) | Xbox One |
@@ -724,16 +717,20 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Crackdown 3 | Xbox One | low | Checklist (Disc-to-Digital) + First-party |  |  | Xbox One |
 | Halo Infinite | Xbox Series X\|S | low | Checklist (Disc-to-Digital) + First-party |  |  | Xbox Series X\|S |
 | Killer Instinct | Xbox One | low | Checklist (Disc-to-Digital) + First-party |  |  | Xbox One |
+| ReCore | Xbox One | low | Checklist (Disc-to-Digital) + First-party |  | used disc, e.g. rebuy.de | Xbox One |
 | Ryse: Son of Rome | Xbox One | low | Checklist (Disc-to-Digital) + First-party |  |  | Xbox One |
 | State of Decay 2 | Xbox One | low | Checklist (Disc-to-Digital) + First-party |  |  | Xbox One |
 | Dead Rising 4 | Xbox One | low | First-party |  |  | Xbox One |
 | Hi-Fi Rush | Xbox Series X\|S | low | First-party |  | netgames (available cheap there) | Xbox Series X\|S |
 | Minecraft | Xbox One | low | First-party |  | used disc, e.g. rebuy.de | Xbox One |
 | Ori and the Will of the Wisps | Xbox One | low | First-party |  |  | Xbox One |
+| The Elder Scrolls IV: Oblivion Remastered | Xbox Series X\|S | low | First-party |  | used disc, e.g. rebuy.de | Xbox Series X\|S |
 | Resident Evil Revelations | PlayStation 4 | low | PS4 gaps – Multiplatform |  | PS4 disc; new or used, only at a really good price | PlayStation 4 |
 | Metro 2033 | Xbox 360, Xbox One | low | Shooter console suggestions |  | used disc | Xbox One |
 | Metro: Last Light | Xbox 360, Xbox One | low | Shooter console suggestions |  | used disc | Xbox One |
 | Metro Redux | Xbox One | low | Shooter console suggestions |  | used disc | Xbox One |
+| S.T.A.L.K.E.R. 2: Heart of Chornobyl | Xbox Series X\|S | low | Shooter console suggestions |  | used disc | Xbox Series X\|S |
+| Nintendo Switch Sports Resort | Nintendo Switch 2 | low | Switch 2 – upcoming Nintendo exclusive |  | Switch 2 cart (check full cart vs Game-Key Card) | Nintendo Switch 2 |
 | Dishonored 2 | Xbox One | someday | Bethesda / Remedy extras |  | used disc | Xbox One |
 | Dishonored: Death of the Outsider | Xbox One | someday | Bethesda / Remedy extras |  | used disc | Xbox One |
 | Forza Horizon 3 | Xbox One | someday | Checklist (Disc-to-Digital) + First-party |  |  | Xbox One |
@@ -743,6 +740,7 @@ Legend: ⬜ open · 🕒 ordered / pre-ordered · ✅ done · ➖ skipped
 | Forza Motorsport 7 | Xbox One | someday | Checklist (Disc-to-Digital) + First-party |  |  | Xbox One |
 | Super Lucky's Tale | Xbox One | someday | Checklist (Disc-to-Digital) + First-party |  |  | Xbox One |
 | Zoo Tycoon | Xbox One | someday | Checklist (Disc-to-Digital) + First-party |  |  | Xbox One |
+| Avowed | Xbox Series X\|S | someday | First-party |  | Game Pass first; if keeping, sealed code-in-box only if ≤ Xbox Store sale price, else Xbox Store (Play Anywhere) | Xbox Series X\|S |
 | DOOM | Xbox One | someday | First-party |  |  | Xbox One |
 | Doom Eternal | Xbox One | someday | First-party |  |  | Xbox One |
 | Hellblade: Senua's Sacrifice | Xbox One | someday | First-party |  | used disc, e.g. rebuy.de | Xbox One |

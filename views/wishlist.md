@@ -6,10 +6,7 @@ Straight from the CLZ export (status *Wish List* / *On Order*). The curated plan
 
 | Status | Title | Platform | Edition | Notes |
 |---|---|---|---|---|
-| Ordered | Destruction AllStars | PlayStation 5 |  |  |
 | Ordered | Fable | PlayStation 5 |  |  |
-| Ordered | Sonic Generations | PlayStation 3 |  |  |
-| Ordered | ReCore | Xbox One |  |  |
 | Wishlist | Skate | Xbox 360 |  |  |
 | Wishlist | Skate 2 | Xbox 360 |  |  |
 | Wishlist | Skate 3 | Xbox 360 |  |  |

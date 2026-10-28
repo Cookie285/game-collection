@@ -2,7 +2,7 @@
 
 # Nintendo Switch
 
-## Owned (400)
+## Owned (404)
 
 | Title | Edition | Format | Region | Completeness | Purchased | Notes |
 |---|---|---|---|---|---|---|
@@ -130,6 +130,7 @@
 | Fatal Frame: Maiden of Black Water |  |  |  |  |  |  |
 | Fatal Frame: Mask of the Lunar Eclipse |  |  |  |  |  |  |
 | Final Fantasy I-VI Collection |  |  |  |  |  |  |
+| Final Fantasy Resonance |  |  |  |  |  |  |
 | Final Fantasy Tactics: The Ivalice Chronicles |  |  |  |  |  |  |
 | Final Fantasy XII: The Zodiac Age |  |  |  |  |  | Also owned on Steam (FINAL FANTASY XII THE ZODIAC AGE) |
 | Fire Emblem Engage |  |  |  |  |  |  |
@@ -185,6 +186,7 @@
 | Kirby and the Forgotten Land |  |  |  |  |  |  |
 | Kirby's Return to Dream Land Deluxe |  |  |  |  |  |  |
 | Kirby Star Allies |  |  |  |  |  |  |
+| Kugayama Shiori's Death Diary |  |  |  |  |  |  |
 | Labyrinth of Refrain: Coven of Dusk |  |  |  |  |  |  |
 | Layton's Mystery Journey: Katrielle And The Millionaires' Conspiracy |  |  |  |  |  |  |
 | Legend of Mana |  |  |  |  |  |  |
@@ -240,6 +242,7 @@
 | New Pokemon Snap |  |  |  |  |  |  |
 | New Super Mario Bros. U Deluxe |  |  |  |  |  |  |
 | Ninja Gaiden: Ragebound |  |  |  |  |  |  |
+| NinNin Heroines |  |  |  |  |  |  |
 | Nintendo Switch Sports |  |  |  |  |  |  |
 | Nintendo World Championships: NES Edition |  |  |  |  |  |  |
 | No More Heroes 1+2 |  |  |  |  |  |  |
@@ -374,6 +377,7 @@
 | The Legend of Zelda: Link's Awakening |  |  |  |  |  |  |
 | The Legend of Zelda: Skyward Sword HD |  |  |  |  |  |  |
 | The Legend of Zelda: Tears of the Kingdom |  |  |  |  |  |  |
+| The Witch's Bakery |  |  |  |  |  |  |
 | The Wonderful 101: Remastered |  |  |  |  |  |  |
 | Tiny Bookshop |  |  |  |  |  |  |
 | Toaplan Arcade Collection Vol. 1 |  |  |  |  |  |  |

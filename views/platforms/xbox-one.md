@@ -2,7 +2,7 @@
 
 # Xbox One
 
-## Owned (59)
+## Owned (60)
 
 | Title | Edition | Format | Region | Completeness | Purchased | Notes |
 |---|---|---|---|---|---|---|
@@ -49,6 +49,7 @@
 | Pillars of Eternity II: Deadfire |  |  |  |  |  |  |
 | Prey |  |  |  |  |  |  |
 | Quantum Break |  |  |  |  |  |  |
+| ReCore |  |  |  |  |  |  |
 | Ryse: Son Of Rome |  |  |  |  |  |  |
 | Sea of Thieves |  |  |  |  |  |  |
 | State of Decay 2 |  |  |  |  |  |  |
@@ -65,10 +66,4 @@
 | Tom Clancy's The Division 2 |  |  |  |  |  |  |
 | Zoo Tycoon |  |  |  |  |  |  |
 | Zoo Tycoon: Ultimate Animal Collection |  |  |  |  |  |  |
-
-## Ordered (1)
-
-| Title | Edition | Format | Region | Completeness | Purchased | Notes |
-|---|---|---|---|---|---|---|
-| ReCore |  |  |  |  |  |  |
 

@@ -23,15 +23,15 @@ for every open target. Rebuilt automatically on every push (see [Web frontend](#
 ## Summary
 
 <!-- summary:start -->
-_Updated 2026-10-10._
+_Updated 2026-10-28._
 
 ### By platform
 
 | Platform | Owned | Ordered | Wishlist |
 |---|---|---|---|
 | [PC](views/platforms/pc.md) | 1 | 0 | 0 |
-| [Nintendo Switch 2](views/platforms/nintendo-switch-2.md) | 41 | 0 | 0 |
-| [Nintendo Switch](views/platforms/nintendo-switch.md) | 400 | 0 | 0 |
+| [Nintendo Switch 2](views/platforms/nintendo-switch-2.md) | 44 | 0 | 0 |
+| [Nintendo Switch](views/platforms/nintendo-switch.md) | 404 | 0 | 0 |
 | [Wii U](views/platforms/wii-u.md) | 12 | 0 | 0 |
 | [Nintendo 64](views/platforms/nintendo-64.md) | 7 | 0 | 0 |
 | [Nintendo 3DS](views/platforms/nintendo-3ds.md) | 6 | 0 | 0 |
@@ -39,22 +39,22 @@ _Updated 2026-10-10._
 | [Game Boy Advance](views/platforms/game-boy-advance.md) | 18 | 0 | 0 |
 | [Game Boy Color](views/platforms/game-boy-color.md) | 5 | 0 | 0 |
 | [Game Boy](views/platforms/game-boy.md) | 7 | 0 | 0 |
-| [PlayStation 5](views/platforms/playstation-5.md) | 63 | 2 | 0 |
-| [PlayStation 4](views/platforms/playstation-4.md) | 51 | 0 | 0 |
-| [PlayStation 3](views/platforms/playstation-3.md) | 103 | 1 | 0 |
+| [PlayStation 5](views/platforms/playstation-5.md) | 70 | 1 | 0 |
+| [PlayStation 4](views/platforms/playstation-4.md) | 52 | 0 | 0 |
+| [PlayStation 3](views/platforms/playstation-3.md) | 104 | 0 | 0 |
 | [PlayStation 2](views/platforms/playstation-2.md) | 5 | 0 | 0 |
 | [PlayStation](views/platforms/playstation.md) | 17 | 0 | 0 |
 | [PlayStation Vita](views/platforms/playstation-vita.md) | 4 | 0 | 0 |
 | [PSP](views/platforms/psp.md) | 10 | 0 | 0 |
-| [Xbox Series X\|S](views/platforms/xbox-series-x-s.md) | 23 | 0 | 0 |
-| [Xbox One](views/platforms/xbox-one.md) | 59 | 1 | 0 |
-| [Xbox 360](views/platforms/xbox-360.md) | 19 | 2 | 3 |
+| [Xbox Series X\|S](views/platforms/xbox-series-x-s.md) | 27 | 0 | 0 |
+| [Xbox One](views/platforms/xbox-one.md) | 60 | 0 | 0 |
+| [Xbox 360](views/platforms/xbox-360.md) | 20 | 2 | 3 |
 | [Xbox](views/platforms/xbox.md) | 3 | 0 | 2 |
-| **Total** | **860** | **6** | **5** |
+| **Total** | **882** | **3** | **5** |
 
 ### Buy plan
 
-⬜ 410 open · 🕒 3 ordered · ✅ 104 done — see [gaps.md](views/gaps.md)
+⬜ 402 open · 🕒 2 ordered · ✅ 113 done — see [gaps.md](views/gaps.md)
 
 ### Series
 
@@ -89,10 +89,10 @@ _Updated 2026-10-10._
 | Team Ico | 0/3 |  |
 | Gravity Rush | 0/2 |  |
 | Death Stranding | 1/2 | 1 |
-| Quantic Dream (PlayStation) | 1/3 |  |
+| Quantic Dream (PlayStation) | 2/3 |  |
 | FromSoftware Souls | 2/7 | 1 |
 | Resident Evil | 9/12 |  |
-| Silent Hill | 1/11 |  |
+| Silent Hill | 2/11 |  |
 | Metal Gear | 7/9 | 2 |
 | Final Fantasy | 12/20 | 3 |
 | Kingdom Hearts | 1/7 |  |

@@ -2,6 +2,36 @@
 
 Newest first. Written automatically by `scripts/gamecoll.py import`.
 
+## 2026-10-28 — CLZ import
+
+Totals after import — Ordered: 3, Owned: 882, Wishlist: 5
+
+**Added** (19)
+- Blue Prince — Nintendo Switch 2 · Owned
+- Dave The Diver: Complete Edition — Nintendo Switch 2 · Owned
+- Nintendo Switch Sports Resort — Nintendo Switch 2 · Owned
+- Final Fantasy Resonance — Nintendo Switch · Owned
+- Kugayama Shiori's Death Diary — Nintendo Switch · Owned
+- NinNin Heroines — Nintendo Switch · Owned
+- The Witch's Bakery — Nintendo Switch · Owned
+- Clive Barker's Hellraiser: Revival — PlayStation 5 · Owned
+- CONTROL Resonant — PlayStation 5 · Owned
+- Dynasty Warriors 3: Complete Edition Remastered — PlayStation 5 · Owned
+- Silent Hill: Townfall — PlayStation 5 · Owned
+- Stupid Never Dies — PlayStation 5 · Owned
+- Valor Mortis — PlayStation 5 · Owned
+- Detroit: Become Human — PlayStation 4 · Owned
+- Avowed — Xbox Series X|S · Owned
+- S.T.A.L.K.E.R. 2: Heart of Chornobyl — Xbox Series X|S · Owned
+- Starfield — Xbox Series X|S · Owned
+- The Elder Scrolls IV: Oblivion Remastered — Xbox Series X|S · Owned
+- Tom Clancy's EndWar — Xbox 360 · Owned
+
+**Status changed** (3)
+- Destruction AllStars — PlayStation 5: Ordered → Owned
+- Sonic Generations — PlayStation 3: Ordered → Owned
+- ReCore — Xbox One: Ordered → Owned
+
 ## 2026-10-07 — CLZ import
 
 Totals after import — Ordered: 6, Owned: 860, Wishlist: 5
