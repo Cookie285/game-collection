@@ -2,7 +2,7 @@
 
 # Xbox 360
 
-## Owned (19)
+## Owned (20)
 
 | Title | Edition | Format | Region | Completeness | Purchased | Notes |
 |---|---|---|---|---|---|---|
@@ -23,15 +23,9 @@
 | Gears of War: Judgement |  |  |  |  |  |  |
 | Halo Wars |  |  |  |  |  |  |
 | Perfect Dark Zero |  |  |  |  |  |  |
+| Tom Clancy's EndWar |  |  |  |  |  |  |
 | Tom Clancy's HAWX |  |  |  |  |  |  |
 | Tom Clancy's HAWX 2 |  |  |  |  |  |  |
-
-## Ordered (2)
-
-| Title | Edition | Format | Region | Completeness | Purchased | Notes |
-|---|---|---|---|---|---|---|
-| Tom Clancy's H.A.W.X |  |  |  |  |  |  |
-| Tom Clancy's H.A.W.X 2 |  |  |  |  |  |  |
 
 ## Wishlist (3)
 

@@ -9,8 +9,8 @@ _Updated 2026-10-28._
 | Platform | Owned | Ordered | Wishlist |
 |---|---|---|---|
 | [PC](platforms/pc.md) | 1 | 0 | 0 |
-| [Nintendo Switch 2](platforms/nintendo-switch-2.md) | 41 | 0 | 0 |
-| [Nintendo Switch](platforms/nintendo-switch.md) | 400 | 0 | 0 |
+| [Nintendo Switch 2](platforms/nintendo-switch-2.md) | 44 | 0 | 0 |
+| [Nintendo Switch](platforms/nintendo-switch.md) | 404 | 0 | 0 |
 | [Wii U](platforms/wii-u.md) | 12 | 0 | 0 |
 | [Nintendo 64](platforms/nintendo-64.md) | 7 | 0 | 0 |
 | [Nintendo 3DS](platforms/nintendo-3ds.md) | 6 | 0 | 0 |
@@ -18,22 +18,22 @@ _Updated 2026-10-28._
 | [Game Boy Advance](platforms/game-boy-advance.md) | 18 | 0 | 0 |
 | [Game Boy Color](platforms/game-boy-color.md) | 5 | 0 | 0 |
 | [Game Boy](platforms/game-boy.md) | 7 | 0 | 0 |
-| [PlayStation 5](platforms/playstation-5.md) | 63 | 2 | 0 |
-| [PlayStation 4](platforms/playstation-4.md) | 51 | 0 | 0 |
-| [PlayStation 3](platforms/playstation-3.md) | 103 | 1 | 0 |
+| [PlayStation 5](platforms/playstation-5.md) | 70 | 1 | 0 |
+| [PlayStation 4](platforms/playstation-4.md) | 52 | 0 | 0 |
+| [PlayStation 3](platforms/playstation-3.md) | 104 | 0 | 0 |
 | [PlayStation 2](platforms/playstation-2.md) | 5 | 0 | 0 |
 | [PlayStation](platforms/playstation.md) | 17 | 0 | 0 |
 | [PlayStation Vita](platforms/playstation-vita.md) | 4 | 0 | 0 |
 | [PSP](platforms/psp.md) | 10 | 0 | 0 |
-| [Xbox Series X\|S](platforms/xbox-series-x-s.md) | 23 | 0 | 0 |
-| [Xbox One](platforms/xbox-one.md) | 59 | 1 | 0 |
-| [Xbox 360](platforms/xbox-360.md) | 19 | 2 | 3 |
+| [Xbox Series X\|S](platforms/xbox-series-x-s.md) | 27 | 0 | 0 |
+| [Xbox One](platforms/xbox-one.md) | 60 | 0 | 0 |
+| [Xbox 360](platforms/xbox-360.md) | 20 | 0 | 3 |
 | [Xbox](platforms/xbox.md) | 3 | 0 | 2 |
-| **Total** | **860** | **6** | **5** |
+| **Total** | **882** | **1** | **5** |
 
 ## Buy plan
 
-⬜ 410 open · 🕒 3 ordered · ✅ 104 done — see [gaps.md](gaps.md)
+⬜ 400 open · 🕒 4 ordered · ✅ 113 done — see [gaps.md](gaps.md)
 
 ## Series
 
@@ -68,10 +68,10 @@ _Updated 2026-10-28._
 | Team Ico | 0/3 |  |
 | Gravity Rush | 0/2 |  |
 | Death Stranding | 1/2 | 1 |
-| Quantic Dream (PlayStation) | 1/3 |  |
+| Quantic Dream (PlayStation) | 2/3 |  |
 | FromSoftware Souls | 2/7 | 1 |
 | Resident Evil | 9/12 |  |
-| Silent Hill | 1/11 |  |
+| Silent Hill | 2/11 |  |
 | Metal Gear | 7/9 | 2 |
 | Final Fantasy | 12/20 | 3 |
 | Kingdom Hearts | 1/7 |  |

@@ -2,7 +2,7 @@
 
 # PlayStation 4
 
-## Owned (51)
+## Owned (52)
 
 | Title | Edition | Format | Region | Completeness | Purchased | Notes |
 |---|---|---|---|---|---|---|
@@ -16,6 +16,7 @@
 | Bloodborne |  |  |  |  |  |  |
 | Concrete Genie |  |  |  |  |  |  |
 | Days Gone |  |  |  |  |  |  |
+| Detroit: Become Human |  |  |  |  |  |  |
 | Diablo III: Ultimate Evil Edition |  |  |  |  |  |  |
 | Dragon Quest XI: Echoes Of An Elusive Age |  |  |  |  |  | Surplus: DQXI S (definitive version) owned on Switch |
 | DriveClub |  |  |  |  |  |  |

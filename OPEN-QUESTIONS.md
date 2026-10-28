@@ -51,7 +51,7 @@ Generated from [`data/decisions.toml`](data/decisions.toml) — edit there (opti
 
 - [ ] **Verify all targets / series entries marked ❓** — E.g. EU disc releases of Quest for Booty, inFamous First Light, Castlevania Requiem, Lost Soul Aside, Kunitsu-Gami; whether Trails of Cold Steel I/II, Visions of Mana, One Piece Odyssey ever got a Switch cart; Code Vein II details; PAL releases of Wild ARMs 4/5, Atelier Iris 1–3, Magna Carta; Mafia: Trilogy disc contents.
 
-- [ ] **Phantom Blade Zero: will there be an EU PS5 disc?** _(due 2026-10-29)_ — suggestion: No EU disc four weeks before launch: import the Asian PS5 disc (check it has English) or skip — don't buy digitally under physical-first.
+- [ ] **Phantom Blade Zero: will there be an EU PS5 disc?** — suggestion: Wait for the 2027 PS5 disc (physical-first) instead of importing the Asian disc or buying digitally; the review tracks the date.
 
 - [ ] **Hellblade II: does the EU Xbox box contain a real disc or only a code?** — If it's code-in-box → treat like Avowed. · Amazon.de lists it only as a download code; no EU disc found yet (checked 2026-09-28) · Limited Run Games Xbox Series disc confirmed as a product, but whether the full game is on the disc is still unknown (no unboxing / Does It Play? entry found). Ninja Theory faces proposed closure (22 Sep 2026). (checked 2026-10-01)
 - [ ] **Halo: The Master Chief Collection — was a PS5 version announced?** — suggestion: No action — MCC is owned on Xbox; there's no PS5 version. Close it.

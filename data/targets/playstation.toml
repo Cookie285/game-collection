@@ -7,9 +7,9 @@ title = "Grand Theft Auto VI"
 platforms = ["PlayStation 5"]
 priority = "high"
 group = "PS5 gaps – Multiplatform"
-plan = "PS5 — but the boxed release is code-in-a-box (no disc); see decision gta6-preorder"
-state = "watching"
-note = "Continues your GTA run (IV/V PS3, LCS/VCS PSP). No PC version at launch. · Other versions: No Switch; PC later · Standard disc · Release date reaffirmed by Take-Two · Still 19 Nov 2026 — Take-Two reaffirmed in Aug 2026 (checked 2026-09-28) · Still 19 Nov 2026 — Take-Two reaffirmed 'no further delay' at the Sep 2026 shareholder meeting; pre-orders open since 25 Jun 2026 (Standard / Ultimate); pre-load from 12 Nov (checked 2026-10-01) · CORRECTION: the boxed PS5 / Xbox release contains no disc, only a download code (Rockstar, Jun 2026 — anti-leak; boxes in stores 12 Nov for pre-loading). The earlier 'Standard disc' was wrong. A later disc release is only rumoured and Take-Two has denied it (checked 2026-10-01) · Still 19 Nov 2026. The 'disc later' reports trace back to a Rockstar support e-mail that meant the code-in-a-box edition; no disc SKU is announced, a December disc is only a leak (checked 2026-10-06)"
+plan = "PS5 (pre-ordered) — the boxed release is code-in-a-box (no disc)"
+state = "preordered"
+note = "Continues your GTA run (IV/V PS3, LCS/VCS PSP). No PC version at launch. · Other versions: No Switch; PC later · Standard disc · Release date reaffirmed by Take-Two · Still 19 Nov 2026 — Take-Two reaffirmed in Aug 2026 (checked 2026-09-28) · Still 19 Nov 2026 — Take-Two reaffirmed 'no further delay' at the Sep 2026 shareholder meeting; pre-orders open since 25 Jun 2026 (Standard / Ultimate); pre-load from 12 Nov (checked 2026-10-01) · CORRECTION: the boxed PS5 / Xbox release contains no disc, only a download code (Rockstar, Jun 2026 — anti-leak; boxes in stores 12 Nov for pre-loading). The earlier 'Standard disc' was wrong. A later disc release is only rumoured and Take-Two has denied it (checked 2026-10-01) · Still 19 Nov 2026. The 'disc later' reports trace back to a Rockstar support e-mail that meant the code-in-a-box edition; no disc SKU is announced, a December disc is only a leak (checked 2026-10-06) · DECIDED 2026-10-10 (gta6-preorder): pre-ordered on PS5 · Still 19 Nov 2026; launch trailer 15 Oct, no new delay (checked 2026-10-28)"
 versions = { "PlayStation 5" = "code", "Xbox Series X|S" = "code" }
 
 [[target]]
@@ -30,7 +30,7 @@ priority = "high"
 group = "PS5 gaps – Multiplatform"
 plan = "PS5 disc; used preferred (price limit not set yet)"
 state = "undecided"
-note = "Decision: Switch = Switch 2 Game-Key Card (12 Nov 2026); PS = PS5 disc; suggestion: Your call – If you accept Game-Key Cards for JRPGs (you did for Bravely Default HD, Brigandine Abyss, Granblue Relink) → Switch 2; else PS5. · Top-tier Atlus JRPG, not owned. · Other versions: Switch 2 (12 Nov 2026) = Game-Key Card · Decide: Switch 2 GKC (like Bravely Default/Granblue) vs PS5 disc · Switch 2 physical confirmed as Game-Key Card (also a SteelBook GKC edition), 12 Nov 2026 (checked 2026-09-28) · Unchanged: Switch 2 12 Nov 2026, Game-Key Card (SteelBook edition also GKC) (checked 2026-10-01) · Xbox Play Anywhere: yes (checked 2026-10-02)"
+note = "Decision: Switch = Switch 2 Game-Key Card (12 Nov 2026); PS = PS5 disc; suggestion: Your call – If you accept Game-Key Cards for JRPGs (you did for Bravely Default HD, Brigandine Abyss, Granblue Relink) → Switch 2; else PS5. · Top-tier Atlus JRPG, not owned. · Other versions: Switch 2 (12 Nov 2026) = Game-Key Card · Decide: Switch 2 GKC (like Bravely Default/Granblue) vs PS5 disc · Switch 2 physical confirmed as Game-Key Card (also a SteelBook GKC edition), 12 Nov 2026 (checked 2026-09-28) · Unchanged: Switch 2 12 Nov 2026, Game-Key Card (SteelBook edition also GKC) (checked 2026-10-01) · Xbox Play Anywhere: yes (checked 2026-10-02) · Still 12 Nov 2026; Switch 2 physical confirmed as Game-Key Card (Gematsu, retailer listings) (checked 2026-10-28)"
 versions = { "PlayStation 5" = "disc", "Nintendo Switch 2" = "gkc" }
 play_anywhere = true
 
@@ -325,7 +325,7 @@ platforms = ["PlayStation 5"]
 priority = "medium"
 group = "PS5 gaps – Multiplatform"
 plan = "PS5 disc; new (upcoming release, price limit not set yet)"
-note = "Chinese action game in the Black Myth / Wuchang vein. · Date per official site · Releases 29 Oct 2026; a PS5 disc is only listed for Asia so far — no EU disc pre-orders (checked 2026-09-28) · Still 29 Oct 2026; still no EU / PAL PS5 disc — publisher reportedly plans no physical release outside Asia for now (Play-Asia lists the Asian disc) (checked 2026-10-01) · Still no EU standard PS5 disc; the global Collector's Edition (8,000 units) holds a digital code, not a disc; a disc is only sold via Asian import (Play-Asia) (checked 2026-10-02)"
+note = "Chinese action game in the Black Myth / Wuchang vein. · Date per official site · Releases 29 Oct 2026; a PS5 disc is only listed for Asia so far — no EU disc pre-orders (checked 2026-09-28) · Still 29 Oct 2026; still no EU / PAL PS5 disc — publisher reportedly plans no physical release outside Asia for now (Play-Asia lists the Asian disc) (checked 2026-10-01) · Still no EU standard PS5 disc; the global Collector's Edition (8,000 units) holds a digital code, not a disc; a disc is only sold via Asian import (Play-Asia) (checked 2026-10-02) · Launches 29 Oct 2026 digital only; S-GAME announced physical PS5 Standard, Deluxe and Ultimate (steel case) editions for 2027 — no date, price or retail partner yet (checked 2026-10-28)"
 verify = "EU PS5 disc? (only an Asian disc was listed on 2026-09-28)"
 
 [[target]]
@@ -2361,12 +2361,13 @@ versions = { "Nintendo Switch 2" = "cart" }
 
 [[target]]
 title = "Final Fantasy VII Revelation"
-platforms = ["Nintendo Switch 2", "PlayStation 5"]
+platforms = ["PlayStation 5"]
 priority = "medium"
 group = "Buy elsewhere (not PlayStation)"
-state = "watching"
-note = "Suggested (review 2026-09-28): FF VII Remake part 3 — 8 Apr 2027, simultaneous on Switch 2, PS5, Xbox Series, PC. Physical format on Switch 2 not known yet (the series plan puts VII on Switch). · Switch 2 physical = Game-Key Card (~130 GB download); PS5 = one disc, download required; physical needs extra data on every format → see decision ff7-revelation-platform (checked 2026-10-01)"
+state = "preordered"
+note = "Suggested (review 2026-09-28): FF VII Remake part 3 — 8 Apr 2027, simultaneous on Switch 2, PS5, Xbox Series, PC. Physical format on Switch 2 not known yet (the series plan puts VII on Switch). · Switch 2 physical = Game-Key Card (~130 GB download); PS5 = one disc, download required; physical needs extra data on every format → see decision ff7-revelation-platform (checked 2026-10-01) · DECIDED 2026-10-10 (ff7-revelation-platform): pre-ordered on PS5 disc"
 versions = { "Nintendo Switch 2" = "gkc", "PlayStation 5" = "disc" }
+plan = "PS5 disc (pre-ordered)"
 
 [[target]]
 title = "Kingdom Hearts IV"

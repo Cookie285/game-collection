@@ -97,7 +97,7 @@ priority = "high"
 group = "Switch 2 – upcoming Nintendo exclusive"
 plan = "Switch 2 cart (check full cart vs Game-Key Card)"
 state = "watching"
-note = "Suggested (Nintendo plan 2026-10-10): Switch 2 remake, out 5 Nov 2026; physical edition at retail (format not confirmed yet). You own Ocarina of Time 3D (3DS). (checked 2026-10-10)"
+note = "Suggested (Nintendo plan 2026-10-10): Switch 2 remake, out 5 Nov 2026; physical edition at retail (format not confirmed yet). You own Ocarina of Time 3D (3DS). (checked 2026-10-10) · Still 5 Nov 2026; physical edition reported as a full game card, not a Game-Key Card (IGN via press — Nintendo's listing doesn't say Game-Key Card) (checked 2026-10-28)"
 exclusive = "nintendo"
 rules = ["switch-first", "gkc-not-physical"]
 

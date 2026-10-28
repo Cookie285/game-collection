@@ -2,11 +2,12 @@
 
 # Xbox Series X|S
 
-## Owned (23)
+## Owned (27)
 
 | Title | Edition | Format | Region | Completeness | Purchased | Notes |
 |---|---|---|---|---|---|---|
 | Atomfall |  |  |  |  |  |  |
+| Avowed |  |  |  |  |  |  |
 | Battlefield 2042 |  |  |  |  |  | CLZ lists Xbox One – actually the Xbox Series X disc (confirmed by me); no campaign · Also owned on Steam (Battlefield™ 2042) |
 | Battlefield 6 |  |  |  |  |  |  |
 | Bomb Rush Cyberfunk |  |  |  |  |  |  |
@@ -27,6 +28,9 @@
 | Minecraft Legends |  |  |  |  |  |  |
 | Psychonauts 2 |  |  |  |  |  |  |
 | Redfall |  |  |  |  |  |  |
+| S.T.A.L.K.E.R. 2: Heart of Chornobyl |  |  |  |  |  |  |
 | Split Fiction |  |  |  |  |  |  |
+| Starfield |  |  |  |  |  |  |
+| The Elder Scrolls IV: Oblivion Remastered |  |  |  |  |  |  |
 | Tom Clancy's Rainbow Six: Siege X |  |  |  |  |  |  |
 

@@ -2,7 +2,7 @@
 
 # PlayStation 5
 
-## Owned (63)
+## Owned (70)
 
 | Title | Edition | Format | Region | Completeness | Purchased | Notes |
 |---|---|---|---|---|---|---|
@@ -17,13 +17,17 @@
 | Black Myth: Wukong |  |  |  |  |  |  |
 | BloodRayne 2: ReVamped |  |  |  |  |  | Limited Run Games release |
 | Bloodrayne: ReVamped |  |  |  |  |  | Limited Run Games release |
+| Clive Barker's Hellraiser: Revival |  |  |  |  |  |  |
 | Control |  |  |  |  |  | Also owned on Steam (CONTROL Ultimate Edition) |
+| CONTROL Resonant |  |  |  |  |  |  |
 | Crimson Desert |  |  |  |  |  |  |
 | Dead Island 2 |  |  |  |  |  |  |
 | Death Stranding 2: On The Beach |  |  |  |  |  |  |
 | Deathloop |  |  |  |  |  | Also owned on Steam (DEATHLOOP) |
 | Demon's Souls |  |  |  |  |  | 2020 remake of the PS3 original |
+| Destruction AllStars |  |  |  |  |  | Servers shut down 25 Nov 2026 (delisted) — afterwards only the offline Arcade Mode may still work (checked 2026-10-28) |
 | Directive 8020 |  |  |  |  |  |  |
+| Dynasty Warriors 3: Complete Edition Remastered |  |  |  |  |  |  |
 | Final Fantasy VII Rebirth |  |  |  |  |  |  |
 | Final Fantasy XVI |  |  |  |  |  |  |
 | Full Metal Schoolgirl |  |  |  |  |  |  |
@@ -60,20 +64,22 @@
 | Saints Row |  |  |  |  |  | Also owned on Steam (Saints Row) |
 | Saros |  |  |  |  |  |  |
 | Silent Hill f |  |  |  |  |  |  |
+| Silent Hill: Townfall |  |  |  |  |  |  |
 | Star Ocean: The Divine Force |  |  |  |  |  |  |
 | Star Wars: Galactic Racer |  |  |  |  |  |  |
 | Stellar Blade |  |  |  |  |  |  |
 | Stranger of Paradise: Final Fantasy Origin |  |  |  |  |  |  |
+| Stupid Never Dies |  |  |  |  |  |  |
 | The Blood Of Dawnwalker |  |  |  |  |  |  |
 | The King of Fighters XV |  |  |  |  |  |  |
 | The Nioh Collection |  |  |  |  |  | Covers Nioh + Nioh 2 (remastered) · Partly owned on Steam (Nioh 2 – The Complete Edition) |
+| Valor Mortis |  |  |  |  |  |  |
 | Venus Vacation Prism: Dead Or Alive Xtreme |  |  |  |  |  |  |
 | WUCHANG: Fallen Feathers |  |  |  |  |  |  |
 
-## Ordered (2)
+## Ordered (1)
 
 | Title | Edition | Format | Region | Completeness | Purchased | Notes |
 |---|---|---|---|---|---|---|
-| Destruction AllStars |  |  |  |  |  |  |
 | Fable |  |  |  |  |  | Pre-ordered on PS5; Xbox disc only if cheap later |
 

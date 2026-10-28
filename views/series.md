@@ -404,7 +404,7 @@ Series Tracker tab
 | 💻 | Death Stranding | 2019 | Director's Cut also owned on Steam |
 | ✅ | Death Stranding 2: On the Beach | 2025 | PlayStation 5 |
 
-## Quantic Dream (PlayStation) — 1/3
+## Quantic Dream (PlayStation) — 2/3
 
 Series Tracker tab
 
@@ -412,7 +412,7 @@ Series Tracker tab
 |---|---|---|---|
 | ✅ | Heavy Rain | 2010 | PlayStation 3 |
 | ⬜ | Beyond: Two Souls | 2013 |  |
-| ⬜ | Detroit: Become Human | 2018 |  |
+| ✅ | Detroit: Become Human | 2018 | PlayStation 4 |
 
 ## FromSoftware Souls — 2/7 (+1 💻 Steam)
 
@@ -451,7 +451,7 @@ Series Tracker tab
 | ✅ | Resident Evil: Operation Raccoon City | 2012 | PlayStation 3 |
 | ⬜ | Resident Evil – Code: Veronica (2027 remake) | 2027 | Remake confirmed by Capcom for 2027 (checked 2026-09-28) · Titled 'Resident Evil Veronica'; PS5, Xbox Series, Switch 2, PC (checked 2026-10-01) |
 
-## Silent Hill — 1/11
+## Silent Hill — 2/11
 
 Series Tracker tab
 
@@ -466,7 +466,7 @@ Series Tracker tab
 | ⬜ | Silent Hill: Shattered Memories | 2009 | PS2 port |
 | ⬜ | Silent Hill: Downpour | 2012 | ❓ not on the checklist |
 | ✅ | Silent Hill f | 2025 | PlayStation 5 |
-| ⬜ | Silent Hill: Townfall | 2026 | PS5 + PC, out 24 Sep 2026 (review 2026-09-28) |
+| ✅ | Silent Hill: Townfall | 2026 | PlayStation 5 |
 | ⬜ | Silent Hill (remake) | 2027 | Bloober Team remake of the first game, announced; no date (2027 at the earliest reported) (checked 2026-10-01) |
 
 ## Metal Gear — 7/9 (+2 💻 Steam)
@@ -516,7 +516,7 @@ Series Tracker tab – VII/VIII/IX/X/XII go to Switch
 | ✅ | Final Fantasy VII Rebirth | 2024 | PlayStation 5 |
 | ➖ | Final Fantasy Type-0 HD | 2015 | Spin-off |
 | ⬜ | Final Fantasy VII Revelation | 2027 | FF VII Remake part 3, 8 Apr 2027, all platforms (review 2026-09-28) · Switch 2 = Game-Key Card, PS5 = disc + download (checked 2026-10-01) |
-| ➖ | Final Fantasy Resonance | 2026 | HD-2D spin-off, 22 Oct 2026; Switch cart (suggested target) (checked 2026-10-01) |
+| ✅ | Final Fantasy Resonance | 2026 | Nintendo Switch |
 
 ## Kingdom Hearts — 1/7
 

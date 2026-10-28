@@ -74,9 +74,9 @@ Platform order: PC (best graphics) → Nintendo (best physical line-up) → what
 
 _Why:_ Each game is bought once, on the platform where it plays or collects best.
 
-77 targets — ⬜ 54 · 🕒 0 · ✅ 5 · ➖ 18
+77 targets — ⬜ 52 · 🕒 1 · ✅ 6 · ➖ 18
 
-<details><summary>54 open</summary>
+<details><summary>52 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -99,9 +99,7 @@ _Why:_ Each game is bought once, on the platform where it plays or collects best
 | Dragon's Dogma: Dark Arisen | Nintendo Switch | low |  |
 | Fatal Frame II: Crimson Butterfly Remake | Nintendo Switch 2 | low |  |
 | Final Fantasy IX | Nintendo Switch | low |  |
-| Final Fantasy Resonance | Nintendo Switch | low | watching |
 | Final Fantasy VII | Nintendo Switch | low |  |
-| Final Fantasy VII Revelation | Nintendo Switch 2, PlayStation 5 | medium | watching |
 | Final Fantasy VIII Remastered | Nintendo Switch | low |  |
 | Final Fantasy X \| X-2 HD Remaster | Nintendo Switch | low |  |
 | Ghostwire: Tokyo | xbox-modern | low |  |
@@ -196,9 +194,9 @@ Gaps in older generations are mostly bought used.
 
 _Why:_ Older discs are cheap and plentiful used; new copies are often gone or overpriced.
 
-301 targets — ⬜ 281 · 🕒 1 · ✅ 19 · ➖ 0
+301 targets — ⬜ 276 · 🕒 0 · ✅ 25 · ➖ 0
 
-<details><summary>281 open</summary>
+<details><summary>276 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -248,7 +246,6 @@ _Why:_ Older discs are cheap and plentiful used; new copies are often gone or ov
 | Dead Space | PlayStation 5 | medium |  |
 | Deadpool | Xbox One | high |  |
 | Death Stranding Director's Cut | PlayStation 5 | high |  |
-| Detroit: Become Human | PlayStation 4 | high |  |
 | Devil May Cry 4 Special Edition | PlayStation 4 | medium |  |
 | Devil May Cry 5 Special Edition | PlayStation 5 | high |  |
 | Devil May Cry HD Collection | PlayStation 4 | medium |  |
@@ -385,7 +382,6 @@ _Why:_ Older discs are cheap and plentiful used; new copies are often gone or ov
 | Rock Band 4 | Xbox One | medium |  |
 | Rogue Galaxy | PlayStation 2 | high |  |
 | Rule of Rose | PlayStation 2 | low |  |
-| S.T.A.L.K.E.R. 2: Heart of Chornobyl | Xbox Series X\|S | low | undecided |
 | Scarlet Nexus | PlayStation 5 | medium |  |
 | Sekiro: Shadows Die Twice | PlayStation 4 | high |  |
 | Senran Kagura Burst Re:Newal | PlayStation 4 | medium |  |
@@ -408,7 +404,6 @@ _Why:_ Older discs are cheap and plentiful used; new copies are often gone or ov
 | Silent Hill HD Collection | PlayStation 3 | low |  |
 | Silent Hill: Origins | PlayStation 2 | low |  |
 | Silent Hill: Shattered Memories | PlayStation 2 | low |  |
-| Silent Hill: Townfall | PlayStation 5 | medium | undecided |
 | Singularity | Xbox 360 | someday | undecided |
 | Skyrim Special Edition | Xbox One | someday |  |
 | Sly Cooper: Thieves in Time | PlayStation 3 | medium |  |
@@ -422,7 +417,6 @@ _Why:_ Older discs are cheap and plentiful used; new copies are often gone or ov
 | Star Wars Jedi: Fallen Order | PlayStation 4 | high |  |
 | Star Wars Jedi: Survivor | PlayStation 5 | high |  |
 | Star Wars Outlaws | PlayStation 5 | medium |  |
-| Starfield | Xbox Series X\|S | medium |  |
 | Suikoden IV | PlayStation 2 | low |  |
 | Suikoden V | PlayStation 2 | medium |  |
 | Syphon Filter | PlayStation | low |  |
@@ -433,7 +427,6 @@ _Why:_ Older discs are cheap and plentiful used; new copies are often gone or ov
 | Teenage Mutant Ninja Turtles: Mutants in Manhattan | Xbox One | someday |  |
 | Tenchu: Stealth Assassins | PlayStation | low |  |
 | The Amazing Spider-Man 2 | Xbox One | someday |  |
-| The Elder Scrolls IV: Oblivion Remastered | Xbox Series X\|S | low |  |
 | The Evil Within | Xbox One | someday | undecided |
 | The Evil Within 2 | Xbox One | someday | undecided |
 | The First Berserker: Khazan | PlayStation 5 | medium |  |
@@ -705,9 +698,9 @@ Switch is first choice for JRPGs and for anything that has a real Switch cart.
 
 _Why:_ Best physical line-up; carts are complete and play on Switch 2.
 
-73 targets — ⬜ 69 · 🕒 0 · ✅ 3 · ➖ 1
+73 targets — ⬜ 67 · 🕒 0 · ✅ 5 · ➖ 1
 
-<details><summary>69 open</summary>
+<details><summary>67 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -733,7 +726,6 @@ _Why:_ Best physical line-up; carts are complete and play on Switch 2.
 | Dragon's Dogma: Dark Arisen | Nintendo Switch | low |  |
 | Fatal Frame II: Crimson Butterfly Remake | Nintendo Switch 2 | low |  |
 | Final Fantasy IX | Nintendo Switch | low |  |
-| Final Fantasy Resonance | Nintendo Switch | low | watching |
 | Final Fantasy VII | Nintendo Switch | low |  |
 | Final Fantasy VIII Remastered | Nintendo Switch | low |  |
 | Final Fantasy X \| X-2 HD Remaster | Nintendo Switch | low |  |
@@ -747,7 +739,6 @@ _Why:_ Best physical line-up; carts are complete and play on Switch 2.
 | Metroid Ravenous | Nintendo Switch 2 | high | watching |
 | Ni no Kuni: Wrath of the White Witch Remastered | Nintendo Switch | low |  |
 | NieR:Automata The End of YoRHa Edition | Nintendo Switch | low |  |
-| Nintendo Switch Sports Resort | Nintendo Switch 2 | low | watching |
 | Okami HD | Nintendo Switch | low |  |
 | Onimusha 2: Samurai's Destiny | Nintendo Switch | low |  |
 | Onimusha: Warlords | Nintendo Switch | low |  |
@@ -791,9 +782,9 @@ _Why:_ A Game-Key Card is only a download licence in a box; the disc is the real
 
 _Precedents:_ Pragmata, Onimusha: Way of the Sword, Full Metal Schoolgirl → PS5 · Bravely Default HD Remaster, Brigandine Abyss, Granblue Fantasy: Relink bought as GKC (JRPGs) · Kingdom Hearts Collection (Switch 2 GKC) → Kingdom Hearts All-In-One Package on PS4, every game on disc (2026-10-08)
 
-38 targets — ⬜ 37 · 🕒 0 · ✅ 1 · ➖ 0
+38 targets — ⬜ 34 · 🕒 1 · ✅ 3 · ➖ 0
 
-<details><summary>37 open</summary>
+<details><summary>34 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -803,8 +794,6 @@ _Precedents:_ Pragmata, Onimusha: Way of the Sword, Full Metal Schoolgirl → PS
 | Dynasty Warriors: Origins | PlayStation 5 | low |  |
 | Elden Ring | PlayStation 5 | high |  |
 | Fatal Frame II: Crimson Butterfly Remake | Nintendo Switch 2 | low |  |
-| Final Fantasy Resonance | Nintendo Switch | low | watching |
-| Final Fantasy VII Revelation | Nintendo Switch 2, PlayStation 5 | medium | watching |
 | Final Fantasy X \| X-2 HD Remaster | Nintendo Switch | low |  |
 | Hogwarts Legacy | PlayStation 5, Nintendo Switch | high | undecided |
 | Kingdom Hearts All-In-One Package | PlayStation 4 | high |  |
@@ -816,7 +805,6 @@ _Precedents:_ Pragmata, Onimusha: Way of the Sword, Full Metal Schoolgirl → PS
 | Metaphor: ReFantazio | PlayStation 5, Nintendo Switch 2 | high | undecided |
 | Metroid Ravenous | Nintendo Switch 2 | high | watching |
 | Monster Hunter Wilds | PlayStation 5 | medium |  |
-| Nintendo Switch Sports Resort | Nintendo Switch 2 | low | watching |
 | Persona 3 Reload | PlayStation 5, Nintendo Switch 2 | high | undecided |
 | Pokémon Winds | Nintendo Switch 2 | high | watching |
 | Resident Evil Requiem | PlayStation 5 | high |  |
@@ -853,9 +841,9 @@ _Precedents:_ Older Nintendo series entries listed as optional only (nintendo-re
 
 PlayStation gets exclusives plus multiplatform games worth having on disc.
 
-202 targets — ⬜ 199 · 🕒 1 · ✅ 2 · ➖ 0
+202 targets — ⬜ 196 · 🕒 2 · ✅ 4 · ➖ 0
 
-<details><summary>199 open</summary>
+<details><summary>196 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -894,7 +882,6 @@ PlayStation gets exclusives plus multiplatform games worth having on disc.
 | Dark Souls III: The Fire Fades Edition | PlayStation 4 | high |  |
 | Dead Space | PlayStation 5 | medium |  |
 | Death Stranding Director's Cut | PlayStation 5 | high |  |
-| Detroit: Become Human | PlayStation 4 | high |  |
 | Devil May Cry 4 Special Edition | PlayStation 4 | medium |  |
 | Devil May Cry 5 Special Edition | PlayStation 5 | high |  |
 | Devil May Cry HD Collection | PlayStation 4 | medium |  |
@@ -922,7 +909,6 @@ PlayStation gets exclusives plus multiplatform games worth having on disc.
 | God of War: Origins Collection | PlayStation 3 | high |  |
 | God of War Trilogy Remake | PlayStation 5 | low | watching |
 | Gran Turismo 6 | PlayStation 3 | low |  |
-| Grand Theft Auto VI | PlayStation 5 | high | watching |
 | Gravity Rush 2 | PlayStation 4 | high |  |
 | Gravity Rush Remastered | PlayStation 4 | medium |  |
 | Harry Potter and the Chamber of Secrets | PlayStation | low |  |
@@ -1017,7 +1003,6 @@ PlayStation gets exclusives plus multiplatform games worth having on disc.
 | Silent Hill HD Collection | PlayStation 3 | low |  |
 | Silent Hill: Origins | PlayStation 2 | low |  |
 | Silent Hill: Shattered Memories | PlayStation 2 | low |  |
-| Silent Hill: Townfall | PlayStation 5 | medium | undecided |
 | Sly Cooper: Thieves in Time | PlayStation 3 | medium |  |
 | Star Ocean: The Last Hope | PlayStation 4 | medium |  |
 | Star Wars: Episode III – Revenge of the Sith | PlayStation 2 | low |  |
@@ -1181,9 +1166,9 @@ Xbox is the shooter console: full Call of Duty and Battlefield runs. Beats Ninte
 
 _Why:_ Switch shooter ports are usually the weakest version.
 
-98 targets — ⬜ 51 · 🕒 1 · ✅ 43 · ➖ 3
+98 targets — ⬜ 50 · 🕒 1 · ✅ 44 · ➖ 3
 
-<details><summary>51 open</summary>
+<details><summary>50 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -1220,7 +1205,6 @@ _Why:_ Switch shooter ports are usually the weakest version.
 | Prey | Xbox 360 | someday | undecided |
 | Rage | Xbox 360 | someday | undecided |
 | Rage 2 | Xbox One | someday | undecided |
-| S.T.A.L.K.E.R. 2: Heart of Chornobyl | Xbox Series X\|S | low | undecided |
 | Sniper Elite 3 | Xbox One | someday | undecided |
 | Sniper Elite 4 | Xbox One | someday | undecided |
 | Sniper Elite 5 | Xbox One | someday | undecided |
@@ -1247,13 +1231,12 @@ Microsoft first-party on Xbox disc: layer 1 = published by Microsoft / Xbox Game
 
 _Why:_ Historical publisher counts — the Sep 2026 Xbox reset doesn't change scope.
 
-64 targets — ⬜ 19 · 🕒 1 · ✅ 43 · ➖ 1
+64 targets — ⬜ 16 · 🕒 0 · ✅ 47 · ➖ 1
 
-<details><summary>19 open</summary>
+<details><summary>16 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
-| Avowed | Xbox Series X\|S | someday | undecided |
 | Dead Rising 3 | Xbox One | low |  |
 | Doom: The Dark Ages | Xbox Series X\|S | low |  |
 | Fable | Xbox Series X\|S | low | watching |
@@ -1270,8 +1253,6 @@ _Why:_ Historical publisher counts — the Sep 2026 Xbox reset doesn't change sc
 | Senua's Saga: Hellblade II | Xbox Series X\|S | medium |  |
 | Skyrim Special Edition | Xbox One | someday |  |
 | South of Midnight | Xbox Series X\|S | someday | undecided |
-| Starfield | Xbox Series X\|S | medium |  |
-| The Elder Scrolls IV: Oblivion Remastered | Xbox Series X\|S | low |  |
 
 </details>
 
@@ -1308,13 +1289,12 @@ Layer 3 (studio owned by Microsoft today, but game published by someone else at 
 
 If no Xbox retail disc exists, the game is out of Xbox disc scope (layer X), regardless of platform.
 
-3 targets — ⬜ 3 · 🕒 0 · ✅ 0 · ➖ 0
+3 targets — ⬜ 2 · 🕒 0 · ✅ 1 · ➖ 0
 
-<details><summary>3 open</summary>
+<details><summary>2 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
-| Avowed | Xbox Series X\|S | someday | undecided |
 | Gears of War: Reloaded | PlayStation 5 | someday | watching |
 | South of Midnight | Xbox Series X\|S | someday | undecided |
 
@@ -1326,14 +1306,13 @@ Xbox One / Series discs carry a Disc-to-Digital licence — a reason to buy Micr
 
 _Why:_ One revocable licence per disc; licence moves if the disc is claimed elsewhere → don't lend discs casually.
 
-54 targets — ⬜ 18 · 🕒 1 · ✅ 34 · ➖ 1
+54 targets — ⬜ 17 · 🕒 0 · ✅ 36 · ➖ 1
 
-<details><summary>18 open</summary>
+<details><summary>17 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
 | Ace Combat 8: Wings of Theve | Xbox Series X\|S, PlayStation 5 | medium | undecided |
-| Avowed | Xbox Series X\|S | someday | undecided |
 | Clair Obscur: Expedition 33 | PlayStation 5 | high |  |
 | Dead Rising 3 | Xbox One | low |  |
 | Deadpool | Xbox One | high |  |
@@ -1359,16 +1338,15 @@ Xbox 360 / OG Xbox backward-compatible titles are bought digitally in Xbox Store
 
 _Why:_ No key sellers for 360 titles; digital BC licences likely outlive discs.
 
-102 targets — ⬜ 40 · 🕒 0 · ✅ 44 · ➖ 18
+102 targets — ⬜ 39 · 🕒 0 · ✅ 45 · ➖ 18
 
-<details><summary>40 open</summary>
+<details><summary>39 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
 | Ace Combat 6: Fires of Liberation | Xbox 360 | low | undecided |
 | Alan Wake | Xbox 360 | someday |  |
 | Asura's Wrath | Xbox 360 | someday |  |
-| Avowed | Xbox Series X\|S | someday | undecided |
 | Binary Domain | Xbox 360 | someday |  |
 | Blinx: The Time Sweeper | Xbox | someday |  |
 | Blue Dragon | Xbox 360 | someday |  |
@@ -1466,28 +1444,18 @@ Non-backward-compatible discs (PGR, Forza Motorsport 1–4, Jet Set Radio Future
 
 Code-in-a-box only sealed/new, at or below the Xbox Store sale price, EU/DACH box; redeem immediately; doesn't count toward disc runs.
 
-3 targets — ⬜ 2 · 🕒 1 · ✅ 0 · ➖ 0
-
-<details><summary>2 open</summary>
-
-| Title | Platform | Prio | State |
-|---|---|---|---|
-| Avowed | Xbox Series X\|S | someday | undecided |
-| Grand Theft Auto VI | PlayStation 5 | high | watching |
-
-</details>
+3 targets — ⬜ 0 · 🕒 2 · ✅ 1 · ➖ 0
 
 ### Digital-only → Game Pass first `digital-only-game-pass`
 
 Digital-only games: play on Game Pass first; buy only if keeping/replaying, prefer Xbox Store with Play Anywhere, else Steam sale.
 
-9 targets — ⬜ 9 · 🕒 0 · ✅ 0 · ➖ 0
+9 targets — ⬜ 8 · 🕒 0 · ✅ 1 · ➖ 0
 
-<details><summary>9 open</summary>
+<details><summary>8 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
-| Avowed | Xbox Series X\|S | someday | undecided |
 | Blinx: The Time Sweeper | Xbox | someday |  |
 | Clair Obscur: Expedition 33 | PlayStation 5 | high |  |
 | Conker: Live & Reloaded | Xbox | someday |  |

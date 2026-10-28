@@ -2,7 +2,7 @@
 
 # PlayStation 3
 
-## Owned (103)
+## Owned (104)
 
 | Title | Edition | Format | Region | Completeness | Purchased | Notes |
 |---|---|---|---|---|---|---|
@@ -83,6 +83,7 @@
 | Resistance 2 |  |  |  |  |  |  |
 | Resistance: Fall of Man |  |  |  |  |  |  |
 | SOCOM: U.S. Navy SEALs -- Confrontation |  |  |  |  |  |  |
+| Sonic Generations |  |  |  |  |  |  |
 | SoulCalibur IV |  |  |  |  |  |  |
 | Star Wars: The Force Unleashed |  |  |  |  |  | Also owned on Steam (STAR WARS™ - The Force Unleashed™ Ultimate Sith Edition) |
 | Star Wars: The Force Unleashed II |  |  |  |  |  | Also owned on Steam (STAR WARS™: The Force Unleashed™ II) |
@@ -109,10 +110,4 @@
 | Untold Legends: Dark Kingdom |  |  |  |  |  |  |
 | WET |  |  |  |  |  |  |
 | White Knight Chronicles 2 |  |  |  |  |  | Disc also contains White Knight Chronicles (I) |
-
-## Ordered (1)
-
-| Title | Edition | Format | Region | Completeness | Purchased | Notes |
-|---|---|---|---|---|---|---|
-| Sonic Generations |  |  |  |  |  |  |
 
