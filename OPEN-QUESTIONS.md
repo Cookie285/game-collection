@@ -4,7 +4,7 @@
 
 Generated from [`data/decisions.toml`](data/decisions.toml) — edit there (options, recommendation; `status = "decided"` + `outcome` when decided). Also on the web app's **Decisions** page.
 
-## Decisions (29)
+## Decisions (28)
 
 ### General
 
@@ -32,7 +32,6 @@ Generated from [`data/decisions.toml`](data/decisions.toml) — edit there (opti
 
 ### Xbox
 
-- [ ] **Avowed: sealed code-in-box, Xbox Store, or just Game Pass?** — options: Sealed code-in-box / Xbox Store (Play Anywhere) / Just Game Pass — suggestion: Just Game Pass first (digital-only rule); if you want to keep it, buy on the Xbox Store on sale (Play Anywhere gives the PC version too). A sealed code-in-box only if it's cheaper than the store sale.
 - [ ] **South of Midnight: Xbox Store or just Game Pass?** — options: Xbox Store (Play Anywhere) on sale / Just Game Pass — suggestion: Game Pass first; buy on the Xbox Store on sale only if you want to keep / replay it (no physical version exists).
 - [ ] **Fable and Halo: Campaign Evolved Xbox discs: buy when really cheap?** — suggestion: Skip unless really cheap — one copy per game, and the PS5 copies (Fable pre-ordered, Halo: Campaign Evolved owned) cover them. The Xbox disc would only add Disc-to-Digital / Play Anywhere.
 - [ ] **Gears of War: Reloaded PS5 disc: buy only if very cheap?** — suggestion: Skip unless very cheap: the campaign is already covered by Gears of War: Ultimate Edition (compilations count) and there's no Xbox disc.
@@ -69,8 +68,9 @@ Generated from [`data/decisions.toml`](data/decisions.toml) — edit there (opti
 - [ ] **KOTOR II listed twice on Switch (two spellings)** — Still present in the 2026-10-07 import (checked 2026-10-10)
 - [ ] **“Tales Of Xillia” casing** — Still present in the 2026-10-07 import (checked 2026-10-10)
 
-## Decision log (12)
+## Decision log (13)
 
+- ✅ 2026-10-28 — **Avowed: sealed code-in-box, Xbox Store, or just Game Pass?** → Bought sealed code in a box for the steelbook on shelve.
 - ✅ 2026-10-10 — **GTA VI: pre-order or not?** → preordered on ps5 even though it was a pain to do so
 - ✅ 2026-10-10 — **Final Fantasy VII Revelation: Switch 2 Game-Key Card or PS5 disc?** → preordered on ps5 disc
 - ✅ 2026-10-10 — **Nintendo series on older hardware (GB–Wii U, DS / 3DS): collect missing entries on the original platform?** → No interested in retro nintendo. will not buy.

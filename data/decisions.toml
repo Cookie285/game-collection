@@ -227,6 +227,9 @@ context = "The Xbox box is code-in-box (no disc, no Disc-to-Digital); no PS5 dis
 rules = ["code-in-box", "digital-only-game-pass", "no-xbox-disc-out-of-scope"]
 targets = ["Avowed"]
 recommendation = "Just Game Pass first (digital-only rule); if you want to keep it, buy on the Xbox Store on sale (Play Anywhere gives the PC version too). A sealed code-in-box only if it's cheaper than the store sale."
+status = "decided"
+decided = "2026-10-28"
+outcome = "Bought sealed code in a box for the steelbook on shelve."
 [[decision.option]]
 label = "Sealed code-in-box"
 pros = ["A box on the shelf"]
