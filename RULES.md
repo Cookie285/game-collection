@@ -13,7 +13,8 @@ Priority across platforms: **PC** (best graphics) → **Nintendo** (best physica
 | Platform | Role |
 |---|---|
 | **Switch** | First choice for JRPGs and for anything that has a real Switch cart. |
-| **Switch 2 Game-Key Card** | Does **not** count as physical for non-JRPGs → take the PlayStation disc (precedent: Pragmata, Onimusha: Way of the Sword, Full Metal Schoolgirl on PS5). JRPGs whose only Switch version is a Game-Key Card → case by case (precedent: Bravely Default HD Remaster, Brigandine Abyss, Granblue Fantasy: Relink bought as GKC). |
+| **Switch 2 Game-Key Card** | Does **not** count as physical for non-JRPGs → take the PlayStation disc (precedent: Pragmata, Onimusha: Way of the Sword, Full Metal Schoolgirl on PS5). JRPGs whose only Switch version is a Game-Key Card → case by case (precedent: Bravely Default HD Remaster, Brigandine Abyss, Granblue Fantasy: Relink bought as GKC). Precedent the other way: Kingdom Hearts Collection → the PS4 *All-In-One Package*, every game on disc (2026-10-08). |
+| **Nintendo scope** | Switch / Switch 2 only — no retro Nintendo hardware (GB–Wii U, DS / 3DS) and no Switch 2 Editions of games already owned on Switch (decided 2026-10-10). Owned retro games stay as collection pieces. |
 | **PC** | Steam sales only, no physical PC games. |
 | **PlayStation** | Exclusives + multiplatform games worth having on disc. |
 | **Xbox** | Shooter console (full Call of Duty + Battlefield runs) and Microsoft first-party on disc (Disc-to-Digital licence), even for games also released elsewhere. The shooter rule beats Nintendo-first for shooter series (Switch shooter ports are usually the weakest version). |
