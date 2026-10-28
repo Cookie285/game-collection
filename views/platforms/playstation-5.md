@@ -25,7 +25,7 @@
 | Death Stranding 2: On The Beach |  |  |  |  |  |  |
 | Deathloop |  |  |  |  |  | Also owned on Steam (DEATHLOOP) |
 | Demon's Souls |  |  |  |  |  | 2020 remake of the PS3 original |
-| Destruction AllStars |  |  |  |  |  |  |
+| Destruction AllStars |  |  |  |  |  | Servers shut down 25 Nov 2026 (delisted) — afterwards only the offline Arcade Mode may still work (checked 2026-10-28) |
 | Directive 8020 |  |  |  |  |  |  |
 | Dynasty Warriors 3: Complete Edition Remastered |  |  |  |  |  |  |
 | Final Fantasy VII Rebirth |  |  |  |  |  |  |

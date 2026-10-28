@@ -74,9 +74,9 @@ Platform order: PC (best graphics) → Nintendo (best physical line-up) → what
 
 _Why:_ Each game is bought once, on the platform where it plays or collects best.
 
-77 targets — ⬜ 53 · 🕒 0 · ✅ 6 · ➖ 18
+77 targets — ⬜ 52 · 🕒 1 · ✅ 6 · ➖ 18
 
-<details><summary>53 open</summary>
+<details><summary>52 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -100,7 +100,6 @@ _Why:_ Each game is bought once, on the platform where it plays or collects best
 | Fatal Frame II: Crimson Butterfly Remake | Nintendo Switch 2 | low |  |
 | Final Fantasy IX | Nintendo Switch | low |  |
 | Final Fantasy VII | Nintendo Switch | low |  |
-| Final Fantasy VII Revelation | Nintendo Switch 2, PlayStation 5 | medium | watching |
 | Final Fantasy VIII Remastered | Nintendo Switch | low |  |
 | Final Fantasy X \| X-2 HD Remaster | Nintendo Switch | low |  |
 | Ghostwire: Tokyo | xbox-modern | low |  |
@@ -783,9 +782,9 @@ _Why:_ A Game-Key Card is only a download licence in a box; the disc is the real
 
 _Precedents:_ Pragmata, Onimusha: Way of the Sword, Full Metal Schoolgirl → PS5 · Bravely Default HD Remaster, Brigandine Abyss, Granblue Fantasy: Relink bought as GKC (JRPGs) · Kingdom Hearts Collection (Switch 2 GKC) → Kingdom Hearts All-In-One Package on PS4, every game on disc (2026-10-08)
 
-38 targets — ⬜ 35 · 🕒 0 · ✅ 3 · ➖ 0
+38 targets — ⬜ 34 · 🕒 1 · ✅ 3 · ➖ 0
 
-<details><summary>35 open</summary>
+<details><summary>34 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -795,7 +794,6 @@ _Precedents:_ Pragmata, Onimusha: Way of the Sword, Full Metal Schoolgirl → PS
 | Dynasty Warriors: Origins | PlayStation 5 | low |  |
 | Elden Ring | PlayStation 5 | high |  |
 | Fatal Frame II: Crimson Butterfly Remake | Nintendo Switch 2 | low |  |
-| Final Fantasy VII Revelation | Nintendo Switch 2, PlayStation 5 | medium | watching |
 | Final Fantasy X \| X-2 HD Remaster | Nintendo Switch | low |  |
 | Hogwarts Legacy | PlayStation 5, Nintendo Switch | high | undecided |
 | Kingdom Hearts All-In-One Package | PlayStation 4 | high |  |
@@ -843,9 +841,9 @@ _Precedents:_ Older Nintendo series entries listed as optional only (nintendo-re
 
 PlayStation gets exclusives plus multiplatform games worth having on disc.
 
-202 targets — ⬜ 197 · 🕒 1 · ✅ 4 · ➖ 0
+202 targets — ⬜ 196 · 🕒 2 · ✅ 4 · ➖ 0
 
-<details><summary>197 open</summary>
+<details><summary>196 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -911,7 +909,6 @@ PlayStation gets exclusives plus multiplatform games worth having on disc.
 | God of War: Origins Collection | PlayStation 3 | high |  |
 | God of War Trilogy Remake | PlayStation 5 | low | watching |
 | Gran Turismo 6 | PlayStation 3 | low |  |
-| Grand Theft Auto VI | PlayStation 5 | high | watching |
 | Gravity Rush 2 | PlayStation 4 | high |  |
 | Gravity Rush Remastered | PlayStation 4 | medium |  |
 | Harry Potter and the Chamber of Secrets | PlayStation | low |  |
@@ -1447,15 +1444,7 @@ Non-backward-compatible discs (PGR, Forza Motorsport 1–4, Jet Set Radio Future
 
 Code-in-a-box only sealed/new, at or below the Xbox Store sale price, EU/DACH box; redeem immediately; doesn't count toward disc runs.
 
-3 targets — ⬜ 1 · 🕒 1 · ✅ 1 · ➖ 0
-
-<details><summary>1 open</summary>
-
-| Title | Platform | Prio | State |
-|---|---|---|---|
-| Grand Theft Auto VI | PlayStation 5 | high | watching |
-
-</details>
+3 targets — ⬜ 0 · 🕒 2 · ✅ 1 · ➖ 0
 
 ### Digital-only → Game Pass first `digital-only-game-pass`
 

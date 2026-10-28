@@ -220,7 +220,7 @@ recommendation = "No — keep Steam in data/annotations.csv. ~1,176 digital game
 id = "avowed"
 question = "Avowed: sealed code-in-box, Xbox Store, or just Game Pass?"
 area = "xbox"
-context = "The Xbox box is code-in-box (no disc, no Disc-to-Digital); no PS5 disc exists — out of disc scope."
+context = "The Xbox box is code-in-box (no disc, no Disc-to-Digital); no PS5 disc exists — out of disc scope. · Bought: Avowed (Xbox Series X|S) is in the 2026-10-28 import — record the outcome to close this"
 rules = ["code-in-box", "digital-only-game-pass", "no-xbox-disc-out-of-scope"]
 targets = ["Avowed"]
 recommendation = "Just Game Pass first (digital-only rule); if you want to keep it, buy on the Xbox Store on sale (Play Anywhere gives the PC version too). A sealed code-in-box only if it's cheaper than the store sale."
@@ -518,11 +518,10 @@ id = "phantom-blade-eu-disc"
 question = "Phantom Blade Zero: will there be an EU PS5 disc?"
 area = "playstation"
 kind = "research"
-due = "2026-10-29"
-context = "Releases 29 Oct 2026; only an Asian PS5 disc was listed on 2026-09-28. No disc → physical-first says import the Asian disc or skip. · Still no EU PS5 disc; the publisher reportedly plans no physical release outside Asia for now and Sony's own ads present the PS5 version as digital (Aug 2026). (checked 2026-10-01) · Still no EU disc; the Collector's Edition contains a digital code, so it is not a disc either (checked 2026-10-02)"
+context = "Releases 29 Oct 2026; only an Asian PS5 disc was listed on 2026-09-28. No disc → physical-first says import the Asian disc or skip. · Still no EU PS5 disc; the publisher reportedly plans no physical release outside Asia for now and Sony's own ads present the PS5 version as digital (Aug 2026). (checked 2026-10-01) · Still no EU disc; the Collector's Edition contains a digital code, so it is not a disc either (checked 2026-10-02) · Answered: S-GAME announced physical PS5 editions (Standard / Deluxe / Ultimate) for 2027 at the launch-trailer reveal; the 29 Oct launch is digital only (checked 2026-10-28)"
 rules = ["physical-first"]
 targets = ["Phantom Blade Zero"]
-recommendation = "No EU disc four weeks before launch: import the Asian PS5 disc (check it has English) or skip — don't buy digitally under physical-first."
+recommendation = "Wait for the 2027 PS5 disc (physical-first) instead of importing the Asian disc or buying digitally; the review tracks the date."
 
 # ---------------------------------------------------------------- asked by you
 [[decision]]
