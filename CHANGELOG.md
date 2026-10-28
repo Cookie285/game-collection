@@ -4,7 +4,11 @@ Newest first. Written automatically by `scripts/gamecoll.py import`.
 
 ## 2026-10-28 — CLZ import
 
-Totals after import — Ordered: 3, Owned: 882, Wishlist: 5
+Totals after import — Ordered: 1, Owned: 882, Wishlist: 5
+
+**Removed** (2) — orders that arrived under CLZ's spelling "HAWX"
+- Tom Clancy's H.A.W.X — Xbox 360 · was Ordered
+- Tom Clancy's H.A.W.X 2 — Xbox 360 · was Ordered
 
 **Added** (19)
 - Blue Prince — Nintendo Switch 2 · Owned

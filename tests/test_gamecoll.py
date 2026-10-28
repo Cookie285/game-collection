@@ -270,3 +270,12 @@ class RepoData(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class MergeImport(unittest.TestCase):
+    def test_arrived_order_with_other_spelling(self):
+        row = lambda t, st: dict.fromkeys(g.FIELDS, "") | {"title": t, "platform": "Xbox 360", "status": st}
+        old = [row("Tom Clancy's H.A.W.X", "ordered"), row("Fable II", "ordered"), row("Halo 3", "owned")]
+        new = [row("Tom Clancy's HAWX", "owned")]
+        titles = sorted(r["title"] for r in g.merge_rows(old, new))
+        self.assertEqual(titles, ["Fable II", "Halo 3", "Tom Clancy's HAWX"])

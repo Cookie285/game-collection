@@ -587,6 +587,16 @@ def row_key(r: dict) -> str:
     return f"{norm(r['title'])}|{r['platform']}|{norm(r['edition'])}"
 
 
+def merge_rows(old: list[dict], new: list[dict]) -> list[dict]:
+    """Owned-only export + existing rows: keep old rows the export doesn't have, except an order that has now
+    arrived — an old 'ordered' row is dropped when the export has the game on that platform, ignoring punctuation
+    and spacing (an order typed as "H.A.W.X" arrives in CLZ as "HAWX")."""
+    keys = {row_key(r) for r in new}
+    loose = lambda r: (norm(r["title"]).replace(" ", ""), r["platform"])
+    arrived = {loose(r) for r in new if r["status"] in HAVE}
+    return new + [r for r in old if row_key(r) not in keys and not (r["status"] == "ordered" and loose(r) in arrived)]
+
+
 def label(r: dict) -> str:
     ed = f" ({r['edition']})" if r["edition"] else ""
     return f"{r['title']}{ed} — {r['platform']}"
@@ -683,8 +693,7 @@ def cmd_import(args) -> None:
         new = parse_clz(path, source=args.source)
         baseline = bool(old) and all(r["source"] == "seed" for r in old)
         if args.merge:
-            keys = {row_key(r) for r in new}
-            new = new + [r for r in old if row_key(r) not in keys]
+            new = merge_rows(old, new)
         d = diff(old, new)
         save_collection(new)
         totals = Counter(r["status"] for r in new)

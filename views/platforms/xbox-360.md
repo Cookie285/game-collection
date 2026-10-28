@@ -27,13 +27,6 @@
 | Tom Clancy's HAWX |  |  |  |  |  |  |
 | Tom Clancy's HAWX 2 |  |  |  |  |  |  |
 
-## Ordered (2)
-
-| Title | Edition | Format | Region | Completeness | Purchased | Notes |
-|---|---|---|---|---|---|---|
-| Tom Clancy's H.A.W.X |  |  |  |  |  |  |
-| Tom Clancy's H.A.W.X 2 |  |  |  |  |  |  |
-
 ## Wishlist (3)
 
 | Title | Edition | Format | Region | Completeness | Purchased | Notes |

@@ -48,9 +48,9 @@ _Updated 2026-10-28._
 | [PSP](views/platforms/psp.md) | 10 | 0 | 0 |
 | [Xbox Series X\|S](views/platforms/xbox-series-x-s.md) | 27 | 0 | 0 |
 | [Xbox One](views/platforms/xbox-one.md) | 60 | 0 | 0 |
-| [Xbox 360](views/platforms/xbox-360.md) | 20 | 2 | 3 |
+| [Xbox 360](views/platforms/xbox-360.md) | 20 | 0 | 3 |
 | [Xbox](views/platforms/xbox.md) | 3 | 0 | 2 |
-| **Total** | **882** | **3** | **5** |
+| **Total** | **882** | **1** | **5** |
 
 ### Buy plan
 
