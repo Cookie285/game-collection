@@ -406,7 +406,8 @@ priority = "high"
 group = "PS5 gaps – Microsoft 1st-party"
 plan = "PS5 disc (pre-ordered)"
 state = "preordered"
-note = "Pre-ordered on PS5 (Xbox disc only if cheap later). · Already pre-ordered · Delayed to 23 Feb 2027 (PS5, Xbox Series, PC) (checked 2026-09-28) · Still 23 Feb 2027 (checked 2026-10-01) · Still 23 Feb 2027 (checked 2026-11-01)"
+note = "Pre-ordered on PS5 (Xbox disc only if cheap later). · Already pre-ordered · Delayed to 23 Feb 2027 (PS5, Xbox Series, PC) (checked 2026-09-28) · Still 23 Feb 2027 (checked 2026-10-01) · Still 23 Feb 2027 (checked 2026-11-01) · Xbox Play Anywhere: yes (per Xbox Wire, via VGC) — only matters if you ever buy the Xbox disc (checked 2026-11-01)"
+play_anywhere = true
 
 [[target]]
 title = "Intergalactic: The Heretic Prophet"
@@ -2338,7 +2339,7 @@ priority = "medium"
 group = "PS5 gaps – Multiplatform"
 state = "watching"
 plan = "PS5 disc (upcoming, 12 Feb 2027)"
-note = "Suggested (review 2026-09-28): remake of the first Tomb Raider (Crystal Dynamics / Flying Wild Hog), PS5, Xbox Series, PC. Switch version not announced. · Still 12 Feb 2027 (Deluxe: 48 h early access from 10 Feb). Switch 2 version added for the same day — physical is a Game-Key Card; PS5 / Xbox physical editions at retail (checked 2026-10-01) · Still 12 Feb 2027 (checked 2026-11-01)"
+note = "Suggested (review 2026-09-28): remake of the first Tomb Raider (Crystal Dynamics / Flying Wild Hog), PS5, Xbox Series, PC. Switch version not announced. · Still 12 Feb 2027 (Deluxe: 48 h early access from 10 Feb). Switch 2 version added for the same day — physical is a Game-Key Card; PS5 / Xbox physical editions at retail (checked 2026-10-01) · Still 12 Feb 2027 (checked 2026-11-01) · Xbox Play Anywhere: not confirmed (store listing shows Xbox Series X|S only) (checked 2026-11-01)"
 versions = { "PlayStation 5" = "disc", "Nintendo Switch 2" = "gkc" }
 
 [[target]]

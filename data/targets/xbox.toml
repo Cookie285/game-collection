@@ -14,35 +14,35 @@ title = "Forza Motorsport 5"
 platforms = ["Xbox One"]
 priority = "someday"
 group = "Checklist (Disc-to-Digital) + First-party"
-note = "D2D (community, 2026-09-09): Reported NOT working (car licensing); Keep for shelf; re-test after GA.; scope layer 1 (Forza / Turn 10); Delisted; D2D not working"
+note = "D2D (community, 2026-09-09): Reported NOT working (car licensing); Keep for shelf; re-test after GA.; scope layer 1 (Forza / Turn 10); Delisted; D2D not working · Disc-to-Digital after general availability: Pure Xbox (Oct 2026) reports no physical Forza Horizon edition converts and the same for Forza Motorsport — discs of the delisted games give no licence; keep the disc to play (checked 2026-11-01)"
 
 [[target]]
 title = "Forza Motorsport 6"
 platforms = ["Xbox One"]
 priority = "someday"
 group = "Checklist (Disc-to-Digital) + First-party"
-note = "D2D (community, 2026-09-09): Reported NOT working (car licensing); Keep for shelf; re-test after GA.; scope layer 1 (Forza / Turn 10); Delisted; D2D not working"
+note = "D2D (community, 2026-09-09): Reported NOT working (car licensing); Keep for shelf; re-test after GA.; scope layer 1 (Forza / Turn 10); Delisted; D2D not working · Disc-to-Digital after general availability: Pure Xbox (Oct 2026) reports no physical Forza Horizon edition converts and the same for Forza Motorsport — discs of the delisted games give no licence; keep the disc to play (checked 2026-11-01)"
 
 [[target]]
 title = "Forza Motorsport 7"
 platforms = ["Xbox One"]
 priority = "someday"
 group = "Checklist (Disc-to-Digital) + First-party"
-note = "D2D (community, 2026-09-09): Reported NOT working (car licensing); Re-test after GA.; scope layer 1 (Forza / Turn 10); Delisted; check if owned"
+note = "D2D (community, 2026-09-09): Reported NOT working (car licensing); Re-test after GA.; scope layer 1 (Forza / Turn 10); Delisted; check if owned · Disc-to-Digital after general availability: Pure Xbox (Oct 2026) reports no physical Forza Horizon edition converts and the same for Forza Motorsport — discs of the delisted games give no licence; keep the disc to play (checked 2026-11-01)"
 
 [[target]]
 title = "Forza Horizon 3"
 platforms = ["Xbox One"]
 priority = "someday"
 group = "Checklist (Disc-to-Digital) + First-party"
-note = "D2D (community, 2026-09-09): Reported NOT working (car licensing); Re-test after GA.; scope layer 1 (Forza / Playground); Delisted; D2D not working"
+note = "D2D (community, 2026-09-09): Reported NOT working (car licensing); Re-test after GA.; scope layer 1 (Forza / Playground); Delisted; D2D not working · Disc-to-Digital after general availability: Pure Xbox (Oct 2026) reports no physical Forza Horizon edition converts and the same for Forza Motorsport — discs of the delisted games give no licence; keep the disc to play (checked 2026-11-01)"
 
 [[target]]
 title = "Forza Horizon 4"
 platforms = ["Xbox One"]
 priority = "someday"
 group = "Checklist (Disc-to-Digital) + First-party"
-note = "D2D (community, 2026-09-09): Reported NOT working (car licensing); Re-test after GA.; scope layer 1 (Forza / Playground); Delisted; D2D not working"
+note = "D2D (community, 2026-09-09): Reported NOT working (car licensing); Re-test after GA.; scope layer 1 (Forza / Playground); Delisted; D2D not working · Disc-to-Digital after general availability: Pure Xbox (Oct 2026) reports no physical Forza Horizon edition converts and the same for Forza Motorsport — discs of the delisted games give no licence; keep the disc to play (checked 2026-11-01)"
 
 [[target]]
 title = "Gears of War 4"
@@ -261,7 +261,7 @@ priority = "medium"
 group = "First-party"
 plan = "Xbox Series X disc when on sale"
 state = "watching"
-note = "scope layer 1 (Halo / Halo Studios); Owned on PS5; last Halo made by Halo Studios (next Halo moves to Activision, Sep 2026) · Released 28 Jul 2026 on Xbox Series X|S, PS5 and Steam; physical disc confirmed at retail for both Xbox Series X and PS5 (GameStop) (checked 2026-09-28) · UK retail Xbox Series X standard edition = disc + content download (Amazon UK, ShopTo) (checked 2026-10-01)"
+note = "scope layer 1 (Halo / Halo Studios); Owned on PS5; last Halo made by Halo Studios (next Halo moves to Activision, Sep 2026) · Released 28 Jul 2026 on Xbox Series X|S, PS5 and Steam; physical disc confirmed at retail for both Xbox Series X and PS5 (GameStop) (checked 2026-09-28) · UK retail Xbox Series X standard edition = disc + content download (Amazon UK, ShopTo) (checked 2026-10-01) · No new Halo announced; the next Halo is developed by Activision (Xbox memo, 22 Sep 2026); a final free Campaign Evolved update is only rumoured (checked 2026-11-01)"
 
 [[target]]
 title = "Gears of War: Reloaded"
@@ -296,7 +296,7 @@ title = "Forza Horizon 2"
 platforms = ["Xbox One"]
 priority = "high"
 group = "First-party"
-note = "scope layer 1 (Forza / Playground); Delisted 2020; prices rising"
+note = "scope layer 1 (Forza / Playground); Delisted 2020; prices rising · Disc-to-Digital after general availability: Pure Xbox (Oct 2026) reports no physical Forza Horizon edition converts and the same for Forza Motorsport — discs of the delisted games give no licence; keep the disc to play (checked 2026-11-01)"
 
 [[target]]
 title = "Forza Horizon 5"
@@ -352,7 +352,8 @@ priority = "low"
 group = "First-party"
 plan = "Xbox disc only if really cheap later"
 state = "watching"
-note = "scope layer 1 (Fable / Playground); PS5 copy pre-ordered (see Part 1) · Delayed to 23 Feb 2027 (PS5, Xbox Series, PC) (checked 2026-09-28) · Still 23 Feb 2027 (checked 2026-10-01)"
+note = "scope layer 1 (Fable / Playground); PS5 copy pre-ordered (see Part 1) · Delayed to 23 Feb 2027 (PS5, Xbox Series, PC) (checked 2026-09-28) · Still 23 Feb 2027 (checked 2026-10-01) · Still 23 Feb 2027. Xbox Play Anywhere: yes (per Xbox Wire, via VGC) (checked 2026-11-01)"
+play_anywhere = true
 
 [[target]]
 title = "Sea of Thieves"
@@ -554,7 +555,7 @@ platforms = ["Xbox Series X|S"]
 priority = "medium"
 group = "First-party"
 plan = "used disc"
-note = "scope layer 1 (Ninja Theory); Ninja Theory at risk of closure (Sep 2026) · Amazon.de lists the Xbox Series version only as a download code; no EU disc found (checked 2026-09-28) · physical Xbox Series X|S + PS5 edition announced via Limited Run Games (May 2025) – Microsoft itself released no disc; Xbox disc contents not confirmed yet (checked 2026-09-29) · Limited Run Games Xbox disc contents still unconfirmed (no unboxing / Does It Play? entry found). Xbox proposed closing Ninja Theory on 22 Sep 2026 after two sale deals fell through (consultation to year end) (checked 2026-10-01) · Xbox Play Anywhere: yes (Xbox Game Studios / Bethesda title) (checked 2026-10-02)"
+note = "scope layer 1 (Ninja Theory); Ninja Theory at risk of closure (Sep 2026) · Amazon.de lists the Xbox Series version only as a download code; no EU disc found (checked 2026-09-28) · physical Xbox Series X|S + PS5 edition announced via Limited Run Games (May 2025) – Microsoft itself released no disc; Xbox disc contents not confirmed yet (checked 2026-09-29) · Limited Run Games Xbox disc contents still unconfirmed (no unboxing / Does It Play? entry found). Xbox proposed closing Ninja Theory on 22 Sep 2026 after two sale deals fell through (consultation to year end) (checked 2026-10-01) · Xbox Play Anywhere: yes (Xbox Game Studios / Bethesda title) (checked 2026-10-02) · Still no source that the Limited Run Xbox disc holds the full game; no EU retail disc found; Ninja Theory still in UK redundancy consultation (23 Oct 2026), no buyer (checked 2026-11-01)"
 verify = "verify the EU Xbox box contains a real disc, not a code – if code-in-box, treat like Avowed"
 play_anywhere = true
 
@@ -809,7 +810,7 @@ priority = "medium"
 group = "OG Xbox BC"
 plan = "disc (store status unverified, likely disc only)"
 state = "watching"
-note = "Xbox Store: BC (Xbox One/Series X|S, added Nov 2021 for Xbox's 20th anniversary) and still purchasable digitally today — not disc-only; B – OG Xbox exclusive, BC; On my wish list (checked 2026-09-28) · No 2026 delisting news; still BC + digitally listed (checked 2026-10-01)"
+note = "Xbox Store: BC (Xbox One/Series X|S, added Nov 2021 for Xbox's 20th anniversary) and still purchasable digitally today — not disc-only; B – OG Xbox exclusive, BC; On my wish list (checked 2026-09-28) · No 2026 delisting news; still BC + digitally listed (checked 2026-10-01) · No delisting announced; still BC + digitally listed (checked 2026-11-01)"
 
 [[target]]
 title = "Otogi 2: Immortal Warriors"
@@ -818,7 +819,7 @@ priority = "medium"
 group = "OG Xbox BC"
 plan = "disc (store status unverified, likely disc only)"
 state = "watching"
-note = "Xbox Store: BC (Xbox One/Series X|S, added Nov 2021 for Xbox's 20th anniversary) and still purchasable digitally today — not disc-only; B – OG Xbox exclusive, BC; On my wish list (checked 2026-09-28) · No 2026 delisting news; still BC + digitally listed (checked 2026-10-01)"
+note = "Xbox Store: BC (Xbox One/Series X|S, added Nov 2021 for Xbox's 20th anniversary) and still purchasable digitally today — not disc-only; B – OG Xbox exclusive, BC; On my wish list (checked 2026-09-28) · No 2026 delisting news; still BC + digitally listed (checked 2026-10-01) · No delisting announced; still BC + digitally listed (checked 2026-11-01)"
 
 [[target]]
 title = "Conker: Live & Reloaded"
@@ -2356,7 +2357,7 @@ platforms = ["Xbox Series X|S"]
 priority = "someday"
 group = "Series runs – State of Decay"
 state = "undecided"
-note = "Undead Labs now independent; no longer first-party (Sep 2026) – series-on-one-platform rule would still put it on Xbox · Out in 2027 on Xbox Series, PS5 and Steam; Game Pass day one (checked 2026-09-28) · Still 2027 on Xbox Series, PS5, PC; no physical format announced (checked 2026-10-01)"
+note = "Undead Labs now independent; no longer first-party (Sep 2026) – series-on-one-platform rule would still put it on Xbox · Out in 2027 on Xbox Series, PS5 and Steam; Game Pass day one (checked 2026-09-28) · Still 2027 on Xbox Series, PS5, PC; no physical format announced (checked 2026-10-01) · Still 2027 on Xbox Series / PS5 / PC; closed beta (PC first) before the end of 2026; no physical edition announced (checked 2026-11-01)"
 
 [[target]]
 title = "Project Gotham Racing"
@@ -2541,8 +2542,9 @@ priority = "high"
 group = "Series runs – Call of Duty"
 state = "preordered"
 plan = "Xbox Series X disc (pre-order candidate)"
-note = "Suggested (review 2026-09-28): next entry of the complete Xbox CoD run — Infinity Ward, 23 Oct 2026. Also on PS5, PS4/Xbox One and Switch 2; the shooter rule keeps it on Xbox. · Still 23 Oct 2026. Xbox Series X standard edition = disc, content download required (Vault Edition digital only). Switch 2 retail = code-in-a-box (checked 2026-10-01)"
+note = "Suggested (review 2026-09-28): next entry of the complete Xbox CoD run — Infinity Ward, 23 Oct 2026. Also on PS5, PS4/Xbox One and Switch 2; the shooter rule keeps it on Xbox. · Still 23 Oct 2026. Xbox Series X standard edition = disc, content download required (Vault Edition digital only). Switch 2 retail = code-in-a-box (checked 2026-10-01) · Released 23 Oct 2026 as planned; Xbox Series X disc needs a large content download (~163–194 GB reported). Not in the 2026-10-28 CLZ import — still shown as pre-ordered until the copy is in CLZ. Xbox Play Anywhere: yes (Xbox store page). Disc-to-Digital support not confirmed (checked 2026-11-01)"
 versions = { "Xbox Series X|S" = "disc", "Nintendo Switch 2" = "code" }
+play_anywhere = true
 
 [[target]]
 title = "Tom Clancy's The Division 2"
@@ -2578,4 +2580,4 @@ priority = "medium"
 group = "Shooter console suggestions"
 plan = "disc — Xbox Series X or PS5, see question ace-combat"
 state = "undecided"
-note = "Suggested (review 2026-10-02, question ace-combat): out 2 Oct 2026 on PS5, Xbox Series X|S and PC (no Switch); Standard and Deluxe on disc for both consoles; Bandai Namco discs don't convert via Disc-to-Digital (yet) (checked 2026-10-02)"
+note = "Suggested (review 2026-10-02, question ace-combat): out 2 Oct 2026 on PS5, Xbox Series X|S and PC (no Switch); Standard and Deluxe on disc for both consoles; Bandai Namco discs don't convert via Disc-to-Digital (yet) (checked 2026-10-02) · Xbox Play Anywhere: not confirmed — the Xbox store page lists Xbox Series X|S only and the PC version is on Steam, so probably no; Bandai Namco still not in Disc-to-Digital (checked 2026-11-01)"
