@@ -17,7 +17,7 @@ Physical first. Digital only when there is no other option.
 
 _Why:_ The collection is about owning discs and carts; digital purchases are a fallback, not a goal.
 
-46 targets — ⬜ 42 · 🕒 0 · ✅ 3 · ➖ 1
+52 targets — ⬜ 42 · 🕒 0 · ✅ 9 · ➖ 1
 
 <details><summary>42 open</summary>
 
@@ -615,12 +615,13 @@ Already owned on Steam → buy the disc only if the price is really good, new or
 
 _Why:_ The game is already playable; the disc is a nice-to-have for the shelf.
 
-57 targets — ⬜ 52 · 🕒 0 · ✅ 2 · ➖ 3
+58 targets — ⬜ 53 · 🕒 0 · ✅ 2 · ➖ 3
 
-<details><summary>52 open</summary>
+<details><summary>53 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
+| Ace Combat 8: Wings of Theve | Xbox Series X\|S, PlayStation 5 | medium | undecided |
 | Assassin's Creed Shadows | PlayStation 5 | medium |  |
 | Batman: Return to Arkham | PlayStation 4 | medium |  |
 | Bayonetta & Vanquish 10th Anniversary Bundle | PlayStation 4 | medium |  |
@@ -782,9 +783,9 @@ _Why:_ A Game-Key Card is only a download licence in a box; the disc is the real
 
 _Precedents:_ Pragmata, Onimusha: Way of the Sword, Full Metal Schoolgirl → PS5 · Bravely Default HD Remaster, Brigandine Abyss, Granblue Fantasy: Relink bought as GKC (JRPGs) · Kingdom Hearts Collection (Switch 2 GKC) → Kingdom Hearts All-In-One Package on PS4, every game on disc (2026-10-08)
 
-38 targets — ⬜ 34 · 🕒 1 · ✅ 3 · ➖ 0
+39 targets — ⬜ 35 · 🕒 1 · ✅ 3 · ➖ 0
 
-<details><summary>34 open</summary>
+<details><summary>35 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
@@ -806,6 +807,7 @@ _Precedents:_ Pragmata, Onimusha: Way of the Sword, Full Metal Schoolgirl → PS
 | Metroid Ravenous | Nintendo Switch 2 | high | watching |
 | Monster Hunter Wilds | PlayStation 5 | medium |  |
 | Persona 3 Reload | PlayStation 5, Nintendo Switch 2 | high | undecided |
+| Persona 6 | PlayStation 5, Nintendo Switch 2 | low | watching |
 | Pokémon Winds | Nintendo Switch 2 | high | watching |
 | Resident Evil Requiem | PlayStation 5 | high |  |
 | Star Wars Outlaws | PlayStation 5 | medium |  |
@@ -1289,13 +1291,14 @@ Layer 3 (studio owned by Microsoft today, but game published by someone else at 
 
 If no Xbox retail disc exists, the game is out of Xbox disc scope (layer X), regardless of platform.
 
-3 targets — ⬜ 2 · 🕒 0 · ✅ 1 · ➖ 0
+4 targets — ⬜ 3 · 🕒 0 · ✅ 1 · ➖ 0
 
-<details><summary>2 open</summary>
+<details><summary>3 open</summary>
 
 | Title | Platform | Prio | State |
 |---|---|---|---|
 | Gears of War: Reloaded | PlayStation 5 | someday | watching |
+| Persona 6 | PlayStation 5, Nintendo Switch 2 | low | watching |
 | South of Midnight | Xbox Series X\|S | someday | undecided |
 
 </details>
@@ -1306,7 +1309,7 @@ Xbox One / Series discs carry a Disc-to-Digital licence — a reason to buy Micr
 
 _Why:_ One revocable licence per disc; licence moves if the disc is claimed elsewhere → don't lend discs casually.
 
-54 targets — ⬜ 17 · 🕒 0 · ✅ 36 · ➖ 1
+56 targets — ⬜ 17 · 🕒 1 · ✅ 37 · ➖ 1
 
 <details><summary>17 open</summary>
 
