@@ -97,7 +97,7 @@ priority = "high"
 group = "Switch 2 – upcoming Nintendo exclusive"
 plan = "Switch 2 cart (check full cart vs Game-Key Card)"
 state = "watching"
-note = "Suggested (Nintendo plan 2026-10-10): Switch 2 remake, out 5 Nov 2026; physical edition at retail (format not confirmed yet). You own Ocarina of Time 3D (3DS). (checked 2026-10-10) · Still 5 Nov 2026; physical edition reported as a full game card, not a Game-Key Card (IGN via press — Nintendo's listing doesn't say Game-Key Card) (checked 2026-10-28)"
+note = "Suggested (Nintendo plan 2026-10-10): Switch 2 remake, out 5 Nov 2026; physical edition at retail (format not confirmed yet). You own Ocarina of Time 3D (3DS). (checked 2026-10-10) · Still 5 Nov 2026; physical edition reported as a full game card, not a Game-Key Card (IGN via press — Nintendo's listing doesn't say Game-Key Card) (checked 2026-10-28) · Still 5 Nov 2026. Format still not officially confirmed: retail coverage (Netzwelt) calls it a regular game card, Nintendo's listing has no Game-Key Card label. The textured-foil cover is only guaranteed for pre-orders; later prints get the standard cover (checked 2026-11-01)"
 exclusive = "nintendo"
 rules = ["switch-first", "gkc-not-physical"]
 
@@ -108,7 +108,7 @@ priority = "high"
 group = "Switch 2 – upcoming Nintendo exclusive"
 plan = "Switch 2 cart (check full cart vs Game-Key Card)"
 state = "watching"
-note = "Suggested (Nintendo plan 2026-10-10): new 2D Metroid, out 28 Jan 2027; standard physical edition plus a Special Edition with amiibo and steel case. (checked 2026-10-10)"
+note = "Suggested (Nintendo plan 2026-10-10): new 2D Metroid, out 28 Jan 2027; standard physical edition plus a Special Edition with amiibo and steel case. (checked 2026-10-10) · Still 28 Jan 2027. Special Edition (SteelBook + Samus amiibo) sold out at list price, resellers far above it, sporadic retailer restocks; retailer listings say the game is on a game card, but Nintendo hasn't stated full cart vs Game-Key Card (checked 2026-11-01)"
 exclusive = "nintendo"
 rules = ["switch-first", "gkc-not-physical"]
 
@@ -119,7 +119,7 @@ priority = "medium"
 group = "Switch 2 – upcoming Nintendo exclusive"
 plan = "Switch 2 cart (check full cart vs Game-Key Card)"
 state = "watching"
-note = "Suggested (Nintendo plan 2026-10-10): second 3D mainline Kirby (HAL), spring 2027, no date yet. (checked 2026-10-10)"
+note = "Suggested (Nintendo plan 2026-10-10): second 3D mainline Kirby (HAL), spring 2027, no date yet. (checked 2026-10-10) · Still spring 2027, no date, format not announced (checked 2026-11-01)"
 exclusive = "nintendo"
 rules = ["switch-first", "gkc-not-physical"]
 
@@ -131,7 +131,7 @@ priority = "high"
 group = "Switch 2 – upcoming Nintendo exclusive"
 plan = "Switch 2 cart (one version; check full cart vs Game-Key Card)"
 state = "watching"
-note = "Suggested (Nintendo plan 2026-10-10): Gen 10, Switch 2 exclusive, 2027 (no date; November is only a leak); either version counts. (checked 2026-10-10)"
+note = "Suggested (Nintendo plan 2026-10-10): Gen 10, Switch 2 exclusive, 2027 (no date; November is only a leak); either version counts. (checked 2026-10-10) · Still 2027 only, no date, format not announced; the strongest leak (Centro Leaks, Jun 2026) points to Sep 2027 — the 'November' date was only fan expectation (checked 2026-11-01)"
 exclusive = "nintendo"
 rules = ["switch-first", "gkc-not-physical"]
 
@@ -142,7 +142,7 @@ priority = "high"
 group = "Switch 2 – upcoming Nintendo exclusive"
 plan = "Switch 2 cart (check full cart vs Game-Key Card)"
 state = "watching"
-note = "Suggested (Nintendo plan 2026-10-10): new Monolith Soft RPG, Switch 2 exclusive, 2027 (no date) — you own every Switch Xenoblade. (checked 2026-10-10)"
+note = "Suggested (Nintendo plan 2026-10-10): new Monolith Soft RPG, Switch 2 exclusive, 2027 (no date) — you own every Switch Xenoblade. (checked 2026-10-10) · Still 2027, no date, format not announced (checked 2026-11-01)"
 exclusive = "nintendo"
 rules = ["switch-first", "gkc-not-physical"]
 
